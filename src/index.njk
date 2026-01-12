@@ -1,0 +1,77 @@
+---
+layout: base.njk
+title: Home
+description: DIY Tesla repair guides from an independent mechanic. Save thousands on Tesla Model 3, Model Y, Model S, and Model X repairs with our step-by-step tutorials.
+---
+
+<div class="hero">
+  <h1>Tesla Repairs Made Simple</h1>
+  <p>Expert DIY repair guides from an independent Tesla mechanic. Save thousands by doing it yourself with our step-by-step tutorials and tool recommendations.</p>
+  <a href="/guides/" class="hero-cta">Browse Repair Guides</a>
+</div>
+
+<section>
+  <div class="section-header">
+    <h2>Latest Repair Guides</h2>
+    <p>Step-by-step tutorials to fix your Tesla yourself</p>
+  </div>
+
+  <div class="posts-grid">
+    {% for post in collections.posts | reverse %}
+    {% if loop.index <= 6 %}
+    <article class="post-card">
+      <div class="post-card-image">
+        {{ post.data.emoji or "🔧" }}
+      </div>
+      <div class="post-card-content">
+        <span class="post-card-category">{{ post.data.category or "Repair Guide" }}</span>
+        <h3><a href="{{ post.url }}">{{ post.data.title }}</a></h3>
+        <p>{{ post.data.description }}</p>
+        <div class="post-card-meta">
+          <span>{{ post.data.difficulty or "Intermediate" }} difficulty</span>
+          <a href="{{ post.url }}" class="read-more">Read Guide →</a>
+        </div>
+      </div>
+    </article>
+    {% endif %}
+    {% endfor %}
+  </div>
+</section>
+
+<section class="info-box">
+  <h3>Why DIY Tesla Repairs?</h3>
+  <p><strong>Tesla service centers are expensive and often booked weeks out.</strong> Many common repairs are simple enough to do at home with basic tools. Our guides are written by a self-taught Tesla mechanic with hands-on experience fixing Model 3, Model Y, Model S, and Model X vehicles.</p>
+  <p style="margin-top: 1rem;"><strong>Average savings:</strong> $200-2000+ per repair by doing it yourself.</p>
+</section>
+
+<section style="margin-top: 3rem;">
+  <div class="section-header">
+    <h2>Popular Repair Categories</h2>
+  </div>
+
+  <div class="posts-grid">
+    <div class="post-card">
+      <div class="post-card-image">🔋</div>
+      <div class="post-card-content">
+        <h3><a href="/guides/">Battery & Electrical</a></h3>
+        <p>12V battery replacement, charging issues, electrical diagnostics, and more.</p>
+      </div>
+    </div>
+
+    <div class="post-card">
+      <div class="post-card-image">🛞</div>
+      <div class="post-card-content">
+        <h3><a href="/guides/">Brakes & Suspension</a></h3>
+        <p>Brake pad replacement, rotor resurfacing, suspension components, and alignment tips.</p>
+      </div>
+    </div>
+
+    <div class="post-card">
+      <div class="post-card-image">❄️</div>
+      <div class="post-card-content">
+        <h3><a href="/guides/">HVAC & Filters</a></h3>
+        <p>Cabin air filter replacement, AC maintenance, and climate control fixes.</p>
+      </div>
+    </div>
+  </div>
+</section>

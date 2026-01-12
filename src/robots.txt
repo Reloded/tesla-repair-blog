@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://poetic-cajeta-7acc1e.netlify.app/sitemap.xml

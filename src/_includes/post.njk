@@ -1,0 +1,60 @@
+---
+layout: base.njk
+---
+
+<article class="post">
+  <header class="post-header">
+    <h1>{{ title }}</h1>
+    <div class="post-meta">
+      <span>📅 {{ date | dateFormat }}</span>
+      <span>⏱️ {{ readTime or "10 min read" }}</span>
+      <span>🔧 {{ difficulty or "Intermediate" }}</span>
+      <span>🚗 {{ models or "All Models" }}</span>
+    </div>
+  </header>
+
+  <div class="post-content">
+    {{ content | safe }}
+  </div>
+
+  <div class="affiliate-box">
+    <h3>🛠️ Tools Needed for This Repair</h3>
+    <p>These are the tools I personally use and recommend. Using quality tools makes the job easier and safer.</p>
+    <ul>
+      {% if tools %}
+        {% for tool in tools %}
+        <li>
+          <div class="affiliate-link">
+            <span class="product-name">{{ tool.name }}</span>
+            <a href="{{ tool.link }}" class="buy-btn" target="_blank" rel="nofollow noopener">Check Price on Amazon</a>
+          </div>
+        </li>
+        {% endfor %}
+      {% else %}
+        <li>
+          <div class="affiliate-link">
+            <span class="product-name">Basic Mechanic Tool Set</span>
+            <a href="https://www.amazon.de/s?k=mechanic+tool+set&tag=diyrepair-21" class="buy-btn" target="_blank" rel="nofollow noopener">Check Price on Amazon</a>
+          </div>
+        </li>
+      {% endif %}
+    </ul>
+    <p style="margin-top: 1rem; font-size: 0.9rem; color: #666;"><em>As an Amazon Associate, I earn from qualifying purchases. This helps support the site at no extra cost to you.</em></p>
+  </div>
+</article>
+
+<section style="margin-top: 3rem; padding: 2rem; background: var(--bg-light); border-radius: 12px;">
+  <h3>More Repair Guides</h3>
+  <div class="posts-grid" style="margin-top: 1.5rem;">
+    {% for post in collections.posts | reverse %}
+    {% if post.url != page.url and loop.index <= 3 %}
+    <div class="post-card">
+      <div class="post-card-content">
+        <h3><a href="{{ post.url }}">{{ post.data.title }}</a></h3>
+        <p>{{ post.data.description }}</p>
+      </div>
+    </div>
+    {% endif %}
+    {% endfor %}
+  </div>
+</section>

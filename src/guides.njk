@@ -1,0 +1,94 @@
+---
+layout: base.njk
+title: All Repair Guides
+description: Complete list of DIY Tesla repair guides for Model 3, Model Y, Model S, and Model X. Save money on maintenance and repairs.
+---
+
+<div class="section-header" style="margin-bottom: 2rem;">
+  <h1>Tesla DIY Repair Guides</h1>
+  <p>Step-by-step tutorials to fix and maintain your Tesla yourself</p>
+</div>
+
+<div class="info-box">
+  <strong>New to Tesla DIY?</strong> Start with our easiest guides: <a href="/posts/tesla-cabin-air-filter/">Cabin Air Filter</a> or <a href="/posts/tesla-key-fob-battery/">Key Fob Battery</a>. These take under 15 minutes and require minimal tools.
+</div>
+
+<section style="margin-top: 2rem;">
+  <h2>All Guides by Category</h2>
+
+  <h3 style="margin-top: 2rem; color: var(--secondary-color);">🔋 Electrical & Battery</h3>
+  <div class="posts-grid">
+    {% for post in collections.posts %}
+      {% if post.data.category == "Electrical" %}
+      <article class="post-card">
+        <div class="post-card-content">
+          <span class="post-card-category">{{ post.data.difficulty }}</span>
+          <h3><a href="{{ post.url }}">{{ post.data.title }}</a></h3>
+          <p>{{ post.data.description }}</p>
+          <div class="post-card-meta">
+            <span>{{ post.data.readTime }}</span>
+            <a href="{{ post.url }}" class="read-more">Read Guide →</a>
+          </div>
+        </div>
+      </article>
+      {% endif %}
+    {% endfor %}
+  </div>
+
+  <h3 style="margin-top: 2rem; color: var(--secondary-color);">🛞 Brakes & Suspension</h3>
+  <div class="posts-grid">
+    {% for post in collections.posts %}
+      {% if post.data.category == "Brakes" or post.data.category == "Suspension" %}
+      <article class="post-card">
+        <div class="post-card-content">
+          <span class="post-card-category">{{ post.data.difficulty }}</span>
+          <h3><a href="{{ post.url }}">{{ post.data.title }}</a></h3>
+          <p>{{ post.data.description }}</p>
+          <div class="post-card-meta">
+            <span>{{ post.data.readTime }}</span>
+            <a href="{{ post.url }}" class="read-more">Read Guide →</a>
+          </div>
+        </div>
+      </article>
+      {% endif %}
+    {% endfor %}
+  </div>
+
+  <h3 style="margin-top: 2rem; color: var(--secondary-color);">❄️ HVAC & Climate</h3>
+  <div class="posts-grid">
+    {% for post in collections.posts %}
+      {% if post.data.category == "HVAC" %}
+      <article class="post-card">
+        <div class="post-card-content">
+          <span class="post-card-category">{{ post.data.difficulty }}</span>
+          <h3><a href="{{ post.url }}">{{ post.data.title }}</a></h3>
+          <p>{{ post.data.description }}</p>
+          <div class="post-card-meta">
+            <span>{{ post.data.readTime }}</span>
+            <a href="{{ post.url }}" class="read-more">Read Guide →</a>
+          </div>
+        </div>
+      </article>
+      {% endif %}
+    {% endfor %}
+  </div>
+
+  <h3 style="margin-top: 2rem; color: var(--secondary-color);">🔧 Maintenance & Other</h3>
+  <div class="posts-grid">
+    {% for post in collections.posts %}
+      {% if post.data.category == "Maintenance" or post.data.category == "Tires" or post.data.category == "Charging" or post.data.category == "Troubleshooting" %}
+      <article class="post-card">
+        <div class="post-card-content">
+          <span class="post-card-category">{{ post.data.difficulty }}</span>
+          <h3><a href="{{ post.url }}">{{ post.data.title }}</a></h3>
+          <p>{{ post.data.description }}</p>
+          <div class="post-card-meta">
+            <span>{{ post.data.readTime }}</span>
+            <a href="{{ post.url }}" class="read-more">Read Guide →</a>
+          </div>
+        </div>
+      </article>
+      {% endif %}
+    {% endfor %}
+  </div>
+</section>
