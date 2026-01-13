@@ -12,7 +12,8 @@ Tesla repair affiliate blog targeting EU market. Goal: $1000/month passive incom
 - **Milestone 1:** Complete (4 phases done)
 - **Articles:** 16 repair guides
 - **Monetization:** Amazon.de affiliates (tag: diyrepair-21)
-- **Hosting:** Netlify (may need reactivation) or Cloudflare Pages
+- **Hosting:** Cloudflare Pages (wrangler.json configured)
+- **Domain:** tesladiyrepair.com (active on Cloudflare)
 
 ## Key Files
 - `.planning/STATE.md` - Current progress
@@ -24,14 +25,14 @@ Tesla repair affiliate blog targeting EU market. Goal: $1000/month passive incom
 - [ ] Fix mobile navigation (hamburger menu)
 - [ ] Connect Google Analytics (have placeholder)
 - [ ] Connect email service to newsletter forms
-- [ ] Get custom domain
-- [ ] Verify/reactivate hosting
+- [ ] Connect custom domain to Cloudflare Pages
+- [x] Fix Cloudflare Pages deployment (wrangler.json added)
 
 ## Tech Stack
 - Eleventy 2.0.1 (static site generator)
 - Nunjucks templates
 - CSS (no framework)
-- Netlify/Cloudflare hosting
+- Cloudflare Pages hosting
 
 ## Owner Context
 - Self-taught Tesla mechanic from Lithuania
