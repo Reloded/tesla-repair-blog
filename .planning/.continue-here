@@ -1,0 +1,34 @@
+# Resume Point - 2026-01-13
+
+## Completed
+- 16 Tesla repair articles with affiliate links
+- Custom domain: tesladiyrepair.com
+- Email signup connected to Buttondown (tesladiyrepair)
+- Google Analytics: G-MHWB6T22RQ
+- Google Search Console verified and sitemap submitted
+- SEO: Open Graph, schema markup, Twitter cards
+
+## In Progress
+- Moving from Netlify to Cloudflare Pages (Netlify hit bandwidth limit)
+- Cloudflare Pages project created, connected to GitHub
+- Domain added to Cloudflare
+- Build might be working now - need to verify
+
+## To Verify on Resume
+1. Check if Cloudflare Pages deployment succeeded
+2. Check if tesladiyrepair.com is working
+3. If not, fix build settings:
+   - Root directory: empty
+   - Build command: npm run build
+   - Output directory: _site
+
+## Key Accounts
+- GitHub: Reloded/tesla-repair-blog
+- Buttondown: tesladiyrepair
+- Google Analytics: G-MHWB6T22RQ
+- Domain: tesladiyrepair.com (Porkbun)
+- Hosting: Cloudflare Pages (migrating from Netlify)
+
+## Site URLs
+- Cloudflare Pages: tesla-repair-blog.pages.dev (pending)
+- Custom domain: tesladiyrepair.com
