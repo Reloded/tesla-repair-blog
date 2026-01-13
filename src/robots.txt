@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://poetic-cajeta-7acc1e.netlify.app/sitemap.xml
+Sitemap: https://luxury-starlight-93b25f.netlify.app/sitemap.xml
