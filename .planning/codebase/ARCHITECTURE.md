@@ -1,45 +1,96 @@
-# Architecture Documentation
+# ARCHITECTURE
 
-## System Design
-- **Type:** Static site generator (JAMstack)
-- **Pattern:** Template-driven content compilation
-- **Build output:** Static HTML/CSS files in `_site/`
+> System design and patterns for tesla-repair-blog
 
-## Data Flow
-```
-Markdown Content (src/posts/*.md)
-        ↓
-    Eleventy Build
-        ↓
-Nunjucks Templates (src/_includes/)
-        ↓
-Static HTML Output (_site/)
-        ↓
-    Netlify CDN
-        ↓
-    End Users
-```
+**Last updated:** 2026-01-13
+
+---
+
+## Pattern Overview
+
+**Static Site Generator (SSG)**
+
+Simple build-time rendering pattern:
+1. Source files (Markdown, Nunjucks) in `src/`
+2. 11ty processes and renders at build time
+3. Static HTML output to `_site/`
+4. No server runtime required
+
+---
 
 ## Layers
-1. **Content Layer** - Markdown files with YAML frontmatter
-2. **Template Layer** - Nunjucks templates for layouts
-3. **Build Layer** - Eleventy processes and compiles
-4. **Output Layer** - Static HTML/CSS served via CDN
 
-## Key Patterns
-- **Collections:** Posts gathered via glob pattern, sorted by date
-- **Layouts:** Inheritance chain (post.njk → base.njk)
-- **Filters:** Custom date formatting
-- **Passthrough:** Static assets copied directly (CSS, images)
+```
+┌─────────────────────────────────────┐
+│           Content Layer             │
+│  src/posts/*.md (Blog articles)     │
+├─────────────────────────────────────┤
+│          Template Layer             │
+│  src/_includes/*.njk (Layouts)      │
+├─────────────────────────────────────┤
+│         Page Layer                  │
+│  src/*.njk (Index, Guides, etc.)    │
+├─────────────────────────────────────┤
+│          Asset Layer                │
+│  src/css/, src/images/              │
+├─────────────────────────────────────┤
+│          Build Layer                │
+│  .eleventy.js (Configuration)       │
+└─────────────────────────────────────┘
+            ↓ npm run build
+┌─────────────────────────────────────┐
+│          Output (_site/)            │
+│  Static HTML, CSS, assets           │
+└─────────────────────────────────────┘
+```
 
-## Build Process
-1. Eleventy reads `src/` directory
-2. Processes Markdown through markdown-it
-3. Applies Nunjucks templates
-4. Generates RSS feed and sitemap
-5. Outputs to `_site/` directory
+---
 
-## Deployment
-- GitHub repository triggers Netlify build
-- Netlify runs `npm run build`
-- Static files deployed to CDN edge nodes
+## Data Flow
+
+1. **Build triggered:** `npm run build` or `npm run start`
+2. **11ty processes:**
+   - Loads `src/_data/metadata.json` as global data
+   - Collects posts from `src/posts/*.md`
+   - Applies templates from `src/_includes/`
+   - Copies static assets (CSS, images, robots.txt)
+3. **Output generated:** Complete static site in `_site/`
+
+---
+
+## Key Abstractions
+
+**Collections:**
+- `posts` - All blog posts sorted by date (defined in `.eleventy.js`)
+
+**Filters:**
+- `dateFormat` - Formats dates for display (defined in `.eleventy.js`)
+
+**Layouts:**
+- `base.njk` - Main HTML wrapper with head, nav, footer
+- `post.njk` - Individual blog post template
+
+---
+
+## Entry Points
+
+| Entry | File | Purpose |
+|-------|------|---------|
+| Build config | `.eleventy.js` | 11ty configuration |
+| Homepage | `src/index.njk` | Landing page |
+| Posts collection | `src/posts/*.md` | Blog content |
+
+---
+
+## Rendering Flow
+
+```
+Markdown Post → Nunjucks Processing → post.njk Layout → base.njk → HTML Output
+```
+
+Each post:
+1. Frontmatter parsed (title, date, description, etc.)
+2. Markdown converted to HTML
+3. Wrapped in `post.njk` template
+4. Wrapped in `base.njk` layout
+5. Written to `_site/posts/[slug]/index.html`

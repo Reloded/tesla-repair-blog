@@ -1,40 +1,85 @@
-# Testing Documentation
+# TESTING
 
-## Current Test Setup
-- **No automated tests configured**
-- Static site with minimal JavaScript - testing not critical
+> Test structure and practices for tesla-repair-blog
 
-## Manual Testing Workflow
-1. Run `npm run start` for local dev server
-2. Preview at `http://localhost:8080`
-3. Check pages render correctly
-4. Verify affiliate links work
-5. Test RSS feed at `/feed.xml`
-6. Validate sitemap at `/sitemap.xml`
+**Last updated:** 2026-01-13
 
-## Build Verification
+---
+
+## Test Framework
+
+**Not detected** - No testing framework configured.
+
+This is common for simple static sites where:
+- Build success = site works
+- Visual inspection during development (`npm run start`)
+- No runtime logic to test
+
+---
+
+## Test Files
+
+None present. No `*.test.js`, `*.spec.js`, or `__tests__/` directories found.
+
+---
+
+## Quality Assurance
+
+**Current approach:**
+
+1. **Local preview:** `npm run start` serves site at localhost:8080
+2. **Build validation:** `npm run build` fails if templates have syntax errors
+3. **Manual review:** Visual inspection of pages
+
+---
+
+## Recommended Testing (Future)
+
+If testing is needed:
+
+**HTML validation:**
 ```bash
-npm run build
-# Check _site/ output for:
-# - All HTML files generated
-# - CSS copied to _site/css/
-# - Images copied to _site/images/
-# - feed.xml generated
-# - sitemap.xml generated
+npm install -D html-validate
+npx html-validate "_site/**/*.html"
 ```
 
-## Recommended Future Testing
-- [ ] HTML validation (W3C validator)
-- [ ] Broken link checker
-- [ ] Lighthouse audits for performance/SEO
-- [ ] Mobile responsiveness testing
+**Link checking:**
+```bash
+npm install -D broken-link-checker
+blc http://localhost:8080 -ro
+```
 
-## Deployment Testing
-- Netlify provides deploy previews on PR
-- Production builds trigger on main branch push
-- Build logs available in Netlify dashboard
+**Lighthouse CI:**
+```bash
+npm install -D @lhci/cli
+lhci autorun
+```
 
-## Content Validation
-- Frontmatter required fields checked by Eleventy
-- Missing fields will cause build errors
-- Date format must be valid ISO date
+---
+
+## Build Verification
+
+The build process itself provides basic validation:
+
+| Check | How it fails |
+|-------|--------------|
+| Template syntax | 11ty build error |
+| Missing includes | 11ty build error |
+| Invalid frontmatter | 11ty build error |
+| Missing dependencies | npm install fails |
+
+---
+
+## Coverage
+
+Not applicable - no testable runtime code.
+
+---
+
+## CI/CD
+
+Not configured. Deployment is manual:
+1. Run `npm run build`
+2. Upload `_site/` to Netlify
+
+**Recommended:** Connect to GitHub for automatic Netlify deploys.

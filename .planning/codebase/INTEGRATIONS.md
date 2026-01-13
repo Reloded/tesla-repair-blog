@@ -1,42 +1,95 @@
-# Integrations Documentation
+# INTEGRATIONS
 
-## External Services
+> External services and APIs for tesla-repair-blog
 
-### Netlify (Hosting)
-- **URL:** https://poetic-cajeta-7acc1e.netlify.app
-- **Deployment:** Auto-deploy from GitHub main branch
-- **Build command:** `npm run build`
-- **Publish directory:** `_site`
+**Last updated:** 2026-01-13
 
-### GitHub (Version Control)
-- **Repository:** https://github.com/Reloded/tesla-repair-blog
-- **Branch:** main
-- **Integration:** Connected to Netlify for CI/CD
+---
 
-### Amazon Associates (Monetization)
-- **Program:** Amazon.de Associates
-- **Affiliate Tag:** `diyrepair-21`
-- **Link Format:** `https://www.amazon.de/dp/{ASIN}?tag=diyrepair-21`
-- **Products:** Automotive tools, OBD scanners, batteries
+## Hosting
 
-### Google Analytics (Pending Setup)
-- **Status:** Placeholder in base.njk
-- **Action Required:** Replace `G-XXXXXXXXXX` with actual tracking ID
-- **Location:** `src/_includes/base.njk`
+**Netlify** (recommended in `README.md`)
+- Static site hosting
+- Free tier available
+- Drag-and-drop or GitHub integration
+- Custom domain support
 
-## APIs Used
-- None - fully static site with no runtime API calls
+---
 
-## Data Sources
-- Content authored manually in Markdown
-- No external data fetching
+## Monetization (Planned)
 
-## RSS/Syndication
-- Atom feed at `/feed.xml`
-- Uses @11ty/eleventy-plugin-rss
-- Auto-updates with new posts
+### Amazon Affiliate Program
 
-## SEO Integrations
-- XML Sitemap at `/sitemap.xml`
-- robots.txt allows all crawlers
-- Sitemap URL in robots.txt for discovery
+- **Status:** Links present, affiliate ID placeholder
+- **Format:** `https://www.amazon.com/s?k=product&tag=YOUR-ID-20`
+- **Location:** Throughout blog posts in `src/posts/*.md`
+- **Setup:** Replace `YOUR-ID-20` with actual Associate ID
+
+### Google AdSense
+
+- **Status:** Placeholder noted in README
+- **Location:** To be added in `src/_includes/base.njk`
+- **Requirement:** Site needs traffic before approval
+
+---
+
+## SEO
+
+### robots.txt
+- **File:** `src/robots.txt`
+- **Status:** Basic configuration present
+
+### Sitemap
+- **File:** `src/sitemap.njk`
+- **Output:** `_site/sitemap.xml`
+- **Format:** XML sitemap with all posts
+
+### RSS Feed
+- **Plugin:** `@11ty/eleventy-plugin-rss`
+- **File:** `src/feed.njk`
+- **Output:** `_site/feed.xml`
+
+---
+
+## Analytics
+
+**Not configured** - Google Analytics or similar not present.
+
+**Recommended setup:**
+1. Create Google Analytics 4 property
+2. Add tracking code to `src/_includes/base.njk`
+
+---
+
+## External APIs
+
+None. This is a static site with no server-side API calls.
+
+---
+
+## CDN/Assets
+
+No external CDN configured. All assets served locally:
+- CSS: `src/css/style.css`
+- Images: `src/images/`
+- No external fonts (system fonts used)
+
+---
+
+## Domain
+
+**Configured in metadata:**
+- URL: `https://tesladiyrepair.com`
+- File: `src/_data/metadata.json`
+
+**Status:** Domain may need DNS configuration with Netlify.
+
+---
+
+## Third-Party Libraries
+
+None loaded from CDN. All dependencies are build-time only:
+- 11ty (build)
+- RSS plugin (build)
+
+Output is pure HTML/CSS with no JavaScript dependencies.

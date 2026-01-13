@@ -1,37 +1,82 @@
-# Stack Documentation
+# STACK
+
+> Technology stack for tesla-repair-blog
+
+**Last updated:** 2026-01-13
+
+---
 
 ## Languages
-- **JavaScript** (Node.js) - Build configuration
-- **HTML/Nunjucks** (.njk) - Template engine
-- **Markdown** (.md) - Content authoring
-- **CSS** - Styling (CSS3 with custom properties)
+
+**Primary:**
+- JavaScript (ES6+) - Build configuration and 11ty plugins
+
+**Templating:**
+- Nunjucks (.njk) - Page templates and layouts
+- Markdown (.md) - Blog post content
+
+**Styling:**
+- CSS - Custom styles
+
+---
+
+## Runtime
+
+- **Node.js** - Required for build process
+- **Version:** Not specified (LTS recommended per README)
+
+---
 
 ## Frameworks
-- **Eleventy (11ty)** v2.0.1 - Static site generator
-  - Template engine: Nunjucks
-  - Markdown processing: markdown-it
-  - File watching and dev server built-in
+
+**Static Site Generator:**
+- Eleventy (11ty) 2.0.1 - `package.json`
+
+**Templating Engine:**
+- Nunjucks - Configured in `.eleventy.js`
+
+---
 
 ## Key Dependencies
+
+| Package | Version | Purpose |
+|---------|---------|---------|
+| @11ty/eleventy | ^2.0.1 | Static site generator |
+| @11ty/eleventy-plugin-rss | ^1.2.0 | RSS feed generation |
+
+---
+
+## Package Manager
+
+- **npm** - `package-lock.json` present
+- No additional build tools (Webpack, Vite, etc.)
+
+---
+
+## Configuration Files
+
+| File | Purpose |
+|------|---------|
+| `.eleventy.js` | 11ty configuration, plugins, filters, collections |
+| `package.json` | Dependencies and npm scripts |
+| `src/_data/metadata.json` | Site metadata (title, URL, description) |
+
+---
+
+## Build Scripts
+
 ```json
 {
-  "@11ty/eleventy": "^2.0.1",
-  "@11ty/eleventy-plugin-rss": "^1.2.0"
+  "build": "eleventy",
+  "start": "eleventy --serve",
+  "deploy": "eleventy && echo 'Site built!'"
 }
 ```
 
-## Build Tools
-- **npm** - Package manager
-- **Scripts:**
-  - `npm run build` - Generate static site to `_site/`
-  - `npm run start` - Dev server with hot-reload (localhost:8080)
-  - `npm run deploy` - Build + deployment message
+---
 
-## Configuration Files
-- `.eleventy.js` - Build configuration, plugins, filters, collections
-- `package.json` - Dependencies and npm scripts
-- `.gitignore` - Excludes node_modules, _site
+## Platform
 
-## Node.js Requirements
-- Minimum Node 14+ required
-- npm for package management
+- **Target:** Static HTML/CSS (no server runtime)
+- **Hosting:** Netlify (recommended in README)
+- **Output:** `_site/` directory

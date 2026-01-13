@@ -1,50 +1,119 @@
-# Concerns Documentation
+# CONCERNS
+
+> Technical debt and areas of concern for tesla-repair-blog
+
+**Last updated:** 2026-01-13
+
+---
+
+## Overall Assessment
+
+**Codebase is clean.** This is a simple static site with minimal complexity. No critical issues detected.
+
+---
 
 ## Technical Debt
-- [ ] Google Analytics not configured (placeholder ID in template)
-- [ ] No image optimization pipeline
-- [ ] No minification of CSS/HTML
 
-## Known Issues
-1. **Analytics placeholder** - `G-XXXXXXXXXX` needs real tracking ID
-2. **No favicon** - Browser shows default icon
-3. **No 404 page** - Missing custom error page
+### Low Priority
 
-## Security Considerations
-- Static site - minimal attack surface
-- No user input or forms
-- All external links use HTTPS
-- Affiliate links properly tagged
+1. **No Node.js version pinning**
+   - **Location:** Missing `.nvmrc` or `engines` in `package.json`
+   - **Risk:** Low - 11ty is stable across Node versions
+   - **Fix:** Add `"engines": { "node": ">=18" }` to `package.json`
+
+2. **Affiliate links need real IDs**
+   - **Location:** `src/posts/*.md`
+   - **Risk:** No revenue until configured
+   - **Fix:** Replace `YOUR-ID-20` with actual Amazon Associate ID
+
+---
+
+## Missing But Not Critical
+
+| Item | Status | Impact |
+|------|--------|--------|
+| Testing framework | Not present | Low - static site |
+| CI/CD pipeline | Manual deploy | Low - simple workflow |
+| Analytics | Not configured | Medium - can't track traffic |
+| Error tracking | N/A | N/A - no runtime |
+
+---
+
+## Security
+
+**No security concerns detected.**
+
+- No user input handling
+- No database connections
+- No API keys in code
+- No authentication
+- Static output only
+
+---
 
 ## Performance
-- Good: Static files served from CDN
-- Good: No JavaScript framework overhead
-- Improve: Add image lazy loading
-- Improve: Consider CSS minification
 
-## Scalability
-- Eleventy handles hundreds of posts easily
-- Build time increases linearly with content
-- No server-side concerns (static hosting)
+**No performance concerns detected.**
 
-## Risks
-| Risk | Impact | Mitigation |
-|------|--------|------------|
-| Amazon affiliate rejection | Loss of revenue | Diversify to other programs |
-| Low traffic | No income | SEO optimization, Reddit promotion |
-| Content outdated | Reduced trust | Regular updates with new Tesla info |
+- No JavaScript bundles to optimize
+- Single CSS file (11KB)
+- SVG favicon (minimal)
+- No external font loading
 
-## Recommended Improvements
-1. **High Priority**
-   - Set up Google Analytics with real tracking ID
-   - Add favicon
+**Recommendations for future:**
+- Add image optimization if photos are added
+- Consider CSS minification for production
 
-2. **Medium Priority**
-   - Create custom 404 page
-   - Add image optimization
-   - Implement Open Graph meta tags for social sharing
+---
 
-3. **Low Priority**
-   - CSS minification
-   - Add more affiliate programs (eBay, local stores)
-   - Email newsletter signup
+## Documentation
+
+**Good state:**
+- `README.md` is comprehensive with setup instructions
+- Monetization strategy documented
+- File structure explained
+
+**Could improve:**
+- Add `CONTRIBUTING.md` if open-sourcing
+- Document frontmatter schema for posts
+
+---
+
+## Code Quality
+
+No issues found:
+- `.eleventy.js` is clean and well-organized
+- Templates are simple and readable
+- CSS is organized with variables
+- No duplicate code patterns
+
+---
+
+## Dependencies
+
+**Current dependencies are minimal and maintained:**
+
+| Package | Version | Status |
+|---------|---------|--------|
+| @11ty/eleventy | ^2.0.1 | Active, well-maintained |
+| @11ty/eleventy-plugin-rss | ^1.2.0 | Active, well-maintained |
+
+**No known vulnerabilities** in current dependency versions.
+
+---
+
+## TODOs Found
+
+Only placeholder found in helper script:
+- `new-article.bat:84` - Template placeholder `$XXX` for price
+
+No actionable TODOs in application code.
+
+---
+
+## Recommendations
+
+1. **Set up analytics** - Can't measure success without traffic data
+2. **Configure affiliate IDs** - Enable monetization
+3. **Connect GitHub to Netlify** - Automate deployments
+4. **Add more content** - 14 posts is a good start, keep growing

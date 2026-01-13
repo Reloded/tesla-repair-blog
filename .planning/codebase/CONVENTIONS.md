@@ -1,45 +1,118 @@
-# Conventions Documentation
+# CONVENTIONS
+
+> Code style and patterns for tesla-repair-blog
+
+**Last updated:** 2026-01-13
+
+---
 
 ## Code Style
 
-### Markdown/Content
-- YAML frontmatter at top of each post
-- Required frontmatter: `title`, `description`, `date`, `tags`, `layout`
-- Kebab-case filenames: `model-y-black-screen-fix.md`
-- H2 headers for main sections
-- Affiliate links use full Amazon.de URLs with `tag=diyrepair-21`
-
-### Nunjucks Templates
+**JavaScript (`.eleventy.js`):**
+- No semicolons (inferred)
+- Single quotes for strings
 - 2-space indentation
-- Block inheritance: `{% extends "base.njk" %}`
-- Content blocks: `{% block content %}{% endblock %}`
-- Filters: `{{ date | dateFormat }}`
-
-### JavaScript (.eleventy.js)
-- CommonJS modules (`require`/`module.exports`)
+- ES6 module.exports pattern
 - Arrow functions for callbacks
-- Descriptive filter/collection names
 
-### CSS
-- CSS custom properties for theming
+**CSS (`src/css/style.css`):**
+- CSS custom properties (variables) for colors
 - Mobile-first responsive design
-- BEM-style class naming where applicable
+- BEM-like class naming (e.g., `.card-grid`, `.article-card`)
+- Media queries at 768px breakpoint
 
-## Naming Conventions
+---
+
+## File Naming
+
 | Type | Convention | Example |
 |------|------------|---------|
-| Posts | kebab-case | `tesla-12v-battery-replacement.md` |
-| Templates | lowercase | `base.njk`, `post.njk` |
-| CSS classes | kebab-case | `.post-meta`, `.tools-box` |
-| Data files | lowercase | `metadata.json` |
+| Blog posts | kebab-case with `tesla-` prefix | `tesla-brake-pad-replacement.md` |
+| Templates | kebab-case | `base.njk`, `post.njk` |
+| Pages | kebab-case | `guides.njk`, `about.njk` |
+| Config files | dot-prefix or standard names | `.eleventy.js`, `package.json` |
 
-## Content Patterns
-- Each article includes "Tools You'll Need" affiliate section
-- Amazon links format: `https://www.amazon.de/dp/ASIN?tag=diyrepair-21`
-- Difficulty ratings included in posts
-- Time estimates for repairs
+---
+
+## Template Patterns
+
+**Nunjucks blocks:**
+```nunjucks
+{% block content %}{% endblock %}
+```
+
+**Includes:**
+```nunjucks
+{% include "partial.njk" %}
+```
+
+**Filters:**
+```nunjucks
+{{ post.date | dateFormat }}
+```
+
+**Loops:**
+```nunjucks
+{% for post in collections.posts %}
+  ...
+{% endfor %}
+```
+
+---
+
+## Markdown Patterns
+
+**Frontmatter:** YAML format with required fields:
+- `title`, `description`, `date`, `layout`, `tags`
+
+**Optional frontmatter:**
+- `difficulty`, `time`, `cost`, `models`
+
+**Content structure:**
+- H2 (`##`) for main sections
+- H3 (`###`) for subsections
+- Affiliate links use Amazon search format
+- Tool lists with prices
+
+---
+
+## Affiliate Link Format
+
+```markdown
+[Product Name](https://www.amazon.com/s?k=product+keywords&tag=AFFILIATE-ID-20)
+```
+
+---
+
+## Comment Style
+
+**JavaScript:**
+```javascript
+// Single line comments
+```
+
+**Nunjucks:**
+```nunjucks
+{# Template comments #}
+```
+
+**No JSDoc or formal documentation** - codebase is simple enough to be self-documenting.
+
+---
 
 ## Git Conventions
-- Descriptive commit messages
-- Main branch: `main`
-- Auto-deploy on push to main
+
+- `.gitignore` excludes `node_modules/` and `_site/`
+- No specific commit message convention detected
+
+---
+
+## Data Patterns
+
+**Global data** in `src/_data/`:
+- JSON format
+- Accessed directly by key in templates (e.g., `{{ metadata.title }}`)
+
+**Post data:**
+- YAML frontmatter
+- Accessed via `post.*` in templates
