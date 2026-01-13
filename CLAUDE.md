@@ -24,7 +24,7 @@ Tesla repair affiliate blog targeting EU market. Goal: $1000/month passive incom
 
 ## Pending Tasks
 - [x] Fix mobile navigation (hamburger menu)
-- [ ] Connect Google Analytics (have placeholder)
+- [x] Connect Google Analytics (G-MHWB6T22RQ)
 - [ ] Connect email service to newsletter forms
 - [x] Connect custom domain to Cloudflare Pages
 - [x] Fix Cloudflare Pages deployment (wrangler.json added)
