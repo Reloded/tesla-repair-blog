@@ -8,112 +8,109 @@
 
 ## Overall Assessment
 
-**Codebase is clean.** This is a simple static site with minimal complexity. No critical issues detected.
+**Codebase is relatively clean.** This is a static site with minimal complexity. A few configuration items need attention before the site is fully personalized and monetization-ready.
 
 ---
 
-## Technical Debt
+## High Priority - Configuration Required
 
-### Low Priority
+### 1. Placeholder Email Address
+- **File:** `src/about.njk` (line 66)
+- **Issue:** Contact email shows `hello@tesladiyrepair.com (replace with your actual email)`
+- **Impact:** Placeholder text visible on published site
+- **Fix:** Replace with actual contact email
 
-1. **No Node.js version pinning**
-   - **Location:** Missing `.nvmrc` or `engines` in `package.json`
-   - **Risk:** Low - 11ty is stable across Node versions
-   - **Fix:** Add `"engines": { "node": ">=18" }` to `package.json`
+### 2. Google AdSense Not Configured
+- **File:** `src/_includes/base.njk` (line 38)
+- **Issue:** AdSense script commented out with placeholder `ca-pub-YOURCODE`
+- **Impact:** No ad revenue until configured
+- **Fix:** Uncomment and add actual AdSense publisher ID when approved
 
-2. **Affiliate links need real IDs**
-   - **Location:** `src/posts/*.md`
-   - **Risk:** No revenue until configured
-   - **Fix:** Replace `YOUR-ID-20` with actual Amazon Associate ID
-
----
-
-## Missing But Not Critical
-
-| Item | Status | Impact |
-|------|--------|--------|
-| Testing framework | Not present | Low - static site |
-| CI/CD pipeline | Manual deploy | Low - simple workflow |
-| Analytics | Not configured | Medium - can't track traffic |
-| Error tracking | N/A | N/A - no runtime |
+### 3. Amazon Affiliate Links - German Domain
+- **Files:** All posts in `src/posts/*.md`, `src/_includes/post.njk`, `src/tools.njk`
+- **Issue:** All 79 affiliate links use `amazon.de` with tag `diyrepair-21`
+- **Impact:** Users outside Germany see wrong Amazon store
+- **Fix:** Update to appropriate regional Amazon domain if targeting other markets
 
 ---
 
-## Security
+## Medium Priority - UX Issues
 
-**No security concerns detected.**
+### 4. Mobile Navigation Missing
+- **File:** `src/css/style.css` (lines 605-607)
+- **Issue:** `.nav-links` set to `display: none` on mobile (max-width: 768px)
+- **Problem:** No hamburger menu or alternative navigation provided
+- **Impact:** Mobile users cannot navigate to Guides, Tools, or About pages
+- **Fix:** Add hamburger menu or mobile navigation component
 
-- No user input handling
-- No database connections
-- No API keys in code
-- No authentication
-- Static output only
-
----
-
-## Performance
-
-**No performance concerns detected.**
-
-- No JavaScript bundles to optimize
-- Single CSS file (11KB)
-- SVG favicon (minimal)
-- No external font loading
-
-**Recommendations for future:**
-- Add image optimization if photos are added
-- Consider CSS minification for production
+### 5. Domain Hardcoded in Multiple Places
+- **Files:**
+  - `src/_data/metadata.json` (line 3)
+  - `src/_includes/base.njk` (lines 15, 29)
+  - `src/robots.txt` (line 4)
+- **Issue:** Domain `https://tesladiyrepair.com` hardcoded
+- **Impact:** Must update manually if domain changes
+- **Fix:** Consider centralizing in metadata.json only
 
 ---
 
-## Documentation
+## Low Priority - Minor Improvements
 
-**Good state:**
-- `README.md` is comprehensive with setup instructions
-- Monetization strategy documented
-- File structure explained
+### 6. No Node.js Version Pinning
+- **Location:** Missing `.nvmrc` or `engines` in `package.json`
+- **Risk:** Low - Eleventy is stable across Node versions
+- **Fix:** Add `"engines": { "node": ">=18" }` to `package.json`
 
-**Could improve:**
-- Add `CONTRIBUTING.md` if open-sourcing
-- Document frontmatter schema for posts
+### 7. RSS Feed Has No Item Limit
+- **File:** `src/feed.njk`
+- **Issue:** Feed includes ALL posts (currently 16, could grow large)
+- **Best Practice:** Limit to last 20-50 items for performance
+- **Fix:** Add `| head(20)` filter to collection loop
 
----
+### 8. Emoji Cards Missing Accessibility
+- **File:** `src/index.njk` (lines 24, 54, 62, 70)
+- **Issue:** Emoji in `.post-card-image` divs have no alt text or ARIA labels
+- **Impact:** Screen readers can't describe content
+- **Fix:** Add `aria-label` attributes to emoji containers
 
-## Code Quality
-
-No issues found:
-- `.eleventy.js` is clean and well-organized
-- Templates are simple and readable
-- CSS is organized with variables
-- No duplicate code patterns
-
----
-
-## Dependencies
-
-**Current dependencies are minimal and maintained:**
-
-| Package | Version | Status |
-|---------|---------|--------|
-| @11ty/eleventy | ^2.0.1 | Active, well-maintained |
-| @11ty/eleventy-plugin-rss | ^1.2.0 | Active, well-maintained |
-
-**No known vulnerabilities** in current dependency versions.
+### 9. Loose Dependency Versions
+- **File:** `package.json`
+- **Issue:** Uses `^2.0.1` for Eleventy (allows up to `<3.0.0`)
+- **Risk:** Major updates could introduce breaking changes
+- **Fix:** Pin to specific version for stability
 
 ---
 
-## TODOs Found
+## Not Issues - Verified Clean
 
-Only placeholder found in helper script:
-- `new-article.bat:84` - Template placeholder `$XXX` for price
-
-No actionable TODOs in application code.
+| Item | Status |
+|------|--------|
+| Hardcoded secrets | None found |
+| Security vulnerabilities | N/A - static site |
+| TODO/FIXME comments | None in application code |
+| Duplicate code | Minimal, acceptable |
+| Performance issues | None - fast static site |
+| SEO basics | Implemented (sitemap, RSS, Open Graph) |
+| Affiliate disclosure | Present on tools page and posts |
 
 ---
 
-## Recommendations
+## Current Integrations Status
 
-1. **Set up analytics** - Can't measure success without traffic data
-2. **Configure affiliate IDs** - Enable monetization
-3. **Connect GitHub to Netlify** - Automate deployments
-4. **Add more content** - 14 posts is a good start, keep growing
+| Integration | Status | Action Needed |
+|-------------|--------|---------------|
+| Google Analytics | Active (`G-MHWB6T22RQ`) | Verify ownership |
+| Amazon Affiliate | Active (`diyrepair-21`) | Verify tag is yours |
+| Buttondown Newsletter | Active | Working |
+| Google AdSense | Placeholder | Configure when approved |
+| Netlify Hosting | Recommended | Set up deployment |
+
+---
+
+## Recommended Action Order
+
+1. **Fix mobile navigation** - Critical for user experience
+2. **Verify affiliate tag** - Ensure `diyrepair-21` is your Amazon Associate ID
+3. **Update contact email** - Remove placeholder text
+4. **Set up Netlify** - Enable automatic deployments
+5. **Configure AdSense** - When traffic justifies approval
