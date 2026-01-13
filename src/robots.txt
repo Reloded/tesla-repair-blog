@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://luxury-starlight-93b25f.netlify.app/sitemap.xml
+Sitemap: https://tesladiyrepair.com/sitemap.xml
