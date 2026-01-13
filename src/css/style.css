@@ -509,6 +509,97 @@ img {
   font-size: 0.9rem;
 }
 
+/* Newsletter Form */
+.newsletter-form {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.newsletter-form input[type="email"] {
+  flex: 1;
+  padding: 0.75rem 1rem;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.newsletter-form button {
+  background: var(--primary-color);
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.newsletter-form button:hover {
+  background: #c41730;
+}
+
+/* Newsletter CTA Box */
+.newsletter-cta {
+  background: linear-gradient(135deg, var(--secondary-color) 0%, #2d3748 100%);
+  color: white;
+  padding: 3rem 2rem;
+  border-radius: 12px;
+  text-align: center;
+  margin: 3rem 0;
+}
+
+.newsletter-cta h2 {
+  color: white;
+  margin-bottom: 0.5rem;
+}
+
+.newsletter-cta p {
+  opacity: 0.9;
+  margin-bottom: 1.5rem;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.newsletter-cta .newsletter-form {
+  max-width: 450px;
+  margin: 0 auto;
+}
+
+.newsletter-cta .newsletter-form input[type="email"] {
+  background: white;
+}
+
+/* Article Newsletter Prompt */
+.article-newsletter {
+  background: var(--bg-light);
+  border: 2px solid var(--accent-color);
+  border-radius: 12px;
+  padding: 2rem;
+  margin: 2rem 0;
+  text-align: center;
+}
+
+.article-newsletter h3 {
+  color: var(--secondary-color);
+  margin-bottom: 0.5rem;
+}
+
+.article-newsletter p {
+  color: var(--text-light);
+  margin-bottom: 1rem;
+}
+
+.article-newsletter .newsletter-form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.article-newsletter .newsletter-form input[type="email"] {
+  border: 1px solid var(--border-color);
+}
+
 /* Responsive */
 @media (max-width: 768px) {
   .nav-links {
@@ -529,5 +620,13 @@ img {
 
   .post-header h1 {
     font-size: 1.8rem;
+  }
+
+  .newsletter-form {
+    flex-direction: column;
+  }
+
+  .newsletter-form button {
+    width: 100%;
   }
 }
