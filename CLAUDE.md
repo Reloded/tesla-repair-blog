@@ -1,5 +1,10 @@
 # Tesla DIY Repair Blog
 
+## Session Instructions
+> **AUTO-SAVE ENABLED:** Update this file after every major task or accomplishment. Commit changes regularly.
+
+---
+
 ## Project Summary
 Tesla repair affiliate blog targeting EU market. Goal: $1000/month passive income.
 
