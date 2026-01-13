@@ -12,8 +12,9 @@ Tesla repair affiliate blog targeting EU market. Goal: $1000/month passive incom
 - **Milestone 1:** Complete (4 phases done)
 - **Articles:** 16 repair guides
 - **Monetization:** Amazon.de affiliates (tag: diyrepair-21)
-- **Hosting:** Cloudflare Pages (wrangler.json configured)
-- **Domain:** tesladiyrepair.com (active on Cloudflare)
+- **Hosting:** Cloudflare Pages (LIVE)
+- **Live URL:** https://tesla-repair-blog.rnsstss.workers.dev
+- **Domain:** tesladiyrepair.com (needs connecting to Pages)
 
 ## Key Files
 - `.planning/STATE.md` - Current progress
