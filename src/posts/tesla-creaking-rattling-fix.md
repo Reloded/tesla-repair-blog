@@ -134,7 +134,7 @@ With the car parked, tap on panels and trim pieces to see if you can recreate th
 
 **Symptom:** Squeak over bumps, especially when cold.
 
-**Cause:** Likely upper control arm ball joints (see separate guide).
+**Cause:** Likely upper [control arm](/posts/tesla-control-arm-replacement/) ball joints.
 
 **Quick Fix:**
 - Apply silicone spray to ball joint boot
@@ -229,3 +229,9 @@ This kit will fix 90% of Tesla interior rattles.
 ---
 
 *Rattles are annoying but rarely serious. With patience and a systematic approach, you can track down and eliminate most noises for under $50. Start with the common locations above, and work through your car section by section.*
+
+## Related Guides
+
+- [Suspension Noise Fix](/posts/tesla-suspension-noise-fix/) - Suspension-specific noise diagnosis
+- [Control Arm Replacement](/posts/tesla-control-arm-replacement/) - For persistent suspension creaks
+- [Door Seal Maintenance](/posts/tesla-door-seal-maintenance/) - Fix wind noise from seals

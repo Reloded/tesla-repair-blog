@@ -219,3 +219,9 @@ Visit Tesla service if:
 ---
 
 *Regular cleaning prevents most steering wheel button issues. A quick wipe with isopropyl alcohol every month keeps the scroll wheels responsive and prevents buildup.*
+
+## Related Guides
+
+- [Voice Commands Fix](/posts/tesla-voice-commands-fix/) - If scroll wheel activates but voice doesn't work
+- [Screen Black Fix](/posts/tesla-screen-black-fix/) - System issues affecting controls
+- [Creaking and Rattling Fix](/posts/tesla-creaking-rattling-fix/) - Interior maintenance and cleaning

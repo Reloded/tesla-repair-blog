@@ -192,3 +192,9 @@ Front and rear units take the same fluid, but keep track of how much goes in eac
 ---
 
 *Gear oil changes are one of the most overlooked Tesla maintenance items. It's a straightforward job that can add years to your drive unit's life. If you can change oil in a gas car, you can do this.*
+
+## Related Guides
+
+- [Brake Pad Replacement](/posts/tesla-brake-pad-replacement/) - Another overlooked maintenance item
+- [Cabin Air Filter](/posts/tesla-cabin-air-filter/) - Easy maintenance to do at the same time
+- [Tire Rotation](/posts/tesla-tire-rotation/) - Schedule together for efficiency

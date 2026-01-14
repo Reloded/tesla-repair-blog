@@ -289,3 +289,9 @@ Tesla Mobile Connector warranty:
 ---
 
 *Most Mobile Connector issues come down to outlet problems, not the connector itself. Before assuming the connector is bad, thoroughly test the outlet. A $20 outlet tester can save you from buying a $300 replacement connector.*
+
+## Related Guides
+
+- [Slow Charging Fix](/posts/tesla-slow-charging-fix/) - Diagnose charging speed issues
+- [Charge Port Stuck](/posts/tesla-charge-port-stuck/) - If connector won't release
+- [Supercharger Slow](/posts/tesla-supercharger-slow/) - Comparison with DC fast charging

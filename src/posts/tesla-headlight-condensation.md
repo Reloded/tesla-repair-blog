@@ -67,7 +67,7 @@ Adding desiccant absorbs excess moisture:
 For persistent moisture, resealing is necessary:
 
 **Step 1: Remove the Headlight**
-1. Disconnect the 12V battery (safety precaution)
+1. Disconnect the [12V battery](/posts/tesla-12v-battery-replacement/) (safety precaution)
 2. Remove the front bumper or wheel liner for access
 3. Disconnect electrical connectors
 4. Remove mounting bolts (typically T25 or T30 Torx)
@@ -118,3 +118,9 @@ Addressing headlight condensation early prevents LED damage and maintains your T
 ---
 
 *Headlight condensation is common in many vehicles, not just Teslas. Regular inspection helps catch problems early before they become expensive repairs.*
+
+## Related Guides
+
+- [Rear Camera Blurry](/posts/tesla-rear-camera-blurry/) - Similar moisture issues with camera
+- [PPF Installation](/posts/tesla-ppf-installation/) - Protect headlights with film
+- [Paint Chip Repair](/posts/tesla-paint-chip-repair/) - Exterior care maintenance

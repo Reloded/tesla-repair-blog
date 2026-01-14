@@ -173,7 +173,7 @@ Best for: Larger areas, bumper repairs
 
 ### Paint Protection Film (PPF)
 
-Best prevention is covering the front end:
+Best prevention is covering the front end with [PPF installation](/posts/tesla-ppf-installation/):
 
 **Full front package typically includes:**
 - Full hood
@@ -255,3 +255,9 @@ If you have chips down to bare metal:
 ---
 
 *Paint chip repair is one of the most satisfying DIY fixes. For €50-70 in materials, you can address dozens of chips that would cost hundreds at a body shop. Start with small chips to build confidence before tackling larger repairs.*
+
+## Related Guides
+
+- [PPF Installation](/posts/tesla-ppf-installation/) - Prevent future chips with paint protection film
+- [Ceramic Coating](/posts/tesla-ceramic-coating/) - Protect your repairs with ceramic coating
+- [Headlight Condensation](/posts/tesla-headlight-condensation/) - Related exterior maintenance

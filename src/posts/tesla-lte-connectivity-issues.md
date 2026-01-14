@@ -184,7 +184,7 @@ Pre-2018 vehicles with MCU1 may have:
 - Slower cellular modems
 - Less reliable connectivity
 - 3G sunset affecting some models
-- MCU upgrade available ($1500-2500)
+- [MCU upgrade](/posts/tesla-mcu-touchscreen-upgrade/) available ($1500-2500)
 
 ### When Modem Fails
 
@@ -226,3 +226,9 @@ Before your appointment:
 ---
 
 *LTE connectivity issues are frustrating but often software-related. Try the basic troubleshooting steps before assuming hardware failure.*
+
+## Related Guides
+
+- [Software Update Stuck](/posts/tesla-software-update-stuck/) - WiFi troubleshooting techniques apply
+- [Navigation Not Working](/posts/tesla-navigation-not-working/) - Related connectivity issues
+- [MCU Touchscreen Upgrade](/posts/tesla-mcu-touchscreen-upgrade/) - For older vehicles with modem issues

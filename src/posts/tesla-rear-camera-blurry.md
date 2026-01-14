@@ -160,7 +160,7 @@ Consider replacement if:
 
 If you replace the camera:
 
-1. New calibration is required
+1. New [calibration](/posts/tesla-autopilot-camera-calibration/) is required
 2. Drive 20-50 miles on well-marked roads
 3. System will calibrate automatically
 4. Autopilot features may be limited during calibration
@@ -186,3 +186,9 @@ Keep your rear camera working well:
 ---
 
 *A clear rear camera is essential for safety and security. Most issues are solved with regular cleaning, but don't ignore persistent fog or image problems.*
+
+## Related Guides
+
+- [Autopilot Camera Calibration](/posts/tesla-autopilot-camera-calibration/) - Full calibration guide after camera work
+- [Dashcam Not Saving](/posts/tesla-dashcam-not-saving/) - Camera affects recording quality
+- [Sentry Mode Not Recording](/posts/tesla-sentry-mode-not-recording/) - Related camera and storage issues

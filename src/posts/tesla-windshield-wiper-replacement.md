@@ -157,3 +157,9 @@ For this repair, the savings aren't huge, but it's so easy there's no reason to 
 ---
 
 *Good visibility is a safety issue. Don't wait until you can barely see through the rain to replace your wipers. Check them at every tire rotation.*
+
+## Related Guides
+
+- [Tire Rotation](/posts/tesla-tire-rotation/) - Check wipers at each service
+- [Ceramic Coating](/posts/tesla-ceramic-coating/) - Apply to windshield for water beading
+- [Cabin Air Filter](/posts/tesla-cabin-air-filter/) - Another easy maintenance item

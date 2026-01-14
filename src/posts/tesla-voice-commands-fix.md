@@ -195,3 +195,9 @@ Hardware microphone failure is rare but possible, especially after water intrusi
 ---
 
 *Voice commands are convenient once you learn the right phrases. Practice the common commands and they'll become second nature.*
+
+## Related Guides
+
+- [Bluetooth Issues](/posts/tesla-bluetooth-issues/) - Audio connectivity problems
+- [Screen Black Fix](/posts/tesla-screen-black-fix/) - If voice button doesn't respond
+- [Steering Wheel Buttons](/posts/tesla-steering-wheel-buttons/) - If scroll wheel activation fails

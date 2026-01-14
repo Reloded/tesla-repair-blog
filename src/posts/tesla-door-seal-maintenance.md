@@ -199,7 +199,7 @@ Some seals can be replaced at home:
 ## Model-Specific Tips
 
 **Model 3/Y:**
-- Frameless windows require excellent window calibration
+- Frameless windows require excellent [window calibration](/posts/tesla-window-reset-calibration/)
 - Recalibrate windows if wind noise develops
 - B-pillar seal area prone to wind noise
 
@@ -224,3 +224,9 @@ Some seals can be replaced at home:
 ---
 
 *Door seal maintenance is one of the easiest and most impactful things you can do for your Tesla. Ten minutes of care a few times a year prevents water damage, eliminates wind noise, and keeps your car feeling tight and new.*
+
+## Related Guides
+
+- [Window Reset Calibration](/posts/tesla-window-reset-calibration/) - Fix wind noise from window issues
+- [Creaking and Rattling Fix](/posts/tesla-creaking-rattling-fix/) - Related noise issues
+- [Falcon Wing Door Fix](/posts/tesla-falcon-wing-door-fix/) - Model X specific door seal care

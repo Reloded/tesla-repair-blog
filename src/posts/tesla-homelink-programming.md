@@ -192,3 +192,9 @@ If you don't have HomeLink:
 ---
 
 *HomeLink makes arriving home seamless once properly configured. Take time to set it up correctly, and you'll rarely think about your garage door again.*
+
+## Related Guides
+
+- [Screen Black Fix](/posts/tesla-screen-black-fix/) - If controls aren't responding
+- [Software Update Stuck](/posts/tesla-software-update-stuck/) - Update issues can affect HomeLink
+- [Navigation Not Working](/posts/tesla-navigation-not-working/) - Location issues affect auto-open
