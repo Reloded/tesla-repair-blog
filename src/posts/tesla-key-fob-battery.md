@@ -121,3 +121,9 @@ Battery life depends on how often you use the buttons and how far you are from t
 ---
 
 *Keep a spare CR2032 in your car's center console. When the fob starts acting up, you can swap batteries anywhere in under 2 minutes.*
+
+## Related Guides
+
+- [Phone Key Not Working](/posts/tesla-phone-key-not-working/) - Your phone as backup entry method
+- [Door Handle Not Working](/posts/tesla-door-handle-not-working/) - If fob works but handles don't
+- [12V Battery Replacement](/posts/tesla-12v-battery-replacement/) - Low 12V can affect fob detection

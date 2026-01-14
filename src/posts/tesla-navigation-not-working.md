@@ -94,7 +94,7 @@ If the map shows you in the wrong place:
 
 - Wait 30 seconds for GPS to correct
 - Reboot if location doesn't update
-- Check for MCU hardware issues if persistent
+- Check for [MCU hardware issues](/posts/tesla-mcu-touchscreen-upgrade/) if persistent
 
 ## Routing Problems
 
@@ -189,3 +189,9 @@ Reach out to Tesla if:
 ---
 
 *Navigation issues are usually connectivity-related. Ensure you have adequate signal or WiFi access, and most problems resolve themselves.*
+
+## Related Guides
+
+- [LTE Connectivity Issues](/posts/tesla-lte-connectivity-issues/) - Fix cellular data problems
+- [Software Update Stuck](/posts/tesla-software-update-stuck/) - WiFi troubleshooting techniques
+- [MCU Touchscreen Upgrade](/posts/tesla-mcu-touchscreen-upgrade/) - For persistent display issues on older models

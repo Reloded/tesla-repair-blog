@@ -253,3 +253,9 @@ Consider professional installation if:
 ---
 
 *DIY PPF installation is rewarding but demanding. Starting with high-impact, flat areas lets you learn the technique before tackling complex curves. Many Tesla owners successfully protect their hood and bumper edges while leaving full coverage to professionals.*
+
+## Related Guides
+
+- [Ceramic Coating](/posts/tesla-ceramic-coating/) - Apply over PPF for extra protection
+- [Paint Chip Repair](/posts/tesla-paint-chip-repair/) - Fix chips before applying PPF
+- [Headlight Condensation](/posts/tesla-headlight-condensation/) - Protect headlights too

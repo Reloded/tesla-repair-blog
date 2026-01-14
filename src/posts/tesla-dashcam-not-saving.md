@@ -199,3 +199,9 @@ Reach out to Tesla if:
 ---
 
 *A reliable dashcam setup is worth the investment in a quality USB SSD. Most recording issues are solved by proper formatting and using compatible storage devices.*
+
+## Related Guides
+
+- [Sentry Mode Not Recording](/posts/tesla-sentry-mode-not-recording/) - Same USB troubleshooting applies
+- [USB Not Working](/posts/tesla-usb-not-working/) - Port and device issues
+- [Autopilot Camera Calibration](/posts/tesla-autopilot-camera-calibration/) - Camera issues affect recording

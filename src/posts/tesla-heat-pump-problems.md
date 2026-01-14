@@ -79,7 +79,7 @@ Unlike gas cars that use engine waste heat, Tesla uses a heat pump to move heat 
 
 A clogged filter is the #1 cause of HVAC underperformance:
 
-1. Remove the cabin air filter (located under the frunk in Model 3/Y)
+1. Remove the [cabin air filter](/posts/tesla-cabin-air-filter/) (located under the frunk in Model 3/Y)
 2. Inspect for dirt, leaves, and debris
 3. Replace if dirty (every 2 years recommended)
 4. Test heat output
@@ -198,3 +198,9 @@ If your heat pump is struggling:
 ---
 
 *Heat pump issues are frustrating, especially in winter. Start with the free DIY checks (filter, software reset, preconditioning) before assuming the worst. Many problems are software-related and resolve with updates.*
+
+## Related Guides
+
+- [AC Not Cooling](/posts/tesla-ac-not-cooling/) - Overlapping issues with cooling system
+- [Climate Keeper Issues](/posts/tesla-climate-keeper-issues/) - Dog Mode and Camp Mode problems
+- [Cabin Air Filter Replacement](/posts/tesla-cabin-air-filter/) - First step for any HVAC issue

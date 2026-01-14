@@ -110,7 +110,7 @@ A common complaint is squeaking from the front lower control arm bushings. Tesla
 3. This is a temporary fix—replacement may be needed eventually
 
 **Permanent Fix:**
-- Control arm replacement (requires alignment after)
+- [Control arm replacement](/posts/tesla-control-arm-replacement/) (requires [alignment](/posts/tesla-wheel-alignment-diy/) after)
 - ~$200-400 at an independent shop
 - ~$600+ at Tesla
 
@@ -210,3 +210,9 @@ If you take your car in for service, help the technician by documenting:
 ---
 
 *Don't ignore suspension noises. What starts as a minor annoyance can become a safety issue or lead to accelerated tire wear if left unchecked.*
+
+## Related Guides
+
+- [Control Arm Replacement](/posts/tesla-control-arm-replacement/) - When bushings need replacement
+- [Wheel Alignment DIY](/posts/tesla-wheel-alignment-diy/) - Required after suspension work
+- [Creaking and Rattling Fix](/posts/tesla-creaking-rattling-fix/) - Additional noise troubleshooting

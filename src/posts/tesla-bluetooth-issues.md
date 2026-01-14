@@ -39,7 +39,7 @@ The phone key function is separate from regular Bluetooth audio. If your phone i
 4. If setup is needed, follow prompts in the car and app
 
 <div class="warning-box">
-<strong>Important:</strong> Always carry your key card as backup. Phone keys can fail due to phone updates, app issues, or Bluetooth problems.
+<strong>Important:</strong> Always carry your key card as backup. Phone keys can fail due to phone updates, app issues, or Bluetooth problems. Consider a [key fob](/posts/tesla-key-fob-battery/) as a more reliable alternative.
 </div>
 
 ### Phone-Specific Requirements
@@ -171,3 +171,9 @@ After Tesla software updates, Bluetooth may need attention:
 ---
 
 *Bluetooth issues are usually software-related and fixable at home. The key is methodically working through reset procedures to clear any corrupted connection data.*
+
+## Related Guides
+
+- [Phone Key Not Working](/posts/tesla-phone-key-not-working/) - Detailed phone key troubleshooting
+- [Key Fob Battery Replacement](/posts/tesla-key-fob-battery/) - Reliable backup to phone key
+- [LTE Connectivity Issues](/posts/tesla-lte-connectivity-issues/) - Other connectivity problems

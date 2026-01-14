@@ -82,7 +82,7 @@ Cold weather significantly impacts regen. Here's how to adapt:
 - **Use scheduled departure** - the car warms the battery automatically
 - **Expect reduced range** - plan for 20-30% less range in winter
 - **Drive the first few kilometers gently** - battery warms up through use
-- **Don't rely on one-pedal driving** - use mechanical brakes more
+- **Don't rely on one-pedal driving** - use mechanical brakes more (which [keeps them clean](/posts/tesla-squeaky-brakes-fix/))
 
 ### Summer Considerations
 
@@ -146,3 +146,8 @@ There's no cost or damage from driving with limited regen. However:
 ---
 
 *Regenerative braking limits are a normal part of EV ownership. Understanding the causes helps you adapt your driving and maximize efficiency year-round.*
+
+## Related Guides
+
+- [Phantom Braking Fix](/posts/tesla-phantom-braking-fix/) - Related Autopilot braking behavior
+- [Range Loss Fix](/posts/tesla-range-loss-fix/) - Maximize efficiency when regen is limited

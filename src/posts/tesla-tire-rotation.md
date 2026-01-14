@@ -174,7 +174,7 @@ While the tires are off, check tread depth:
 ### When to Skip DIY
 
 Consider professional service if:
-- You notice alignment issues (pulling, uneven wear)
+- You notice [alignment issues](/posts/tesla-wheel-alignment-diy/) (pulling, uneven wear)
 - Wheels need balancing (vibration at highway speeds)
 - You're uncomfortable with the process
 - You need tires dismounted and remounted
@@ -182,3 +182,9 @@ Consider professional service if:
 ---
 
 *Regular tire rotations are one of the simplest ways to extend tire life and save money on replacements. The $50-100 savings per rotation adds up quickly.*
+
+## Related Guides
+
+- [Wheel Alignment DIY](/posts/tesla-wheel-alignment-diy/) - Check alignment with each rotation
+- [Brake Pad Replacement](/posts/tesla-brake-pad-replacement/) - Inspect brakes while rotating
+- [Aero Cap Removal](/posts/tesla-aero-cap-removal/) - Remove covers before rotation

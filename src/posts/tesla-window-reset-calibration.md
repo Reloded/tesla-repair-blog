@@ -75,7 +75,7 @@ For persistent issues, use the service menu:
 
 Several things can cause calibration to drift:
 
-- **12V battery disconnect or replacement** - Resets the position memory
+- **[12V battery](/posts/tesla-12v-battery-replacement/) disconnect or replacement** - Resets the position memory
 - **Software updates** - Occasionally reset window parameters
 - **Temperature extremes** - Rubber seals expand and contract
 - **Dirty window tracks** - Resistance causes the motor to misjudge position
@@ -160,3 +160,9 @@ The DIY calibration fix solves 90% of Tesla window issues at zero cost.
 ---
 
 *Window problems are one of the most common Tesla complaints, but they're almost always fixable with a simple recalibration. Try the manual reset before scheduling service!*
+
+## Related Guides
+
+- [Door Seal Maintenance](/posts/tesla-door-seal-maintenance/) - Keep seals in good condition
+- [Creaking and Rattling Fix](/posts/tesla-creaking-rattling-fix/) - Window-related noises
+- [Trunk Won't Close](/posts/tesla-trunk-wont-close/) - Similar recalibration techniques

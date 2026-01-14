@@ -189,7 +189,7 @@ Enable alerts for peace of mind:
 
 Reach out to Tesla if:
 
-- Climate system doesn't cool/heat at all
+- Climate system doesn't cool/heat at all (see [AC troubleshooting](/posts/tesla-ac-not-cooling/) or [heat pump guide](/posts/tesla-heat-pump-problems/))
 - Features enable but don't maintain temperature
 - Error messages persist after reboots
 - AC compressor makes unusual noises
@@ -197,3 +197,9 @@ Reach out to Tesla if:
 ---
 
 *Climate Keeper features are excellent for pet safety and camping, but always monitor your Tesla's battery level and climate status through the app.*
+
+## Related Guides
+
+- [AC Not Cooling](/posts/tesla-ac-not-cooling/) - Full climate system troubleshooting
+- [Heat Pump Problems](/posts/tesla-heat-pump-problems/) - Heat-related issues in Climate Keeper
+- [Range Loss Fix](/posts/tesla-range-loss-fix/) - Minimize battery drain from climate features

@@ -149,3 +149,9 @@ Most trunk closing issues are simple alignment problems that take minutes to fix
 ---
 
 *Regular maintenance of trunk components prevents most closing issues. A quick spray of lubricant every few months goes a long way.*
+
+## Related Guides
+
+- [Frunk Won't Open](/posts/tesla-frunk-wont-open/) - Similar latch mechanisms
+- [Door Handle Not Working](/posts/tesla-door-handle-not-working/) - Related electrical latch issues
+- [Window Reset Calibration](/posts/tesla-window-reset-calibration/) - Similar calibration procedures

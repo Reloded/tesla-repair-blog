@@ -186,7 +186,7 @@ Many independent shops with modern equipment can align Teslas. Request printout 
 
 - **Check tire pressure regularly** - affects ride height and wear
 - **Inspect after impacts** - potholes, curbs, debris
-- **Rotate tires** - helps identify alignment wear patterns early
+- **[Rotate tires](/posts/tesla-tire-rotation/)** - helps identify alignment wear patterns early
 - **Annual alignment check** - even without symptoms
 - **Use quality tires** - better tires show alignment issues more clearly
 
@@ -203,3 +203,9 @@ For enthusiasts who want to monitor alignment:
 ---
 
 *DIY alignment checking is valuable for catching problems early. For actual adjustments, most Tesla owners benefit from professional service with modern computerized equipment that ensures precise results.*
+
+## Related Guides
+
+- [Control Arm Replacement](/posts/tesla-control-arm-replacement/) - Alignment required after this job
+- [Tire Rotation](/posts/tesla-tire-rotation/) - Check alignment during rotation
+- [Suspension Noise Fix](/posts/tesla-suspension-noise-fix/) - Alignment issues can cause noises

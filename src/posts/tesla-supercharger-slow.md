@@ -151,3 +151,9 @@ For optimal trip times:
 ---
 
 *Supercharging speeds vary based on many factors. Understanding these helps you plan better and reduces frustration during road trips.*
+
+## Related Guides
+
+- [Slow Charging Fix](/posts/tesla-slow-charging-fix/) - Home charging speed issues
+- [Charge Port Stuck](/posts/tesla-charge-port-stuck/) - If you can't connect to Supercharger
+- [Range Loss Fix](/posts/tesla-range-loss-fix/) - Maximize range between charging stops

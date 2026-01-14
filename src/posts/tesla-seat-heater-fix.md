@@ -206,3 +206,9 @@ Keep seat heaters working longer:
 ---
 
 *Seat heater issues are often connection-related and can be fixed without major expense. Always check the simple things first before assuming the worst.*
+
+## Related Guides
+
+- [Climate Keeper Issues](/posts/tesla-climate-keeper-issues/) - Climate system features using seat heaters
+- [12V Battery Replacement](/posts/tesla-12v-battery-replacement/) - Power issues affect heated seats
+- [AC Not Cooling](/posts/tesla-ac-not-cooling/) - Related climate system troubleshooting

@@ -252,3 +252,9 @@ Periodically check:
 ---
 
 *DIY ceramic coating delivers excellent results for Tesla owners willing to invest time in proper preparation. The water-beading effect and easier cleaning make it worthwhile even if you need to reapply sooner than professional coatings.*
+
+## Related Guides
+
+- [PPF Installation](/posts/tesla-ppf-installation/) - Apply PPF before ceramic for maximum protection
+- [Paint Chip Repair](/posts/tesla-paint-chip-repair/) - Fix chips before coating
+- [Windshield Wiper Replacement](/posts/tesla-windshield-wiper-replacement/) - Clean wiper area before coating

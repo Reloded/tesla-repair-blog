@@ -82,7 +82,7 @@ If you see "Cameras Calibrating" after a windshield replacement or service:
 
 ### Force Recalibration
 
-If calibration seems stuck:
+If calibration seems stuck, see our full [camera calibration guide](/posts/tesla-autopilot-camera-calibration/):
 
 1. Go to **Controls > Service > Camera Calibration**
 2. Select **Clear Calibration**
@@ -150,3 +150,9 @@ Keep Autopilot working reliably:
 ---
 
 *Most Autopilot unavailability issues are temporary. Try the simple fixes first before scheduling service - you'll often save yourself a trip.*
+
+## Related Guides
+
+- [Camera Calibration](/posts/tesla-autopilot-camera-calibration/) - Full guide to recalibrating cameras
+- [Phantom Braking Fix](/posts/tesla-phantom-braking-fix/) - Related Autopilot behavior issues
+- [Dashcam Not Saving](/posts/tesla-dashcam-not-saving/) - Camera issues may affect both systems

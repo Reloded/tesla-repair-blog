@@ -100,7 +100,7 @@ If the burnish procedure doesn't work:
 
 For glazed pads that don't respond to the burnish procedure:
 
-1. Remove the caliper (see brake pad replacement guide)
+1. Remove the caliper (see [brake pad replacement guide](/posts/tesla-brake-pad-replacement/))
 2. Remove the brake pads
 3. Use 150-grit sandpaper to lightly scuff the pad surface
 4. Don't remove much material—just break up the glaze
@@ -174,3 +174,8 @@ Squeaky brakes on a Tesla are usually not a safety concern. They're a side effec
 ---
 
 *Don't let brake noise stress you out. In most cases, it's just your Tesla's way of telling you that regenerative braking is doing its job.*
+
+## Related Guides
+
+- [Brake Pad Replacement](/posts/tesla-brake-pad-replacement/) - When cleaning doesn't fix the noise
+- [Suspension Noise Fix](/posts/tesla-suspension-noise-fix/) - Rule out suspension noises first
