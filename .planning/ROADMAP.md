@@ -118,7 +118,6 @@ Plans:
 **Depends on:** Phase 7
 **Research:** Likely (affiliate programs)
 **Research topics:** Tesla-related affiliate programs, conversion optimization
-**Plans:** TBD
 
 Tasks:
 - Research additional affiliate programs
@@ -128,7 +127,9 @@ Tasks:
 - Consider display ads (if traffic sufficient)
 
 Plans:
-- [ ] 08-01: TBD
+- [x] 08-01: Revenue strategy and CTA improvements
+
+**Status:** Complete
 
 ---
 
@@ -143,7 +144,7 @@ Plans:
 | 5. SEO & Search Console | v2.0 | 1/1 | Complete | 2026-01-14 |
 | 6. Content Strategy | v2.0 | 1/1 | Complete | 2026-01-14 |
 | 7. Promotion & Backlinks | v2.0 | 1/1 | Complete | 2026-01-14 |
-| 8. Revenue Optimization | v2.0 | 0/? | Not started | - |
+| 8. Revenue Optimization | v2.0 | 1/1 | Complete | 2026-01-14 |
 
 ---
 *Updated: 2026-01-14*
