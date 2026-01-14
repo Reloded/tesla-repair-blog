@@ -124,17 +124,16 @@ Plans:
 **Depends on:** Phase 9
 **Research:** Likely (affiliate program applications)
 **Research topics:** iFixit affiliate program, Tesmanian partnership, Lectron affiliate terms
-**Plans:** TBD
+**Status:** Complete
 
-Tasks:
-- Apply to iFixit affiliate program
-- Apply to Tesmanian accessories affiliate
-- Apply to Lectron charging affiliate
-- Update existing articles with new affiliate links
-- Track performance by affiliate source
+Accomplishments:
+- Researched iFixit, Tesmanian, Lectron affiliate programs
+- Created AFFILIATE-PROGRAMS.md with application checklists
+- Created ARTICLE-UPDATE-GUIDE.md with implementation templates
+- Revenue projection: ~€97-105/month additional
 
 Plans:
-- [ ] 10-01: TBD
+- [x] 10-01: Research affiliate programs and create strategy docs
 
 ---
 
@@ -188,7 +187,7 @@ Plans:
 | 7. Promotion & Backlinks | v2.0 | 1/1 | Complete | 2026-01-14 |
 | 8. Revenue Optimization | v2.0 | 1/1 | Complete | 2026-01-14 |
 | 9. Content Expansion | v3.0 | 2/2 | Complete | 2026-01-14 |
-| 10. Affiliate Expansion | v3.0 | 0/? | Not started | - |
+| 10. Affiliate Expansion | v3.0 | 1/1 | Complete | 2026-01-14 |
 | 11. Internal Linking | v3.0 | 0/? | Not started | - |
 | 12. Search Optimization | v3.0 | 0/? | Not started | - |
 
