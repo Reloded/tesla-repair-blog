@@ -159,18 +159,16 @@ Plans:
 **Goal:** Monitor rankings and optimize underperforming content
 **Depends on:** Phase 11
 **Research:** Likely (SEO tools, rank tracking)
-**Research topics:** Google Search Console analysis, rank tracking tools, content optimization
-**Plans:** TBD
+**Status:** Planned
 
 Tasks:
-- Analyze Search Console data for opportunities
-- Identify underperforming articles
-- Optimize titles, meta descriptions, content
-- Build more backlinks to key pages
-- Track ranking improvements
+- Create SEO monitoring guide for Search Console
+- Document optimization checklist for all 51 articles
+- Provide title/meta description improvements
+- Define implementation priorities
 
 Plans:
-- [ ] 12-01: TBD
+- [ ] 12-01: Create SEO monitoring guide and optimization checklist
 
 ---
 
@@ -189,7 +187,7 @@ Plans:
 | 9. Content Expansion | v3.0 | 2/2 | Complete | 2026-01-14 |
 | 10. Affiliate Expansion | v3.0 | 1/1 | Complete | 2026-01-14 |
 | 11. Internal Linking | v3.0 | 2/2 | Complete | 2026-01-14 |
-| 12. Search Optimization | v3.0 | 0/? | Not started | - |
+| 12. Search Optimization | v3.0 | 0/1 | Planned | - |
 
 ---
 *Updated: 2026-01-14*
