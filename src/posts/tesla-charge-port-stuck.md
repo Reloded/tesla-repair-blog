@@ -13,6 +13,9 @@ tools:
     link: "https://www.amazon.de/s?k=thin+flathead+screwdriver&tag=diyrepair-21"
   - name: "Flashlight"
     link: "https://www.amazon.de/s?k=small+flashlight&tag=diyrepair-21"
+  - name: "Lectron Tesla to J1772 Adapter"
+    link: "https://www.awin1.com/cread.php?awinmid=91891&awinaffid=2729872&ued=https%3A%2F%2Fev-lectron.com%2Fcollections%2Ftesla-charger-adapters"
+    provider: "lectron"
 ---
 
 Few things are more frustrating than being ready to leave and your Tesla charging cable won't release. Whether you're at home, a Supercharger, or a public charger, a stuck charge port can leave you stranded. Here's how to fix it.

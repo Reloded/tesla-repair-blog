@@ -17,6 +17,12 @@ tools:
     link: "https://www.amazon.de/s?k=tesla+mobile+connector+adapter&tag=diyrepair-21"
   - name: "Replacement Mobile Connector Gen 2"
     link: "https://www.amazon.de/s?k=tesla+mobile+connector+gen+2&tag=diyrepair-21"
+  - name: "Lectron Portable EV Charger"
+    link: "https://www.awin1.com/cread.php?awinmid=91891&awinaffid=2729872&ued=https%3A%2F%2Fev-lectron.com%2Fcollections%2Felectric-vehicle-chargers"
+    provider: "lectron"
+  - name: "Lectron Tesla Charging Adapters"
+    link: "https://www.awin1.com/cread.php?awinmid=91891&awinaffid=2729872&ued=https%3A%2F%2Fev-lectron.com%2Fcollections%2Ftesla-charger-adapters"
+    provider: "lectron"
 ---
 
 The Tesla Mobile Connector (also called the UMC - Universal Mobile Connector) is your portable charging solution. When it stops working, you're stuck without a way to charge away from home. Here's how to diagnose and fix common Mobile Connector issues.

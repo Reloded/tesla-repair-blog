@@ -8,7 +8,10 @@ difficulty: "Informational"
 readTime: "8 min read"
 models: "All Models"
 emoji: "⚡"
-tools: []
+tools:
+  - name: "Lectron Portable EV Charger"
+    link: "https://www.awin1.com/cread.php?awinmid=91891&awinaffid=2729872&ued=https%3A%2F%2Fev-lectron.com%2Fcollections%2Felectric-vehicle-chargers"
+    provider: "lectron"
 ---
 
 If you've noticed the dotted line on your Tesla's power meter or received a "Regenerative braking limited" message, you're not alone. This is one of the most common questions from new Tesla owners. The good news: it's usually completely normal and not a sign of anything wrong with your car.
