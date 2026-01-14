@@ -174,6 +174,8 @@ Dirty contacts can cause:
 
 ### Charge Port Won't Open/Close
 
+If your [charge port is stuck](/posts/tesla-charge-port-stuck/), try the manual release:
+
 **Manual Release:**
 - Model 3/Y: Pull emergency release in trunk
 - Model S/X: Use touchscreen or key fob
@@ -238,3 +240,9 @@ If you answer "yes" to all above and still have slow charging, schedule service 
 ---
 
 *Slow charging is usually caused by cold batteries, settings issues, or outlet problems—all fixable without service. Check the simple things first before assuming something expensive is broken.*
+
+## Related Guides
+
+- [Mobile Connector Issues](/posts/tesla-mobile-connector-issues/) - Diagnose problems with your charging equipment
+- [Supercharger Slow](/posts/tesla-supercharger-slow/) - Specific troubleshooting for Supercharger speeds
+- [Range Loss Fix](/posts/tesla-range-loss-fix/) - If charging is fine but range seems low

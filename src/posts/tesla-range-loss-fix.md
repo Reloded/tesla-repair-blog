@@ -119,11 +119,11 @@ Your displayed range assumes ideal conditions. Real range varies by:
 ### Driving Style
 - Highway speeds above 70 mph significantly reduce range
 - Aggressive acceleration uses more energy
-- Regenerative braking improves efficiency
+- [Regenerative braking](/posts/tesla-regen-braking-reduced/) improves efficiency
 
 ### Tire Pressure
 - Under-inflated tires increase rolling resistance
-- Check pressure monthly
+- Check pressure monthly during [tire rotations](/posts/tesla-tire-rotation/)
 - Use Tesla's recommended PSI (found on door jamb)
 
 ## Battery Health Best Practices
@@ -182,3 +182,9 @@ Seek service if:
 ---
 
 *Most range loss is due to settings and habits, not battery problems. Optimize your configuration and you'll likely recover significant range.*
+
+## Related Guides
+
+- [Slow Charging Fix](/posts/tesla-slow-charging-fix/) - Charging efficiency affects perceived range
+- [Tire Rotation](/posts/tesla-tire-rotation/) - Proper tire pressure improves range
+- [Gear Oil Change](/posts/tesla-gear-oil-change/) - Fresh gear oil reduces drivetrain losses

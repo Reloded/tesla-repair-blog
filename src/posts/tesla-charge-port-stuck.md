@@ -25,7 +25,7 @@ Common causes:
 - **Software glitch** - Car thinks it's still charging
 - **Physical obstruction** - Debris in the port
 - **Latch mechanism failure** - Mechanical issue
-- **Low 12V battery** - Not enough power to release latch
+- **Low 12V battery** - Not enough power to release latch (see [12V battery replacement](/posts/tesla-12v-battery-replacement/))
 - **Charging session still active** - Charger hasn't ended the session
 
 ## Quick Fixes to Try First
@@ -159,3 +159,8 @@ If there's a mechanical failure, yes. If it's due to ice or user damage, no.
 ---
 
 *Keep a small flashlight in your car to help locate the manual release if needed, especially in a dark parking garage.*
+
+## Related Guides
+
+- [Tesla Slow Charging Fix](/posts/tesla-slow-charging-fix/) - If your port opens but charging is slow
+- [Mobile Connector Issues](/posts/tesla-mobile-connector-issues/) - Troubleshoot your home charging equipment

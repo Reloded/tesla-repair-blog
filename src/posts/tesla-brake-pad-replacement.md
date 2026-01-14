@@ -32,7 +32,7 @@ Teslas use regenerative braking, which means the electric motors slow the car do
 - Hard stops
 - Low-speed maneuvering
 - Emergency braking
-- When regen is limited (cold battery or full charge)
+- When [regen is limited](/posts/tesla-regen-braking-reduced/) (cold battery or full charge)
 
 Because of this, Tesla brake pads can last **100,000+ miles** for many drivers—compared to 30,000-50,000 miles on typical gas cars.
 
@@ -40,7 +40,7 @@ Because of this, Tesla brake pads can last **100,000+ miles** for many drivers�
 
 Signs your brake pads need replacement:
 
-- **Squealing or squeaking** when braking
+- **Squealing or squeaking** when braking (see our [squeaky brakes guide](/posts/tesla-squeaky-brakes-fix/) for quick fixes before replacing)
 - **Grinding noise** (urgent—you may be damaging rotors)
 - **Visible wear indicator** on the pad (less than 3mm remaining)
 - **Longer stopping distance**
@@ -161,3 +161,8 @@ No, DIY brake pad replacement doesn't void any warranty. It's a standard mainten
 ---
 
 *This is one of the most satisfying DIY repairs because the savings are significant and the process is straightforward once you've done it once.*
+
+## Related Guides
+
+- [Tesla Squeaky Brakes Fix](/posts/tesla-squeaky-brakes-fix/) - Try these fixes before replacing pads
+- [Tesla Tire Rotation](/posts/tesla-tire-rotation/) - Combine with brake service to save time

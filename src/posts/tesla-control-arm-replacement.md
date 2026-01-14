@@ -28,7 +28,7 @@ The front upper control arms are one of the most common wear items on Tesla vehi
 **Audible Signs:**
 - Squeaking over bumps (especially when cold)
 - Clunking when turning at low speeds
-- Creaking during parking maneuvers
+- Creaking during parking maneuvers (also check our [creaking and rattling fix guide](/posts/tesla-creaking-rattling-fix/))
 - Noise gets worse in wet weather
 
 **Handling Signs:**
@@ -156,7 +156,7 @@ Mirror the process for the passenger side.
 
 ### Wheel Alignment
 
-**Critical:** Control arm replacement changes suspension geometry. You must get a wheel alignment after this repair.
+**Critical:** Control arm replacement changes suspension geometry. You must get a [wheel alignment](/posts/tesla-wheel-alignment-diy/) after this repair.
 
 - Drive directly to alignment shop (within 10 miles)
 - Expect to pay $80-150 for alignment
@@ -204,3 +204,9 @@ After alignment, test drive and check for:
 ---
 
 *Control arm replacement is one of the more involved DIY repairs, but it's absolutely doable with basic mechanical skills. The key is taking your time, using proper tools, and always getting an alignment afterward.*
+
+## Related Guides
+
+- [Wheel Alignment DIY](/posts/tesla-wheel-alignment-diy/) - Required after control arm replacement
+- [Suspension Noise Fix](/posts/tesla-suspension-noise-fix/) - Diagnose noises before replacing parts
+- [Creaking and Rattling Fix](/posts/tesla-creaking-rattling-fix/) - Other sources of suspension noise

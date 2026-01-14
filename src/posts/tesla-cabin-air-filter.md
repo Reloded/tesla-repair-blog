@@ -25,7 +25,7 @@ The cabin air filter is one of the easiest DIY maintenance items on any Tesla. T
 
 The cabin air filter cleans all the air that enters your Tesla's interior through the HVAC system. A dirty filter causes:
 
-- **Reduced AC/heating efficiency**
+- **Reduced AC/heating efficiency** (if [AC isn't cooling](/posts/tesla-ac-not-cooling/) properly, start here)
 - **Musty or bad smells** when the AC runs
 - **Foggy windows** that don't clear quickly
 - **Increased allergens** inside the car
@@ -165,8 +165,13 @@ Model X filter locations:
 
 3. **Check when buying used** - If you buy a used Tesla, the cabin filter is probably overdue. Replace it immediately.
 
-4. **Combine with AC cleaning** - While the filter is out, consider using an AC evaporator cleaner spray for better results.
+4. **Combine with AC cleaning** - While the filter is out, consider using an AC evaporator cleaner spray for better results. If you're experiencing [heat pump problems](/posts/tesla-heat-pump-problems/), a clean filter is the first step.
 
 ---
 
 *This is the perfect "first DIY repair" for Tesla owners. It's simple, saves money, and improves your daily driving experience.*
+
+## Related Guides
+
+- [Tesla AC Not Cooling](/posts/tesla-ac-not-cooling/) - Full AC troubleshooting if filter replacement doesn't help
+- [Seat Heater Fix](/posts/tesla-seat-heater-fix/) - Another interior comfort maintenance guide

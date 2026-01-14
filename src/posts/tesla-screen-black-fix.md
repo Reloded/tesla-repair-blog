@@ -177,10 +177,16 @@ Software updates occasionally cause temporary issues:
 | Issue | Likely Cause | Fix |
 |-------|--------------|-----|
 | Random black screen | Software glitch | Soft reboot |
-| Always black at startup | 12V battery low | Replace 12V battery |
+| Always black at startup | 12V battery low | [Replace 12V battery](/posts/tesla-12v-battery-replacement/) |
 | Freezing often | Background app issues | Hard reboot, update software |
 | Yellow border/screen | Old MCU failing | MCU replacement (service center) |
 
 ---
 
 *Most Tesla screen issues are solved with a simple soft reboot. Try that first before worrying about anything more serious.*
+
+## Related Guides
+
+- [12V Battery Replacement](/posts/tesla-12v-battery-replacement/) - Low 12V battery often causes black screens
+- [MCU Touchscreen Upgrade](/posts/tesla-mcu-touchscreen-upgrade/) - Permanent solution for older Model S/X with failing screens
+- [Software Update Stuck](/posts/tesla-software-update-stuck/) - If screen issues started after an update

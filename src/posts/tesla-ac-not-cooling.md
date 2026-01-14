@@ -59,7 +59,7 @@ Before assuming something is broken:
 **Check the cabin air filter:**
 - A clogged filter dramatically reduces airflow
 - Tesla recommends replacement every 2 years
-- Easy DIY job (see our cabin air filter guide)
+- Easy DIY job (see our [cabin air filter replacement guide](/posts/tesla-cabin-air-filter/))
 
 ### 2. Diagnose the Problem
 
@@ -200,8 +200,14 @@ The heat pump is more efficient but has more components that can fail:
 - **Octovalve failures** - Rare but serious
 - **Refrigerant distribution** - Can cause inconsistent temps
 
-Most heat pump issues have been addressed through software updates. If you have issues, make sure you're on the latest software version.
+Most heat pump issues have been addressed through software updates. If you have issues, make sure you're on the latest software version. For more details, see our [heat pump problems guide](/posts/tesla-heat-pump-problems/).
 
 ---
 
 *Most Tesla AC problems come down to dirty cabin filters or software glitches—both easy fixes. If you've tried the basics and still have issues, getting a professional diagnosis is worth the cost before throwing parts at it.*
+
+## Related Guides
+
+- [Cabin Air Filter Replacement](/posts/tesla-cabin-air-filter/) - First step for any AC issues
+- [Heat Pump Problems](/posts/tesla-heat-pump-problems/) - Specific guide for 2021+ models
+- [Climate Keeper Issues](/posts/tesla-climate-keeper-issues/) - Dog Mode and Camp Mode troubleshooting

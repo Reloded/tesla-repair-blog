@@ -95,7 +95,7 @@ Signs of USB drive failure:
 - Partial or scrambled footage
 - "Cannot read file" errors
 
-**Solution:** Replace the USB drive. Continuous recording wears out standard USB drives. Use high-endurance or SSD drives designed for dashcam use.
+**Solution:** Replace the USB drive. Continuous recording wears out standard USB drives. Use high-endurance or SSD drives designed for dashcam use. See our [USB not working guide](/posts/tesla-usb-not-working/) for more troubleshooting.
 
 ## Camera Problems
 
@@ -214,3 +214,9 @@ Camera hardware or software issue:
 ---
 
 *Sentry Mode provides excellent security when properly configured. Regular maintenance of your USB drive and occasional checks of your footage ensure you're protected when you need it.*
+
+## Related Guides
+
+- [Dashcam Not Saving](/posts/tesla-dashcam-not-saving/) - Same USB fixes apply to dashcam
+- [USB Not Working](/posts/tesla-usb-not-working/) - Detailed USB port troubleshooting
+- [Rear Camera Blurry](/posts/tesla-rear-camera-blurry/) - Camera issues affect recording quality

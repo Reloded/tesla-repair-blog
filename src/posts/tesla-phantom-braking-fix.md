@@ -95,7 +95,7 @@ Sometimes cameras need recalibration:
 1. Go to **Controls > Service > Camera Calibration**
 2. Select **Clear Calibration**
 3. Drive on well-marked roads for 20-100 miles
-4. The car will recalibrate automatically
+4. The car will recalibrate automatically (see our [camera calibration guide](/posts/tesla-autopilot-camera-calibration/) for details)
 
 **When to recalibrate:**
 - After windshield replacement
@@ -248,3 +248,9 @@ From community experience:
 ---
 
 *Phantom braking is frustrating, but it's improving with every software update. The best approach is a combination of keeping cameras clean, staying updated, and being prepared to take over. Remember: Autopilot is driver assistance, not autonomous driving.*
+
+## Related Guides
+
+- [Autopilot Camera Calibration](/posts/tesla-autopilot-camera-calibration/) - Recalibrate cameras to reduce phantom braking
+- [Regenerative Braking Reduced](/posts/tesla-regen-braking-reduced/) - Adjust regen settings while troubleshooting
+- [Software Update Stuck](/posts/tesla-software-update-stuck/) - Ensure you have the latest improvements

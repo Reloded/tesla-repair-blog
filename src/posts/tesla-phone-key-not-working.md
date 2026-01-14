@@ -32,7 +32,7 @@ The Tesla phone key is convenient when it works, but frustrating when it doesn't
 - Phone key set up in car's touchscreen
 
 <div class="tip-box">
-<strong>Backup Keys:</strong> Always carry your key card as backup. Store one in your wallet, purse, or phone case. You can also get a key fob for more reliability.
+<strong>Backup Keys:</strong> Always carry your key card as backup. Store one in your wallet, purse, or phone case. You can also get a [key fob](/posts/tesla-key-fob-battery/) for more reliability.
 </div>
 
 ## Common Phone Key Problems
@@ -258,3 +258,9 @@ If nothing else works:
 ---
 
 *Phone key issues are almost always software-related. Battery optimization is the most common cause on Android, while iOS permission settings typically cause iPhone problems. Start with the simple fixes before reinstalling everything.*
+
+## Related Guides
+
+- [Bluetooth Issues](/posts/tesla-bluetooth-issues/) - Phone key uses Bluetooth for connection
+- [Key Fob Battery Replacement](/posts/tesla-key-fob-battery/) - Reliable backup to phone key
+- [LTE Connectivity Issues](/posts/tesla-lte-connectivity-issues/) - Some phone key issues relate to connectivity

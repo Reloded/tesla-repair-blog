@@ -25,9 +25,9 @@ The 12V battery in your Tesla is one of the most common components that will eve
 
 Before diving into the replacement process, here's how to know if your 12V battery is failing:
 
-- **"12V Battery Low" warning** on your touchscreen
+- **"12V Battery Low" warning** on your touchscreen (if your [screen went black](/posts/tesla-screen-black-fix/) before the warning, the battery may already be dead)
 - Car won't wake up or respond to the app
-- Doors won't open with the key card or phone key
+- [Doors won't open](/posts/tesla-door-handle-not-working/) with the key card or phone key
 - Random system reboots while driving
 - Clicking sound when trying to start
 - The car loses settings overnight
@@ -138,3 +138,8 @@ By doing this repair yourself, you save at least $100-200 compared to Tesla serv
 ---
 
 *Have questions about this repair? The process is straightforward, but every car is slightly different. Always consult your owner's manual for model-specific details.*
+
+## Related Guides
+
+- [Tesla Screen Black Fix](/posts/tesla-screen-black-fix/) - If your screen went dark before or after battery replacement
+- [Key Fob Battery Replacement](/posts/tesla-key-fob-battery/) - Another battery that needs periodic replacement

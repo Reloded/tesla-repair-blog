@@ -198,7 +198,7 @@ If sending your MCU out for repair:
 **Choose eMMC repair if:**
 - Car is older, lower value
 - Budget is limited
-- You just want it to work
+- You just want it to work (try [screen reset procedures](/posts/tesla-screen-black-fix/) first)
 
 **Choose MCU2 upgrade if:**
 - You plan to keep the car long-term
@@ -208,3 +208,9 @@ If sending your MCU out for repair:
 ---
 
 *MCU issues are the most common complaint on older Model S and X vehicles. The eMMC repair offers the best value, while MCU2 upgrade provides the best experience. Either option is far cheaper than buying a new car!*
+
+## Related Guides
+
+- [Tesla Screen Black Fix](/posts/tesla-screen-black-fix/) - Try these resets before upgrading
+- [Software Update Stuck](/posts/tesla-software-update-stuck/) - MCU issues often cause update problems
+- [Navigation Not Working](/posts/tesla-navigation-not-working/) - MCU upgrade resolves persistent navigation issues

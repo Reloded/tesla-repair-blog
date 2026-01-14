@@ -171,7 +171,7 @@ For falcon wing door issues:
 
 ## Preventing Door Handle Failures
 
-1. **Don't force frozen handles** - Use the app to pre-heat
+1. **Don't force frozen handles** - Use the app to pre-heat (a weak [12V battery](/posts/tesla-12v-battery-replacement/) can also cause handle failures)
 2. **Keep handles clean** - Debris causes wear
 3. **Lubricate annually** - Silicone spray on pivot points
 4. **Park in garage** - Reduces temperature extremes
@@ -184,3 +184,9 @@ For falcon wing door issues:
 ---
 
 *Door handle repairs range from easy (lubrication) to intermediate (full replacement). If you're not comfortable removing door panels, the gear replacement kits are still worth buying to save on parts cost at a shop.*
+
+## Related Guides
+
+- [Frunk Won't Open](/posts/tesla-frunk-wont-open/) - Similar latch mechanisms and troubleshooting
+- [Phone Key Not Working](/posts/tesla-phone-key-not-working/) - Alternative entry if handles fail
+- [12V Battery Replacement](/posts/tesla-12v-battery-replacement/) - Power issues can cause handle failures

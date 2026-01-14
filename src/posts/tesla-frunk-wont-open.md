@@ -112,7 +112,7 @@ Similar to Model S:
 - Touchscreen is black
 - Door handles don't present (Model S/X)
 
-**Fix:** Provide external 12V power and then replace the 12V battery
+**Fix:** Provide external 12V power and then [replace the 12V battery](/posts/tesla-12v-battery-replacement/)
 
 ### Cause 2: Frunk Latch Issue
 
@@ -197,3 +197,9 @@ If the frunk isn't sitting flush:
 ---
 
 *Keep a small jump pack in your garage. It's invaluable for any car, but especially for a Tesla where the frunk contains your charging cables.*
+
+## Related Guides
+
+- [Trunk Won't Close](/posts/tesla-trunk-wont-close/) - Similar latch mechanisms and fixes
+- [Door Handle Not Working](/posts/tesla-door-handle-not-working/) - Related electrical latch issues
+- [12V Battery Replacement](/posts/tesla-12v-battery-replacement/) - Prevent future latch failures
