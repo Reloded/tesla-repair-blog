@@ -4,6 +4,7 @@
 
 - ✅ **v1.0 Professional Launch** - Phases 1-4 ([details](milestones/v1.0-ROADMAP.md)) - shipped 2026-01-13
 - ✅ **v2.0 Growth** - Phases 5-8 ([details](milestones/v2.0-ROADMAP.md)) - shipped 2026-01-14
+- 🚧 **v3.0 Scale** - Phases 9-12 (in progress)
 
 ---
 
@@ -96,6 +97,83 @@
 
 ---
 
+## 🚧 v3.0 Scale (In Progress)
+
+**Milestone Goal:** Dominate Tesla repair search results with 50+ articles and multiple affiliate programs
+
+### Phase 9: Content Expansion
+**Goal:** Write 25 new articles to reach 50+ total
+**Depends on:** Milestone 2 complete
+**Research:** Unlikely (follow existing patterns)
+**Plans:** TBD
+
+Tasks:
+- Research high-volume keywords not yet covered
+- Write 25 new SEO-optimized repair guides
+- Maintain consistent quality and formatting
+- Add affiliate links to all new articles
+
+Plans:
+- [ ] 09-01: TBD (run /gsd:plan-phase 9 to break down)
+
+---
+
+### Phase 10: Affiliate Expansion
+**Goal:** Apply to additional affiliate programs for higher commissions
+**Depends on:** Phase 9
+**Research:** Likely (affiliate program applications)
+**Research topics:** iFixit affiliate program, Tesmanian partnership, Lectron affiliate terms
+**Plans:** TBD
+
+Tasks:
+- Apply to iFixit affiliate program
+- Apply to Tesmanian accessories affiliate
+- Apply to Lectron charging affiliate
+- Update existing articles with new affiliate links
+- Track performance by affiliate source
+
+Plans:
+- [ ] 10-01: TBD
+
+---
+
+### Phase 11: Internal Linking
+**Goal:** Build comprehensive cross-linking structure for SEO
+**Depends on:** Phase 10
+**Research:** Unlikely (internal work)
+**Plans:** TBD
+
+Tasks:
+- Audit all 50+ articles for linking opportunities
+- Create topic clusters (charging, brakes, software, etc.)
+- Add contextual links between related articles
+- Create hub pages for major categories
+- Update navigation if needed
+
+Plans:
+- [ ] 11-01: TBD
+
+---
+
+### Phase 12: Search Optimization
+**Goal:** Monitor rankings and optimize underperforming content
+**Depends on:** Phase 11
+**Research:** Likely (SEO tools, rank tracking)
+**Research topics:** Google Search Console analysis, rank tracking tools, content optimization
+**Plans:** TBD
+
+Tasks:
+- Analyze Search Console data for opportunities
+- Identify underperforming articles
+- Optimize titles, meta descriptions, content
+- Build more backlinks to key pages
+- Track ranking improvements
+
+Plans:
+- [ ] 12-01: TBD
+
+---
+
 ## Progress
 
 | Phase | Milestone | Plans | Status | Completed |
@@ -108,6 +186,10 @@
 | 6. Content Strategy | v2.0 | 1/1 | Complete | 2026-01-14 |
 | 7. Promotion & Backlinks | v2.0 | 1/1 | Complete | 2026-01-14 |
 | 8. Revenue Optimization | v2.0 | 1/1 | Complete | 2026-01-14 |
+| 9. Content Expansion | v3.0 | 0/? | Not started | - |
+| 10. Affiliate Expansion | v3.0 | 0/? | Not started | - |
+| 11. Internal Linking | v3.0 | 0/? | Not started | - |
+| 12. Search Optimization | v3.0 | 0/? | Not started | - |
 
 ---
 *Updated: 2026-01-14*
