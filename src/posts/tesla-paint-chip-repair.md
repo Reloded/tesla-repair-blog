@@ -1,7 +1,7 @@
 ---
 layout: post.njk
 title: "Tesla Paint Chip Repair: DIY Touch-Up Guide"
-description: "Fix rock chips and scratches on your Tesla's paint at home. Step-by-step guide to professional-looking touch-up results on Model 3, Y, S, and X."
+description: "Repair Tesla paint chips yourself. DIY touch-up guide using official Tesla paint or alternatives. Achieve invisible repairs at home."
 date: 2025-01-13
 category: "Body & Exterior"
 difficulty: "Easy"

@@ -1,7 +1,7 @@
 ---
 layout: post.njk
-title: "Tesla MCU & Touchscreen Upgrade: Fix Slow Screen and Yellow Borders"
-description: "Upgrade your Tesla's MCU for faster performance, fix yellow screen borders, and resolve touchscreen lag. Complete guide for MCU1 to MCU2 upgrades."
+title: "Tesla MCU Upgrade: Is It Worth It? Complete Guide"
+description: "Is the Tesla MCU upgrade worth it? Complete guide covering MCU1 to MCU2 upgrade benefits, costs, and what you actually get for the money."
 date: 2026-01-14
 category: "Electrical"
 difficulty: "Hard"

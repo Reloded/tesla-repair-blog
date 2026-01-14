@@ -1,7 +1,7 @@
 ---
 layout: post.njk
-title: "Tesla Aero Cap Removal & Installation Guide"
-description: "Learn how to remove and install Tesla aero wheel covers. Easy guide for Model 3 and Model Y including storage tips and alternative wheel cover options."
+title: "Tesla Aero Cap Removal: Quick 5-Minute Guide"
+description: "Remove Tesla aero wheel covers in minutes. Quick guide for Model 3 and Y owners. No tools needed. See the easy removal technique inside."
 date: 2025-01-14
 category: "Wheels"
 difficulty: "Easy"

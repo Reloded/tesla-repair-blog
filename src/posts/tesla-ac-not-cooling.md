@@ -1,7 +1,7 @@
 ---
 layout: post.njk
-title: "Tesla AC Not Cooling: Troubleshooting & DIY Fixes"
-description: "Fix your Tesla air conditioning when it's blowing warm air. Covers Model 3, Model Y, Model S, and Model X AC problems with DIY solutions."
+title: "Tesla AC Not Cooling? Fix It Yourself in 30 Minutes"
+description: "Tesla AC not blowing cold air? Troubleshoot and fix common AC issues yourself. Covers refrigerant, compressor, and cabin filter problems."
 date: 2025-01-13
 category: "HVAC"
 difficulty: "Easy to Intermediate"

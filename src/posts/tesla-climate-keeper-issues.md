@@ -1,7 +1,7 @@
 ---
 layout: post.njk
-title: "Tesla Climate Keeper Issues: Fix Dog Mode and Camp Mode Problems"
-description: "Troubleshoot Tesla Climate Keeper features including Dog Mode, Camp Mode, and Cabin Overheat Protection. Setup guides and fixes."
+title: "Tesla Climate Keeper Not Working: Troubleshooting"
+description: "Tesla Climate Keeper or Dog Mode not working? Troubleshoot battery, settings, and software issues. Get your climate features working again."
 date: 2025-01-14
 category: "Climate"
 difficulty: "Easy"

@@ -1,7 +1,7 @@
 ---
 layout: post.njk
-title: "Tesla Trunk Won't Close: Latch & Alignment Fix Guide"
-description: "Fix your Tesla trunk that won't close or latch properly. DIY guide for Model 3, Model Y latch adjustment, striker alignment, and sensor cleaning."
+title: "Tesla Trunk Won't Close? Latch Reset & Fix Guide"
+description: "Tesla trunk or liftgate won't close? Fix latch issues, reset the mechanism, and troubleshoot sensor problems. DIY solutions included."
 date: 2025-01-14
 category: "Body"
 difficulty: "Easy"

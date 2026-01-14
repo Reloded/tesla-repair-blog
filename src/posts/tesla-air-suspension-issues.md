@@ -1,7 +1,7 @@
 ---
 layout: post.njk
-title: "Tesla Air Suspension Problems: Troubleshooting Guide for Model S and X"
-description: "Diagnose and fix air suspension issues on Tesla Model S and Model X. Covers compressor failures, air spring leaks, and ride height calibration."
+title: "Tesla Air Suspension Problems: DIY Diagnosis Guide"
+description: "Diagnose Tesla air suspension problems yourself. Covers Model S and X suspension faults, warning messages, and DIY troubleshooting steps."
 date: 2025-01-14
 category: "Suspension"
 difficulty: "Hard"

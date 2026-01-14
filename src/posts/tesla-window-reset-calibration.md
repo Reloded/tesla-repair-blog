@@ -1,7 +1,7 @@
 ---
 layout: post.njk
-title: "Tesla Window Reset & Calibration: Fix Auto-Close and Seal Issues"
-description: "Learn how to reset and calibrate your Tesla windows when they won't close properly, auto-reverse unexpectedly, or leave gaps. Works on Model 3, Y, S, and X."
+title: "Tesla Window Calibration: Reset in Under 1 Minute"
+description: "Reset Tesla window calibration in under 1 minute. Fix auto-up/down issues and windows not sealing properly with this simple procedure."
 date: 2026-01-14
 category: "Body & Glass"
 difficulty: "Easy"

@@ -1,7 +1,7 @@
 ---
 layout: post.njk
-title: "Tesla Brake Pad Replacement: DIY Guide for Model 3, Y, S, X"
-description: "Complete guide to replacing brake pads on your Tesla. Learn when to replace, what pads to buy, and step-by-step instructions to save $300+ on this repair."
+title: "Tesla Brake Pad Replacement: Step-by-Step DIY Guide"
+description: "Replace Tesla brake pads yourself and save hundreds. Complete DIY guide with tools list, step-by-step photos, and torque specifications."
 date: 2025-01-09
 category: "Brakes"
 difficulty: "Intermediate"

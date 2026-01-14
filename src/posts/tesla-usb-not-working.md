@@ -1,7 +1,7 @@
 ---
 layout: post.njk
-title: "Tesla USB Not Working: Fix Ports & Sentry Mode Storage"
-description: "Troubleshoot Tesla USB port issues for music, Sentry Mode, and dashcam. Learn proper drive formatting, compatible drives, and fix common problems."
+title: "Tesla USB Not Working? Format & Fix Guide"
+description: "Tesla USB ports not working? Format drives correctly for dashcam/music. Troubleshoot connection issues and hub compatibility problems."
 date: 2025-01-14
 category: "Interior"
 difficulty: "Easy"

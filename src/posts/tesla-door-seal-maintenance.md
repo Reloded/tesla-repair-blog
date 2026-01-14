@@ -1,7 +1,7 @@
 ---
 layout: post.njk
-title: "Tesla Door Seal Maintenance: Prevent Leaks and Wind Noise"
-description: "Maintain and protect your Tesla's door seals to prevent water leaks, wind noise, and cold weather issues. Easy DIY care for all Tesla models."
+title: "Tesla Door Seal Maintenance: Prevent Wind Noise"
+description: "Maintain Tesla door seals to prevent wind noise and water leaks. Easy DIY guide for cleaning, conditioning, and replacing worn seals."
 date: 2026-01-14
 category: "Maintenance"
 difficulty: "Easy"

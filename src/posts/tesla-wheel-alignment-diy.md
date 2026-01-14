@@ -1,7 +1,7 @@
 ---
 layout: post.njk
-title: "Tesla DIY Wheel Alignment: Check & Adjust Guide"
-description: "Learn how to check and adjust wheel alignment on your Tesla. DIY guide for camber, toe, and caster with tools needed and when to seek professional help."
+title: "Tesla Wheel Alignment: DIY Check & Adjustment"
+description: "Check Tesla wheel alignment at home. DIY inspection guide and when professional alignment is needed. Prevent uneven tire wear."
 date: 2025-01-14
 category: "Maintenance"
 difficulty: "Hard"

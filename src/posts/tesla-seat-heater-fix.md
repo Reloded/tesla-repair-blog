@@ -1,7 +1,7 @@
 ---
 layout: post.njk
-title: "Tesla Seat Heater Not Working: Diagnosis and Repair Guide"
-description: "Troubleshoot Tesla seat heater problems. Covers heating element testing, connection issues, and when professional repair is needed."
+title: "Tesla Seat Heater Not Working: DIY Troubleshooting"
+description: "Tesla seat heater not working? DIY troubleshooting guide covers fuses, connectors, and heating element issues. Diagnose before service."
 date: 2025-01-14
 category: "Interior"
 difficulty: "Medium"

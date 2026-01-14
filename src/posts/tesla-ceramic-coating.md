@@ -1,7 +1,7 @@
 ---
 layout: post.njk
-title: "Tesla Ceramic Coating: DIY Application Guide"
-description: "Apply ceramic coating to your Tesla at home. Complete guide covering paint correction, application technique, curing, and maintenance for lasting protection."
+title: "DIY Tesla Ceramic Coating: Pro Results at Home"
+description: "Apply ceramic coating to your Tesla at home. Pro-level protection without the €1000+ price tag. Complete DIY application guide included."
 date: 2025-01-14
 category: "Exterior"
 difficulty: "Medium"

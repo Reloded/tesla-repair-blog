@@ -1,7 +1,7 @@
 ---
 layout: post.njk
-title: "Tesla Steering Wheel Buttons Not Working: Scroll Wheel and Button Fixes"
-description: "Fix unresponsive Tesla steering wheel buttons and scroll wheels. Covers cleaning, calibration, and replacement options."
+title: "Tesla Steering Wheel Buttons Not Working: Fixes"
+description: "Tesla steering wheel buttons not responding? Troubleshoot scroll wheel and button issues. DIY cleaning and when to seek service."
 date: 2025-01-14
 category: "Interior"
 difficulty: "Medium"

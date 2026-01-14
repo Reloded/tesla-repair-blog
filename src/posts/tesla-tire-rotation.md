@@ -1,7 +1,7 @@
 ---
 layout: post.njk
-title: "Tesla Tire Rotation: DIY Guide to Extend Tire Life"
-description: "Learn how to rotate your Tesla tires yourself and save $50-100. Proper rotation patterns for Model 3, Model Y, Model S, and Model X to maximize tire lifespan."
+title: "Tesla Tire Rotation: DIY Guide (Pattern & Tips)"
+description: "Rotate Tesla tires yourself. DIY guide with correct rotation pattern for RWD and AWD models. Extend tire life and save on service costs."
 date: 2025-01-07
 category: "Tires"
 difficulty: "Easy"

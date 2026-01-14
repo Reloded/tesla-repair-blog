@@ -1,7 +1,7 @@
 ---
 layout: post.njk
-title: "Tesla Heat Pump Problems: Symptoms, Causes, and DIY Fixes"
-description: "Diagnose and troubleshoot Tesla heat pump issues including no heat, strange noises, and error codes. Learn what you can fix yourself and when to visit service."
+title: "Tesla Heat Pump Problems: Diagnosis & Solutions"
+description: "Diagnose Tesla heat pump issues yourself. Covers cold weather failures, error codes, and troubleshooting for Model Y and 2021+ Model 3."
 date: 2026-01-14
 category: "HVAC"
 difficulty: "Medium"

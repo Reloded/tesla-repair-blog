@@ -1,7 +1,7 @@
 ---
 layout: post.njk
-title: "Tesla Autopilot Unavailable: Common Causes and How to Fix"
-description: "Fix 'Autopilot Unavailable' warnings on your Tesla. Covers camera calibration, weather issues, system reboots, and when to schedule service."
+title: "Tesla Autopilot Unavailable? 7 Fixes That Work"
+description: "Fix Tesla Autopilot unavailable errors. 7 proven solutions for camera obstructed, calibrating, and feature unavailable warnings."
 date: 2025-01-14
 category: "Software"
 difficulty: "Informational"

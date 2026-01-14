@@ -1,7 +1,7 @@
 ---
 layout: post.njk
-title: "Tesla Model X Falcon Wing Door Problems: Calibration and Sensor Fix"
-description: "Fix falcon wing door issues on your Tesla Model X. Step-by-step guide for sensor calibration, pinch detection reset, and common error codes."
+title: "Tesla Falcon Wing Door Problems: DIY Fixes"
+description: "Tesla Model X falcon wing door problems? DIY fixes for doors not opening, sensor errors, and alignment issues. Avoid costly service visits."
 date: 2025-01-14
 category: "Body"
 difficulty: "Medium"

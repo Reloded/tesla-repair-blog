@@ -1,7 +1,7 @@
 ---
 layout: post.njk
-title: "Tesla LTE Connectivity Issues: Fix Cellular Connection Problems"
-description: "Troubleshoot Tesla cellular connectivity issues. Covers Premium Connectivity features, antenna problems, and when service is needed."
+title: "Tesla LTE Not Working? Connectivity Fixes Guide"
+description: "Tesla LTE or premium connectivity not working? Troubleshoot cellular issues, check subscription status, and fix connectivity problems."
 date: 2025-01-14
 category: "Connectivity"
 difficulty: "Informational"

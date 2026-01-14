@@ -1,7 +1,7 @@
 ---
 layout: post.njk
-title: "Tesla Rear Camera Blurry or Foggy: Cleaning and Replacement Guide"
-description: "Fix blurry or foggy Tesla backup camera. Learn cleaning techniques, moisture removal, and when camera replacement is necessary."
+title: "Tesla Rear Camera Blurry: Quick Clean & Fix Guide"
+description: "Tesla backup camera blurry or foggy? Quick cleaning guide and fixes for condensation, dirt, and lens clarity issues. Clear view in minutes."
 date: 2025-01-14
 category: "Cameras"
 difficulty: "Easy"

@@ -1,7 +1,7 @@
 ---
 layout: post.njk
-title: "Tesla Squeaky Brakes: Why It Happens and How to Fix It"
-description: "Tesla brakes squeaking or making noise? Learn why regenerative braking causes this common issue and how to fix squeaky Tesla brakes with this DIY guide."
+title: "Tesla Squeaky Brakes: Causes and Easy DIY Fixes"
+description: "Tesla brakes squeaking? Common causes and easy DIY fixes. Covers brake dust, pad bedding, and when squeaks indicate a real problem."
 date: 2025-01-04
 category: "Brakes"
 difficulty: "Easy"

@@ -1,7 +1,7 @@
 ---
 layout: post.njk
-title: "Tesla Dashcam Not Saving: Fix Recording and Storage Issues"
-description: "Troubleshoot Tesla dashcam and Sentry Mode recording problems. Covers USB formatting, storage management, and corrupted file recovery."
+title: "Tesla Dashcam Not Saving? Quick USB & Settings Fix"
+description: "Tesla dashcam or Sentry Mode not saving videos? Fix USB drive issues, format correctly, and troubleshoot recording problems step by step."
 date: 2025-01-14
 category: "Software"
 difficulty: "Easy"

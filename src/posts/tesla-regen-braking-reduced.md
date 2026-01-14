@@ -1,7 +1,7 @@
 ---
 layout: post.njk
-title: "Tesla Regenerative Braking Reduced: Causes & Solutions Guide"
-description: "Understand why your Tesla shows reduced regenerative braking and the dotted line. Learn about battery temperature, state of charge, and cold weather effects."
+title: "Tesla Regen Braking Reduced: Causes & Solutions"
+description: "Tesla regen braking reduced or limited? Learn why cold batteries, full charge, and other factors limit regenerative braking power."
 date: 2025-01-14
 category: "Driving"
 difficulty: "Informational"

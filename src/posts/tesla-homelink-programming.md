@@ -1,7 +1,7 @@
 ---
 layout: post.njk
-title: "Tesla HomeLink Programming: Garage Door Setup Guide"
-description: "Program your Tesla HomeLink to open garage doors automatically. Step-by-step setup for Model 3, Model Y, Model S, and Model X with troubleshooting tips."
+title: "Tesla HomeLink Programming: Setup Guide in 5 Min"
+description: "Program Tesla HomeLink in 5 minutes. Step-by-step guide for garage doors and gates. Covers rolling codes and troubleshooting connection issues."
 date: 2025-01-14
 category: "Features"
 difficulty: "Easy"

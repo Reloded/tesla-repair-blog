@@ -1,7 +1,7 @@
 ---
 layout: post.njk
-title: "Tesla Charge Port Stuck? How to Release a Stuck Charging Cable"
-description: "Can't remove your Tesla charging cable? Learn how to release a stuck charge port manually with this step-by-step guide for Model 3, Y, S, and X."
+title: "Tesla Charge Port Stuck? 6 Ways to Release It"
+description: "Tesla charge port won't release? 6 methods to free a stuck charging cable. Covers manual release, latch reset, and when to call service."
 date: 2025-01-02
 category: "Charging"
 difficulty: "Easy"

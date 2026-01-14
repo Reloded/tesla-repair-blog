@@ -1,7 +1,7 @@
 ---
 layout: post.njk
-title: "Tesla Bluetooth Connection Problems: Complete Fix Guide"
-description: "Fix Tesla Bluetooth issues with phone key, audio streaming, and phone calls. Step-by-step troubleshooting for Model 3, Model Y, Model S, and Model X."
+title: "Tesla Bluetooth Not Working: 8 Quick Fixes (2024)"
+description: "Tesla Bluetooth not connecting to your phone? Try these 8 quick fixes. Covers pairing issues, audio problems, and connection drops."
 date: 2025-01-14
 category: "Connectivity"
 difficulty: "Easy"

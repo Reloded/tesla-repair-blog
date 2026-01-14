@@ -1,7 +1,7 @@
 ---
 layout: post.njk
-title: "Tesla 12V Battery Replacement: Complete DIY Guide (All Models)"
-description: "Learn how to replace the 12V battery in your Tesla Model 3, Model Y, Model S, or Model X. Step-by-step instructions with photos and tool recommendations."
+title: "Tesla 12V Battery Replacement: DIY Guide (Save €200+)"
+description: "Learn how to replace your Tesla 12V battery yourself. Step-by-step guide with tools, costs, and tips. Save over €200 on dealer service fees."
 date: 2025-01-10
 category: "Electrical"
 difficulty: "Easy"

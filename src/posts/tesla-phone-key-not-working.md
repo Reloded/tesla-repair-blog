@@ -1,7 +1,7 @@
 ---
 layout: post.njk
-title: "Tesla Phone Key Not Working: Fix Bluetooth Connection Issues"
-description: "Troubleshoot and fix Tesla phone key problems including connection failures, intermittent unlocking, and Bluetooth issues on iOS and Android."
+title: "Tesla Phone Key Not Working? 10 Fixes That Work"
+description: "Tesla phone key not unlocking your car? 10 proven fixes for Bluetooth key issues. Covers iPhone and Android troubleshooting steps."
 date: 2026-01-14
 category: "Electrical"
 difficulty: "Easy"

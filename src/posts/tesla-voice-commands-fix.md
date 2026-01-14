@@ -1,7 +1,7 @@
 ---
 layout: post.njk
-title: "Tesla Voice Commands Not Working: Fix Recognition Problems"
-description: "Troubleshoot Tesla voice command issues. Covers microphone problems, background noise, language settings, and available commands list."
+title: "Tesla Voice Commands Not Working: 7 Quick Fixes"
+description: "Tesla voice commands not responding? 7 fixes for microphone issues, connectivity problems, and recognition errors. Works for all models."
 date: 2025-01-14
 category: "Software"
 difficulty: "Easy"

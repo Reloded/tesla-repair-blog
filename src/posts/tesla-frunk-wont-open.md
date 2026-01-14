@@ -1,7 +1,7 @@
 ---
 layout: post.njk
-title: "Tesla Frunk Won't Open? Emergency Release and Fixes"
-description: "Tesla front trunk stuck closed? Learn how to use the emergency release and troubleshoot frunk latch issues on Model 3, Model Y, Model S, and Model X."
+title: "Tesla Frunk Won't Open? Emergency Release Guide"
+description: "Tesla frunk stuck closed? Learn emergency release methods and DIY fixes. Covers latch issues, 12V battery problems, and manual override."
 date: 2024-12-30
 category: "Troubleshooting"
 difficulty: "Easy"

@@ -1,7 +1,7 @@
 ---
 layout: post.njk
 title: "Tesla Key Fob Battery Replacement: 2-Minute Fix"
-description: "Replace your Tesla Model S or Model X key fob battery in under 2 minutes. Which battery to buy and step-by-step instructions with photos."
+description: "Replace Tesla key fob battery in 2 minutes. Quick guide for Model S and X key fobs. Battery type, replacement steps, and re-pairing tips."
 date: 2025-01-06
 category: "Electrical"
 difficulty: "Easy"

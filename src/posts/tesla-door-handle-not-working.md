@@ -1,7 +1,7 @@
 ---
 layout: post.njk
-title: "Tesla Door Handle Not Working: Complete DIY Fix Guide"
-description: "Fix your Tesla Model S, Model X, Model 3, or Model Y door handle that won't open, present, or retract. Step-by-step troubleshooting and repair guide."
+title: "Tesla Door Handle Not Working: DIY Repair Guide"
+description: "Tesla door handle stuck or not presenting? DIY repair guide covers Model S/X/3 handle mechanisms, micro switches, and common failures."
 date: 2025-01-13
 category: "Body & Exterior"
 difficulty: "Intermediate"

@@ -1,7 +1,7 @@
 ---
 layout: post.njk
-title: "Tesla Creaking & Rattling Fixes: Stop Interior and Suspension Noises"
-description: "Eliminate annoying creaks, rattles, and squeaks in your Tesla. DIY fixes for dashboard rattles, suspension noises, and build quality issues."
+title: "Tesla Creaking & Rattling: Find and Fix the Noise"
+description: "Find and fix Tesla creaking and rattling noises. Common locations, DIY solutions, and when trim clips or lubricant solves the problem."
 date: 2026-01-14
 category: "Interior"
 difficulty: "Easy"

@@ -1,7 +1,7 @@
 ---
 layout: post.njk
-title: "Tesla Windshield Wiper Replacement: Easy 5-Minute Guide"
-description: "Replace your Tesla windshield wipers in 5 minutes. Compatible wiper blade brands and sizes for Model 3, Model Y, Model S, and Model X."
+title: "Tesla Wiper Blade Replacement: DIY in 5 Minutes"
+description: "Replace Tesla wiper blades in 5 minutes. DIY guide with correct blade sizes for all models. Easy installation, no tools required."
 date: 2025-01-05
 category: "Maintenance"
 difficulty: "Easy"

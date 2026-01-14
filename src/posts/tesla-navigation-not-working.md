@@ -1,7 +1,7 @@
 ---
 layout: post.njk
-title: "Tesla Navigation Not Working: Fix Maps and Routing Issues"
-description: "Troubleshoot Tesla navigation problems including map loading issues, GPS signal problems, and routing errors. Step-by-step solutions."
+title: "Tesla Navigation Not Working? 9 Proven Fixes"
+description: "Tesla navigation broken or inaccurate? 9 fixes for GPS issues, map loading problems, and routing errors. Get directions working again."
 date: 2025-01-14
 category: "Software"
 difficulty: "Easy"

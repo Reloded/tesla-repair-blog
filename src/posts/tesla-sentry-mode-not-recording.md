@@ -1,7 +1,7 @@
 ---
 layout: post.njk
-title: "Tesla Sentry Mode Not Recording: Storage & Camera Fix Guide"
-description: "Fix Tesla Sentry Mode recording problems. Troubleshoot USB storage issues, camera failures, and settings to get your security system working again."
+title: "Tesla Sentry Mode Not Recording: Fix in 5 Minutes"
+description: "Tesla Sentry Mode not saving clips? Fix USB issues, check settings, and ensure your dashcam records properly. Quick 5-minute fixes inside."
 date: 2025-01-14
 category: "Software"
 difficulty: "Easy"

@@ -1,7 +1,7 @@
 ---
 layout: post.njk
-title: "Tesla Headlight Condensation Fix: Remove Moisture & Fog DIY Guide"
-description: "Learn how to fix foggy or moisture-filled Tesla headlights. Step-by-step guide for Model 3, Model Y, Model S, and Model X with desiccant solutions."
+title: "Tesla Headlight Condensation: Causes and DIY Fixes"
+description: "Fix Tesla headlight condensation and fogging. Understand causes, check drainage vents, and learn when replacement is needed vs. DIY fixes."
 date: 2025-01-14
 category: "Exterior"
 difficulty: "Medium"

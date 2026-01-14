@@ -1,7 +1,7 @@
 ---
 layout: post.njk
-title: "Tesla Slow Charging Troubleshooting: Fix Reduced Charge Rates"
-description: "Diagnose and fix slow Tesla charging issues at home, Superchargers, and public stations. Restore full charging speed with these proven solutions."
+title: "Tesla Slow Charging? 12 Ways to Speed It Up"
+description: "Tesla charging slower than expected? 12 factors affecting charge speed and how to optimize. Covers home charging and Supercharging."
 date: 2026-01-14
 category: "Charging"
 difficulty: "Easy"

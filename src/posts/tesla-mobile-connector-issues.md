@@ -1,7 +1,7 @@
 ---
 layout: post.njk
-title: "Tesla Mobile Connector Not Working: Troubleshooting Guide"
-description: "Fix your Tesla Mobile Connector that won't charge, shows red lights, or has adapter issues. Complete troubleshooting guide for Gen 1 and Gen 2 connectors."
+title: "Tesla Mobile Connector Issues: Troubleshooting Guide"
+description: "Tesla Mobile Connector not charging? Troubleshoot red lights, adapter issues, and connection faults. DIY diagnostic guide included."
 date: 2025-01-13
 category: "Charging"
 difficulty: "Easy"

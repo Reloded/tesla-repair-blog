@@ -1,7 +1,7 @@
 ---
 layout: post.njk
-title: "Tesla Autopilot Camera Calibration: Fix Blurry Vision and Errors"
-description: "Recalibrate your Tesla's Autopilot cameras after windshield replacement or software updates. Resolve camera blocked warnings and Autopilot malfunctions."
+title: "Tesla Autopilot Camera Calibration: Complete Guide"
+description: "Tesla cameras need calibration? Learn how to trigger and complete Autopilot camera calibration. Covers all models and common calibration issues."
 date: 2026-01-14
 category: "Autopilot"
 difficulty: "Easy"

@@ -1,7 +1,7 @@
 ---
 layout: post.njk
-title: "Tesla Cabin Air Filter Replacement: 10-Minute DIY Guide"
-description: "Replace your Tesla cabin air filter in under 10 minutes. Step-by-step guide for Model 3, Model Y, Model S, and Model X with recommended HEPA filter upgrades."
+title: "Tesla Cabin Air Filter: DIY Replacement in 15 Min"
+description: "Replace your Tesla cabin air filter in 15 minutes. DIY guide for Model 3, Y, S, and X. Improve air quality and AC performance easily."
 date: 2025-01-08
 category: "HVAC"
 difficulty: "Easy"

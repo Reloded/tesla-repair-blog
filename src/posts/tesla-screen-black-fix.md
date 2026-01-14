@@ -1,7 +1,7 @@
 ---
 layout: post.njk
-title: "Tesla Screen Black or Frozen? How to Reboot and Reset"
-description: "Tesla touchscreen black, frozen, or unresponsive? Learn how to soft reboot, hard reboot, and factory reset your Tesla display. Works on all models."
+title: "Tesla Screen Black? 5 Reboot Methods That Work"
+description: "Tesla screen black or frozen? 5 reboot methods from soft reset to hard reset. Get your touchscreen working again in minutes."
 date: 2025-01-03
 category: "Electrical"
 difficulty: "Easy"

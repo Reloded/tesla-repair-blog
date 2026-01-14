@@ -1,7 +1,7 @@
 ---
 layout: post.njk
-title: "Tesla Supercharger Slow: Troubleshooting Charging Speed Issues"
-description: "Why is your Tesla Supercharging slowly? Learn about battery preconditioning, charge curves, power sharing, and how to maximize your charging speed."
+title: "Tesla Supercharger Slow? Why & How to Fix It"
+description: "Tesla Supercharging slower than usual? Understand factors affecting speed and how to maximize your charging rate at Supercharger stations."
 date: 2025-01-14
 category: "Charging"
 difficulty: "Informational"

@@ -1,7 +1,7 @@
 ---
 layout: post.njk
-title: "Tesla Gear Oil Change: Maintain Your Drive Unit for Long Life"
-description: "Change the gear oil in your Tesla's drive unit to prevent wear and extend motor life. DIY guide for Model 3, Y, S, and X with fluid specifications."
+title: "Tesla Gear Oil Change: DIY Guide (Model S/X/3/Y)"
+description: "Change Tesla gear oil yourself. DIY guide for Model S, X, 3, and Y. Includes oil specifications, tools needed, and drain intervals."
 date: 2026-01-14
 category: "Maintenance"
 difficulty: "Medium"

@@ -1,7 +1,7 @@
 ---
 layout: post.njk
-title: "Tesla Range Loss: Fix Vampire Drain and Improve Battery Health"
-description: "Maximize your Tesla's range by eliminating vampire drain and understanding battery degradation. Practical tips for preserving battery health."
+title: "Tesla Range Loss: Why It Happens & How to Fix It"
+description: "Tesla losing range? Understand battery degradation vs. fixable issues. Tips to maximize range and identify problems needing attention."
 date: 2025-01-14
 category: "Battery"
 difficulty: "Medium"

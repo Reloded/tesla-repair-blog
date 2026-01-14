@@ -1,7 +1,7 @@
 ---
 layout: post.njk
-title: "Tesla Control Arm Replacement: Fix Clunking and Worn Suspension"
-description: "Replace worn front upper control arms on your Tesla Model 3, Y, S, or X. Stop suspension clunks and restore tight handling with this DIY guide."
+title: "Tesla Control Arm Replacement: DIY Suspension Fix"
+description: "Replace Tesla control arms yourself. DIY suspension repair guide covering front and rear control arms. Includes alignment recommendations."
 date: 2026-01-14
 category: "Suspension"
 difficulty: "Hard"

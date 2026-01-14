@@ -1,7 +1,7 @@
 ---
 layout: post.njk
-title: "Tesla PPF Installation: DIY Paint Protection Film Guide"
-description: "Install paint protection film on your Tesla yourself. Complete DIY guide covering surface prep, application technique, and common mistakes to avoid."
+title: "Tesla PPF Installation: DIY Paint Protection Film"
+description: "Install Tesla paint protection film yourself. DIY PPF guide covering tools, techniques, and how to achieve professional results at home."
 date: 2025-01-14
 category: "Exterior"
 difficulty: "Hard"

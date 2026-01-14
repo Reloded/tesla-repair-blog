@@ -1,7 +1,7 @@
 ---
 layout: post.njk
-title: "Tesla Suspension Noise: Diagnosing Clunks, Squeaks and Rattles"
-description: "Hearing clunking, squeaking, or rattling from your Tesla's suspension? Learn how to diagnose the source and which repairs you can DIY vs. need a shop."
+title: "Tesla Suspension Noise: Diagnose & Fix at Home"
+description: "Tesla suspension making noise? Diagnose clunks, squeaks, and rattles yourself. Covers common causes and DIY fixes before service visits."
 date: 2025-01-01
 category: "Suspension"
 difficulty: "Intermediate"
