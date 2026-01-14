@@ -44,7 +44,15 @@ layout: base.njk
         <li>
           <div class="affiliate-link">
             <span class="product-name">{{ tool.name }}</span>
+            {% if tool.provider == "ifixit" %}
+            <a href="{{ tool.link }}" class="buy-btn btn-ifixit" target="_blank" rel="nofollow noopener">View on iFixit</a>
+            {% elif tool.provider == "tesmanian" %}
+            <a href="{{ tool.link }}" class="buy-btn btn-tesmanian" target="_blank" rel="nofollow noopener">View on Tesmanian</a>
+            {% elif tool.provider == "lectron" %}
+            <a href="{{ tool.link }}" class="buy-btn btn-lectron" target="_blank" rel="nofollow noopener">View on Lectron</a>
+            {% else %}
             <a href="{{ tool.link }}" class="buy-btn" target="_blank" rel="nofollow noopener">Check Price on Amazon</a>
+            {% endif %}
           </div>
         </li>
         {% endfor %}
@@ -57,7 +65,7 @@ layout: base.njk
         </li>
       {% endif %}
     </ul>
-    <p style="margin-top: 1rem; font-size: 0.9rem; color: #666;"><em>As an Amazon Associate, I earn from qualifying purchases. This helps support the site at no extra cost to you.</em></p>
+    <p style="margin-top: 1rem; font-size: 0.9rem; color: #666;"><em>We earn commissions from qualifying purchases through our affiliate partners. This helps support the site at no extra cost to you.</em></p>
   </div>
 
   <div class="article-newsletter">

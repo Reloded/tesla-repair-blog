@@ -403,6 +403,34 @@ img {
   transform: translateX(3px);
 }
 
+/* Multi-Affiliate Button Variants */
+.affiliate-link .btn-ifixit {
+  background: linear-gradient(135deg, #0071ce 0%, #005ba1 100%);
+}
+
+.affiliate-link .btn-ifixit:hover {
+  background: linear-gradient(135deg, #005ba1 0%, #004a87 100%);
+  box-shadow: 0 4px 12px rgba(0, 113, 206, 0.4);
+}
+
+.affiliate-link .btn-tesmanian {
+  background: linear-gradient(135deg, #1a1a1a 0%, #333333 100%);
+}
+
+.affiliate-link .btn-tesmanian:hover {
+  background: linear-gradient(135deg, #333333 0%, #4a4a4a 100%);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+}
+
+.affiliate-link .btn-lectron {
+  background: linear-gradient(135deg, #00a651 0%, #008c44 100%);
+}
+
+.affiliate-link .btn-lectron:hover {
+  background: linear-gradient(135deg, #008c44 0%, #007538 100%);
+  box-shadow: 0 4px 12px rgba(0, 166, 81, 0.4);
+}
+
 /* Warning/Tip Boxes */
 .warning-box, .tip-box, .info-box {
   padding: 1.5rem;
