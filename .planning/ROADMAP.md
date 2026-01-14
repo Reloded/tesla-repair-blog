@@ -2,8 +2,8 @@
 
 ## Milestones
 
-- ✅ **v1.0 Professional Launch** - Phases 1-4 (shipped 2026-01-13)
-- 🚧 **v2.0 Growth** - Phases 5-8 (in progress)
+- ✅ **v1.0 Professional Launch** - Phases 1-4 ([details](milestones/v1.0-ROADMAP.md)) - shipped 2026-01-13
+- ✅ **v2.0 Growth** - Phases 5-8 ([details](milestones/v2.0-ROADMAP.md)) - shipped 2026-01-14
 
 ---
 
@@ -53,83 +53,46 @@
 
 ---
 
-## 🚧 v2.0 Growth (In Progress)
-
-**Milestone Goal:** Increase traffic, expand content library, and optimize revenue streams
+<details>
+<summary>✅ v2.0 Growth (Phases 5-8) - SHIPPED 2026-01-14</summary>
 
 ### Phase 5: SEO & Search Console
 **Goal:** Get indexed by Google and monitor search performance
-**Depends on:** Milestone 1 complete
-**Research:** Unlikely (standard setup)
-**Plans:** TBD
+- Sitemap submitted to Google Search Console
+- Site ownership verified
+- Indexing status monitored
 
-Tasks:
-- Submit sitemap to Google Search Console
-- Verify site ownership
-- Monitor indexing status
-- Fix any crawl errors
-- Set up keyword tracking
-
-Plans:
-- [ ] 05-01: TBD (run /gsd:plan-phase 5 to break down)
+**Status:** Complete
 
 ---
 
 ### Phase 6: Content Strategy
-**Goal:** Research high-value keywords and write 10 new targeted articles
-**Depends on:** Phase 5
-**Research:** Likely (keyword research tools)
-**Research topics:** Keyword research tools, high-traffic Tesla repair searches
-**Plans:** TBD
+**Goal:** Write 10 new SEO-optimized articles
+- 10 new repair guides (26 total)
+- Internal linking improved
 
-Tasks:
-- Research high-volume Tesla repair keywords
-- Identify content gaps vs competitors
-- Write 10 new SEO-optimized articles
-- Improve internal linking structure
-
-Plans:
-- [ ] 06-01: TBD
+**Status:** Complete
 
 ---
 
 ### Phase 7: Promotion & Backlinks
-**Goal:** Build traffic through community engagement and backlinks
-**Depends on:** Phase 6
-**Research:** Likely (community rules, best practices)
-**Research topics:** Reddit r/TeslaMotors rules, Tesla forums, link building ethics
-
-Tasks:
-- Create Reddit presence (r/TeslaMotors, r/TeslaModel3)
-- Engage in Tesla forums (TMC, etc.)
-- Social media accounts (Twitter/X, YouTube?)
-- Guest posting opportunities
-- Build natural backlinks
-
-Plans:
-- [x] 07-01: Promotion strategy and content templates
+**Goal:** Build traffic through community engagement
+- PROMOTION-STRATEGY.md created
+- SOCIAL-CONTENT.md with 10 Twitter posts + 5 Reddit templates
 
 **Status:** Complete
 
 ---
 
 ### Phase 8: Revenue Optimization
-**Goal:** Maximize affiliate revenue and add income streams
-**Depends on:** Phase 7
-**Research:** Likely (affiliate programs)
-**Research topics:** Tesla-related affiliate programs, conversion optimization
-
-Tasks:
-- Research additional affiliate programs
-- Optimize CTA placement in articles
-- A/B test affiliate link styles
-- Track conversion rates
-- Consider display ads (if traffic sufficient)
-
-Plans:
-- [x] 08-01: Revenue strategy and CTA improvements
+**Goal:** Maximize affiliate revenue
+- REVENUE-STRATEGY.md created
+- Enhanced CTA styling
+- New CSS classes for in-content affiliate links
 
 **Status:** Complete
+
+</details>
 
 ---
 
