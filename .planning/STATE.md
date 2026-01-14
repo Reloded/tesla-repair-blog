@@ -5,14 +5,14 @@
 See: .planning/PROJECT.md (updated 2026-01-12)
 
 **Core value:** Professional brand that builds trust
-**Current focus:** All milestones complete
+**Current focus:** Affiliate expansion - adding new revenue streams
 
 ## Current Position
 
 - **Milestone:** 3 - Scale (v3.0) - SHIPPED
 - **Phase:** All 12 phases complete
 - **Plan:** All plans executed
-- **Status:** Project at maintenance phase
+- **Status:** Maintenance + affiliate expansion
 
 Progress: ██████████ 100% (v3.0 shipped)
 
@@ -20,32 +20,46 @@ Progress: ██████████ 100% (v3.0 shipped)
 
 - Milestone 1 complete (4 phases, shipped 2026-01-13)
 - Milestone 2 complete (4 phases, shipped 2026-01-14)
+- Milestone 3 complete (4 phases, shipped 2026-01-14)
 - Site live at tesladiyrepair.com
-- 51 articles published (25 new in Phase 9)
-- Analytics, newsletter, custom domain all connected
-- Promotion strategy + content templates created
-- Revenue optimization + CTA improvements deployed
-- Phase 9 Content Expansion complete (2 plans, 25 articles)
-- Phase 10 Affiliate Expansion complete (1 plan, strategy docs created)
-- Phase 11 Internal Linking complete (2 plans, 150+ links added)
-- Phase 12 Search Optimization complete (1 plan, SEO guides created)
+- 51 articles published
+- SEO-optimized titles/descriptions for all 51 articles
+
+### Affiliate Expansion (2026-01-14)
+- Multi-affiliate template support added (iFixit, Tesmanian, Lectron)
+- CSS button styles for each affiliate (blue/black/green)
+- **Lectron (Awin) APPROVED** - Publisher ID: 2729872
+- 6 charging articles updated with Lectron links (LIVE)
+- Tesmanian application pending
+- iFixit (Sovrn) application pending
 
 ## Accumulated Context
 
 ### What's Working
 - Eleventy static site running smoothly
 - Cloudflare Pages auto-deploy from GitHub
-- 26 articles with Amazon.de affiliate links
+- 51 articles with Amazon.de affiliate links
+- 6 articles with Lectron affiliate links (NEW)
 - Mobile-responsive design with hamburger menu
 - Google Analytics tracking (G-MHWB6T22RQ)
 - Buttondown newsletter connected
 - Custom domain active (tesladiyrepair.com)
 - Enhanced CTA styling with green gradient buttons
+- Multi-affiliate button support in templates
+
+### Affiliate Programs
+| Program | Status | Articles | Est. Monthly |
+|---------|--------|----------|--------------|
+| Amazon.de | Active | 51 | €24-32 |
+| Lectron (Awin) | **LIVE** | 6 | €18 |
+| Tesmanian | Pending | 8 ready | €31 |
+| iFixit (Sovrn) | Pending | 15 ready | €24 |
 
 ### Key Decisions (All Milestones)
 - Cloudflare Pages over Netlify for hosting
 - Buttondown for email (free tier)
 - Amazon.de as primary affiliate (EU market)
+- Lectron via Awin for charging products
 - SVG favicon for simplicity
 - Value-first promotion approach (build karma before links)
 - Green CTAs, warm amber affiliate boxes
@@ -54,11 +68,11 @@ Progress: ██████████ 100% (v3.0 shipped)
 ### Key Files
 - `.eleventy.js` - Build configuration
 - `src/_includes/base.njk` - Master template
+- `src/_includes/post.njk` - Article template (multi-affiliate support)
+- `src/css/style.css` - Includes affiliate button variants
 - `src/_data/metadata.json` - Site config
 - `src/posts/*.md` - Article content (51 articles)
-- `.planning/phases/07-promotion-backlinks/PROMOTION-STRATEGY.md`
-- `.planning/phases/07-promotion-backlinks/SOCIAL-CONTENT.md`
-- `.planning/phases/08-revenue-optimization/REVENUE-STRATEGY.md`
+- `.planning/AFFILIATE-UPDATES-READY.md` - Pending affiliate updates
 
 ## Roadmap Evolution
 
@@ -72,8 +86,11 @@ Progress: ██████████ 100% (v3.0 shipped)
 ## Session Continuity
 
 **Last session:** 2026-01-14
-**Stopped at:** All milestones complete
-**Next action:** Maintenance mode - apply to affiliates, monitor SEO, write more content as needed
+**Stopped at:** Lectron affiliate links live on 6 articles
+**Next action:**
+- Apply to Tesmanian and iFixit programs
+- Once approved, add links to remaining articles (8 + 15)
+- Monitor affiliate performance in Awin dashboard
 **Resume file:** None
 
 ---

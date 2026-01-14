@@ -9,25 +9,40 @@
 Tesla repair affiliate blog targeting EU market. Goal: $1000/month passive income.
 
 ## Current Status
-- **Milestone 1:** Complete (4 phases done)
-- **Articles:** 26 repair guides
-- **Monetization:** Amazon.de affiliates (tag: diyrepair-21)
+- **Milestones:** All 3 complete (v1.0, v2.0, v3.0 shipped)
+- **Articles:** 51 repair guides
+- **Monetization:** Multi-affiliate (Amazon.de + Lectron live, more pending)
 - **Hosting:** Cloudflare Pages (LIVE)
 - **Live URL:** https://tesladiyrepair.com
-- **Alt URLs:** www.tesladiyrepair.com, tesla-repair-blog.rnsstss.workers.dev
+
+## Affiliate Programs
+| Program | Status | Publisher ID |
+|---------|--------|--------------|
+| Amazon.de | Active | diyrepair-21 |
+| Lectron (Awin) | **LIVE** | 2729872 |
+| Tesmanian | Pending | - |
+| iFixit (Sovrn) | Pending | - |
 
 ## Key Files
 - `.planning/STATE.md` - Current progress
 - `.planning/PROJECT.md` - Full project vision
 - `.planning/ROADMAP.md` - Development phases
-- `.planning/codebase/` - Technical docs
+- `.planning/AFFILIATE-UPDATES-READY.md` - Pending affiliate link updates
 
-## Pending Tasks
-- [x] Fix mobile navigation (hamburger menu)
-- [x] Connect Google Analytics (G-MHWB6T22RQ)
-- [x] Connect email service (Buttondown: tesladiyrepair)
-- [x] Connect custom domain to Cloudflare Pages
-- [x] Fix Cloudflare Pages deployment (wrangler.json added)
+## Recent Accomplishments
+- [x] All 3 milestones shipped (12 phases)
+- [x] 51 articles with SEO-optimized titles
+- [x] Multi-affiliate template support
+- [x] Lectron affiliate approved and live (6 articles)
+- [x] 150+ internal links added
+- [x] Google Analytics connected (G-MHWB6T22RQ)
+- [x] Newsletter connected (Buttondown: tesladiyrepair)
+
+## Next Actions
+- [ ] Apply to Tesmanian affiliate program
+- [ ] Apply to iFixit affiliate program (Sovrn)
+- [ ] Add affiliate links once approved (8 + 15 articles)
+- [ ] Monitor Awin dashboard for Lectron performance
 
 ## Tech Stack
 - Eleventy 2.0.1 (static site generator)
