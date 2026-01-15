@@ -15,8 +15,8 @@ tools:
     link: "https://www.amazon.de/s?k=electrical+contact+cleaner&tag=diyrepair-21"
   - name: "Compressed Air"
     link: "https://www.amazon.de/s?k=compressed+air+duster&tag=diyrepair-21"
-  - name: "Lectron Portable EV Charger"
-    link: "https://www.awin1.com/cread.php?awinmid=91891&awinaffid=2729872&ued=https%3A%2F%2Fev-lectron.com%2Fcollections%2Felectric-vehicle-chargers"
+  - name: "Lectron Portable EV Chargers"
+    link: "https://www.awin1.com/cread.php?awinmid=91891&awinaffid=2729872&ued=https%3A%2F%2Fev-lectron.com%2Fcollections%2Fev-chargers"
     provider: "lectron"
 ---
 

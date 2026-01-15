@@ -17,11 +17,11 @@ tools:
     link: "https://www.amazon.de/s?k=tesla+mobile+connector+adapter&tag=diyrepair-21"
   - name: "Replacement Mobile Connector Gen 2"
     link: "https://www.amazon.de/s?k=tesla+mobile+connector+gen+2&tag=diyrepair-21"
-  - name: "Lectron Portable EV Charger"
-    link: "https://www.awin1.com/cread.php?awinmid=91891&awinaffid=2729872&ued=https%3A%2F%2Fev-lectron.com%2Fcollections%2Felectric-vehicle-chargers"
+  - name: "Lectron Portable EV Chargers"
+    link: "https://www.awin1.com/cread.php?awinmid=91891&awinaffid=2729872&ued=https%3A%2F%2Fev-lectron.com%2Fcollections%2Fev-chargers"
     provider: "lectron"
-  - name: "Lectron Tesla Charging Adapters"
-    link: "https://www.awin1.com/cread.php?awinmid=91891&awinaffid=2729872&ued=https%3A%2F%2Fev-lectron.com%2Fcollections%2Ftesla-charger-adapters"
+  - name: "Lectron Tesla Adapters"
+    link: "https://www.awin1.com/cread.php?awinmid=91891&awinaffid=2729872&ued=https%3A%2F%2Fev-lectron.com%2Fcollections%2Fev-adapters"
     provider: "lectron"
 ---
 

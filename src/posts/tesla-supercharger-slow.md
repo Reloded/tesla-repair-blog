@@ -9,8 +9,8 @@ readTime: "10 min read"
 models: "All Models"
 emoji: "🔌"
 tools:
-  - name: "Lectron CCS Combo Adapter for Tesla"
-    link: "https://www.awin1.com/cread.php?awinmid=91891&awinaffid=2729872&ued=https%3A%2F%2Fev-lectron.com%2Fcollections%2Ftesla-charger-adapters"
+  - name: "Lectron Tesla Adapters"
+    link: "https://www.awin1.com/cread.php?awinmid=91891&awinaffid=2729872&ued=https%3A%2F%2Fev-lectron.com%2Fcollections%2Fev-adapters"
     provider: "lectron"
 ---
 
