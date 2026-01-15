@@ -17,6 +17,9 @@ tools:
     link: "https://www.amazon.de/s?k=battery+terminal+cleaner&tag=diyrepair-21"
   - name: "Plastic Pry Tools"
     link: "https://www.amazon.de/s?k=automotive+plastic+pry+tools&tag=diyrepair-21"
+  - name: "iFixit Pro Tech Toolkit"
+    link: "https://sovrn.co/1d5v5sn"
+    provider: "ifixit"
 ---
 
 The 12V battery in your Tesla is one of the most common components that will eventually need replacement. Despite having a massive high-voltage battery pack, every Tesla still relies on a traditional 12V lead-acid (or lithium in newer models) battery to power essential systems. When this battery fails, your Tesla won't start—even with a fully charged main battery.
