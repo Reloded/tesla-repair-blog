@@ -5,7 +5,7 @@
 See: .planning/PROJECT.md (updated 2026-01-12)
 
 **Core value:** Professional brand that builds trust
-**Current focus:** Affiliate expansion - adding new revenue streams
+**Current focus:** Affiliate expansion - awaiting approvals
 
 ## Current Position
 
@@ -25,13 +25,16 @@ Progress: ██████████ 100% (v3.0 shipped)
 - 51 articles published
 - SEO-optimized titles/descriptions for all 51 articles
 
-### Affiliate Expansion (2026-01-14)
+### Affiliate Expansion (2026-01-15)
 - Multi-affiliate template support added (iFixit, Tesmanian, Lectron)
 - CSS button styles for each affiliate (blue/black/green)
-- **Lectron (Awin) APPROVED** - Publisher ID: 2729872
-- 6 charging articles updated with Lectron links (LIVE)
-- Tesmanian application pending
-- iFixit (Sovrn) application pending
+- **Lectron (Awin) LIVE** - Publisher ID: 2729872, 6 articles updated
+- **iFixit (Sovrn) PENDING** - 1 test link added, awaiting site review
+- **Tesmanian (GoAffPro) PENDING** - Applied, 24-48hr verification wait
+
+### Lectron Links Fixed (2026-01-15)
+- Corrected URLs: `/collections/ev-chargers` and `/collections/ev-adapters`
+- All 6 charging articles now have working Lectron buttons
 
 ## Accumulated Context
 
@@ -39,29 +42,31 @@ Progress: ██████████ 100% (v3.0 shipped)
 - Eleventy static site running smoothly
 - Cloudflare Pages auto-deploy from GitHub
 - 51 articles with Amazon.de affiliate links
-- 6 articles with Lectron affiliate links (NEW)
+- 6 articles with Lectron affiliate links (LIVE)
+- 1 article with iFixit test link (pending approval)
 - Mobile-responsive design with hamburger menu
 - Google Analytics tracking (G-MHWB6T22RQ)
 - Buttondown newsletter connected
 - Custom domain active (tesladiyrepair.com)
-- Enhanced CTA styling with green gradient buttons
 - Multi-affiliate button support in templates
 
 ### Affiliate Programs
-| Program | Status | Articles | Est. Monthly |
-|---------|--------|----------|--------------|
-| Amazon.de | Active | 51 | €24-32 |
-| Lectron (Awin) | **LIVE** | 6 | €18 |
-| Tesmanian | Pending | 8 ready | €31 |
-| iFixit (Sovrn) | Pending | 15 ready | €24 |
+| Program | Status | ID | Articles | Est. Monthly |
+|---------|--------|-----|----------|--------------|
+| Amazon.de | **LIVE** | diyrepair-21 | 51 | €24-32 |
+| Lectron (Awin) | **LIVE** | 2729872 | 6 | €18 |
+| iFixit (Sovrn) | Pending review | sovrn.co/1d5v5sn | 1 (15 ready) | €24 |
+| Tesmanian | Pending 24-48hr | - | 0 (8 ready) | €31 |
 
 ### Key Decisions (All Milestones)
 - Cloudflare Pages over Netlify for hosting
 - Buttondown for email (free tier)
 - Amazon.de as primary affiliate (EU market)
 - Lectron via Awin for charging products
+- iFixit via Sovrn for repair tools
+- Tesmanian via GoAffPro for Tesla accessories
 - SVG favicon for simplicity
-- Value-first promotion approach (build karma before links)
+- Value-first promotion approach
 - Green CTAs, warm amber affiliate boxes
 - Display ads deferred until 50k+ sessions
 
@@ -76,22 +81,22 @@ Progress: ██████████ 100% (v3.0 shipped)
 
 ## Roadmap Evolution
 
-- Milestone v1.0 created: Professional Launch, 4 phases (Phase 1-4)
 - Milestone v1.0 shipped: 2026-01-13
-- Milestone v2.0 created: Growth, 4 phases (Phase 5-8)
 - Milestone v2.0 shipped: 2026-01-14
-- Milestone v3.0 created: Scale, 4 phases (Phase 9-12)
 - Milestone v3.0 shipped: 2026-01-14
 
 ## Session Continuity
 
-**Last session:** 2026-01-14
-**Stopped at:** Lectron affiliate links live on 6 articles
-**Next action:**
-- Apply to Tesmanian and iFixit programs
-- Once approved, add links to remaining articles (8 + 15)
-- Monitor affiliate performance in Awin dashboard
+**Last session:** 2026-01-15
+**Stopped at:** All 3 affiliate programs applied, awaiting approvals
+**Next actions:**
+1. Click iFixit link on site to trigger Sovrn review
+2. Wait for Tesmanian approval (24-48hr)
+3. Wait for iFixit/Sovrn approval (1-3 days)
+4. Once approved, add remaining links:
+   - iFixit: 14 more articles (15 total)
+   - Tesmanian: 8 articles
 **Resume file:** None
 
 ---
-*Last updated: 2026-01-14*
+*Last updated: 2026-01-15*

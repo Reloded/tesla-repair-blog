@@ -11,17 +11,17 @@ Tesla repair affiliate blog targeting EU market. Goal: $1000/month passive incom
 ## Current Status
 - **Milestones:** All 3 complete (v1.0, v2.0, v3.0 shipped)
 - **Articles:** 51 repair guides
-- **Monetization:** Multi-affiliate (Amazon.de + Lectron live, more pending)
+- **Monetization:** Multi-affiliate (Amazon + Lectron live, 2 pending)
 - **Hosting:** Cloudflare Pages (LIVE)
 - **Live URL:** https://tesladiyrepair.com
 
 ## Affiliate Programs
-| Program | Status | Publisher ID |
-|---------|--------|--------------|
-| Amazon.de | Active | diyrepair-21 |
-| Lectron (Awin) | **LIVE** | 2729872 |
-| Tesmanian | Pending | - |
-| iFixit (Sovrn) | Pending | - |
+| Program | Status | ID | Articles |
+|---------|--------|-----|----------|
+| Amazon.de | **LIVE** | diyrepair-21 | 51 |
+| Lectron (Awin) | **LIVE** | 2729872 | 6 |
+| iFixit (Sovrn) | Pending | sovrn.co/1d5v5sn | 1 (15 ready) |
+| Tesmanian | Pending 24-48hr | - | 0 (8 ready) |
 
 ## Key Files
 - `.planning/STATE.md` - Current progress
@@ -29,20 +29,19 @@ Tesla repair affiliate blog targeting EU market. Goal: $1000/month passive incom
 - `.planning/ROADMAP.md` - Development phases
 - `.planning/AFFILIATE-UPDATES-READY.md` - Pending affiliate link updates
 
-## Recent Accomplishments
-- [x] All 3 milestones shipped (12 phases)
-- [x] 51 articles with SEO-optimized titles
+## Recent Accomplishments (2026-01-15)
 - [x] Multi-affiliate template support
-- [x] Lectron affiliate approved and live (6 articles)
-- [x] 150+ internal links added
-- [x] Google Analytics connected (G-MHWB6T22RQ)
-- [x] Newsletter connected (Buttondown: tesladiyrepair)
+- [x] Lectron approved and live (6 articles)
+- [x] Fixed Lectron URLs (ev-chargers, ev-adapters)
+- [x] iFixit (Sovrn) applied - 1 test link added
+- [x] Tesmanian applied - awaiting verification
 
 ## Next Actions
-- [ ] Apply to Tesmanian affiliate program
-- [ ] Apply to iFixit affiliate program (Sovrn)
-- [ ] Add affiliate links once approved (8 + 15 articles)
-- [ ] Monitor Awin dashboard for Lectron performance
+- [ ] Click iFixit link on site to trigger Sovrn review
+- [ ] Wait for Tesmanian approval (24-48hr)
+- [ ] Wait for iFixit approval (1-3 days)
+- [ ] Add iFixit links to 14 more articles
+- [ ] Add Tesmanian links to 8 articles
 
 ## Tech Stack
 - Eleventy 2.0.1 (static site generator)
