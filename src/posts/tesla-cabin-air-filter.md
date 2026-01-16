@@ -17,6 +17,9 @@ tools:
     link: "https://www.amazon.de/s?k=plastic+trim+removal+tool&tag=diyrepair-21"
   - name: "Microfiber Cloths"
     link: "https://www.amazon.de/s?k=microfiber+cleaning+cloths&tag=diyrepair-21"
+  - name: "iFixit Plastic Pry Tools"
+    link: "https://sovrn.co/mqnnvon"
+    provider: "ifixit"
 ---
 
 The cabin air filter is one of the easiest DIY maintenance items on any Tesla. Tesla recommends replacing it every 2-3 years, but if you live in a dusty area or have allergies, yearly replacement makes sense. This is a 10-minute job that Tesla charges $75-150 for—you can do it for $20-50.

@@ -13,6 +13,12 @@ tools:
     link: "https://www.amazon.de/s?k=digital+multimeter&tag=diyrepair-21"
   - name: "Trim Removal Tools"
     link: "https://www.amazon.de/s?k=car+trim+removal+tools&tag=diyrepair-21"
+  - name: "iFixit Digital Multimeter"
+    link: "https://sovrn.co/2wrisu6"
+    provider: "ifixit"
+  - name: "iFixit Spudger"
+    link: "https://sovrn.co/mqnnvon"
+    provider: "ifixit"
 ---
 
 Tesla seat heaters provide welcome comfort in cold weather. When one stops working, it's frustrating but often diagnosable. This guide helps you determine if it's a software glitch, connection issue, or failed heating element.

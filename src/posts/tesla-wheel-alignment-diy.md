@@ -19,6 +19,9 @@ tools:
     link: "https://www.amazon.de/s?k=18mm+21mm+wrench+set&tag=diyrepair-21"
   - name: "Tape Measure"
     link: "https://www.amazon.de/s?k=tape+measure+precision&tag=diyrepair-21"
+  - name: "iFixit Pro Tech Toolkit"
+    link: "https://sovrn.co/1dw8w9g"
+    provider: "ifixit"
 ---
 
 Proper wheel alignment is crucial for tire longevity, handling, and efficiency in your Tesla. While professional alignment is recommended, DIY checking and basic adjustments are possible with the right tools and patience. This guide explains alignment fundamentals and what you can realistically accomplish at home.

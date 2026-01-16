@@ -17,6 +17,12 @@ tools:
     link: "https://www.amazon.de/s?k=silicone+lubricant+spray&tag=diyrepair-21"
   - name: "Tesla Door Handle Assembly (if needed)"
     link: "https://www.amazon.de/s?k=tesla+door+handle+replacement&tag=diyrepair-21"
+  - name: "iFixit Precision Screwdriver Set"
+    link: "https://sovrn.co/1eq15x9"
+    provider: "ifixit"
+  - name: "iFixit Spudger"
+    link: "https://sovrn.co/mqnnvon"
+    provider: "ifixit"
 ---
 
 Tesla door handles are one of the most common failure points, especially on Model S and Model X with their motorized presenting handles. Model 3 and Model Y have simpler mechanical handles but can still have issues. Here's how to diagnose and fix door handle problems yourself.

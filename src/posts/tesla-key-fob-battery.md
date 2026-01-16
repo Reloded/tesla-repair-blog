@@ -13,6 +13,9 @@ tools:
     link: "https://www.amazon.de/s?k=CR2032+battery&tag=diyrepair-21"
   - name: "Small Flathead Screwdriver"
     link: "https://www.amazon.de/s?k=small+flathead+screwdriver+set&tag=diyrepair-21"
+  - name: "iFixit Precision Screwdriver Set"
+    link: "https://sovrn.co/1eq15x9"
+    provider: "ifixit"
 ---
 
 If your Tesla Model S or Model X key fob stops working or shows reduced range, the battery is likely dead. This is a 2-minute fix that costs under $5. Tesla doesn't charge much for this either, but why make a trip when you can fix it at home?

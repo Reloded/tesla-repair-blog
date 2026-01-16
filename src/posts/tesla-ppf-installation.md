@@ -23,6 +23,9 @@ tools:
     link: "https://www.amazon.de/s?k=isopropyl+alcohol+70&tag=diyrepair-21"
   - name: "Microfiber Towels"
     link: "https://www.amazon.de/s?k=microfiber+towels+automotive&tag=diyrepair-21"
+  - name: "iFixit Heat Gun"
+    link: "https://sovrn.co/1qit3j2"
+    provider: "ifixit"
 ---
 
 Paint Protection Film (PPF) is one of the best investments for protecting your Tesla's paint from rock chips, scratches, and road debris. Professional installation costs €2000-5000, but DIY installation is possible with patience, the right tools, and realistic expectations. This guide covers what you need to know.

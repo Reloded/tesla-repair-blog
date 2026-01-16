@@ -20,7 +20,7 @@ Tesla repair affiliate blog targeting EU market. Goal: $1000/month passive incom
 |---------|--------|-----|----------|
 | Amazon.de | **LIVE** | diyrepair-21 | 51 |
 | Lectron (Awin) | **LIVE** | 2729872 | 6 |
-| iFixit (Sovrn) | Pending | sovrn.co/1d5v5sn | 1 (15 ready) |
+| iFixit (Sovrn) | **LIVE** | sovrn.co/... | 15 |
 | Tesmanian | Pending 24-48hr | - | 0 (8 ready) |
 
 ## Key Files
@@ -29,19 +29,18 @@ Tesla repair affiliate blog targeting EU market. Goal: $1000/month passive incom
 - `.planning/ROADMAP.md` - Development phases
 - `.planning/AFFILIATE-UPDATES-READY.md` - Pending affiliate link updates
 
-## Recent Accomplishments (2026-01-15)
+## Recent Accomplishments (2026-01-16)
 - [x] Multi-affiliate template support
 - [x] Lectron approved and live (6 articles)
 - [x] Fixed Lectron URLs (ev-chargers, ev-adapters)
-- [x] iFixit (Sovrn) applied - 1 test link added
+- [x] iFixit (Sovrn) approved and LIVE
+- [x] Added iFixit links to all 15 articles
 - [x] Tesmanian applied - awaiting verification
 
 ## Next Actions
-- [ ] Click iFixit link on site to trigger Sovrn review
 - [ ] Wait for Tesmanian approval (24-48hr)
-- [ ] Wait for iFixit approval (1-3 days)
-- [ ] Add iFixit links to 14 more articles
-- [ ] Add Tesmanian links to 8 articles
+- [ ] Add Tesmanian links to 8 articles when approved
+- [ ] Deploy updated site to Cloudflare Pages
 
 ## Tech Stack
 - Eleventy 2.0.1 (static site generator)

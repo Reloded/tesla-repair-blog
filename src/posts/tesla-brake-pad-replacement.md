@@ -21,6 +21,9 @@ tools:
     link: "https://www.amazon.de/s?k=brake+parts+cleaner&tag=diyrepair-21"
   - name: "Torque Wrench"
     link: "https://www.amazon.de/s?k=torque+wrench+automotive&tag=diyrepair-21"
+  - name: "iFixit Pro Tech Toolkit"
+    link: "https://sovrn.co/1dw8w9g"
+    provider: "ifixit"
 ---
 
 One of the great things about owning a Tesla is that brake pads last significantly longer than on gas cars—thanks to regenerative braking. However, they do eventually wear out, and when they do, you can save hundreds by replacing them yourself.

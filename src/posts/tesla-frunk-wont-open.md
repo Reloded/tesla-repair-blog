@@ -15,6 +15,9 @@ tools:
     link: "https://www.amazon.de/s?k=plastic+pry+tool&tag=diyrepair-21"
   - name: "Silicone Lubricant"
     link: "https://www.amazon.de/s?k=silicone+lubricant+spray&tag=diyrepair-21"
+  - name: "iFixit Spudger"
+    link: "https://sovrn.co/mqnnvon"
+    provider: "ifixit"
 ---
 
 A Tesla frunk that won't open is usually caused by a 12V battery issue or a latch problem. Before panicking, there are several ways to get it open—including emergency releases that don't require any power.

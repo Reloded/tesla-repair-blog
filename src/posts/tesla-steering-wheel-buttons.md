@@ -17,6 +17,9 @@ tools:
     link: "https://www.amazon.de/s?k=microfiber+cloths+electronics&tag=diyrepair-21"
   - name: "Compressed Air"
     link: "https://www.amazon.de/s?k=compressed+air+can&tag=diyrepair-21"
+  - name: "iFixit Precision Screwdriver Set"
+    link: "https://sovrn.co/1eq15x9"
+    provider: "ifixit"
 ---
 
 Tesla's steering wheel scroll wheels and buttons control crucial functions like volume, Autopilot speed, and voice commands. When these become unresponsive or erratic, it affects your driving experience. This guide covers cleaning and troubleshooting these essential controls.

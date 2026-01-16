@@ -3,9 +3,9 @@
 Once your affiliate applications are approved, use this document to update articles with new affiliate links.
 
 **Status:**
-- [ ] iFixit approved - Replace `YOUR_IFIXIT_ID` below
+- [x] iFixit approved - All 15 articles updated (2026-01-16)
 - [ ] Tesmanian approved - Replace `YOUR_TESMANIAN_ID` below
-- [ ] Lectron approved - Replace `YOUR_LECTRON_ID` below
+- [x] Lectron approved - All 6 articles updated
 
 ---
 

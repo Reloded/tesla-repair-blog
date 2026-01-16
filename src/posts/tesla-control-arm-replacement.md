@@ -19,6 +19,9 @@ tools:
     link: "https://www.amazon.de/s?k=torque+wrench+automotive&tag=diyrepair-21"
   - name: "Tesla Front Upper Control Arms (Pair)"
     link: "https://www.amazon.de/s?k=tesla+model+3+upper+control+arm&tag=diyrepair-21"
+  - name: "iFixit Pro Tech Toolkit"
+    link: "https://sovrn.co/1dw8w9g"
+    provider: "ifixit"
 ---
 
 The front upper control arms are one of the most common wear items on Tesla vehicles, especially Model 3 and Model Y. The factory design uses a ball joint that's prone to water ingress, leading to squeaks, clunks, and eventually play in the suspension. Here's how to diagnose and replace them yourself.

@@ -15,6 +15,9 @@ tools:
     link: "https://www.amazon.de/s?k=microfiber+cleaning+cloths&tag=diyrepair-21"
   - name: "Rubber Seal Conditioner"
     link: "https://www.amazon.de/s?k=rubber+seal+conditioner+automotive&tag=diyrepair-21"
+  - name: "iFixit Spudger"
+    link: "https://sovrn.co/mqnnvon"
+    provider: "ifixit"
 ---
 
 Tesla windows are frameless and rely on precise calibration to seal properly against the door frame. When calibration is off, you'll experience windows that won't fully close, auto-reverse for no reason, or leave annoying gaps that cause wind noise and water leaks.

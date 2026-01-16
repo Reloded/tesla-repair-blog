@@ -18,7 +18,10 @@ tools:
   - name: "Plastic Pry Tools"
     link: "https://www.amazon.de/s?k=automotive+plastic+pry+tools&tag=diyrepair-21"
   - name: "iFixit Pro Tech Toolkit"
-    link: "https://sovrn.co/1d5v5sn"
+    link: "https://sovrn.co/1dw8w9g"
+    provider: "ifixit"
+  - name: "iFixit Plastic Pry Tools"
+    link: "https://sovrn.co/mqnnvon"
     provider: "ifixit"
 ---
 

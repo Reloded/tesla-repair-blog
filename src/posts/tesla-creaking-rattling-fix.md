@@ -19,6 +19,12 @@ tools:
     link: "https://www.amazon.de/s?k=trim+removal+tools+automotive&tag=diyrepair-21"
   - name: "Cable Ties Assorted"
     link: "https://www.amazon.de/s?k=cable+ties+assorted&tag=diyrepair-21"
+  - name: "iFixit Spudger Set"
+    link: "https://sovrn.co/mqnnvon"
+    provider: "ifixit"
+  - name: "iFixit Plastic Pry Tools"
+    link: "https://sovrn.co/6tl8wf4"
+    provider: "ifixit"
 ---
 
 Tesla's minimalist interior looks great but can develop annoying rattles and creaks over time. The good news? Most are easy DIY fixes with inexpensive materials. Here's how to hunt down and eliminate those noises.

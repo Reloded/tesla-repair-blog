@@ -11,6 +11,9 @@ emoji: "🖥️"
 tools:
   - name: "No tools required"
     link: "https://www.amazon.de/s?k=tesla+accessories&tag=diyrepair-21"
+  - name: "iFixit Pro Tech Toolkit"
+    link: "https://sovrn.co/1dw8w9g"
+    provider: "ifixit"
 ---
 
 A black or frozen Tesla touchscreen can be alarming, but it's usually an easy fix. The touchscreen is essentially a computer, and like any computer, it occasionally needs a reboot. This guide covers all the reset options from simple to comprehensive.

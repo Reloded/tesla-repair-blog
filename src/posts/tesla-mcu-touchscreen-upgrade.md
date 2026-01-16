@@ -15,6 +15,12 @@ tools:
     link: "https://www.amazon.de/s?k=t20+torx+screwdriver&tag=diyrepair-21"
   - name: "Screen Cleaning Kit"
     link: "https://www.amazon.de/s?k=screen+cleaning+kit&tag=diyrepair-21"
+  - name: "iFixit iOpener Kit"
+    link: "https://sovrn.co/1a01x7w"
+    provider: "ifixit"
+  - name: "iFixit Spudger Set"
+    link: "https://sovrn.co/mqnnvon"
+    provider: "ifixit"
 ---
 
 Older Tesla Model S and Model X vehicles (2012-2018) came with MCU1 (Media Control Unit version 1), which used an Nvidia Tegra processor and an 8GB eMMC flash chip. Over time, these systems become slow, unresponsive, and develop the infamous "yellow border" issue. Here's everything you need to know about diagnosing, repairing, and upgrading your Tesla's MCU.
