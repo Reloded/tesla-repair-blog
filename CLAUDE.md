@@ -10,18 +10,19 @@ Tesla repair affiliate blog targeting EU market. Goal: $1000/month passive incom
 
 ## Current Status
 - **Milestones:** All 3 complete (v1.0, v2.0, v3.0 shipped)
-- **Articles:** 51 repair guides
-- **Monetization:** Multi-affiliate (Amazon + Lectron live, 2 pending)
+- **Articles:** 52 repair guides
+- **Monetization:** Multi-affiliate (Amazon + Lectron + iFixit live)
 - **Hosting:** Cloudflare Pages (LIVE)
 - **Live URL:** https://tesladiyrepair.com
 
 ## Affiliate Programs
 | Program | Status | ID | Articles |
 |---------|--------|-----|----------|
-| Amazon.de | **LIVE** | diyrepair-21 | 51 |
+| Amazon.de | **LIVE** | diyrepair-21 | 52 |
 | Lectron (Awin) | **LIVE** | 2729872 | 6 |
 | iFixit (Sovrn) | **LIVE** | sovrn.co/... | 15 |
-| Tesmanian | Pending 24-48hr | - | 0 (8 ready) |
+| Tesmanian | Pending | - | 0 (8 ready) |
+| EVannex (Rakuten) | Pending | - | 0 |
 
 ## Key Files
 - `.planning/STATE.md` - Current progress
@@ -30,17 +31,27 @@ Tesla repair affiliate blog targeting EU market. Goal: $1000/month passive incom
 - `.planning/AFFILIATE-UPDATES-READY.md` - Pending affiliate link updates
 
 ## Recent Accomplishments (2026-01-16)
-- [x] Multi-affiliate template support
-- [x] Lectron approved and live (6 articles)
-- [x] Fixed Lectron URLs (ev-chargers, ev-adapters)
 - [x] iFixit (Sovrn) approved and LIVE
-- [x] Added iFixit links to all 15 articles
-- [x] Tesmanian applied - awaiting verification
+- [x] Added iFixit links to all 15 articles (7 product types)
+- [x] Deployed site with iFixit updates
+- [x] Posted 4 Reddit comments (2 with links, 2 karma building)
+- [x] Applied to EVannex (via Rakuten)
+- [x] Explored Awin for additional merchants
+- [x] Wrote article #52: Tesla Winter Preparation Guide
+- [x] Deployed winter prep article
+- [x] Prepared Reddit post for winter guide (posting tomorrow)
+
+## Pending Approvals
+- [ ] Tesmanian - applied, waiting 24-48hr
+- [ ] EVannex (Rakuten) - applied, waiting
 
 ## Next Actions
-- [ ] Wait for Tesmanian approval (24-48hr)
+- [ ] Post winter prep article to Reddit (tomorrow AM)
 - [ ] Add Tesmanian links to 8 articles when approved
-- [ ] Deploy updated site to Cloudflare Pages
+- [ ] Add EVannex links when approved
+- [ ] Check Google Search Console for ranking opportunities
+- [ ] Write more high-value articles
+- [ ] Continue Reddit engagement (2-3 helpful comments/day)
 
 ## Tech Stack
 - Eleventy 2.0.1 (static site generator)
