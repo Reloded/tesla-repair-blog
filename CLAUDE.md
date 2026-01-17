@@ -41,6 +41,8 @@ Tesla repair affiliate blog targeting EU market. Goal: $1000/month passive incom
 - [x] Added category filter buttons on /guides/ page (8 categories)
 - [x] Added colorful gradient+icon visual headers to article cards
 - [x] Optimized internal linking: added 11 cross-links across 12 articles
+- [x] Updated winter guide with community tips from Reddit (5 new tips)
+- [x] Replied to 5 Reddit comments on winter guide post (16K views, 33 upvotes)
 
 ## Previous Session (2026-01-16)
 - [x] iFixit (Sovrn) approved and LIVE
