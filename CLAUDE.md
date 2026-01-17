@@ -32,11 +32,12 @@ Tesla repair affiliate blog targeting EU market. Goal: $1000/month passive incom
 
 ## Recent Accomplishments (2026-01-17)
 - [x] Posted winter guide to Reddit (r/TeslaLounge + r/TeslaSupport)
-- [x] 2.6K+ views, 8 upvotes, 5 comments on Reddit posts
+- [x] 3K+ views, 8+ upvotes, active discussions on Reddit posts
 - [x] Replied to Reddit comments for engagement
 - [x] Checked Google Search Console (18 impressions, site indexing normally)
 - [x] Wrote article #53: Tesla Dashcam & Sentry USB Setup Guide
-- [x] Deployed dashcam article
+- [x] Added Pagefind search functionality (/search/ page)
+- [x] Search indexes all 53 articles automatically
 
 ## Previous Session (2026-01-16)
 - [x] iFixit (Sovrn) approved and LIVE
@@ -50,17 +51,18 @@ Tesla repair affiliate blog targeting EU market. Goal: $1000/month passive incom
 - [ ] EVannex (Rakuten) - applied, waiting
 
 ## Next Actions
-- [ ] Post winter prep article to Reddit (tomorrow AM)
 - [ ] Add Tesmanian links to 8 articles when approved
 - [ ] Add EVannex links when approved
-- [ ] Check Google Search Console for ranking opportunities
+- [ ] Check Google Search Console in 2 weeks for ranking data
 - [ ] Write more high-value articles
 - [ ] Continue Reddit engagement (2-3 helpful comments/day)
+- [ ] Consider adding display ads (Ezoic/AdSense)
 
 ## Tech Stack
 - Eleventy 2.0.1 (static site generator)
 - Nunjucks templates
 - CSS (no framework)
+- Pagefind (client-side search)
 - Cloudflare Pages hosting
 
 ## Owner Context
