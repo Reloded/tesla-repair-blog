@@ -3,12 +3,15 @@
   "version": "1.0.0",
   "description": "Tesla DIY Repair Guide - Affiliate Blog",
   "scripts": {
-    "build": "eleventy",
+    "build": "eleventy && npx pagefind --site _site",
     "start": "eleventy --serve",
-    "deploy": "eleventy && echo 'Site built! Upload the _site folder to Netlify'"
+    "index": "npx pagefind --site _site"
   },
   "dependencies": {
     "@11ty/eleventy": "^2.0.1",
     "@11ty/eleventy-plugin-rss": "^1.2.0"
+  },
+  "devDependencies": {
+    "pagefind": "^1.4.0"
   }
 }

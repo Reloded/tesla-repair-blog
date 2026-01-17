@@ -1,0 +1,91 @@
+---
+layout: base.njk
+title: Search Repair Guides
+description: Search all Tesla DIY repair guides. Find solutions for your Model 3, Model Y, Model S, and Model X problems.
+---
+
+<div class="search-page">
+  <h1>Search Repair Guides</h1>
+  <p class="search-intro">Find the guide you need from our {{ collections.posts | length }}+ Tesla repair articles.</p>
+
+  <div id="search"></div>
+</div>
+
+<link href="/pagefind/pagefind-ui.css" rel="stylesheet">
+<script src="/pagefind/pagefind-ui.js"></script>
+<script>
+  window.addEventListener('DOMContentLoaded', (event) => {
+    new PagefindUI({
+      element: "#search",
+      showSubResults: true,
+      showImages: false,
+      excerptLength: 25
+    });
+  });
+</script>
+
+<style>
+  .search-page {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+  }
+
+  .search-page h1 {
+    margin-bottom: 0.5rem;
+  }
+
+  .search-intro {
+    color: #666;
+    margin-bottom: 2rem;
+  }
+
+  /* Pagefind UI customization */
+  :root {
+    --pagefind-ui-scale: 1;
+    --pagefind-ui-primary: #e31937;
+    --pagefind-ui-text: #333;
+    --pagefind-ui-background: #fff;
+    --pagefind-ui-border: #ddd;
+    --pagefind-ui-tag: #f0f0f0;
+    --pagefind-ui-border-width: 2px;
+    --pagefind-ui-border-radius: 8px;
+    --pagefind-ui-font: inherit;
+  }
+
+  .pagefind-ui__search-input {
+    font-size: 1.1rem !important;
+    padding: 0.75rem 1rem !important;
+  }
+
+  .pagefind-ui__result-link {
+    color: #e31937 !important;
+    font-weight: 600;
+  }
+
+  .pagefind-ui__result-link:hover {
+    text-decoration: underline;
+  }
+
+  .pagefind-ui__result-excerpt {
+    color: #555;
+    line-height: 1.5;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --pagefind-ui-text: #eee;
+      --pagefind-ui-background: #1a1a1a;
+      --pagefind-ui-border: #444;
+      --pagefind-ui-tag: #333;
+    }
+
+    .search-intro {
+      color: #aaa;
+    }
+
+    .pagefind-ui__result-excerpt {
+      color: #bbb;
+    }
+  }
+</style>
