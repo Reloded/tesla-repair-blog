@@ -178,4 +178,5 @@ Squeaky brakes on a Tesla are usually not a safety concern. They're a side effec
 ## Related Guides
 
 - [Brake Pad Replacement](/posts/tesla-brake-pad-replacement/) - When cleaning doesn't fix the noise
+- [Regenerative Braking Reduced](/posts/tesla-regen-braking-reduced/) - Why your brakes work harder sometimes
 - [Suspension Noise Fix](/posts/tesla-suspension-noise-fix/) - Rule out suspension noises first

@@ -166,4 +166,5 @@ If there's a mechanical failure, yes. If it's due to ice or user damage, no.
 ## Related Guides
 
 - [Tesla Slow Charging Fix](/posts/tesla-slow-charging-fix/) - If your port opens but charging is slow
+- [Supercharger Slow](/posts/tesla-supercharger-slow/) - Slow speeds at Superchargers
 - [Mobile Connector Issues](/posts/tesla-mobile-connector-issues/) - Troubleshoot your home charging equipment

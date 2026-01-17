@@ -202,4 +202,5 @@ Reach out to Tesla if:
 
 - [AC Not Cooling](/posts/tesla-ac-not-cooling/) - Full climate system troubleshooting
 - [Heat Pump Problems](/posts/tesla-heat-pump-problems/) - Heat-related issues in Climate Keeper
+- [Cabin Air Filter](/posts/tesla-cabin-air-filter/) - Dirty filter can affect climate performance
 - [Range Loss Fix](/posts/tesla-range-loss-fix/) - Minimize battery drain from climate features

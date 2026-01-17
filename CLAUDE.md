@@ -38,6 +38,8 @@ Tesla repair affiliate blog targeting EU market. Goal: $1000/month passive incom
 - [x] Wrote article #53: Tesla Dashcam & Sentry USB Setup Guide
 - [x] Added Pagefind search functionality (/search/ page)
 - [x] Search indexes all 53 articles automatically
+- [x] Added category filter buttons on /guides/ page (8 categories)
+- [x] Added colorful gradient+icon visual headers to article cards
 
 ## Previous Session (2026-01-16)
 - [x] iFixit (Sovrn) approved and LIVE

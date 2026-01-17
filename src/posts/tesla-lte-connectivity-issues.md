@@ -229,6 +229,7 @@ Before your appointment:
 
 ## Related Guides
 
+- [Bluetooth Issues](/posts/tesla-bluetooth-issues/) - Phone and audio connectivity problems
 - [Software Update Stuck](/posts/tesla-software-update-stuck/) - WiFi troubleshooting techniques apply
 - [Navigation Not Working](/posts/tesla-navigation-not-working/) - Related connectivity issues
 - [MCU Touchscreen Upgrade](/posts/tesla-mcu-touchscreen-upgrade/) - For older vehicles with modem issues

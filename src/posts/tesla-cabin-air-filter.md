@@ -177,4 +177,5 @@ Model X filter locations:
 ## Related Guides
 
 - [Tesla AC Not Cooling](/posts/tesla-ac-not-cooling/) - Full AC troubleshooting if filter replacement doesn't help
+- [Climate Keeper Issues](/posts/tesla-climate-keeper-issues/) - Dog Mode and Camp Mode problems
 - [Seat Heater Fix](/posts/tesla-seat-heater-fix/) - Another interior comfort maintenance guide

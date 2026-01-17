@@ -150,5 +150,6 @@ While some owners have successfully replaced air springs themselves, the job req
 ## Related Guides
 
 - [Suspension Noise Fix](/posts/tesla-suspension-noise-fix/) - Diagnose noises before replacing parts
+- [Creaking & Rattling Fix](/posts/tesla-creaking-rattling-fix/) - Track down interior and body noises
 - [Control Arm Replacement](/posts/tesla-control-arm-replacement/) - Related suspension components
 - [Wheel Alignment DIY](/posts/tesla-wheel-alignment-diy/) - Check alignment after suspension work

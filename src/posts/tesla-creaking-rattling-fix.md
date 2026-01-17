@@ -239,5 +239,6 @@ This kit will fix 90% of Tesla interior rattles.
 ## Related Guides
 
 - [Suspension Noise Fix](/posts/tesla-suspension-noise-fix/) - Suspension-specific noise diagnosis
+- [Air Suspension Issues](/posts/tesla-air-suspension-issues/) - Model S/X air suspension problems
 - [Control Arm Replacement](/posts/tesla-control-arm-replacement/) - For persistent suspension creaks
 - [Door Seal Maintenance](/posts/tesla-door-seal-maintenance/) - Fix wind noise from seals

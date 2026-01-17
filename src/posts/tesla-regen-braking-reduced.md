@@ -153,4 +153,5 @@ There's no cost or damage from driving with limited regen. However:
 ## Related Guides
 
 - [Phantom Braking Fix](/posts/tesla-phantom-braking-fix/) - Related Autopilot braking behavior
+- [Brake Pad Replacement](/posts/tesla-brake-pad-replacement/) - When limited regen causes extra wear
 - [Range Loss Fix](/posts/tesla-range-loss-fix/) - Maximize efficiency when regen is limited

@@ -192,6 +192,7 @@ Reach out to Tesla if:
 
 ## Related Guides
 
+- [Bluetooth Issues](/posts/tesla-bluetooth-issues/) - Phone connectivity can affect navigation
 - [LTE Connectivity Issues](/posts/tesla-lte-connectivity-issues/) - Fix cellular data problems
 - [Software Update Stuck](/posts/tesla-software-update-stuck/) - WiFi troubleshooting techniques
 - [MCU Touchscreen Upgrade](/posts/tesla-mcu-touchscreen-upgrade/) - For persistent display issues on older models

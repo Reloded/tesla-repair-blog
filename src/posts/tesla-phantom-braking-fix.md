@@ -253,4 +253,5 @@ From community experience:
 
 - [Autopilot Camera Calibration](/posts/tesla-autopilot-camera-calibration/) - Recalibrate cameras to reduce phantom braking
 - [Regenerative Braking Reduced](/posts/tesla-regen-braking-reduced/) - Adjust regen settings while troubleshooting
+- [Squeaky Brakes Fix](/posts/tesla-squeaky-brakes-fix/) - When phantom braking causes brake noise
 - [Software Update Stuck](/posts/tesla-software-update-stuck/) - Ensure you have the latest improvements
