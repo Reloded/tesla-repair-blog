@@ -45,6 +45,11 @@ description: Complete list of DIY Tesla repair guides for Model 3, Model Y, Mode
     {% endif %}
 
     <article class="post-card" data-category="{{ filterGroup }}">
+      <div class="post-card-visual cat-{{ filterGroup }}">
+        <span class="cat-icon">
+          {% if filterGroup == "electrical" %}⚡{% elif filterGroup == "software" %}💻{% elif filterGroup == "maintenance" %}🔧{% elif filterGroup == "interior" %}🪑{% elif filterGroup == "suspension" %}🛞{% elif filterGroup == "hvac" %}❄️{% elif filterGroup == "exterior" %}🚗{% elif filterGroup == "charging" %}🔌{% else %}📋{% endif %}
+        </span>
+      </div>
       <div class="post-card-content">
         <div class="post-card-tags">
           <span class="post-card-category">{{ post.data.difficulty }}</span>
@@ -112,6 +117,59 @@ description: Complete list of DIY Tesla repair guides for Model 3, Model Y, Mode
 
   .post-card.hidden {
     display: none;
+  }
+
+  /* Category Visual Headers */
+  .post-card-visual {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .cat-icon {
+    font-size: 2.5rem;
+    z-index: 1;
+    filter: drop-shadow(0 2px 4px rgba(0,0,0,0.2));
+  }
+
+  /* Category Gradients */
+  .cat-electrical {
+    background: linear-gradient(135deg, #f6d365 0%, #fda085 100%);
+  }
+
+  .cat-software {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  }
+
+  .cat-maintenance {
+    background: linear-gradient(135deg, #11998e 0%, #38ef7d 100%);
+  }
+
+  .cat-interior {
+    background: linear-gradient(135deg, #eb5757 0%, #f2994a 100%);
+  }
+
+  .cat-suspension {
+    background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+  }
+
+  .cat-hvac {
+    background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);
+  }
+
+  .cat-exterior {
+    background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);
+  }
+
+  .cat-charging {
+    background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
+  }
+
+  .cat-other {
+    background: linear-gradient(135deg, #d299c2 0%, #fef9d7 100%);
   }
 
   @media (max-width: 600px) {

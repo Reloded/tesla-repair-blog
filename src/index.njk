@@ -19,9 +19,30 @@ description: DIY Tesla repair guides from an independent mechanic. Save thousand
   <div class="posts-grid">
     {% for post in collections.posts | reverse %}
     {% if loop.index <= 6 %}
+    {% set category = post.data.category | lower %}
+    {% set filterGroup = "other" %}
+    {% if category == "electrical" or category == "battery" or category == "connectivity" %}
+      {% set filterGroup = "electrical" %}
+    {% elif category == "software" or category == "troubleshooting" or category == "autopilot" or category == "autopilot & safety" or category == "features" or category == "cameras" %}
+      {% set filterGroup = "software" %}
+    {% elif category == "maintenance" or category == "tires" or category == "wheels" or category == "driving" %}
+      {% set filterGroup = "maintenance" %}
+    {% elif category == "interior" %}
+      {% set filterGroup = "interior" %}
+    {% elif category == "suspension" or category == "brakes" %}
+      {% set filterGroup = "suspension" %}
+    {% elif category == "hvac" or category == "climate" %}
+      {% set filterGroup = "hvac" %}
+    {% elif category == "exterior" or category == "body" or category == "body & exterior" or category == "body & glass" %}
+      {% set filterGroup = "exterior" %}
+    {% elif category == "charging" %}
+      {% set filterGroup = "charging" %}
+    {% endif %}
     <article class="post-card">
-      <div class="post-card-image">
-        {{ post.data.emoji or "🔧" }}
+      <div class="post-card-visual cat-{{ filterGroup }}">
+        <span class="cat-icon">
+          {% if filterGroup == "electrical" %}⚡{% elif filterGroup == "software" %}💻{% elif filterGroup == "maintenance" %}🔧{% elif filterGroup == "interior" %}🪑{% elif filterGroup == "suspension" %}🛞{% elif filterGroup == "hvac" %}❄️{% elif filterGroup == "exterior" %}🚗{% elif filterGroup == "charging" %}🔌{% else %}📋{% endif %}
+        </span>
       </div>
       <div class="post-card-content">
         <span class="post-card-category">{{ post.data.category or "Repair Guide" }}</span>
@@ -51,7 +72,9 @@ description: DIY Tesla repair guides from an independent mechanic. Save thousand
 
   <div class="posts-grid">
     <div class="post-card">
-      <div class="post-card-image">🔋</div>
+      <div class="post-card-visual cat-electrical">
+        <span class="cat-icon">⚡</span>
+      </div>
       <div class="post-card-content">
         <h3><a href="/guides/">Battery & Electrical</a></h3>
         <p>12V battery replacement, charging issues, electrical diagnostics, and more.</p>
@@ -59,7 +82,9 @@ description: DIY Tesla repair guides from an independent mechanic. Save thousand
     </div>
 
     <div class="post-card">
-      <div class="post-card-image">🛞</div>
+      <div class="post-card-visual cat-suspension">
+        <span class="cat-icon">🛞</span>
+      </div>
       <div class="post-card-content">
         <h3><a href="/guides/">Brakes & Suspension</a></h3>
         <p>Brake pad replacement, rotor resurfacing, suspension components, and alignment tips.</p>
@@ -67,7 +92,9 @@ description: DIY Tesla repair guides from an independent mechanic. Save thousand
     </div>
 
     <div class="post-card">
-      <div class="post-card-image">❄️</div>
+      <div class="post-card-visual cat-hvac">
+        <span class="cat-icon">❄️</span>
+      </div>
       <div class="post-card-content">
         <h3><a href="/guides/">HVAC & Filters</a></h3>
         <p>Cabin air filter replacement, AC maintenance, and climate control fixes.</p>
