@@ -4,91 +4,178 @@ title: All Repair Guides
 description: Complete list of DIY Tesla repair guides for Model 3, Model Y, Model S, and Model X. Save money on maintenance and repairs.
 ---
 
-<div class="section-header" style="margin-bottom: 2rem;">
+<div class="section-header" style="margin-bottom: 1rem;">
   <h1>Tesla DIY Repair Guides</h1>
   <p>Step-by-step tutorials to fix and maintain your Tesla yourself</p>
 </div>
 
-<div class="info-box">
-  <strong>New to Tesla DIY?</strong> Start with our easiest guides: <a href="/posts/tesla-cabin-air-filter/">Cabin Air Filter</a> or <a href="/posts/tesla-key-fob-battery/">Key Fob Battery</a>. These take under 15 minutes and require minimal tools.
+<div class="category-filters">
+  <button class="filter-btn active" data-filter="all">All ({{ collections.posts | length }})</button>
+  <button class="filter-btn" data-filter="electrical">Electrical</button>
+  <button class="filter-btn" data-filter="software">Software</button>
+  <button class="filter-btn" data-filter="maintenance">Maintenance</button>
+  <button class="filter-btn" data-filter="interior">Interior</button>
+  <button class="filter-btn" data-filter="suspension">Suspension & Brakes</button>
+  <button class="filter-btn" data-filter="hvac">HVAC & Climate</button>
+  <button class="filter-btn" data-filter="exterior">Exterior & Body</button>
+  <button class="filter-btn" data-filter="charging">Charging</button>
 </div>
 
-<section style="margin-top: 2rem;">
-  <h2>All Guides by Category</h2>
+<div class="posts-grid" id="guides-grid">
+  {% for post in collections.posts | reverse %}
+    {% set category = post.data.category | lower %}
+    {% set filterGroup = "other" %}
 
-  <h3 style="margin-top: 2rem; color: var(--secondary-color);">🔋 Electrical & Battery</h3>
-  <div class="posts-grid">
-    {% for post in collections.posts %}
-      {% if post.data.category == "Electrical" %}
-      <article class="post-card">
-        <div class="post-card-content">
-          <span class="post-card-category">{{ post.data.difficulty }}</span>
-          <h3><a href="{{ post.url }}">{{ post.data.title }}</a></h3>
-          <p>{{ post.data.description }}</p>
-          <div class="post-card-meta">
-            <span>{{ post.data.readTime }}</span>
-            <a href="{{ post.url }}" class="read-more">Read Guide →</a>
-          </div>
-        </div>
-      </article>
-      {% endif %}
-    {% endfor %}
-  </div>
+    {% if category == "electrical" or category == "battery" or category == "connectivity" %}
+      {% set filterGroup = "electrical" %}
+    {% elif category == "software" or category == "troubleshooting" or category == "autopilot" or category == "autopilot & safety" or category == "features" or category == "cameras" %}
+      {% set filterGroup = "software" %}
+    {% elif category == "maintenance" or category == "tires" or category == "wheels" or category == "driving" %}
+      {% set filterGroup = "maintenance" %}
+    {% elif category == "interior" %}
+      {% set filterGroup = "interior" %}
+    {% elif category == "suspension" or category == "brakes" %}
+      {% set filterGroup = "suspension" %}
+    {% elif category == "hvac" or category == "climate" %}
+      {% set filterGroup = "hvac" %}
+    {% elif category == "exterior" or category == "body" or category == "body & exterior" or category == "body & glass" %}
+      {% set filterGroup = "exterior" %}
+    {% elif category == "charging" %}
+      {% set filterGroup = "charging" %}
+    {% endif %}
 
-  <h3 style="margin-top: 2rem; color: var(--secondary-color);">🛞 Brakes & Suspension</h3>
-  <div class="posts-grid">
-    {% for post in collections.posts %}
-      {% if post.data.category == "Brakes" or post.data.category == "Suspension" %}
-      <article class="post-card">
-        <div class="post-card-content">
+    <article class="post-card" data-category="{{ filterGroup }}">
+      <div class="post-card-content">
+        <div class="post-card-tags">
           <span class="post-card-category">{{ post.data.difficulty }}</span>
-          <h3><a href="{{ post.url }}">{{ post.data.title }}</a></h3>
-          <p>{{ post.data.description }}</p>
-          <div class="post-card-meta">
-            <span>{{ post.data.readTime }}</span>
-            <a href="{{ post.url }}" class="read-more">Read Guide →</a>
-          </div>
+          <span class="post-card-category category-tag">{{ post.data.category }}</span>
         </div>
-      </article>
-      {% endif %}
-    {% endfor %}
-  </div>
+        <h3><a href="{{ post.url }}">{{ post.data.title }}</a></h3>
+        <p>{{ post.data.description }}</p>
+        <div class="post-card-meta">
+          <span>{{ post.data.readTime }}</span>
+          <a href="{{ post.url }}" class="read-more">Read Guide →</a>
+        </div>
+      </div>
+    </article>
+  {% endfor %}
+</div>
 
-  <h3 style="margin-top: 2rem; color: var(--secondary-color);">❄️ HVAC & Climate</h3>
-  <div class="posts-grid">
-    {% for post in collections.posts %}
-      {% if post.data.category == "HVAC" %}
-      <article class="post-card">
-        <div class="post-card-content">
-          <span class="post-card-category">{{ post.data.difficulty }}</span>
-          <h3><a href="{{ post.url }}">{{ post.data.title }}</a></h3>
-          <p>{{ post.data.description }}</p>
-          <div class="post-card-meta">
-            <span>{{ post.data.readTime }}</span>
-            <a href="{{ post.url }}" class="read-more">Read Guide →</a>
-          </div>
-        </div>
-      </article>
-      {% endif %}
-    {% endfor %}
-  </div>
+<p class="no-results" style="display: none; text-align: center; padding: 2rem; color: #666;">
+  No guides found in this category. <a href="#" onclick="document.querySelector('[data-filter=all]').click(); return false;">Show all guides</a>
+</p>
 
-  <h3 style="margin-top: 2rem; color: var(--secondary-color);">🔧 Maintenance & Other</h3>
-  <div class="posts-grid">
-    {% for post in collections.posts %}
-      {% if post.data.category == "Maintenance" or post.data.category == "Tires" or post.data.category == "Charging" or post.data.category == "Troubleshooting" %}
-      <article class="post-card">
-        <div class="post-card-content">
-          <span class="post-card-category">{{ post.data.difficulty }}</span>
-          <h3><a href="{{ post.url }}">{{ post.data.title }}</a></h3>
-          <p>{{ post.data.description }}</p>
-          <div class="post-card-meta">
-            <span>{{ post.data.readTime }}</span>
-            <a href="{{ post.url }}" class="read-more">Read Guide →</a>
-          </div>
-        </div>
-      </article>
-      {% endif %}
-    {% endfor %}
-  </div>
-</section>
+<style>
+  .category-filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    background: var(--card-bg, #f8f9fa);
+    border-radius: 8px;
+  }
+
+  .filter-btn {
+    padding: 0.5rem 1rem;
+    border: 2px solid var(--border-color, #ddd);
+    background: var(--bg-color, #fff);
+    color: var(--text-color, #333);
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    font-weight: 500;
+    transition: all 0.2s ease;
+  }
+
+  .filter-btn:hover {
+    border-color: #e31937;
+    color: #e31937;
+  }
+
+  .filter-btn.active {
+    background: #e31937;
+    border-color: #e31937;
+    color: white;
+  }
+
+  .post-card-tags {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .category-tag {
+    background: #e8e8e8 !important;
+    color: #555 !important;
+  }
+
+  .post-card.hidden {
+    display: none;
+  }
+
+  @media (max-width: 600px) {
+    .category-filters {
+      gap: 0.4rem;
+    }
+
+    .filter-btn {
+      padding: 0.4rem 0.8rem;
+      font-size: 0.8rem;
+    }
+  }
+
+  @media (prefers-color-scheme: dark) {
+    .category-filters {
+      background: #2a2a2a;
+    }
+
+    .filter-btn {
+      background: #1a1a1a;
+      border-color: #444;
+      color: #eee;
+    }
+
+    .filter-btn:hover {
+      border-color: #e31937;
+      color: #e31937;
+    }
+
+    .category-tag {
+      background: #333 !important;
+      color: #ccc !important;
+    }
+  }
+</style>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const filterBtns = document.querySelectorAll('.filter-btn');
+    const cards = document.querySelectorAll('.post-card');
+    const noResults = document.querySelector('.no-results');
+
+    filterBtns.forEach(btn => {
+      btn.addEventListener('click', function() {
+        const filter = this.dataset.filter;
+
+        // Update active button
+        filterBtns.forEach(b => b.classList.remove('active'));
+        this.classList.add('active');
+
+        // Filter cards
+        let visibleCount = 0;
+        cards.forEach(card => {
+          if (filter === 'all' || card.dataset.category === filter) {
+            card.classList.remove('hidden');
+            visibleCount++;
+          } else {
+            card.classList.add('hidden');
+          }
+        });
+
+        // Show/hide no results message
+        noResults.style.display = visibleCount === 0 ? 'block' : 'none';
+      });
+    });
+  });
+</script>
