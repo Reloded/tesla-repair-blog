@@ -43,6 +43,10 @@ Tesla repair affiliate blog targeting EU market. Goal: $1000/month passive incom
 - [x] Optimized internal linking: added 11 cross-links across 12 articles
 - [x] Updated winter guide with community tips from Reddit (5 new tips)
 - [x] Replied to 5 Reddit comments on winter guide post (16K views, 33 upvotes)
+- [x] Added featured "Seasonal Guide" banner on homepage (winter guide)
+- [x] Fixed contact email placeholder on About page
+- [x] Set up hello@tesladiyrepair.com via Cloudflare Email Routing
+- [x] Checked Rakuten - no Tesla advertisers available
 
 ## Previous Session (2026-01-16)
 - [x] iFixit (Sovrn) approved and LIVE
@@ -56,11 +60,12 @@ Tesla repair affiliate blog targeting EU market. Goal: $1000/month passive incom
 - [ ] EVannex (Rakuten) - applied, waiting
 
 ## Next Actions
-- [ ] Add Tesmanian links to 8 articles when approved
-- [ ] Add EVannex links when approved
-- [ ] Check Google Search Console in 2 weeks for ranking data
+- [ ] Check Tesmanian approval (applied, waiting 24-48hr) → add links to 8 articles
+- [ ] Find EVannex direct affiliate program (not on Rakuten)
+- [ ] Check Google Search Console in ~2 weeks for ranking data
 - [ ] Write more high-value articles
 - [ ] Continue Reddit engagement (2-3 helpful comments/day)
+- [ ] Monitor winter guide post for new comments
 - [ ] Consider adding display ads (Ezoic/AdSense)
 
 ## Tech Stack
