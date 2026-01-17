@@ -21,6 +21,8 @@ tools:
     link: "https://www.amazon.de/s?k=rubber+seal+conditioner+silicone&tag=diyrepair-21"
   - name: "De-Icer Spray"
     link: "https://www.amazon.de/s?k=de+icer+spray+car&tag=diyrepair-21"
+  - name: "Tesla Charge Port Cover"
+    link: "https://www.amazon.de/s?k=tesla+charge+port+cover&tag=diyrepair-21"
   - name: "Tesla Mobile Connector"
     link: "https://www.lectron.com/collections/ev-chargers?ref=2729872"
     provider: "lectron"
@@ -121,6 +123,7 @@ Frozen doors are the most common winter Tesla complaint. Prevent them:
 - Use **Defrost Car** from the app to warm the port
 - Keep the charge port closed when not charging
 - Never force it open—you'll break the latch
+- Consider a magnetic charge port cover (search "Tesla charge port cover" on Amazon) to keep the port dry when charging outdoors in rain or snow
 
 For persistent door seal issues, see our [door seal maintenance guide](/posts/tesla-door-seal-maintenance/).
 
@@ -132,9 +135,10 @@ For persistent door seal issues, see our [door seal maintenance guide](/posts/te
 - [Replace if streaking or chattering](/posts/tesla-windshield-wiper-replacement/)
 
 **Washer Fluid:**
-- Use winter-rated fluid (rated to -20°C/-40°C)
+- Use winter-rated fluid (at least -20°C for mild winters, -40°C or lower for extreme cold climates like Canada/Scandinavia)
 - Completely drain summer fluid first
 - Keep the reservoir full—you'll use a lot
+- Keep a small spray bottle of washer fluid in the car—great for cleaning cameras during snowstorms
 
 **Before a Snow/Ice Storm:**
 - Lift wipers off the windshield overnight
@@ -246,6 +250,8 @@ Keep these in your car during winter:
 - High-visibility vest
 - First aid kit
 - Snacks and water
+- Microfiber cloth (for cleaning cameras—don't dry wipe, might scratch the lens covers)
+- 12V hairdryer (for deicing frozen charger plugs at public stations)
 
 <div class="warning-box">
 <strong>Important:</strong> Unlike gas cars, you can safely run your Tesla's heater while stationary without carbon monoxide risk. If stranded in a storm, stay in the car with heat on. Monitor battery level and conserve if needed.
@@ -288,6 +294,16 @@ Complete these before cold weather arrives:
 - [ ] Enable Scheduled Departure
 - [ ] Consider winter tires
 
+### Salt & Undercarriage Protection
+
+If you drive on salted roads, regular undercarriage washes are important:
+
+- Road salt accelerates corrosion, especially on suspension components
+- Model 3/Y [control arms](/posts/tesla-control-arm-replacement/) are known to corrode faster in salty climates
+- Wash the undercarriage every 2-4 weeks during salt season
+- Many automatic car washes have undercarriage spray options
+- Consider applying an undercarriage rust protection coating before winter
+
 ## Charging Infrastructure in Winter
 
 **Home Charging:**
@@ -305,7 +321,8 @@ Complete these before cold weather arrives:
 **Public Charging:**
 - CCS/destination chargers also affected by cold
 - Expect 20-30% slower charging speeds
-- Some stations may have frozen cables
+- Some stations may have frozen cables—a 12V hairdryer can help deice plugs that have been sitting in snow/ice (many people leave plugs on the ground instead of hanging them properly)
+- Check the connector for ice before forcing it into your charge port
 
 For charging troubleshooting, see our [slow charging fix guide](/posts/tesla-slow-charging-fix/).
 
