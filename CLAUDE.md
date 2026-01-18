@@ -30,7 +30,12 @@ Tesla repair affiliate blog targeting EU market. Goal: $1000/month passive incom
 - `.planning/ROADMAP.md` - Development phases
 - `.planning/AFFILIATE-UPDATES-READY.md` - Pending affiliate link updates
 
-## Recent Accomplishments (2026-01-17)
+## Recent Accomplishments (2026-01-18)
+- [x] Checked Google Search Console: 5 pages indexed, 52 discovered (normal for new site)
+- [x] Added _redirects file for Cloudflare Pages to fix redirect errors
+- [x] Proper trailing slash handling now in place
+
+## Previous Session (2026-01-17)
 - [x] Posted winter guide to Reddit (r/TeslaLounge + r/TeslaSupport)
 - [x] 3K+ views, 8+ upvotes, active discussions on Reddit posts
 - [x] Replied to Reddit comments for engagement
@@ -48,7 +53,7 @@ Tesla repair affiliate blog targeting EU market. Goal: $1000/month passive incom
 - [x] Set up hello@tesladiyrepair.com via Cloudflare Email Routing
 - [x] Checked Rakuten - no Tesla advertisers available
 
-## Previous Session (2026-01-16)
+## Session 2026-01-16
 - [x] iFixit (Sovrn) approved and LIVE
 - [x] Added iFixit links to all 15 articles (7 product types)
 - [x] Posted 4 Reddit comments (2 with links, 2 karma building)
