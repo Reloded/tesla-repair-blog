@@ -10,4 +10,3 @@
 /tools  /tools/  301
 /about  /about/  301
 /search  /search/  301
-/posts/*  /posts/:splat/  301
