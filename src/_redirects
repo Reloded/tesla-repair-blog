@@ -1,0 +1,13 @@
+# Handle common URL variations
+/index.html  /  301
+/guides/index.html  /guides/  301
+/tools/index.html  /tools/  301
+/about/index.html  /about/  301
+/search/index.html  /search/  301
+
+# Handle missing trailing slashes for main pages
+/guides  /guides/  301
+/tools  /tools/  301
+/about  /about/  301
+/search  /search/  301
+/posts/*  /posts/:splat/  301
