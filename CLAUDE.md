@@ -21,6 +21,7 @@ Tesla repair affiliate blog targeting EU market. Goal: $1000/month passive incom
 | Program | Status | ID | Articles |
 |---------|--------|-----|----------|
 | Amazon.de | **LIVE** | diyrepair-21 | 53 |
+| Amazon.com | **LIVE** | diyrepair07-20 | 53 |
 | Lectron (Awin) | **LIVE** | 2729872 | 6 |
 | iFixit (Sovrn) | **LIVE** | sovrn.co/... | 15 |
 | Tesmanian | Pending | - | 0 (8 ready) |
@@ -62,6 +63,8 @@ Tesla repair affiliate blog targeting EU market. Goal: $1000/month passive incom
 - [x] Scripts auto-detect properties and fetch live data
 - [x] First organic clicks from Google (2 clicks, 95 impressions)
 - [x] Optimized USB article title/meta for better CTR
+- [x] Added Amazon.com affiliate (diyrepair07-20) for US visitors
+- [x] All 53 articles now show both Amazon.de and Amazon.com buttons
 
 ## Previous Session (2026-01-18)
 - [x] Checked Google Search Console: 5 pages indexed, 52 discovered (normal for new site)

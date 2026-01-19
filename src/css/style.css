@@ -548,6 +548,24 @@ img {
   box-shadow: 0 4px 12px rgba(0, 166, 81, 0.4);
 }
 
+.affiliate-link .btn-amazon-de {
+  background: linear-gradient(135deg, #ff9900 0%, #e88a00 100%);
+}
+
+.affiliate-link .btn-amazon-de:hover {
+  background: linear-gradient(135deg, #e88a00 0%, #cc7a00 100%);
+  box-shadow: 0 4px 12px rgba(255, 153, 0, 0.4);
+}
+
+.affiliate-link .btn-amazon-us {
+  background: linear-gradient(135deg, #146eb4 0%, #0f5a8f 100%);
+}
+
+.affiliate-link .btn-amazon-us:hover {
+  background: linear-gradient(135deg, #0f5a8f 0%, #0a4a75 100%);
+  box-shadow: 0 4px 12px rgba(20, 110, 180, 0.4);
+}
+
 /* Warning/Tip Boxes */
 .warning-box, .tip-box, .info-box {
   padding: 1.5rem;
