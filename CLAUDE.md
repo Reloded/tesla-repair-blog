@@ -29,13 +29,30 @@ Tesla repair affiliate blog targeting EU market. Goal: $1000/month passive incom
 - `.planning/PROJECT.md` - Full project vision
 - `.planning/ROADMAP.md` - Development phases
 - `.planning/AFFILIATE-UPDATES-READY.md` - Pending affiliate link updates
+- `scripts/gsc.js` - Google Search Console API script
 
-## Recent Accomplishments (2026-01-18)
+## GSC Stats (2026-01-19)
+| Metric | Value |
+|--------|-------|
+| Clicks | 2 |
+| Impressions | 95 |
+| CTR | 2.11% |
+| Avg Position | 13.3 |
+
+**Top Pages:** tesla-usb-not-working (48 imp), tesla-phantom-braking-fix (15 imp), tesla-windshield-wiper-replacement (14 imp)
+
+## Recent Accomplishments (2026-01-19)
+- [x] Set up Google Search Console API script (`npm run gsc`)
+- [x] Created OAuth credentials in Google Cloud Console
+- [x] Script auto-detects GSC properties and fetches performance data
+- [x] First organic clicks from Google (2 clicks, 95 impressions)
+
+## Previous Session (2026-01-18)
 - [x] Checked Google Search Console: 5 pages indexed, 52 discovered (normal for new site)
 - [x] Added _redirects file for Cloudflare Pages to fix redirect errors
 - [x] Proper trailing slash handling now in place
 
-## Previous Session (2026-01-17)
+## Session 2026-01-17
 - [x] Posted winter guide to Reddit (r/TeslaLounge + r/TeslaSupport)
 - [x] 3K+ views, 8+ upvotes, active discussions on Reddit posts
 - [x] Replied to Reddit comments for engagement
@@ -65,12 +82,12 @@ Tesla repair affiliate blog targeting EU market. Goal: $1000/month passive incom
 - [ ] EVannex (Rakuten) - applied, waiting
 
 ## Next Actions
-- [ ] Check Tesmanian approval (applied, waiting 24-48hr) → add links to 8 articles
+- [ ] Check Tesmanian approval (applied 4+ days ago) → add links to 8 articles
 - [ ] Find EVannex direct affiliate program (not on Rakuten)
-- [ ] Check Google Search Console in ~2 weeks for ranking data
+- [ ] Optimize tesla-usb-not-working article (48 imp, 0 clicks - needs better meta)
 - [ ] Write more high-value articles
 - [ ] Continue Reddit engagement (2-3 helpful comments/day)
-- [ ] Monitor winter guide post for new comments
+- [ ] Monitor GSC weekly with `npm run gsc`
 - [ ] Consider adding display ads (Ezoic/AdSense)
 
 ## Tech Stack
@@ -79,6 +96,7 @@ Tesla repair affiliate blog targeting EU market. Goal: $1000/month passive incom
 - CSS (no framework)
 - Pagefind (client-side search)
 - Cloudflare Pages hosting
+- GSC API script (`npm run gsc`)
 
 ## Owner Context
 - Self-taught Tesla mechanic from Lithuania

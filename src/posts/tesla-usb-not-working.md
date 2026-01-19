@@ -1,7 +1,7 @@
 ---
 layout: post.njk
-title: "Tesla USB Not Working? Format & Fix Guide"
-description: "Tesla USB ports not working? Format drives correctly for dashcam/music. Troubleshoot connection issues and hub compatibility problems."
+title: "Tesla USB Not Working? How to Format for Dashcam & Sentry Mode"
+description: "Fix Tesla USB not recognized. Step-by-step: format USB to exFAT, create TeslaCam folder, best high-endurance drives for Sentry Mode. Works on all models."
 date: 2025-01-14
 category: "Interior"
 difficulty: "Easy"

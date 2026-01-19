@@ -2,3 +2,7 @@ node_modules/
 _site/
 .DS_Store
 *.log
+
+# Google API credentials (sensitive)
+scripts/credentials.json
+scripts/token.json

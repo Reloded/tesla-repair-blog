@@ -5,11 +5,13 @@
   "scripts": {
     "build": "eleventy && npx pagefind --site _site",
     "start": "eleventy --serve",
-    "index": "npx pagefind --site _site"
+    "index": "npx pagefind --site _site",
+    "gsc": "node scripts/gsc.js"
   },
   "dependencies": {
     "@11ty/eleventy": "^2.0.1",
-    "@11ty/eleventy-plugin-rss": "^1.2.0"
+    "@11ty/eleventy-plugin-rss": "^1.2.0",
+    "googleapis": "^144.0.0"
   },
   "devDependencies": {
     "pagefind": "^1.4.0"
