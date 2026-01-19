@@ -103,7 +103,7 @@ Tesla repair affiliate blog targeting EU market. Goal: $1000/month passive incom
 ## Next Actions
 - [ ] Check Tesmanian approval (applied 4+ days ago) → add links to 8 articles
 - [ ] Find EVannex direct affiliate program (not on Rakuten)
-- [ ] Optimize tesla-usb-not-working article (48 imp, 0 clicks - needs better meta)
+- [x] ~~Optimize tesla-usb-not-working article~~ DONE - new title/meta/intro for CTR
 - [ ] Write more high-value articles
 - [ ] Continue Reddit engagement (2-3 helpful comments/day)
 - [ ] Monitor GSC weekly with `npm run gsc`

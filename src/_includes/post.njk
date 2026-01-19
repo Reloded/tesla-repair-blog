@@ -51,8 +51,10 @@ layout: base.njk
             {% elif tool.provider == "lectron" %}
             <a href="{{ tool.link }}" class="buy-btn btn-lectron" target="_blank" rel="nofollow noopener">View on Lectron</a>
             {% else %}
-            <a href="{{ tool.link }}" class="buy-btn btn-amazon-de" target="_blank" rel="nofollow noopener">Amazon.de 🇩🇪</a>
-            <a href="{{ tool.link | replace('amazon.de', 'amazon.com') | replace('diyrepair-21', 'diyrepair07-20') }}" class="buy-btn btn-amazon-us" target="_blank" rel="nofollow noopener">Amazon.com 🇺🇸</a>
+            <div class="amazon-buttons">
+              <a href="{{ tool.link }}" class="buy-btn btn-amazon-de" target="_blank" rel="nofollow noopener">Amazon.de 🇩🇪</a>
+              <a href="{{ tool.link | replace('amazon.de', 'amazon.com') | replace('diyrepair-21', 'diyrepair07-20') }}" class="buy-btn btn-amazon-us" target="_blank" rel="nofollow noopener">Amazon.com 🇺🇸</a>
+            </div>
             {% endif %}
           </div>
         </li>
@@ -61,8 +63,10 @@ layout: base.njk
         <li>
           <div class="affiliate-link">
             <span class="product-name">Basic Mechanic Tool Set</span>
-            <a href="https://www.amazon.de/s?k=mechanic+tool+set&tag=diyrepair-21" class="buy-btn btn-amazon-de" target="_blank" rel="nofollow noopener">Amazon.de 🇩🇪</a>
-            <a href="https://www.amazon.com/s?k=mechanic+tool+set&tag=diyrepair07-20" class="buy-btn btn-amazon-us" target="_blank" rel="nofollow noopener">Amazon.com 🇺🇸</a>
+            <div class="amazon-buttons">
+              <a href="https://www.amazon.de/s?k=mechanic+tool+set&tag=diyrepair-21" class="buy-btn btn-amazon-de" target="_blank" rel="nofollow noopener">Amazon.de 🇩🇪</a>
+              <a href="https://www.amazon.com/s?k=mechanic+tool+set&tag=diyrepair07-20" class="buy-btn btn-amazon-us" target="_blank" rel="nofollow noopener">Amazon.com 🇺🇸</a>
+            </div>
           </div>
         </li>
       {% endif %}

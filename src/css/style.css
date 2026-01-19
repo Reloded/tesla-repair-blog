@@ -566,6 +566,12 @@ img {
   box-shadow: 0 4px 12px rgba(20, 110, 180, 0.4);
 }
 
+.amazon-buttons {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
 /* Warning/Tip Boxes */
 .warning-box, .tip-box, .info-box {
   padding: 1.5rem;
