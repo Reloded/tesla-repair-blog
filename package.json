@@ -6,7 +6,8 @@
     "build": "eleventy && npx pagefind --site _site",
     "start": "eleventy --serve",
     "index": "npx pagefind --site _site",
-    "gsc": "node scripts/gsc.js"
+    "gsc": "node scripts/gsc.js",
+    "analytics": "node scripts/analytics.js"
   },
   "dependencies": {
     "@11ty/eleventy": "^2.0.1",

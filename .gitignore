@@ -6,3 +6,4 @@ _site/
 # Google API credentials (sensitive)
 scripts/credentials.json
 scripts/token.json
+scripts/token-ga.json

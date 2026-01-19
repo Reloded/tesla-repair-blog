@@ -3,6 +3,7 @@
 ## Session Instructions
 > **AUTO-SAVE ENABLED:** Update this file after every major task or accomplishment. Commit changes regularly.
 > **GSC CHECK:** Run `npm run gsc` at session start to pull latest Search Console stats.
+> **ANALYTICS CHECK:** Run `npm run analytics` to pull visitor/traffic data.
 
 ---
 
@@ -42,11 +43,25 @@ Tesla repair affiliate blog targeting EU market. Goal: $1000/month passive incom
 
 **Top Pages:** tesla-usb-not-working (48 imp), tesla-phantom-braking-fix (15 imp), tesla-windshield-wiper-replacement (14 imp)
 
+## Analytics Stats (2026-01-19)
+| Metric | Value |
+|--------|-------|
+| Active Users | 137 |
+| Sessions | 155 |
+| Page Views | 341 |
+| Avg Session | 2m 21s |
+| Bounce Rate | 71.6% |
+
+**Top Traffic:** Direct (143), Facebook (8), Google (2)
+**Top Countries:** US (64), Lithuania (22), UK (9), Germany (6)
+
 ## Recent Accomplishments (2026-01-19)
 - [x] Set up Google Search Console API script (`npm run gsc`)
+- [x] Set up Google Analytics API script (`npm run analytics`)
 - [x] Created OAuth credentials in Google Cloud Console
-- [x] Script auto-detects GSC properties and fetches performance data
+- [x] Scripts auto-detect properties and fetch live data
 - [x] First organic clicks from Google (2 clicks, 95 impressions)
+- [x] Optimized USB article title/meta for better CTR
 
 ## Previous Session (2026-01-18)
 - [x] Checked Google Search Console: 5 pages indexed, 52 discovered (normal for new site)
