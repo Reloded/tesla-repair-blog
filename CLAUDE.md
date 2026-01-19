@@ -2,6 +2,7 @@
 
 ## Session Instructions
 > **AUTO-SAVE ENABLED:** Update this file after every major task or accomplishment. Commit changes regularly.
+> **GSC CHECK:** Run `npm run gsc` at session start to pull latest Search Console stats.
 
 ---
 
