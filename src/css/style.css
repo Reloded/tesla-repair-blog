@@ -622,18 +622,36 @@ img {
   font-size: 0.95rem;
 }
 
-.tool-card .buy-btn {
-  display: inline-block;
-  background: var(--accent-color);
-  color: white;
-  padding: 0.75rem 2rem;
-  border-radius: 25px;
-  font-weight: 600;
+.tool-card .tool-buttons {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
-.tool-card .buy-btn:hover {
-  background: var(--primary-color);
+.tool-card .buy-btn {
+  display: inline-block;
   color: white;
+  padding: 0.6rem 1rem;
+  border-radius: 25px;
+  font-weight: 600;
+  font-size: 0.85rem;
+}
+
+.tool-card .btn-amazon-de {
+  background: linear-gradient(135deg, #ff9900 0%, #e88a00 100%);
+}
+
+.tool-card .btn-amazon-de:hover {
+  background: linear-gradient(135deg, #e88a00 0%, #cc7a00 100%);
+}
+
+.tool-card .btn-amazon-us {
+  background: linear-gradient(135deg, #146eb4 0%, #0f5a8f 100%);
+}
+
+.tool-card .btn-amazon-us:hover {
+  background: linear-gradient(135deg, #0f5a8f 0%, #0a4a75 100%);
 }
 
 /* About Page */
