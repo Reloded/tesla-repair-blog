@@ -34,15 +34,16 @@ Tesla repair affiliate blog targeting EU market. Goal: $1000/month passive incom
 - `.planning/AFFILIATE-UPDATES-READY.md` - Pending affiliate link updates
 - `scripts/gsc.js` - Google Search Console API script
 
-## GSC Stats (2026-01-19)
+## GSC Stats (2026-01-20)
 | Metric | Value |
 |--------|-------|
 | Clicks | 2 |
-| Impressions | 95 |
-| CTR | 2.11% |
-| Avg Position | 13.3 |
+| Impressions | 115 |
+| CTR | 1.74% |
+| Avg Position | 13.0 |
 
-**Top Pages:** tesla-usb-not-working (48 imp), tesla-phantom-braking-fix (15 imp), tesla-windshield-wiper-replacement (14 imp)
+**Top Pages:** tesla-usb-not-working (56 imp), window-reset-calibration (19 imp), windshield-wiper-replacement (17 imp), phantom-braking-fix (16 imp)
+**Note:** Both clicks came from homepage - articles getting impressions but need CTR optimization
 
 ## Analytics Stats (2026-01-19)
 | Metric | Value |
@@ -59,8 +60,11 @@ Tesla repair affiliate blog targeting EU market. Goal: $1000/month passive incom
 ## Recent Accomplishments (2026-01-20)
 - [x] Reddit engagement: replied to 12V battery thread (299 views on original comment)
 - [x] Reddit engagement: replied to suspension rattle follow-up question
-- [x] Reddit engagement: first comment on PTC heater post (with heat pump article link)
-- [x] Building authority with detailed technical answers
+- [x] Reddit engagement: PTC heater comment (heat pump article link) - got called out as AI
+  - Warranty advice was wrong (2019 M3 is 7 years old, not under warranty)
+  - Structured format looked too AI-generated
+  - Lesson: use casual tone, avoid numbered lists, double-check facts
+- [x] Updated GSC stats: 115 impressions (+21% from yesterday)
 
 ## Session 2026-01-19
 - [x] Set up Google Search Console API script (`npm run gsc`)
