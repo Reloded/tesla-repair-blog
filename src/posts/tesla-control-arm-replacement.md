@@ -26,6 +26,9 @@ tools:
 
 The front upper control arms are one of the most common wear items on Tesla vehicles, especially Model 3 and Model Y. The factory design uses a ball joint that's prone to water ingress, leading to squeaks, clunks, and eventually play in the suspension. Here's how to diagnose and replace them yourself.
 
+![Tesla front lower control arm highlighted, showing aluminum suspension component](/images/repairs/tesla-control-arm-suspension.jpg)
+*Front lower control arm (circled) — the aluminum casting connects the wheel hub to the subframe. Upper control arms fail more frequently but use similar construction.*
+
 ## Symptoms of Worn Control Arms
 
 **Audible Signs:**

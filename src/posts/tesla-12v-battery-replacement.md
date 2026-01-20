@@ -27,6 +27,9 @@ tools:
 
 The 12V battery in your Tesla is one of the most common components that will eventually need replacement. Despite having a massive high-voltage battery pack, every Tesla still relies on a traditional 12V lead-acid (or lithium in newer models) battery to power essential systems. When this battery fails, your Tesla won't start—even with a fully charged main battery.
 
+![Tesla Model 3 frunk area with battery compartment exposed, showing wiring and components](/images/repairs/tesla-model-3-frunk-battery-area.jpg)
+*The frunk area of a Model 3 with covers removed, showing the 12V battery location and surrounding wiring.*
+
 ## Signs Your Tesla 12V Battery Needs Replacement
 
 Before diving into the replacement process, here's how to know if your 12V battery is failing:
