@@ -63,6 +63,8 @@ Tesla repair affiliate blog targeting EU market. Goal: $1000/month passive incom
 - [x] Fixed 12V battery article image caption (was misleading about what photo showed)
 - [x] Added content verification guidelines to CLAUDE.md (lessons from audit)
 - [x] Updated analytics stats: 153 users, 399 page views (+17% from yesterday)
+- [x] Checked Tesmanian affiliate - still pending (6+ days), GoAffPro profile is private
+- [x] Contacted Buttondown support - requested new email verification link
 - [x] Reddit engagement: replied to 12V battery thread (299 views on original comment)
 - [x] Reddit engagement: replied to suspension rattle follow-up question
 - [x] Reddit engagement: PTC heater comment - went badly, disengaged
