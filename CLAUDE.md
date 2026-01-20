@@ -101,7 +101,32 @@ Tesla repair affiliate blog targeting EU market. Goal: $1000/month passive incom
   - Screen black fix: corrected timing (hold until black, ~30 sec restart)
   - Key fob battery: verified CR2032 correct
   - Camera calibration: verified accurate
-  - All articles now link to official Tesla documentation
+- [x] Audited articles against service.tesla.com - Round 4:
+  - Gear oil: **CRITICAL FIX** - capacities were 4x too low (590ml → 2.1L)
+  - AC not cooling: wrong filter location + added R1234yf refrigerant warning
+  - Trunk won't close: verified accurate
+  - Regen braking: verified accurate (informational)
+- [x] Audited articles against service.tesla.com - Round 5:
+  - Slow charging: verified accurate (general guidance)
+  - Suspension noise: lug nut torque 129 ft-lbs confirmed correct
+  - Door handle: verified accurate
+  - Heat pump: fixed cabin air filter location (said "under frunk" - wrong!)
+- [x] Audited articles against service.tesla.com - Round 6:
+  - 12V battery: already corrected, verified accurate
+  - MCU upgrade: informational, verified accurate
+  - Mobile connector: **FIXED** red blink codes - code 3 is relay fault not temp
+- [x] Audited articles against service.tesla.com - Round 7:
+  - Phantom braking: informational, verified accurate
+  - Key fob battery: CR2032 confirmed correct
+  - Software update: verified accurate
+  - Navigation: Premium Connectivity $9.99/mo confirmed correct
+- [x] Audited articles against service.tesla.com - Round 8:
+  - USB not working: verified accurate (exFAT, TeslaCam folder)
+  - Wiper replacement: Service Mode path confirmed (Controls > Service)
+  - Window calibration: already corrected, verified accurate
+  - Brake pads: already corrected, verified accurate
+
+**Article Audit Status:** ~30 of 53 articles audited. Critical fixes applied to: cabin air filter, gear oil, AC/refrigerant, mobile connector blink codes, heat pump filter location.
 
 ## Session 2026-01-19
 - [x] Set up Google Search Console API script (`npm run gsc`)
