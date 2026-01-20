@@ -120,7 +120,7 @@ Tesla repair affiliate blog targeting EU market. Goal: $1000/month passive incom
 - [x] Wrote article #52: Tesla Winter Preparation Guide
 
 ## Pending Approvals
-- [ ] Tesmanian - applied, waiting 24-48hr
+- [ ] Tesmanian - applied 5+ days ago, still pending (checked 2026-01-20)
 - [ ] EVannex (Rakuten) - applied, waiting
 
 ## Next Actions
