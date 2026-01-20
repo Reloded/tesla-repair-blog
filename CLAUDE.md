@@ -88,6 +88,11 @@ Tesla repair affiliate blog targeting EU market. Goal: $1000/month passive incom
   - Late 2021-2023: 12V lithium-ion
   - 2024+ (Highland/Juniper): 16V lithium-ion (different system)
   - Added warning about not mixing battery types
+- [x] Audited articles against service.tesla.com - fixed errors:
+  - Window calibration: corrected procedure (raise-stall-lower-stall-raise), fixed Service Mode path
+  - Cabin air filter: MAJOR FIX - location is footwell not glovebox, arrows point to rear, added T20 tool
+  - Wiper replacement: verified accurate
+  - Added links to official Tesla documentation
 
 ## Session 2026-01-19
 - [x] Set up Google Search Console API script (`npm run gsc`)
@@ -151,6 +156,12 @@ Tesla repair affiliate blog targeting EU market. Goal: $1000/month passive incom
 - Pagefind (client-side search)
 - Cloudflare Pages hosting
 - GSC API script (`npm run gsc`)
+
+## Content Guidelines
+- **ALWAYS verify procedures against service.tesla.com** before publishing
+- Link to official Tesla docs when possible
+- Note model year differences (pre-2021, 2021-2023, 2024+ Highland/Juniper)
+- Battery types: 12V lead-acid → 12V Li-ion → 16V Li-ion (don't mix!)
 
 ## Owner Context
 - Self-taught Tesla mechanic from Lithuania
