@@ -79,7 +79,7 @@ Unlike gas cars that use engine waste heat, Tesla uses a heat pump to move heat 
 
 A clogged filter is the #1 cause of HVAC underperformance:
 
-1. Remove the [cabin air filter](/posts/tesla-cabin-air-filter/) (located under the frunk in Model 3/Y)
+1. Remove the [cabin air filter](/posts/tesla-cabin-air-filter/) (accessed from the **passenger footwell**, not the frunk)
 2. Inspect for dirt, leaves, and debris
 3. Replace if dirty (every 2 years recommended)
 4. Test heat output

@@ -57,14 +57,20 @@ The Mobile Connector has indicator lights that tell you what's wrong:
 | Red | Fault detected |
 
 **On the Box (Gen 2):**
+
+Per [Tesla's official documentation](https://service.tesla.com/docs/Public/diy/model3/en_us/GUID-A3E92BEC-5A7A-4092-BAAF-A17B8E863B3F.html):
+
 | Light Pattern | Meaning |
 |---------------|---------|
-| 1 Red Blink | Ground fault detected |
-| 2 Red Blinks | Ground loss detected |
-| 3 Red Blinks | High temperature |
-| 4 Red Blinks | Input voltage error |
-| 5 Red Blinks | Adapter fault |
-| 6 Red Blinks | Pilot fault |
+| 1 Red Flash | Ground fault - current leaking through unsafe path |
+| 2 Red Flashes | Ground loss detected |
+| 3 Red Flashes | Relay/contactor fault |
+| 4 Red Flashes | Over- or under-voltage protection |
+| 5 Red Flashes | Adapter fault |
+| 6 Red Flashes | Pilot fault - pilot level incorrect |
+| 7 Red Flashes | Software error or mismatch |
+| Red 1 flash + Green on | Thermal fault (high temperature) |
+| Red 5 flashes + Green on | Adapter fault, charging limited to 8A |
 
 ## Common Problems and Solutions
 
@@ -123,9 +129,24 @@ The connector lost its ground reference during charging.
 3. Try a different outlet
 4. May need outlet replacement
 
-### Problem 4: Three Red Blinks (High Temperature)
+### Problem 4: Three Red Flashes (Relay/Contactor Fault)
 
-The connector is overheating.
+An internal relay or contactor has failed.
+
+**Possible causes:**
+- Internal component failure
+- Electrical surge damage
+- Wear from extended use
+
+**Fix:**
+1. Unplug for 30 seconds and try again
+2. Try a different outlet to rule out electrical issues
+3. If fault persists, the Mobile Connector likely needs replacement
+4. Contact Tesla support if under warranty
+
+### Problem 4b: Thermal Fault (Red 1 Flash + Green Lights On)
+
+The connector is overheating - this has a different indicator than other faults.
 
 **Possible causes:**
 - Loose outlet connection (most common)
