@@ -76,6 +76,13 @@ Tesla repair affiliate blog targeting EU market. Goal: $1000/month passive incom
   - Window calibration (19 imp) - problem-first title
   - Wiper replacement (17 imp) - Service Mode warning hook
   - Phantom braking (16 imp) - relatable scenario opener
+- [x] Added real workshop photos to articles:
+  - Created /src/images/repairs/ folder
+  - 12V battery article: frunk area photo
+  - Control arm article: suspension photo
+  - Door handle article: door panel interior
+  - About page: workshop hero shot (drive unit on hoist)
+  - Created .planning/PHOTO-MAPPING-PLAN.md for future photos
 
 ## Session 2026-01-19
 - [x] Set up Google Search Console API script (`npm run gsc`)
