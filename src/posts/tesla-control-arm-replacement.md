@@ -145,8 +145,13 @@ Tesla has revised the design multiple times. Aftermarket options often use greas
 ### Step 6: Torque to Specification
 
 **Torque Values (Model 3/Y):**
-- Inner mounting bolts: 150 Nm (111 ft-lb)
-- Ball joint pinch bolt: 50 Nm (37 ft-lb)
+- Inner mounting bolts (13mm): 35 Nm (26 ft-lb)
+- Inner mounting bolts (15mm): 62 Nm (46 ft-lb)
+- Ball joint pinch bolt: 56 Nm (41 ft-lb)
+
+<div class="warning-box">
+<strong>Critical:</strong> Make sure the larger (15mm) and smaller (13mm) bolts are installed in their correct locations. Using the wrong torque can damage threads or leave bolts loose.
+</div>
 
 **Tightening Order:**
 1. Torque inner bolts first

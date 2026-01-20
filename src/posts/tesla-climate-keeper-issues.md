@@ -81,7 +81,7 @@ If the display doesn't show "My owner will be back soon":
 
 Camp Mode needs:
 
-- **Battery above 15%** to activate
+- **Battery above 20%** to activate (auto-disables at 20%)
 - **Car in Park** and stationary
 - **All doors closed** for full functionality
 
@@ -115,7 +115,7 @@ Cabin Overheat Protection must be enabled:
 
 1. Go to **Controls > Safety > Cabin Overheat Protection**
 2. Choose **On** or **No A/C** (fan only)
-3. Feature only activates when cabin exceeds 40°C (105°F)
+3. Set temperature threshold: 30°C (86°F), 35°C (95°F), or 40°C (104°F)
 
 ### Battery Drain Concerns
 

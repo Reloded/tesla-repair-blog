@@ -23,7 +23,7 @@ HomeLink is a universal garage door opener integrated into your Tesla. It can:
 - Work with most garage door brands
 
 <div class="warning-box">
-<strong>Note:</strong> HomeLink is standard on Model S and Model X. On Model 3 and Model Y, HomeLink requires a separate purchase (~$350) unless included with your trim package.
+<strong>Note:</strong> HomeLink is standard on Model S and Model X. On Model 3 and Model Y, HomeLink is always a separate $350 add-on (includes installation) - it's not included with any trim level.
 </div>
 
 ## Before You Start

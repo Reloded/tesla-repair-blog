@@ -125,8 +125,50 @@ Tesla repair affiliate blog targeting EU market. Goal: $1000/month passive incom
   - Wiper replacement: Service Mode path confirmed (Controls > Service)
   - Window calibration: already corrected, verified accurate
   - Brake pads: already corrected, verified accurate
+- [x] Audited articles - Round 9:
+  - Phone key not working: verified accurate (menu paths correct)
+  - Bluetooth issues: verified accurate
+  - HomeLink: **FIXED** - clarified Model 3/Y never includes HomeLink (always $350 add-on)
+  - Seat heater: verified accurate (warranty 4yr/50k correct)
+- [x] Audited articles - Round 10:
+  - Supercharger slow: verified accurate (informational)
+  - Sentry mode not recording: verified accurate (20% battery threshold correct)
+  - Air suspension issues: verified accurate
+  - Control arm replacement: **CRITICAL FIX** - torque values were dangerously wrong (150Nm → 35/62Nm)
+- [x] Audited articles - Round 11:
+  - Climate keeper: **FIXED** Camp Mode threshold (15% → 20%) + updated COP temp options
+  - LTE connectivity: verified accurate
+  - Squeaky brakes: verified accurate
+  - Range loss: verified accurate
+- [x] Audited articles - Round 12:
+  - Creaking/rattling fix: verified accurate (DIY content)
+  - Wheel alignment DIY: verified accurate (specs are conservative targets)
+  - Voice commands fix: verified accurate
+  - Autopilot unavailable: verified accurate (camera calibration path correct)
+- [x] Audited articles - Round 13:
+  - Aero cap removal: verified accurate (Model Y 19" Gemini confirmed)
+  - Headlight condensation: verified accurate
+  - Rear camera blurry: verified accurate
+  - Dashcam not saving: verified accurate (exFAT, TeslaCam folder)
+- [x] Audited articles - Round 14 (final):
+  - Ceramic coating: verified accurate (DIY guide)
+  - Door seal maintenance: verified accurate
+  - Falcon wing door fix: verified accurate (Model X specific)
+  - PPF installation: verified accurate (DIY guide)
+  - Paint chip repair: verified accurate (paint codes correct)
+  - Steering wheel buttons: verified accurate
+  - Winter preparation guide: verified accurate
 
-**Article Audit Status:** ~30 of 53 articles audited. Critical fixes applied to: cabin air filter, gear oil, AC/refrigerant, mobile connector blink codes, heat pump filter location.
+**Article Audit Status:** ALL 53 ARTICLES AUDITED. Critical fixes applied to:
+- Cabin air filter (location)
+- Gear oil (capacities were 4x too low)
+- AC/refrigerant (R1234yf warning)
+- Mobile connector (blink codes)
+- Heat pump (filter location)
+- HomeLink (pricing clarification)
+- Control arm (torque values were dangerous)
+- Camp Mode (battery threshold)
+- Cabin Overheat Protection (temperature options)
 
 ## Session 2026-01-19
 - [x] Set up Google Search Console API script (`npm run gsc`)
