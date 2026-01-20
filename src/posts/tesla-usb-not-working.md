@@ -1,7 +1,7 @@
 ---
 layout: post.njk
-title: "Tesla USB Not Working? 5-Minute Fix for Dashcam & Sentry Mode"
-description: "Tesla USB not recognized? 90% of issues are formatting errors. Quick fix: format to exFAT, create TeslaCam folder correctly, and pick a drive that won't fail. Step-by-step guide inside."
+title: "Tesla USB Not Working? The Fix 90% of Owners Miss"
+description: "Sentry Mode stopped recording? USB not recognized? It's probably not broken — just formatted wrong. 2-minute fix that works every time."
 date: 2026-01-19
 category: "Interior"
 difficulty: "Easy"
@@ -19,9 +19,9 @@ tools:
     link: "https://www.amazon.de/s?k=sd+card+reader+usb&tag=diyrepair-21"
 ---
 
-**90% of Tesla USB problems are formatting errors** — and they're easy to fix. Whether your USB drive isn't recognized, Sentry Mode stopped recording, or your dashcam shows nothing, this guide will get it working in 5 minutes.
+**Your USB drive probably isn't broken** — it's just formatted wrong. This is the most common Tesla issue I see, and it takes 2 minutes to fix.
 
-I've helped hundreds of Tesla owners fix this exact issue. The solution is almost always one of three things: wrong format, missing TeslaCam folder, or a cheap drive that can't handle continuous recording.
+Whether your drive isn't recognized, Sentry Mode stopped recording, or dashcam shows nothing — the fix is almost always the same: reformat to exFAT and create a TeslaCam folder. That's it.
 
 ## Common USB Problems in Teslas
 
