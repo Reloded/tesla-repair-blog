@@ -37,14 +37,15 @@ The soft reboot is like restarting your phone—it solves most temporary glitche
 
 ### How to Soft Reboot
 
-**While parked (recommended):**
+Per [Tesla's official procedure](https://service.tesla.com/docs/Public/diy/model3/en_us/GUID-C6EE3503-1D68-455C-8AA3-2D6FF9ADCF5E.html):
 
-1. Put the car in Park
+1. Shift into Park
 2. Press and hold **both scroll wheels** on the steering wheel
-3. Hold for **10-15 seconds** until the screen goes black
-4. Wait for the Tesla logo to appear
-5. Release the buttons
-6. Wait 1-2 minutes for the system to fully restart
+3. Hold **until the touchscreen turns black**
+4. Release the buttons
+5. Wait approximately **30 seconds** for the touchscreen to restart
+
+The car remains operational during this reboot—steering, brakes, and drive systems are unaffected.
 
 <div class="tip-box">
 <strong>Tip:</strong> You don't need to press the brake or turn anything off. Just hold both scroll wheels. The car remains operational during this reboot.
@@ -89,14 +90,16 @@ If screen is not responsive:
 
 ## Level 3: Scroll Wheel + Brake Reboot
 
-This is a more aggressive version of the soft reboot:
+This community-suggested method combines the brake pedal with the scroll wheel reboot. Note: This is not in Tesla's official documentation, but some owners report it forces a more complete reset.
 
 1. Sit in the driver's seat
 2. Press and hold the **brake pedal**
 3. Press and hold **both scroll wheels**
-4. Continue holding both for **20-30 seconds**
-5. The screen will go black, then show the Tesla logo
+4. Continue holding both until the screen goes black
+5. The screen will show the Tesla logo
 6. Wait for full boot
+
+If this doesn't resolve your issue, proceed to Level 4 (factory reset).
 
 This resets additional systems that the standard soft reboot misses.
 
