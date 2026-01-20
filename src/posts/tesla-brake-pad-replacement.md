@@ -101,11 +101,19 @@ Tesla uses standard brake components. You don't need to buy from Tesla. Compatib
 
 **Rear Brakes:**
 
-The process is similar, but rear calipers on Teslas may have an **electronic parking brake**. You may need to:
+The rear brakes have an **electronic parking brake (EPB)** that must be put in Service Mode first.
 
-1. Release the electronic parking brake before starting
-2. Use a brake caliper tool to retract the piston (they screw in, not push in)
-3. Some Model 3/Y rear calipers have a specific procedure—check the service manual
+Per [Tesla's official procedure](https://service.tesla.com/docs/ModelY/ServiceManual/en-us/GUID-C039ADBE-F3D8-4FFA-BC8E-9D7B9F241978.html):
+
+1. **Enable EPB Service Mode** on the touchscreen:
+   - Go to **Service Mode > Chassis > Brakes > EPB Service Mode**
+   - Select "Both" in EPB Selection
+   - Select "Start" in Action Selection
+   - Tap **Run** and wait for it to complete
+2. Now you can remove the caliper bolts and access the pads
+3. Use a brake caliper wind-back tool—the rear piston rotates as it retracts
+4. **Important:** Position the slots in the piston face at 12 o'clock and 6 o'clock before installing pads
+5. When finished, exit EPB Service Mode (same menu, select "Stop")
 
 ### Compressing the Caliper Piston
 
@@ -124,8 +132,10 @@ Before installing new pads, you need to push the caliper piston back in to make 
 1. Apply brake pad grease to the back of the new pads and the contact points on the caliper bracket
 2. Install the new pads into the caliper bracket
 3. Swing the caliper back down over the pads
-4. Reinstall the caliper bolt and torque to spec (typically 25-30 ft-lbs)
-5. Reinstall the wheel and torque lug nuts in a star pattern (129 ft-lbs for most Teslas)
+4. **Use NEW caliper bolts** (Tesla recommends not reusing old bolts)
+5. Torque caliper bracket bolts to **83 Nm (61 ft-lbs)** per Tesla specs
+6. Mark the bolts with a paint pen after torquing (standard Tesla practice)
+7. Reinstall the wheel and torque lug nuts in a star pattern to **175 Nm (129 ft-lbs)**
 
 ### Bed-In Procedure
 

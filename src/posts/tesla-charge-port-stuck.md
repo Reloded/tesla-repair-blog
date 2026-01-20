@@ -57,8 +57,18 @@ Common causes:
 1. Go to **Controls > Charging > Unlock Charge Port**
 2. Try removing the cable
 
+### Method 5: Key Fob (If Equipped)
+
+Per Tesla's documentation, if you have a key fob:
+1. Press and hold the **rear trunk button** on the key fob for 1-2 seconds
+2. Pull the charge cable from the charge port
+
 <div class="tip-box">
 <strong>Tip:</strong> Sometimes the car needs a moment to process the unlock command. Wait 5-10 seconds after each attempt before pulling on the cable.
+</div>
+
+<div class="warning-box">
+<strong>Safety Warning:</strong> Do not use the manual release methods while the vehicle is actively charging or if any orange high voltage conductors are exposed. This can result in electric shock and serious injury.
 </div>
 
 ## Manual Release Methods

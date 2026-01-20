@@ -61,11 +61,14 @@ The Model 3 doesn't have a simple manual release. If the 12V battery is dead, yo
 
 **Step 2: Provide External Power**
 
+Per [Tesla's procedure](https://service.tesla.com/docs/Public/diy/model3/en_us/GUID-FE8439BB-18A6-494B-97A8-FA9063E81DF8.html):
+
 1. Connect a 12V power source (jump pack or another car's battery)
 2. Connect positive (+) to the positive terminal
 3. Connect negative (-) to the negative terminal
-4. The car should wake up
-5. Use the app or touchscreen to open the frunk
+4. The hood latches will release immediately
+5. **Important:** Do not leave power cables connected for more than 30 seconds
+6. This only releases the latches—it does not charge the 12V battery
 
 **Alternative: The Coat Hanger Method** (requires creativity)
 1. Through the wheel well, you can access the frunk release cable

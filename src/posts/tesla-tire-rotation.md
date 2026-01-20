@@ -49,23 +49,26 @@ Tesla recommends rotating tires at every service interval, which is roughly 12,5
 
 The rotation pattern depends on your Tesla's drivetrain configuration:
 
-### Rear-Wheel Drive (RWD)
+### Non-Directional Tires (Same Size All Around)
 
-Pattern: **Rearward Cross** or **X-Pattern**
-- Front left → Rear right
-- Front right → Rear left
+Per [Tesla's official rotation pattern](https://service.tesla.com/docs/Model3/ServiceManual/2024/en-us/GUID-7A200CAC-C2A5-4828-A96D-E49550FA1E85.html):
+
+- **Front left → Rear right** (crosses to opposite side)
+- **Front right → Rear left** (crosses to opposite side)
+- **Rear left → Front left** (stays same side)
+- **Rear right → Front right** (stays same side)
+
+This is a "rearward cross" pattern—front tires cross to opposite rear, rear tires move straight forward.
+
+### Directional Tires
+
+If your tires have arrows indicating rotation direction:
+- Front left → Rear left (same side only)
+- Front right → Rear right (same side only)
 - Rear left → Front left
 - Rear right → Front right
 
-This puts the less-worn fronts on the harder-working rear axle.
-
-### All-Wheel Drive (AWD)
-
-Pattern: **X-Pattern** (most common)
-- Front left → Rear right
-- Front right → Rear left
-- Rear left → Front right
-- Rear right → Front left
+**Do not** swap directional tires from left to right.
 
 ### Staggered Wheels (Different Front/Rear Sizes)
 
@@ -128,13 +131,15 @@ You have two options:
 4. Torque in a **star pattern** to **129 ft-lbs** (Model 3/Y) or **175 ft-lbs** (Model S/X - check your manual)
 5. Lower fully and remove jack
 
-**Step 4: Reset TPMS (If Needed)**
+**Step 4: Calibrate Tire Pressure**
 
-Tesla's TPMS usually auto-calibrates after a few miles of driving. If you get a tire pressure warning:
+Per Tesla's procedure, after rotation you should calibrate the tire pressure sensors:
 
-1. Go to Controls > Service > Reset TPMS
-2. Drive for 10-15 minutes at varying speeds
-3. Sensors should recalibrate automatically
+1. Go to **Service > Calibrate Tire Pressure** on the touchscreen
+2. Tap **Calibrate**
+3. Drive for 10-15 minutes at varying speeds
+
+**Note:** Vehicles with BLE TPMS (newer models) may not have this calibration routine—they auto-calibrate.
 
 ## Post-Rotation Checklist
 
