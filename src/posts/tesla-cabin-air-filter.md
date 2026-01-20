@@ -13,10 +13,10 @@ tools:
     link: "https://www.amazon.de/s?k=tesla+model+3+cabin+air+filter&tag=diyrepair-21"
   - name: "Tesla HEPA Filter Upgrade"
     link: "https://www.amazon.de/s?k=tesla+HEPA+cabin+air+filter&tag=diyrepair-21"
+  - name: "T20 Torx Screwdriver"
+    link: "https://www.amazon.de/s?k=T20+torx+screwdriver&tag=diyrepair-21"
   - name: "Plastic Trim Tool"
     link: "https://www.amazon.de/s?k=plastic+trim+removal+tool&tag=diyrepair-21"
-  - name: "Microfiber Cloths"
-    link: "https://www.amazon.de/s?k=microfiber+cleaning+cloths&tag=diyrepair-21"
   - name: "iFixit Plastic Pry Tools"
     link: "https://sovrn.co/mqnnvon"
     provider: "ifixit"
@@ -53,47 +53,60 @@ The cabin air filter cleans all the air that enters your Tesla's interior throug
 
 ## Model 3 and Model Y: Step-by-Step
 
-The cabin air filter on Model 3 and Model Y is located behind the glovebox. Here's how to access it:
+Per [Tesla's official procedure](https://service.tesla.com/docs/Public/diy/model3/en_us/GUID-DB0A1E3C-926E-498C-A2FD-A27B8421A471.html), the cabin air filter is accessed from the **front passenger footwell** (not behind the glovebox).
 
-### Step 1: Open and Empty the Glovebox
+### Tools Needed
+- T20 Torx screwdriver (or T20/6mm combo tool)
+- Plastic trim removal tool
+- Small flashlight (helpful)
 
-1. Open the glovebox
-2. Remove everything from inside
-3. Note: You don't need to remove the glovebox entirely
+### Step 1: Prepare the Work Area
 
-### Step 2: Remove the Glovebox Panel
+1. Turn off the climate control system
+2. Open the front passenger door
+3. Move the front passenger seat **fully rearward**
+4. Remove the floor mat
 
-There are two ways to do this:
+### Step 2: Remove the Footwell Cover
 
-**Easy Method (recommended):**
-1. Push the sides of the glovebox inward to release the clips
-2. Lower the glovebox all the way down—it will hang from the limiting strap
-3. Look behind/above the glovebox opening
+1. Using a trim tool, release the push clips on the footwell cover
+2. Lower the cover carefully
+3. Disconnect the two electrical connectors (footwell light and speaker)
+4. Set the cover aside
 
-**Alternative (if needed):**
-1. Remove the glovebox completely by unhooking the limiting strap
-2. Provides more room to work
+### Step 3: Access the Filter Housing
 
-### Step 3: Locate and Remove the Old Filter
+1. Use a trim tool to release the right side panel from the center console
+2. Locate the cabin filter cover on the HVAC module
+3. Remove the **T20 screw** (some vehicles have a T20/6mm hybrid fastener) securing the filter cover
+4. Release the filter cover and move it aside
 
-1. You'll see a plastic filter housing behind the glovebox
-2. The Model 3/Y typically has **two filters** side by side
-3. Release the clips or tabs holding the filter cover
-4. Slide out the old filters—note their orientation (airflow direction arrows)
+### Step 4: Remove the Old Filters
+
+1. The Model 3/Y has **two filters** stacked (upper and lower)
+2. Fold the upper filter's pull tabs outward
+3. Pull the **upper filter** out first
+4. Then pull the **lower filter** upward and out
 
 <div class="warning-box">
-<strong>Note:</strong> The filters may be dirty—have a bag ready to dispose of them. If you see debris in the housing, vacuum it out before installing new filters.
+<strong>Note:</strong> The filters may be dirty—have a bag ready. If you see debris in the housing, vacuum it out before installing new filters. Avoid touching nearby electrical connectors.
 </div>
 
-### Step 4: Install the New Filters
+### Step 5: Install the New Filters
 
 1. Check the **airflow direction arrows** on the new filters
-2. Insert the filters with arrows pointing in the correct direction (toward the cabin/up)
-3. Make sure they seat fully in the housing
-4. Close the filter cover and secure clips
-5. Raise the glovebox and snap it back into place
+2. Insert filters with arrows pointing **toward the rear of the vehicle**
+3. Install the **lower filter first**, then the upper filter
+4. Fold the filter tabs inward
+5. Reinstall the filter cover and T20 screw
+6. Reinstall the side panel and footwell cover (reconnect electrical connectors)
 
-**That's it!** Test the AC to make sure everything is working properly.
+### Step 6: Reset the Filter Maintenance Reminder
+
+On vehicles with software 2024.14+, reset the cabin filter health score:
+- Go to **Service Mode > Thermal > Air Filter Diagnostics > Reset Filter Health**
+
+**Test the AC** to make sure everything is working properly.
 
 ## Model S: Step-by-Step
 

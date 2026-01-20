@@ -42,36 +42,36 @@ This procedure works on all Tesla models. You'll need to do it for each affected
 
 ### Method 1: Manual Reset (Recommended)
 
-**Step 1: Open the Window Fully**
+Per [Tesla's official procedure](https://service.tesla.com/docs/Public/diy/model3/en_us/GUID-B6C81FC2-A37C-462B-8A71-FDE0F7B0734E.html):
 
-1. Sit in the car with the door closed
-2. Press and hold the window switch DOWN
-3. Keep holding for 5 seconds after the window is fully open
-4. Release the switch
+1. Close the door with the affected window
+2. Sit in the driver's seat and close the driver door
+3. Using the window switch, **raise the affected window until it stalls**
+4. Using the window switch, **lower the affected window until it stalls**
+5. **Raise the affected window until it stalls again**
 
-**Step 2: Close and Calibrate**
+The window should now be calibrated.
 
-1. Press and hold the window switch UP
-2. Keep holding for 5 seconds after the window is fully closed
-3. Release the switch
-4. The window is now calibrated
-
-**Step 3: Test the Window**
+**Test the Window:**
 
 1. Use the one-touch auto-close feature (tap up once)
 2. The window should close completely without reversing
 3. Open and close the door to verify proper seal
 
-### Method 2: Service Menu Reset
+If the issue persists after trying this a couple of times, contact Tesla service.
 
-For persistent issues, use the service menu:
+### Method 2: Service Mode Reset
 
-1. Go to **Controls** > **Service** > **Wheel & Tire** > **Window Calibration**
-2. Follow the on-screen prompts
-3. Each window will cycle through its range of motion
+For persistent issues, you can use Service Mode (requires enabling it first):
+
+1. Enable Service Mode on the touchscreen
+2. Go to **Controls > Service Mode > Closures > Windows**
+3. Tap each window's **Calibrate** button
+4. The selected window will roll up and down automatically
+5. Exit Service Mode when complete
 
 <div class="warning-box">
-<strong>Note:</strong> The service menu option may not be available on all software versions. Method 1 works universally.
+<strong>Note:</strong> Pinch detection is disabled during Service Mode calibration. Method 1 (manual reset) works on all vehicles without needing Service Mode.
 </div>
 
 ## Why Windows Lose Calibration
