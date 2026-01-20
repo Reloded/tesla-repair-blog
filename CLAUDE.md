@@ -45,17 +45,18 @@ Tesla repair affiliate blog targeting EU market. Goal: $1000/month passive incom
 **Top Pages:** tesla-usb-not-working (56 imp), window-reset-calibration (19 imp), windshield-wiper-replacement (17 imp), phantom-braking-fix (16 imp)
 **Note:** Both clicks came from homepage - articles getting impressions but need CTR optimization
 
-## Analytics Stats (2026-01-19)
+## Analytics Stats (2026-01-20)
 | Metric | Value |
 |--------|-------|
-| Active Users | 137 |
-| Sessions | 155 |
-| Page Views | 341 |
-| Avg Session | 2m 21s |
-| Bounce Rate | 71.6% |
+| Active Users | 153 |
+| Sessions | 173 |
+| Page Views | 399 |
+| Avg Session | 2m 44s |
+| Bounce Rate | 71.1% |
 
-**Top Traffic:** Direct (143), Facebook (8), Google (2)
-**Top Countries:** US (64), Lithuania (22), UK (9), Germany (6)
+**Top Traffic:** Direct (160), Facebook (8), Google (2), Awin/Lectron (1)
+**Top Countries:** US (71), Lithuania (26), UK (9), Germany (6)
+**Top Pages:** Homepage (152), Winter Guide (54), Guides (46), 12V Battery (25)
 
 ## Recent Accomplishments (2026-01-20)
 - [x] Reddit engagement: replied to 12V battery thread (299 views on original comment)
