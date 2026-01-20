@@ -65,6 +65,11 @@ Tesla repair affiliate blog targeting EU market. Goal: $1000/month passive incom
   - Structured format looked too AI-generated
   - Lesson: use casual tone, avoid numbered lists, double-check facts
 - [x] Updated GSC stats: 115 impressions (+21% from yesterday)
+- [x] Optimized USB article CTR (56 imp, 0 clicks) - new title/meta/intro
+- [x] Optimized 3 more top articles for CTR:
+  - Window calibration (19 imp) - problem-first title
+  - Wiper replacement (17 imp) - Service Mode warning hook
+  - Phantom braking (16 imp) - relatable scenario opener
 
 ## Session 2026-01-19
 - [x] Set up Google Search Console API script (`npm run gsc`)
