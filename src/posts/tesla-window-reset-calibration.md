@@ -1,7 +1,7 @@
 ---
 layout: post.njk
-title: "Tesla Window Calibration: Reset in Under 1 Minute"
-description: "Reset Tesla window calibration in under 1 minute. Fix auto-up/down issues and windows not sealing properly with this simple procedure."
+title: "Tesla Window Won't Close? 60-Second Reset Fix"
+description: "Window stops short, auto-reverses, or leaves a gap? Your calibration is off. Here's the quick reset that fixes it — no tools needed."
 date: 2026-01-14
 category: "Body & Glass"
 difficulty: "Easy"
@@ -20,7 +20,7 @@ tools:
     provider: "ifixit"
 ---
 
-Tesla windows are frameless and rely on precise calibration to seal properly against the door frame. When calibration is off, you'll experience windows that won't fully close, auto-reverse for no reason, or leave annoying gaps that cause wind noise and water leaks.
+**Tesla windows sometimes "forget" where they're supposed to stop.** When this happens, they won't fully close, auto-reverse for no reason, or leave gaps that let in wind noise and water. The fix takes 60 seconds per window — no tools, no service appointment.
 
 ## Common Tesla Window Problems
 

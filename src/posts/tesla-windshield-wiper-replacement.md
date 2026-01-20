@@ -1,7 +1,7 @@
 ---
 layout: post.njk
-title: "Tesla Wiper Blade Replacement: DIY in 5 Minutes"
-description: "Replace Tesla wiper blades in 5 minutes. DIY guide with correct blade sizes for all models. Easy installation, no tools required."
+title: "Tesla Wiper Replacement: Sizes + The Step Most People Skip"
+description: "Changing Tesla wipers is easy — but you need Service Mode first or you'll scratch the hood. Correct sizes for every model inside."
 date: 2025-01-05
 category: "Maintenance"
 difficulty: "Easy"
@@ -17,7 +17,7 @@ tools:
     link: "https://www.amazon.de/s?k=microfiber+cloth+automotive&tag=diyrepair-21"
 ---
 
-Windshield wipers are a wear item that most people ignore until they can barely see in the rain. Replacing wipers on a Tesla is identical to any other car—except you need to put the car in "Service Mode" to access them properly.
+**Replacing Tesla wipers is easy — if you know about Service Mode.** Skip this step and the wipers will hit your hood when you lift them. Here's how to do it right, plus the correct blade sizes for every model.
 
 ## When to Replace Your Wipers
 
