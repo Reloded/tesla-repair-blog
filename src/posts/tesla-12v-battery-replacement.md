@@ -1,7 +1,7 @@
 ---
 layout: post.njk
 title: "Tesla 12V Battery Replacement: DIY Guide (Save €200+)"
-description: "Learn how to replace your Tesla 12V battery yourself. Step-by-step guide with tools, costs, and tips. Save over €200 on dealer service fees."
+description: "Replace your Tesla 12V battery yourself. Covers lead-acid (pre-2021) and lithium-ion (2021-2023) systems. Note: 2024+ models use 16V — different process."
 date: 2025-01-10
 category: "Electrical"
 difficulty: "Easy"
@@ -25,7 +25,14 @@ tools:
     provider: "ifixit"
 ---
 
-The 12V battery in your Tesla is one of the most common components that will eventually need replacement. Despite having a massive high-voltage battery pack, every Tesla still relies on a traditional 12V lead-acid (or lithium in newer models) battery to power essential systems. When this battery fails, your Tesla won't start—even with a fully charged main battery.
+The low-voltage battery in your Tesla is one of the most common components that will eventually need replacement. Despite having a massive high-voltage battery pack, every Tesla relies on a smaller auxiliary battery to power essential systems like the computer, door locks, and lights. When this battery fails, your Tesla won't start—even with a fully charged main battery.
+
+**Important:** Tesla has used three different low-voltage battery types:
+- **Pre-late 2021:** 12V lead-acid (replaceable with aftermarket options)
+- **Late 2021–2023:** 12V lithium-ion (NMC or LFP chemistry)
+- **2024+ (Highland, Juniper):** 16V lithium-ion (completely different system)
+
+This guide focuses on the 12V batteries. If you have a 2024+ vehicle with a 16V system, the replacement process and parts are different—check your owner's manual or Tesla service documentation.
 
 ![Tesla Model 3 frunk area with battery compartment exposed, showing wiring and components](/images/repairs/tesla-model-3-frunk-battery-area.jpg)
 *The frunk area of a Model 3 with covers removed, showing the 12V battery location and surrounding wiring.*
@@ -49,10 +56,19 @@ Before diving into the replacement process, here's how to know if your 12V batte
 
 For this job, you'll need basic tools and about 30-60 minutes. Tesla service centers charge $200-400+ for this repair, but you can do it yourself for around $80-150 depending on the battery you choose.
 
-**Battery Options:**
-- **OEM Lead-Acid** (~$80-120): Standard replacement, 3-4 year lifespan
-- **OEM Lithium** (~$200-300): Lighter, longer lasting, used in newer Teslas
-- **Ohmmu Lithium Upgrade** (~$300): Popular aftermarket option, 8+ year lifespan
+**Battery Options (for 12V systems only):**
+
+*Lead-acid vehicles (pre-late 2021):*
+- **OEM Lead-Acid** (~€80-120): Direct replacement, 3-4 year lifespan
+- **Ohmmu/Antigravity Lithium Upgrade** (~€250-350): Lighter, 8+ year lifespan, popular upgrade
+
+*12V Lithium-ion vehicles (late 2021–2023):*
+- **Tesla OEM Lithium** (~€200-300): Must match chemistry (NMC or LFP)
+- Tesla recommends attempting recovery before replacement—these batteries can often be revived
+
+<div class="warning-box">
+<strong>Don't mix battery types:</strong> Never put a lead-acid battery in a car designed for lithium-ion, or vice versa. The charging systems are calibrated differently and you can cause damage.
+</div>
 
 ## Step-by-Step Replacement Guide
 
