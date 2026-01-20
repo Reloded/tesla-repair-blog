@@ -236,9 +236,13 @@ Tesla repair affiliate blog targeting EU market. Goal: $1000/month passive incom
 
 ## Content Guidelines
 - **ALWAYS verify procedures against service.tesla.com** before publishing
+- **NEVER trust AI-generated specs** - verify torque values, fluid capacities, menu paths, thresholds
+- **Check image/caption accuracy** - ensure photos actually show what the caption claims
+- **Watch for outdated info** - Tesla updates frequently, verify current values
 - Link to official Tesla docs when possible
 - Note model year differences (pre-2021, 2021-2023, 2024+ Highland/Juniper)
 - Battery types: 12V lead-acid → 12V Li-ion → 16V Li-ion (don't mix!)
+- Common AI errors to watch for: wrong filter locations, incorrect torque specs, outdated battery thresholds
 
 ## Owner Context
 - Self-taught Tesla mechanic from Lithuania
