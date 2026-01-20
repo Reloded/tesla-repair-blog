@@ -88,11 +88,16 @@ Tesla repair affiliate blog targeting EU market. Goal: $1000/month passive incom
   - Late 2021-2023: 12V lithium-ion
   - 2024+ (Highland/Juniper): 16V lithium-ion (different system)
   - Added warning about not mixing battery types
-- [x] Audited articles against service.tesla.com - fixed errors:
-  - Window calibration: corrected procedure (raise-stall-lower-stall-raise), fixed Service Mode path
-  - Cabin air filter: MAJOR FIX - location is footwell not glovebox, arrows point to rear, added T20 tool
+- [x] Audited articles against service.tesla.com - Round 1:
+  - Window calibration: corrected procedure, fixed Service Mode path
+  - Cabin air filter: MAJOR FIX - location is footwell not glovebox, arrows to rear
   - Wiper replacement: verified accurate
-  - Added links to official Tesla documentation
+- [x] Audited articles against service.tesla.com - Round 2:
+  - Brake pads: added EPB Service Mode, fixed torque (83 Nm), new bolts required
+  - Tire rotation: fixed pattern (rear stays same side), TPMS calibration path
+  - Charge port: added key fob method, HV safety warning
+  - Frunk: added 30-second power limit
+  - All articles now link to official Tesla documentation
 
 ## Session 2026-01-19
 - [x] Set up Google Search Console API script (`npm run gsc`)
