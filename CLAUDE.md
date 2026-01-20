@@ -56,7 +56,13 @@ Tesla repair affiliate blog targeting EU market. Goal: $1000/month passive incom
 **Top Traffic:** Direct (143), Facebook (8), Google (2)
 **Top Countries:** US (64), Lithuania (22), UK (9), Germany (6)
 
-## Recent Accomplishments (2026-01-19)
+## Recent Accomplishments (2026-01-20)
+- [x] Reddit engagement: replied to 12V battery thread (299 views on original comment)
+- [x] Reddit engagement: replied to suspension rattle follow-up question
+- [x] Reddit engagement: first comment on PTC heater post (with heat pump article link)
+- [x] Building authority with detailed technical answers
+
+## Session 2026-01-19
 - [x] Set up Google Search Console API script (`npm run gsc`)
 - [x] Set up Google Analytics API script (`npm run analytics`)
 - [x] Created OAuth credentials in Google Cloud Console
@@ -68,7 +74,7 @@ Tesla repair affiliate blog targeting EU market. Goal: $1000/month passive incom
 - [x] Fixed Amazon button layout (grouped .de/.com together)
 - [x] Posted 3 Reddit comments (2 karma, 1 with paint repair link)
 
-## Previous Session (2026-01-18)
+## Session 2026-01-18
 - [x] Checked Google Search Console: 5 pages indexed, 52 discovered (normal for new site)
 - [x] Added _redirects file for Cloudflare Pages to fix redirect errors
 - [x] Proper trailing slash handling now in place
