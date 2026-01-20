@@ -97,6 +97,10 @@ Tesla repair affiliate blog targeting EU market. Goal: $1000/month passive incom
   - Tire rotation: fixed pattern (rear stays same side), TPMS calibration path
   - Charge port: added key fob method, HV safety warning
   - Frunk: added 30-second power limit
+- [x] Audited articles against service.tesla.com - Round 3:
+  - Screen black fix: corrected timing (hold until black, ~30 sec restart)
+  - Key fob battery: verified CR2032 correct
+  - Camera calibration: verified accurate
   - All articles now link to official Tesla documentation
 
 ## Session 2026-01-19
