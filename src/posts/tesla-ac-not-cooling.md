@@ -11,12 +11,10 @@ emoji: "❄️"
 tools:
   - name: "Cabin Air Filter (Tesla Compatible)"
     link: "https://www.amazon.de/s?k=tesla+cabin+air+filter&tag=diyrepair-21"
-  - name: "AC Pro Recharge Kit with Gauge"
-    link: "https://www.amazon.de/s?k=car+ac+recharge+kit+r134a&tag=diyrepair-21"
+  - name: "T20 Torx Screwdriver"
+    link: "https://www.amazon.de/s?k=T20+torx+screwdriver&tag=diyrepair-21"
   - name: "Evaporator Coil Cleaner Spray"
     link: "https://www.amazon.de/s?k=evaporator+coil+cleaner+spray&tag=diyrepair-21"
-  - name: "OBD2 Scanner for Tesla"
-    link: "https://www.amazon.de/s?k=obd2+scanner+electric+vehicle&tag=diyrepair-21"
 ---
 
 Tesla's all-electric HVAC system is incredibly efficient, but when the AC stops cooling properly, summer driving becomes miserable. The good news is that many AC issues have simple fixes you can do at home.
@@ -85,20 +83,23 @@ Before assuming something is broken:
 
 ### Fix 1: Replace Cabin Air Filter (Most Common)
 
-A dirty cabin air filter is the #1 cause of weak AC. Here's the quick process:
+A dirty cabin air filter is the #1 cause of weak AC.
 
-**Model 3/Y:**
-1. Open the frunk
-2. Remove the plastic cowl cover
-3. Locate the filter housing on passenger side
-4. Remove old filter, install new one
-5. Reassemble (takes 10-15 minutes)
+**Model 3/Y:** (accessed from passenger footwell, NOT the frunk)
+1. Turn off climate control
+2. Move passenger seat fully back, remove floor mat
+3. Remove footwell cover (release push clips, disconnect light/speaker connectors)
+4. Use T20 Torx to remove filter cover screw
+5. Pull out old filters (upper first, then lower)
+6. Install new filters with arrows pointing **toward rear of vehicle**
+7. Reassemble
+
+See our complete [cabin air filter replacement guide](/posts/tesla-cabin-air-filter/) for detailed steps.
 
 **Model S/X:**
 1. Filters are accessed from inside the cabin
-2. Remove the bottom of the dash panel
-3. Swap filters
-4. Reassemble
+2. Location varies by year - check owner's manual
+3. Generally requires removing trim panels under dash
 
 <div class="tip-box">
 <strong>Pro Tip:</strong> Use HEPA filters for better air quality and allergen filtration. They cost slightly more but are worth it.
@@ -128,11 +129,16 @@ Tesla uses R-1234yf refrigerant (newer models) or R-134a (older models).
 - Hissing sound from dash area
 
 **DIY refrigerant check:**
-- You can use a gauge to check pressure
-- R-134a kits are available at auto parts stores
-- R-1234yf requires professional equipment (more expensive refrigerant)
 
-**Best practice:** If refrigerant is low, have a professional find and fix the leak, then recharge properly.
+<div class="warning-box">
+<strong>Critical:</strong> Most Teslas use R-1234yf refrigerant, NOT R-134a. Using the wrong refrigerant will cause catastrophic damage to your AC system. Check your vehicle's sticker under the hood to confirm refrigerant type before any service.
+</div>
+
+- R-1234yf requires professional equipment and is expensive (~$100+/lb)
+- DIY recharge kits at auto stores are typically R-134a and NOT compatible with most Teslas
+- Tesla's service manual warns against over-filling or under-filling
+
+**Best practice:** Have a professional diagnose any leak, then properly evacuate and recharge the system. DIY AC recharging on Teslas is not recommended due to refrigerant type and system complexity (Tesla uses two separate refrigerant circuits).
 
 ### Fix 4: Software Reset
 
