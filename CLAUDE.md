@@ -83,6 +83,11 @@ Tesla repair affiliate blog targeting EU market. Goal: $1000/month passive incom
   - Door handle article: door panel interior
   - About page: workshop hero shot (drive unit on hoist)
   - Created .planning/PHOTO-MAPPING-PLAN.md for future photos
+- [x] Fixed 12V battery article - clarified battery generations:
+  - Pre-late 2021: 12V lead-acid
+  - Late 2021-2023: 12V lithium-ion
+  - 2024+ (Highland/Juniper): 16V lithium-ion (different system)
+  - Added warning about not mixing battery types
 
 ## Session 2026-01-19
 - [x] Set up Google Search Console API script (`npm run gsc`)
