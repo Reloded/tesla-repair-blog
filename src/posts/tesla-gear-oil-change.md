@@ -53,15 +53,21 @@ Tesla uses Pentosin FFL-4 (or equivalent) in their drive units:
 
 **Capacity by Model:**
 
+Per [Tesla's service documentation](https://service.tesla.com/docs/Model3/ServiceManual/en-us/GUID-86FFE9E8-C280-4BEF-A9C8-5BA7ABFD9728.html), capacities are much larger than often reported online:
+
 | Model | Front Drive Unit | Rear Drive Unit |
 |-------|------------------|-----------------|
-| Model 3 RWD | N/A | 590ml |
-| Model 3 AWD | 530ml | 590ml |
-| Model Y RWD | N/A | 590ml |
-| Model Y AWD | 530ml | 590ml |
-| Model S/X | 450ml | 590ml |
+| Model 3 RWD | N/A | **2.1-2.3L** |
+| Model 3 AWD | **1.3-1.5L** | **2.1-2.3L** |
+| Model Y RWD | N/A | **2.1-2.3L** |
+| Model Y AWD | **1.3-1.5L** | **2.1-2.3L** |
+| Model S/X | Varies by generation | Varies by generation |
 
-**Important:** Quantities vary slightly by production date. Always fill until fluid reaches the fill plug level.
+<div class="warning-box">
+<strong>Warning:</strong> Many online sources incorrectly list capacities as 500-600ml. Tesla's official service manual specifies **1.3-2.3 liters** depending on drive unit. Underfilling will cause premature wear and damage.
+</div>
+
+**Important:** Tesla's official procedure uses specialized tools including an oil pump switchbox to run the electric oil pump during fill. A simple gravity fill may not fully fill the system.
 
 ## DIY Gear Oil Change Guide
 
@@ -94,8 +100,12 @@ Tesla uses Pentosin FFL-4 (or equivalent) in their drive units:
 1. Place drain pan under drive unit
 2. Remove the **fill plug first** (breaks vacuum, allows complete drain)
 3. Remove the **drain plug**
-4. Allow fluid to drain completely (5-10 minutes)
+4. Allow fluid to drain for at least **10 minutes** (Tesla spec) or until slow drip
 5. Inspect drained fluid for metal particles
+
+<div class="tip-box">
+<strong>Oil Filter:</strong> Tesla recommends replacing the oil filter when draining gearbox fluid. Any filter with visible corrosion or leaks must be replaced. This is often overlooked in DIY guides.
+</div>
 
 <div class="warning-box">
 <strong>What to Look For:</strong> Some fine metal dust is normal. Large particles or chunks indicate potential problems—consider having the drive unit inspected.
