@@ -35,7 +35,7 @@ The low-voltage battery in your Tesla is one of the most common components that 
 This guide focuses on the 12V batteries. If you have a 2024+ vehicle with a 16V system, the replacement process and parts are different—check your owner's manual or Tesla service documentation.
 
 ![Tesla Model 3 frunk area with battery compartment exposed, showing wiring and components](/images/repairs/tesla-model-3-frunk-battery-area.jpg)
-*The frunk area of a Model 3 with covers removed, showing the 12V battery location and surrounding wiring.*
+*The frunk area of a Model 3 with covers removed. The 12V battery (lead-acid or Li-ion depending on model year) sits under a cover on the right side.*
 
 ## Signs Your Tesla 12V Battery Needs Replacement
 
