@@ -184,6 +184,8 @@ Tesla repair affiliate blog targeting EU market. Goal: $1000/month passive incom
 - [x] Found Tesmanian contact: sales@tesmanian.com (for 7+ day follow-up)
 - [x] Sent follow-up email to Tesmanian about affiliate application
 - [x] Removed old Netlify property from GSC (was showing 5xx errors)
+- [x] Reddit: posted Armor All stain removal tip (r/TeslaLounge) - IPA solution
+- [x] Reddit: posted RCM_a015 tip (r/TeslaLounge) - check connectors under seat
 
 ## Session 2026-01-19
 - [x] Set up Google Search Console API script (`npm run gsc`)
