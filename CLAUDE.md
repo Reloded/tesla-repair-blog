@@ -34,29 +34,29 @@ Tesla repair affiliate blog targeting EU market. Goal: $1000/month passive incom
 - `.planning/AFFILIATE-UPDATES-READY.md` - Pending affiliate link updates
 - `scripts/gsc.js` - Google Search Console API script
 
-## GSC Stats (2026-01-20)
-| Metric | Value |
-|--------|-------|
-| Clicks | 2 |
-| Impressions | 115 |
-| CTR | 1.74% |
-| Avg Position | 13.0 |
+## GSC Stats (2026-01-21)
+| Metric | Value | Change |
+|--------|-------|--------|
+| Clicks | 2 | - |
+| Impressions | 118 | +3 |
+| CTR | 1.69% | -0.05pp |
+| Avg Position | 13.6 | -0.6 |
 
-**Top Pages:** tesla-usb-not-working (56 imp), window-reset-calibration (19 imp), windshield-wiper-replacement (17 imp), phantom-braking-fix (16 imp)
-**Note:** Both clicks came from homepage - articles getting impressions but need CTR optimization
+**Top Pages:** tesla-usb-not-working (56 imp), windshield-wiper-replacement (20 imp), window-reset-calibration (19 imp), phantom-braking-fix (16 imp)
+**Note:** Wiper article moved up (+3 imp), USB still no clicks despite 56 impressions
 
-## Analytics Stats (2026-01-20)
-| Metric | Value |
-|--------|-------|
-| Active Users | 153 |
-| Sessions | 173 |
-| Page Views | 399 |
-| Avg Session | 2m 44s |
-| Bounce Rate | 71.1% |
+## Analytics Stats (2026-01-21)
+| Metric | Value | Change |
+|--------|-------|--------|
+| Active Users | 166 | +8.5% |
+| Sessions | 187 | +8.1% |
+| Page Views | 458 | +14.8% |
+| Avg Session | 2m 53s | +9s |
+| Bounce Rate | 69.0% | -2.1pp |
 
-**Top Traffic:** Direct (160), Facebook (8), Google (2), Awin/Lectron (1)
-**Top Countries:** US (71), Lithuania (26), UK (9), Germany (6)
-**Top Pages:** Homepage (152), Winter Guide (54), Guides (46), 12V Battery (25)
+**Top Traffic:** Direct (176), Facebook (8), Google (2), Awin/Lectron (1)
+**Top Countries:** US (79), Lithuania (28), UK (9), Germany (6)
+**Top Pages:** Homepage (166), Winter Guide (58), Guides (54), 12V Battery (31)
 
 ## Recent Accomplishments (2026-01-20)
 - [x] Completed full article audit - ALL 53 ARTICLES VERIFIED
@@ -177,6 +177,14 @@ Tesla repair affiliate blog targeting EU market. Goal: $1000/month passive incom
 - Camp Mode (battery threshold)
 - Cabin Overheat Protection (temperature options)
 
+## Session 2026-01-21
+- [x] Updated GSC stats: 118 impressions (+3), 2 clicks (same)
+- [x] Updated Analytics: 166 users (+8.5%), 458 page views (+14.8%)
+- [x] Researched EVannex affiliate: uses Rakuten (already applied), alt: partnerships@evannex.com
+- [x] Found Tesmanian contact: sales@tesmanian.com (for 7+ day follow-up)
+- [x] Sent follow-up email to Tesmanian about affiliate application
+- [x] Removed old Netlify property from GSC (was showing 5xx errors)
+
 ## Session 2026-01-19
 - [x] Set up Google Search Console API script (`npm run gsc`)
 - [x] Set up Google Analytics API script (`npm run analytics`)
@@ -220,9 +228,11 @@ Tesla repair affiliate blog targeting EU market. Goal: $1000/month passive incom
 - [x] Wrote article #52: Tesla Winter Preparation Guide
 
 ## Pending Approvals
-- [ ] Tesmanian (GoAffPro) - applied ~2026-01-14, still pending (checked 2026-01-20, 6+ days)
+- [ ] Tesmanian (GoAffPro) - applied ~2026-01-14, still pending (checked 2026-01-21, 7+ days)
+  - Contact: sales@tesmanian.com to follow up on affiliate application
   - Consider: make GoAffPro profile public to help approval
-- [ ] EVannex (Rakuten) - applied ~2026-01-16, waiting
+- [ ] EVannex (Rakuten) - applied ~2026-01-16, waiting (5 days)
+  - Alternative: email partnerships@evannex.com directly for influencer program
 
 ## Next Actions
 - [ ] Check Tesmanian approval (applied 4+ days ago) → add links to 8 articles

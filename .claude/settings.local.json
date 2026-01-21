@@ -10,7 +10,19 @@
       "Bash(curl:*)",
       "Bash(npm install:*)",
       "Bash(npm run gsc:*)",
-      "Bash(npm run analytics:*)"
+      "Bash(npm run analytics:*)",
+      "WebFetch(domain:tesladiyrepair.com)",
+      "Bash(claude mcp add:*)",
+      "WebFetch(domain:gemini.google)",
+      "WebSearch",
+      "WebFetch(domain:service.tesla.com)",
+      "Bash(git reset:*)",
+      "WebFetch(domain:www.tesla.com)",
+      "Bash(npm run serve:*)",
+      "Bash(npm run:*)",
+      "Bash(npm start)",
+      "WebFetch(domain:evannex.com)",
+      "WebFetch(domain:tesmanian.com)"
     ]
   }
 }
