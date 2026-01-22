@@ -184,6 +184,11 @@ Tesla repair affiliate blog targeting EU market. Goal: $1000/month passive incom
   - Targets "format usb for tesla dashcam" query (pos 41, getting impressions)
   - Short, focused how-to (3 min read) vs existing troubleshooting guide
   - Added cross-links from USB, Sentry, and Dashcam articles
+- [x] Emailed EVannex directly (partnerships@evannex.com) about affiliate program
+- [x] Checked Tesmanian - no response yet to follow-up (8+ days since application)
+- [x] Buttondown support replied - email verification fixed, newsletter ready to use
+- [x] Created Buttondown API script (`npm run newsletter`)
+- [x] Checked subscribers: 1 total (owner email), 0 newsletters sent yet
 
 ## Session 2026-01-21
 - [x] Updated GSC stats: 118 impressions (+3), 2 clicks (same)
@@ -238,16 +243,15 @@ Tesla repair affiliate blog targeting EU market. Goal: $1000/month passive incom
 - [x] Wrote article #52: Tesla Winter Preparation Guide
 
 ## Pending Approvals
-- [ ] Tesmanian (GoAffPro) - applied ~2026-01-14, still pending (checked 2026-01-21, 7+ days)
-  - Contact: sales@tesmanian.com to follow up on affiliate application
-  - Consider: make GoAffPro profile public to help approval
-- [ ] EVannex (Rakuten) - applied ~2026-01-16, waiting (5 days)
-  - Alternative: email partnerships@evannex.com directly for influencer program
+- [ ] Tesmanian (GoAffPro) - applied ~2026-01-14, follow-up sent 2026-01-21, no response (8+ days)
+  - May need to try different contact or move on
+- [ ] EVannex (Rakuten) - applied ~2026-01-16, direct email sent 2026-01-22
+  - Emailed partnerships@evannex.com directly
 
 ## Next Actions
 - [ ] Check Tesmanian approval (applied 4+ days ago) → add links to 8 articles
-- [ ] Find EVannex direct affiliate program (not on Rakuten)
-- [ ] Check Buttondown subscriber count → consider sending first newsletter
+- [x] ~~Find EVannex direct affiliate program~~ DONE - emailed partnerships@evannex.com
+- [ ] Check Buttondown subscriber count → ready to send first newsletter
 - [x] ~~Optimize tesla-usb-not-working article~~ DONE - new title/meta/intro for CTR
 - [ ] Write more high-value articles
 - [ ] Continue Reddit engagement (2-3 helpful comments/day)
@@ -261,6 +265,8 @@ Tesla repair affiliate blog targeting EU market. Goal: $1000/month passive incom
 - Pagefind (client-side search)
 - Cloudflare Pages hosting
 - GSC API script (`npm run gsc`)
+- Analytics API script (`npm run analytics`)
+- Buttondown API script (`npm run newsletter`)
 
 ## Content Guidelines
 - **ALWAYS verify procedures against service.tesla.com** before publishing

@@ -7,3 +7,6 @@ _site/
 scripts/credentials.json
 scripts/token.json
 scripts/token-ga.json
+
+# Environment variables
+.env
