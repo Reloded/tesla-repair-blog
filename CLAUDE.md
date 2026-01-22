@@ -20,8 +20,8 @@ Tesla repair affiliate blog targeting EU market. Goal: $1000/month passive incom
 ## Affiliate Programs
 | Program | Status | ID | Articles |
 |---------|--------|-----|----------|
-| Amazon.de | **LIVE** | diyrepair-21 | 53 |
-| Amazon.com | **LIVE** | diyrepair07-20 | 53 |
+| Amazon.de | **LIVE** | diyrepair-21 | 54 |
+| Amazon.com | **LIVE** | diyrepair07-20 | 54 |
 | Lectron (Awin) | **LIVE** | 2729872 | 6 |
 | iFixit (Sovrn) | **LIVE** | sovrn.co/... | 15 |
 | Tesmanian | Pending | - | 0 (8 ready) |

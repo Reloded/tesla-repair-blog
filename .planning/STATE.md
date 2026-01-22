@@ -87,16 +87,18 @@ Progress: ██████████ 100% (v3.0 shipped)
 
 ## Session Continuity
 
-**Last session:** 2026-01-15
-**Stopped at:** All 3 affiliate programs applied, awaiting approvals
+**Last session:** 2026-01-22
+**Stopped at:** Maintenance mode - content creation, affiliate outreach, Reddit engagement
 **Next actions:**
-1. Click iFixit link on site to trigger Sovrn review
-2. Wait for Tesmanian approval (24-48hr)
-3. Wait for iFixit/Sovrn approval (1-3 days)
-4. Once approved, add remaining links:
-   - iFixit: 14 more articles (15 total)
-   - Tesmanian: 8 articles
+1. Check EVannex reply (emailed partnerships@evannex.com 2026-01-22)
+2. Tesmanian likely dead end (8+ days, no response to follow-up)
+3. Monitor new USB format article indexing in GSC
+4. Continue Reddit engagement (2-3 helpful comments/day)
+5. Check Buttondown subscribers (`npm run newsletter`)
 **Resume file:** None
 
+**New tools this session:**
+- `npm run newsletter` - Buttondown subscriber stats
+
 ---
-*Last updated: 2026-01-15*
+*Last updated: 2026-01-22*
