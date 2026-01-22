@@ -189,6 +189,9 @@ Tesla repair affiliate blog targeting EU market. Goal: $1000/month passive incom
 - [x] Buttondown support replied - email verification fixed, newsletter ready to use
 - [x] Created Buttondown API script (`npm run newsletter`)
 - [x] Checked subscribers: 1 total (owner email), 0 newsletters sent yet
+- [x] Reddit: replied to ceramic coating + rust treatment post (r/TeslaLounge) with article link
+- [x] Reddit: replied to Model Y wiper tension post (r/TeslaLounge) - helpful advice, no link
+- [x] Reddit: replied to Highland headlight auto-leveling issue (r/TeslaSupport) - checked service.tesla.com for calibration steps
 
 ## Session 2026-01-21
 - [x] Updated GSC stats: 118 impressions (+3), 2 clicks (same)
@@ -269,7 +272,7 @@ Tesla repair affiliate blog targeting EU market. Goal: $1000/month passive incom
 - Buttondown API script (`npm run newsletter`)
 
 ## Content Guidelines
-- **ALWAYS verify procedures against service.tesla.com** before publishing
+- **ALWAYS verify procedures against service.tesla.com** before publishing or Reddit replies
 - **NEVER trust AI-generated specs** - verify torque values, fluid capacities, menu paths, thresholds
 - **Check image/caption accuracy** - ensure photos actually show what the caption claims
 - **Watch for outdated info** - Tesla updates frequently, verify current values
