@@ -217,6 +217,7 @@ Camera hardware or software issue:
 
 ## Related Guides
 
+- [How to Format USB for Tesla Dashcam](/posts/format-usb-tesla-dashcam/) - Quick 30-second formatting guide
 - [Dashcam Not Saving](/posts/tesla-dashcam-not-saving/) - Same USB fixes apply to dashcam
 - [USB Not Working](/posts/tesla-usb-not-working/) - Detailed USB port troubleshooting
 - [Rear Camera Blurry](/posts/tesla-rear-camera-blurry/) - Camera issues affect recording quality

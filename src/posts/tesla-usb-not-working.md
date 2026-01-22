@@ -21,6 +21,10 @@ tools:
 
 **Your USB drive probably isn't broken** — it's just formatted wrong. This is the most common Tesla issue I see, and it takes 2 minutes to fix.
 
+<div class="tip-box">
+<strong>Just need to format your USB?</strong> See our <a href="/posts/format-usb-tesla-dashcam/">quick 30-second formatting guide</a> for step-by-step instructions.
+</div>
+
 Whether your drive isn't recognized, Sentry Mode stopped recording, or dashcam shows nothing — the fix is almost always the same: reformat to exFAT and create a TeslaCam folder. That's it.
 
 ## Common USB Problems in Teslas
@@ -185,6 +189,7 @@ Contact Tesla Service if:
 
 ## Related Guides
 
+- [How to Format USB for Tesla Dashcam](/posts/format-usb-tesla-dashcam/) - Quick 30-second formatting guide
 - [Sentry Mode Not Recording](/posts/tesla-sentry-mode-not-recording/) - Complete Sentry troubleshooting
 - [Dashcam Not Saving](/posts/tesla-dashcam-not-saving/) - Related recording issues
 - [Bluetooth Issues](/posts/tesla-bluetooth-issues/) - Other connectivity troubleshooting

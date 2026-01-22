@@ -12,7 +12,7 @@ Tesla repair affiliate blog targeting EU market. Goal: $1000/month passive incom
 
 ## Current Status
 - **Milestones:** All 3 complete (v1.0, v2.0, v3.0 shipped)
-- **Articles:** 53 repair guides
+- **Articles:** 54 repair guides
 - **Monetization:** Multi-affiliate (Amazon + Lectron + iFixit live)
 - **Hosting:** Cloudflare Pages (LIVE)
 - **Live URL:** https://tesladiyrepair.com
@@ -34,29 +34,29 @@ Tesla repair affiliate blog targeting EU market. Goal: $1000/month passive incom
 - `.planning/AFFILIATE-UPDATES-READY.md` - Pending affiliate link updates
 - `scripts/gsc.js` - Google Search Console API script
 
-## GSC Stats (2026-01-21)
+## GSC Stats (2026-01-22)
 | Metric | Value | Change |
 |--------|-------|--------|
 | Clicks | 2 | - |
-| Impressions | 118 | +3 |
-| CTR | 1.69% | -0.05pp |
-| Avg Position | 13.6 | -0.6 |
+| Impressions | 125 | +7 |
+| CTR | 1.60% | -0.09pp |
+| Avg Position | 13.8 | -0.2 |
 
-**Top Pages:** tesla-usb-not-working (56 imp), windshield-wiper-replacement (20 imp), window-reset-calibration (19 imp), phantom-braking-fix (16 imp)
-**Note:** Wiper article moved up (+3 imp), USB still no clicks despite 56 impressions
+**Top Pages:** tesla-usb-not-working (59 imp), windshield-wiper-replacement (23 imp), window-reset-calibration (20 imp), phantom-braking-fix (16 imp)
+**Note:** USB article at 59 impressions still 0 clicks, homepage getting 2 clicks from 7 impressions
 
-## Analytics Stats (2026-01-21)
+## Analytics Stats (2026-01-22)
 | Metric | Value | Change |
 |--------|-------|--------|
-| Active Users | 166 | +8.5% |
-| Sessions | 187 | +8.1% |
-| Page Views | 458 | +14.8% |
-| Avg Session | 2m 53s | +9s |
-| Bounce Rate | 69.0% | -2.1pp |
+| Active Users | 172 | +3.6% |
+| Sessions | 194 | +3.7% |
+| Page Views | 471 | +2.8% |
+| Avg Session | 2m 48s | -5s |
+| Bounce Rate | 68.0% | -1.0pp |
 
-**Top Traffic:** Direct (176), Facebook (8), Google (2), Awin/Lectron (1)
-**Top Countries:** US (79), Lithuania (28), UK (9), Germany (6)
-**Top Pages:** Homepage (166), Winter Guide (58), Guides (54), 12V Battery (31)
+**Top Traffic:** Direct (183), Facebook (8), Google (2), Awin/Lectron (1)
+**Top Countries:** US (82), Lithuania (30), UK (9), Germany (6)
+**Top Pages:** Homepage (173), Winter Guide (60), Guides (54), 12V Battery (31)
 
 ## Recent Accomplishments (2026-01-20)
 - [x] Completed full article audit - ALL 53 ARTICLES VERIFIED
@@ -176,6 +176,14 @@ Tesla repair affiliate blog targeting EU market. Goal: $1000/month passive incom
 - Control arm (torque values were dangerous)
 - Camp Mode (battery threshold)
 - Cabin Overheat Protection (temperature options)
+
+## Session 2026-01-22
+- [x] Updated GSC stats: 125 impressions (+7), 2 clicks (same)
+- [x] Updated Analytics: 172 users (+3.6%), 471 page views (+2.8%)
+- [x] Wrote article #54: "How to Format USB for Tesla Dashcam (30-Second Guide)"
+  - Targets "format usb for tesla dashcam" query (pos 41, getting impressions)
+  - Short, focused how-to (3 min read) vs existing troubleshooting guide
+  - Added cross-links from USB, Sentry, and Dashcam articles
 
 ## Session 2026-01-21
 - [x] Updated GSC stats: 118 impressions (+3), 2 clicks (same)
