@@ -34,29 +34,29 @@ Tesla repair affiliate blog targeting EU market. Goal: $1000/month passive incom
 - `.planning/AFFILIATE-UPDATES-READY.md` - Pending affiliate link updates
 - `scripts/gsc.js` - Google Search Console API script
 
-## GSC Stats (2026-01-22)
+## GSC Stats (2026-01-23)
 | Metric | Value | Change |
 |--------|-------|--------|
-| Clicks | 2 | - |
-| Impressions | 125 | +7 |
-| CTR | 1.60% | -0.09pp |
-| Avg Position | 13.8 | -0.2 |
+| Clicks | 2 | same |
+| Impressions | 135 | +10 |
+| CTR | 1.48% | -0.12pp |
+| Avg Position | 14.1 | -0.3 |
 
-**Top Pages:** tesla-usb-not-working (59 imp), windshield-wiper-replacement (23 imp), window-reset-calibration (20 imp), phantom-braking-fix (16 imp)
-**Note:** USB article at 59 impressions still 0 clicks, homepage getting 2 clicks from 7 impressions
+**Top Pages:** tesla-usb-not-working (59 imp), window-reset-calibration (25 imp), windshield-wiper-replacement (24 imp), phantom-braking-fix (19 imp)
+**Note:** USB article still 59 impressions with 0 clicks, homepage getting 2 clicks from 8 impressions
 
-## Analytics Stats (2026-01-22)
+## Analytics Stats (2026-01-23)
 | Metric | Value | Change |
 |--------|-------|--------|
-| Active Users | 172 | +3.6% |
-| Sessions | 194 | +3.7% |
-| Page Views | 471 | +2.8% |
-| Avg Session | 2m 48s | -5s |
-| Bounce Rate | 68.0% | -1.0pp |
+| Active Users | 177 | +2.9% |
+| Sessions | 199 | +2.6% |
+| Page Views | 481 | +2.1% |
+| Avg Session | 2m 46s | -2s |
+| Bounce Rate | 66.8% | -1.2pp |
 
-**Top Traffic:** Direct (183), Facebook (8), Google (2), Awin/Lectron (1)
-**Top Countries:** US (82), Lithuania (30), UK (9), Germany (6)
-**Top Pages:** Homepage (173), Winter Guide (60), Guides (54), 12V Battery (31)
+**Top Traffic:** Direct (186), Facebook (8), Google (2)
+**Top Countries:** US (83), Lithuania (30), UK (10), Germany (6)
+**Top Pages:** Homepage (173), Winter Guide (61), Guides (56), 12V Battery (31)
 
 ## Recent Accomplishments (2026-01-20)
 - [x] Completed full article audit - ALL 53 ARTICLES VERIFIED
