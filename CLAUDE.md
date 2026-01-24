@@ -193,6 +193,7 @@ Tesla repair affiliate blog targeting EU market. Goal: $1000/month passive incom
   - Cross-links to relevant repair guides
 - [x] Featured parts guide on homepage (above winter guide)
 - [x] Reddit: replied to Model 3 AWD struts post (r/TeslaSupport) - Bilstein B6 recommendation
+- [x] Reddit: replied to 2024 Model 3 brake squeaking post (r/TeslaSupport) - explained regen/glazing issue
 
 ## Session 2026-01-22
 - [x] Updated GSC stats: 125 impressions (+7), 2 clicks (same)
