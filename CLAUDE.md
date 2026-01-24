@@ -184,12 +184,14 @@ Tesla repair affiliate blog targeting EU market. Goal: $1000/month passive incom
 - [x] Integrated RR Car Parts (employer) into blog:
   - Added RR Car Parts as new affiliate provider (red EU button)
   - Updated About page with full disclosure about employment
-  - Added RR Car Parts links to 3 articles: 12V battery, control arm, suspension
+  - Added RR Car Parts links to 4 articles: 12V battery, control arm, suspension, parts guide
+  - All parts labeled as "Original OEM" (RR Car Parts sells only genuine Tesla parts)
 - [x] Wrote article #55: "Where to Buy Tesla Parts in Europe (2025 Guide)"
   - Comprehensive parts sourcing guide for EU Tesla owners
-  - Covers OEM, aftermarket, used options
-  - Features RR Car Parts alongside other sources
+  - Compares Tesla Service, Tesla Shop, RR Car Parts, Amazon, eBay
+  - Features RR Car Parts as Original OEM supplier
   - Cross-links to relevant repair guides
+- [x] Featured parts guide on homepage (above winter guide)
 - [x] Reddit: replied to Model 3 AWD struts post (r/TeslaSupport) - Bilstein B6 recommendation
 
 ## Session 2026-01-22
