@@ -19,7 +19,7 @@ tools:
     link: "https://www.amazon.de/s?k=torque+wrench+automotive&tag=diyrepair-21"
   - name: "Tesla Front Upper Control Arms (Pair)"
     link: "https://www.amazon.de/s?k=tesla+model+3+upper+control+arm&tag=diyrepair-21"
-  - name: "Tesla Control Arms (OEM/Used)"
+  - name: "Tesla Control Arms (Original OEM)"
     link: "https://rrcarparts.com/collections/all?q=control+arm"
     provider: "rrcarparts"
   - name: "iFixit Pro Tech Toolkit"

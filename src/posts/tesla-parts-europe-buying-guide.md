@@ -9,13 +9,13 @@ readTime: "8 min read"
 models: "All Models"
 emoji: "🛒"
 tools:
-  - name: "Tesla 12V Battery (OEM Compatible)"
+  - name: "Tesla 12V Battery (Original OEM)"
     link: "https://rrcarparts.com/collections/all?q=12v+battery"
     provider: "rrcarparts"
-  - name: "Control Arms & Suspension Parts"
+  - name: "Control Arms & Suspension (Original OEM)"
     link: "https://rrcarparts.com/collections/all?q=control+arm"
     provider: "rrcarparts"
-  - name: "Body Panels & Trim"
+  - name: "Body Panels & Trim (Original OEM)"
     link: "https://rrcarparts.com/collections/all"
     provider: "rrcarparts"
 ---
@@ -30,7 +30,7 @@ This guide breaks down where to buy Tesla parts in Europe, with honest pros and 
 |--------|----------|-------|----------|--------------|
 | Tesla Service | Warranty work, complex parts | $$$ | Varies | Limited stock |
 | Tesla Online Shop | Accessories, simple parts | $$ | 1-2 weeks | Good |
-| RR Car Parts | OEM parts, used parts, EU shipping | $-$$ | 2-5 days EU | 8000+ parts |
+| RR Car Parts | Original OEM parts, EU shipping | $$ | 2-5 days EU | 8000+ parts |
 | Amazon.de | Tools, consumables, accessories | $-$$ | 1-3 days Prime | Variable |
 | eBay | Used/salvage parts | $ | Varies | Hit or miss |
 
@@ -85,11 +85,7 @@ This is where European Tesla owners have a real advantage now. Several suppliers
 
 ### RR Car Parts (Lithuania)
 
-[RR Car Parts](https://rrcarparts.com) stocks over 8,000 Tesla parts and ships across Europe. They carry:
-
-- **OEM parts** - Genuine Tesla components
-- **Aftermarket parts** - Quality alternatives at lower prices
-- **Used/salvage parts** - Tested parts from salvage vehicles at significant savings
+[RR Car Parts](https://rrcarparts.com) stocks over 8,000 original Tesla parts and ships across Europe. All parts are genuine OEM components—the same parts Tesla uses.
 
 **Parts categories:**
 - 12V and 16V batteries
@@ -100,15 +96,14 @@ This is where European Tesla owners have a real advantage now. Several suppliers
 - Wheels and covers
 
 **Pros:**
-- Large EU-based inventory
+- Large EU-based inventory (8,000+ parts)
+- All original OEM parts
 - Ships across Europe (2-5 days typical)
-- Mix of new, OEM, and used options
-- Competitive pricing
+- Competitive pricing vs Tesla Service
 - Pre-orders available for out-of-stock items
 
 **Cons:**
-- Some parts may be used/salvage (clearly labeled)
-- Not every part available
+- Not every part available (but pre-orders help)
 
 **Full disclosure:** I work at RR Car Parts, so I know the inventory well. That said, I genuinely recommend them because I've seen the quality control firsthand.
 
@@ -229,14 +224,14 @@ Always verify the part number matches your specific vehicle before ordering.
 
 | Repair | Where to Buy |
 |--------|--------------|
-| [12V Battery](/posts/tesla-12v-battery-replacement/) | RR Car Parts (OEM or aftermarket) |
+| [12V Battery](/posts/tesla-12v-battery-replacement/) | RR Car Parts (original OEM) |
 | [Cabin Air Filter](/posts/tesla-cabin-air-filter/) | Amazon or Tesla Shop |
 | [Wiper Blades](/posts/tesla-windshield-wiper-replacement/) | Amazon or Tesla Shop |
-| [Control Arms](/posts/tesla-control-arm-replacement/) | RR Car Parts (OEM recommended) |
+| [Control Arms](/posts/tesla-control-arm-replacement/) | RR Car Parts (original OEM) |
 | [Brake Pads](/posts/tesla-brake-pad-replacement/) | Amazon (quality brand) or RR Car Parts |
-| Body Panels | RR Car Parts (used saves 50%+) |
+| Body Panels | RR Car Parts (original OEM) |
 | [Door Handles](/posts/tesla-door-handle-not-working/) | RR Car Parts or Tesla Service |
-| Interior Trim | RR Car Parts (used is fine) |
+| Interior Trim | RR Car Parts (original OEM) |
 | MCU/Computer | Tesla Service only |
 | Drive Unit | Tesla Service or specialized shop |
 

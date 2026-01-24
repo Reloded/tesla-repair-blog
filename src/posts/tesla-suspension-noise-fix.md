@@ -19,7 +19,7 @@ tools:
     link: "https://www.amazon.de/s?k=jack+stands&tag=diyrepair-21"
   - name: "Pry Bar"
     link: "https://www.amazon.de/s?k=pry+bar+automotive&tag=diyrepair-21"
-  - name: "Tesla Suspension Parts (OEM/Used)"
+  - name: "Tesla Suspension Parts (Original OEM)"
     link: "https://rrcarparts.com/collections/all?q=suspension"
     provider: "rrcarparts"
 ---

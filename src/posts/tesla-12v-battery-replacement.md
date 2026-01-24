@@ -13,7 +13,7 @@ tools:
     link: "https://www.amazon.de/s?k=10mm+socket+wrench+set&tag=diyrepair-21"
   - name: "Tesla 12V Replacement Battery (OEM Compatible)"
     link: "https://www.amazon.de/s?k=tesla+12v+battery+replacement&tag=diyrepair-21"
-  - name: "Tesla 12V / 16V Battery (OEM)"
+  - name: "Tesla 12V / 16V Battery (Original OEM)"
     link: "https://rrcarparts.com/collections/all?q=12v+battery"
     provider: "rrcarparts"
   - name: "Battery Terminal Cleaner"
