@@ -19,6 +19,9 @@ tools:
     link: "https://www.amazon.de/s?k=jack+stands&tag=diyrepair-21"
   - name: "Pry Bar"
     link: "https://www.amazon.de/s?k=pry+bar+automotive&tag=diyrepair-21"
+  - name: "Tesla Suspension Parts (OEM/Used)"
+    link: "https://rrcarparts.com/collections/all?q=suspension"
+    provider: "rrcarparts"
 ---
 
 Suspension noises in a Tesla are noticeable because the car is so quiet without an engine. What might be hidden by engine noise in a gas car becomes very apparent in an EV. The good news: many suspension noises are simple fixes.

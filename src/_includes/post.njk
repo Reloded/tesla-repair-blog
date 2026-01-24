@@ -50,6 +50,8 @@ layout: base.njk
             <a href="{{ tool.link }}" class="buy-btn btn-tesmanian" target="_blank" rel="nofollow noopener">View on Tesmanian</a>
             {% elif tool.provider == "lectron" %}
             <a href="{{ tool.link }}" class="buy-btn btn-lectron" target="_blank" rel="nofollow noopener">View on Lectron</a>
+            {% elif tool.provider == "rrcarparts" %}
+            <a href="{{ tool.link }}" class="buy-btn btn-rrcarparts" target="_blank" rel="nofollow noopener">RR Car Parts 🇪🇺</a>
             {% else %}
             <div class="amazon-buttons">
               <a href="{{ tool.link }}" class="buy-btn btn-amazon-de" target="_blank" rel="nofollow noopener">Amazon.de 🇩🇪</a>

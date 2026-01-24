@@ -548,6 +548,15 @@ img {
   box-shadow: 0 4px 12px rgba(0, 166, 81, 0.4);
 }
 
+.affiliate-link .btn-rrcarparts {
+  background: linear-gradient(135deg, #c41e3a 0%, #a01830 100%);
+}
+
+.affiliate-link .btn-rrcarparts:hover {
+  background: linear-gradient(135deg, #a01830 0%, #861428 100%);
+  box-shadow: 0 4px 12px rgba(196, 30, 58, 0.4);
+}
+
 .affiliate-link .btn-amazon-de {
   background: linear-gradient(135deg, #ff9900 0%, #e88a00 100%);
 }
