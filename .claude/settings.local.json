@@ -22,7 +22,8 @@
       "Bash(npm run:*)",
       "Bash(npm start)",
       "WebFetch(domain:evannex.com)",
-      "WebFetch(domain:tesmanian.com)"
+      "WebFetch(domain:tesmanian.com)",
+      "WebFetch(domain:rrcarparts.com)"
     ]
   }
 }

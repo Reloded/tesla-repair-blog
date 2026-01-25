@@ -12,7 +12,7 @@ Tesla repair affiliate blog targeting EU market. Goal: $1000/month passive incom
 
 ## Current Status
 - **Milestones:** All 3 complete (v1.0, v2.0, v3.0 shipped)
-- **Articles:** 55 repair guides
+- **Articles:** 58 repair guides
 - **Monetization:** Multi-affiliate (Amazon + Lectron + iFixit + RR Car Parts live)
 - **Hosting:** Cloudflare Pages (LIVE)
 - **Live URL:** https://tesladiyrepair.com
@@ -35,29 +35,29 @@ Tesla repair affiliate blog targeting EU market. Goal: $1000/month passive incom
 - `.planning/AFFILIATE-UPDATES-READY.md` - Pending affiliate link updates
 - `scripts/gsc.js` - Google Search Console API script
 
-## GSC Stats (2026-01-23)
+## GSC Stats (2026-01-25)
 | Metric | Value | Change |
 |--------|-------|--------|
 | Clicks | 2 | same |
-| Impressions | 135 | +10 |
-| CTR | 1.48% | -0.12pp |
-| Avg Position | 14.1 | -0.3 |
+| Impressions | 167 | +32 |
+| CTR | 1.20% | -0.28pp |
+| Avg Position | 13.6 | +0.5 |
 
-**Top Pages:** tesla-usb-not-working (59 imp), window-reset-calibration (25 imp), windshield-wiper-replacement (24 imp), phantom-braking-fix (19 imp)
-**Note:** USB article still 59 impressions with 0 clicks, homepage getting 2 clicks from 8 impressions
+**Top Pages:** tesla-usb-not-working (75 imp), window-reset-calibration (38 imp), windshield-wiper-replacement (24 imp), phantom-braking-fix (21 imp)
+**Note:** USB article up to 75 impressions with 0 clicks (CTR issue), homepage getting 2 clicks from 9 impressions
 
-## Analytics Stats (2026-01-23)
+## Analytics Stats (2026-01-25)
 | Metric | Value | Change |
 |--------|-------|--------|
-| Active Users | 177 | +2.9% |
-| Sessions | 199 | +2.6% |
-| Page Views | 481 | +2.1% |
-| Avg Session | 2m 46s | -2s |
-| Bounce Rate | 66.8% | -1.2pp |
+| Active Users | 183 | +3.4% |
+| Sessions | 206 | +3.5% |
+| Page Views | 509 | +5.8% |
+| Avg Session | 2m 48s | +2s |
+| Bounce Rate | 66.0% | -0.8pp |
 
-**Top Traffic:** Direct (186), Facebook (8), Google (2)
-**Top Countries:** US (83), Lithuania (30), UK (10), Germany (6)
-**Top Pages:** Homepage (173), Winter Guide (61), Guides (56), 12V Battery (31)
+**Top Traffic:** Direct (195), Facebook (8), Google (2)
+**Top Countries:** US (87), Lithuania (30), UK (10), Germany (6)
+**Top Pages:** Homepage (182), Winter Guide (62), Guides (59), 12V Battery (33)
 
 ## Recent Accomplishments (2026-01-20)
 - [x] Completed full article audit - ALL 53 ARTICLES VERIFIED
@@ -177,6 +177,23 @@ Tesla repair affiliate blog targeting EU market. Goal: $1000/month passive incom
 - Control arm (torque values were dangerous)
 - Camp Mode (battery threshold)
 - Cabin Overheat Protection (temperature options)
+
+## Session 2026-01-25
+- [x] Updated GSC stats: 167 impressions (+32), 2 clicks (same)
+- [x] Updated Analytics: 183 users (+3.4%), 509 page views (+5.8%)
+- [x] Wrote article #56: "Tesla Model X Falcon Wing Door Window Replacement"
+  - Based on owner's actual repair experience
+  - Added iFixit affiliate links, Amazon.de/.com dual links
+  - Cross-linked from falcon-wing-door-fix article
+- [x] Wrote article #57: "Tesla Model S Rear Caliper Motor Replacement"
+  - Electric parking brake motor replacement guide
+  - Added iFixit affiliate links, Amazon.de/.com dual links
+  - Cross-linked from brake-pad-replacement article
+- [x] Wrote article #58: "Tesla Model X Half-Shaft (CV Axle) Replacement"
+  - Pusašis/half-shaft replacement guide
+  - Added RR Car Parts OEM link, iFixit, Amazon.de/.com
+  - Cross-linked from control-arm-replacement article
+- [x] Added internal cross-links between new and existing articles
 
 ## Session 2026-01-24
 - [x] Updated GSC stats: 135 impressions (+10), 2 clicks (same)

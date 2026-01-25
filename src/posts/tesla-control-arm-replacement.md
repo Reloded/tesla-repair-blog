@@ -224,3 +224,4 @@ After alignment, test drive and check for:
 - [Wheel Alignment DIY](/posts/tesla-wheel-alignment-diy/) - Required after control arm replacement
 - [Suspension Noise Fix](/posts/tesla-suspension-noise-fix/) - Diagnose noises before replacing parts
 - [Creaking and Rattling Fix](/posts/tesla-creaking-rattling-fix/) - Other sources of suspension noise
+- [Model X Half-Shaft Replacement](/posts/tesla-model-x-half-shaft-replacement/) - CV axle/drivetrain repairs

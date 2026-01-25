@@ -1,8 +1,8 @@
 ---
 layout: post.njk
-title: "Tesla USB Not Working? The Fix 90% of Owners Miss"
-description: "Sentry Mode stopped recording? USB not recognized? It's probably not broken — just formatted wrong. 2-minute fix that works every time."
-date: 2026-01-19
+title: "Tesla USB Not Working: Exact Fix for Sentry Mode & Dashcam (2026)"
+description: "USB not recognized? Sentry Mode stopped recording? Format to exFAT + create TeslaCam folder. Step-by-step fix that takes 2 minutes."
+date: 2026-01-25
 category: "Interior"
 difficulty: "Easy"
 readTime: "10 min read"
