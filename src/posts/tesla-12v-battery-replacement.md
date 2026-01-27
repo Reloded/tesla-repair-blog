@@ -2,7 +2,8 @@
 layout: post.njk
 title: "Tesla 12V Battery Replacement: DIY Guide (Save €200+)"
 description: "Replace your Tesla 12V battery yourself. Covers lead-acid (pre-2021) and lithium-ion (2021-2023) systems. Note: 2024+ models use 16V — different process."
-date: 2025-01-10
+date: 2026-01-27
+lastUpdated: 2026-01-27
 category: "Electrical"
 difficulty: "Easy"
 readTime: "15 min read"
@@ -37,8 +38,8 @@ The low-voltage battery in your Tesla is one of the most common components that 
 
 This guide focuses on the 12V batteries. If you have a 2024+ vehicle with a 16V system, the replacement process and parts are different—check your owner's manual or Tesla service documentation.
 
-![Tesla Model 3 frunk area with battery compartment exposed, showing wiring and components](/images/repairs/tesla-model-3-frunk-battery-area.jpg)
-*The frunk area of a Model 3 with covers removed. The 12V battery (lead-acid or Li-ion depending on model year) sits under a cover on the right side.*
+![Tesla Model 3 frunk fully opened showing thermal management system and battery area](/images/repairs/model-3-frunk-open.jpg)
+*2018 Model 3 frunk with covers removed, exposing the thermal management system, brake fluid reservoir, and A/C compressor. The 12V battery sits under a cover on the right side.*
 
 ## Signs Your Tesla 12V Battery Needs Replacement
 
@@ -85,6 +86,9 @@ The 12V battery is located in the front trunk (frunk) on the right side, under a
 2. Remove the plastic storage bin (just lifts out)
 3. Locate the black plastic cover on the right side
 4. Remove the clips securing the cover using plastic pry tools
+
+![Tesla Model 3 12V battery compartment close-up showing red terminal cover and brake reservoir](/images/repairs/model-3-12v-battery-area.jpg)
+*Close-up of the 12V battery area. Note the red positive terminal cover, brake fluid reservoir (yellow cap), and the "THERMAL BEAM MODEL 3" label on the structural component.*
 
 **Step 2: Disconnect the Old Battery**
 
