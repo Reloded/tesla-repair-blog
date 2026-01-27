@@ -8,6 +8,7 @@ difficulty: "Medium"
 readTime: "45 min read"
 models: "Model 3"
 emoji: "🪞"
+featuredImage: "/images/repairs/model-3-mirror/01-old-new-mirrors.jpg"
 tools:
   - name: "T30 Torx Screwdriver"
     link: "https://www.amazon.de/s?k=T30+torx+screwdriver&tag=diyrepair-21"
