@@ -39,10 +39,6 @@ Before ordering a new mirror assembly, assess the damage:
 
 This guide covers **full mirror assembly replacement**—the most common repair after collision damage.
 
-<div class="warning-box">
-<strong>Camera Warning:</strong> Model 3 mirrors contain the Autopilot repeater cameras. After replacement, the cameras may need calibration via Service Mode or a Tesla service center. Watch for "Camera calibration in progress" messages.
-</div>
-
 <div class="tip-box">
 <strong>Firmware Note:</strong> Newer mirror assemblies (2024+) require vehicle firmware version <strong>2025.2.3 or later</strong> to prevent accelerated wear on the mirror actuator motor. Check your software version before installing new mirrors.
 </div>
@@ -53,7 +49,7 @@ This guide covers **full mirror assembly replacement**—the most common repair 
 
 **Parts:**
 - Replacement mirror assembly (must match side: LH/RH)
-- Ensure it matches your car's features (heated, auto-dim, camera)
+- Ensure it matches your car's features (heated, auto-dim, folding)
 
 **Tools:**
 - T30 Torx screwdriver (for A-pillar trim)
@@ -86,9 +82,7 @@ With the trim removed, you'll see the mirror's wiring harness running into the d
 ![Door interior showing wiring and access area](/images/repairs/model-3-mirror/02-mirror-bracket-access.jpg)
 *A-pillar area exposed, showing the mirror mounting location and wiring routing through the door frame.*
 
-**2.1** Locate the connectors for the mirror harness. The Model 3 uses FAKRA-style connectors:
-- **Pink/Magenta connector:** Repeater camera (Autopilot)
-- **Blue connector:** Mirror power, heating, turn signal, adjustment motors
+**2.1** Locate the connector for the mirror harness. The Model 3 mirror connector includes power for heating, turn signal, and adjustment motors.
 
 **2.2** To disconnect FAKRA connectors: press the release tab and pull straight out. Don't twist or you'll damage the connector.
 
@@ -125,10 +119,7 @@ With the trim removed, you'll see the mirror's wiring harness running into the d
 
 **4.4** Route the wiring harness back through the door frame opening.
 
-**4.5** Reconnect FAKRA connectors:
-- Pink → Camera
-- Blue → Main harness
-- Match any additional connectors to your reference photo
+**4.5** Reconnect the mirror harness connector. Ensure it clicks fully into place.
 
 ## Step 5: Reinstall A-Pillar Trim
 
@@ -151,13 +142,8 @@ Before calling it done, verify all functions:
 - [ ] Mirror folding (if equipped)
 - [ ] Heated mirrors (enable in climate settings)
 - [ ] Turn signal in mirror
-- [ ] Autopilot camera (check for calibration message on screen)
 
 The mirror should sit flush with the door and match the body lines. Check that there are no gaps around the base.
-
-<div class="warning-box">
-<strong>Camera Calibration:</strong> If you see "Cameras calibrating" after driving, this is normal. Drive on well-marked roads for 20-100 km until calibration completes. If calibration fails, you may need Tesla service to reset it.
-</div>
 
 ## Troubleshooting
 
@@ -171,11 +157,6 @@ The mirror should sit flush with the door and match the body lines. Check that t
 - Same connector as adjustment—recheck connection
 - Could be a fuse issue if both mirrors affected
 
-**Camera shows black/errors:**
-- Pink FAKRA connector issue—reseat it
-- May need calibration drive
-- Worst case: Tesla service calibration (~€50-100)
-
 **Mirror vibrates at speed:**
 - Mounting bolts not tight enough
 - Bracket may be damaged—inspect for cracks
@@ -187,7 +168,7 @@ The mirror should sit flush with the door and match the body lines. Check that t
 | Tesla Service | €350-500 | OEM, includes labor |
 | [RR Car Parts](https://rrcarparts.com) | €150-250 | OEM takeoffs, EU shipping |
 | eBay | €100-300 | Verify seller, check fitment |
-| Aftermarket | €80-150 | Quality varies, camera may not work |
+| Aftermarket | €80-150 | Quality varies, motors may fail early |
 
 <div class="tip-box">
 <strong>Color Matching:</strong> If you can't find a mirror in your exact color, you can swap the mirror cap from your old mirror to the new one. Caps pop off with careful prying from the bottom edge.
