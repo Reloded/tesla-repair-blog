@@ -25,7 +25,7 @@ tools:
 
 Side mirror damage is one of the most common Tesla repairs—whether from a parking mishap, passing cyclist, or road debris. Tesla service centers charge €400-600+ for mirror replacement, but with some patience you can do it yourself for just the cost of the part (€150-300 depending on source).
 
-This guide covers the complete process for 2017-2023 Model 3, including the tricky A-pillar trim removal and FAKRA connector handling that many guides skip over.
+This guide covers the complete process for 2017-2023 Model 3. Note: Tesla's official procedure involves full door trim panel removal, but many DIYers access the mirror through just the A-pillar area. We'll cover the simplified approach here—for full door panel removal, consult the Tesla Service Manual.
 
 ## When to Replace vs. Repair
 
@@ -41,6 +41,10 @@ This guide covers **full mirror assembly replacement**—the most common repair 
 
 <div class="warning-box">
 <strong>Camera Warning:</strong> Model 3 mirrors contain the Autopilot repeater cameras. After replacement, the cameras may need calibration via Service Mode or a Tesla service center. Watch for "Camera calibration in progress" messages.
+</div>
+
+<div class="tip-box">
+<strong>Firmware Note:</strong> Newer mirror assemblies (2024+) require vehicle firmware version <strong>2025.2.3 or later</strong> to prevent accelerated wear on the mirror actuator motor. Check your software version before installing new mirrors.
 </div>
 
 ## What You'll Need
@@ -117,7 +121,7 @@ With the trim removed, you'll see the mirror's wiring harness running into the d
 
 **4.2** Position the new mirror and hand-thread all three bolts before tightening.
 
-**4.3** Tighten bolts in a star/cross pattern to **18 Nm (13.3 ft-lb)**. Use hand tools only—do not use impact drivers.
+**4.3** Tighten bolts in a star/cross pattern to **15 Nm (11.1 ft-lb)**. Use hand tools only—do not use impact drivers.
 
 **4.4** Route the wiring harness back through the door frame opening.
 
@@ -161,6 +165,7 @@ The mirror should sit flush with the door and match the body lines. Check that t
 - Check blue FAKRA connector is fully seated
 - Verify connector pins aren't bent
 - Try toggling the mirror selector (L/R) on the screen
+- **If replacing due to motor short:** Reset the body controller in Service Mode: `Low Voltage > Power Distribution > Reset VCLeft` (or `VCRight` for passenger side)
 
 **Turn signal doesn't work:**
 - Same connector as adjustment—recheck connection
