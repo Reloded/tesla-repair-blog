@@ -8,6 +8,7 @@
     "index": "npx pagefind --site _site",
     "gsc": "node scripts/gsc.js",
     "analytics": "node scripts/analytics.js",
+    "indexing": "node scripts/check-indexing.js",
     "newsletter": "node scripts/buttondown.js"
   },
   "dependencies": {
