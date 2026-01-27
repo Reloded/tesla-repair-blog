@@ -27,9 +27,6 @@ Side mirror damage is one of the most common Tesla repairs—whether from a park
 
 This guide covers the complete process for 2017-2023 Model 3, including the tricky A-pillar trim removal and FAKRA connector handling that many guides skip over.
 
-![Old and new Tesla Model 3 side mirrors with wiring harnesses](/images/repairs/model-3-mirror/01-old-new-mirrors.jpg)
-*Old mirror (black) next to replacement (blue). Note the wiring harness and connectors that need to be transferred or matched.*
-
 ## When to Replace vs. Repair
 
 Before ordering a new mirror assembly, assess the damage:
@@ -67,31 +64,27 @@ The mirror bolts are hidden behind the A-pillar interior trim. This is the most 
 
 **1.1** Open the front door fully. The A-pillar trim is the triangular piece where the mirror meets the windshield inside the car.
 
-**1.2** The trim has no visible screws—it's held by plastic clips. Start at the bottom edge and carefully pry outward with a plastic tool.
+**1.2** Locate the T30 Torx screw securing the A-pillar trim (on premium audio equipped vehicles).
 
-![A-pillar area with connectors exposed](/images/repairs/model-3-mirror/04-a-pillar-connectors.jpg)
-*A-pillar trim removed, exposing the mirror mounting area and wiring.*
+![T30 Torx screwdriver on Tesla interior trim](/images/repairs/model-3-mirror/08-completed-mirror.jpg)
+*T30 Torx is used for various Tesla interior trim fasteners. For A-pillar trim, the screw may be hidden under a small cover near the door seal.*
 
-**1.3** Work your way up, releasing each clip. There are typically 3-4 clips. **Go slowly**—rushed prying breaks clips.
+**1.3** After removing the screw, the trim is held by plastic clips. Start at the bottom edge and carefully pry outward with a plastic tool.
 
-**1.4** Once loose, don't pull the trim away completely. There's a tweeter speaker and wiring connected to the back.
+**1.4** Work your way up, releasing each clip. There are typically 3-4 clips. **Go slowly**—rushed prying breaks clips.
 
-![Tesla A-pillar tweeter speaker](/images/repairs/model-3-mirror/07-a-pillar-speaker.jpg)
-*The A-pillar tweeter (premium audio). Disconnect the small connector before fully removing the trim.*
-
-**1.5** Disconnect the speaker connector (small, single connector) and set the trim aside safely.
+**1.5** Once loose, don't pull the trim away completely. On premium audio vehicles, there's a tweeter speaker connected to the back. Disconnect the speaker connector (small, single connector) and set the trim aside safely.
 
 ## Step 2: Disconnect Mirror Wiring
 
 With the trim removed, you'll see the mirror's wiring harness running into the door frame.
 
-![FAKRA connectors for mirror camera and power](/images/repairs/model-3-mirror/05-fakra-connectors.jpg)
-*FAKRA connectors: Pink/magenta is the repeater camera, blue is mirror power/signals. The "EU/AP PREM" label indicates a European Premium Connectivity vehicle.*
+![Door interior showing wiring and access area](/images/repairs/model-3-mirror/02-mirror-bracket-access.jpg)
+*A-pillar area exposed, showing the mirror mounting location and wiring routing through the door frame.*
 
-**2.1** Locate the FAKRA connectors:
+**2.1** Locate the connectors for the mirror harness. The Model 3 uses FAKRA-style connectors:
 - **Pink/Magenta connector:** Repeater camera (Autopilot)
 - **Blue connector:** Mirror power, heating, turn signal, adjustment motors
-- **Tan/Beige connector:** Additional signals (if equipped)
 
 **2.2** To disconnect FAKRA connectors: press the release tab and pull straight out. Don't twist or you'll damage the connector.
 
@@ -103,17 +96,17 @@ With the trim removed, you'll see the mirror's wiring harness running into the d
 
 ## Step 3: Remove Mirror Mounting Bolts
 
-![Mirror mounting bracket with bolts visible](/images/repairs/model-3-mirror/03-mirror-mounting-bolts.jpg)
-*Three 10mm bolts secure the mirror to the door. Note the wiring harness routing.*
+![Mirror bracket showing three mounting bolts](/images/repairs/model-3-mirror/01-old-new-mirrors.jpg)
+*Back of the mirror assembly showing the three hex mounting bolts. Note the bolt pattern and bracket design.*
 
-**3.1** Locate the three 10mm bolts holding the mirror bracket to the door.
+**3.1** Locate the three 10mm hex bolts holding the mirror bracket to the door. The foremost bolt may be partially hidden under the glass run seal—peel it back gently.
 
 **3.2** Support the mirror with one hand while removing bolts—don't let it fall and scratch the paint.
 
-**3.3** Remove all three bolts and carefully lift the mirror away from the door.
+**3.3** Remove all three bolts, release the wiring clip, and carefully lift the mirror away from the door.
 
-![Mirror bracket access from inside door](/images/repairs/model-3-mirror/02-mirror-bracket-access.jpg)
-*View of the mirror mounting area with mirror removed. Clean any debris before installing the new mirror.*
+![Door interior with wiring and insulation visible](/images/repairs/model-3-mirror/03-mirror-mounting-bolts.jpg)
+*View inside the door panel showing the wiring harness routing and sound deadening material. The mirror harness routes through this area.*
 
 ## Step 4: Install New Mirror
 
@@ -124,7 +117,7 @@ With the trim removed, you'll see the mirror's wiring harness running into the d
 
 **4.2** Position the new mirror and hand-thread all three bolts before tightening.
 
-**4.3** Tighten bolts in a cross pattern to 10 Nm (7.4 ft-lb). Don't overtighten—the bracket is aluminum.
+**4.3** Tighten bolts in a star/cross pattern to **18 Nm (13.3 ft-lb)**. Use hand tools only—do not use impact drivers.
 
 **4.4** Route the wiring harness back through the door frame opening.
 
@@ -135,17 +128,16 @@ With the trim removed, you'll see the mirror's wiring harness running into the d
 
 ## Step 5: Reinstall A-Pillar Trim
 
-![Mirror installed with A-pillar trim](/images/repairs/model-3-mirror/06-mirror-with-trim.jpg)
-*New mirror installed, reconnecting the A-pillar trim.*
+![Mirror installed on door](/images/repairs/model-3-mirror/06-mirror-with-trim.jpg)
+*New mirror mounted on the door. The triangular A-pillar trim area is visible before reinstallation.*
 
-**5.1** Reconnect the tweeter speaker connector.
+**5.1** Reconnect the tweeter speaker connector (if equipped with premium audio).
 
 **5.2** Align the trim piece at the top first, then press the clips back into place working downward.
 
 **5.3** Press firmly on each clip location until you hear/feel it snap in.
 
-![Completed A-pillar trim installation](/images/repairs/model-3-mirror/09-completed-trim.jpg)
-*A-pillar trim fully reinstalled. Check that all edges are flush.*
+**5.4** Reinstall the T30 Torx screw to secure the trim.
 
 ## Step 6: Test Everything
 
@@ -157,8 +149,7 @@ Before calling it done, verify all functions:
 - [ ] Turn signal in mirror
 - [ ] Autopilot camera (check for calibration message on screen)
 
-![Completed mirror installation](/images/repairs/model-3-mirror/08-completed-mirror.jpg)
-*Completed installation. The mirror should sit flush with the door and match the body lines.*
+The mirror should sit flush with the door and match the body lines. Check that there are no gaps around the base.
 
 <div class="warning-box">
 <strong>Camera Calibration:</strong> If you see "Cameras calibrating" after driving, this is normal. Drive on well-marked roads for 20-100 km until calibration completes. If calibration fails, you may need Tesla service to reset it.
