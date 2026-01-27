@@ -141,7 +141,6 @@ Before calling it done, verify all functions:
 - [ ] Mirror adjustment (all directions)
 - [ ] Mirror folding (if equipped)
 - [ ] Heated mirrors (enable in climate settings)
-- [ ] Turn signal in mirror
 
 The mirror should sit flush with the door and match the body lines. Check that there are no gaps around the base.
 
@@ -152,10 +151,6 @@ The mirror should sit flush with the door and match the body lines. Check that t
 - Verify connector pins aren't bent
 - Try toggling the mirror selector (L/R) on the screen
 - **If replacing due to motor short:** Reset the body controller in Service Mode: `Low Voltage > Power Distribution > Reset VCLeft` (or `VCRight` for passenger side)
-
-**Turn signal doesn't work:**
-- Same connector as adjustment—recheck connection
-- Could be a fuse issue if both mirrors affected
 
 **Mirror vibrates at speed:**
 - Mounting bolts not tight enough
