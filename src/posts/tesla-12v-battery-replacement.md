@@ -3,7 +3,7 @@ layout: post.njk
 title: "Tesla 12V Battery Replacement: DIY Guide (Save €200+)"
 description: "Replace your Tesla 12V battery yourself. Covers lead-acid (pre-2021) and lithium-ion (2021-2023) systems. Note: 2024+ models use 16V — different process."
 date: 2026-01-27
-lastUpdated: 2026-01-27
+lastUpdated: 2026-01-29
 category: "Electrical"
 difficulty: "Easy"
 readTime: "15 min read"
@@ -90,7 +90,24 @@ The 12V battery is located in the front trunk (frunk) on the right side, under a
 ![Tesla Model 3 12V battery compartment close-up showing red terminal cover and brake reservoir](/images/repairs/model-3-12v-battery-area.jpg)
 *Close-up of the 12V battery area. Note the red positive terminal cover, brake fluid reservoir (yellow cap), and the "THERMAL BEAM MODEL 3" label on the structural component.*
 
-**Step 2: Disconnect the Old Battery**
+**Step 2: Disconnect the High-Voltage System (Recommended)**
+
+Before touching the 12V battery, it's best practice to disconnect the "penthouse" connector. This prevents the DC-DC converter from supplying power during the swap and stops the car from trying to wake up mid-replacement.
+
+1. Fold down the rear seat (passenger side)
+2. Locate the orange high-voltage connector (the "penthouse")
+3. Unplug the connector—it simply pulls apart
+4. This isolates the HV system safely for service work
+
+<div class="tip-box">
+<strong>Pro Tip:</strong> If your car still powers on, put it in <strong>Transport Mode</strong> first (Controls → Service → Transport Mode). This prevents the car from waking up during the swap.
+</div>
+
+<div class="info-box">
+<strong>Terminology note:</strong> The "penthouse" connector under the rear seat is for service work. This is different from the "first responder loop" under the hood, which is cut by emergency responders after accidents to fully isolate the high-voltage system.
+</div>
+
+**Step 3: Disconnect the Old Battery**
 
 <div class="warning-box">
 <strong>Safety First:</strong> Always disconnect the negative terminal first, then the positive. This prevents short circuits.
@@ -103,7 +120,7 @@ The 12V battery is located in the front trunk (frunk) on the right side, under a
 5. Remove the battery hold-down bracket (10mm bolts)
 6. Carefully lift out the old battery
 
-**Step 3: Install the New Battery**
+**Step 4: Install the New Battery**
 
 1. Lower the new battery into position
 2. Reinstall the hold-down bracket
@@ -111,13 +128,15 @@ The 12V battery is located in the front trunk (frunk) on the right side, under a
 4. Connect the **negative (black) terminal** last
 5. Tighten both terminals securely
 
-**Step 4: Reassemble and Test**
+**Step 5: Reconnect and Reassemble**
 
-1. Replace the plastic cover
-2. Reinstall the storage bin
-3. Close the frunk
-4. The car should wake up immediately
-5. Check for any warning messages on the screen
+1. Reconnect the **penthouse connector** under the rear seat
+2. Exit Transport Mode if you enabled it
+3. Replace the plastic cover in the frunk
+4. Reinstall the storage bin
+5. Close the frunk
+6. The car should wake up immediately
+7. Check for any warning messages on the screen
 
 ### Model S and Model X
 
@@ -170,6 +189,10 @@ By doing this repair yourself, you save at least $100-200 compared to Tesla serv
 ---
 
 *Have questions about this repair? The process is straightforward, but every car is slightly different. Always consult your owner's manual for model-specific details.*
+
+## Official References
+
+For the complete official procedure, see the [Tesla Model 3 Service Manual - 12V Battery Replacement](https://service.tesla.com/docs/Model3/ServiceManual/en-us/GUID-A457202A-D5B8-4DAD-A374-C91A41A7B4F5.html) (requires Tesla account).
 
 ## Related Guides
 
