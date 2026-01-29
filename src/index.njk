@@ -16,7 +16,7 @@ description: DIY Tesla repair guides from an independent mechanic. Save thousand
     <div class="featured-content">
       <div class="featured-icon">🛒</div>
       <div class="featured-text">
-        <h2>Where to Buy Tesla Parts in Europe (2025 Guide)</h2>
+        <h2>Where to Buy Tesla Parts in Europe (2026 Guide)</h2>
         <p>Complete guide to sourcing Tesla parts: OEM, aftermarket, and used options. Compare prices and shipping for EU Tesla owners.</p>
         <span class="featured-cta">Read the Full Guide →</span>
       </div>
@@ -42,7 +42,7 @@ description: DIY Tesla repair guides from an independent mechanic. Save thousand
   </div>
 
   <div class="posts-grid">
-    {% for post in collections.posts | reverse %}
+    {% for post in collections.posts %}
     {% if loop.index <= 6 %}
     {% set category = post.data.category | lower %}
     {% set filterGroup = "other" %}

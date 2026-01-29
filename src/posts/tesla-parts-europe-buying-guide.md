@@ -1,6 +1,6 @@
 ---
 layout: post.njk
-title: "Where to Buy Tesla Parts in Europe (2025 Guide)"
+title: "Where to Buy Tesla Parts in Europe (2026 Guide)"
 description: "Complete guide to sourcing Tesla parts in Europe: OEM, aftermarket, and used options. Compare prices, shipping, and availability for EU Tesla owners."
 date: 2025-01-24
 category: "Guides"
