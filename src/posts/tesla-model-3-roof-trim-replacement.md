@@ -30,8 +30,8 @@ Tesla Service wants €300-500 for this repair. You can do it in 20-30 minutes f
 
 *This guide follows the official Tesla Service Manual procedure (Correction Code 12200302).*
 
-![Model 3 roof with trim removed showing the roof channel](/images/repairs/model-3-roof-trim/roof-overview.jpg)
-*2018 Model 3 with roof trim removed, exposing the roof channel*
+![Model 3 roof trim installed](/images/repairs/model-3-roof-trim/roof-overview.jpg)
+*2018 Model 3 with roof trim installed — note the screws securing it to the body*
 
 ## When to Replace the Roof Trim
 
