@@ -1,7 +1,7 @@
 ---
 layout: post.njk
-title: "Tesla Wiper Replacement: Sizes + The Step Most People Skip"
-description: "Changing Tesla wipers is easy — but you need Service Mode first or you'll scratch the hood. Correct sizes for every model inside."
+title: "How to Change Tesla Wiper Blades (Model 3/Y/S/X Sizes + Service Mode)"
+description: "Tesla wiper blade replacement guide: Activate Service Mode first, or you'll scratch the hood. Sizes: Model 3/Y = 26\" + 19\", Model S = 28\" + 19\", Model X = 28\" + 17\"."
 date: 2025-01-05
 category: "Maintenance"
 difficulty: "Easy"
@@ -18,6 +18,8 @@ tools:
 ---
 
 **Replacing Tesla wipers is easy — if you know about Service Mode.** Skip this step and the wipers will hit your hood when you lift them. Here's how to do it right, plus the correct blade sizes for every model.
+
+> **Quick steps:** Go to Controls > Service > Wiper Service Mode → Lift wiper arm → Press release tab and slide old blade off → Slide new blade on until it clicks → Lower arm → Exit service mode. Done in 5 minutes.
 
 ## When to Replace Your Wipers
 
