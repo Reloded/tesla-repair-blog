@@ -32,10 +32,26 @@ layout: base.njk
       <span>🔧 {{ difficulty or "Intermediate" }}</span>
       <span>🚗 {{ models or "All Models" }}</span>
     </div>
+    <div class="share-buttons">
+      <span>Share:</span>
+      <a href="https://twitter.com/intent/tweet?url={{ page.url | urlencode }}&text={{ title | urlencode }}" target="_blank" rel="noopener" title="Share on X">𝕏</a>
+      <a href="https://www.facebook.com/sharer/sharer.php?u={{ page.url | urlencode }}" target="_blank" rel="noopener" title="Share on Facebook">f</a>
+      <a href="https://www.reddit.com/submit?url={{ page.url | urlencode }}&title={{ title | urlencode }}" target="_blank" rel="noopener" title="Share on Reddit">r</a>
+      <a href="mailto:?subject={{ title | urlencode }}&body=Check out this Tesla repair guide: {{ page.url | urlencode }}" title="Share via Email">✉</a>
+    </div>
   </header>
 
-  <div class="post-content">
-    {{ content | safe }}
+  <div class="post-layout">
+    <aside class="toc-sidebar">
+      <nav class="toc" id="toc">
+        <h4>📋 Contents</h4>
+        <ul id="toc-list"></ul>
+      </nav>
+    </aside>
+
+    <div class="post-content" id="post-content">
+      {{ content | safe }}
+    </div>
   </div>
 
   <div class="author-box">
@@ -113,3 +129,51 @@ layout: base.njk
     {% endfor %}
   </div>
 </section>
+
+<script>
+// Generate Table of Contents from h2 headings
+document.addEventListener('DOMContentLoaded', function() {
+  const content = document.getElementById('post-content');
+  const tocList = document.getElementById('toc-list');
+  const headings = content.querySelectorAll('h2');
+  
+  if (headings.length < 3) {
+    // Hide TOC for short articles
+    document.querySelector('.toc-sidebar').style.display = 'none';
+    return;
+  }
+  
+  headings.forEach((heading, index) => {
+    // Add ID to heading if it doesn't have one
+    if (!heading.id) {
+      heading.id = 'section-' + index;
+    }
+    
+    const li = document.createElement('li');
+    const a = document.createElement('a');
+    a.href = '#' + heading.id;
+    a.textContent = heading.textContent;
+    li.appendChild(a);
+    tocList.appendChild(li);
+  });
+  
+  // Highlight current section on scroll
+  const tocLinks = tocList.querySelectorAll('a');
+  window.addEventListener('scroll', function() {
+    let current = '';
+    headings.forEach(heading => {
+      const sectionTop = heading.offsetTop - 100;
+      if (window.scrollY >= sectionTop) {
+        current = heading.id;
+      }
+    });
+    
+    tocLinks.forEach(link => {
+      link.classList.remove('active');
+      if (link.getAttribute('href') === '#' + current) {
+        link.classList.add('active');
+      }
+    });
+  });
+});
+</script>
