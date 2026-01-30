@@ -1,7 +1,7 @@
 ---
 layout: post.njk
-title: "Tesla Window Won't Close? 60-Second Reset Fix"
-description: "Window stops short, auto-reverses, or leaves a gap? Your calibration is off. Here's the quick reset that fixes it — no tools needed."
+title: "Tesla Model 3 Window Calibration: Hold Switch Reset That Actually Works"
+description: "Tesla window won't close or auto-reverses? Here's the official calibration reset — hold the switch until it stalls (not 5 seconds like forums say). Works on all Models."
 date: 2026-01-14
 category: "Body & Glass"
 difficulty: "Easy"
@@ -22,6 +22,12 @@ tools:
 
 **Tesla windows sometimes "forget" where they're supposed to stop.** When this happens, they won't fully close, auto-reverse for no reason, or leave gaps that let in wind noise and water. The fix takes 60 seconds per window — no tools, no service appointment.
 
+<div class="tip-box">
+<strong>Quick answer:</strong> Hold the window switch up until the window stalls, then down until it stalls, then up again until it stalls. That's it — the window is now calibrated. Full details below.
+</div>
+
+> **Myth buster:** You may have seen "hold the switch for 5 seconds" on forums or YouTube. That's not what Tesla says. The [official procedure](https://service.tesla.com/docs/Public/diy/model3/en_us/GUID-B6C81FC2-A37C-462B-8A71-FDE0F7B0734E.html) is to hold **until the window stalls** (stops moving on its own) — which typically takes 3-8 seconds depending on window position.
+
 ## Common Tesla Window Problems
 
 Before resetting, identify your specific issue:
@@ -40,17 +46,17 @@ Before resetting, identify your specific issue:
 
 This procedure works on all Tesla models. You'll need to do it for each affected window.
 
-### Method 1: Manual Reset (Recommended)
+### Method 1: Manual Switch Reset (Recommended)
 
-Per [Tesla's official procedure](https://service.tesla.com/docs/Public/diy/model3/en_us/GUID-B6C81FC2-A37C-462B-8A71-FDE0F7B0734E.html):
+This is [Tesla's official DIY procedure](https://service.tesla.com/docs/Public/diy/model3/en_us/GUID-B6C81FC2-A37C-462B-8A71-FDE0F7B0734E.html) — works on Model 3, Model Y, Model S, and Model X:
 
 1. Close the door with the affected window
 2. Sit in the driver's seat and close the driver door
-3. Using the window switch, **raise the affected window until it stalls**
-4. Using the window switch, **lower the affected window until it stalls**
-5. **Raise the affected window until it stalls again**
+3. **Hold the window switch UP until the window stalls** (stops moving — typically 3-8 seconds)
+4. **Hold the window switch DOWN until the window stalls**
+5. **Hold the window switch UP until it stalls again**
 
-The window should now be calibrated.
+The window should now be calibrated. The key is holding until it **stalls**, not for a specific number of seconds.
 
 **Test the Window:**
 
