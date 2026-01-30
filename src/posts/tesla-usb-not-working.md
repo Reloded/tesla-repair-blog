@@ -19,7 +19,9 @@ tools:
     link: "https://www.amazon.de/s?k=sd+card+reader+usb&tag=diyrepair-21"
 ---
 
-**Your USB drive probably isn't broken** — it's just formatted wrong. This is the most common Tesla issue I see, and it takes 2 minutes to fix.
+**Your USB drive probably isn't broken** — it's just formatted wrong. This is the #1 most common Tesla issue, and it takes 2 minutes to fix.
+
+> **TL;DR:** Format to exFAT, create a folder called `TeslaCam` (exact spelling), plug into glovebox USB port. That fixes 90% of cases.
 
 <div class="tip-box">
 <strong>Just need to format your USB?</strong> See our <a href="/posts/format-usb-tesla-dashcam/">quick 30-second formatting guide</a> for step-by-step instructions.

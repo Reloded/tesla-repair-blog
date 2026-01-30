@@ -1,7 +1,7 @@
 ---
 layout: post.njk
-title: "Tesla Phantom Braking: Why It Happens & What Actually Helps"
-description: "That sudden brake slam with nothing there? Here's what causes it and the settings that reduce it. No, Tesla hasn't fully fixed it yet."
+title: "Tesla Phantom Braking Fix: 5 Settings That Actually Reduce It (2026)"
+description: "Tesla brakes for no reason on Autopilot? Here are the camera cleaning, calibration, and settings tweaks that reduce phantom braking. Works on Model 3/Y/S/X."
 date: 2025-01-13
 category: "Autopilot & Safety"
 difficulty: "Easy"
@@ -19,7 +19,18 @@ tools:
     link: "https://www.amazon.de/s?k=tesla+model+3+sunshade&tag=diyrepair-21"
 ---
 
-**You're cruising on Autopilot, nothing ahead, and the car slams the brakes.** That's phantom braking — and yes, it's still happening in 2026. Tesla's improved it but hasn't fixed it. Here's what triggers it and the settings that actually help.
+**You're cruising on Autopilot, nothing ahead, and the car slams the brakes.** That's phantom braking — and yes, it's still happening in 2026. Tesla's improved it but hasn't eliminated it. Here's what triggers it and the settings that actually help.
+
+<div class="tip-box">
+<strong>Quick fixes that work:</strong>
+<ol>
+<li><strong>Clean all cameras</strong> — especially windshield and B-pillar</li>
+<li><strong>Recalibrate cameras</strong> — Controls > Service > Camera Calibration > Clear</li>
+<li><strong>Increase follow distance</strong> — higher number = gentler braking</li>
+<li><strong>Update software</strong> — each version typically improves this</li>
+<li><strong>Report it</strong> — say "Bug report, phantom braking" after each incident</li>
+</ol>
+</div>
 
 ## What Is Phantom Braking?
 
