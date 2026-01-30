@@ -25,6 +25,9 @@ layout: base.njk
     <h1>{{ title }}</h1>
     <div class="post-meta">
       <span>📅 {{ date | dateFormat }}</span>
+      {% if lastUpdated %}
+      <span>🔄 Updated: {{ lastUpdated | dateFormat }}</span>
+      {% endif %}
       <span>⏱️ {{ readTime or "10 min read" }}</span>
       <span>🔧 {{ difficulty or "Intermediate" }}</span>
       <span>🚗 {{ models or "All Models" }}</span>
@@ -33,6 +36,15 @@ layout: base.njk
 
   <div class="post-content">
     {{ content | safe }}
+  </div>
+
+  <div class="author-box">
+    <img src="/images/tesla-workshop-drive-unit.jpg" alt="Tesla repair workshop" class="author-img">
+    <div class="author-info">
+      <h4>About the Author</h4>
+      <p>Written by an independent, self-taught Tesla mechanic working on Teslas since 2018. I run my own shop and work on Teslas every day. These guides are based on real repair experience — not theory.</p>
+      <a href="/about/" class="author-link">More about this site →</a>
+    </div>
   </div>
 
   <div class="affiliate-box">

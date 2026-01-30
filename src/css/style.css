@@ -432,6 +432,57 @@ img {
   font-size: 0.9rem;
 }
 
+/* Author Box */
+.author-box {
+  display: flex;
+  gap: 1.5rem;
+  align-items: flex-start;
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin: 2.5rem 0;
+}
+
+.author-box .author-img {
+  width: 120px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 8px;
+  flex-shrink: 0;
+}
+
+.author-box .author-info h4 {
+  margin: 0 0 0.5rem 0;
+  color: var(--secondary-color);
+  font-size: 1rem;
+}
+
+.author-box .author-info p {
+  margin: 0 0 0.75rem 0;
+  color: var(--text-light);
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.author-box .author-link {
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+@media (max-width: 600px) {
+  .author-box {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .author-box .author-img {
+    width: 100%;
+    height: 120px;
+    margin: 0 auto;
+  }
+}
+
 /* Affiliate Box - Enhanced for visibility */
 .affiliate-box {
   background: linear-gradient(135deg, #fff9e6 0%, #fff3cd 100%);
