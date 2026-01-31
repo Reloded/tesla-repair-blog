@@ -8,7 +8,7 @@ difficulty: "Intermediate"
 readTime: "20 min read"
 models: "All Models"
 emoji: "💧"
-draft: true
+draft: false
 tools:
   - name: "DOT 4 Brake Fluid (1L)"
     link: "https://www.amazon.de/s?k=DOT+4+brake+fluid+1+liter&tag=diyrepair-21"
