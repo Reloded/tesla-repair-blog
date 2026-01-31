@@ -14,8 +14,8 @@ tools:
     link: "https://www.amazon.de/s?k=DOT+4+brake+fluid+1+liter&tag=diyrepair-21"
   - name: "Brake Bleeder Kit"
     link: "https://www.amazon.de/s?k=brake+bleeder+kit&tag=diyrepair-21"
-  - name: "11mm Wrench (Bleeder Valve)"
-    link: "https://www.amazon.de/s?k=11mm+wrench&tag=diyrepair-21"
+  - name: "Flare Nut Wrench Set"
+    link: "https://www.amazon.de/s?k=flare+nut+wrench+set&tag=diyrepair-21"
   - name: "Turkey Baster or Fluid Pump"
     link: "https://www.amazon.de/s?k=brake+fluid+transfer+pump&tag=diyrepair-21"
   - name: "Clear Tubing (6mm ID)"
@@ -33,7 +33,7 @@ tools:
 Brake fluid is one of the most overlooked maintenance items on any car—including Teslas. Even though your Tesla's regenerative braking means the hydraulic brakes get less use, the fluid still degrades over time. Here's how to change it yourself.
 
 <div class="tldr-box">
-<strong>Quick Answer:</strong> Tesla recommends brake fluid replacement every 2 years (4 years for some markets). Use DOT 4 brake fluid only. The bleeding sequence is: right rear → left rear → right front → left front. Budget 1-2 hours and about €20-40 in supplies.
+<strong>Quick Answer:</strong> Tesla recommends checking brake fluid every 4 years using test strips—flush if contaminated. Use DOT 4 brake fluid only. The official bleeding sequence is: front left → front right → rear right → rear left. Budget 1-2 hours and about €20-40 in supplies.
 </div>
 
 ## Why Change Brake Fluid?
@@ -48,16 +48,16 @@ Even if you rarely use your friction brakes thanks to regen, the fluid is still 
 
 ## When to Change Tesla Brake Fluid
 
-**Tesla's recommendation:** Every 2 years for most markets. Some regions specify 4 years.
+**Tesla's recommendation:** Check brake fluid condition every 4 years using test strips. Flush if contamination is detected (>30 PPM copper content).
 
 **Signs it's overdue:**
 - Brake fluid looks dark brown or black (fresh fluid is clear/amber)
 - Soft or spongy brake pedal
-- It's been 3+ years since last change
-- Moisture test strips show >3% water content
+- Test strip shows copper content above 30 PPM
+- It's been 4+ years since last check
 
 <div class="info-box">
-<strong>Pro Tip:</strong> You can test brake fluid moisture with inexpensive test strips (~€5). If moisture content is above 3%, it's time to flush regardless of age.
+<strong>Pro Tip:</strong> You can test brake fluid with BrakeStrip test strips (~€5-10). Dip for 90 seconds and compare to the color chart. If darker than the 30 PPM reference, it's time to flush.
 </div>
 
 ## What Brake Fluid Does Tesla Use?
@@ -83,7 +83,7 @@ You'll need approximately **500ml-1L** for a complete flush (all four corners).
 
 **Essential:**
 - 1L DOT 4 brake fluid
-- 11mm wrench (for bleeder valves)
+- Flare nut wrench set (8-12mm range—size varies by caliper)
 - Clear plastic tubing (~30cm per wheel)
 - Catch container
 - Turkey baster or syringe (to remove old fluid from reservoir)
@@ -133,14 +133,14 @@ Before starting:
 
 ### Step 3: Bleeding Sequence
 
-The correct bleeding order for Tesla is:
+The **official Tesla bleeding order** is:
 
-1. **Right Rear** (furthest from master cylinder)
-2. **Left Rear**
-3. **Right Front**
-4. **Left Front** (closest to master cylinder)
+1. **Front Left** 
+2. **Front Right**
+3. **Rear Right**
+4. **Rear Left**
 
-This ensures you push old fluid out from the furthest point first.
+This sequence is specified in Tesla's service manual and works with how the ABS module cycles the brake fluid. Follow this exact order for best results.
 
 ### Step 4: Bleed Each Wheel
 
@@ -151,7 +151,7 @@ For each wheel:
 3. **Locate the bleeder valve** on the brake caliper—it's a small nipple with a rubber cap
 4. **Remove the rubber cap** and clean around the valve
 5. **Attach clear tubing** to the bleeder valve, with the other end in your catch bottle
-6. **Open the bleeder valve** about 1/4 turn with your 11mm wrench
+6. **Open the bleeder valve** about 1/4 turn with your flare nut wrench
 
 **Two-person method:**
 - Have a helper pump the brake pedal 3-4 times, then hold it down
@@ -173,7 +173,19 @@ This is critical. After bleeding each corner:
 - Top up to MAX if needed
 - Never let it drop below MIN
 
-### Step 6: Final Steps
+### Step 6: Tighten Bleeder Valves
+
+Bleeder valve torque depends on your caliper manufacturer:
+
+| Caliper Brand | Torque |
+|---------------|--------|
+| Mando | 10 Nm (7.4 lb-ft) |
+| Hitachi | 12 Nm (8.8 lb-ft) |
+| Brembo (Performance) | 18.5 Nm (13.6 lb-ft) |
+
+Not sure which calipers you have? Mando and Hitachi are standard on most Model 3/Y. Brembo calipers (usually red or larger) come on Performance models.
+
+### Step 7: Final Steps
 
 1. **Pump the brake pedal** several times—it should feel firm
 2. **Check for leaks** around all bleeder valves
@@ -203,10 +215,10 @@ This is critical. After bleeding each corner:
 
 | Condition | Interval |
 |-----------|----------|
-| Normal use | Every 2 years |
-| Humid climate | Every 2 years (moisture absorption faster) |
-| Track use | Every year or before track days |
-| Very low mileage | Every 4 years minimum |
+| Normal use | Check every 4 years, flush if >30 PPM |
+| Humid climate | Check every 2-3 years |
+| Track use | Flush every year or before track days |
+| Very low mileage | Check every 4 years minimum |
 
 ## Cost Comparison
 
