@@ -120,7 +120,7 @@ Clean the sensor mounting area with IPA (isopropyl alcohol) wipes.
 
 1. Insert the new sensor through the valve hole
 2. For snap-in: Push until the rubber grommet seats in the hole
-3. For clamp-in: Hand-tighten the nut, then torque to **0.9-1.1 Nm** (8-10 in-lb)
+3. For clamp-in: Hand-tighten the nut, then torque to **8 Nm** (5.9 ft-lb) per Tesla service manual
 4. Install a new valve core (often included with sensors)
 
 ### Step 5: Reseat the Bead and Inflate

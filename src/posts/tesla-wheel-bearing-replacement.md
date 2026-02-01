@@ -144,15 +144,15 @@ This guide covers a front wheel bearing on Model 3/Y. Rear procedure is similar 
 2. Position the new hub assembly, aligning the bolt holes
 3. Install and hand-tighten the four hub bolts
 4. Torque the hub bolts to spec:
-   - **Model 3/Y:** 50 Nm + 90° rotation
+   - **Model 3/Y:** 85 Nm (62.7 ft-lb)
    - **Model S/X:** Check service manual for your year
 
 ### Step 9: Reassemble
 
 1. Push the axle back through the hub splines
 2. Install the axle nut and torque to spec:
-   - **Model 3/Y:** 290 Nm (214 ft-lb)
-   - **Model S/X:** 350 Nm (258 ft-lb)
+   - **Model 3/Y:** 300 Nm (221 ft-lb)
+   - **Model S/X:** Check service manual for your year
 3. Stake the axle nut or install new cotter pin
 4. Reconnect the ball joint and install pinch bolt — 55 Nm
 5. Reconnect the ABS sensor
