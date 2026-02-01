@@ -42,10 +42,12 @@ If the window doesn't respond at all and you hear nothing, check the window swit
 - **10mm deep socket** with ratchet (regulator mounting nuts)
 - **13mm socket** (glass clamp bolts)
 - **T30 Torx bit** (door panel screws)
-- **Plastic trim removal tools** (don't use metal—you'll scratch things)
+- **[Plastic trim removal tools](https://www.amazon.com/s?k=plastic+trim+removal+tool+set&tag=diyrepair07-20)** (don't use metal—you'll scratch things)
 - **Painter's tape** (to hold glass in place during repair)
 - **3mm Allen key** (for adjustment jack screws)
 - Work gloves and safety glasses
+
+**🛒 Tool Kit:** [iFixit Pro Tech Toolkit](https://www.ifixit.com/products/pro-tech-toolkit) has everything you need for Tesla interior work.
 
 ### Parts
 
@@ -62,8 +64,8 @@ If the window doesn't respond at all and you hear nothing, check the window swit
 
 **Where to buy:**
 - [Tesla Official Parts](https://shop.tesla.com) — OEM, highest price
-- eEuroparts, eVAnnex — OEM parts, sometimes discounted
-- Amazon (Dorman, etc.) — Aftermarket, 30-50% cheaper
+- [eEuroparts](https://www.eeuroparts.com/Tesla/) — OEM parts, often discounted
+- [Amazon.com](https://www.amazon.com/s?k=tesla+model+3+window+regulator&tag=diyrepair07-20) | [Amazon.de](https://www.amazon.de/s?k=tesla+model+3+fensterheber&tag=diyrepair-21) — Aftermarket (Dorman), 30-50% cheaper
 
 ## Step 1: Remove the Door Panel
 
