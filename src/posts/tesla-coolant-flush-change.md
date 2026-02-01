@@ -106,6 +106,12 @@ The blue color is a key identifier — if your coolant has turned brown or green
 4. **Wear gloves and eye protection** — ethylene glycol is toxic if ingested or absorbed through skin.
 5. **Work on level ground** — air bleeding requires a level vehicle.
 
+## DIY vs Tesla Service Center Method
+
+> **Important:** Tesla's official service procedure uses specialized equipment — vacuum refill systems, pressure test fixtures, and coolant drain adapter kits. They disconnect quick-release hose fittings rather than using traditional drain plugs.
+>
+> The DIY method below is a simplified approach that works for home mechanics without professional equipment. It's effective but takes longer (manual bleeding vs vacuum fill).
+
 ## Model 3/Y Coolant Change Procedure
 
 The Model 3 and Y share similar cooling architectures. Here's the step-by-step process:
@@ -125,10 +131,12 @@ The primary drain point is on the front motor/drive unit:
 
 1. Raise and secure the front of the vehicle
 2. Remove the underbody panel (aero shield) — multiple 10mm bolts and plastic clips
-3. Locate the drain plug on the front drive unit (bottom, passenger side)
+3. Locate the coolant hose quick-disconnect on the front drive unit (bottom, passenger side)
 4. Position your drain pan under the drain point
 5. Remove the coolant reservoir cap (frunk) to allow air in and faster draining
-6. Remove the drain plug — expect 4-6 liters to flow out
+6. Disconnect the quick-release fitting — squeeze the release tabs and pull apart. Expect 4-6 liters to flow out
+
+> **Note:** Tesla uses quick-disconnect hose fittings, not traditional drain plugs. These are push-to-connect fittings with release tabs. No torque spec needed — they simply click back together when reinstalling.
 
 **For a more complete drain (recommended for flush):**
 
@@ -150,7 +158,7 @@ For a thorough service, flush with distilled water:
 
 ### Step 4: Refill with Fresh Coolant
 
-1. Ensure drain plug is properly torqued (hand tight plus 1/4 turn, or ~10 Nm)
+1. Reconnect the quick-disconnect fitting — push together until you hear/feel a click. Tug to verify it's locked.
 2. Attach the spill-free funnel to the reservoir
 3. Slowly fill with G-48 coolant
 4. Fill until coolant is visible in the reservoir (MIN to MAX marks)
