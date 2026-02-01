@@ -1,12 +1,28 @@
 ---
+layout: post.njk
 title: "Tesla Wheel Bearing Replacement: DIY Guide for Model 3, Y, S & X"
 description: "Complete guide to diagnosing and replacing wheel bearings on your Tesla. Learn the symptoms, tools needed, and step-by-step process for all Tesla models."
 date: 2026-02-01
-tags: ['wheel bearing', 'suspension', 'model 3', 'model y', 'model s', 'model x', 'noise', 'diy repair']
+category: "Suspension"
 difficulty: "Advanced"
-time: "2-3 hours per wheel"
-cost: "$100-250 per bearing"
-affiliate: true
+readTime: "15 min read"
+models: "All Models"
+emoji: "🔧"
+tools:
+  - name: "36mm Axle Nut Socket (Impact Rated)"
+    link: "https://www.amazon.de/s?k=36mm+axle+nut+socket&tag=diyrepair-21"
+  - name: "Torque Wrench (200+ Nm)"
+    link: "https://www.amazon.de/s?k=torque+wrench+200nm&tag=diyrepair-21"
+  - name: "Breaker Bar"
+    link: "https://www.amazon.de/s?k=breaker+bar+1%2F2&tag=diyrepair-21"
+  - name: "Hub Puller / Slide Hammer"
+    link: "https://www.amazon.de/s?k=hub+puller+slide+hammer&tag=diyrepair-21"
+  - name: "OEM Tesla Wheel Bearing Hub Assembly"
+    link: "https://rrcarparts.com/collections/all?q=wheel+bearing"
+    provider: "rrcarparts"
+  - name: "iFixit Pro Tech Toolkit"
+    link: "https://sovrn.co/1dw8w9g"
+    provider: "ifixit"
 ---
 
 # Tesla Wheel Bearing Replacement: DIY Guide
@@ -46,17 +62,11 @@ Tesla uses different hub assemblies for front and rear, and between single/dual 
 
 > **Part tip:** Front left and right are often different part numbers due to encoder ring orientation. Rears are typically interchangeable left/right.
 
-<affiliate-link store="rrcarparts" id="wheel-bearing-hub">
-**OEM Tesla Hub Assembly** – Genuine Tesla wheel bearing hub unit. Correct fitment guaranteed.
-</affiliate-link>
+Check the tools list above for OEM Tesla hub assemblies from RR Car Parts.
 
 ### Aftermarket Options
 
-Quality aftermarket bearings from SKF, FAG, or Timken work well and cost 30-50% less than OEM.
-
-<affiliate-link store="amazon.de" asin="B0BXYZ1234">
-**SKF Hub Assembly for Tesla Model 3/Y** – OE-quality replacement from a trusted bearing manufacturer.
-</affiliate-link>
+Quality aftermarket bearings from SKF, FAG, or Timken work well and cost 30-50% less than OEM. Search for your specific model's hub assembly on Amazon.
 
 ## Tools Required
 
@@ -75,9 +85,7 @@ Quality aftermarket bearings from SKF, FAG, or Timken work well and cost 30-50% 
 - Hub removal tool / slide hammer (if stuck)
 - Torque angle gauge (some bolts spec'd in degrees)
 
-<affiliate-link store="amazon.de" asin="B07YJNGG5L">
-**36mm Axle Nut Socket** – Deep socket for Tesla's axle nuts. Impact-rated.
-</affiliate-link>
+See the tools list above for recommended sockets and torque wrenches.
 
 ## Step-by-Step Replacement
 
