@@ -9,7 +9,8 @@
     "gsc": "node scripts/gsc.js",
     "analytics": "node scripts/analytics.js",
     "indexing": "node scripts/check-indexing.js",
-    "newsletter": "node scripts/buttondown.js"
+    "newsletter": "node scripts/buttondown.js",
+    "audit": "node scripts/blog-audit.js"
   },
   "dependencies": {
     "@11ty/eleventy": "^2.0.1",
