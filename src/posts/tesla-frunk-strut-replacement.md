@@ -65,8 +65,7 @@ This is a genuinely simple repair. You'll need:
 ### Strut Specifications by Model
 
 **Model 3 / Model Y:**
-- OEM Part Number: 1134017-00-A (early), varies by year
-- Length: ~380mm extended
+- Length: ~370mm (14.6") extended
 - Force: ~150-200N per strut
 - Mounting: Ball stud on both ends
 
