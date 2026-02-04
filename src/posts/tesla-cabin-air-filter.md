@@ -190,5 +190,7 @@ Model X filter locations:
 ## Related Guides
 
 - [Tesla AC Not Cooling](/posts/tesla-ac-not-cooling/) - Full AC troubleshooting if filter replacement doesn't help
+- [Wiper Blade Replacement](/posts/tesla-windshield-wiper-replacement/) - Another quick maintenance item to do at the same time
+- [Winter Preparation Guide](/posts/tesla-winter-preparation-guide/) - Fresh filter before winter season
 - [Climate Keeper Issues](/posts/tesla-climate-keeper-issues/) - Dog Mode and Camp Mode problems
 - [Seat Heater Fix](/posts/tesla-seat-heater-fix/) - Another interior comfort maintenance guide

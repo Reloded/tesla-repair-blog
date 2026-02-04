@@ -149,6 +149,7 @@ While some owners have successfully replaced air springs themselves, the job req
 
 ## Related Guides
 
+- [Jack Points & Lifting Guide](/posts/tesla-jack-points-lifting-guide/) - Safe lift points for Model S/X air suspension work
 - [Suspension Noise Fix](/posts/tesla-suspension-noise-fix/) - Diagnose noises before replacing parts
 - [Creaking & Rattling Fix](/posts/tesla-creaking-rattling-fix/) - Track down interior and body noises
 - [Control Arm Replacement](/posts/tesla-control-arm-replacement/) - Related suspension components

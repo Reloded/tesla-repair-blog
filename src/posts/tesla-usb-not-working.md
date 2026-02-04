@@ -1,7 +1,7 @@
 ---
 layout: post.njk
-title: "Tesla USB Not Working? 2-Minute Fix for Dashcam & Sentry Mode"
-description: "Tesla USB not recognized? Dashcam not recording? 90% of cases fixed by formatting to exFAT + creating TeslaCam folder. Free step-by-step guide — no tools needed."
+title: "Tesla USB Not Working? Fix It in 2 Minutes (No Tools, No Service Visit)"
+description: "Tesla USB not recognized for Dashcam or Sentry Mode? Simple exFAT format + TeslaCam folder fixes 90% of cases instantly. Works on all Model 3/Y/S/X."
 date: 2026-01-25
 category: "Interior"
 difficulty: "Easy"

@@ -82,9 +82,9 @@ Tesla uses standard brake components. You don't need to buy from Tesla. Compatib
 
 ### Lifting the Vehicle
 
-1. Locate the **jack points** on your Tesla (reinforced areas on the frame)
+1. Locate the **[jack points](/posts/tesla-jack-points-lifting-guide/)** on your Tesla (reinforced areas on the frame)
    - Model 3/Y: Just behind the front wheels and just in front of the rear wheels
-   - Model S/X: Similar positions, check owner's manual for exact locations
+   - Model S/X: Similar positions, check our [jack points guide](/posts/tesla-jack-points-lifting-guide/) for exact locations
 2. Use a jack pad or Tesla-specific puck to protect the battery
 3. Lift the car and secure on jack stands
 4. Remove the wheel (21mm lug nuts on most models)
@@ -178,5 +178,6 @@ No, DIY brake pad replacement doesn't void any warranty. It's a standard mainten
 ## Related Guides
 
 - [Tesla Squeaky Brakes Fix](/posts/tesla-squeaky-brakes-fix/) - Try these fixes before replacing pads
+- [Tesla Jack Points & Lifting Guide](/posts/tesla-jack-points-lifting-guide/) - Safe jack placement for all models
 - [Tesla Tire Rotation](/posts/tesla-tire-rotation/) - Combine with brake service to save time
 - [Model S Rear Caliper Motor Replacement](/posts/tesla-model-s-rear-caliper-motor-replacement/) - Fix electric parking brake issues

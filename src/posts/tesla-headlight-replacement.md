@@ -317,3 +317,10 @@ The sweet spot for most people is a **used OEM headlight** from eBay or a salvag
 - **Protect your paint.** Masking tape on fender edges is cheap insurance against scratches during bumper removal
 
 The hardest part of this job is working up the courage to pull the bumper off. Once you've done that, the headlight swap itself is quick and simple — two bolts and a connector. You've got this.
+
+## Related Guides
+
+- [Headlight Condensation Fix](/posts/tesla-headlight-condensation/) - Try fixing moisture before full replacement
+- [Tail Light Replacement](/posts/tesla-tail-light-replacement/) - Easier rear light swap (no bumper removal)
+- [Jack Points & Lifting Guide](/posts/tesla-jack-points-lifting-guide/) - Safe lifting if you need underbody access
+- [Paint Chip Repair](/posts/tesla-paint-chip-repair/) - Fix chips while the bumper is off

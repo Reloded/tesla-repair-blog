@@ -201,3 +201,10 @@ While this job is DIY-able, consider professional help if:
 ---
 
 *Questions about wheel bearing replacement? Leave a comment below. For more suspension guides, check out our [control arm](/posts/tesla-control-arm-replacement/) and [suspension noise](/posts/tesla-suspension-noise-fix/) articles.*
+
+## Related Guides
+
+- [Jack Points & Lifting Guide](/posts/tesla-jack-points-lifting-guide/) - Essential: safe lift points before removing wheels
+- [Control Arm Replacement](/posts/tesla-control-arm-replacement/) - Often done alongside bearing work
+- [Suspension Noise Fix](/posts/tesla-suspension-noise-fix/) - Diagnose the noise before replacing parts
+- [Brake Pad Replacement](/posts/tesla-brake-pad-replacement/) - Inspect while the wheel is off

@@ -221,6 +221,7 @@ After alignment, test drive and check for:
 
 ## Related Guides
 
+- [Jack Points & Lifting Guide](/posts/tesla-jack-points-lifting-guide/) - Safe lift points before suspension work
 - [Wheel Alignment DIY](/posts/tesla-wheel-alignment-diy/) - Required after control arm replacement
 - [Suspension Noise Fix](/posts/tesla-suspension-noise-fix/) - Diagnose noises before replacing parts
 - [Creaking and Rattling Fix](/posts/tesla-creaking-rattling-fix/) - Other sources of suspension noise

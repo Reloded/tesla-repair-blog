@@ -216,6 +216,7 @@ If you take your car in for service, help the technician by documenting:
 
 ## Related Guides
 
+- [Jack Points & Lifting Guide](/posts/tesla-jack-points-lifting-guide/) - Safe lifting before any suspension inspection
 - [Control Arm Replacement](/posts/tesla-control-arm-replacement/) - When bushings need replacement
 - [Wheel Alignment DIY](/posts/tesla-wheel-alignment-diy/) - Required after suspension work
 - [Creaking and Rattling Fix](/posts/tesla-creaking-rattling-fix/) - Additional noise troubleshooting

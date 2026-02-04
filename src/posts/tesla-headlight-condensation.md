@@ -121,6 +121,8 @@ Addressing headlight condensation early prevents LED damage and maintains your T
 
 ## Related Guides
 
+- [Headlight Replacement](/posts/tesla-headlight-replacement/) - Full headlight swap when condensation can't be fixed
+- [Tail Light Replacement](/posts/tesla-tail-light-replacement/) - Similar process for rear lights
 - [Rear Camera Blurry](/posts/tesla-rear-camera-blurry/) - Similar moisture issues with camera
 - [PPF Installation](/posts/tesla-ppf-installation/) - Protect headlights with film
 - [Paint Chip Repair](/posts/tesla-paint-chip-repair/) - Exterior care maintenance

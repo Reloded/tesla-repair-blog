@@ -235,6 +235,7 @@ The inner tail light (on the trunk lid itself) is a separate assembly.
 
 ## Related Guides
 
+- [Tesla Headlight Replacement](/posts/tesla-headlight-replacement/) — front light replacement (more involved, requires bumper removal)
 - [Tesla Headlight Condensation](/posts/tesla-headlight-condensation/) — similar moisture issues up front
 - [Tesla Parking Sensor Replacement](/posts/tesla-parking-sensor-replacement/) — nearby component
 - [Tesla Rear Camera Blurry](/posts/tesla-rear-camera-blurry/) — trunk area camera issues

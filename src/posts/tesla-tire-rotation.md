@@ -120,7 +120,7 @@ You have two options:
 4. This requires 4 jack stands
 
 <div class="tip-box">
-<strong>Jack Puck Required:</strong> Always use a Tesla-specific jack puck or pad when lifting. The battery pack is exposed and can be damaged by a standard jack.
+<strong>Jack Puck Required:</strong> Always use a Tesla-specific jack puck or pad when lifting. The battery pack is exposed and can be damaged by a standard jack. See our <a href="/posts/tesla-jack-points-lifting-guide/">complete jack points guide</a> for exact locations on every model.
 </div>
 
 **Step 3: Reinstall Wheels**
@@ -190,6 +190,8 @@ Consider professional service if:
 
 ## Related Guides
 
+- [Jack Points & Lifting Guide](/posts/tesla-jack-points-lifting-guide/) - Safe jack placement for all models
 - [Wheel Alignment DIY](/posts/tesla-wheel-alignment-diy/) - Check alignment with each rotation
 - [Brake Pad Replacement](/posts/tesla-brake-pad-replacement/) - Inspect brakes while rotating
+- [Wiper Blade Replacement](/posts/tesla-windshield-wiper-replacement/) - Check wipers while you're at it
 - [Aero Cap Removal](/posts/tesla-aero-cap-removal/) - Remove covers before rotation
