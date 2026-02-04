@@ -9,7 +9,7 @@ time: "1-2 hours"
 cost: "$300-900 per headlight"
 faq:
   - q: "Do I need to remove the front bumper to replace a headlight?"
-    a: "Yes, on all Tesla models. The headlight assemblies are accessed from behind the front fascia. It sounds intimidating, but bumper removal is straightforward—it's mostly 10mm bolts and plastic clips."
+    a: "Yes, on all Tesla models. The headlight assemblies are accessed from behind the front fascia. It sounds intimidating, but bumper removal is straightforward—it's mostly 10mm bolts, plastic clips, and one Torx T20 bolt for the fender bracket."
   - q: "Does a new headlight need software calibration?"
     a: "After installing a new headlight, you should calibrate it via Controls > Service > Adjust Headlights on the touchscreen. If you're replacing with a used headlight from a different vehicle, you may also need a firmware redeploy through Service Mode to sync the headlight's CAN bus communication with your car."
   - q: "Can I use a headlight from a junkyard or eBay?"
@@ -24,7 +24,7 @@ A cracked headlight from road debris, a foggy lens from failed seals, or a dead 
 
 Tesla service centers typically charge **$1,100-2,000** for a headlight replacement. DIY, you're looking at **$300-900** for the part and an afternoon of work with basic hand tools.
 
-The main challenge isn't the headlight itself—it's the bumper. Tesla headlights are accessed from behind the front fascia, so the bumper has to come off first. Once the bumper is out of the way, the headlight is held in by just two bolts and an electrical connector.
+The main challenge isn't the headlight itself—it's the bumper. Tesla headlights are accessed from behind the front fascia, so the bumper has to come off first. Once the bumper is out of the way, the headlight is held in by just 1-2 screws, a fender bracket bolt (Torx T20), and an electrical connector.
 
 ## When to Replace Your Headlight
 
@@ -132,10 +132,10 @@ Along the top edge of the bumper (now exposed after removing the frunk panels), 
 
 **7. Remove the fender liner fasteners.**
 Turn the steering wheel to create more room. On each side (driver and passenger):
-- Pop out the 3 push clips on the fender liner using a flat-head screwdriver or trim tool
+- Pop out the **5 push clips** on the fender liner using a flat-head screwdriver or trim tool
 - Pull back the fender liner to expose the side bumper bolts
-- Remove the **three 10mm bolts** that secure the bumper to the fender bracket
-- Remove the **one 10mm nut** at the rear corner of the bumper
+- Loosen the **two forward 10mm bolts** that attach the fascia to the fender
+- Remove the **outermost 10mm bolt** at the corner of the bumper
 
 Repeat on the opposite side.
 
@@ -159,31 +159,39 @@ Once the bumper is free enough, reach behind and disconnect the fog light electr
 With the bumper off, the headlights are fully accessible.
 
 **11. Disconnect the headlight electrical connector.**
-Find the large wiring connector on the back of the headlight assembly. There's a locking tab — pull the tab away from the connector to unlock it, then pull the connector straight out. Don't yank sideways.
+Find the large wiring connector on the back of the headlight assembly. The connector has a **red locking tab** — pull the tab *away* from the connector to unlock it (do **not** push down on the red tab), then pull the connector body straight out. Don't yank sideways.
 
-**12. Remove the headlight bolts.**
-Each headlight is held by **2 bolts (10mm)**. One is on top, one is on the inboard side. Remove both bolts.
+**12. Remove the fender bracket bolt.**
+Remove the bolt that attaches the fender bracket to the body using a **Torx T20 socket** (3 Nm / 2.2 ft-lbs). Remove the bracket from the vehicle.
 
-**13. Remove the headlight assembly.**
-With the bolts out and connector unplugged, the headlight slides forward and out. There are alignment dowels (pins) that locate the headlight on the body — just pull the assembly straight forward to clear them. Support the headlight with your other hand so it doesn't fall.
+**13. Remove the headlight screws.**
+Each headlight is held by **1-2 screws (10mm)** at 5.9 Nm (4.4 ft-lbs). One is on top; some headlights also have a lower fastener, but not all do. Remove all screws present.
+
+> **Note:** Tesla's service manual states "The headlight might not be equipped with a lower fastener." Check your specific headlight — if there's only one screw on top, that's normal.
+
+**14. Remove the headlight assembly.**
+With the screws out and connector unplugged, the headlight slides forward and out. There are alignment dowels (pins) that locate the headlight on the body — just pull the assembly straight forward to clear them. Support the headlight with your other hand so it doesn't fall.
 
 **That's it for removal.** Set the old headlight aside.
 
 ### Phase 4: Installation
 
-**14. Position the new headlight.**
+**15. Position the new headlight.**
 Align the dowel pins on the new headlight with the grommet holes on the body. Slide the assembly straight back until it seats fully and the mounting holes line up.
 
-**15. Install the headlight bolts.**
-Thread in both 10mm bolts by hand first to ensure they're not cross-threaded. Then tighten with your socket. Don't over-torque — these bolt into the body sheet metal.
+**16. Install the headlight screws.**
+Thread in the 10mm screw(s) by hand first to ensure they're not cross-threaded. Torque to **5.9 Nm (4.4 ft-lbs)**. If your headlight has a lower fastener position, install that screw too.
 
-**16. Reconnect the electrical connector.**
-Push the connector into the headlight until the locking tab clicks into place. Give it a gentle tug to confirm it's locked.
+**17. Install the fender bracket.**
+Position the bracket and install the Torx T20 bolt. Torque to **3 Nm (2.2 ft-lbs)**.
 
-**17. Test before reassembling.**
+**18. Reconnect the electrical connector.**
+Push the connector into the headlight until the red locking tab clicks into place. Give it a gentle tug to confirm it's locked.
+
+**19. Test before reassembling.**
 Before putting the bumper back on, power on the car and verify the new headlight works: low beam, high beam, turn signal, and daytime running lights. Cycle through all functions. It's much easier to troubleshoot now than after reinstalling 20+ fasteners.
 
-**18. Reinstall the bumper.**
+**20. Reinstall the bumper.**
 Reverse the removal process:
 - Connect the fog light harness connectors
 - Align the bumper to the body mounting tabs on both sides
@@ -193,8 +201,10 @@ Reverse the removal process:
 - Reinstall the six upper bumper bolts
 - Snap the fender liners back into place and reinstall the push clips
 
-**19. Reinstall the frunk panels.**
+**21. Reinstall the frunk panels.**
 Reverse Phase 1: bolt the upper plastic panel back in, reconnect the frunk latch, and put the storage liner and mat back.
+
+> **Important:** After reconnecting the front fascia electrical connections, Tesla's service manual recommends initiating a **software reinstall** on the touchscreen before completing reassembly. This ensures the new headlight's firmware is properly synchronized with the vehicle.
 
 ## Headlight Calibration
 
