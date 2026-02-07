@@ -8,17 +8,57 @@ layout: base.njk
   "@type": "Article",
   "headline": "{{ title }}",
   "description": "{{ description }}",
-  "datePublished": "{{ date | dateFormat }}",
+  "datePublished": "{{ date | isoDate }}",
+  {% if lastUpdated %}"dateModified": "{{ lastUpdated | isoDate }}",{% endif %}
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://tesladiyrepair.com{{ page.url }}"
+  },
+  "image": "https://tesladiyrepair.com{{ featuredImage or '/images/social-share.jpg' }}",
   "author": {
     "@type": "Person",
-    "name": "Tesla DIY Repair"
+    "name": "Tesla DIY Repair",
+    "url": "https://tesladiyrepair.com/about/"
   },
   "publisher": {
     "@type": "Organization",
-    "name": "Tesla DIY Repair"
+    "name": "Tesla DIY Repair",
+    "url": "https://tesladiyrepair.com",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://tesladiyrepair.com/images/favicon.svg"
+    }
   }
 }
 </script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://tesladiyrepair.com/"},
+    {"@type": "ListItem", "position": 2, "name": "Repair Guides", "item": "https://tesladiyrepair.com/guides/"},
+    {"@type": "ListItem", "position": 3, "name": "{{ title }}"}
+  ]
+}
+</script>
+{% if difficulty and readTime %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "{{ title }}",
+  "description": "{{ description }}",
+  "totalTime": "PT{{ readTime | replace(' min read', '') | replace(' min', '') }}M",
+  {% if tools %}"tool": [{% for tool in tools %}{"@type": "HowToTool", "name": "{{ tool.name }}"}{% if not loop.last %},{% endif %}{% endfor %}],{% endif %}
+  "estimatedCost": {
+    "@type": "MonetaryAmount",
+    "currency": "USD",
+    "value": "{{ estimatedCost or '50-200' }}"
+  }
+}
+</script>
+{% endif %}
 {% if faq %}
 <script type="application/ld+json">
 {
