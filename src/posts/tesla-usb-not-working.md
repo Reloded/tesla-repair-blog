@@ -95,6 +95,8 @@ After formatting:
 3. No spaces, exact capitalization
 4. Safely eject the drive
 
+For a complete walkthrough, see our [dashcam USB setup guide](/posts/tesla-dashcam-usb-setup/).
+
 <div class="warning-box">
 <strong>Warning:</strong> If you don't create the TeslaCam folder, Sentry Mode and Dashcam will not work. The folder name must be exact.
 </div>

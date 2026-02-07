@@ -233,7 +233,7 @@ With Tesla's regenerative braking, expect 75,000-150,000 miles depending on driv
 
 ---
 
-*Rotor replacement is a satisfying DIY job that saves significant money. Combined with the long lifespan of Tesla brakes, you might only do this once or twice over your ownership.*
+*Rotor replacement is a satisfying DIY job that saves significant money. It's also a good time to [flush your brake fluid](/posts/tesla-brake-fluid-change/) while you're servicing the brakes. Combined with the long lifespan of Tesla brakes, you might only do this once or twice over your ownership.*
 
 ## Related Guides
 

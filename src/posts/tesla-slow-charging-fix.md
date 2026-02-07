@@ -85,7 +85,7 @@ Slow charging is one of the most frustrating Tesla problems. Whether you're gett
 
 **3. Mobile Connector Issues**
 - Try a different outlet to isolate problem
-- Check connector pins for damage
+- [Check your mobile connector](/posts/tesla-mobile-connector-issues/) for damage or faults
 - Test with Wall Connector if available
 
 <div class="warning-box">
@@ -112,6 +112,8 @@ Slow charging is one of the most frustrating Tesla problems. Whether you're gett
 - Solution: Choose unpaired stall if available
 
 ### Abnormal Slow Supercharging
+
+For [Supercharger-specific slow charging issues](/posts/tesla-supercharger-slow/), see our dedicated guide.
 
 **Problem:** Much slower than other cars at same station.
 

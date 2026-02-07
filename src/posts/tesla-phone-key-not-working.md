@@ -25,6 +25,8 @@ The Tesla phone key is convenient when it works, but frustrating when it doesn't
 - Unlocks when you pull door handle
 - Locks when you walk away
 
+[Bluetooth problems](/posts/tesla-bluetooth-issues/) can directly affect phone key functionality, so troubleshoot Bluetooth first if your phone key is unreliable.
+
 **Requirements:**
 - Tesla app installed and logged in
 - Bluetooth enabled on phone

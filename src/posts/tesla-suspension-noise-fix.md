@@ -33,10 +33,10 @@ Suspension noises in a Tesla are noticeable because the car is so quiet without 
 **Sound:** Solid "thunk" or "clunk" over bumps
 **Common causes:**
 - Worn control arm bushings
-- Loose sway bar end links
+- Loose [sway bar end links](/posts/tesla-sway-bar-link-replacement/) — one of the most common causes
 - Worn ball joints
 - Loose wheel lug nuts
-- Bad strut mount
+- Bad strut mount — [worn struts](/posts/tesla-strut-replacement/) can cause clunking
 
 ### Squeaking
 
@@ -184,7 +184,7 @@ Some suspension work requires special tools or alignment:
 | Shock/strut replacement | Maybe | May need spring compressor |
 | Control arm replacement | No | Requires alignment after |
 | Ball joint replacement | No | Press required, safety critical |
-| Wheel bearing replacement | No | Special tools required |
+| [Wheel bearing replacement](/posts/tesla-wheel-bearing-replacement/) | No | Special tools required, humming noise may indicate wear |
 
 <div class="warning-box">
 <strong>Safety Warning:</strong> Suspension components are safety-critical. If you're unsure about a diagnosis or repair, have a professional inspect it. A failed suspension component can cause loss of control.

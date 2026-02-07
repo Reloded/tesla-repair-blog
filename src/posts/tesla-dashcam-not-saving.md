@@ -90,8 +90,8 @@ This means Tesla can't write to the USB:
 
 1. **Remove USB** from the car
 2. **Check on computer** - is it readable?
-3. **Reformat** using steps above
-4. **Create TeslaCam folder** if missing
+3. **[Reformat your USB drive](/posts/format-usb-tesla-dashcam/)** using the correct settings
+4. **Create TeslaCam folder** if missing (check our [USB setup guide](/posts/tesla-dashcam-usb-setup/) for details)
 5. **Reinsert** and wait 30 seconds
 6. Dashcam icon should turn grey, then red (recording)
 

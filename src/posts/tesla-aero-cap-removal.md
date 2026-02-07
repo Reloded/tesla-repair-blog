@@ -30,6 +30,7 @@ Tesla's aero wheel covers (also called aero caps or hubcaps) improve efficiency 
 - Makes tire pressure checks easier
 - Allows better brake cooling
 - Easier visual brake inspection
+- You'll need to remove aero caps for [tire rotation](/posts/tesla-tire-rotation/) anyway
 
 **Keep in mind:**
 - Removing aero caps reduces range by approximately 3-5%

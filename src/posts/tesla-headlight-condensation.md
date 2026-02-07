@@ -105,6 +105,8 @@ Consider Tesla Service or a professional if:
 - The housing is cracked and needs replacement
 - Your vehicle is under warranty
 
+If condensation persists despite repeated DIY attempts, a [full headlight replacement](/posts/tesla-headlight-replacement/) may ultimately be needed.
+
 ## Cost Comparison
 
 | Solution | DIY Cost | Tesla Service |

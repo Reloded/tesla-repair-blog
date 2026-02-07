@@ -180,7 +180,7 @@ For falcon wing door issues:
 
 ## Preventing Door Handle Failures
 
-1. **Don't force frozen handles** - Use the app to pre-heat (a weak [12V battery](/posts/tesla-12v-battery-replacement/) can also cause handle failures)
+1. **Don't force frozen handles** - Use the app to pre-heat (a weak [12V battery](/posts/tesla-12v-battery-replacement/) can also cause handle failures). Start by [checking your key fob battery](/posts/tesla-key-fob-battery/) too—a dead fob means handles won't present
 2. **Keep handles clean** - Debris causes wear
 3. **Lubricate annually** - Silicone spray on pivot points
 4. **Park in garage** - Reduces temperature extremes

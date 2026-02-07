@@ -96,7 +96,7 @@ Dirty cameras are a major cause of phantom braking:
 1. **Clean windshield regularly** - Inside and out
 2. **Clean camera housings** - Pillar cameras, B-pillar cameras
 3. **Check for water spots** - Can cause distortion
-4. **Replace worn wipers** - Streaks affect camera visibility
+4. **[Replace worn wipers](/posts/tesla-windshield-wiper-replacement/)** - Streaks affect camera visibility and can contribute to phantom braking
 
 **Camera locations to clean:**
 - Front cameras (behind windshield at top)
