@@ -3,7 +3,7 @@ layout: post.njk
 title: "How to Install Tesla Ambient Interior Lighting (Model 3/Y)"
 description: "Complete DIY guide to installing aftermarket ambient interior lighting in your Tesla Model 3 or Model Y. Covers kit options, trim panel removal, wiring, app setup, and common mistakes."
 date: 2026-02-07
-draft: true
+draft: false
 category: "Interior"
 difficulty: "Medium"
 readTime: "20 min read"

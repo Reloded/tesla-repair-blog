@@ -8,7 +8,7 @@ difficulty: "Easy"
 readTime: "12 min read"
 models: "Model 3, Model Y"
 emoji: "🛡️"
-draft: true
+draft: false
 tools:
   - name: "Tesla OEM Mud Flaps (Model 3)"
     link: "https://www.amazon.de/s?k=tesla+model+3+mud+flaps&tag=diyrepair-21"
