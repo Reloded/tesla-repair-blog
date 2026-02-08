@@ -102,7 +102,7 @@ If car doesn't see the USB at all:
 - **Try different USB port** in the car
 - **Test with different USB drive**
 - **Check USB cable** if using external SSD
-- **Try different USB brand** - some aren't compatible
+- **Try different USB brand** - some aren't compatible (see our [recommended drives list](/posts/tesla-dashcam-usb-setup/))
 
 <div class="tip-box">
 <strong>Recommended USB Drives:</strong>
@@ -192,7 +192,7 @@ If using a hub:
 Reach out to Tesla if:
 
 - No USB ports work in the car
-- Dashcam worked, then completely stopped
+- Dashcam worked, then completely stopped (also check our [Sentry Mode troubleshooting guide](/posts/tesla-sentry-mode-not-recording/) if Sentry is also affected)
 - "TeslaCam failure" error persists
 - Multiple USB drives all fail
 

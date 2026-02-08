@@ -95,7 +95,7 @@ Signs of USB drive failure:
 - Partial or scrambled footage
 - "Cannot read file" errors
 
-**Solution:** Replace the USB drive. Continuous recording wears out standard USB drives. Use high-endurance or SSD drives designed for dashcam use. See our [USB not working guide](/posts/tesla-usb-not-working/) for more troubleshooting.
+**Solution:** Replace the USB drive. Continuous recording wears out standard USB drives. Use high-endurance or SSD drives designed for dashcam use. See our [USB not working guide](/posts/tesla-usb-not-working/) for more troubleshooting, or follow our [USB formatting guide](/posts/format-usb-tesla-dashcam/) to reformat correctly.
 
 ## Camera Problems
 
@@ -220,4 +220,5 @@ Camera hardware or software issue:
 - [How to Format USB for Tesla Dashcam](/posts/format-usb-tesla-dashcam/) - Quick 30-second formatting guide
 - [Dashcam Not Saving](/posts/tesla-dashcam-not-saving/) - Same USB fixes apply to dashcam
 - [USB Not Working](/posts/tesla-usb-not-working/) - Detailed USB port troubleshooting
+- [Tesla Dashcam USB Setup](/posts/tesla-dashcam-usb-setup/) - Best drives and complete setup guide
 - [Rear Camera Blurry](/posts/tesla-rear-camera-blurry/) - Camera issues affect recording quality

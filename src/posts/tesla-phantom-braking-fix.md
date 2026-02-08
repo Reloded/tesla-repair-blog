@@ -1,7 +1,7 @@
 ---
 layout: post.njk
-title: "Tesla Phantom Braking: 5 Proven Fixes That Actually Work (2025–2026)"
-description: "Stop your Tesla from braking for no reason on Autopilot. 5 camera + settings fixes that reduce phantom braking drastically. Model 3/Y/S/X tested."
+title: "Tesla Phantom Braking? 5 Free Fixes That Actually Work"
+description: "Tesla braking for no reason on Autopilot? 5 camera and settings fixes that drastically reduce phantom braking. No service visit needed. All models."
 date: 2025-01-13
 category: "Autopilot & Safety"
 difficulty: "Easy"

@@ -86,8 +86,15 @@ If your drive isn't recognized after formatting:
 2. Reboot the car (hold both scroll wheels for 10 seconds)
 3. Make sure Sentry Mode is enabled: **Controls > Safety > Sentry Mode**
 
-For more troubleshooting, see our [complete USB troubleshooting guide](/posts/tesla-usb-not-working/).
+For more troubleshooting, see our [complete USB troubleshooting guide](/posts/tesla-usb-not-working/). If your dashcam still isn't saving after formatting, check our [dashcam not saving fix](/posts/tesla-dashcam-not-saving/).
 
 ---
 
 *Takes 30 seconds to format, saves hours of troubleshooting. A properly formatted high-endurance drive is the key to reliable Sentry Mode recording.*
+
+## Related Guides
+
+- [Tesla USB Not Working? Fix It in 2 Minutes](/posts/tesla-usb-not-working/) — Full USB port and drive troubleshooting
+- [Tesla Dashcam & Sentry Mode USB Setup](/posts/tesla-dashcam-usb-setup/) — Best drives, where to plug in, and complete setup
+- [Dashcam Not Saving?](/posts/tesla-dashcam-not-saving/) — Fix recording issues after formatting
+- [Sentry Mode Not Recording](/posts/tesla-sentry-mode-not-recording/) — Troubleshoot Sentry-specific problems

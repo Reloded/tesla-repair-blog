@@ -1,7 +1,7 @@
 ---
 layout: post.njk
-title: "Tesla Dashcam & Sentry Mode USB Setup: Complete Guide"
-description: "Set up Tesla dashcam and Sentry Mode with the right USB drive. Formatting guide, best drives, troubleshooting, and tips for reliable recording."
+title: "Tesla Dashcam USB Setup: Best Drives & How to Format"
+description: "Set up Tesla dashcam and Sentry Mode correctly — best USB drives, formatting steps, and where to plug in. Stop losing footage with this 10-min setup."
 date: 2026-01-17
 category: "Electrical"
 difficulty: "Easy"
@@ -326,7 +326,7 @@ Your drive can't keep up with the data rate from Tesla's cameras.
 - Use SSD instead of flash drive
 - Check if drive is nearly full (performance drops when full)
 
-For more dashcam troubleshooting, see our [dashcam not saving guide](/posts/tesla-dashcam-not-saving/).
+For more dashcam troubleshooting, see our [dashcam not saving guide](/posts/tesla-dashcam-not-saving/). If your USB isn't recognized at all, try our [USB not working fix](/posts/tesla-usb-not-working/) — it covers port issues and drive compatibility.
 
 ## Viewing Your Footage
 
@@ -414,4 +414,5 @@ A €15 no-name USB drive will fail within months. Spend €40-60 on a high-endu
 - [Dashcam Not Saving](/posts/tesla-dashcam-not-saving/) - Troubleshoot recording issues
 - [Sentry Mode Not Recording](/posts/tesla-sentry-mode-not-recording/) - Fix Sentry problems
 - [USB Not Working](/posts/tesla-usb-not-working/) - General USB troubleshooting
+- [How to Format USB for Tesla Dashcam](/posts/format-usb-tesla-dashcam/) - Quick 30-second formatting guide
 - [Screen Black Fix](/posts/tesla-screen-black-fix/) - If screen issues affect dashcam
