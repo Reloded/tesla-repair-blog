@@ -54,10 +54,10 @@ Catch these early and you'll save yourself a world of pain:
 - White crystalline residue around hose connections (dried coolant)
 - Steam or sweet smell when driving
 
-**Dashboard Warnings:**
-- "Coolant level low — add coolant" alert
+**Dashboard Warnings** (exact wording may vary by software version):
+- "Coolant level low" or "Add coolant" alert
 - "Power reduced" or "Performance limited" warning
-- "Thermal system fault" message
+- "Thermal system fault" or similar thermal error message
 - Battery temperature warnings during charging
 
 **Performance Symptoms:**
@@ -68,6 +68,10 @@ Catch these early and you'll save yourself a world of pain:
 
 <div class="warning-box">
 <strong>Don't Drive With Low Coolant:</strong> Unlike an ICE car that can limp home with low coolant, a Tesla with insufficient cooling can overheat its battery pack — leading to permanent cell damage, reduced capacity, or even a safety shutdown. Address leaks immediately.
+</div>
+
+<div class="warning-box">
+<strong>Warranty Note:</strong> Tesla's owner's manual states that "any damage caused by opening the Battery coolant reservoir is excluded from the warranty." If your car is under warranty, consider having Tesla service handle coolant work to avoid voiding coverage. This applies to all DIY coolant procedures described below.
 </div>
 
 ## How Tesla's Cooling System Works (Quick Overview)
@@ -331,7 +335,7 @@ Keep your cooling system healthy:
 1. **Check coolant level monthly** — takes 30 seconds in the frunk
 2. **Inspect underbody panels** — damaged aero shields expose coolant lines to road debris
 3. **Address warnings immediately** — a small leak becomes a big leak fast
-4. **Follow the coolant change interval** — every 4 years or 80,000 km
+4. **Consider periodic coolant changes** — Tesla no longer lists coolant replacement on the Model 3/Y maintenance schedule, but many owners and shops recommend changing it every 4-6 years as preventive maintenance (older Model S/X had a 4-year/80,000 km interval)
 5. **Prepare for winter** — ensure proper coolant concentration before freezing temps (see our [winter preparation guide](/posts/tesla-winter-preparation-guide/))
 
 ---
