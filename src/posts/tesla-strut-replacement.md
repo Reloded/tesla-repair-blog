@@ -236,6 +236,11 @@ Stick with reputable brands that are designed specifically for your Tesla model.
 - [Tesla Frunk Won't Open](/posts/tesla-frunk-wont-open/) — troubleshoot frunk latch issues
 - [Tesla Trunk Won't Close](/posts/tesla-trunk-wont-close/) — latch and alignment problems
 - [Tesla Panel Gap Adjustment](/posts/tesla-panel-gap-adjustment/) — adjust hood/trunk alignment
+- [Suspension Noise Fix](/posts/tesla-suspension-noise-fix/) — diagnose noises before replacing struts
+- [Jack Points & Lifting Guide](/posts/tesla-jack-points-lifting-guide/) — safe lift points for strut work
+- [Sway Bar Link Replacement](/posts/tesla-sway-bar-link-replacement/) — check links while struts are out
+- [Wheel Alignment DIY](/posts/tesla-wheel-alignment-diy/) — check alignment after strut replacement
+- [Control Arm Replacement](/posts/tesla-control-arm-replacement/) — inspect control arms during suspension work
 
 ---
 

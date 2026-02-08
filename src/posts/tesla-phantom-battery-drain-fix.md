@@ -302,3 +302,11 @@ If you're experiencing phantom drain, work through this list:
 Most Tesla owners who follow these steps report drain dropping from 5–10% per day down to **1–2% per day** — which is perfectly normal for any EV.
 
 Your Tesla isn't broken. It just needs to be told when to sleep.
+
+## Related Guides
+
+- [12V Battery Replacement](/posts/tesla-12v-battery-replacement/) - Test and replace a weak 12V battery
+- [Range Loss Fix](/posts/tesla-range-loss-fix/) - Maximize range beyond fixing drain
+- [Slow Charging Fix](/posts/tesla-slow-charging-fix/) - If charging speed is also affected
+- [Charge Port Stuck](/posts/tesla-charge-port-stuck/) - Troubleshoot charging port issues
+- [Mobile Connector Issues](/posts/tesla-mobile-connector-issues/) - Home charging equipment problems

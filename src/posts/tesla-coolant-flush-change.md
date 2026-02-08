@@ -269,7 +269,7 @@ Tesla uses an integrated thermal management system, but there are separate loops
 | Drive unit loop | Motor, inverter | Yes, via valves |
 | Cabin loop | Heater core | Yes, via heat pump |
 
-The superbottle (Model 3/Y) or octovalve manages these loops. When you run the heater and charger simultaneously, all loops circulate — this is why both methods are needed for complete bleeding.
+The [superbottle](/posts/tesla-superbottle-replacement/) (Model 3/Y) or octovalve manages these loops. When you run the heater and charger simultaneously, all loops circulate — this is why both methods are needed for complete bleeding.
 
 ## Coolant Testing with Refractometer
 
@@ -323,3 +323,11 @@ With basic tools and patience for the air bleeding process, this is a very achie
 ---
 
 *Have questions about Tesla coolant changes? Found a different procedure that works for your model year? Leave a comment below and help other owners!*
+
+## Related Guides
+
+- [Heat Pump Problems](/posts/tesla-heat-pump-problems/) - Diagnose thermal system issues that may require a flush
+- [AC Not Cooling](/posts/tesla-ac-not-cooling/) - Coolant issues can affect cabin cooling
+- [Superbottle Replacement](/posts/tesla-superbottle-replacement/) - Flush coolant when replacing the superbottle
+- [Climate Keeper Issues](/posts/tesla-climate-keeper-issues/) - Climate features depend on healthy coolant
+- [Winter Preparation Guide](/posts/tesla-winter-preparation-guide/) - Check coolant before cold weather

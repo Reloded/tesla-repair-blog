@@ -172,6 +172,8 @@ The DIY calibration fix solves 90% of Tesla window issues at zero cost.
 
 ## Related Guides
 
+- [Window Regulator Replacement](/posts/tesla-window-regulator-replacement/) - If calibration doesn't fix the window
+- [Windshield Wiper Replacement](/posts/tesla-windshield-wiper-replacement/) - Another quick maintenance item
 - [Door Seal Maintenance](/posts/tesla-door-seal-maintenance/) - Keep seals in good condition
 - [Creaking and Rattling Fix](/posts/tesla-creaking-rattling-fix/) - Window-related noises
 - [Trunk Won't Close](/posts/tesla-trunk-wont-close/) - Similar recalibration techniques

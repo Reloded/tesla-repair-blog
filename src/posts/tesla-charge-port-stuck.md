@@ -178,3 +178,5 @@ If there's a mechanical failure, yes. If it's due to ice or user damage, no.
 - [Tesla Slow Charging Fix](/posts/tesla-slow-charging-fix/) - If your port opens but charging is slow
 - [Supercharger Slow](/posts/tesla-supercharger-slow/) - Slow speeds at Superchargers
 - [Mobile Connector Issues](/posts/tesla-mobile-connector-issues/) - Troubleshoot your home charging equipment
+- [Range Loss Fix](/posts/tesla-range-loss-fix/) - Maximize range between charges
+- [Phantom Battery Drain Fix](/posts/tesla-phantom-battery-drain-fix/) - If battery drains while parked

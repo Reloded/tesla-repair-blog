@@ -251,8 +251,11 @@ For a **complete** 100% flush, Tesla uses a scan tool to cycle the ABS valves wh
 ## Related Guides
 
 - [Tesla Brake Pad Replacement](/posts/tesla-brake-pad-replacement/) - When pads need changing
+- [Tesla Brake Rotor Replacement](/posts/tesla-brake-rotor-replacement/) - Flush fluid while servicing rotors
 - [Squeaky Brakes Fix](/posts/tesla-squeaky-brakes-fix/) - Noise without pad wear
 - [Reduced Regen Braking](/posts/tesla-regen-braking-reduced/) - When regen isn't working
+- [Model S Rear Caliper Motor Replacement](/posts/tesla-model-s-rear-caliper-motor-replacement/) - EPB motor issues on older Model S
+- [Phantom Braking Fix](/posts/tesla-phantom-braking-fix/) - Autopilot braking behavior
 
 ---
 

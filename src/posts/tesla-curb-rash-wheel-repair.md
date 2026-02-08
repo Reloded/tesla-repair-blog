@@ -351,3 +351,10 @@ For minor repairs (Level 1-2), you don't need to remove the wheel. Just turn the
 ---
 
 **Bottom line:** Don't stress about curb rash. It happens to nearly every Tesla owner eventually—those wide, low-profile tires and flush wheel designs practically invite it. For most damage, a weekend afternoon and $30-60 in supplies will have your wheels looking great again. Save the $150-300 shop fee for something more fun.
+
+## Related Guides
+
+- [Aero Cap Removal](/posts/tesla-aero-cap-removal/) - Remove caps to access wheel surface
+- [Tire Rotation](/posts/tesla-tire-rotation/) - Inspect wheels during rotation
+- [Wheel Alignment DIY](/posts/tesla-wheel-alignment-diy/) - Check alignment if you hit a curb hard
+- [Paint Chip Repair](/posts/tesla-paint-chip-repair/) - Similar touch-up techniques for body paint

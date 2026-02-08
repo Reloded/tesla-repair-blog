@@ -201,4 +201,7 @@ If calibration isn't available in your menu, try:
 ## Related Guides
 
 - [Brake Pad Replacement](/posts/tesla-brake-pad-replacement/) - Often done at the same time
+- [Brake Rotor Replacement](/posts/tesla-brake-rotor-replacement/) - Inspect rotors while caliper is off
+- [Brake Fluid Change](/posts/tesla-brake-fluid-change/) - Good time to flush fluid during brake work
 - [Squeaky Brakes Fix](/posts/tesla-squeaky-brakes-fix/) - Related brake issues
+- [Regen Braking Reduced](/posts/tesla-regen-braking-reduced/) - Limited regen increases brake wear

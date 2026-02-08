@@ -154,4 +154,6 @@ There's no cost or damage from driving with limited regen. However:
 
 - [Phantom Braking Fix](/posts/tesla-phantom-braking-fix/) - Related Autopilot braking behavior
 - [Brake Pad Replacement](/posts/tesla-brake-pad-replacement/) - When limited regen causes extra wear
+- [Brake Fluid Change](/posts/tesla-brake-fluid-change/) - Keep brake fluid fresh when using mechanical brakes more
+- [Squeaky Brakes Fix](/posts/tesla-squeaky-brakes-fix/) - Noise from increased mechanical brake use
 - [Range Loss Fix](/posts/tesla-range-loss-fix/) - Maximize efficiency when regen is limited

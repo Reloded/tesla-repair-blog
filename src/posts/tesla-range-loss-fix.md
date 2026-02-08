@@ -189,5 +189,7 @@ Seek service if:
 ## Related Guides
 
 - [Slow Charging Fix](/posts/tesla-slow-charging-fix/) - Charging efficiency affects perceived range
+- [Phantom Battery Drain Fix](/posts/tesla-phantom-battery-drain-fix/) - Stop losing range while parked
+- [Supercharger Slow](/posts/tesla-supercharger-slow/) - Optimize Supercharger sessions
 - [Tire Rotation](/posts/tesla-tire-rotation/) - Proper tire pressure improves range
 - [Gear Oil Change](/posts/tesla-gear-oil-change/) - Fresh gear oil reduces drivetrain losses

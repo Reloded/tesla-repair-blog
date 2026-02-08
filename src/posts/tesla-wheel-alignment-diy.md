@@ -210,5 +210,9 @@ For enthusiasts who want to monitor alignment:
 ## Related Guides
 
 - [Control Arm Replacement](/posts/tesla-control-arm-replacement/) - Alignment required after this job
+- [Tie Rod End Replacement](/posts/tesla-tie-rod-end-replacement/) - Alignment required after tie rod work
+- [Strut Replacement](/posts/tesla-strut-replacement/) - Check alignment after new struts
+- [Sway Bar Link Replacement](/posts/tesla-sway-bar-link-replacement/) - Related suspension maintenance
 - [Tire Rotation](/posts/tesla-tire-rotation/) - Check alignment during rotation
+- [Wheel Bearing Replacement](/posts/tesla-wheel-bearing-replacement/) - Bearing wear can mimic alignment issues
 - [Suspension Noise Fix](/posts/tesla-suspension-noise-fix/) - Alignment issues can cause noises

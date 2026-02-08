@@ -224,4 +224,5 @@ The peace of mind and warranty on the repair can be worth the premium.
 
 - [Heat Pump Problems](/posts/tesla-heat-pump-problems/) - Related thermal system issues
 - [A/C Not Cooling](/posts/tesla-ac-not-cooling/) - Diagnose cooling problems
+- [Coolant Flush & Change](/posts/tesla-coolant-flush-change/) - Flush coolant while the system is open
 - [12V Battery Replacement](/posts/tesla-12v-battery-replacement/) - Another common repair
