@@ -1,7 +1,7 @@
 ---
 layout: post.njk
-title: "Tesla Window Calibration Reset: 60-Second Fix for Windows That Won't Close"
-description: "Tesla window won't close or keeps auto-reversing? Official reset takes 60 seconds, no tools needed. Works on Model 3, Y, S, and X. Save $150+ on service."
+title: "Tesla Window Won't Close? 60-Second Reset Fix (No Tools Needed)"
+description: "Fix a Tesla window that won't close, auto-reverses, or leaves gaps. The official calibration reset takes 60 seconds — no tools, no service visit. Step-by-step for Model 3, Y, S & X."
 date: 2026-01-14
 category: "Body & Glass"
 difficulty: "Easy"
