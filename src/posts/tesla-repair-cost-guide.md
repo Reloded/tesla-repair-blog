@@ -64,7 +64,7 @@ Suspension work ranges from straightforward bolt-on jobs to more involved repair
 
 | Repair | Dealer Cost | DIY Cost | Difficulty | Guide |
 |--------|------------|----------|------------|-------|
-| Strut replacement | $800–1,500 | $200–400 | Advanced | [Guide](/posts/tesla-strut-replacement/) |
+| Shock/strut replacement (suspension) | $600–1,200 | $150–350 | Advanced | [Guide](/posts/tesla-suspension-noise-fix/) |
 | Control arm replacement | $600–1,000 | $100–250 | Intermediate | [Guide](/posts/tesla-control-arm-replacement/) |
 | Sway bar link replacement | $300–500 | $40–80 | Intermediate | [Guide](/posts/tesla-sway-bar-link-replacement/) |
 | Wheel bearing replacement | $500–900 | $100–200 | Advanced | [Guide](/posts/tesla-wheel-bearing-replacement/) |
@@ -75,7 +75,7 @@ Suspension work ranges from straightforward bolt-on jobs to more involved repair
 | Creaking & rattling fix | $100–300 | $0–20 | Easy | [Guide](/posts/tesla-creaking-rattling-fix/) |
 | Half shaft replacement (Model X) | $1,200–2,000 | $300–500 | Advanced | [Guide](/posts/tesla-model-x-half-shaft-replacement/) |
 
-**Bottom line:** Suspension repairs have some of the biggest dealer markups. A strut job that costs $1,500 at Tesla can be done for $300 in your garage.
+**Bottom line:** Suspension repairs have some of the biggest dealer markups. A shock/strut job that costs $1,000+ at Tesla can be done for $200-300 in your garage.
 
 ---
 
@@ -107,7 +107,7 @@ Tesla's HVAC system is more complex than traditional cars, especially models wit
 | AC not cooling diagnosis | $150–500 | $0–50 | Easy–Intermediate | [Guide](/posts/tesla-ac-not-cooling/) |
 | Heat pump problems | $500–2,000 | $50–300 | Intermediate–Advanced | [Guide](/posts/tesla-heat-pump-problems/) |
 | Coolant flush/change | $200–400 | $30–60 | Intermediate | [Guide](/posts/tesla-coolant-flush-change/) |
-| Superbottle replacement | $2,000–4,000 | $500–1,000 | Advanced | [Guide](/posts/tesla-superbottle-replacement/) |
+| Superbottle replacement | $1,000–2,500 | $400–800 | Advanced | [Guide](/posts/tesla-superbottle-replacement/) |
 | Climate Keeper issues | $0–200 | $0 | Easy | [Guide](/posts/tesla-climate-keeper-issues/) |
 
 **Bottom line:** Start with the cabin filter—it's the easiest maintenance item on the car. For AC issues, our diagnostic guides can save you from unnecessary service visits.
