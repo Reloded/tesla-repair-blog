@@ -8,7 +8,7 @@ difficulty: "Medium"
 readTime: "15 min read"
 models: "All Models"
 emoji: "💧"
-draft: true
+draft: false
 tools:
   - name: "UV Dye Leak Detection Kit"
     link: "https://www.amazon.de/s?k=uv+dye+coolant+leak+detection+kit&tag=diyrepair-21"
