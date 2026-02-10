@@ -2,8 +2,8 @@
 layout: post.njk
 title: "Tesla Tie Rod End Replacement: DIY Steering Repair Guide"
 description: "Replace worn tie rod ends on your Tesla Model 3 or Model Y. Complete DIY guide with symptoms, tools, step-by-step procedure, and torque specs."
-date: 2026-02-08
-draft: true
+date: 2026-02-10
+draft: false
 category: "Steering"
 difficulty: "Medium"
 readTime: "18 min read"
@@ -12,8 +12,8 @@ emoji: "🔧"
 tools:
   - name: "Floor Jack and Jack Stands"
     link: "https://www.amazon.de/s?k=floor+jack+3+ton&tag=diyrepair-21"
-  - name: "19mm Wrench (2x)"
-    link: "https://www.amazon.de/s?k=19mm+combination+wrench&tag=diyrepair-21"
+  - name: "21mm & 14mm Combination Wrenches"
+    link: "https://www.amazon.de/s?k=combination+wrench+set+metric&tag=diyrepair-21"
   - name: "Torque Wrench"
     link: "https://www.amazon.de/s?k=torque+wrench+automotive&tag=diyrepair-21"
   - name: "Ball Joint Separator"
@@ -78,13 +78,15 @@ Lift the front of the car and grab the tire at 3 and 9 o'clock (horizontal). Pus
 
 - Floor jack (3+ ton)
 - Jack stands
-- 19mm wrench or socket (2 needed)
+- 22mm deep socket (castle nut)
+- 21mm combination wrench (jam nut)
+- 14mm combination wrench (hold tie rod)
 - Ball joint separator (fork type or screw type)
-- Torque wrench (capable of 56 Nm and 180 Nm)
+- Torque wrench (capable of 80 Nm and 180 Nm)
 - White paint marker or correction fluid
 - Penetrating oil (PB Blaster)
 - Needle-nose pliers (for cotter pin)
-- 10mm wrench (to hold stud from spinning)
+- 10mm 12-point combination wrench (to hold stud from spinning)
 
 ### Step 1: Preparation
 
@@ -110,7 +112,7 @@ This is the most important step for getting your alignment close enough to drive
 
 1. Spray the castle nut and jam nut with penetrating oil — wait 10 minutes
 2. Remove the cotter pin from the castle nut using needle-nose pliers
-3. Remove the castle nut (19mm) from the tie rod end stud
+3. Remove the castle nut (22mm) from the tie rod end stud
    - Use a 10mm wrench on the stud flat to prevent spinning if needed
 4. Use a ball joint separator to pop the tie rod end out of the steering knuckle
    - Position the separator between the knuckle and the tie rod end
@@ -120,7 +122,7 @@ This is the most important step for getting your alignment close enough to drive
 <strong>Do NOT hammer the stud directly.</strong> This damages the steering knuckle bore. Always use a proper ball joint separator.
 </div>
 
-5. Loosen the jam nut (19mm) — you'll need two wrenches, one on the jam nut and one on the tie rod end body
+5. Loosen the jam nut (21mm) — you'll need two wrenches: 21mm on the jam nut and 14mm to hold the tie rod
 6. Unscrew the tie rod end from the tie rod, counting the turns as you go
 7. Record the number of turns for installation
 
@@ -133,11 +135,9 @@ This is the most important step for getting your alignment close enough to drive
 
 ### Step 5: Torque to Specification
 
-<!-- ⚠️ DRAFT: Torque values sourced from community data — VERIFY against service.tesla.com before publishing -->
-
-**Torque Values (Model 3/Model Y):**
-- **Tie rod end castle nut:** 180 Nm (133 ft-lb)
-- **Jam nut:** 56 Nm (41 ft-lb)
+**Torque Values (Model 3/Model Y) — verified from [Tesla Service Manual](https://service.tesla.com):**
+- **Tie rod end nut (to knuckle):** 180 Nm (132.7 ft-lb) — use a **new** nut (Tesla P/N 1109263-00-B)
+- **Jam nut (outer tie rod to tie rod):** 80 Nm (59.0 ft-lb)
 
 **Tightening Procedure:**
 1. Torque the castle nut to spec
@@ -184,7 +184,7 @@ After alignment:
 Inner tie rod ends fail less frequently but require more work:
 - Steering rack boot must be removed
 - Special inner tie rod removal tool needed
-- Torque: approximately 100 Nm (74 ft-lb)
+- Torque: refer to Tesla Service Manual for your specific model year
 - More difficult to access — consider a shop if you're not confident
 
 ## Cost Comparison
@@ -221,5 +221,7 @@ Inner tie rod ends fail less frequently but require more work:
 - [Jack Points & Lifting Guide](/posts/tesla-jack-points-lifting-guide/) - Safe lift points for any undercar work
 - [Wheel Alignment DIY](/posts/tesla-wheel-alignment-diy/) - Required after tie rod replacement
 - [Control Arm Replacement](/posts/tesla-control-arm-replacement/) - Another common suspension wear item
+- [Strut Replacement](/posts/tesla-strut-replacement/) - Front strut swap while you're in there
+- [Sway Bar Link Replacement](/posts/tesla-sway-bar-link-replacement/) - Often done alongside tie rods
 - [Suspension Noise Fix](/posts/tesla-suspension-noise-fix/) - Diagnose steering and suspension noises
 - [Wheel Bearing Replacement](/posts/tesla-wheel-bearing-replacement/) - Similar symptoms, different cause
