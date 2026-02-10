@@ -1,325 +1,220 @@
 ---
 layout: post.njk
-title: "Tesla Model 3 Superbottle Replacement: Complete DIY Guide"
-description: "Tesla superbottle failed? Learn what it does, why it fails, part numbers, and step-by-step DIY replacement. Tesla charges $986-$2,500 — save up to $1,500 doing it yourself."
-date: 2026-02-09
+title: "Tesla Model 3 Superbottle Replacement: What It Is, Symptoms & Cost (2025 Guide)"
+description: "The Tesla Model 3 superbottle is the heart of the cooling system. Learn what it does, common failure symptoms, replacement cost at Tesla vs DIY, and whether you can tackle this repair yourself."
+date: 2026-02-10
 category: "Cooling System"
 difficulty: "Hard"
-readTime: "20 min read"
+readTime: "12 min read"
 models: "Model 3"
 emoji: "🧊"
+draft: true
 tools:
-  - name: "Coolant Drain Pan"
-    link: "https://www.amazon.de/s?k=coolant+drain+pan&tag=diyrepair-21"
-  - name: "Coolant Drain Pan"
-    link: "https://www.amazon.com/s?k=coolant+drain+pan&tag=diyrepair07-20"
-    provider: "amazon-com"
-  - name: "Tesla G-48 Coolant"
-    link: "https://www.amazon.de/s?k=zerex+g48+coolant+tesla&tag=diyrepair-21"
-  - name: "Tesla G-48 Coolant"
-    link: "https://www.amazon.com/s?k=zerex+g48+coolant+tesla&tag=diyrepair07-20"
-    provider: "amazon-com"
-  - name: "A/C Manifold Gauge Set (R1234yf)"
-    link: "https://www.amazon.de/s?k=ac+manifold+gauge+set+r1234yf&tag=diyrepair-21"
-  - name: "A/C Manifold Gauge Set (R1234yf)"
-    link: "https://www.amazon.com/s?k=ac+manifold+gauge+set+r1234yf&tag=diyrepair07-20"
-    provider: "amazon-com"
-  - name: "Trim Removal Tools"
-    link: "https://www.amazon.de/s?k=automotive+trim+removal+tools&tag=diyrepair-21"
-  - name: "Trim Removal Tools"
-    link: "https://www.amazon.com/s?k=automotive+trim+removal+tools&tag=diyrepair07-20"
-    provider: "amazon-com"
-  - name: "Foldable Funnel / Drip Catcher"
-    link: "https://www.amazon.de/s?k=foldable+drip+funnel+automotive&tag=diyrepair-21"
+  - name: "Coolant Drain Pan (8 Quart)"
+    link: "https://www.amazon.de/s?k=coolant+drain+pan+8+quart&tag=diyrepair-21"
+  - name: "Torx Bit Socket Set"
+    link: "https://www.amazon.de/s?k=torx+bit+socket+set+automotive&tag=diyrepair-21"
+  - name: "Tesla G-48 Coolant (Ready to Use)"
+    link: "https://www.amazon.de/s?k=tesla+G-48+coolant&tag=diyrepair-21"
+  - name: "Hose Clamp Pliers"
+    link: "https://www.amazon.de/s?k=hose+clamp+pliers+automotive&tag=diyrepair-21"
   - name: "iFixit Pro Tech Toolkit"
-    link: "https://sovrn.co/1dw8w9g"
+    link: "https://sovrn.co/mqnnvon"
     provider: "ifixit"
 ---
 
-The **superbottle** is Tesla's integrated thermal management hub — and one of the most expensive out-of-warranty repairs on the Model 3. Tesla service centers quote **$986 to $2,500** for this job. With the right preparation, you can do it yourself for **$400–900**, though it requires intermediate-to-advanced mechanical skills and A/C system work.
-
-## What Is the Superbottle?
-
-The superbottle is an all-in-one coolant management assembly unique to Tesla. Rather than using separate expansion tanks, pumps, and valves for each thermal loop, Tesla combined them into a single integrated unit.
-
-**The superbottle assembly includes:**
-- Coolant reservoir / expansion tank
-- Two coolant pump motors (battery loop and powertrain loop)
-- 5-way coolant valve with electric actuator
-- Chiller with EXV (electronic expansion valve)
-- Multiple temperature and pressure sensors
-
-**It manages thermal routing for:**
-- Battery pack cooling and heating
-- Drive unit(s) cooling
-- Cabin heating (via heat pump on 2021+ models)
-- A/C refrigerant integration through the chiller
-
-The 5-way valve is the key component — it routes coolant between series mode (shared loop), parallel mode (separate loops), and radiator-engaged modes depending on thermal demand.
-
-## Part Numbers
-
-Tesla has revised the superbottle multiple times. Part numbers vary by model year and configuration:
-
-| Configuration | Part Number | Notes |
-|---------------|------------|-------|
-| Model 3 AWD (2017–2023) | 1097015-00-K | Earlier revision |
-| Model 3 AWD (2017–2023) | 1097015-00-M | Later revision, commonly available |
-| Model 3 RWD (2018) | 1111740-00-A | RWD-specific, simpler design |
-| 8-way valve upgrade | Varies | Newer design from Tesla, ~$1,468 installed |
+**If your Tesla Model 3 suddenly can't cool the cabin, shows "Power Reduced" warnings, or runs the radiator fan at full blast even at low speeds — the superbottle might be failing.** This is one of the most expensive cooling system repairs on the Model 3, but understanding what it is and what's actually broken can save you hundreds or even thousands of dollars.
 
 <div class="tip-box">
-<strong>Always provide your VIN when ordering.</strong> Tesla has issued multiple revisions. The -00-M suffix is the most commonly available as of 2025. The assembly costs approximately $367–$735 depending on source (Tesla parts department vs. third-party OEM sellers).
+<strong>Quick answer:</strong> The superbottle is Tesla's all-in-one cooling hub that packages two coolant pumps, a heat exchanger (chiller), and a coolant control valve into a single unit. Replacement at Tesla costs $986–$3,400 depending on what's actually failed. Common failure mileage: 30,000–120,000 miles.
 </div>
 
-## RWD vs. Dual Motor Differences
+## What Is the Tesla Model 3 Superbottle?
 
-Tesla has separate service manual procedures for each:
+In most cars, the cooling system has separate components scattered around the engine bay — a coolant reservoir here, a pump there, valves elsewhere. Tesla took a different approach.
 
-| Aspect | RWD (Single Motor) | AWD (Dual Motor / Performance) |
-|--------|-------------------|-------------------------------|
-| Coolant loops | Fewer hose connections | More connections (front + rear DU) |
-| Access difficulty | Moderate | Harder — tighter spaces |
-| Heat exchanger | Simpler routing | Front DU heat exchanger adds complexity |
-| Estimated time | 3–4 hours | 4–6 hours |
-| Service manual page | "Superbottle (RWD) (Remove and Replace)" | "Superbottle (Dual Motor) (Remove and Replace)" |
+The Model 3's **superbottle** combines what would normally be four or five separate components into one compact assembly:
 
-The dual motor version requires working around the front drive unit heat exchanger and has additional coolant hose connections.
+- **Two electric coolant pumps** (one for the battery loop, one for the powertrain loop)
+- **An A/C chiller** (heat exchanger between refrigerant and coolant)
+- **A 4-way or 5-way coolant control valve** (routes coolant based on thermal needs)
+- **The coolant reservoir itself** (with fill cap)
 
-## Symptoms of a Failing Superbottle
+It sits in the front trunk area, behind the front bumper fascia. If you remove the frunk liner, you can see it — it's the large plastic assembly with multiple hoses running to and from it.
 
-The most common failure is the **5-way valve actuator** — the small electric motor that positions the valve via a worm gear. When it fails, the valve gets stuck in one position.
+Fun fact: Tesla's engineers molded a tiny cape-wearing bottle character onto the housing with the text "Superbottle" — an actual Easter egg on a production car part.
 
-**Warning signs:**
-- **VCFRONT_a210_coolantValveCalib** error in Service Mode
-- **Thermal System Test failure** in Service Mode
-- **"Power Limited"** or **"Performance Reduced"** warnings
-- **A/C not cooling** or inconsistent cabin temperature
-- **Reduced Supercharging speeds** (battery can't precondition properly)
-- **Coolant loss** with no visible external leak
-- **Premature battery degradation** (the stuck valve may not optimally heat/cool the pack)
+### Why Tesla Built It This Way
+
+By consolidating everything into one unit, Tesla reduced:
+- Assembly time on the production line
+- Number of mounting brackets and fasteners
+- Potential leak points (fewer hose connections)
+- Overall weight and packaging space
+
+The downside? When one component inside the superbottle fails, you often have to replace the entire assembly — which is where the cost adds up.
+
+## How the Superbottle Manages Thermal Systems
+
+The Model 3 has two main coolant loops, and the superbottle acts as the central hub for both:
+
+**Battery cooling loop:** Coolant flows from the battery pack → into the superbottle → through the chiller (where A/C refrigerant absorbs heat) → back to the battery. This keeps battery cells at their optimal temperature during fast charging and hard driving.
+
+**Powertrain loop:** Coolant flows through the drive unit(s) and power electronics → to the radiator for cooling → back through the superbottle. This handles heat from the motor and inverter.
+
+The coolant control valve inside the superbottle decides how coolant is routed based on conditions:
+- **Hot day, fast charging:** Maximum cooling to battery via chiller
+- **Cold morning:** Route warm motor coolant to heat the battery instead of cooling it
+- **Cabin heating:** Route heat from the powertrain to the cabin heater core
+
+When this valve fails or loses calibration, the thermal management system can't properly route coolant — leading to cascading issues.
+
+## Superbottle Failure Symptoms
+
+Here's what owners typically notice when the superbottle is failing:
+
+### Primary Symptoms
+- **"Power Reduced" or "Power Limited" warning** — The car limits motor output to protect overheating components
+- **A/C stops cooling the cabin** — The chiller can't extract heat from coolant if the valve isn't routing properly
+- **Radiator fan runs at full speed constantly** — Even at low speeds or while parked, the fan is screaming
+- **Slow Supercharging speeds** — Battery can't be cooled enough, so charging rate drops
+
+### Secondary Symptoms
+- **"Cooling system performance degraded" alert** on the touchscreen
+- **VCFRONT_a210_coolantValveCalib** error code in service diagnostics
+- **Cabin heating issues in winter** — If the valve can't route warm coolant to the heater core
+- **Unusual coolant loss** — Visible leaks around the superbottle area or low coolant warnings
+
+### How to Check (Before Going to Tesla)
+
+You can run a basic thermal systems check yourself:
+
+1. Put the car in **Service Mode** (Controls → Service → Service Mode)
+2. Look for any active alerts related to cooling, A/C, or thermal management
+3. Check if the A/C compressor engages (you should hear it click on)
+4. Feel the coolant hoses — if one loop is hot while another is ambient temperature, the valve may not be routing properly
 
 <div class="warning-box">
-<strong>Don't Ignore VCFRONT_a210_coolantValveCalib:</strong> Community members report that even though a stuck valve may not trigger immediate overheating errors, it can cause long-term battery degradation because the battery isn't being optimally thermally managed. One owner reported their battery health dropped to 82% before discovering the actuator had been failed for a long time.
+<strong>⚠️ Important:</strong> Some superbottle failures are intermittent. The car might drive fine for days, then throw "Power Reduced" during a hot day or fast charge. If you've seen the warning even once, get it diagnosed.
 </div>
 
-### How to Check in Service Mode
+## RWD vs Dual Motor: Different Superbottles
 
-1. On the touchscreen, go to **Service Mode** (requires entering your car's service access code)
-2. Navigate to **Thermal System** and run the **Thermal Test**
-3. Check **Service Alerts** for VCFRONT_a210_coolantValveCalib
-4. Under **Coolant System**, verify you can switch between series and parallel modes
+The Model 3 RWD (single motor) and Dual Motor/Performance have **different superbottle assemblies**. The dual motor version manages an additional coolant circuit for the front drive unit.
 
-## Why Superbottles Fail
+- **RWD superbottle** — Simpler, fewer hose connections
+- **Dual Motor superbottle** — Additional ports for the front drive unit heat exchanger
 
-1. **5-way valve actuator failure** — The worm gear binds or the motor fails. Most common cause.
-2. **Chiller EXV malfunction** — The electronic expansion valve may not fully open, causing high refrigerant pressure
-3. **Internal coolant leaks** — Passages can develop cracks over time
-4. **Sensor failures** — Integrated temperature/pressure sensors
-5. **Coolant pump motor failure** — Either of the two integrated pump motors
+The replacement procedure differs slightly between the two. Tesla's service manual has separate procedures for each (GUID-2099236C for RWD, GUID-3D04536A for Dual Motor).
 
-Failures are reported between **30,000–140,000+ miles** with no clear pattern. The superbottle is covered only under the **basic vehicle warranty (4 years / 50,000 miles)**, not the battery/drivetrain warranty.
+**Part numbers** (these change with revisions — always verify for your VIN):
+- **1097015-00-K** (earlier Model 3 superbottle assembly)
+- **1097015-00-M** (later revision)
+- **1111740-00-A** (updated assembly)
+- **1133873-00-A** (5-way valve, sometimes sold separately)
 
-## Cost Comparison
+## Replacement Cost: Tesla Service vs Independent vs DIY
 
-| Repair Option | Parts | Labor | A/C Service | Total |
-|---------------|-------|-------|-------------|-------|
-| Tesla Service Center | $400–800 | $500–1,200 | Included | **$986–2,500** |
-| Independent Tesla Shop | $400–735 | $300–600 | Included | **$800–1,500** |
-| Full DIY | $367–735 | Your time | $100–200 (shop A/C recharge) | **$500–935** |
-| DIY + Valve Actuator Only | ~$50 | Your time | Not needed | **~$50** |
+The cost varies wildly depending on what's actually broken and who does the work:
 
-<div class="tip-box">
-<strong>Actuator-Only Fix:</strong> If your only issue is the VCFRONT_a210 error, you may be able to replace just the 5-way valve actuator (~$50 from Tesla parts) without replacing the entire superbottle. One TMC forum member reported this solved their issue completely. However, Tesla will still need to recalibrate the valve using Toolbox (~$21 for calibration only).
-</div>
+### Tesla Service Center
+| Repair | Typical Cost |
+|--------|-------------|
+| Superbottle + valve replacement | $986–$1,500 |
+| Superbottle + A/C system work | $2,500–$3,400 |
+| Coolant valve only (if available separately) | $300–$500 |
 
-## Tools and Parts Needed
+Costs reported by owners on Reddit and Tesla Motors Club. The $986 figure comes up frequently — it appears to be a common Tesla service invoice amount for superbottle + valve replacement.
 
-### Parts
-- **Superbottle assembly** — $367–735 (includes reservoir, pumps, chiller, valve, actuator)
-- **Zerex G-48 coolant** — ~$25/gallon (need 1–2 gallons). Must be phosphate-free G-48 spec. Zerex is the main aftermarket brand that lists Tesla approval on the bottle
-- **Chiller O-rings** (2x) — Order separately from Tesla parts catalog if replacing the chiller. Not included with the superbottle assembly
-- **R1234yf refrigerant** — If you're handling A/C yourself (~$50–80 per can)
+### Independent Tesla Shop
+Typically 20–40% less than Tesla service, depending on your area. The part is the same — the savings come from lower labor rates.
 
-### Tools
-- Socket set (8mm, 10mm, 13mm)
-- Trim removal tools
-- Coolant drain pan (8–10L capacity)
-- Foldable funnel / drip catcher (Tesla service manual specifically mentions this for catching fluid from the heat exchanger area)
-- Coolant vacuum refill tool (recommended for proper bleeding)
-- A/C recovery/recharge machine (if doing A/C yourself) — or budget $100–200 for a shop to handle this
-- Bungee straps (for pulling wheel arch liner back on dual motor)
-- Torque wrench
+### DIY
+The parts cost $300–$800 depending on whether you buy new OEM, aftermarket, or used. However, this is one of the **harder DIY repairs** on the Model 3 because:
 
-## Step-by-Step Replacement
-
-### Before You Start
-
-1. **Download the Tesla Service Manual** procedure for your specific variant (RWD or Dual Motor) from service.tesla.com — a subscription costs ~$30/month
-2. **Photograph everything** before disconnecting hoses
-3. **Have a shop lined up** for A/C recovery/recharge unless you have the equipment and certification
-4. **Plan for calibration** — After installation, Tesla must calibrate the 5-way valve using Toolbox. Schedule a service appointment in advance for "coolant valve calibration only" (~$21)
-
-### Step 1: Preparation
-
-1. Power off the vehicle from the touchscreen
-2. Disconnect the 12V battery (negative terminal first)
-3. Remove the front aero shield — see Tesla service manual "Panel - Aero Shield - Front (Remove and Replace)"
-4. Remove the frunk storage/liner for access to the superbottle area
-
-### Step 2: Recover A/C Refrigerant
+1. **A/C refrigerant recovery is required** — You need professional A/C equipment or a shop to evacuate and recharge the system
+2. **Coolant drain and refill** — Both loops need to be drained and properly bled
+3. **Tight working space** — The superbottle is packed in with other components
+4. **Electrical connections** — Pump motors and valve actuators need to be disconnected
+5. **Calibration** — The coolant valve may need recalibration via Tesla's diagnostic software after replacement
 
 <div class="warning-box">
-<strong>R1234yf is mildly flammable</strong> and requires proper handling. In the US, EPA Section 608 certification is required to purchase and handle automotive refrigerants. In the EU, F-gas regulations apply. Consider having a shop recover the refrigerant before you start and recharge after you finish — typically $100–200 for both services.
+<strong>⚠️ DIY Reality Check:</strong> This is NOT a beginner repair. The A/C refrigerant recovery alone requires specialized equipment (or a trip to an A/C shop). If you've never worked on automotive cooling or A/C systems, strongly consider having a professional handle this one.
 </div>
 
-If you have proper equipment:
-1. Connect your R1234yf recovery machine to the service ports
-2. Recover all refrigerant from the system
-3. Record the amount recovered for proper recharge later
+## Replacement Overview (What's Involved)
 
-**Can you skip the A/C work?** Some owners have attempted to replace the superbottle without disturbing the chiller by carefully transferring the old chiller to the new assembly. However, community experience shows the chiller EXV is often also faulty, and you may end up doing the job twice. If your Thermal Test shows a refrigerant pressure error, you'll need the new chiller.
+While we can't provide full step-by-step instructions (this requires Tesla's service manual and professional A/C equipment), here's what the procedure involves so you know what you're paying for:
 
-### Step 3: Drain Coolant
+### Prerequisites
+- Disconnect 12V power
+- Recover A/C refrigerant (requires proper equipment)
+- Remove the front underhood storage unit (frunk tub)
+- Remove the front aero shield
 
-1. Position a drain pan under the vehicle
-2. For **Dual Motor**: Use a foldable funnel positioned to cover the front drive unit 12V connector and steering rack — this catches fluid from the heat exchanger coolant outlet
-3. For **Dual Motor**: Install a bungee strap to pull the RH front wheel arch liner away from the HV battery to expose coolant hoses
-4. Release the coolant hose clips and disconnect hoses from the superbottle
-5. Drain coolant into the pan — expect 2–4 liters depending on how much drains
+### Key Steps
+1. Drain coolant from both loops into a catch container
+2. Disconnect all coolant hoses from the superbottle (multiple hose connections with spring clips)
+3. Disconnect the A/C refrigerant lines from the chiller
+4. Disconnect electrical connectors (pump motors, valve actuator)
+5. Unbolt the superbottle mounting brackets
+6. Remove the old superbottle assembly
+7. Install the new superbottle (reverse of removal)
+8. Reconnect all hoses, electrical connections, and refrigerant lines
+9. Refill coolant and bleed air from both loops
+10. Recharge A/C refrigerant to spec
+11. Run thermal system diagnostics to verify operation
+12. Calibrate the coolant valve if needed
 
-### Step 4: Disconnect Components
+**Coolant spec:** Tesla uses **G-48** ethylene glycol coolant (pre-mixed, ready to use). Do not use generic green or orange coolant — the wrong coolant can damage seals and the heat exchanger.
 
-Working methodically (photograph each connection before removing):
+**Refrigerant:** R-1234yf (not R-134a). The system requires a precise charge amount — overcharging or undercharging causes performance issues.
 
-**Coolant connections:**
-- Powertrain supply hose (lower LH side of superbottle)
-- Powertrain return hose
-- Battery coolant hoses
-- Front drive unit heat exchanger hose (Dual Motor only) — release the clip from the heat exchanger coolant outlet
+## Can You Replace Just the Valve?
 
-**Electrical connections:**
-- Coolant pump motor connectors (2x)
-- 5-way valve actuator connector
-- Temperature/pressure sensor connectors
-- Chiller EXV electrical connector
+Sometimes the superbottle itself is fine — it's just the coolant control valve or its actuator that's failed. In these cases:
 
-**Refrigerant connections (if replacing chiller):**
-- Suction/liquid line fitting bolt from the chiller and EXV assembly
+- The **5-way valve** (part number 1133873-00-A) can sometimes be replaced separately
+- The **valve actuator** (the motor that turns the valve) may be replaceable without pulling the whole superbottle
+- A **pump failure** usually means replacing the superbottle assembly since the pumps are integrated
 
-**Mounting hardware:**
-- Superbottle mounting bolts
+Ask your service center to diagnose **which specific component** has failed before agreeing to a full superbottle replacement. Some owners have reported being quoted for full replacement when only the valve needed replacing — saving over $1,000.
 
-### Step 5: Remove Old Superbottle
+## When Does the Superbottle Typically Fail?
 
-1. With all connections removed, carefully extract the superbottle assembly
-2. Note the exact orientation — it only fits one way, but getting it back in the tight space requires knowing the angle
+Based on owner reports across Reddit and Tesla Motors Club:
 
-### Step 6: Install New Superbottle
+- **30,000–50,000 miles** — Early failures, often the coolant valve actuator. Some covered under warranty
+- **80,000–120,000 miles** — Most common failure range. Pump wear, valve degradation, or chiller leaks
+- **150,000+ miles** — Expected wear item at this mileage. Budget for it if you're keeping the car long-term
 
-1. If you're transferring the old chiller (not recommended — see Step 2 note), carefully remove it from both old and new assemblies
-2. Install new O-rings on the chiller suction/liquid line fitting (must be purchased separately)
-3. Position the new superbottle and install mounting bolts
-4. Reconnect all electrical connectors
-5. Reconnect all coolant hoses and secure clips — ensure each clip clicks firmly
-6. Reconnect refrigerant lines and install the suction/liquid line bolt
+The 2018–2020 Model 3s seem to have more reports than later models, suggesting Tesla may have improved the component over time.
 
-### Step 7: Refill and Bleed Coolant
+## Prevention Tips
 
-1. Use **Zerex G-48 50/50 premixed coolant** — this is a phosphate-free formulation specifically approved for Tesla. Do not use regular coolant.
-2. **Vacuum refill method** (recommended by Tesla): Attach a vacuum refill tool to the superbottle with the conical adapter, create vacuum, then open coolant valve to fill
-3. **Manual fill method**: Fill slowly through the reservoir cap, run the coolant pumps via Service Mode, top off, repeat until no air bubbles
-4. Check for leaks at every connection point
+There's no guaranteed way to prevent superbottle failure, but these practices help:
 
-For detailed coolant procedures, see our [Tesla Coolant Flush & Change guide](/posts/tesla-coolant-flush-change/).
-
-### Step 8: Recharge A/C System
-
-1. Have your shop recharge with R1234yf to factory spec
-2. Or use your recovery/recharge machine to add the correct amount (refer to your vehicle's A/C spec label)
-
-### Step 9: Tesla Calibration (Required)
-
-1. Reconnect the 12V battery
-2. Reinstall the aero shield and frunk components
-3. **Schedule a Tesla service visit** for 5-way valve calibration
-4. Tesla uses Toolbox software with a custom cable to calibrate the valve position
-5. After calibration, verify the VCFRONT_a210 error is cleared
-6. Run the **Thermal System Test** in Service Mode to confirm everything passes
-
-<div class="warning-box">
-<strong>Calibration is mandatory.</strong> The 5-way valve must be calibrated after installing a new actuator or new superbottle assembly. Without calibration, the valve won't operate correctly and you'll continue to see errors. Budget ~$21 for calibration only if you tell Tesla that's all you need.
-</div>
-
-## Hybrid DIY Approach (Recommended)
-
-The most practical approach for most DIYers:
-
-1. **Order the superbottle** from Tesla parts (~$367) or OEM supplier (~$735)
-2. **Have a shop recover your A/C refrigerant** ($50–100)
-3. **Do the mechanical swap yourself** (3–6 hours)
-4. **Have the shop recharge your A/C** ($50–100)
-5. **Schedule Tesla for valve calibration** (~$21)
-
-**Total: ~$500–950** vs. $986–2,500 at Tesla
-
-## Where to Buy Parts
-
-| Source | Part Cost | Notes |
-|--------|-----------|-------|
-| Tesla Parts Department | ~$367 | Provide VIN. Cheapest for the assembly. May need to call. |
-| Evolution Parts (OEM new) | ~$735 | Part 1097015-00-M, ships quickly |
-| Ingenext (used/recycled) | ~$200–400 | Used parts — check condition. Not recommended for the actuator. |
-| eBay (OEM new) | ~$600–800 | Verify seller and part number |
-
-<div class="tip-box">
-<strong>Avoid used superbottles.</strong> The actuator worm gear and chiller EXV are the most common failure points. A used unit may have the same problems. The Tesla parts department price (~$367) is often cheaper than third-party OEM sellers.
-</div>
-
-## Common Mistakes to Avoid
-
-1. **Ignoring the chiller** — If your Thermal Test fails with a refrigerant pressure error, you need the new chiller too. Don't just swap the actuator.
-2. **Using wrong coolant** — Must be G-48 phosphate-free coolant. Zerex G-48 is the go-to aftermarket option. Wrong coolant can damage the $20k+ battery pack.
-3. **Skipping calibration** — The valve won't work correctly without Tesla Toolbox calibration. Don't assume it'll self-calibrate.
-4. **Not replacing chiller O-rings** — These are not included with the assembly. Order them separately from the Tesla parts catalog.
-5. **Rushing the coolant bleed** — Air pockets cause hot spots and pump cavitation. Use the vacuum refill method if possible.
-
-## Third-Party Repair Shops
-
-If DIY isn't for you but Tesla's price is too high:
-
-- **Electrified Garage** — Multiple US locations, Tesla-specialized
-- **Gruber Motors** — Phoenix, AZ
-- **WattWorks EV** — Specializes in Tesla cooling system repairs
-- **Local independent EV shops** — Increasingly available
-
-Typical third-party cost: **$800–1,500** (parts + labor + refrigerant)
-
-## Prevention and Monitoring
-
-1. **Check Service Mode periodically** — Run the Thermal System Test every few months
-2. **Monitor for VCFRONT_a210** errors — Don't ignore them, even if the car seems to drive fine
-3. **Keep software updated** — Tesla pushes thermal management improvements
-4. **Monitor battery degradation** — Unexplained degradation could indicate a stuck coolant valve
-5. **Check coolant level** monthly — Top off with G-48 if low
-
-## When to Pay Tesla
-
-Consider Tesla service if:
-- Under basic warranty (4 years / 50,000 miles)
-- You have extended warranty coverage
-- You need the car back same-day
-- You're not comfortable with A/C system work
-- The repair is straightforward enough for goodwill coverage (ask)
-
----
-
-*The superbottle is Tesla's most complex thermal management component, and its failure can silently degrade your battery over months. The good news: with the right preparation and a willingness to get your hands dirty, you can save $500–1,500 over Tesla service pricing. The key is not skipping the chiller replacement or the valve calibration.*
+1. **Use only Tesla-approved G-48 coolant** if you ever need to top off
+2. **Don't ignore early warnings** — A "coolant system performance" alert caught early may just need a valve recalibration, not a full replacement
+3. **Keep up with coolant service** — Tesla recommends checking coolant every 4 years / 50,000 miles (Model 3 maintenance schedule)
+4. **Avoid extended extreme heat driving** with degraded A/C — this stresses the entire thermal system
 
 ## Related Guides
 
-- [Heat Pump Problems](/posts/tesla-heat-pump-problems/) — Related thermal system diagnostics
-- [A/C Not Cooling](/posts/tesla-ac-not-cooling/) — Diagnose A/C issues before assuming superbottle failure
-- [Coolant Flush & Change](/posts/tesla-coolant-flush-change/) — Detailed coolant drain and refill procedures
-- [Climate Keeper Issues](/posts/tesla-climate-keeper-issues/) — Thermal system troubleshooting
-- [12V Battery Replacement](/posts/tesla-12v-battery-replacement/) — Another common DIY repair
+If you're dealing with cooling system issues, these articles may also help:
+
+- [Tesla A/C Not Cooling: Troubleshooting Guide](/tesla-ac-not-cooling/)
+- [Tesla Coolant Flush & Change Guide](/tesla-coolant-flush-change/)
+- [Tesla Coolant Leak: How to Find and Fix It](/tesla-coolant-leak-fix/)
+- [Tesla Heat Pump Problems: Diagnosis & Repair](/tesla-heat-pump-problems/)
+- [Tesla 12V Battery Replacement](/tesla-12v-battery-replacement/)
+
+## The Bottom Line
+
+The superbottle is brilliant engineering — until it breaks. It's one of the more expensive Model 3 repairs because it combines so many critical components into one assembly. If you're seeing "Power Reduced" warnings or A/C issues, get it diagnosed sooner rather than later. A failing coolant valve left unchecked can lead to battery thermal issues that are far more expensive to fix.
+
+**For most owners, this is a professional repair.** The A/C refrigerant handling alone puts it beyond typical DIY territory. But understanding what the superbottle does and what specifically failed gives you leverage when discussing repair options and costs with your service center.
+
+<div class="tip-box">
+<strong>💰 Cost-saving tip:</strong> Ask your service center to diagnose the specific failed component. If it's just the coolant valve or actuator, you may not need a full superbottle replacement — potentially saving $500–$1,000+.
+</div>
