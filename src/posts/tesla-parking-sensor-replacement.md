@@ -1,241 +1,217 @@
 ---
 layout: post.njk
-title: "Tesla Parking Sensor Replacement: DIY Fix for $50 (Tesla Wants $300+)"
-description: "Replace a faulty Tesla ultrasonic parking sensor (USS) yourself. Step-by-step DIY guide for Model 3 and Model Y with part numbers, sensor locations, and tips for replacing without bumper removal."
-date: 2026-01-25
-lastUpdated: 2026-02-09
-category: "Sensors"
-difficulty: "Easy-Medium"
-readTime: "15 min read"
-models: "Model 3, Model Y"
+title: "Tesla Parking Sensor (USS) Replacement Guide: DIY Fix for Model 3, Y, S & X"
+description: "Step-by-step guide to replacing ultrasonic parking sensors on Tesla Model 3, Y, S, and X. Covers part numbers, bumper removal, sensor programming, and common failure symptoms."
+date: 2026-02-11
+lastUpdated: 2026-02-11
+category: "Body & Exterior"
+difficulty: "Medium"
+readTime: "18 min read"
+models: "Model 3, Model Y, Model S, Model X"
 emoji: "📡"
+draft: true
 tools:
-  - name: "Trim Removal Tools"
-    link: "https://www.amazon.de/s?k=automotive+trim+removal+tools&tag=diyrepair-21"
-  - name: "Trim Removal Tools"
-    link: "https://www.amazon.com/s?k=automotive+trim+removal+tools&tag=diyrepair07-20"
-    provider: "amazon-com"
-  - name: "Tesla Parking Sensor (Replacement)"
-    link: "https://www.amazon.de/s?k=tesla+parking+sensor+1127502&tag=diyrepair-21"
-  - name: "Tesla Parking Sensor (Replacement)"
-    link: "https://www.amazon.com/s?k=tesla+parking+sensor+1127502&tag=diyrepair07-20"
-    provider: "amazon-com"
-  - name: "Heat Gun or Hair Dryer"
-    link: "https://www.amazon.de/s?k=heat+gun+automotive&tag=diyrepair-21"
-  - name: "iFixit Plastic Pry Tools"
-    link: "https://sovrn.co/mqnnvon"
-    provider: "ifixit"
-  - name: "Isopropyl Alcohol"
-    link: "https://www.amazon.de/s?k=isopropyl+alcohol+99&tag=diyrepair-21"
+  - name: "Trim Removal Tool Set (Plastic Pry Tools)"
+    link: "https://www.amazon.com/s?k=automotive+trim+removal+tool+set&tag=diyrepair07-20"
+    linkDE: "https://www.amazon.de/s?k=trim+removal+tool+set+automotive&tag=diyrepair-21"
+  - name: "Torx Bit Set (T20, T25, T30)"
+    link: "https://www.amazon.com/s?k=torx+bit+set+T20+T25+T30&tag=diyrepair07-20"
+    linkDE: "https://www.amazon.de/s?k=torx+bit+set+T20+T25+T30&tag=diyrepair-21"
+  - name: "10mm Socket + Ratchet"
+    link: "https://www.amazon.com/s?k=10mm+socket+ratchet+set&tag=diyrepair07-20"
+    linkDE: "https://www.amazon.de/s?k=10mm+steckschl%C3%BCssel+ratsche&tag=diyrepair-21"
+  - name: "Painter's Tape (Fender Protection)"
+    link: "https://www.amazon.com/s?k=3M+painters+tape+automotive&tag=diyrepair07-20"
+    linkDE: "https://www.amazon.de/s?k=3M+abklebeband+automotive&tag=diyrepair-21"
+  - name: "Isopropyl Alcohol + Microfiber Cloth"
+    link: "https://www.amazon.com/s?k=isopropyl+alcohol+99+microfiber+cloth&tag=diyrepair07-20"
+    linkDE: "https://www.amazon.de/s?k=isopropylalkohol+99+mikrofasertuch&tag=diyrepair-21"
+tags:
+  - parking sensor
+  - ultrasonic sensor
+  - USS
+  - body repair
+  - bumper
+  - driver assist
 ---
 
-Tesla parking sensors — officially called **USS (Ultrasonic Sensors)** — can fail from impacts, water intrusion, freezing temperatures, or age. When one goes bad, Tesla service quotes **$300 or more** for a replacement. The sensor itself costs **$20–50**, and the job takes about 30–60 minutes depending on whether you need to pull the bumper.
+Tesla's ultrasonic parking sensors (USS) help detect obstacles while parking and support low-speed maneuvering alerts. When one fails or gets pushed into the bumper, you'll get persistent chiming and a "Parking Assist Degraded" or "USS Sensor Fault" warning on your touchscreen.
 
-**Does your Tesla even have parking sensors?** Tesla removed USS from production vehicles starting in **late 2022**:
-- **Model 3:** 2017–2022 (produced before ~October 2022) have USS
-- **Model Y:** 2020–2022 (produced before ~October 2022) have USS
-- **Model S/X:** Refreshed 2021+ models retained USS longer; check your bumper for the small circular sensors
-- **2023+ Model 3/Y:** No USS — these use **Tesla Vision** (camera-only). This guide does not apply.
+**Important note:** Tesla removed USS hardware from new vehicles starting October 2022 (Model 3/Y) and mid-2023 (Model S/X), switching to Tesla Vision (camera-only). This guide applies to **USS-equipped vehicles only** — generally Model 3/Y built before October 2022 and Model S/X built before mid-2023.
 
-If you're not sure, look at your bumpers. USS sensors are small circular discs (about 18mm diameter) sitting flush with the bumper surface — typically 4 in the front bumper and 4 in the rear.
+## How Tesla Parking Sensors Work
 
-## Symptoms of a Failed Parking Sensor
+Each Tesla with USS has **12 ultrasonic sensors** — 6 in the front bumper and 6 in the rear bumper. They send ultrasonic pulses and measure the echo return time to calculate distance to nearby objects.
 
-- **"Parking assist features may be degraded"** or **"Parking sensors unavailable"** warning on the touchscreen
-- **Constant beeping** when parking (phantom obstacle detection)
-- **No proximity alerts** when approaching objects
-- **Visible damage** — sensor cracked, chipped, or pushed into the bumper
-- One sensor showing as offline in diagnostics
+The sensors are arranged as:
+- **Front:** 4 outer sensors + 2 inner sensors (closer to the license plate area)
+- **Rear:** 4 outer sensors + 2 inner sensors
 
-You can identify which sensor failed by checking **Controls > Service** on the touchscreen. Some owners also use a simple trick: put the car in reverse and hold your finger over each rear sensor — a working sensor vibrates with a faint clicking/ticking. No vibration = dead sensor.
+Each sensor connects to the vehicle via a wiring harness that runs through the bumper fascia.
 
-## Sensor Locations & Part Numbers
+## Common Failure Symptoms
 
-### Model 3 / Model Y Layout
+- **Constant parking chime** even with nothing nearby
+- **"Parking Assist Degraded"** warning on touchscreen
+- **One or more sensor zones show as unavailable** in the parking display
+- **Sensor physically pushed into the bumper** (road debris impact)
+- **Cracked or damaged sensor face** (visible on bumper surface)
+- **Intermittent false warnings** — sensor triggers randomly
+- **No parking visualization at all** when in Reverse
 
-Each bumper has **4 USS sensors**: 2 inner (closer to center) and 2 outer (near the corners). That's **8 sensors total** (some Model S/X have 12).
+## What Causes Parking Sensor Failure?
 
-Tesla used two main USS part number families:
+1. **Physical impact** — road debris, curbs, or minor bumps push the sensor inward
+2. **Water intrusion** — seal degradation lets moisture damage the sensor
+3. **Wiring damage** — chafing or connector corrosion, especially after previous bumper work
+4. **Ice and snow buildup** — temporary blockage that can mimic sensor failure (thaw before replacing)
+5. **Paint overspray** — aftermarket paint too thick over the sensor face affects signal
+6. **Age/wear** — sensor element degradation over time
 
-| Part Number Base | Type | Position | Notes |
-|---|---|---|---|
-| **1127502-xx-x** | Radial (standard) | Front & rear outer | Most common replacement |
-| **1127503-xx-x** | Radial DCR | Front & rear inner/side | Check your specific sensor |
+> **Before replacing:** Try a soft reset (hold both scroll wheels on steering wheel for 10 seconds). Temporary sensor issues sometimes clear after a vehicle restart. Also make sure the sensor face is clean — dirt, ice, or snow buildup can cause false faults.
 
-The suffix indicates **color**. You need to match your car's paint:
+## Tesla Service Center Cost
 
-| Color | Example Suffix |
-|---|---|
-| Pearl White Multi-Coat | -12-C |
-| Solid Black | -01-D |
-| Midnight Silver Metallic | -11-D |
-| Deep Blue Metallic | -13-D |
-| Red Multi-Coat | -08-C |
+Tesla charges **$200–$400+** per sensor replacement depending on location and how many sensors need attention:
 
-<div class="tip-box">
-<strong>Finding Your Exact Part Number:</strong> The best way to confirm is to check <a href="https://epc.tesla.com" target="_blank">epc.tesla.com</a> (Tesla's parts catalog). Navigate to your model → 17 - Electrical → 1727 - Parking Sensors. You'll see the exact part numbers for your VIN. You can also check the old sensor once removed — the part number is printed on it.
-</div>
+| Service | Estimated Cost |
+|---------|---------------|
+| Single sensor replacement (Tesla SC) | $200–$350 |
+| Sensor + bumper repair (pushed in) | $300–$500 |
+| Multiple sensor replacement | $400–$800+ |
+| Mobile Service (if available) | $175–$300 |
 
-**Where to buy:**
-- **Tesla Parts (OEM):** $50–80 each — order through Tesla service or epc.tesla.com
-- **EV Parts Online, stock-tesla.com:** $20–40 — aftermarket, color-matched, good quality
-- **Amazon/eBay:** $15–35 — aftermarket; check reviews and verify part number compatibility
-- **Salvage yards:** $10–25 — used OEM sensors, verify they work before buying
+An independent shop can often do the job for 20–40% less. The sensor itself is the cheapest part — most of the cost is labor for bumper removal.
 
-## Tools & Parts Needed
+## DIY Cost
 
-**Parts:**
-- Replacement USS sensor ($20–50) — **match your part number and paint color**
-- Zip ties (to resecure wiring if needed)
+| Item | Cost |
+|------|------|
+| OEM parking sensor (each) | $30–$60 |
+| Aftermarket sensor (each) | $15–$35 |
+| Tools (if you don't have them) | $20–$40 |
+| **Total DIY (single sensor)** | **$30–$80** |
 
-**Tools:**
-- Plastic trim removal tools (essential — never use metal pry tools on painted bumpers)
-- Heat gun or hair dryer (helps in cold weather when plastic clips are brittle)
-- Isopropyl alcohol and clean microfiber cloth
-- Flashlight or headlamp
-- 10mm socket (if removing undertray)
+## Part Numbers
 
-## DIY Replacement: Method 1 — Without Removing Bumper
+Tesla parking sensors are **color-coded** to match your vehicle's paint. The base part number is **1127503-xx-x**, where the suffix indicates the color variant.
 
-For most sensor positions, you can access the sensor from behind without pulling the entire bumper. This is faster and lower-risk.
+Common part numbers (Model 3/Y/S/X):
+- **1127503-01-C** / **1127503-01-D** — common early variants
+- **1127503-12-C** — Midnight Silver Metallic
+- **1127503-xx-x** — other color variants
 
-### Front Sensors
+**How to find your exact part number:**
+1. Check the back of the existing sensor (remove bumper to see it)
+2. Look up your VIN on [Tesla's parts catalog](https://epc.tesla.com/) or contact a Tesla parts supplier
+3. Match your vehicle's paint code — the sensor ring must match your bumper color
 
-**Step 1: Access from the frunk area**
+> **Aftermarket sensors** are available on Amazon for $15–35 each. They work but may have slightly different color matching. OEM sensors from salvage vehicles are another good option — just match the color code.
 
-1. Open the frunk
-2. Remove the **front underhood apron** — the plastic panel/cover at the front of the frunk area. It's held by push clips; use a trim tool to pop them
-3. For the **inner front sensors** (closest to the license plate area), you can also access through a triangular opening visible once the frunk liner is loosened — several TMC forum members have confirmed this works on Model 3
+## Step-by-Step Replacement
 
-**Step 2: Disconnect the sensor**
+### What You'll Need
 
-1. Reach behind the bumper and locate the sensor's wiring connector
-2. Press the release tab on the connector and disconnect
-3. Note the wire routing — take a photo before disconnecting
+- Trim removal tools (plastic pry tools)
+- Torx bits (T20, T25, T30)
+- 10mm socket and ratchet
+- Painter's tape
+- Isopropyl alcohol and microfiber cloth
+- Replacement sensor(s)
+- A helper (recommended for bumper removal)
 
-**Step 3: Remove the old sensor**
+### Step 1: Identify the Failed Sensor
 
-1. From behind, push the sensor outward through the bumper
-2. The sensor is held in by a friction fit / retaining clip — it should pop out with moderate pressure
-3. If the sensor is stuck (common in cold weather or older installations), gently warm the bumper surface with a hair dryer for 30 seconds, then push again
+Before pulling anything apart, figure out which sensor has failed:
 
-**Step 4: Install the new sensor**
+1. Put the car in **Reverse** and check the parking visualization on the touchscreen
+2. Walk around the vehicle and visually inspect each sensor — look for cracks, sensors pushed inward, or obvious damage
+3. You can gently tap each sensor with your finger while someone watches the display — a working sensor will register the touch
 
-1. Clean the mounting hole with isopropyl alcohol
-2. From the front (outside), push the new sensor into the hole until it clicks and sits flush
-3. Ensure the sensor face is level with the bumper surface
-4. Reconnect the electrical connector — you should feel/hear it click
+### Step 2: Remove the Bumper
 
-**Step 5: Test**
+You need to remove the bumper to access the sensors from behind. This is the most involved part of the job.
 
-1. Reassemble any panels and push clips
-2. Shift into reverse (for rear sensors) or drive slowly toward an object (for front sensors)
-3. Verify the parking visualization appears on screen and alerts work
-4. Check that no warning messages appear
+**Front bumper:** Follow our [Tesla Front Bumper Removal Guide](/posts/tesla-front-bumper-removal/) for detailed step-by-step instructions with fastener locations.
 
-### Rear Sensors
+**Rear bumper:** Follow our [Tesla Rear Bumper Removal Guide](/posts/tesla-rear-bumper-removal/) for the complete procedure.
 
-**Step 1: Access from the wheel well or trunk**
+Key points:
+- Disconnect the 12V battery or put the vehicle in **Service Mode** (Controls → Service → Service Mode) before disconnecting any electrical connectors
+- Tape your fenders to prevent scratches when sliding the bumper off
+- Have a blanket or moving pad ready to set the bumper on
+- Take photos of connector locations before unplugging anything
 
-1. Turn the steering wheel fully to one side for better wheel well access
-2. Peel back the **rear wheel well liner** on the side of the failed sensor — the liner is held by push clips and possibly a few screws
-3. Alternatively, access through the **trunk liner** — remove trunk side panels to reach behind the rear bumper
-4. For easier access on some positions, you can partially pop out the corner of the rear bumper (just the corner, not the whole bumper) by releasing a few clips in the wheel well
+### Step 3: Remove the Failed Sensor
 
-**Steps 2–5:** Same as front sensor procedure above — disconnect, push out, install new, reconnect, test.
+Once the bumper is off and resting safely:
 
-## DIY Replacement: Method 2 — Full Bumper Removal
+1. **Locate the sensor from behind** — you'll see the round sensor body sitting in a bracket/grommet in the bumper fascia
+2. **Disconnect the electrical connector** — press the release tab and gently pull apart. Don't yank the wires
+3. **Remove the sensor from its bracket** — the sensor sits in a rubber grommet or plastic bracket that holds it in the bumper hole. Some sensors push out from behind, others twist to release
+4. **Note the orientation** — sensors are directional. Mark which way is "up" before removal
 
-If you can't reach the sensor, or if the retaining clip is broken and you need to work on the mounting area, full bumper removal gives complete access. This adds 20–30 minutes but isn't difficult.
+> **Pushed-in sensors:** If the sensor was pushed inward by an impact, check the mounting bracket too. The bracket may be broken or detached from the bumper. Tesla uses adhesive (urethane) to secure the bracket to the backside of the fascia. You may need to re-glue the bracket before installing the new sensor.
 
-### Front Bumper Removal (Model 3/Y)
+### Step 4: Install the New Sensor
 
-1. Remove the **front wheel well liners** (both sides) — push clips and T20 Torx screws
-2. Remove the **front undertray/belly pan** — 10mm bolts and push clips
-3. Disconnect any **electrical connectors** accessible from below (fog lights if equipped)
-4. Remove **bumper mounting bolts/clips** along the top edge (behind the frunk) and sides
-5. With a helper, carefully pull the bumper straight forward off the guide pins
-6. Replace the sensor(s) with full access
-7. Reinstall in reverse order — align carefully before pushing onto guide pins
+1. **Clean the sensor opening** — wipe the bumper hole with isopropyl alcohol to remove dirt and old adhesive residue
+2. **Insert the new sensor** — press it into the bracket/grommet from behind. Make sure it seats flush with the bumper surface (not protruding or recessed)
+3. **Connect the electrical connector** — push until it clicks
+4. **Verify alignment** — look at the bumper from the outside to confirm the sensor face is flush and level with surrounding sensors
 
-### Rear Bumper Removal (Model 3/Y)
+### Step 5: Reinstall the Bumper
 
-1. Remove **rear wheel well liners** (both sides)
-2. Remove **trunk/tailgate trim panels** that overlap the bumper
-3. Disconnect **tail light connectors** if needed for clearance
-4. Remove **bumper mounting fasteners** (clips along wheel wells and bolts underneath)
-5. Pull bumper straight back
-6. Replace sensor(s)
-7. Reinstall
+Reverse the bumper removal procedure:
 
-<div class="warning-box">
-<strong>Be Careful:</strong> Bumpers have multiple electrical connections (lights, sensors, possibly cameras). Don't yank — disconnect all harnesses before pulling the bumper away. Label connectors if you're removing multiple.
-</div>
+1. Reconnect all electrical connectors (fog lights, sensors, etc.)
+2. Align the bumper on the vehicle — start with the fender-side clips, then work toward the center
+3. Reinstall all fasteners in reverse order
+4. Push clips in firmly until they click
 
-## After Replacement: Calibration
+### Step 6: Program the New Sensor (Important!)
 
-The good news: most parking sensor replacements **do not require any calibration**. The sensors are plug-and-play if:
-- You're using the same sensor type/generation
-- The sensor is properly seated and flush
-- You didn't disturb other sensors
+**After replacing a USS sensor, it must be programmed to its position.** Without programming, the system won't know which sensor is in which slot.
 
-If you get persistent warnings after replacement:
+Programming requires Tesla's **Service Mode**:
 
-1. **Soft reboot** — hold both scroll wheels on the steering wheel for 10 seconds until the screen goes black and restarts
-2. **Drive cycle** — drive normally for 10–15 minutes; some sensors self-calibrate
-3. **Check seating** — a sensor that's not fully pushed in or sitting at an angle will misread
-4. **Tesla Toolbox** — if problems persist, Tesla service can run Toolbox 3.0 diagnostic routines to verify sensor addresses and reprogram if needed. This is sometimes necessary when replacing sensors with a different part revision.
+1. Go to **Controls → Service → Service Mode** on the touchscreen
+2. Navigate to **Driver Assist → Sensors**
+3. Select **Program Front USS** or **Program Rear USS** depending on which sensor you replaced
+4. Follow the on-screen prompts
 
-## Common Issues & Troubleshooting
+> **Note:** Some owners report that new OEM sensors auto-calibrate after driving a short distance. However, Tesla's official procedure requires running the USS programming routine through Service Mode or Toolbox. If your parking display doesn't work correctly after replacement, the sensor likely needs programming.
 
-**Sensor pushed into bumper (fell inside):**
-This is extremely common and often doesn't need a new sensor at all. The retaining clip broke or loosened, and the sensor slipped inward. Access from behind, push it back out, and if the clip is broken, apply a small amount of automotive adhesive or use a new retaining bracket.
+## Troubleshooting After Replacement
 
-**Sensor works intermittently in cold/wet weather:**
-Water intrusion through a cracked sensor face. Replace the sensor — once the waterproof seal is compromised, it will only get worse.
+| Problem | Likely Cause | Fix |
+|---------|-------------|-----|
+| Sensor still shows fault | Not programmed | Run USS programming via Service Mode |
+| Constant false alerts | Sensor not seated flush | Remove bumper, reseat sensor |
+| One zone still dead | Wiring issue | Check connector and harness for damage |
+| All sensors offline | Harness disconnected | Verify main bumper harness connector |
+| Intermittent faults | Loose connector | Reseat the electrical connection firmly |
 
-**New sensor installed but still showing error:**
-- Verify the connector is fully seated
-- Check that you bought the correct part number for your vehicle
-- Try a soft reboot
-- In rare cases, the wiring harness (not the sensor) is the problem — inspect for corrosion or damaged pins
+## Tips from the Shop Floor
 
-**Multiple sensors failing at once:**
-If 2+ sensors on the same bumper fail simultaneously, the issue is more likely a **wiring harness** or **fuse** problem rather than individual sensors. Check the harness connections and fuses before replacing sensors.
-
-## Cost Comparison
-
-| Option | Cost | Time |
-|--------|------|------|
-| Tesla Service Center | $300–400+ | 1–2 hours (plus appointment wait) |
-| Third-party body shop | $150–250 | 1 hour |
-| DIY (without bumper removal) | $20–50 | 30 min |
-| DIY (with bumper removal) | $20–50 | 60 min |
-
-**Your savings: $250–350** for a straightforward sensor swap.
+- **Buy OEM when possible** — aftermarket sensors are hit or miss on quality. Salvage OEM sensors from wrecked Teslas are the best value
+- **Color matters** — sensors are visible on the bumper face. A mismatched color looks bad. OEM sensors come with a color-matched ring
+- **Don't forget the grommet** — if the rubber grommet/seal is damaged, replace it too. A bad seal leads to water intrusion and premature failure of the new sensor
+- **Photo everything** — before and during disassembly. Connector locations, routing of harness clips, bracket positions. Your future self will thank you
+- **One at a time** — if replacing multiple sensors, do them one at a time and program each before moving to the next. This avoids addressing confusion in the USS system
+- **Check for updates** — after programming, a software update may improve sensor calibration. Connect to WiFi and check for available updates
 
 ## When NOT to DIY
 
-- **Significant bumper damage** around the sensor area — the mounting point may need repair
-- **Multiple simultaneous failures** — likely a wiring harness issue that needs proper diagnosis
-- **Vehicle under warranty** — let Tesla handle it at no cost
-- **You're uncomfortable with trim clips** — they're easy to break if you've never worked with them (though replacement clips are cheap on Amazon)
-
-## Prevention Tips
-
-- **Avoid pressure washing directly at sensors** — the high-pressure jet can force water past seals or push sensors inward
-- **Park carefully** — most sensor damage is from low-speed impacts with curbs, posts, and garage walls
-- **Address cracked sensors quickly** — moisture intrusion will kill the electronics
-- **In freezing weather**, ice can form around sensors and push them in when it expands — brush off snow/ice gently
-
----
-
-*Parking sensor replacement is one of the easiest and most cost-effective DIY repairs on a Tesla. With a $20–50 part and 30 minutes of time, you can save hundreds over Tesla service. Just make sure to match your part number and paint color, and you'll be back to parking with confidence.*
+Consider professional installation if:
+- **Multiple sensors + bumper damage** — a body shop can repair the fascia and replace sensors together
+- **You don't have access to Service Mode** — some older firmware versions may not expose USS programming
+- **The wiring harness is damaged** — splicing Tesla harnesses requires care and the right connector pins
+- **Your vehicle is still under warranty** — sensor failure may be a warranty claim
 
 ## Related Guides
 
-- [Rear Camera Blurry or Not Working](/posts/tesla-rear-camera-blurry/) — Related visibility/parking issues
-- [Autopilot Camera Calibration](/posts/tesla-autopilot-camera-calibration/) — Sensor system maintenance
-- [Phantom Braking Fix](/posts/tesla-phantom-braking-fix/) — Other sensor-related driving issues
-- [Tesla Door Handle Not Working](/posts/tesla-door-handle-not-working/) — Another common electrical DIY fix
-- [Tesla Repair Cost Guide](/posts/tesla-repair-cost-guide/) — Overview of DIY savings across common repairs
+- [Tesla Front Bumper Removal Guide](/posts/tesla-front-bumper-removal/) — required for front sensor access
+- [Tesla Rear Bumper Removal Guide](/posts/tesla-rear-bumper-removal/) — required for rear sensor access
+- [Tesla Autopilot Camera Calibration](/posts/tesla-autopilot-camera-calibration/) — if cameras also need attention
+- [Tesla Autopilot Unavailable Fix](/posts/tesla-autopilot-unavailable/) — related driver assist troubleshooting

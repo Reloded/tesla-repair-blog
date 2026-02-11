@@ -8,7 +8,7 @@ difficulty: "Hard"
 readTime: "12 min read"
 models: "Model 3"
 emoji: "🧊"
-draft: true
+draft: false
 tools:
   - name: "Coolant Drain Pan (8 Quart)"
     link: "https://www.amazon.de/s?k=coolant+drain+pan+8+quart&tag=diyrepair-21"
@@ -166,7 +166,7 @@ While we can't provide full step-by-step instructions (this requires Tesla's ser
 11. Run thermal system diagnostics to verify operation
 12. Calibrate the coolant valve if needed
 
-**Coolant spec:** Tesla uses **G-48** ethylene glycol coolant (pre-mixed, ready to use). Do not use generic green or orange coolant — the wrong coolant can damage seals and the heat exchanger.
+**Coolant spec:** Tesla uses **G-48** ethylene glycol coolant (pre-mixed 50/50, ready to use) in the EMEA region (part number 1119779-00-A). In the US, Tesla specifies a different ethylene glycol coolant (part number 1029320-00-A). Zerex G-48 (Valvoline) is the widely-used compatible option in Europe. Do not use generic green or orange coolant — the wrong coolant can damage seals and the heat exchanger. The coolant reservoir holds **3.2 liters**, but the total system capacity across both loops is significantly more — have at least 8 liters on hand for a full drain and refill.
 
 **Refrigerant:** R-1234yf (not R-134a). The system requires a precise charge amount — overcharging or undercharging causes performance issues.
 
