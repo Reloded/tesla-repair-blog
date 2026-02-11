@@ -1,7 +1,7 @@
 ---
 layout: post.njk
-title: "Tesla Door Handle Not Working: DIY Repair Guide"
-description: "Tesla door handle stuck or not presenting? DIY repair guide covers Model S/X/3 handle mechanisms, micro switches, and common failures."
+title: "Tesla Door Handle Not Working? DIY Fix (Save $500+)"
+description: "Tesla door handle stuck or not presenting? Fix it yourself and save $500+ in service costs. Covers Model S, X & 3 mechanisms step by step."
 date: 2025-01-13
 category: "Body & Exterior"
 difficulty: "Intermediate"

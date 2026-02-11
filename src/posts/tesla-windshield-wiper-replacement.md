@@ -1,7 +1,7 @@
 ---
 layout: post.njk
-title: "How to Change Tesla Wiper Blades: Size Guide + Service Mode (Model 3/Y/S/X)"
-description: "Tesla wiper blade replacement in 5 minutes. Activate Service Mode first or you'll scratch the hood. Correct sizes for every model + best replacement blades ranked."
+title: "Tesla Wiper Blade Replacement: 5-Min DIY + Sizes"
+description: "Replace Tesla wiper blades in 5 minutes. Activate Service Mode first or risk scratching the hood! Correct sizes for Model 3, Y, S & X."
 date: 2025-01-05
 category: "Maintenance"
 difficulty: "Easy"
