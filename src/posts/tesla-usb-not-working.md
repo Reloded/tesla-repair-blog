@@ -1,6 +1,6 @@
 ---
 layout: post.njk
-title: "Tesla USB Not Working? Quick Fix (Works 90% of Time)"
+title: "Tesla USB Drive Not Working? Format Fix for Dashcam & Sentry Mode"
 description: "Tesla USB not recognized? This 2-minute format fix restores Dashcam & Sentry Mode instantly. No tools needed — works on all Tesla models."
 date: 2026-01-25
 category: "Interior"
