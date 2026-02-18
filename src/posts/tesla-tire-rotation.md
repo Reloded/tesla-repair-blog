@@ -1,7 +1,7 @@
 ---
 layout: post.njk
-title: "Tesla Tire Rotation DIY: Correct Pattern (Save $80)"
-description: "Rotate Tesla tires yourself in 30 minutes and save $80. Correct rotation patterns for RWD & AWD models. Extend tire life by thousands of miles."
+title: "Tesla Tire Rotation: DIY Guide with Correct Patterns (Save $80)"
+description: "Rotate Tesla tires at home in 30 minutes. Correct patterns for RWD & AWD, jack point locations, and torque specs. Save $80 per rotation."
 date: 2025-01-07
 category: "Tires"
 difficulty: "Easy"

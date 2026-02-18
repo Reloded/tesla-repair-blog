@@ -1,7 +1,7 @@
 ---
 layout: post.njk
-title: "How to Format USB for Tesla Dashcam (30-Second Guide)"
-description: "Format USB for Tesla Sentry Mode and Dashcam: exFAT + TeslaCam folder. Works on Windows, Mac, or let your Tesla do it automatically."
+title: "How to Format USB for Tesla Dashcam & Sentry Mode (30 Seconds)"
+description: "Format USB for Tesla dashcam in 30 seconds: exFAT + TeslaCam folder. Windows, Mac & in-car method. Best USB drives for Sentry Mode."
 date: 2026-01-22
 category: "Interior"
 difficulty: "Easy"

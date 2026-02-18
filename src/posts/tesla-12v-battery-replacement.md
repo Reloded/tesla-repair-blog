@@ -1,7 +1,7 @@
 ---
 layout: post.njk
-title: "Tesla 12V Battery Replacement: DIY Guide (Save €200+)"
-description: "Replace your Tesla 12V battery yourself. Covers lead-acid (pre-2021) and lithium-ion (2021-2023) systems. Note: 2024+ models use 16V — different process."
+title: "Tesla 12V Battery Replacement: Step-by-Step DIY (Save €200+)"
+description: "Replace your Tesla 12V battery at home in 30 minutes. Lead-acid & lithium-ion covered. All models with photos. 2024+ 16V note included."
 date: 2026-01-27
 lastUpdated: 2026-01-29
 category: "Electrical"

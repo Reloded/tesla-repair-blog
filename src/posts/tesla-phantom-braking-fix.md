@@ -1,7 +1,7 @@
 ---
 layout: post.njk
-title: "Tesla Phantom Braking: 5 Fixes That Stop It (Free)"
-description: "Tesla braking randomly on Autopilot? These 5 camera & settings fixes reduce phantom braking by up to 80%. No service visit, all models."
+title: "Tesla Phantom Braking Issue: 5 Proven Fixes (No Service Visit)"
+description: "Tesla phantom braking issue on Autopilot? 5 free fixes that reduce random braking by 80%. Camera cleaning, recalibration & settings guide."
 date: 2025-01-13
 category: "Autopilot & Safety"
 difficulty: "Easy"

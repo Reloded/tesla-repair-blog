@@ -1,7 +1,7 @@
 ---
 layout: post.njk
-title: "Tesla Window Calibration Reset: Hold Switch 5 Seconds Fix (Model 3/Y/S/X)"
-description: "Tesla window auto-reversing or leaving gaps? The calibration reset takes 60 seconds, no tools needed. Skip the $200 service visit."
+title: "Tesla Model 3 Window Calibration: Hold Switch 5 Seconds Fix (All Models)"
+description: "Tesla window won't close? Hold switch 5 seconds to recalibrate. 60-second fix, no tools needed. Works on Model 3, Y, S & X."
 date: 2026-01-14
 category: "Body & Glass"
 difficulty: "Easy"

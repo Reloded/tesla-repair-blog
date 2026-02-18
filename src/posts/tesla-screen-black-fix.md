@@ -1,7 +1,7 @@
 ---
 layout: post.njk
-title: "Tesla Screen Black? 5 Reboot Methods That Work"
-description: "Tesla screen black or frozen? 5 reboot methods from soft reset to hard reset. Get your touchscreen working again in minutes."
+title: "Tesla Screen Black or Frozen? 5 Reboot Fixes That Work Instantly"
+description: "Tesla screen black? Try these 5 reboot methods — from scroll-wheel reset to full power cycle. Fix your frozen touchscreen in 2 minutes."
 date: 2025-01-03
 category: "Electrical"
 difficulty: "Easy"

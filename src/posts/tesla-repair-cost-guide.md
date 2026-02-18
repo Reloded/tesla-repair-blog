@@ -1,7 +1,7 @@
 ---
 layout: post.njk
-title: "Tesla Repair Cost Guide: Dealer vs DIY Prices for Every Repair"
-description: "Complete Tesla repair cost breakdown. See what dealers charge vs DIY for brakes, suspension, battery, HVAC, and more. Save thousands with our step-by-step guides."
+title: "Tesla Repair Cost Guide: Dealer vs DIY Prices (2026)"
+description: "Tesla DIY repair costs vs dealer prices for every common fix. Tesla troubleshooting starts here — save thousands with step-by-step guides."
 date: 2026-02-08
 category: "General"
 difficulty: "Reference"
