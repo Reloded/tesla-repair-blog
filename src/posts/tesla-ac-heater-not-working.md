@@ -30,6 +30,8 @@ tools:
     link: "https://www.amazon.de/s?k=automotive+ac+vent+thermometer&tag=diyrepair-21"
 ---
 
+![Tesla dashboard completely removed showing HVAC system and wiring harness during repair](/images/repairs/tesla-dashboard-teardown.jpg)
+
 **Your Tesla's climate system is dead simple to troubleshoot** — most problems come down to a software glitch, a dirty cabin filter, or a setting you didn't know existed. Before you book a service appointment, run through these checks. They'll take 10 minutes and fix the majority of HVAC complaints.
 
 > **TL;DR:** Reboot by holding both scroll wheels for 10 seconds. If that doesn't fix it, check your cabin air filter and make sure Bioweapon Defense Mode or a recirculation setting isn't causing the issue. Still broken? Read on for model-specific diagnostics.

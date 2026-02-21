@@ -45,6 +45,8 @@ tools:
     provider: "ifixit"
 ---
 
+![Tesla Model 3 front end with bumper removed (top) and fully reassembled after repair (bottom)](/images/repairs/model-3-front-end-repair.jpg)
+
 Removing the front bumper on a Tesla Model 3 or Model Y is one of those jobs that looks intimidating but is actually straightforward once you know where every clip, screw, and bolt hides. The bumper fascia is a single large plastic piece held on by a combination of Torx screws, 10mm bolts, and push-pin clips — no special Tesla tooling required.
 
 This guide covers the **2017–2023 Model 3 (pre-Highland)**, the **2020–2024 Model Y**, and notes the key differences for the **2024+ Model 3 Highland**. The process takes about **30–60 minutes** your first time, and under 20 minutes once you've done it before.

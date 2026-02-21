@@ -33,6 +33,8 @@ tools:
     link: "https://www.amazon.com/s?k=3+ton+floor+jack+low+profile&tag=diyrepair07-20"
 ---
 
+![Tesla Model Y complete teardown with body panels removed in workshop](/images/repairs/model-y-full-teardown.jpg)
+
 Removing the rear bumper on a Tesla Model 3 or Model Y is one of those jobs that looks intimidating but is actually very manageable with basic tools and some patience. Whether you need access for a [tow hitch installation](/tesla-tow-hitch-install/), [paint chip repair](/tesla-paint-chip-repair/), [PPF installation](/tesla-ppf-installation/), parking sensor replacement, or [tail light work](/tesla-tail-light-replacement/), this guide walks you through every step — verified against Tesla's official service manual on service.tesla.com.
 
 If you've already tackled the [front bumper removal](/tesla-front-bumper-removal/), you'll find the rear is actually simpler. Fewer clips, fewer connectors, and the fascia is lighter. Most people can do this in 30–45 minutes the first time.

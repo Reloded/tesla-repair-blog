@@ -20,6 +20,8 @@ tools:
     provider: "ifixit"
 ---
 
+![Tesla Model 3 frunk area exposed during front-end repair, showing wiring and coolant system](/images/repairs/model-3-front-end-repair.jpg)
+
 A Tesla frunk that won't open is usually caused by a 12V battery issue or a latch problem. Before panicking, there are several ways to get it open—including emergency releases that don't require any power.
 
 ## Quick Fixes to Try First

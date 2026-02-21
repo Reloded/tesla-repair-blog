@@ -22,6 +22,8 @@ tools:
     provider: "ifixit"
 ---
 
+![Tesla Model Y with trunk liftgate open in repair workshop](/images/repairs/model-y-trunk-open.jpg)
+
 A Tesla trunk that won't latch, randomly opens, or shows a "Trunk Open" warning when it's clearly closed is almost always caused by a failed micro switch inside the latch assembly. This is a common issue on Model 3 and Model Y, especially in cold or wet climates where moisture corrodes the switch contacts.
 
 ## Symptoms

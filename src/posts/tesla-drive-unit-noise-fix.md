@@ -26,6 +26,8 @@ tools:
     provider: "ifixit"
 ---
 
+![Tesla Model Y with front and rear drive units removed, placed on workshop floor during drivetrain service](/images/repairs/model-y-drive-unit-removal.jpg)
+
 A whining, humming, or grinding noise from your Tesla's drive unit is a common concern, especially at higher mileages. The good news: in many cases, a simple gearbox fluid change can dramatically reduce or eliminate the noise. Tesla drive units use a single-speed reduction gear, and over time the fluid degrades, leading to increased gear noise.
 
 ## Identifying Drive Unit Noise
