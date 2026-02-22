@@ -42,14 +42,20 @@ This is the standard fix for a frozen or unresponsive screen. Do this first.
 
 ### How to Soft Reboot
 
-1. **Put the car in Park** (if possible — you can also do this while driving, but Park is safer)
+1. **Shift into Park**
 2. **Press and hold both scroll wheels** on the steering wheel simultaneously
-3. **Hold for 10 seconds** — the screen will go black
+3. **Hold until the screen turns black**
 4. **Release the scroll wheels**
-5. **Wait 30-60 seconds** — the Tesla logo appears, then the screen boots up
+5. **Wait approximately 30 seconds** for the touchscreen to restart
+
+This is Tesla's [official procedure](https://service.tesla.com/docs/Public/diy/modely/en_us/GUID-C6EE3503-1D68-455C-8AA3-2D6FF9ADCF5E.html). Note: the scroll wheel layout differs slightly on vehicles manufactured before vs after February 2025, but the procedure is the same.
+
+<div class="warning-box">
+<strong>Tesla's official warning:</strong> Only restart the touchscreen while the vehicle is stopped and in Park. The car status display, safety warnings, backup camera, etc. will not be visible during the restart.
+</div>
 
 <div class="tip-box">
-<strong>While driving:</strong> If your screen freezes while driving, don't panic. The car drives fine without the screen. Pull over if you can, but if not, you can reboot while driving. You'll temporarily lose the speedometer display (Model 3/Y), navigation, and music — but the car itself keeps going.
+<strong>If it freezes while driving:</strong> The car drives fine without the screen. Pull over safely and shift into Park before rebooting. You'll temporarily lose the speedometer display (Model 3/Y), navigation, and music — but driving functions remain active.
 </div>
 
 ### What a Soft Reboot Resets
@@ -64,18 +70,18 @@ This is the standard fix for a frozen or unresponsive screen. Do this first.
 
 ## Hard Reboot (When Soft Reboot Doesn't Work)
 
-If the soft reboot doesn't fix the problem — or the screen stays completely black — try a hard reboot.
+If the soft reboot doesn't fix the problem — or the screen stays completely black — try a hard reboot. This method is widely used in the Tesla community, though it's not in Tesla's official DIY docs.
 
 ### How to Hard Reboot
 
-1. **Put the car in Park**
+1. **Shift into Park**
 2. **Press and hold the brake pedal**
 3. **While holding the brake, press and hold both scroll wheels**
 4. **Hold everything for 10+ seconds** until the screen goes black
 5. **Release all three** (brake + both scroll wheels)
 6. **Wait 1-2 minutes** for a full restart
 
-The hard reboot resets the infotainment computer more thoroughly than the soft version.
+The hard reboot resets the infotainment computer more thoroughly than the soft version. If this still doesn't work, try [power cycling the vehicle](#full-power-cycle-nuclear-option) instead — that's Tesla's official next step.
 
 ### When to Use a Hard Reboot
 
@@ -88,14 +94,15 @@ The hard reboot resets the infotainment computer more thoroughly than the soft v
 
 If both reboots fail, you can fully power down the car:
 
-1. **Park the car and open a door** (so it doesn't lock you out)
-2. Go to **Controls > Safety > Power Off**
-3. **Don't touch anything** — no pedals, no screen, no doors
-4. **Wait 3 full minutes** (set a timer — most people wait too short)
-5. **Press the brake pedal** to wake the car up
+1. **Shift into Park**
+2. On the touchscreen, touch **Controls > Safety > Power Off**
+3. **Wait at least 2 minutes** without interacting with the vehicle — do not open the doors, touch the brake pedal, touch the touchscreen, etc.
+4. After 2 minutes, **press the brake pedal or open the door** to wake the vehicle
+
+This is Tesla's [official power cycling procedure](https://service.tesla.com/docs/Public/diy/modely/en_us/GUID-76C3CAB5-8F3F-4F0A-93F4-966DB3E67FEA.html).
 
 <div class="warning-box">
-<strong>Important:</strong> You must wait the full 3 minutes. If you touch the brake or screen early, the car wakes up before fully powering down and the cycle is incomplete.
+<strong>Important:</strong> You must wait the full 2 minutes without any interaction. If you touch anything early, the car wakes up before fully powering down and the cycle is incomplete.
 </div>
 
 If the screen is too frozen to access Controls, you can force a power-down by disconnecting the 12V battery — but that's a more involved process. See our [12V battery guide](/posts/tesla-12v-battery-replacement/) for details.
@@ -187,7 +194,7 @@ Prevent issues before they happen:
 |---------|-----|
 | Screen frozen | Soft reboot (both scroll wheels, 10 sec) |
 | Screen black | Hard reboot (brake + both scroll wheels) |
-| Screen won't come back | Full power cycle (Controls > Power Off, wait 3 min) |
+| Screen won't come back | Full power cycle (Controls > Power Off, wait 2 min) |
 | Frequent freezes | Check 12V battery, check MCU version |
 | Yellow border (MCU1) | Tesla Service — eMMC failure |
 | Dead touch zones | Tesla Service — hardware failure |
