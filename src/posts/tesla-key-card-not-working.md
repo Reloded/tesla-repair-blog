@@ -134,11 +134,13 @@ If your 12V battery dies, the car has no power — the door handles won't presen
 
 ### Model 3/Y: Manual Door Opening
 
-1. Use the **physical key card** — even with a dead 12V, the door can be opened manually
-2. Actually, with a completely dead 12V, even the key card NFC reader may not work
-3. **Open the frunk manually:** Pop the plastic cover below the front bumper, find the manual release cable, and pull it
-4. **Jump the 12V battery** from the frunk terminals
-5. Once the 12V has power, the key card will work again
+1. With a completely dead 12V, the key card NFC reader won't respond — you need to restore power first
+2. **Open the frunk manually:** Remove the plastic cover below the front bumper's tow eye cover, find the manual release cable, and pull it
+3. **Jump the 12V:** Remove the maintenance panel in the frunk. For lithium-ion batteries (most 2022+ vehicles), pull back the black seal to expose the positive (+) jump post, and use the HEPA filter bolt as the negative (-) jump post. For 2025+ builds, check under the black plastic trim at the top of the frunk for the negative post
+4. Connect a portable jump starter (red to positive, black to negative) and turn it on
+5. Wait a few minutes — the touchscreen and NFC readers will wake up, and your key card will work again
+
+For the full jump start procedure, see [Tesla's official guide](https://service.tesla.com/docs/Public/diy/modely/en_us/GUID-3567D5F4-A5F4-4323-8BE0-023D5438FFC6.html) and our [12V battery replacement guide](/posts/tesla-12v-battery-replacement/).
 
 ### Model S/X: Manual Door Opening
 
