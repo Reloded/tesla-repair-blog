@@ -177,7 +177,10 @@ No, DIY brake pad replacement doesn't void any warranty. It's a standard mainten
 
 ## Related Guides
 
+- [Tesla Brake Rotor Replacement](/posts/tesla-brake-rotor-replacement/) - When pads aren't enough — rotor replacement guide
+- [Tesla Brake Fluid Change](/posts/tesla-brake-fluid-change/) - Complete your brake service with a fluid flush
 - [Tesla Squeaky Brakes Fix](/posts/tesla-squeaky-brakes-fix/) - Try these fixes before replacing pads
+- [Tesla Regenerative Braking Reduced](/posts/tesla-regen-braking-reduced/) - Why regen braking affects pad wear
 - [Tesla Jack Points & Lifting Guide](/posts/tesla-jack-points-lifting-guide/) - Safe jack placement for all models
 - [Tesla Tire Rotation](/posts/tesla-tire-rotation/) - Combine with brake service to save time
 - [Model S Rear Caliper Motor Replacement](/posts/tesla-model-s-rear-caliper-motor-replacement/) - Fix electric parking brake issues

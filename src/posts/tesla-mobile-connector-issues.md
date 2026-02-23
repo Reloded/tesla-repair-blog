@@ -321,4 +321,7 @@ Tesla Mobile Connector warranty:
 
 - [Slow Charging Fix](/posts/tesla-slow-charging-fix/) - Diagnose charging speed issues
 - [Charge Port Stuck](/posts/tesla-charge-port-stuck/) - If connector won't release
+- [Tesla Wall Connector Installation](/posts/tesla-wall-connector-installation/) - Upgrade from Mobile Connector to Wall Connector
+- [Tesla Charging Port Replacement](/posts/tesla-charging-port-replacement/) - When the port itself needs replacing
 - [Supercharger Slow](/posts/tesla-supercharger-slow/) - Comparison with DC fast charging
+- [Phantom Battery Drain Fix](/posts/tesla-phantom-battery-drain-fix/) - Battery draining overnight

@@ -218,5 +218,8 @@ If you take your car in for service, help the technician by documenting:
 
 - [Jack Points & Lifting Guide](/posts/tesla-jack-points-lifting-guide/) - Safe lifting before any suspension inspection
 - [Control Arm Replacement](/posts/tesla-control-arm-replacement/) - When bushings need replacement
+- [Tesla Strut Replacement](/posts/tesla-strut-replacement/) - When dampers are worn
+- [Tesla Sway Bar Link Replacement](/posts/tesla-sway-bar-link-replacement/) - Common source of clunking
 - [Wheel Alignment DIY](/posts/tesla-wheel-alignment-diy/) - Required after suspension work
 - [Creaking and Rattling Fix](/posts/tesla-creaking-rattling-fix/) - Additional noise troubleshooting
+- [2026 Model Y Juniper Problems](/posts/tesla-model-y-juniper-2026-problems/) - Juniper-specific suspension issues

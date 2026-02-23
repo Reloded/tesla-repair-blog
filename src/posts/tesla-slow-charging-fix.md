@@ -248,6 +248,10 @@ If you answer "yes" to all above and still have slow charging, schedule service 
 
 ## Related Guides
 
+- [Tesla Charge Port Stuck](/posts/tesla-charge-port-stuck/) - If the connector won't latch or release
+- [Tesla Charging Port Replacement](/posts/tesla-charging-port-replacement/) - When the port hardware needs replacing
 - [Mobile Connector Issues](/posts/tesla-mobile-connector-issues/) - Diagnose problems with your charging equipment
+- [Tesla Wall Connector Installation](/posts/tesla-wall-connector-installation/) - Upgrade to faster home charging
 - [Supercharger Slow](/posts/tesla-supercharger-slow/) - Specific troubleshooting for Supercharger speeds
 - [Range Loss Fix](/posts/tesla-range-loss-fix/) - If charging is fine but range seems low
+- [Phantom Battery Drain Fix](/posts/tesla-phantom-battery-drain-fix/) - Battery draining while parked

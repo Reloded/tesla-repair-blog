@@ -238,6 +238,8 @@ With Tesla's regenerative braking, expect 75,000-150,000 miles depending on driv
 ## Related Guides
 
 - [Tesla Brake Pad Replacement](/posts/tesla-brake-pad-replacement/) - Do pads while you're in there
+- [Tesla Brake Fluid Change](/posts/tesla-brake-fluid-change/) - Flush fluid while servicing rotors
 - [Tesla Squeaky Brakes Fix](/posts/tesla-squeaky-brakes-fix/) - Quick fixes before replacing
+- [Tesla Regenerative Braking Reduced](/posts/tesla-regen-braking-reduced/) - Why regen affects brake wear
 - [Tesla Jack Points & Lifting Guide](/posts/tesla-jack-points-lifting-guide/) - Safe lift points
 - [Model S Rear Caliper Motor Replacement](/posts/tesla-model-s-rear-caliper-motor-replacement/) - EPB motor issues

@@ -258,6 +258,10 @@ If you have chips down to bare metal:
 
 ## Related Guides
 
+- [Tesla Front Bumper Removal](/posts/tesla-front-bumper-removal/) - Remove bumper for full respray access
+- [Tesla Rear Bumper Removal](/posts/tesla-rear-bumper-removal/) - Rear bumper access for paint work
+- [Tesla Panel Gap Adjustment](/posts/tesla-panel-gap-adjustment/) - Fix uneven gaps while doing body work
 - [PPF Installation](/posts/tesla-ppf-installation/) - Prevent future chips with paint protection film
 - [Ceramic Coating](/posts/tesla-ceramic-coating/) - Protect your repairs with ceramic coating
+- [Tesla Rust Prevention & Undercoating](/posts/tesla-rust-prevention-undercoating/) - Long-term paint and body protection
 - [Headlight Condensation](/posts/tesla-headlight-condensation/) - Related exterior maintenance
