@@ -8,7 +8,7 @@ difficulty: "Easy"
 readTime: "8 min read"
 models: "Model 3, Model Y, Model S, Model X"
 emoji: "🔧"
-draft: false
+draft: true
 tools:
   - name: "Tesla Jack Pad Adapter"
     link: "https://www.amazon.de/s?k=tesla+jack+pad+adapter&tag=diyrepair-21"
