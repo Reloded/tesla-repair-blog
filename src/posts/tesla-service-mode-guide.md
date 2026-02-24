@@ -1,11 +1,11 @@
 ---
 layout: post.njk
-title: "Tesla Service Mode: How to Enable It, What It Unlocks & When You Need It (2025 Guide)"
-description: "Tesla Service Mode gives you access to jack mode, brake maintenance, window calibration, and more. Learn how to activate it on Model 3, Model Y, Model S, and Model X — step by step."
+title: "Tesla Service Mode: How to Access It, What It Unlocks & When You Need It (2025 Guide)"
+description: "Tesla Service Mode gives you access to diagnostics, brake burnishing, camera calibration, and more. Learn how to activate it on Model 3, Model Y, Model S, and Model X — step by step."
 date: 2026-02-24
 category: "Maintenance"
 difficulty: "Easy"
-readTime: "8 min read"
+readTime: "10 min read"
 models: "Model 3, Model Y, Model S, Model X"
 emoji: "🔧"
 draft: true
@@ -19,146 +19,189 @@ tools:
     provider: "ifixit"
 ---
 
-**If you've ever tried to jack up your Tesla and the air suspension fought back, or attempted a brake job only to realize you can't retract the electronic parking brake — Service Mode is what you're missing.** It's Tesla's built-in maintenance mode that unlocks features you need for DIY repairs, and it's accessible right from the touchscreen.
+**If you've ever needed to diagnose a strange warning, calibrate cameras after a windshield replacement, or check your high-voltage battery health — Tesla's built-in Service Mode is the tool you didn't know you had.** It's a hidden diagnostic menu accessible from the touchscreen, and it doesn't require any special tools or subscriptions.
 
 <div class="tip-box">
-<strong>Quick answer:</strong> Service Mode is accessed via the touchscreen by navigating to <strong>Controls → Service → Service Mode</strong> (pre-2024) or <strong>Controls → Software → Service Mode</strong> (2024+ vehicles). It disables air suspension leveling, enables jack mode, allows brake service functions, and gives access to diagnostic information. No special tools or passwords required on most vehicles.
+<strong>Quick answer:</strong> Access Service Mode by going to <strong>Controls → Software</strong>, then <strong>touch and hold the word "MODEL"</strong> (the large text under the vehicle image) for about 5 seconds. When prompted, enter the access code <strong>service</strong> (all lowercase) and tap Enable. A red border appears around the screen, and a red wrench icon appears in the dock. Available on all Tesla models.
 </div>
 
 ## What Is Tesla Service Mode?
 
-Service Mode is a built-in software feature on all Tesla vehicles that changes how certain systems behave so you can safely work on the car. Think of it as telling the car: "Hey, I'm doing maintenance — stop trying to be smart for a minute."
+Service Mode is a built-in diagnostic and maintenance utility hidden in every Tesla. It's the same tool Tesla Service Centers use daily — and unlike most other car manufacturers, Tesla doesn't lock it behind a dealer subscription or special hardware.
 
-When Service Mode is active, the car:
+When Service Mode is active:
 
-- **Stops auto-leveling** the air suspension (Model S/X) so you can safely jack it up
-- **Enables Jack Mode** to prevent the suspension from adjusting while on a lift
-- **Gives access to brake service functions** (parking brake retraction, brake bleeding)
-- **Shows additional diagnostic information** on the touchscreen
-- **Disables certain safety features** that would interfere with maintenance
-- **Allows window calibration** and other component resets
+- A **red border** appears around the touchscreen edges
+- A **red wrench icon** appears in the app dock
+- You get access to **diagnostics, calibrations, service alerts, and system tests**
+- Certain safety features may behave differently
 
-Without Service Mode, some repairs are either impossible or risk damaging the vehicle. Try jacking up a Model X without it, and the air suspension will keep trying to level itself — not fun.
+Service Mode is not the same as Jack Mode (that's in the normal vehicle menus) or Transport Mode (for towing). It's a full diagnostic interface with dozens of tools.
 
-## How to Enable Service Mode
+## How to Access Service Mode
 
-The exact path depends on your vehicle's software version and model year, but here are the current methods:
+### Step-by-Step (All Models)
 
-### Method 1: Touchscreen (All Models, 2021+)
+This works on Model 3, Model Y, Model S, Model X, and Cybertruck. Options vary by model, features, and year.
 
-1. Park the vehicle and keep it powered on
-2. Go to **Controls** (car icon at bottom left)
-3. Tap **Service**
-4. Tap **Service Mode**
-5. You may need to enter a confirmation — tap **Enable**
+1. **Park the vehicle** and keep it powered on
+2. Go to **Controls** (the car icon at the bottom of the screen)
+3. Tap **Software**
+4. Find the vehicle image and model badge (e.g., "MODEL Y Long Range")
+5. **Touch and hold the large word "MODEL"** for about 5 seconds, then release
+6. A dialog appears: "Please enter access code"
+7. Type **service** (all lowercase) and press **OK**
+8. A Service Mode warning dialog appears — tap **Enable**
 
-On 2024+ Model 3 (Highland) and refreshed Model Y, the path may be:
-1. **Controls → Software → Service Mode**
+After a couple of seconds, the red border appears and Service Mode is active.
 
 <div class="warning-box">
-<strong>⚠️ Note:</strong> Some Service Mode functions require the vehicle to be in Park with the parking brake engaged. The car will warn you if conditions aren't met.
+<strong>⚠️ Important:</strong> Do NOT drive the vehicle in Service Mode. Many safety features are disabled or behave differently while active. Exit Service Mode before driving.
 </div>
 
-### Method 2: Touchscreen (Pre-2021 MCU1 Vehicles)
+### Exiting Service Mode
 
-Older Model S and Model X with MCU1 (manufactured before March 2018) have a slightly different interface:
+1. Tap the **red wrench icon** in the dock (or find it in All Apps)
+2. In the service menu, scroll to the bottom of the left navigation
+3. Tap the red **"Exit Service Mode"** button
+4. **Press and hold** for about 5 seconds to confirm
 
-1. Tap the **Tesla "T"** logo at the top center of the screen
-2. Hold for a few seconds until the software info appears
-3. Navigate to **Service** options
+The red border disappears and normal operation resumes.
 
-On very early MCU1 software, some service functions may require a service login. If you see a password prompt, you may need a third-party OBD tool instead.
+### Alternative: Tesla Toolbox 3
 
-### Method 3: Third-Party OBD Tools
-
-Tools like **Scan My Tesla**, **TeslFi**, or **OBDLink** can access service functions even on vehicles where the touchscreen method is limited:
-
-- Connect an OBD2 dongle to the diagnostic port (under the center console trim on Model 3/Y)
-- Open the companion app
-- Navigate to service/maintenance functions
-
-This is the fallback for older vehicles or if specific functions aren't available through the touchscreen.
+Tesla technicians can also enable Service Mode using a laptop running Toolbox 3, connected to the vehicle's diagnostic port. This is primarily for service centers and isn't needed for DIY work — the touchscreen method gives you access to the same features.
 
 ## What Service Mode Unlocks
 
-### 🔧 Jack Mode
+### 📋 Vehicle Info
 
-**What it does:** Disables active air suspension height adjustments and locks the suspension at a specific height so the car won't move while on a jack or lift.
+Shows basic vehicle details plus six function buttons and a list of system areas. Useful for:
+- Confirming VIN, software version, and configuration
+- Checking module firmware versions
+- Identifying installed hardware (AP computer version, battery type, etc.)
 
-**Who needs it:** Anyone lifting a Model S or Model X with air suspension. Model 3 and Model Y with coil springs don't technically need it, but enabling it is still good practice — it disables some automatic responses.
+### 🚨 Service Alerts
 
-**How to use it:**
-1. Enable Service Mode
-2. Select **Jack Mode** from the service menu
-3. The car will raise to a set height and lock
-4. You'll see a confirmation on screen — now it's safe to lift
+View all active and historical service alerts in two categories:
 
-**Related guide:** [Tesla Jack Points & Lifting Guide](/posts/tesla-jack-points-lifting-guide/) — where to place jacks safely on each model.
+- **Service-Fix** — technical alerts including both important issues and minor non-issues
+- **Customer** — alerts that appear on the main display during normal driving
 
-### 🛑 Brake Service Functions
+Tap any alert for details. Some common alerts in older vehicles (like `thc_w0134_radrightshutrnofeedbk`) are unimportant aero shutter errors that Tesla service typically ignores.
 
-This is where Service Mode really shines for DIY work:
+### 🛑 Brake Burnishing
 
-**Electronic Parking Brake Retraction:**
-- The rear calipers on Model 3/Y have an electronic parking brake motor built in
-- To replace rear brake pads, you **must** retract the parking brake first
-- Service Mode gives you a button to retract and re-engage it
+**When you need it:** After replacing [brake pads](/posts/tesla-brake-pad-replacement/) or [brake rotors](/posts/tesla-brake-rotor-replacement/).
 
-**Brake Bleeding:**
-- Service Mode enables the ABS module to cycle fluid through all four corners
-- This makes [brake fluid changes](/posts/tesla-brake-fluid-change/) much more effective than manual bleeding alone
+New pads need to be "bedded in" — smoothed against the rotors through controlled braking. Service Mode's brake burnishing function:
+- Guides you through the burnishing procedure
+- **Disables regenerative braking** so only friction brakes are used
+- Ensures even pad-to-rotor contact
 
-**Related guides:**
-- [Tesla Brake Pad Replacement](/posts/tesla-brake-pad-replacement/) — front and rear, all models
-- [Tesla Brake Rotor Replacement](/posts/tesla-brake-rotor-replacement/) — when pads aren't enough
-- [Tesla Brake Fluid Change](/posts/tesla-brake-fluid-change/) — recommended every 2-4 years
-- [Squeaky Brakes Fix](/posts/tesla-squeaky-brakes-fix/) — common causes and solutions
+This is critical for proper brake feel and stopping power after a brake job.
 
-### 🪟 Window Calibration
+### 🔧 Service Settings
 
-After replacing a window regulator, disconnecting the 12V battery, or if your windows aren't auto-closing properly, you'll need to recalibrate:
+A long, scrollable list of vehicle settings that are normally limited or disabled while in Service Mode. You can override specific settings when working on a particular system. This prevents Service Mode from interfering with the exact component you're servicing.
 
-1. Enter Service Mode
-2. Select **Window Calibration**
-3. Each window will cycle up and down automatically
-4. Wait for the process to complete (about 30 seconds per window)
+### 📱 Touch Check
 
-**Related guide:** [Tesla Window Reset & Calibration](/posts/tesla-window-reset-calibration/) — full walkthrough with troubleshooting.
+Diagnostic tool for the touchscreen itself. If the touch panel is damaged and creating phantom touch events:
+- Fake touches appear as small **red X** marks on screen
+- Tap anywhere to verify touch input is registering correctly
+- Useful for diagnosing [touchscreen issues](/posts/tesla-screen-frozen-reboot/) before deciding on replacement
 
-### 📊 Diagnostic Information
+### 📷 Driver Assist (Cameras & Sensors)
 
-Service Mode reveals additional data not normally visible:
+Two sections: **Cameras** and **Sensors**.
 
-- **Battery health details** — cell voltage ranges, temperature, charge cycles
-- **Motor temperature** readings
-- **Tire pressure sensor IDs** — useful when rotating tires or replacing TPMS sensors
-- **Firmware versions** for individual modules (BMS, DI, AP computer)
-- **Error codes** — active and stored DTCs (diagnostic trouble codes)
+**Cameras:**
+- Check status of all DAS (Driver Assist System) cameras
+- Green dot = camera functioning normally
+- **Preview each camera feed** — useful for checking alignment
+- **Calibrate front cameras** — essential after windshield replacement
 
-This information is invaluable for diagnosing issues before they become expensive problems.
+**Sensors** (depending on hardware):
+- Radar status (pre-Tesla Vision vehicles)
+- Ultrasonic sensor status and calibration (if equipped)
+- ECU status
+- GPS status and satellite count
 
-### 🔄 Component Calibration
+**Related guide:** [Autopilot Camera Calibration](/posts/tesla-autopilot-camera-calibration/)
 
-Beyond windows, Service Mode allows calibration of:
+### 🔋 High Voltage
 
-- **Steering angle sensor** — after alignment or suspension work
-- **Accelerometer** — after leveling changes
-- **Camera calibration** — related to [Autopilot camera calibration](/posts/tesla-autopilot-camera-calibration/)
+Four sections with detailed EV-specific diagnostics:
 
-## When You Need Service Mode: Common Scenarios
+**Charging:**
+- Charge type and status
+- Charge port details and connector state
 
-| Repair | Service Mode Required? | Why |
-|--------|----------------------|-----|
-| Brake pad replacement (rear) | ✅ Yes | Must retract electronic parking brake |
-| Brake pad replacement (front) | ⚠️ Recommended | Not strictly required but helpful |
-| Brake fluid change | ✅ Yes | ABS bleeding cycle needs Service Mode |
-| Jacking up (air suspension) | ✅ Yes | Prevents suspension from auto-leveling |
-| Jacking up (coil springs) | ⚠️ Recommended | Disables some automatic responses |
-| Window calibration | ✅ Yes | Calibration tool is in Service Mode |
-| 12V battery replacement | ⚠️ After | Recalibrate windows after reconnecting |
-| Tire rotation | ❌ No | But helpful for TPMS ID reassignment |
-| Wheel/tire change | ❌ No | Standard jack procedure works |
-| [Touchscreen reboot](/posts/tesla-screen-frozen-reboot/) | ❌ No | Scroll wheel reset is separate |
+**HV System:**
+- Status of all high-voltage systems
+- Internal and external isolation resistance (should be well above minimum thresholds)
+
+**HV Battery:**
+- Cell voltage ranges and temperatures
+- State of health information
+- Charge cycle data
+
+**HVIL (High Voltage Interlock Loop):**
+- Safety circuit status — confirms all HV connections are properly sealed
+
+<div class="warning-box">
+<strong>⚠️ High voltage warning:</strong> The HV battery is always live, even in Service Mode. These diagnostics are for <strong>viewing information only</strong>. Never disconnect or touch orange HV cables or components unless you are specifically trained for high-voltage EV work.
+</div>
+
+### 📡 Infotainment
+
+Three sections:
+
+**Connectivity:** WiFi and cellular connection status and signal strength.
+
+**Software:** Shows memory Bank A and Bank B for the three major software modules — Infotainment, Autopilot, and Maps. New updates install to the unused bank, then the system switches to it.
+
+**ECU Update Status:** Shows which Electronic Control Units were last updated and in which software version.
+
+### 💻 Software Reinstall
+
+Reinstalls the current software version (does **not** upgrade or downgrade). Used when:
+- Replacing certain ECUs that need to sync with vehicle software
+- Software corruption suspected
+- **Not** for computer (MCU/HW) replacements — those have a separate procedure
+
+### 📝 Release Notes
+
+Service Mode has its own release notes, separate from the customer-facing software release notes. You can select a software version on the left and scroll through the changes — useful for understanding what diagnostic capabilities were added.
+
+## Common DIY Scenarios
+
+| Repair | Service Mode Needed? | What You'll Use |
+|--------|---------------------|-----------------|
+| [Brake pad replacement](/posts/tesla-brake-pad-replacement/) | ⚠️ Recommended | Brake burnishing after install |
+| [Brake rotor replacement](/posts/tesla-brake-rotor-replacement/) | ⚠️ Recommended | Brake burnishing after install |
+| Windshield replacement | ✅ Yes | Camera calibration |
+| Diagnosing warnings | ✅ Yes | Service Alerts, HV diagnostics |
+| [Touchscreen issues](/posts/tesla-screen-frozen-reboot/) | ⚠️ Helpful | Touch Check diagnostic |
+| Camera alignment check | ✅ Yes | Driver Assist camera preview |
+| Checking battery health | ✅ Yes | HV Battery diagnostics |
+| [Brake fluid change](/posts/tesla-brake-fluid-change/) | ❌ No | Standard procedure, no Service Mode |
+| [Jacking up the car](/posts/tesla-jack-points-lifting-guide/) | ❌ No | Jack Mode is in normal Controls menu |
+| [Window calibration](/posts/tesla-window-reset-calibration/) | ❌ No | Available in normal Service menu |
+| Tire rotation | ❌ No | Standard procedure |
+
+## Service Mode vs. Jack Mode vs. Transport Mode
+
+People sometimes confuse these. Here's the difference:
+
+**Service Mode** — Full diagnostic interface for technicians and DIYers. Hidden menu with access code. Shows detailed system status, allows calibrations, brake burnishing, and more. Don't drive with it active.
+
+**Jack Mode** — Found in the normal vehicle menus (Controls → Service or Suspension settings on air suspension vehicles). Raises the car to a set height and locks the suspension so it won't auto-level while on a [jack or lift](/posts/tesla-jack-points-lifting-guide/). Model 3/Y with coil springs don't need it but it's available.
+
+**Transport Mode** — For towing and flatbed loading. Releases the parking brake and puts the car in neutral/tow mode so the car can roll freely without driving it.
+
+**Power Off** — Controls → Safety → Power Off. Shuts down all systems. Car wakes when you open a door or press the brake. Useful for [frozen screen](/posts/tesla-screen-frozen-reboot/) situations.
 
 ## Safety Warnings
 
@@ -166,67 +209,44 @@ Beyond windows, Service Mode allows calibration of:
 <strong>⚠️ Important safety notes:</strong>
 
 <ul>
-<li><strong>Never crawl under a Tesla supported only by a jack.</strong> Always use jack stands. The car is heavy (1,800–2,500 kg depending on model) and a jack failure is fatal.</li>
-<li><strong>The high-voltage battery is always live</strong> even in Service Mode. Don't touch orange cables or components unless you're specifically trained for HV work.</li>
-<li><strong>Service Mode doesn't disable the drivetrain completely.</strong> The car can still move if you accidentally tap the accelerator. Always use wheel chocks.</li>
-<li><strong>Re-engage the parking brake</strong> after brake service. The car will remind you, but double-check before driving.</li>
-<li><strong>Exit Service Mode when done.</strong> Some safety features are reduced while active. Don't drive in Service Mode.</li>
+<li><strong>Don't drive in Service Mode.</strong> Safety features are disabled or altered. Always exit before driving.</li>
+<li><strong>The high-voltage battery is always live</strong> — even in Service Mode. Don't touch orange cables or HV components.</li>
+<li><strong>Be careful with calibration functions.</strong> Incorrect calibration of cameras or sensors can affect Autopilot and safety systems. If unsure, leave it to a professional.</li>
+<li><strong>Service Mode is view-only for most things.</strong> You can look at diagnostics without risk. The dangerous actions (like software reinstall) have their own confirmations.</li>
+<li><strong>When working under the car,</strong> always use jack stands — never rely on a jack alone. See our <a href="/posts/tesla-jack-points-lifting-guide/">jack points guide</a> for safe lifting locations.</li>
 </ul>
 </div>
 
-## Service Mode vs. Transport Mode vs. Power Off
-
-People sometimes confuse these three. Here's the difference:
-
-**Service Mode** — For maintenance and repairs. Disables specific systems to allow safe work. Vehicle stays powered on with full touchscreen access.
-
-**Transport Mode** — For towing and flatbed loading. Releases the parking brake and puts the car in neutral/tow mode. The car can roll freely. Used when the car needs to be moved without driving it.
-
-**Power Off** — Accessed via Controls → Safety → Power Off. Shuts down all vehicle systems. The car will wake up again when you open a door or touch the brake pedal. Useful for [touchscreen freezes](/posts/tesla-screen-frozen-reboot/) but not needed for most service work.
-
-## Model-Specific Notes
-
-### Model 3 & Model Y
-- Coil spring suspension (no jack mode needed, but available)
-- Electronic parking brake on rear calipers — **Service Mode required for rear brake pads**
-- OBD port under center console trim (left side)
-- 2024+ Highland/Juniper may have slightly different menu paths
-
-### Model S & Model X
-- Air suspension models **must** use Jack Mode before lifting
-- Older MCU1 vehicles may have limited touchscreen Service Mode access
-- Model X falcon wing doors should be closed and locked before lifting
-- [Falcon wing door window replacement](/posts/tesla-falcon-wing-door-window-replacement/) may require Service Mode for recalibration
-
 ## Frequently Asked Questions
 
-**Can I drive in Service Mode?**
-Technically the car will move, but don't. Safety features are reduced, and some systems behave differently. Always exit Service Mode before driving.
+**Is the access code always "service"?**
+Yes, on all current Tesla vehicles. It's the same for everyone — Tesla doesn't restrict access to Service Mode. The code is documented in Tesla's own public service manual.
 
-**Will Service Mode void my warranty?**
-No. Accessing Service Mode is a normal function of the vehicle. Tesla Service Centers use it daily. What matters is the quality of the work you do, not whether you used Service Mode.
+**Will using Service Mode void my warranty?**
+No. Service Mode is a normal vehicle function that Tesla Service Centers use daily. What matters is the quality of work performed, not whether you accessed the diagnostic tools.
 
-**Do I need a Tesla account to use Service Mode?**
-No. Service Mode is accessed from the vehicle's touchscreen and doesn't require any account login on modern software versions.
-
-**Can I get locked out of Service Mode?**
-On very old software or MCU1, some functions may be restricted. A software update usually resolves this. If not, third-party OBD tools can access the same functions.
+**Can I break something by exploring Service Mode?**
+Mostly no. The diagnostic screens are read-only — you're just viewing information. Calibration functions and software reinstall have their own confirmation steps and warnings. Don't run calibrations unless you have a specific reason to.
 
 **Does Service Mode disable Sentry Mode?**
-Service Mode doesn't automatically disable Sentry Mode, but it's a good idea to turn it off manually before working on the car — you don't want alarms going off while you're under it.
+Not automatically. It's a good idea to disable Sentry Mode manually before working on the car to avoid false alarms.
+
+**Do I need WiFi or cellular to use Service Mode?**
+No. Service Mode runs entirely on-vehicle. Some features (like checking for software updates) obviously need connectivity, but the diagnostic tools work offline.
+
+**Is Service Mode available on older MCU1 vehicles?**
+Yes, though the interface and available features may differ. On very old software versions, some functions may be more limited. Updating to the latest available software is recommended.
 
 ## Wrapping Up
 
-Service Mode is one of those things that separates a frustrating Tesla DIY experience from a smooth one. The first time you try to do rear brakes without retracting the electronic parking brake, you'll understand why it exists.
+Service Mode is one of the best things about owning a Tesla from a DIY perspective. While other manufacturers charge hundreds for dealer diagnostic software subscriptions, Tesla gives you a full diagnostic suite built into the car — no adapters, no subscriptions, no dealer appointment.
 
-The good news: it's free, built into every Tesla, and requires no special equipment to access. Just a few taps on the touchscreen and you're ready to work.
-
-**Before you start any repair, check the table above** — if Service Mode is required, enable it first. It takes 10 seconds and saves you from fighting the car's automated systems.
+Even if you never plan to wrench on your car, knowing how to access Service Mode is valuable. Checking service alerts, previewing camera feeds, and monitoring battery health can catch problems early — before they become expensive.
 
 <div class="tip-box">
-<strong>💡 Pro tip:</strong> Take a photo of the diagnostic screen while in Service Mode before starting work. If something goes wrong or a warning light appears after your repair, you'll have a baseline to compare against.
+<strong>💡 Pro tip:</strong> Take screenshots of the Service Alerts and HV Battery screens periodically (use the vehicle's screenshot function). This gives you a baseline to compare against if issues appear later. It's also useful when discussing problems with Tesla service or independent shops.
 </div>
 
 ---
 
-*This guide covers Tesla Service Mode as of software version 2024.38+. Menu paths and available functions may vary on older software versions. When in doubt, update your vehicle's software before attempting maintenance.*
+*This guide is based on Service Mode as documented in Tesla's public service manuals and confirmed across multiple Tesla models. Menu options and available features vary by model, year, and software version. Information verified against service.tesla.com documentation and community sources (TeslaTap, NotATeslaApp) as of February 2026.*
