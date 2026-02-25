@@ -1,0 +1,29 @@
+---
+layout: base.njk
+title: Tesla Battery & Electrical Repair Guides
+description: DIY guides for Tesla 12V battery replacement, charging issues, electrical diagnostics, and connectivity fixes. Step-by-step tutorials for Model 3, Y, S & X.
+permalink: /guides/battery-electrical/
+---
+
+<div class="section-header" style="margin-bottom: 2rem;">
+  <h1>⚡ Tesla Battery & Electrical Guides</h1>
+  <p>From 12V battery swaps to diagnosing electrical gremlins — everything you need to keep your Tesla's electrical system healthy. These guides cover all Model 3, Model Y, Model S, and Model X variants.</p>
+  <p><a href="/guides/">← Back to all guides</a></p>
+</div>
+
+<div class="posts-grid">
+  {% for post in collections.posts | reverse %}
+    {% set cat = post.data.category | lower %}
+    {% if cat == "electrical" or cat == "battery" or cat == "connectivity" or cat == "interior & electronics" %}
+    <article class="post-card">
+      <div class="post-card-visual cat-electrical">
+        <span class="cat-icon">⚡</span>
+        <span class="difficulty-tag">{{ post.data.difficulty or "Easy" }}</span>
+        <span class="cat-label">{{ post.data.category }}</span>
+      </div>
+      <h3><a href="{{ post.url }}">{{ post.data.title }}</a></h3>
+      <p class="post-excerpt">{{ post.data.description }}</p>
+    </article>
+    {% endif %}
+  {% endfor %}
+</div>

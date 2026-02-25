@@ -22,7 +22,7 @@ faq:
 
 A cracked headlight from road debris, a foggy lens from failed seals, or a dead LED segment—whatever brought you here, replacing a Tesla headlight yourself is very doable. The job takes 1-2 hours and saves serious money.
 
-![Tesla Model 3 Highland (2024+) front bumper, headlights, and taillights laid out for replacement](/images/repairs/tesla-highland-parts-display.jpg)
+![Tesla Model 3 Highland (2024+) front bumper, headlights, and taillights laid out for replacement](/images/repairs/tesla-highland-parts-display.webp)
 
 Tesla service centers typically charge **$1,100-2,000** for a headlight replacement. DIY, you're looking at **$300-900** for the part and an afternoon of work with basic hand tools.
 

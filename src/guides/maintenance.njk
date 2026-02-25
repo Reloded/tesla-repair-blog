@@ -1,0 +1,29 @@
+---
+layout: base.njk
+title: Tesla Maintenance & Tires DIY Guides
+description: Tesla tire rotation, wiper replacement, wheel alignment, rust prevention, washer fluid, and routine maintenance guides. Save money on regular service.
+permalink: /guides/maintenance/
+---
+
+<div class="section-header" style="margin-bottom: 2rem;">
+  <h1>🔧 Tesla Maintenance & Tires Guides</h1>
+  <p>Regular maintenance you can do yourself — tire rotation, wiper replacement, wheel care, rust prevention, and more. Keep your Tesla running perfectly without the dealership markup.</p>
+  <p><a href="/guides/">← Back to all guides</a></p>
+</div>
+
+<div class="posts-grid">
+  {% for post in collections.posts | reverse %}
+    {% set cat = post.data.category | lower %}
+    {% if cat == "maintenance" or cat == "tires" or cat == "wheels" or cat == "tires & wheels" or cat == "wipers & washers" or cat == "driving" or cat == "general" or cat == "guides" or cat == "buying" %}
+    <article class="post-card">
+      <div class="post-card-visual cat-maintenance">
+        <span class="cat-icon">🔧</span>
+        <span class="difficulty-tag">{{ post.data.difficulty or "Easy" }}</span>
+        <span class="cat-label">{{ post.data.category }}</span>
+      </div>
+      <h3><a href="{{ post.url }}">{{ post.data.title }}</a></h3>
+      <p class="post-excerpt">{{ post.data.description }}</p>
+    </article>
+    {% endif %}
+  {% endfor %}
+</div>

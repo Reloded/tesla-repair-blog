@@ -22,7 +22,7 @@ faq:
 
 Panel gaps are the most common complaint about Tesla build quality. The good news? Most gaps are adjustable, and you can fix them yourself in under an hour with zero special tools.
 
-![Tesla Model Y before and after full body rebuild — from crashed to perfect panel alignment](/images/repairs/model-y-rebuild-before-after.jpg)
+![Tesla Model Y before and after full body rebuild — from crashed to perfect panel alignment](/images/repairs/model-y-rebuild-before-after.webp)
 
 This guide covers the most common panel gap issues and their DIY fixes for Model 3, Model Y, Model S, and Model X.
 

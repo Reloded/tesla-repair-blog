@@ -46,7 +46,7 @@ Common symptoms include:
 
 The Model S door handle is notorious for failures. The handle contains a small motor, gear mechanism, and sensors that can all fail.
 
-![Tesla door panel interior showing inner structure and mechanisms](/images/repairs/tesla-door-panel-interior.jpg)
+![Tesla door panel interior showing inner structure and mechanisms](/images/repairs/tesla-door-panel-interior.webp)
 *Inside a Tesla door panel — the handle mechanism, window regulator, and wiring are all accessible once the panel is removed.*
 
 ### Diagnosing the Problem

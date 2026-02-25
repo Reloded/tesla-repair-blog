@@ -393,3 +393,53 @@ Still stuck? Walk through this:
 - [Sentry Mode Not Recording](/posts/tesla-sentry-mode-not-recording/) — Complete Sentry troubleshooting
 - [Dashcam Not Saving](/posts/tesla-dashcam-not-saving/) — Related recording issues
 - [Bluetooth Issues](/posts/tesla-bluetooth-issues/) — Other connectivity troubleshooting
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Why is my Tesla USB not working?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The most common reason is incorrect formatting. Tesla requires exFAT format with MBR partition scheme and a folder named TeslaCam. Also make sure you're using the glovebox USB port, not the rear console ports which are power-only."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I format a USB drive for Tesla dashcam?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Format your USB drive as exFAT with MBR partition scheme (not GPT). Then create a folder called TeslaCam (exact spelling, capital T, C, and lowercase the rest). On Windows use Disk Management, on Mac use Disk Utility with Master Boot Record scheme."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What USB format does Tesla use?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Tesla uses exFAT file system with MBR (Master Boot Record) partition scheme. FAT32 also works but has a 4GB file size limit. NTFS and APFS are not supported. Always use MBR, not GPT partition table."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why is Tesla Sentry Mode not recording to USB?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Check these in order: 1) Use the glovebox USB port (dedicated for recording), 2) Verify exFAT format with MBR scheme, 3) Ensure TeslaCam folder exists, 4) Enable Sentry Mode in Controls > Safety > Sentry Mode, 5) Check the dashcam icon on screen - a gray icon means the drive is detected but Sentry isn't enabled."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I use a USB hub with Tesla?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, but only powered USB hubs are reliable. Unpowered hubs often fail because Tesla USB ports don't supply enough power for multiple devices. Use a hub with its own power supply, and keep your dashcam/Sentry SSD on a direct port if possible for maximum reliability."
+      }
+    }
+  ]
+}
+</script>
