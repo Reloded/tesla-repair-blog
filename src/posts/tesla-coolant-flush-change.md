@@ -2,13 +2,13 @@
 layout: post.njk
 title: "Tesla Coolant Flush & Change: Complete DIY Guide"
 description: "Learn how to flush and replace Tesla coolant yourself. Covers all models, the G-48 coolant requirement, bleeding procedures, and common mistakes to avoid. Save €200-500 over service center pricing."
-date: 2026-02-01
+date: 2026-02-26
 category: "Cooling System"
 difficulty: "Medium"
 readTime: "16 min read"
 models: "Model 3, Model Y, Model S, Model X"
 emoji: "🌡️"
-draft: true
+draft: false
 tools:
   - name: "Tesla G-48 Coolant (4L)"
     link: "https://www.amazon.de/s?k=tesla+g48+coolant&tag=diyrepair-21"

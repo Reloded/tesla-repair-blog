@@ -2,13 +2,13 @@
 layout: post.njk
 title: "Used Tesla Buying Guide: Pre-Purchase Inspection Checklist"
 description: "Complete used Tesla buying guide with a 50-point inspection checklist covering battery health, panel gaps, common failures, and what to check before buying a Model 3, Y, S or X."
-date: 2026-02-25
+date: 2026-02-26
 category: "Buying"
 difficulty: "Beginner"
 readTime: "15 min read"
 models: "All Models"
 emoji: "🔍"
-draft: true
+draft: false
 tools:
   - name: "OBD2 Scanner for Tesla (OBDLink CX)"
     link: "https://www.amazon.de/s?k=OBDLink+CX+tesla+obd2&tag=diyrepair-21"
