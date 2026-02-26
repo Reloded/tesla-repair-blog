@@ -2,13 +2,13 @@
 layout: post.njk
 title: "Tesla Service Mode: How to Access It, What It Unlocks & When You Need It (2025 Guide)"
 description: "Tesla Service Mode gives you access to diagnostics, brake burnishing, camera calibration, and more. Learn how to activate it on Model 3, Model Y, Model S, and Model X — step by step."
-date: 2026-02-24
+date: 2026-02-26
 category: "Maintenance"
 difficulty: "Easy"
 readTime: "10 min read"
 models: "Model 3, Model Y, Model S, Model X"
 emoji: "🔧"
-draft: true
+draft: false
 tools:
   - name: "Tesla Jack Pad Adapter"
     link: "https://www.amazon.de/s?k=tesla+jack+pad+adapter&tag=diyrepair-21"
