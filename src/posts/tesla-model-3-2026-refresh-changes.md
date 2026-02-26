@@ -8,7 +8,7 @@ difficulty: "Informational"
 readTime: "8 min read"
 models: "Model 3"
 emoji: "🆕"
-draft: true
+draft: false
 tools:
   - name: "Tesla Model 3 Screen Protector"
     link: "https://www.amazon.de/s?k=tesla+model+3+screen+protector+15+inch&tag=diyrepair-21"
@@ -46,7 +46,7 @@ The switch to a darker Alcantara-style material solves all of these issues while
 The second confirmed change is a display upgrade.
 
 **What's new:**
-- 16-inch touchscreen (up from the current 15.4-inch on the Highland Model 3)
+- 16-inch touchscreen (up from the 15.4-inch on the current Model 3)
 - QHD resolution (2560x1440) — significantly sharper than the current display
 - Part number `Display_16_QHD` found in Tesla's Electronic Parts Catalogue
 - Same display hardware as the 2025 Model Y Juniper
@@ -65,8 +65,8 @@ To understand where the 2026 refresh fits, here's how the Model 3 has evolved:
 
 | Year | Version | Key Changes |
 |------|---------|-------------|
-| 2017-2023 | Original | The Model 3 that started it all. RWD and dual motor options. 15-inch screen, light grey headliner, chrome trim. |
-| 2024 | Highland Refresh | Major redesign. New front fascia (no more separate headlights), ambient lighting, rear screen, ventilated seats (Performance), improved sound insulation, stalkless design, 15.4-inch screen. |
+| 2017-2023 | Original | The Model 3 that started it all. RWD and dual motor options. 15.4-inch screen (1920x1200), light grey headliner, chrome trim. |
+| 2024 | Highland Refresh | Major redesign. New front fascia (no more separate headlights), ambient lighting, rear 8-inch screen, ventilated seats (Performance), improved sound insulation, stalkless design, same 15.4-inch front screen with updated UI. |
 | 2025 | Highland (continued) | Minor updates, software improvements, LFP battery chemistry for Standard Range. |
 | 2026 | Mid-Cycle Update | Black Alcantara headliner, 16-inch QHD display. Brings Model 3 interior in line with Model Y Juniper. |
 
@@ -107,7 +107,7 @@ The interior experience between the two is converging, which makes sense — it 
 
 If you're shopping for a pre-Highland Model 3 (2017-2023), here's what to keep in mind:
 
-- **Screen:** 15-inch (smaller and lower resolution than both Highland and 2026)
+- **Screen:** 15.4-inch at 1920x1200 (same size as Highland, but the 2026 jumps to 16-inch QHD)
 - **Headliner:** Light grey fabric (same material being replaced in 2026)
 - **Build quality:** Improved significantly from early 2017-2019 production to later years
 - **Value:** Pre-Highland Model 3s are excellent value. Expect 30-50% below new pricing depending on mileage and condition.
