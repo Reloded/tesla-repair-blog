@@ -44,12 +44,13 @@ Tesla doesn't include gear oil changes in their standard maintenance schedule, b
 
 ## Tesla Gear Oil Specifications
 
-Tesla uses Pentosin FFL-4 (or equivalent) in their drive units:
+Tesla uses **ATF-9 (P/N 1135241-00-A)** for 3DU drive units up to Model Year 2023. For MY2024+, Tesla specifies **KAF1 (P/N 1646886-02-A)**. KAF1/KAF1 V1.2 are backwards compatible and can substitute ATF-9.
+
+> **Note:** As of 2024, Tesla is transitioning all service centers to KAF1/KAF1 V1.2 gearbox fluid. This is backwards compatible with ATF-9.
 
 **Specifications:**
-- **Type:** Full synthetic gear oil
-- **Viscosity:** 75W (at operating temperature)
-- **Standard:** Meets VW G 052 178 A2
+- **Type:** Full synthetic automatic transmission fluid
+- **Standard:** ATF-9 or KAF1 — Tesla OEM part numbers only (third-party ATF-9 equivalents should be verified against Tesla's approved list)
 
 **Capacity by Model:**
 
@@ -90,6 +91,8 @@ Per [Tesla's service documentation](https://service.tesla.com/docs/Model3/Servic
 **Rear Drive Unit:**
 - Drain plug: Bottom of drive unit housing (14mm hex)
 - Fill plug: Side of drive unit, slightly higher (10mm hex)
+
+> **⚠️ Official Procedure Note:** Tesla's official service manual procedure for draining involves removing the oil pump (2 bolts) and oil filter, not a simple drain plug. The 14mm hex plug described above is used for DIY access. For a complete drain per Tesla's official procedure, the oil pump must be removed. Consider this if doing a thorough service.
 
 **Front Drive Unit (AWD models):**
 - Same arrangement but smaller unit
@@ -181,7 +184,7 @@ Many Tesla owners with 100,000+ trouble-free miles credit regular gear oil chang
 | DIY | $50-100 | Free | $50-100 |
 
 **Parts Needed for DIY:**
-- Pentosin FFL-4 (1-2 liters): $40-80
+- ATF-9 (P/N 1135241-00-A) or KAF1 (P/N 1646886-02-A) — buy 3L to be safe: €50-90
 - Crush washers (4x): $5-10
 - Fluid pump (one-time): $20-30
 
@@ -205,6 +208,11 @@ Front and rear units take the same fluid, but keep track of how much goes in eac
 
 ## Related Guides
 
+- [Tesla Drive Unit Noise Fix](/posts/tesla-drive-unit-noise-fix/) — Whining/humming diagnosis and fluid change procedure
 - [Brake Pad Replacement](/posts/tesla-brake-pad-replacement/) - Another overlooked maintenance item
 - [Cabin Air Filter](/posts/tesla-cabin-air-filter/) - Easy maintenance to do at the same time
 - [Tire Rotation](/posts/tesla-tire-rotation/) - Schedule together for efficiency
+
+---
+
+> **Verified:** Key specifications verified against Tesla Service Manual (service.tesla.com) on March 2, 2026.

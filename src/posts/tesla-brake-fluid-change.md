@@ -67,13 +67,18 @@ Tesla specifies **DOT 4 brake fluid** for all models. Do NOT use:
 - DOT 5 (silicone-based, incompatible)
 - DOT 5.1 (technically compatible but unnecessary)
 
-**Recommended brands:**
-- **Bosch ENV4** - OEM equivalent, excellent wet boiling point
+**Tesla's officially approved fluid:**
+- **BASF Hydraulan 404 DOT 4 (P/N 1012041-10-C)** — Tesla's OEM-approved brake fluid
+
+**Commonly used alternatives (independent shops):**
+- **Bosch ENV4** - Compatible DOT 4, widely used
 - **ATE Typ 200** - Popular in Europe, gold-colored
 - **Motul DOT 4** - Racing-proven, high boiling point
 - **Castrol React DOT 4** - Widely available
 
-You'll need approximately **500ml-1L** for a complete flush (all four corners).
+> **Note:** While compatible DOT 4 fluids from reputable brands are commonly used by independent shops, Tesla's officially approved fluid is BASF Hydraulan 404. Using the OEM fluid eliminates any warranty concerns.
+
+You'll need approximately **750 mL** for a complete flush (Model 3/Y Non-Performance) or **770 mL** (Model 3 Performance). Buy 1L to have extra on hand.
 
 ## What You'll Need
 
@@ -260,3 +265,5 @@ For a **complete** 100% flush, Tesla uses a scan tool to cycle the ABS valves wh
 ---
 
 *Have questions about brake fluid changes? Drop them in the comments below.*
+
+> **Verified:** Key specifications verified against Tesla Service Manual (service.tesla.com) on March 2, 2026.

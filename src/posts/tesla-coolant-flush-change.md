@@ -42,11 +42,16 @@ Here's how to flush and replace Tesla coolant yourself — a job that service ce
 
 Tesla's official service intervals vary by model and year:
 
-| Model | Service Interval | Capacity |
-|-------|------------------|----------|
+| Model | Service Interval | Total System Capacity (filled from dry) |
+|-------|------------------|-----------------------------------------|
 | Model S/X (pre-2021) | Every 4 years or 80,000 km | 10-12L total |
 | Model S/X (2021+) | Every 4 years or 80,000 km | 8-10L total |
-| Model 3/Y | Every 4 years or 80,000 km | 6-8L total |
+| Model 3/Y RWD (LFP60) | Every 4 years or 80,000 km | **14.6L** |
+| Model 3/Y RWD (2170 E1) | Every 4 years or 80,000 km | **16.3L** |
+| Model 3/Y AWD (2170 E1) | Every 4 years or 80,000 km | **16.7L** |
+| Model 3/Y AWD (2170 E3) | Every 4 years or 80,000 km | **18.4L** |
+
+> **⚠️ Important:** The total system capacity is much larger than commonly reported online. A single drain-and-refill will not replace all coolant in the system — some remains in the battery cooling loop, heater core, and various channels. Plan to use 8–10L for a drain-and-refill, or up to the full capacity above for a complete dry-fill after major cooling system work.
 
 **When to change sooner:**
 
@@ -78,6 +83,8 @@ Tesla's cooling system uses **ethylene glycol-based G-48 coolant** that's specif
 - ❌ Dex-Cool (orange)
 - ❌ Asian vehicle coolants (pink/red)
 - ❌ Any "all makes" coolant
+
+> **⚠️ CAUTION (from Tesla Service Manual):** Tesla cannot provide warranties for any type of coolant other than Tesla G-48 coolant. Tesla G-48 coolant (EMEA P/N 1119779-00-A) is the only approved fluid.
 
 The blue color is a key identifier — if your coolant has turned brown or green, that indicates contamination or degradation.
 
@@ -323,6 +330,8 @@ With basic tools and patience for the air bleeding process, this is a very achie
 ---
 
 *Have questions about Tesla coolant changes? Found a different procedure that works for your model year? Leave a comment below and help other owners!*
+
+> **Verified:** Key specifications verified against Tesla Service Manual (service.tesla.com) on March 2, 2026.
 
 ## Related Guides
 

@@ -135,12 +135,13 @@ Remove all old grease, corrosion, and debris. You want bare, clean metal. Let it
 
 **7. Apply fresh lubricant**
 
-Apply a generous amount of molybdenum disulfide grease to:
-- All of the half-shaft splines (coat them thoroughly)
-- The rear mating surface of the shaft where it contacts the hub
-- Inside the hub bore
+Apply **Molykote M-77 Lubricant Paste** — approximately **1 gram** to the hub mating face only:
+- Apply to the rear mating surface of the shaft where it contacts the hub
+- Apply inside the hub bore contact surface
 
-MoS2 grease is the go-to here because it handles the high-pressure, low-speed sliding motion of the splines. Regular wheel bearing grease will work in a pinch, but MoS2 holds up better over time.
+**Do NOT apply lubricant to the halfshaft splines themselves** — per Tesla's service procedure, lubrication goes on the hub mating face only, not on the splines.
+
+Molykote M-77 is the Tesla-specified paste for this procedure. It handles high-pressure, low-speed contact at the spline interface.
 
 **8. Reassemble**
 
@@ -148,7 +149,7 @@ Slide the half-shaft back into the hub. It should seat with moderate hand pressu
 
 **9. Torque the axle nut**
 
-Lower the car back to the ground (or at least get the wheel back on and lower it enough to keep the wheel from spinning). Torque the axle nut to **300 Nm**. This is the updated specification — earlier service manuals listed 245 Nm, but Tesla revised this to 300 Nm as of mid-2024.
+Lower the car back to the ground (or at least get the wheel back on and lower it enough to keep the wheel from spinning). Torque the axle nut to **300 Nm (221.2 ft-lb)**. The current Tesla service manual specifies 300 Nm. Some older sources may reference 245 Nm — always follow the latest service manual.
 
 Use a torque wrench, not a breaker bar and guesswork. Under-torquing the axle nut can allow the spline play to return. Over-torquing can damage the bearing.
 
@@ -203,7 +204,7 @@ Some situations are better left to a service center:
 A few things can help extend the life of the repair:
 
 - **Use quality MoS2 grease** — cheap grease washes out faster.
-- **Torque to spec** — the updated 300 Nm figure exists because the earlier 245 Nm spec was not always enough to keep the splines fully seated.
+- **Torque to spec** — the current service manual specifies 300 Nm (221.2 ft-lb). Some older sources reference 245 Nm — always use the latest Tesla service manual spec.
 - **Inspect during tire rotations** — while you have the wheels off, check for grease around the CV boots and listen for any new play in the shaft. Catching a torn boot early prevents the more expensive joint failure.
 - **Avoid deep puddles and pressure washing the undercarriage directly** — water intrusion into the spline area accelerates corrosion.
 
@@ -230,3 +231,7 @@ If you are working on the rear suspension area, these guides may also be useful:
 | Time | 1.5-2.5 hours | 2-4 hours | 1-3 days (appointment) |
 
 The lubrication fix is one of the best value-for-effort repairs you can do on a Tesla. Thirty euros worth of grease and a couple hours of your time can save you hundreds at the service center, and the fix works for the vast majority of cases.
+
+---
+
+> **Verified:** Key specifications verified against Tesla Service Manual (service.tesla.com) on March 2, 2026.

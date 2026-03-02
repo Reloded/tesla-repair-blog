@@ -53,10 +53,15 @@ A whining, humming, or grinding noise from your Tesla's drive unit is a common c
 
 **Fluid to Buy:**
 
-Tesla uses a specific gearbox fluid (Pentosin ATF 9). The rear drive unit on Model 3/Y takes approximately **1.1 liters**, the front unit about **0.9 liters**.
+Tesla uses **ATF-9 (P/N 1135241-00-A)** for 3DU drive units up to Model Year 2023. For MY2024+, use **KAF1 (P/N 1646886-02-A)**. KAF1/KAF1 V1.2 are backwards compatible and can substitute ATF-9.
 
-- **Pentosin ATF 9** (~$25–35/liter) — Tesla OEM spec
+The rear drive unit on Model 3/Y requires **2,100 mL (2.1L) minimum**. Tesla recommends filling with **2,300 mL** to ensure the oil pump dispenses the full 2.1L without drawing air. The front drive unit requires **1,300 mL (1.3L)**.
+
+- **ATF-9 (P/N 1135241-00-A)** — Tesla OEM spec for up to MY2023
+- **KAF1 (P/N 1646886-02-A)** — Tesla spec for MY2024+, backwards compatible with ATF-9
 - **New crush washers/O-rings** for drain and fill plugs (~$5)
+
+> **See also:** [Tesla Gear Oil Change](/posts/tesla-gear-oil-change/) for detailed fluid specifications and model-specific capacities.
 
 ## Cost Comparison
 
@@ -88,6 +93,10 @@ Tesla uses a specific gearbox fluid (Pentosin ATF 9). The rear drive unit on Mod
 - **Fill plug:** Side of the unit, with an oil filter nearby
 
 <div class="warning-box">
+<strong>⚠️ Service Manual Note:</strong> Tesla's official drain procedure does NOT use a simple drain plug. The service manual calls for removing the oil pump (2 bolts) and oil filter to drain the drive unit. The 8mm Allen plug described above provides access for a simplified DIY drain, but may not achieve a complete drain. For a thorough service, follow the official pump-removal procedure.
+</div>
+
+<div class="warning-box">
 <strong>Important:</strong> Always remove the FILL plug first. If you can't get the fill plug out, you won't be able to refill — and you don't want to be stuck with a drained drive unit.
 </div>
 
@@ -105,7 +114,7 @@ The front drive unit has an external oil filter:
 
 1. Unscrew the old filter (hand-tight, counterclockwise)
 2. Apply a thin coat of new fluid to the new filter's O-ring
-3. Install the new filter hand-tight, then tighten to **3 Nm (2 ft-lbs)**
+3. Install the new filter hand-tight, then tighten to **3 Nm (2.2 ft-lb) + 135 degrees**
 
 ### Step 5: Refill with New Fluid
 
@@ -134,10 +143,12 @@ The front drive unit has an external oil filter:
 | Rear drive unit drain plug (8mm Allen) | 28 Nm (21 ft-lbs) |
 | Rear drive unit fill plug (8mm Allen) | 28 Nm (21 ft-lbs) |
 | Front drive unit fill plug (8mm Allen) | 15 Nm (11 ft-lbs) |
-| Front drive unit oil filter | 3 Nm (2 ft-lbs) |
-| Oil pump to drive unit bolts | 5 Nm (4 ft-lbs) |
+| Front drive unit oil filter | 3 Nm (2.2 ft-lb) + 135 degrees |
+| Oil pump to drive unit bolts | 5 Nm (3.7 ft-lb) + 20 degrees |
 
 *Sources: Tesla Service Manual, tighttorque.com*
+
+> **Verified:** Key specifications verified against Tesla Service Manual (service.tesla.com) on March 2, 2026.
 
 ## When a Fluid Change Won't Help
 
