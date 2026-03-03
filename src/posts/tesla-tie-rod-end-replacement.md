@@ -135,7 +135,7 @@ This is the most important step for getting your alignment close enough to drive
 
 ### Step 5: Torque to Specification
 
-**Torque Values (Model 3/Model Y) — verified from [Tesla Service Manual](https://service.tesla.com):**
+**Torque Values (Model 3/Model Y) — verified against Tesla Service Manual (service.tesla.com) — March 2026:**
 - **Tie rod end nut (to knuckle):** 180 Nm (133 ft-lb) — use a **new** nut (Tesla P/N 1109263-00-B)
 - **Jam nut (outer tie rod to tie rod):** 80 Nm (59 ft-lb)
 

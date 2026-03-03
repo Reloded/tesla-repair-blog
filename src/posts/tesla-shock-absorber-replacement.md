@@ -72,7 +72,9 @@ Tesla uses Bilstein dampers from the factory on the Model 3 and Model Y. Here ar
 
 ## Torque Specifications
 
-These values come from the Tesla service manual and verified community sources. Use a calibrated torque wrench.
+> **Torque values verified against Tesla Service Manual (service.tesla.com) — March 2026**
+
+These values come directly from the Tesla service manual. Use a calibrated torque wrench.
 
 ### Front Damper
 

@@ -74,7 +74,7 @@ Quality aftermarket bearings from SKF, FAG, or Timken work well and cost 30-50% 
 - Socket set (metric: 10mm, 13mm, 17mm, 18mm, 21mm)
 - Torque wrench (capable of 200+ Nm)
 - Axle nut socket (36mm for most Teslas)
-- Breaker bar (axle nut is TIGHT — 250-350 Nm)
+- Breaker bar (axle nut is TIGHT — **300 Nm**)
 - Jack and jack stands
 - Pry bar
 - Rubber mallet
@@ -140,11 +140,13 @@ This guide covers a front wheel bearing on Model 3/Y. Rear procedure is similar 
 
 ### Step 8: Install the New Hub
 
+> **Torque values verified against Tesla Service Manual (service.tesla.com) — March 2026**
+
 1. Clean the knuckle mounting surface
 2. Position the new hub assembly, aligning the bolt holes
 3. Install and hand-tighten the four hub bolts
 4. Torque the hub bolts to spec:
-   - **Model 3/Y:** 85 Nm (62.7 ft-lb)
+   - **Model 3/Y:** **78 Nm (57.5 ft-lb)**
    - **Model S/X:** Check service manual for your year
 
 ### Step 9: Reassemble
@@ -154,7 +156,7 @@ This guide covers a front wheel bearing on Model 3/Y. Rear procedure is similar 
    - **Model 3/Y:** 300 Nm (221 ft-lb)
    - **Model S/X:** Check service manual for your year
 3. Stake the axle nut or install new cotter pin
-4. Reconnect the ball joint and install pinch bolt — 55 Nm
+4. Reconnect the ball joint and install pinch bolt — **56 Nm (41.3 ft-lb)**
 5. Reconnect the ABS sensor
 6. Install the rotor and caliper
 7. Install the wheel and torque lug nuts — 175 Nm (129 ft-lb)

@@ -132,12 +132,26 @@ Before installing new pads, you need to push the caliper piston back in to make 
 1. Apply brake pad grease to the back of the new pads and the contact points on the caliper bracket
 2. Install the new pads into the caliper bracket
 3. Swing the caliper back down over the pads
-4. **Use NEW caliper bolts** (Tesla recommends not reusing old bolts)
-5. Torque caliper bracket bolts to **83 Nm (61 ft-lbs)** per Tesla specs
-6. Mark the bolts with a paint pen after torquing (standard Tesla practice)
-7. Reinstall the wheel and torque lug nuts in a star pattern to **175 Nm (129 ft-lbs)**
+4. **Use NEW caliper bracket bolts — Tesla requires replacement, not reuse (P/N 1088969-00-B)**
+5. Torque caliper bracket bolts (bracket-to-knuckle) per Tesla specs:
+   - **Front: 94 Nm (69.3 ft-lb)**
+   - **Rear: 83 Nm (61.2 ft-lb)**
+6. **Rear base brakes only:** The caliper slide pin bolt (caliper-to-bracket) torques to only **26.5 Nm (19.5 ft-lb)** — don't confuse this with the bracket-to-knuckle bolts above
+7. Mark the bolts with a paint pen after torquing (standard Tesla practice)
+8. Reinstall the wheel and torque lug nuts in a star pattern to **175 Nm (129 ft-lb)**
 
-### Bed-In Procedure
+### Torque Specifications
+
+> **Torque values verified against Tesla Service Manual (service.tesla.com) — March 2026**
+
+| Component | Torque | Notes |
+|-----------|--------|-------|
+| Front caliper bracket bolts (to knuckle) | **94 Nm (69.3 ft-lb)** | REPLACE bolts — P/N 1088969-00-B |
+| Rear caliper bracket bolts (to knuckle) | **83 Nm (61.2 ft-lb)** | REPLACE bolts — P/N 1088969-00-B |
+| Rear caliper slide pin bolt (caliper-to-bracket, base) | **26.5 Nm (19.5 ft-lb)** | Different from bracket-to-knuckle bolts |
+| Wheel lug nuts | 175 Nm (129 ft-lb) | |
+
+## Bed-In Procedure
 
 New brake pads need to be "bedded in" for optimal performance:
 

@@ -129,8 +129,8 @@ The rear brakes have an electronic parking brake that must be disengaged first:
 
 ### Removing the Old Rotor
 
-1. Remove the rotor retention screw (T30 Torx on most models)
-   - This small screw holds the rotor on during assembly—braking force isn't applied through it
+1. Remove the rotor retention bolt (10mm socket, 5 Nm) — this holds the rotor on during assembly; braking force isn't applied through it
+   - Note: There may also be a T30 Torx fastener nearby — that's for the **dust shield**, not the rotor
 2. The rotor should slide off the hub
 3. If stuck, apply penetrating oil and use a rubber mallet to break it loose
    - **Never hit the rotor surface**—strike the hub area from behind
@@ -152,13 +152,14 @@ The rear brakes have an electronic parking brake that must be disengaged first:
 ### Installing the New Rotor
 
 1. Slide the new rotor onto the hub
-2. Install the rotor retention screw (T30 Torx)
-   - Don't overtighten—just snug
+2. Install the rotor retention bolt (10mm socket) — torque to **5 Nm (3.7 ft-lb)**
+   - Note: The T30 Torx fastener you may see is for the **dust shield** (8 Nm), not the rotor itself
 3. Reinstall the caliper bracket
-   - **Use new caliper bracket bolts** (Tesla recommends not reusing)
-   - Torque to **175 Nm (129 ft-lbs)**
+   - **Use new caliper bracket bolts — Tesla requires replacement, not reuse (P/N 1088969-00-B)**
+   - Front: torque to **94 Nm (69.3 ft-lb)**
+   - Rear: torque to **83 Nm (61.2 ft-lb)**
 4. Reinstall the caliper
-   - Torque caliper guide pin bolts to **33 Nm (24 ft-lbs)**
+   - Rear base caliper guide pin bolt (caliper-to-bracket): torque to **26.5 Nm (19.5 ft-lb)**
 5. Mark bolts with paint pen after torquing (standard Tesla practice)
 
 ### Brake Pad Note
@@ -224,12 +225,16 @@ With Tesla's regenerative braking, expect 75,000-150,000 miles depending on driv
 
 ## Torque Specifications
 
-| Component | Torque |
-|-----------|--------|
-| Wheel lug nuts | 175 Nm (129 ft-lbs) |
-| Caliper bracket bolts | 175 Nm (129 ft-lbs) |
-| Caliper guide pin bolts | 33 Nm (24 ft-lbs) |
-| Rotor retention screw | Snug (not torqued) |
+> **Torque values verified against Tesla Service Manual (service.tesla.com) — March 2026**
+
+| Component | Torque | Notes |
+|-----------|--------|-------|
+| Wheel lug nuts | 175 Nm (129 ft-lb) | |
+| Front caliper bracket bolts (to knuckle) | **94 Nm (69.3 ft-lb)** | REPLACE bolts — P/N 1088969-00-B |
+| Rear caliper bracket bolts (to knuckle) | **83 Nm (61.2 ft-lb)** | REPLACE bolts — P/N 1088969-00-B |
+| Rear caliper guide pin bolt (base, caliper-to-bracket) | **26.5 Nm (19.5 ft-lb)** | Rear sport lower: 71 Nm; upper: 34 Nm |
+| Rotor retention bolt (10mm socket) | **5 Nm (3.7 ft-lb)** | Rotor-to-hub |
+| Dust shield to knuckle (T30 Torx) | **8 Nm (5.9 ft-lb)** | Different fastener from rotor bolt |
 
 ---
 

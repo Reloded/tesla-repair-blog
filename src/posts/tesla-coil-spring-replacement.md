@@ -97,6 +97,8 @@ Lowering springs drop the ride height by 15–35 mm (0.6–1.4 inches) depending
 
 ## Torque Specifications
 
+> **Torque values verified against Tesla Service Manual (service.tesla.com) — March 2026**
+
 These values apply to the Model 3 and Model Y with coil spring suspension. Always use a calibrated torque wrench.
 
 ### Front Suspension

@@ -137,10 +137,12 @@ If the stud just spins and you can't get a T40 in there, you may need to cut the
 ### Step 6: Torque to Spec
 
 **Front Link Torque Values (Model 3/Y):**
-- Upper nut (link to strut): **180 Nm (133 ft-lb)**
-- Lower nut (link to sway bar): **98 Nm (72 ft-lb)**
+- Upper nut (link to strut): **98 Nm (72.3 ft-lb)**
+- Lower nut (link to sway bar): **98 Nm (72.3 ft-lb)**
 
-Yes, that upper nut torque is high. Make sure your torque wrench can handle it. Mark each nut with a paint pen after torquing — this is how Tesla techs verify the work was done properly.
+> **Torque values verified against Tesla Service Manual (service.tesla.com) — March 2026**
+
+Mark each nut with a paint pen after torquing — this is how Tesla techs verify the work was done properly. **Always use new nuts at reassembly** — the nylon insert in the lock nuts gets compressed and may not hold torque if reused.
 
 ### Step 7: Repeat Other Side
 
@@ -167,7 +169,7 @@ Same process as front:
 ### Installation
 
 **Rear Link Torque Value (Model 3/Y):**
-- Nut to knuckle: **55 Nm (41 ft-lb)**
+- Both nuts (bar + knuckle): **55 Nm (40.6 ft-lb)** — **replace nuts, do not reuse**
 
 The rear links only have one torque spec because they mount differently than the front.
 
