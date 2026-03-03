@@ -308,3 +308,13 @@ Once you own it:
 ## Final Thought
 
 A well-maintained used Tesla is one of the best car purchases you can make — low operating costs, minimal maintenance, and performance that doesn't fade with age. But a neglected one can be an expensive lesson. Take the time to inspect it properly, bring the right tools, and don't let excitement override common sense. The right car at the right price is worth waiting for.
+
+## Related Guides
+
+- [Tesla Battery Replacement Cost: What It Really Costs in 2025](/posts/tesla-battery-replacement-cost/) — Informational · Model 3, Model Y, Model S, Model X · Battery & Electrical
+- [Tesla Winter Preparation: Complete Cold Weather Checklist](/posts/tesla-winter-preparation-guide/) — Easy · Maintenance
+- [Tesla 2026.2.3 Update: Hidden Features, Battery Recalibration, Autopark & Service Mode Changes](/posts/tesla-2026-2-3-software-update-features/) — Easy · Software & Tech
+- [Tesla Coolant Leak: How to Find & Fix It (DIY Guide)](/posts/tesla-coolant-leak-fix/) — Medium · Cooling System
+- [Tesla Dent Repair: PDR, DIY Methods & Cost Guide](/posts/tesla-dent-repair-pdr-guide/) — Medium · Exterior
+- [Tesla Door Handle Not Working? DIY Fix (Save $500+)](/posts/tesla-door-handle-not-working/) — Intermediate · Body & Exterior
+- [Tesla Falcon Wing Door Problems: DIY Fixes](/posts/tesla-falcon-wing-door-fix/) — Medium · Model X · Body

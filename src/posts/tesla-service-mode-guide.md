@@ -250,3 +250,13 @@ Even if you never plan to wrench on your car, knowing how to access Service Mode
 ---
 
 *This guide is based on Service Mode as documented in Tesla's public service manuals and confirmed across multiple Tesla models. Menu options and available features vary by model, year, and software version. Information verified against service.tesla.com documentation and community sources (TeslaTap, NotATeslaApp) as of February 2026.*
+
+## Related Guides
+
+- [Tesla Jack Points & Lifting Guide: How to Safely Jack Up Any Tesla](/posts/tesla-jack-points-lifting-guide/) — Easy · Maintenance
+- [Tesla 2026.2.3 Update: Hidden Features, Battery Recalibration, Autopark & Service Mode Changes](/posts/tesla-2026-2-3-software-update-features/) — Easy · Software & Tech
+- [Tesla Windshield Wiper Replacement: 5-Min DIY Guide + Correct Sizes](/posts/tesla-windshield-wiper-replacement/) — Easy · Maintenance
+- [Tesla Brake Fluid Change: DIY Guide to Bleeding & Flushing Your Brakes](/posts/tesla-brake-fluid-change/) — Intermediate · Brakes
+- [Tesla Coolant Flush & Change: Complete DIY Guide](/posts/tesla-coolant-flush-change/) — Medium · Model 3, Model Y, Model S, Model X · Cooling System
+- [Tesla Door Seal Maintenance: Prevent Wind Noise](/posts/tesla-door-seal-maintenance/) — Easy · Maintenance
+- [Tesla Headlight Replacement: Complete DIY Guide (Model 3, Y, S, X)](/posts/tesla-headlight-replacement/) — Moderate

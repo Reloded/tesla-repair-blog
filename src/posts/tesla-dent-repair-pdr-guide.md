@@ -290,3 +290,13 @@ Filing a comprehensive claim for hail damage doesn't typically raise your premiu
 **Our recommendation:** For most Tesla dents, start with a professional PDR quote. It's usually the best balance of cost, result quality, and preserving your Tesla's original paint. If the dent is a small door ding and you're handy, try DIY glue pulling first — worst case, you're out €30 and you take it to a PDR tech anyway.
 
 Keep the paint intact whenever possible. Every Tesla panel that stays original paint is worth more at resale than one that's been resprayed, no matter how good the color match.
+
+## Related Guides
+
+- [Tesla Vinyl Wrap: Colors, Cost & DIY Installation Guide](/posts/tesla-vinyl-wrap-guide/) — Hard · Exterior
+- [Tesla Window Tint Guide: Best Film, Legal Limits & DIY Tips](/posts/tesla-window-tint-guide/) — Moderate · Exterior
+- [Tesla Battery Replacement Cost: What It Really Costs in 2025](/posts/tesla-battery-replacement-cost/) — Informational · Model 3, Model Y, Model S, Model X · Battery & Electrical
+- [Used Tesla Buying Guide: Pre-Purchase Inspection Checklist](/posts/tesla-used-buying-inspection-guide/) — Beginner · Buying
+- [DIY Tesla Ceramic Coating: Pro Results at Home](/posts/tesla-ceramic-coating/) — Medium · Exterior
+- [Tesla Headlight Condensation: Causes and DIY Fixes](/posts/tesla-headlight-condensation/) — Medium · Exterior
+- [Tesla Glass Roof Problems: Cracks, Leaks, Heat & Sunshade Solutions](/posts/tesla-panoramic-roof-problems/) — Easy–Medium · Model 3, Model Y, Model S, Model X · Exterior

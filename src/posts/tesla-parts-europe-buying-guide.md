@@ -242,3 +242,13 @@ The days of Tesla being the only option for parts are over. For most DIY repairs
 Start with the part number, compare prices across a few sources, and don't automatically assume Amazon is cheapest—specialized suppliers often beat them on actual Tesla parts while offering better quality assurance.
 
 Got questions about sourcing a specific part? [Get in touch](/about/) and I'll help point you in the right direction.
+
+## Related Guides
+
+- [Tesla FSD in Europe: What You Need to Know (2026 Guide)](/posts/tesla-fsd-europe-guide/) — Easy · Software
+- [Tesla Repair Cost Guide: Dealer vs DIY Prices (2026)](/posts/tesla-repair-cost-guide/) — Reference · General
+- [Tesla Coolant Valve Replacement: DIY Guide](/posts/tesla-battery-coolant-valve-replacement/) — Advanced · Model 3, Model Y · Cooling System
+- [Tesla Battery Replacement Cost: What It Really Costs in 2025](/posts/tesla-battery-replacement-cost/) — Informational · Model 3, Model Y, Model S, Model X · Battery & Electrical
+- [Tesla Coolant Leak: How to Find & Fix It (DIY Guide)](/posts/tesla-coolant-leak-fix/) — Medium · Cooling System
+- [Tesla Dent Repair: PDR, DIY Methods & Cost Guide](/posts/tesla-dent-repair-pdr-guide/) — Medium · Exterior
+- [Tesla Door Handle Not Working? DIY Fix (Save $500+)](/posts/tesla-door-handle-not-working/) — Intermediate · Body & Exterior

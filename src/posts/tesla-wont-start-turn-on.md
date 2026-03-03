@@ -271,3 +271,13 @@ Call Tesla:
 | Post-update issue | Wait 30 min, then reboot | 12V disconnect/reconnect |
 
 Most "Tesla won't start" situations are solved by either **jumping/replacing the 12V battery** or **rebooting the car**. Keep a portable jump starter in your garage and a key card in your wallet, and you'll handle 90% of these situations in under 10 minutes.
+
+## Related Guides
+
+- [Tesla 12V Battery Replacement: Step-by-Step DIY (Save €200+)](/posts/tesla-12v-battery-replacement/) — Easy · Electrical
+- [Tesla Key Fob Battery Replacement: 2-Minute Fix](/posts/tesla-key-fob-battery/) — Easy · Model S, Model X · Electrical
+- [Tesla MCU Upgrade: Is It Worth It? Complete Guide](/posts/tesla-mcu-touchscreen-upgrade/) — Hard · Model S, Model X (Pre-2018) · Electrical
+- [Tesla Trunk Wiring Harness Repair: Fix Broken Wires (Model 3/Y)](/posts/tesla-trunk-wiring-harness-repair/) — Intermediate · Model 3, Model Y · Electrical
+- [Tesla 2026.2.3 Update: Hidden Features, Battery Recalibration, Autopark & Service Mode Changes](/posts/tesla-2026-2-3-software-update-features/) — Easy · Software & Tech
+- [How to Install Tesla Ambient Interior Lighting (Model 3/Y)](/posts/tesla-ambient-lighting-install/) — Medium · Model 3, Model Y · Interior
+- [Tesla Battery Degradation: How to Check Health & Maximize Lifespan](/posts/tesla-battery-degradation-health/) — Easy · Battery

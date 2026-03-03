@@ -189,3 +189,13 @@ Take it to Tesla service if:
 - **2024+ Highland/Juniper:** Tesla improved manufacturing tolerances significantly, but check anyway if you notice moisture after rain
 
 Water leaks are annoying but they're not complicated to fix. A tube of sealant and an afternoon of work will sort out most cases. Just make sure to water test before and after — guessing where the leak is coming from almost never works out.
+
+## Related Guides
+
+- [Tesla Trunk Wiring Harness Repair: Fix Broken Wires (Model 3/Y)](/posts/tesla-trunk-wiring-harness-repair/) — Intermediate · Model 3, Model Y · Electrical
+- [Tesla Trunk Won't Close? Latch Reset & Fix Guide](/posts/tesla-trunk-wont-close/) — Easy · Model 3, Model Y · Body
+- [Tesla Emergency Door Release: How to Open Doors When Power Fails](/posts/tesla-emergency-door-release/) — Beginner · Safety
+- [Tesla Frunk Won't Open? Emergency Release Guide](/posts/tesla-frunk-wont-open/) — Easy · Troubleshooting
+- [Tesla Window Tint Guide: Best Film, Legal Limits & DIY Tips](/posts/tesla-window-tint-guide/) — Moderate · Exterior
+- [Tesla Door Handle Not Working? DIY Fix (Save $500+)](/posts/tesla-door-handle-not-working/) — Intermediate · Body & Exterior
+- [Tesla Door Actuator and Latch Replacement: Complete DIY Guide](/posts/tesla-door-latch-actuator-replacement/) — Intermediate to Advanced · Body & Exterior

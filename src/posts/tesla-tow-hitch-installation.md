@@ -268,3 +268,13 @@ For the OEM Model Y package, the savings over having Tesla do it are $300–$600
 For aftermarket installs on Model 3, DIY is almost the default since Tesla doesn't offer an official solution in North America. Budget a Saturday afternoon, watch the U-Haul or EcoHitch installation videos for your specific kit, and take your time with the bumper clips.
 
 One last thing — once the hitch is installed, even if you never tow anything, a 2-inch receiver opens up a world of accessories: bike racks, cargo carriers, hitch steps, and even a portable grill platform for tailgating at the Supercharger. The hitch pays for itself faster than you'd think.
+
+## Related Guides
+
+- [Tesla Towing Guide: Capacity, Range Impact & Tips](/posts/tesla-towing-guide/) — Everything you need to know before towing
+- [Tesla Rear Bumper Removal Guide](/posts/tesla-rear-bumper-removal/) — Required for most hitch installations
+- [Tesla Trunk Wiring Harness Repair](/posts/tesla-trunk-wiring-harness-repair/) — Fix broken wires if you damage the harness during install
+- [Tesla Jack Points & Lifting Guide](/posts/tesla-jack-points-lifting-guide/) — Safe lifting for working under the car
+- [Tesla Road Trip Planning Guide](/posts/tesla-road-trip-planning-guide/) — Plan routes with your new towing setup
+- [Tesla Battery Preconditioning Guide](/posts/tesla-battery-preconditioning-guide/) — Optimize Supercharging when towing
+- [Tesla Tire Pressure Guide](/posts/tesla-tire-pressure-guide/) — Adjust PSI for loaded towing

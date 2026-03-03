@@ -310,3 +310,13 @@ Schedule a service appointment if you notice:
 ---
 
 Your Tesla's glass roof is an engineering showcase — lightweight, structural, and beautifully designed. Most owners never have a problem with it. But if you do, now you know exactly what to look for and how to fix it. For the majority of owners, adding a quality sunshade is the only "upgrade" you'll ever need — and your cabin will thank you for it every summer. ☀️
+
+## Related Guides
+
+- [Tesla Roof Rack Installation Guide](/posts/tesla-roof-rack-installation/) — Install a rack without damaging the glass roof
+- [Tesla Model 3 Roof Trim Replacement](/posts/tesla-model-3-roof-trim-replacement/) — Fix loose or damaged roof trim
+- [Tesla Windshield Replacement Guide](/posts/tesla-windshield-replacement/) — Camera calibration after glass work
+- [Tesla Window Tint Guide](/posts/tesla-window-tint-guide/) — Ceramic tint options for heat reduction
+- [Tesla Water Leak Fix Guide](/posts/tesla-water-leak-fix/) — Diagnose and seal cabin leaks
+- [Tesla Creaking & Rattling Fix](/posts/tesla-creaking-rattling-fix/) — Fix noises from roof and trim areas
+- [Tesla Climate Keeper Issues](/posts/tesla-climate-keeper-issues/) — Troubleshoot Cabin Overheat Protection

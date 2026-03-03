@@ -305,3 +305,13 @@ Most kits drop the Model 3 or Model Y by 20–30 mm (0.8–1.2 inches). The exac
 
 **Is this the same for Model S and Model X?**
 No. Model S and X (with air suspension) have a completely different setup — see our [air suspension guide](/posts/tesla-air-suspension-issues/). Non-air Model S uses coil springs but with different geometry and part numbers than the Model 3/Y.
+
+## Related Guides
+
+- [Tesla Control Arm Replacement: DIY Suspension Fix](/posts/tesla-control-arm-replacement/) — Hard · Suspension
+- [Tesla Shock Absorber (Damper) Replacement: DIY Guide](/posts/tesla-shock-absorber-replacement/) — Advanced · Model 3, Model Y · Suspension
+- [Tesla Sway Bar Link Replacement: Fix That Clunking Noise](/posts/tesla-sway-bar-link-replacement/) — Medium · Model 3/Y · Suspension
+- [Tesla Wheel Bearing Replacement: DIY Guide for Model 3, Y, S & X](/posts/tesla-wheel-bearing-replacement/) — Advanced · Suspension
+- [Tesla Frunk Strut Replacement: DIY Guide (All Models)](/posts/tesla-frunk-strut-replacement/) — Easy · Body & Trim
+- [Tesla Trunk Strut Replacement: Model 3 Trunk & Model Y Liftgate Lift Support Guide](/posts/tesla-trunk-strut-replacement/) — Easy-Medium · Model 3, Model Y · Body & Trim
+- [2026 Tesla Model Y Juniper: Every Known Problem and How to Fix Them](/posts/tesla-model-y-juniper-2026-problems/) — Mixed · Model Y · General

@@ -297,3 +297,13 @@ Front mud flaps: 10–15 minutes per side. Rear mud flaps (aftermarket): 15–20
 Installing mud flaps is one of the easiest and most cost-effective ways to protect your Tesla's paint and body. It requires no special skills, minimal tools, and under an hour of your time. Whether you go with Tesla's OEM fronts or a full aftermarket set, your future self will thank you the first time you drive through a construction zone or a salty winter road without worrying about your paint.
 
 If you're also looking to protect your Tesla's paint, check out our guides on [ceramic coating maintenance](/posts/tesla-ceramic-coating/) and [paint chip repair](/posts/tesla-paint-chip-repair/) for a complete exterior protection strategy.
+
+## Related Guides
+
+- [How to Install a Roof Rack on Tesla Model 3/Y (Complete Guide)](/posts/tesla-roof-rack-installation/) — Easy · Model 3, Model Y · Exterior
+- [DIY Tesla Ceramic Coating: Pro Results at Home](/posts/tesla-ceramic-coating/) — Medium · Exterior
+- [Tesla Dent Repair: PDR, DIY Methods & Cost Guide](/posts/tesla-dent-repair-pdr-guide/) — Medium · Exterior
+- [Tesla Headlight Condensation: Causes and DIY Fixes](/posts/tesla-headlight-condensation/) — Medium · Exterior
+- [Tesla Key Card Not Working? Fix Detection Issues in 60 Seconds](/posts/tesla-key-card-not-working/) — Easy · Exterior
+- [Tesla Glass Roof Problems: Cracks, Leaks, Heat & Sunshade Solutions](/posts/tesla-panoramic-roof-problems/) — Easy–Medium · Model 3, Model Y, Model S, Model X · Exterior
+- [Tesla PPF Installation: DIY Paint Protection Film](/posts/tesla-ppf-installation/) — Hard · Exterior

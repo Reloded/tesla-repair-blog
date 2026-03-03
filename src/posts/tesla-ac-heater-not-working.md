@@ -308,3 +308,13 @@ These three things keep the climate system running for years without issues:
 3. **Keep software updated** — Tesla regularly improves heat pump efficiency and fixes edge-case bugs through OTA updates. Connect to Wi-Fi regularly
 
 The Tesla HVAC system is designed to last the life of the car. A little attention to the cabin filter and occasional reboots handle 90% of complaints. For the other 10%, at least you'll walk into the service center knowing exactly what's wrong.
+
+## Related Guides
+
+- [Tesla Coolant Flush & Change: Complete DIY Guide](/posts/tesla-coolant-flush-change/) — Medium · Model 3, Model Y, Model S, Model X · Cooling System
+- [Tesla AC Not Cooling? Fix It Yourself in 30 Minutes](/posts/tesla-ac-not-cooling/) — Easy to Intermediate · HVAC
+- [Tesla Heat Pump Problems: Diagnosis & Solutions](/posts/tesla-heat-pump-problems/) — Medium · Model 3, Model Y, 2021+ Model S/X · HVAC
+- [Tesla Seat Heater Not Working: DIY Troubleshooting](/posts/tesla-seat-heater-fix/) — Medium · Interior
+- [Tesla 2026.2.3 Update: Hidden Features, Battery Recalibration, Autopark & Service Mode Changes](/posts/tesla-2026-2-3-software-update-features/) — Easy · Software & Tech
+- [Tesla Service Mode: How to Access It, What It Unlocks & When You Need It (2025 Guide)](/posts/tesla-service-mode-guide/) — Easy · Model 3, Model Y, Model S, Model X · Maintenance
+- [Tesla Coolant Valve Replacement: DIY Guide](/posts/tesla-battery-coolant-valve-replacement/) — Advanced · Model 3, Model Y · Cooling System

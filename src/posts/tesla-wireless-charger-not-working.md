@@ -166,3 +166,13 @@ You can schedule service through the Tesla app under Service > Request Service.
 Most Tesla wireless charger problems come down to phone cases and heat management. Start with the free fixes — remove the case, reboot the touchscreen, try flipping the phone upside down. If the hardware itself has failed, replacement modules are affordable and the swap takes about 30 minutes with basic tools.
 
 For related charging and electronics guides, check out our posts on [Tesla USB not working](/posts/tesla-usb-not-working/), [touchscreen black screen fixes](/posts/tesla-screen-black-fix/), and [phone key troubleshooting](/posts/tesla-phone-key-not-working/).
+
+## Related Guides
+
+- [Tesla Seat Adjustment Not Working: Fix Guide](/posts/tesla-seat-adjustment-not-working/) — Intermediate · Model 3, Model Y, Model S, Model X · Interior
+- [Tesla Seat Heater Not Working: DIY Troubleshooting](/posts/tesla-seat-heater-fix/) — Medium · Interior
+- [Tesla Model 3/Y Speaker and Audio Upgrade Guide: Factory to Audiophile](/posts/tesla-speaker-audio-upgrade/) — Medium-Hard · Model 3, Model Y · Interior & Electronics
+- [Tesla Climate Keeper Not Working: Troubleshooting](/posts/tesla-climate-keeper-issues/) — Easy · Climate
+- [Tesla Heated Steering Wheel Not Working? How to Fix It](/posts/tesla-heated-steering-wheel-fix/) — Easy–Medium · Model 3 (2021+), Y, S, X · Climate & Comfort
+- [Tesla USB Not Working? The Complete Fix Guide for Every USB Issue](/posts/tesla-usb-not-working/) — Easy · Interior
+- [How to Format USB for Tesla Dashcam & Sentry Mode (30 Seconds)](/posts/format-usb-tesla-dashcam/) — Easy · Interior

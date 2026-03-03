@@ -180,3 +180,13 @@ Will it be perfect on day one? No. European roads, regulations, and driving styl
 The subscription model means there's zero risk in trying it. When it drops in your country, sign up for a month, see how it handles your daily routes, and decide from there.
 
 Welcome to the future. It's supervised, but it's here.
+
+## Related Guides
+
+- [Tesla Autopilot Unavailable? 7 Fixes That Work](/posts/tesla-autopilot-unavailable/) — Troubleshoot when Autopilot stops working
+- [Tesla Autopilot Camera Calibration Guide](/posts/tesla-autopilot-camera-calibration/) — Recalibrate cameras after windshield replacement
+- [Tesla Vision vs Radar & LiDAR Explained](/posts/tesla-vision-vs-radar-lidar/) — Understand Tesla's sensor strategy
+- [Tesla Phantom Braking Fix](/posts/tesla-phantom-braking-fix/) — Reduce false braking events on Autopilot
+- [2026 Tesla Model 3 Refresh Changes](/posts/tesla-model-3-2026-refresh-changes/) — What's new in the Highland refresh
+- [Tesla Software Update Stuck? How to Fix](/posts/tesla-software-update-stuck/) — Troubleshoot failed OTA updates
+- [Tesla Parts Europe Buying Guide](/posts/tesla-parts-europe-buying-guide/) — Where to source Tesla parts in Europe

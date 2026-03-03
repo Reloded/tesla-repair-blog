@@ -288,3 +288,13 @@ Automatic car washes can damage roof rack components and accessories. Hand wash,
 A roof rack is one of the most practical accessories you can add to your Tesla Model 3 or Model Y. The OEM rack offers the cleanest installation and best aerodynamics, while aftermarket options like Thule and Yakima provide wider accessory compatibility. Whichever route you choose, respect the weight limits, secure your cargo properly, and remove the rack when you don't need it to preserve your range.
 
 The entire installation takes less than 30 minutes with basic tools, and it's completely reversible—making this one of the easiest and most rewarding DIY upgrades for your Tesla.
+
+## Related Guides
+
+- [Tesla Glass Roof Problems: Cracks, Leaks & Heat Solutions](/posts/tesla-panoramic-roof-problems/) — Protect and maintain your glass roof
+- [Tesla Model 3 Roof Trim Replacement](/posts/tesla-model-3-roof-trim-replacement/) — Fix trim damaged during rack install
+- [Tesla Towing Guide](/posts/tesla-towing-guide/) — Towing capacity and range impact with cargo
+- [Tesla Tow Hitch Installation](/posts/tesla-tow-hitch-installation/) — Alternative cargo: hitch-mounted bike/cargo racks
+- [Tesla Road Trip Planning Guide](/posts/tesla-road-trip-planning-guide/) — Plan trips accounting for rack range loss
+- [Tesla Creaking & Rattling Fix](/posts/tesla-creaking-rattling-fix/) — Diagnose wind noise from rack installation
+- [Tesla Winter Preparation Checklist](/posts/tesla-winter-preparation-guide/) — Ski rack and winter cargo tips

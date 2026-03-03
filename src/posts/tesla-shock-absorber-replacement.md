@@ -249,3 +249,13 @@ If you're replacing just the damper and reusing the spring, yes. If you're buyin
 
 **Is this the same for Model S and Model X?**
 Model S (non-air suspension) is similar in concept but different in specifics. Model X and Model S with air suspension are a different job entirely. This guide covers Model 3 and Model Y with coil springs only.
+
+## Related Guides
+
+- [Tesla Coil Spring Replacement & Lowering Springs Guide](/posts/tesla-coil-spring-replacement/) — Advanced · Model 3, Model Y · Suspension
+- [Tesla Control Arm Replacement: DIY Suspension Fix](/posts/tesla-control-arm-replacement/) — Hard · Suspension
+- [Tesla Sway Bar Link Replacement: Fix That Clunking Noise](/posts/tesla-sway-bar-link-replacement/) — Medium · Model 3/Y · Suspension
+- [Tesla Wheel Bearing Replacement: DIY Guide for Model 3, Y, S & X](/posts/tesla-wheel-bearing-replacement/) — Advanced · Suspension
+- [Tesla Frunk Strut Replacement: DIY Guide (All Models)](/posts/tesla-frunk-strut-replacement/) — Easy · Body & Trim
+- [Tesla Trunk Strut Replacement: Model 3 Trunk & Model Y Liftgate Lift Support Guide](/posts/tesla-trunk-strut-replacement/) — Easy-Medium · Model 3, Model Y · Body & Trim
+- [2026 Tesla Model Y Juniper: Every Known Problem and How to Fix Them](/posts/tesla-model-y-juniper-2026-problems/) — Mixed · Model Y · General

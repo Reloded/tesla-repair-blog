@@ -250,3 +250,13 @@ For diagnosing other battery-related issues, check our guides on [phantom drain]
 ---
 
 *Last updated: February 2026. Degradation data based on publicly available fleet statistics and community reports.*
+
+## Related Guides
+
+- [Tesla Range Loss: Why It Happens & How to Fix It](/posts/tesla-range-loss-fix/) — Medium · Battery
+- [Tesla 12V Battery Replacement: Step-by-Step DIY (Save €200+)](/posts/tesla-12v-battery-replacement/) — Easy · Electrical
+- [Tesla 2026.2.3 Update: Hidden Features, Battery Recalibration, Autopark & Service Mode Changes](/posts/tesla-2026-2-3-software-update-features/) — Easy · Software & Tech
+- [Tesla Battery Preconditioning: Faster Charging & Better Range](/posts/tesla-battery-preconditioning-guide/) — Beginner · Battery & Charging
+- [Tesla Battery Replacement Cost: What It Really Costs in 2025](/posts/tesla-battery-replacement-cost/) — Informational · Model 3, Model Y, Model S, Model X · Battery & Electrical
+- [Tesla Key Fob Battery Replacement: 2-Minute Fix](/posts/tesla-key-fob-battery/) — Easy · Model S, Model X · Electrical
+- [How to Fix Tesla Phantom Battery Drain (Vampire Drain)](/posts/tesla-phantom-battery-drain-fix/) — Easy · Software & Settings

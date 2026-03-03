@@ -304,3 +304,13 @@ For DIY purposes, a third-party OBD2 scanner gives you more useful data than the
 If you're serious about maintaining your Tesla yourself, a diagnostic scanner is non-negotiable. Start with a Vgate vLinker MC+ and Scan My Tesla if you're on a budget, or go with the OBDLink CX for a premium experience. Either way, you'll have access to data that most independent shops don't even have, and you'll save hundreds over time by not paying for diagnostic visits.
 
 The data your scanner provides makes every other repair in our [repair guide collection](/posts/tesla-repair-cost-guide/) easier and more reliable. You'll know exactly what's wrong before you start wrenching, and you'll know for certain when the job is done right.
+
+## Related Guides
+
+- [Tesla Paint Chip Repair: DIY Touch-Up Guide](/posts/tesla-paint-chip-repair/) — Easy · Body & Exterior
+- [Tesla Tie Rod End Replacement: DIY Steering Repair Guide](/posts/tesla-tie-rod-end-replacement/) — Medium · Model 3, Model Y · Steering
+- [Tesla Trunk Wiring Harness Repair: Fix Broken Wires (Model 3/Y)](/posts/tesla-trunk-wiring-harness-repair/) — Intermediate · Model 3, Model Y · Electrical
+- [How to Format USB for Tesla Dashcam & Sentry Mode (30 Seconds)](/posts/format-usb-tesla-dashcam/) — Easy · Interior
+- [Tesla 12V Battery Replacement: Step-by-Step DIY (Save €200+)](/posts/tesla-12v-battery-replacement/) — Easy · Electrical
+- [Tesla 2026.2.3 Update: Hidden Features, Battery Recalibration, Autopark & Service Mode Changes](/posts/tesla-2026-2-3-software-update-features/) — Easy · Software & Tech
+- [Tesla AC or Heater Not Working? Fix It Without a Service Visit](/posts/tesla-ac-heater-not-working/) — Easy–Medium · HVAC

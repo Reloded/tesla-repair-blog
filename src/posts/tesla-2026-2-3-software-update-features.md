@@ -167,3 +167,13 @@ If you're still waiting for the update, it's now in wide release. Go to **Contro
 For anyone tracking battery health: charge to 100% after updating and compare your range. You might be pleasantly surprised.
 
 *Got questions about the 2026.2.3 update? Drop a comment below or check the [Tesla community forums](https://teslamotorsclub.com) for real-time owner feedback.*
+
+## Related Guides
+
+- [Tesla Service Mode: How to Access It, What It Unlocks & When You Need It (2025 Guide)](/posts/tesla-service-mode-guide/) — Easy · Model 3, Model Y, Model S, Model X · Maintenance
+- [Tesla Jack Points & Lifting Guide: How to Safely Jack Up Any Tesla](/posts/tesla-jack-points-lifting-guide/) — Easy · Maintenance
+- [Tesla Dog Mode & Camp Mode: How They Work, Settings & Tips (2025 Guide)](/posts/tesla-dog-mode-camp-mode/) — Beginner · Model 3, Model Y, Model S, Model X · Software & Tech
+- [Tesla Battery Replacement Cost: What It Really Costs in 2025](/posts/tesla-battery-replacement-cost/) — Informational · Model 3, Model Y, Model S, Model X · Battery & Electrical
+- [How to Fix Tesla Phantom Battery Drain (Vampire Drain)](/posts/tesla-phantom-battery-drain-fix/) — Easy · Software & Settings
+- [Tesla Climate Keeper Not Working: Troubleshooting](/posts/tesla-climate-keeper-issues/) — Easy · Climate
+- [Tesla Seat Heater Not Working: DIY Troubleshooting](/posts/tesla-seat-heater-fix/) — Medium · Interior

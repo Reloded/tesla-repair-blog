@@ -276,3 +276,13 @@ For Tesla-specific parts and tools, check our [Tesla parts buying guide for Euro
 **💡 Bookmark this page.** We update costs and add new guides regularly. This is your one-stop reference for Tesla repair costs and DIY savings.
 
 </div>
+
+## Related Guides
+
+- [Tesla Dent Repair: PDR, DIY Methods & Cost Guide](/posts/tesla-dent-repair-pdr-guide/) — Medium · Exterior
+- [Tesla Battery Replacement Cost: What It Really Costs in 2025](/posts/tesla-battery-replacement-cost/) — Informational · Model 3, Model Y, Model S, Model X · Battery & Electrical
+- [Tesla FSD in Europe: What You Need to Know (2026 Guide)](/posts/tesla-fsd-europe-guide/) — Easy · Software
+- [Where to Buy Tesla Parts in Europe (2026 Guide)](/posts/tesla-parts-europe-buying-guide/) — Reference · Guides
+- [Tesla Model 3 Superbottle Replacement: What It Is, Symptoms & Cost (2025 Guide)](/posts/tesla-superbottle-replacement/) — Hard · Model 3 · Cooling System
+- [Tesla Vinyl Wrap: Colors, Cost & DIY Installation Guide](/posts/tesla-vinyl-wrap-guide/) — Hard · Exterior
+- [Tesla Coolant Valve Replacement: DIY Guide](/posts/tesla-battery-coolant-valve-replacement/) — Advanced · Model 3, Model Y · Cooling System
