@@ -11,14 +11,14 @@ emoji: "⚙️"
 tools:
   - name: "Floor Jack and Jack Stands"
     link: "https://www.amazon.de/s?k=floor+jack+3+ton&tag=diyrepair-21"
-  - name: "10mm and 14mm Hex Sockets"
+  - name: "EPL10 Socket and Hex Socket Set"
     link: "https://www.amazon.de/s?k=hex+socket+set+metric&tag=diyrepair-21"
   - name: "Fluid Transfer Pump"
     link: "https://www.amazon.de/s?k=fluid+transfer+pump&tag=diyrepair-21"
   - name: "Drain Pan"
     link: "https://www.amazon.de/s?k=oil+drain+pan&tag=diyrepair-21"
-  - name: "Pentosin FFL-4 Gear Oil"
-    link: "https://www.amazon.de/s?k=pentosin+ffl-4&tag=diyrepair-21"
+  - name: "ATF-9 / KAF1 Gearbox Fluid"
+    link: "https://www.amazon.de/s?k=tesla+atf-9+gearbox+fluid&tag=diyrepair-21"
 ---
 
 Tesla doesn't include gear oil changes in their standard maintenance schedule, but that doesn't mean the fluid lasts forever. The reduction gear in your Tesla's drive unit relies on oil to lubricate the gears and bearings. Over time, this oil breaks down and collects metal particles from normal wear.
@@ -58,11 +58,13 @@ Per [Tesla's service documentation](https://service.tesla.com/docs/Model3/Servic
 
 | Model | Front Drive Unit | Rear Drive Unit |
 |-------|------------------|-----------------|
-| Model 3 RWD | N/A | **2.1-2.3L** |
-| Model 3 AWD | **1.3-1.5L** | **2.1-2.3L** |
-| Model Y RWD | N/A | **2.1-2.3L** |
-| Model Y AWD | **1.3-1.5L** | **2.1-2.3L** |
-| Model S/X | Varies by generation | Varies by generation |
+| Model 3 RWD | N/A | **2,100 mL** (3DU) |
+| Model 3 AWD | **1,300 mL** | **2,100 mL** (3DU) |
+| Model Y RWD | N/A | **2,100 mL** (3DU) |
+| Model Y AWD | **1,300 mL** | **2,100 mL** (3DU) |
+| Model S/X (4DU rear) | Varies by generation | **2,300 mL** (4DU) |
+
+> **Note:** 3DU = standard reduction drive unit (Model 3/Y). 4DU = larger drive unit (high-performance Model S/X variants). Always confirm your drive unit type before ordering fluid quantity.
 
 <div class="warning-box">
 <strong>Warning:</strong> Many online sources incorrectly list capacities as 500-600ml. Tesla's official service manual specifies **1.3-2.3 liters** depending on drive unit. Underfilling will cause premature wear and damage.
@@ -89,10 +91,10 @@ Per [Tesla's service documentation](https://service.tesla.com/docs/Model3/Servic
 ### Step 2: Locate Drain and Fill Plugs
 
 **Rear Drive Unit:**
-- Drain plug: Bottom of drive unit housing (14mm hex)
-- Fill plug: Side of drive unit, slightly higher (10mm hex)
+- Oil pump bolts (drain method): Bottom of drive unit housing — **EPL10 socket**, 2 bolts (5 Nm + 20 degrees)
+- Fill plug: Side of drive unit, slightly higher (10mm hex, 15 Nm)
 
-> **⚠️ Official Procedure Note:** Tesla's official service manual procedure for draining involves removing the oil pump (2 bolts) and oil filter, not a simple drain plug. The 14mm hex plug described above is used for DIY access. For a complete drain per Tesla's official procedure, the oil pump must be removed. Consider this if doing a thorough service.
+> **⚠️ Official Procedure Note:** Tesla's official service manual procedure for draining involves removing the oil pump (2 bolts, EPL10 socket) and oil filter — not a simple drain plug. For a complete drain per Tesla's official procedure, the oil pump must be removed. Consider this if doing a thorough service.
 
 **Front Drive Unit (AWD models):**
 - Same arrangement but smaller unit
@@ -215,4 +217,4 @@ Front and rear units take the same fluid, but keep track of how much goes in eac
 
 ---
 
-> **Verified:** Key specifications verified against Tesla Service Manual (service.tesla.com) on March 2, 2026.
+> **Torque values and fluid specs verified against Tesla Service Manual (service.tesla.com) — March 2026**

@@ -13,8 +13,8 @@ tools:
     link: "https://www.amazon.de/s?k=3+ton+floor+jack&tag=diyrepair-21"
   - name: "Jack Stands (Set of 4)"
     link: "https://www.amazon.de/s?k=jack+stands+set+of+4&tag=diyrepair-21"
-  - name: "8mm Allen/Hex Key"
-    link: "https://www.amazon.de/s?k=8mm+allen+hex+key&tag=diyrepair-21"
+  - name: "EPL10 Socket and Hex Socket Set"
+    link: "https://www.amazon.de/s?k=hex+socket+set+metric&tag=diyrepair-21"
   - name: "Oil Drain Pan"
     link: "https://www.amazon.de/s?k=oil+drain+pan&tag=diyrepair-21"
   - name: "Fluid Transfer Pump"
@@ -85,12 +85,12 @@ The rear drive unit on Model 3/Y requires **2,100 mL (2.1L) minimum**. Tesla rec
 ### Step 2: Locate Drain and Fill Plugs
 
 **Rear Drive Unit (Model 3/Y):**
-- **Drain plug:** Bottom of the drive unit housing (8mm Allen)
-- **Fill plug:** Side of the drive unit housing (8mm Allen)
+- **Oil pump bolts (drain method):** Bottom of the drive unit housing — **EPL10 socket**, 2 bolts (5 Nm + 20 degrees)
+- **Fill plug:** Side of the drive unit housing (10mm hex, 15 Nm)
 
 **Front Drive Unit (Dual Motor):**
-- **Drain plug:** Bottom of the front drive unit
-- **Fill plug:** Side of the unit, with an oil filter nearby
+- **Oil pump bolts (drain method):** Bottom of the front drive unit — EPL10 socket
+- **Fill plug:** Side of the unit (15 Nm), with an oil filter nearby
 
 <div class="warning-box">
 <strong>⚠️ Service Manual Note:</strong> Tesla's official drain procedure does NOT use a simple drain plug. The service manual calls for removing the oil pump (2 bolts) and oil filter to drain the drive unit. The 8mm Allen plug described above provides access for a simplified DIY drain, but may not achieve a complete drain. For a thorough service, follow the official pump-removal procedure.
@@ -103,8 +103,8 @@ The rear drive unit on Model 3/Y requires **2,100 mL (2.1L) minimum**. Tesla rec
 ### Step 3: Drain the Old Fluid
 
 1. Place the drain pan under the drive unit
-2. Remove the **fill plug** first (8mm Allen)
-3. Remove the **drain plug** (8mm Allen) — fluid will flow out
+2. Remove the **fill plug** first (10mm hex) — always open this before draining
+3. Remove the **oil pump** (2 bolts, EPL10 socket, 5 Nm + 20 degrees) to drain — fluid will flow out
 4. Allow fluid to drain completely (5–10 minutes)
 5. Inspect the old fluid — it should be reddish. Dark brown or metallic particles indicate wear
 
@@ -118,11 +118,9 @@ The front drive unit has an external oil filter:
 
 ### Step 5: Refill with New Fluid
 
-1. Install the drain plug with a new crush washer
-2. **Rear drive unit drain/fill plug torque: 28 Nm (21 ft-lbs)**
-3. **Front drive unit fill plug torque: 15 Nm (11 ft-lbs)**
-4. Using a fluid transfer pump, fill through the fill hole until fluid begins to seep out
-5. Install the fill plug and torque to spec
+1. Reinstall the oil pump with new O-ring and torque bolts to **5 Nm + 20 degrees** (EPL10 socket)
+2. Using a fluid transfer pump, fill through the fill hole until fluid begins to seep out
+3. Install the fill plug and torque to **15 Nm (11 ft-lbs)**
 
 <div class="tip-box">
 <strong>Pro Tip:</strong> A hand pump with a flexible hose makes filling much easier when working under the car. Fill slowly to avoid air pockets.
@@ -138,17 +136,15 @@ The front drive unit has an external oil filter:
 
 ## Torque Specifications Summary
 
-| Fastener | Torque |
-|----------|--------|
-| Rear drive unit drain plug (8mm Allen) | 28 Nm (21 ft-lbs) |
-| Rear drive unit fill plug (8mm Allen) | 28 Nm (21 ft-lbs) |
-| Front drive unit fill plug (8mm Allen) | 15 Nm (11 ft-lbs) |
-| Front drive unit oil filter | 3 Nm (2.2 ft-lb) + 135 degrees |
-| Oil pump to drive unit bolts | 5 Nm (3.7 ft-lb) + 20 degrees |
+| Fastener | Socket | Torque |
+|----------|--------|--------|
+| Oil pump bolts (3DU drain method) | EPL10 | 5 Nm (3.7 ft-lb) + 20 degrees |
+| Fill plug (rear & front drive units) | 10mm hex | 15 Nm (11 ft-lbs) |
+| Oil filter (front drive unit) | — | 3 Nm (2.2 ft-lb) + 135 degrees |
 
-*Sources: Tesla Service Manual, tighttorque.com*
+*Sources: Tesla Service Manual (service.tesla.com), March 2026*
 
-> **Verified:** Key specifications verified against Tesla Service Manual (service.tesla.com) on March 2, 2026.
+> **Torque values and fluid specs verified against Tesla Service Manual (service.tesla.com) — March 2026**
 
 ## When a Fluid Change Won't Help
 
