@@ -44,12 +44,12 @@ Tesla's official service intervals vary by model and year:
 
 | Model | Service Interval | Total System Capacity (filled from dry) |
 |-------|------------------|-----------------------------------------|
-| Model S/X (pre-2021) | Every 4 years or 80,000 km | 10-12L total |
-| Model S/X (2021+) | Every 4 years or 80,000 km | 8-10L total |
-| Model 3/Y RWD (LFP60) | Every 4 years or 80,000 km | **14.6L** |
-| Model 3/Y RWD (2170 E1) | Every 4 years or 80,000 km | **16.3L** |
-| Model 3/Y AWD (2170 E1) | Every 4 years or 80,000 km | **16.7L** |
-| Model 3/Y AWD (2170 E3) | Every 4 years or 80,000 km | **18.4L** |
+| Model S/X (pre-2021) | Every 4 years or 80,000 km | ~10-12L *(unverified — consult your service manual for your specific model year)* |
+| Model S/X (2021+) | Every 4 years or 80,000 km | ~8-10L *(unverified — consult your service manual for your specific model year)* |
+| Model 3/Y RWD (LFP60) | Every 4 years or 80,000 km | **14.6L** ✓ |
+| Model 3/Y RWD (2170 E1) | Every 4 years or 80,000 km | **16.3L** ✓ |
+| Model 3/Y AWD (2170 E1) | Every 4 years or 80,000 km | **16.7L** ✓ |
+| Model 3/Y AWD (2170 E3) | Every 4 years or 80,000 km | **18.4L** ✓ |
 
 > **⚠️ Important:** The total system capacity is much larger than commonly reported online. A single drain-and-refill will not replace all coolant in the system — some remains in the battery cooling loop, heater core, and various channels. Plan to use 8–10L for a drain-and-refill, or up to the full capacity above for a complete dry-fill after major cooling system work.
 

@@ -71,7 +71,7 @@ Catch these early and you'll save yourself a world of pain:
 </div>
 
 <div class="warning-box">
-<strong>Warranty Note:</strong> Tesla's owner's manual states that "any damage caused by opening the Battery coolant reservoir is excluded from the warranty." Additionally, per the Tesla Service Manual: <em>"Tesla cannot provide warranties for any type of coolant other than Tesla G-48 coolant."</em> Only use Tesla-approved G-48 coolant (EMEA P/N 1119779-00-A; NA P/N 1029320-00-A) to maintain warranty coverage. If your car is under warranty, consider having Tesla service handle coolant work.
+<strong>Warranty Note:</strong> Tesla's owner's manual states that "any damage caused by opening the Battery coolant reservoir is excluded from the warranty." *(Quoted from Tesla owner's manual — verify this language applies to your specific model year and the current version of the manual.)* Additionally, per the Tesla Service Manual: <em>"Tesla cannot provide warranties for any type of coolant other than Tesla G-48 coolant."</em> Only use Tesla-approved G-48 coolant (EMEA P/N 1119779-00-A; NA P/N 1029320-00-A) to maintain warranty coverage. If your car is under warranty, consider having Tesla service handle coolant work.
 </div>
 
 > **Coolant and torque specs verified against Tesla Service Manual (service.tesla.com) - March 2026.** Approved coolant: Tesla G-48 ethylene glycol 50/50 mix. EMEA P/N: 1119779-00-A (pre-mixed, do NOT add water). NA P/N: 1029320-00-A. Concentration: 50–60% ethylene glycol.

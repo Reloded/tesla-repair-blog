@@ -176,6 +176,17 @@ This is the step where patience pays off. Air trapped in the system will prevent
 
 After bleeding, check that the coolant level sits between the NOM and MAX lines on the reservoir.
 
+**System capacities (filled from dry)** — for reference if you're doing a full drain alongside the pump swap:
+
+| Configuration | Total Capacity (dry fill) |
+|---------------|--------------------------|
+| RWD SR LFP60 | **14.6 L** ✓ |
+| RWD 2170 E1 | **16.3 L** ✓ |
+| AWD 2170 E1 | **16.7 L** ✓ |
+| AWD 2170 E3 | **18.4 L** ✓ |
+
+For a partial drain-and-refill during a pump swap, plan for 2–4 liters. Have at least 4 liters of G-48 coolant on hand.
+
 ### 7. Check for leaks and exit Service Mode
 
 With the coolant system full, visually inspect around the new pump for any seepage. Check the O-ring area and the electrical connector.
