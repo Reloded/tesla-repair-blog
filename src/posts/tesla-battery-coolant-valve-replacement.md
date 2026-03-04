@@ -55,6 +55,8 @@ The VCFRONT_a210_coolantValveCalib error is one of the most common failures on 2
 <strong>Important:</strong> Only use Zerex G48 (or equivalent phosphate-free) coolant. Regular automotive coolant will damage Tesla's cooling system. The bottle will specifically list Tesla as an approved application.
 </div>
 
+> **Coolant and torque specs partially verified against Tesla Service Manual (service.tesla.com) - March 2026.** Approved coolant: EMEA — Tesla G-48 (P/N 1119779-00-A, pre-mixed, do NOT add water); NA — Ethylene glycol 50/50 (P/N 1029320-00-A). Valve mounting bolt torque (9 Nm) is **not verified** against the service manual — only pump-to-supermanifold (1.8 Nm, Torx T20) and coolant bottle-to-supermanifold (5 Nm, Torx T25) torques were confirmed.
+
 ## Cost Comparison
 
 | Option | Parts | Labor | Total |
@@ -97,7 +99,7 @@ The coolant valve is located in the front of the vehicle, in the "penthouse" are
 
 1. Disconnect the electrical connector from the coolant valve (press the release tab)
 2. Use spring clamp pliers to release each coolant hose from the valve
-3. Remove the mounting bolts securing the valve to the bracket (typically 10mm, **torque spec: 9 Nm / 7 ft-lbs** for reinstall)
+3. Remove the mounting bolts securing the valve to the bracket (typically 10mm, **torque spec: 9 Nm / 7 ft-lbs** for reinstall — *note: this spec is for the valve mounting bracket bolts and has not been directly verified against the Tesla Service Manual; verified coolant pump-to-supermanifold bolts are 1.8 Nm/Torx T20*)
 4. Carefully wiggle the valve free from all hose connections
 5. Have rags ready — residual coolant will spill
 
@@ -107,7 +109,7 @@ The coolant valve is located in the front of the vehicle, in the "penthouse" are
 2. Apply a thin film of coolant to new O-rings for easier installation
 3. Seat the new valve into position on the mounting bracket
 4. Reconnect all coolant hoses and secure spring clamps
-5. Torque mounting bolts to **9 Nm (7 ft-lbs)**
+5. Torque mounting bolts to **9 Nm (7 ft-lbs)** *(not verified against service manual — see note in Step 4)*
 6. Reconnect the electrical connector until it clicks
 
 ### Step 6: Refill Coolant

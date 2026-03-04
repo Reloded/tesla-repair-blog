@@ -160,7 +160,9 @@ Make sure both come off with the old pump. If one is stuck on the supermanifold,
 
 Lubricate both O-rings with silicone O-ring lubricant. Don't use petroleum-based grease because it degrades rubber.
 
-Position the new pump onto the supermanifold. Make sure it seats evenly. Install the four bolts hand-tight first, then snug them down in a cross pattern. Don't overtighten. These are small bolts threading into an aluminum housing.
+Position the new pump onto the supermanifold. Make sure it seats evenly. Install the four bolts hand-tight first, then snug them down in a cross pattern. **Torque to 1.8 Nm (Torx T20)** — these are small bolts threading into an aluminum housing and are easy to strip if overtightened.
+
+> **Coolant and torque specs verified against Tesla Service Manual (service.tesla.com) - March 2026.** Pump-to-supermanifold: 1.8 Nm × 4 bolts (Torx T20) for both HV Battery pump and Powertrain pump. Approved coolant: EMEA — Tesla G-48 (P/N 1119779-00-A, pre-mixed, do NOT add water); NA — Ethylene glycol 50/50 (P/N 1029320-00-A). Concentration: 50–60% ethylene glycol.
 
 Reconnect the electrical harness and make sure the locking tab clicks.
 

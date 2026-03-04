@@ -331,7 +331,7 @@ With basic tools and patience for the air bleeding process, this is a very achie
 
 *Have questions about Tesla coolant changes? Found a different procedure that works for your model year? Leave a comment below and help other owners!*
 
-> **Verified:** Key specifications verified against Tesla Service Manual (service.tesla.com) on March 2, 2026.
+> **Coolant and torque specs verified against Tesla Service Manual (service.tesla.com) - March 2026.** Approved coolant: EMEA — Tesla G-48 (P/N 1119779-00-A, pre-mixed, do NOT add water); NA — Ethylene glycol 50/50 (P/N 1029320-00-A). System capacities (filled from dry): RWD LFP60 = 14.6L, RWD 2170 E1 = 16.3L, AWD 2170 E1 = 16.7L, AWD 2170 E3 = 18.4L. Note: a drain-and-refill typically uses 6–10L, not the full system volume.
 
 ## Related Guides
 

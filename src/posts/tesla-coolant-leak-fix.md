@@ -71,8 +71,10 @@ Catch these early and you'll save yourself a world of pain:
 </div>
 
 <div class="warning-box">
-<strong>Warranty Note:</strong> Tesla's owner's manual states that "any damage caused by opening the Battery coolant reservoir is excluded from the warranty." If your car is under warranty, consider having Tesla service handle coolant work to avoid voiding coverage. This applies to all DIY coolant procedures described below.
+<strong>Warranty Note:</strong> Tesla's owner's manual states that "any damage caused by opening the Battery coolant reservoir is excluded from the warranty." Additionally, per the Tesla Service Manual: <em>"Tesla cannot provide warranties for any type of coolant other than Tesla G-48 coolant."</em> Only use Tesla-approved G-48 coolant (EMEA P/N 1119779-00-A; NA P/N 1029320-00-A) to maintain warranty coverage. If your car is under warranty, consider having Tesla service handle coolant work.
 </div>
+
+> **Coolant and torque specs verified against Tesla Service Manual (service.tesla.com) - March 2026.** Approved coolant: Tesla G-48 ethylene glycol 50/50 mix. EMEA P/N: 1119779-00-A (pre-mixed, do NOT add water). NA P/N: 1029320-00-A. Concentration: 50–60% ethylene glycol.
 
 ## How Tesla's Cooling System Works (Quick Overview)
 
@@ -147,7 +149,7 @@ A coolant pressure tester forces the system above normal operating pressure, mak
 1. Let the car cool completely
 2. Remove the coolant reservoir cap
 3. Attach the pressure tester adapter to the reservoir opening
-4. Pump to **1.0-1.2 bar** (14-17 psi) — do NOT exceed 1.5 bar
+4. Pump to **1.0-1.2 bar** (14-17 psi) — do NOT exceed 1.5 bar *(pressure test spec not verified against Tesla Service Manual)*
 5. Watch the gauge — if pressure drops, there's a leak
 6. Inspect all connections while the system is pressurized
 7. Listen for hissing sounds that indicate the leak location

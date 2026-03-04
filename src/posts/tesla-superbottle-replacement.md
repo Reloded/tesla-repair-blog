@@ -166,7 +166,20 @@ While we can't provide full step-by-step instructions (this requires Tesla's ser
 11. Run thermal system diagnostics to verify operation
 12. Calibrate the coolant valve if needed
 
-**Coolant spec:** Tesla uses **G-48** ethylene glycol coolant (pre-mixed 50/50, ready to use) in the EMEA region (part number 1119779-00-A). In the US, Tesla specifies a different ethylene glycol coolant (part number 1029320-00-A). Zerex G-48 (Valvoline) is the widely-used compatible option in Europe. Do not use generic green or orange coolant — the wrong coolant can damage seals and the heat exchanger. The coolant reservoir holds **3.2 liters**, but the total system capacity across both loops is significantly more — have at least 8 liters on hand for a full drain and refill.
+**Coolant spec:** Tesla uses **G-48** ethylene glycol coolant (pre-mixed 50/50, ready to use) in the EMEA region (part number 1119779-00-A). In the US, Tesla specifies a different ethylene glycol coolant (part number 1029320-00-A). Zerex G-48 (Valvoline) is the widely-used compatible option in Europe. Do not use generic green or orange coolant — the wrong coolant can damage seals and the heat exchanger.
+
+> **Coolant and torque specs verified against Tesla Service Manual (service.tesla.com) - March 2026**
+
+The coolant reservoir holds approximately **3.2 liters**, but this is the reservoir volume only — not the total system capacity. The full cooling system (filled from dry) holds significantly more coolant depending on your configuration:
+
+| Configuration | Total System Capacity (filled from dry) |
+|---------------|----------------------------------------|
+| RWD SR LFP60 | **14.6 L** |
+| RWD 2170 E1 | **16.3 L** |
+| AWD 2170 E1 | **16.7 L** |
+| AWD 2170 E3 | **18.4 L** |
+
+For a drain-and-refill (not replacing from dry), plan for 6–10 liters. Have at least 10 liters of G-48 coolant on hand before starting this job.
 
 **Refrigerant:** R-1234yf (not R-134a). The system requires a precise charge amount — overcharging or undercharging causes performance issues.
 
