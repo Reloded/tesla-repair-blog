@@ -47,7 +47,7 @@ Every Tesla has **four factory lift points** built into the vehicle subframe. Th
 
 - **Location:** Four lift points, one near each corner of the vehicle, along the side sills between the wheels
 - **Identification:** Each lift point has a **single locating hole** in the center of the reinforced pad
-- **Post size:** 24mm diameter (standard), or 19mm on Austin-built Model Y units
+- **Post size:** 24mm diameter (standard for all Model 3 and Model Y variants)
 - **Spacing:** Approximately 5 feet (152 cm) between front and rear lift points on the same side
 
 ### Model S & Model X
@@ -75,7 +75,7 @@ A set of 4 pucks typically costs $20-40. Considering what's at stake (battery re
 
 **What to look for:**
 
-- Locating post that matches your model (24mm standard, 19mm for Austin-built Model Y)
+- Locating post that matches your model (24mm standard for Model 3/Y, center hole for Model S/X)
 - Rubber O-ring on the post to keep the puck seated
 - Flat, wide pad surface (at least 75mm diameter)
 - Quality material—heavy-duty polymer or rubber, not cheap plastic that'll crack under load
