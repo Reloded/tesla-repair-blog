@@ -110,7 +110,7 @@ Loosen the nut but do not remove it yet. Just break it free and back it off a qu
 
 **3. Lift the car and remove the wheel**
 
-Lift the rear of the car using the [correct jack points](/tesla-jack-points-lifting-guide/) and secure it on jack stands. Remove the rear wheel on the side you are working on.
+Lift the rear of the car using the [correct jack points](/posts/tesla-jack-points-lifting-guide/) and secure it on jack stands. Remove the rear wheel on the side you are working on.
 
 **4. Remove the axle nut**
 
@@ -187,7 +187,7 @@ The full replacement involves all the steps from the lubrication procedure above
 4. **Extract the inner joint from the drive unit** — the inner end of the half-shaft is held in the drive unit by a circlip (snap ring). It needs to be popped out with a pry bar. Use care not to damage the drive unit seal.
 5. **Install the new shaft** — push the inner joint into the drive unit until the circlip clicks into place. Reconnect the knuckle, ball joint, and caliper.
 6. **Torque everything to spec** — axle nut to 300 Nm, and all suspension bolts to their specified torque values.
-7. **Get an alignment** — any time you disconnect suspension components, get a four-wheel alignment afterward.
+7. **Get an [alignment](/posts/tesla-wheel-alignment-diy/)** — any time you disconnect suspension components, get a four-wheel alignment afterward.
 
 The Tesla service manual specifies that certain suspension bolts should be torqued at ride height, not with the suspension hanging. If possible, use a support stand under the knuckle to simulate ride height before final torquing.
 
@@ -205,21 +205,23 @@ A few things can help extend the life of the repair:
 
 - **Use quality MoS2 grease** — cheap grease washes out faster.
 - **Torque to spec** — the current service manual specifies 300 Nm (221.2 ft-lb). Some older sources reference 245 Nm — always use the latest Tesla service manual spec.
-- **Inspect during tire rotations** — while you have the wheels off, check for grease around the CV boots and listen for any new play in the shaft. Catching a torn boot early prevents the more expensive joint failure.
+- **Inspect during [tire rotations](/posts/tesla-tire-rotation/)** — while you have the wheels off, check for grease around the CV boots and listen for any new play in the shaft. Catching a torn boot early prevents the more expensive joint failure.
 - **Avoid deep puddles and pressure washing the undercarriage directly** — water intrusion into the spline area accelerates corrosion.
 
 ## Related Guides
 
 If you are working on the rear suspension area, these guides may also be useful:
 
-- [Tesla Jack Points & Lifting Guide](/tesla-jack-points-lifting-guide/)
-- [Tesla Brake Pad Replacement](/tesla-brake-pad-replacement/)
-- [Tesla Brake Rotor Replacement](/tesla-brake-rotor-replacement/)
-- [Tesla Wheel Bearing Replacement](/tesla-wheel-bearing-replacement/)
-- [Tesla Suspension Noise Fix](/tesla-suspension-noise-fix/)
-- [Tesla Control Arm Replacement](/tesla-control-arm-replacement/)
-- [Tesla Sway Bar Link Replacement](/tesla-sway-bar-link-replacement/)
-- [Tesla Model X Half-Shaft Replacement](/tesla-model-x-half-shaft-replacement/)
+- [Tesla Jack Points & Lifting Guide](/posts/tesla-jack-points-lifting-guide/)
+- [Tesla Wheel Bearing Replacement](/posts/tesla-wheel-bearing-replacement/)
+- [Tesla Control Arm Replacement](/posts/tesla-control-arm-replacement/)
+- [Tesla Sway Bar Link Replacement](/posts/tesla-sway-bar-link-replacement/)
+- [Tesla Suspension Noise Fix](/posts/tesla-suspension-noise-fix/)
+- [Tesla Wheel Alignment DIY Guide](/posts/tesla-wheel-alignment-diy/)
+- [Tesla Gear Oil Change](/posts/tesla-gear-oil-change/)
+- [Tesla Brake Pad Replacement](/posts/tesla-brake-pad-replacement/)
+- [Tesla Brake Rotor Replacement](/posts/tesla-brake-rotor-replacement/)
+- [Tesla Model X Half-Shaft Replacement](/posts/tesla-model-x-half-shaft-replacement/)
 
 ## Cost Comparison
 

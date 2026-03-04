@@ -40,7 +40,7 @@ The short answer: **yes, but selectively**. Here's what's at risk and what isn't
 ### What Does Rust
 - **Steel subframe bolts and brackets** — these are the #1 rust problem on Teslas
 - **Brake rotors and calipers** — especially with regenerative braking (less mechanical braking = less cleaning of rotor surface)
-- **Suspension components** — control arms, sway bar links, tie rod ends
+- **Suspension components** — [control arms](/posts/tesla-control-arm-replacement/), [sway bar links](/posts/tesla-sway-bar-link-replacement/), tie rod ends
 - **Underbody steel reinforcements** — where road salt accumulates
 - **Trunk/frunk hinges and latches** — exposed to water splash
 
@@ -97,14 +97,14 @@ For existing rust spots. Rust converter (phosphoric acid based) chemically conve
 - Cavity wax spray with extension tube — 1-2 cans
 - Rust converter spray (if any existing rust)
 - Pressure washer
-- Car ramps or jack stands ([proper jack points](/tesla-jack-points-lifting-guide/))
+- Car ramps or jack stands ([proper jack points](/posts/tesla-jack-points-lifting-guide/))
 - Plastic sheeting / masking tape
 - Safety glasses and gloves
 - Drop cloth or cardboard to catch drips
 
 ### Step 1: Lift the Car Safely
 
-Use car ramps for easy access or jack stands at Tesla's designated jack points. See our [Tesla Jack Points & Lifting Guide](/tesla-jack-points-lifting-guide/) for exact locations.
+Use car ramps for easy access or jack stands at Tesla's designated jack points. See our [Tesla Jack Points & Lifting Guide](/posts/tesla-jack-points-lifting-guide/) for exact locations.
 
 > ⚠️ **Never work under a car supported only by a jack.** Always use jack stands or ramps.
 
@@ -183,12 +183,12 @@ Where aluminum and steel meet, galvanic corrosion can occur (two dissimilar meta
 
 ### Regenerative Braking and Brake Rust
 
-Because Teslas use [regenerative braking](/tesla-regen-braking-reduced/), the mechanical brakes are used much less than in a gas car. This means:
+Because Teslas use [regenerative braking](/posts/tesla-regen-braking-reduced/), the mechanical brakes are used much less than in a gas car. This means:
 - Brake rotors develop surface rust faster (less cleaning action from pads)
 - The rust is mostly cosmetic but can cause squealing
 - Occasionally use the brakes firmly to clean the rotors (safe, empty road)
 
-See our [Tesla Squeaky Brakes Fix Guide](/tesla-squeaky-brakes-fix/) for more on this.
+See our [Tesla Squeaky Brakes Fix Guide](/posts/tesla-squeaky-brakes-fix/) for more on this.
 
 ### Underbody Aero Shield
 
@@ -242,12 +242,14 @@ In Europe, look for shops specializing in "Unterbodenschutz" (Germany/Austria), 
 
 ## Related Guides
 
-- [Tesla Winter Preparation Guide](/tesla-winter-preparation-guide/) — complete cold weather checklist
-- [Tesla Jack Points & Lifting Guide](/tesla-jack-points-lifting-guide/) — safe lifting for underbody access
-- [Tesla Brake Pad Replacement](/tesla-brake-pad-replacement/) — inspect while you're under there
-- [Tesla Squeaky Brakes Fix](/tesla-squeaky-brakes-fix/) — brake rotor rust solutions
-- [Tesla Paint Chip Repair](/tesla-paint-chip-repair/) — exterior rust prevention
-- [Tesla Ceramic Coating Guide](/tesla-ceramic-coating/) — paint protection above the car
+- [Tesla Winter Preparation Guide](/posts/tesla-winter-preparation-guide/) — complete cold weather checklist
+- [Tesla Jack Points & Lifting Guide](/posts/tesla-jack-points-lifting-guide/) — safe lifting for underbody access
+- [Tesla Mud Flaps Installation](/posts/tesla-mud-flaps-installation/) — reduce road spray and salt onto the underbody
+- [Tesla PPF Installation Guide](/posts/tesla-ppf-installation/) — paint protection film for bodywork
+- [Tesla Brake Pad Replacement](/posts/tesla-brake-pad-replacement/) — inspect while you're under there
+- [Tesla Squeaky Brakes Fix](/posts/tesla-squeaky-brakes-fix/) — brake rotor rust solutions
+- [Tesla Paint Chip Repair](/posts/tesla-paint-chip-repair/) — exterior rust prevention
+- [Tesla Ceramic Coating Guide](/posts/tesla-ceramic-coating/) — paint protection above the car
 
 ## Final Thoughts
 

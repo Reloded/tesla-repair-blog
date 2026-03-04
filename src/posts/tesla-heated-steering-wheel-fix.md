@@ -80,7 +80,7 @@ The majority of heated steering wheel issues are software glitches that a reset 
 ### Scroll Wheel Reset (Soft Reboot)
 1. Park the car
 2. Press and **hold both scroll wheels** on the steering wheel simultaneously
-3. Hold for **10–15 seconds** until the touchscreen goes black
+3. Hold for **10–15 seconds** until the [touchscreen goes black](/posts/tesla-screen-frozen-reboot/)
 4. Wait for the Tesla logo to appear and the screen to fully restart
 5. Try the heated steering wheel again
 
@@ -136,7 +136,7 @@ The heated steering wheel connects through the **clock spring** — a ribbon cab
 </div>
 
 ### Inspection Steps
-1. **Disconnect the 12V battery** (see our [12V battery guide](/tesla-12v-battery-replacement/) for location)
+1. **Disconnect the 12V battery** (see our [12V battery guide](/posts/tesla-12v-battery-replacement/) for location)
 2. Wait **3+ minutes** for airbag capacitors to discharge
 3. Remove the steering wheel airbag cover (two T20 Torx screws, accessible from the back of the wheel)
 4. Carefully disconnect the airbag connector
@@ -180,13 +180,16 @@ Schedule via the **Tesla app → Service → Request Service** and describe the 
 
 - **Keep software updated** — many heated steering wheel bugs get patched via OTA
 - **Avoid excessive force** on the steering wheel (don't yank it side-to-side when parked)
-- **Use preconditioning** via the Tesla app — this warms the cabin and steering wheel before you get in, reducing thermal stress from cold-start heating
+- **Use preconditioning** via the Tesla app — this warms the cabin and steering wheel before you get in, reducing thermal stress from cold-start heating (works alongside [seat heaters](/posts/tesla-seat-heater-fix/) for a fully warm interior)
 - **Don't wrap the steering wheel** with thick aftermarket covers — these can insulate the heating element and cause it to overheat, potentially damaging the element over time
 
 ## Related Guides
 
-- [Tesla Seat Heater Not Working — Fix Guide](/tesla-seat-heater-fix/)
-- [Tesla Climate Keeper Issues](/tesla-climate-keeper-issues/)
-- [Tesla 12V Battery Replacement](/tesla-12v-battery-replacement/)
-- [Tesla Heat Pump Problems](/tesla-heat-pump-problems/)
-- [Tesla Winter Preparation Guide](/tesla-winter-preparation-guide/)
+- [Tesla Seat Heater Not Working — Fix Guide](/posts/tesla-seat-heater-fix/)
+- [Tesla Heat Pump Problems](/posts/tesla-heat-pump-problems/)
+- [Tesla AC Heater Not Working](/posts/tesla-ac-heater-not-working/)
+- [Tesla Climate Keeper Issues](/posts/tesla-climate-keeper-issues/)
+- [Tesla Screen Frozen / Reboot Guide](/posts/tesla-screen-frozen-reboot/)
+- [Tesla 12V Battery Replacement](/posts/tesla-12v-battery-replacement/)
+- [Tesla Winter Preparation Guide](/posts/tesla-winter-preparation-guide/)
+- [Tesla Wont Start / Won't Turn On](/posts/tesla-wont-start-turn-on/)

@@ -52,7 +52,7 @@ This is the most common issue. Something bumps the sensor — a shopping cart, a
 - "Parking Assist Degraded" warning on touchscreen
 - One section of the parking visualization shows no data
 
-**The fix is often simple:** You can sometimes push the sensor back into place from behind the bumper without removing anything. On the Model 3 and Model Y rear bumper, you can reach behind the bumper liner. On the front, you may need to remove the front undertray (a few push clips) to access the sensors from behind.
+**The fix is often simple:** You can sometimes push the sensor back into place from behind the bumper without removing anything. On the Model 3 and Model Y [rear bumper](/posts/tesla-rear-bumper-removal/), you can reach behind the bumper liner. On the front, you may need to remove the [front undertray](/posts/tesla-front-bumper-removal/) (a few push clips) to access the sensors from behind.
 
 ### 2. Sensor Physically Damaged or Cracked
 
@@ -157,7 +157,7 @@ In most cases, the new sensor works immediately after plugging it in. The car de
 
 However, if you get a persistent "Parking Assist Degraded" warning after replacement, you may need to:
 
-1. **Power cycle the car:** Go to Controls > Safety > Power Off on the touchscreen. Wait 2-3 minutes. Open the door to wake the car back up.
+1. **Power cycle the car:** Go to Controls > Safety > [Power Off](/posts/tesla-screen-frozen-reboot/) on the touchscreen. Wait 2-3 minutes. Open the door to wake the car back up.
 2. **Check for software updates:** Newer firmware versions can sometimes resolve sensor communication issues.
 3. **Drive for a few minutes:** Some owners report the system needs a short drive to recalibrate.
 
@@ -193,6 +193,9 @@ The Tesla service center cost varies wildly because they often quote the full bu
 
 ## Related Guides
 
-- [Tesla Bumper Repair Guide](/tesla-bumper-repair/) — if the bumper itself is damaged
-- [Tesla Screen Black Fix](/tesla-screen-black-fix/) — if you're getting no parking display at all
-- [Tesla Autopilot Camera Calibration](/tesla-autopilot-camera-calibration/) — for camera-based parking on newer vehicles
+- [Tesla Rear Bumper Removal Guide](/posts/tesla-rear-bumper-removal/) — remove the bumper for full sensor access
+- [Tesla Front Bumper Removal Guide](/posts/tesla-front-bumper-removal/) — front sensor access
+- [Tesla Autopilot Camera Calibration](/posts/tesla-autopilot-camera-calibration/) — camera-based parking on newer vehicles
+- [Tesla Rear Camera Blurry Fix](/posts/tesla-rear-camera-blurry/) — related rear visibility issues
+- [Tesla Side Repeater Camera Replacement](/posts/tesla-side-repeater-camera-replacement/) — other exterior sensor/camera work
+- [Tesla Vision vs Radar/LiDAR Guide](/posts/tesla-vision-vs-radar-lidar/) — understand Tesla's camera-only approach (post-USS)

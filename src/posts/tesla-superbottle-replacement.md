@@ -40,7 +40,7 @@ The Model 3's **superbottle** combines what would normally be four or five separ
 - **A 4-way or 5-way coolant control valve** (routes coolant based on thermal needs)
 - **The coolant reservoir itself** (with fill cap)
 
-It sits in the front trunk area, behind the front bumper fascia. If you remove the frunk liner, you can see it — it's the large plastic assembly with multiple hoses running to and from it.
+It sits in the front trunk area, behind the front bumper fascia. If you remove the [frunk liner](/posts/tesla-frunk-wont-open/), you can see it — it's the large plastic assembly with multiple hoses running to and from it.
 
 Fun fact: Tesla's engineers molded a tiny cape-wearing bottle character onto the housing with the text "Superbottle" — an actual Easter egg on a production car part.
 
@@ -89,7 +89,7 @@ Here's what owners typically notice when the superbottle is failing:
 
 You can run a basic thermal systems check yourself:
 
-1. Put the car in **Service Mode** (Controls → Service → Service Mode)
+1. Put the car in **[Service Mode](/posts/tesla-service-mode-guide/)** (Controls → Service → Service Mode)
 2. Look for any active alerts related to cooling, A/C, or thermal management
 3. Check if the A/C compressor engages (you should hear it click on)
 4. Feel the coolant hoses — if one loop is hot while another is ambient temperature, the valve may not be routing properly
@@ -153,7 +153,7 @@ While we can't provide full step-by-step instructions (this requires Tesla's ser
 - Remove the front aero shield
 
 ### Key Steps
-1. Drain coolant from both loops into a catch container
+1. [Drain coolant](/posts/tesla-coolant-flush-change/) from both loops into a catch container
 2. Disconnect all coolant hoses from the superbottle (multiple hose connections with spring clips)
 3. Disconnect the A/C refrigerant lines from the chiller
 4. Disconnect electrical connectors (pump motors, valve actuator)
@@ -203,11 +203,13 @@ There's no guaranteed way to prevent superbottle failure, but these practices he
 
 If you're dealing with cooling system issues, these articles may also help:
 
-- [Tesla A/C Not Cooling: Troubleshooting Guide](/tesla-ac-not-cooling/)
-- [Tesla Coolant Flush & Change Guide](/tesla-coolant-flush-change/)
-- [Tesla Coolant Leak: How to Find and Fix It](/tesla-coolant-leak-fix/)
-- [Tesla Heat Pump Problems: Diagnosis & Repair](/tesla-heat-pump-problems/)
-- [Tesla 12V Battery Replacement](/tesla-12v-battery-replacement/)
+- [Tesla Coolant Flush & Change Guide](/posts/tesla-coolant-flush-change/)
+- [Tesla Coolant Leak: How to Find and Fix It](/posts/tesla-coolant-leak-fix/)
+- [Tesla Coolant Pump Replacement](/posts/tesla-coolant-pump-replacement/)
+- [Tesla Battery Coolant Valve Replacement](/posts/tesla-battery-coolant-valve-replacement/)
+- [Tesla Heat Pump Problems: Diagnosis & Repair](/posts/tesla-heat-pump-problems/)
+- [Tesla A/C Not Cooling: Troubleshooting Guide](/posts/tesla-ac-not-cooling/)
+- [Tesla 12V Battery Replacement](/posts/tesla-12v-battery-replacement/)
 
 ## The Bottom Line
 

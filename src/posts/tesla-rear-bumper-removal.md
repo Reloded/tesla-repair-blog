@@ -35,9 +35,9 @@ tools:
 
 ![Tesla Model Y complete teardown with body panels removed in workshop](/images/repairs/model-y-full-teardown.webp)
 
-Removing the rear bumper on a Tesla Model 3 or Model Y is one of those jobs that looks intimidating but is actually very manageable with basic tools and some patience. Whether you need access for a [tow hitch installation](/tesla-tow-hitch-install/), [paint chip repair](/tesla-paint-chip-repair/), [PPF installation](/tesla-ppf-installation/), parking sensor replacement, or [tail light work](/tesla-tail-light-replacement/), this guide walks you through every step — verified against Tesla's official service manual on service.tesla.com.
+Removing the rear bumper on a Tesla Model 3 or Model Y is one of those jobs that looks intimidating but is actually very manageable with basic tools and some patience. Whether you need access for a [tow hitch installation](/posts/tesla-tow-hitch-installation/), [paint chip repair](/posts/tesla-paint-chip-repair/), [PPF installation](/posts/tesla-ppf-installation/), [parking sensor replacement](/posts/tesla-parking-sensor-replacement/), or [tail light work](/posts/tesla-tail-light-replacement/), this guide walks you through every step — verified against Tesla's official service manual on service.tesla.com.
 
-If you've already tackled the [front bumper removal](/tesla-front-bumper-removal/), you'll find the rear is actually simpler. Fewer clips, fewer connectors, and the fascia is lighter. Most people can do this in 30–45 minutes the first time.
+If you've already tackled the [front bumper removal](/posts/tesla-front-bumper-removal/), you'll find the rear is actually simpler. Fewer clips, fewer connectors, and the fascia is lighter. Most people can do this in 30–45 minutes the first time.
 
 ## Why You Might Need to Remove the Rear Bumper
 
@@ -48,7 +48,7 @@ If you've already tackled the [front bumper removal](/tesla-front-bumper-removal
 - **Tail light access** — While tail lights can be removed with the bumper on, having it off makes the job much easier
 - **Vinyl wrap** — Getting wrap material around edges and into gaps
 - **Rear diffuser replacement** — The diffuser/lower fascia attaches directly to the upper bumper fascia
-- **[Water leak investigation](/tesla-water-leak-fix/)** — Checking tail light seals and trunk seam sealer
+- **[Water leak investigation](/posts/tesla-water-leak-fix/)** — Checking tail light seals and trunk seam sealer
 
 ## Difficulty Rating
 
@@ -113,7 +113,7 @@ The 2024+ Model 3 "Highland" refresh has a redesigned rear fascia with different
 
 ### Step 2: Remove Both Tail Lights
 
-The tail lights must come out first on both models. This is the same procedure as our [tail light replacement guide](/tesla-tail-light-replacement/).
+The tail lights must come out first on both models. This is the same procedure as our [tail light replacement guide](/posts/tesla-tail-light-replacement/).
 
 1. Open the trunk/liftgate
 2. Pop off the trim bolt cover on top of each tail light and remove the bolt
@@ -231,13 +231,13 @@ Installing the rear bumper is essentially the reverse of removal, but here are s
 The U-nut behind the fascia on the quarter panel is easy to miss. If you pull the bumper back without removing it first, it will gouge into your quarter panel paint. Always reach behind the fascia and remove the U-nut before pulling the bumper away.
 
 ### 2. Breaking Tail Light Guide Rails
-The plastic alignment pins on the tail lights are fragile. Pull straight out — never wiggle side to side. If you break one, the tail light won't sit flush and you'll have a water leak issue. Check our [water leak fix guide](/tesla-water-leak-fix/) if this happens.
+The plastic alignment pins on the tail lights are fragile. Pull straight out — never wiggle side to side. If you break one, the tail light won't sit flush and you'll have a water leak issue. Check our [water leak fix guide](/posts/tesla-water-leak-fix/) if this happens.
 
 ### 3. Losing the T25 Torx Screw (Model 3)
 The inner quarter panel T25 screw tends to fall into the bumper cavity when removed. Don't panic — just retrieve it after the bumper is off. Better yet, use a magnetic bit holder.
 
 ### 4. Not Taping the Quarter Panels
-The quarter panel paint is soft and the bumper edges are hard plastic. Even a small scrape leaves a mark. Two layers of painter's tape takes 30 seconds and saves you from needing [paint chip repair](/tesla-paint-chip-repair/) later.
+The quarter panel paint is soft and the bumper edges are hard plastic. Even a small scrape leaves a mark. Two layers of painter's tape takes 30 seconds and saves you from needing [paint chip repair](/posts/tesla-paint-chip-repair/) later.
 
 ### 5. Overtorquing on Reinstall
 These bolts are rated at just 4 Nm — that's barely more than hand-tight. A quarter turn past snug is usually right. Using an impact driver or over-tightening will crack the plastic mounting tabs on the bumper or strip the body panel threads.
@@ -265,17 +265,19 @@ Removing body panels for maintenance or aftermarket accessory installation (like
 **Can I do this alone?**
 Yes, but having a second person to hold the bumper during the final removal step is very helpful. The bumper is lightweight but awkward to manage while also disconnecting the harness.
 
-**What's different about the rear vs. [front bumper](/tesla-front-bumper-removal/)?**
+**What's different about the rear vs. [front bumper](/posts/tesla-front-bumper-removal/)?**
 The rear is actually easier. The front bumper has more clips, fog light connectors (on some trims), and requires removing the front wheel arch liners more extensively. The rear has fewer fasteners overall and the fascia is lighter.
 
 ## Related Guides
 
-- **[Tesla Front Bumper Removal Guide](/tesla-front-bumper-removal/)** — The companion guide for the front end
-- **[Tesla Tail Light Replacement](/tesla-tail-light-replacement/)** — Detailed tail light removal if you need more help on that step
-- **[Tesla Paint Chip Repair Guide](/tesla-paint-chip-repair/)** — Fix chips and scratches while the bumper is off
-- **[Tesla PPF Installation Guide](/tesla-ppf-installation/)** — Apply paint protection film properly with bumper removed
-- **[Tesla Water Leak Fix](/tesla-water-leak-fix/)** — Investigate and seal tail light and trunk water leaks
-- **[Tesla Interior Cleaning & Detailing](/tesla-interior-cleaning-detailing/)** — While you're doing body work, might as well detail the interior
+- **[Tesla Front Bumper Removal Guide](/posts/tesla-front-bumper-removal/)** — The companion guide for the front end
+- **[Tesla Tail Light Replacement](/posts/tesla-tail-light-replacement/)** — Detailed tail light removal if you need more help on that step
+- **[Tesla Parking Sensor Replacement](/posts/tesla-parking-sensor-replacement/)** — Replace USS sensors while the bumper is off
+- **[Tesla Tow Hitch Installation](/posts/tesla-tow-hitch-installation/)** — Requires rear bumper removal
+- **[Tesla PPF Installation Guide](/posts/tesla-ppf-installation/)** — Apply paint protection film properly with bumper removed
+- **[Tesla Paint Chip Repair Guide](/posts/tesla-paint-chip-repair/)** — Fix chips and scratches while the bumper is off
+- **[Tesla Water Leak Fix](/posts/tesla-water-leak-fix/)** — Investigate and seal tail light and trunk water leaks
+- **[Tesla Rust Prevention & Undercoating Guide](/posts/tesla-rust-prevention-undercoating/)** — Protect the underbody while you have good access
 
 ## Wrapping Up
 
