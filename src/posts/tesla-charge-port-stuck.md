@@ -180,3 +180,4 @@ If there's a mechanical failure, yes. If it's due to ice or user damage, no.
 - [Mobile Connector Issues](/posts/tesla-mobile-connector-issues/) - Troubleshoot your home charging equipment
 - [Range Loss Fix](/posts/tesla-range-loss-fix/) - Maximize range between charges
 - [Phantom Battery Drain Fix](/posts/tesla-phantom-battery-drain-fix/) - If battery drains while parked
+- [Tesla Charging Adapter Guide](/posts/tesla-charging-adapter-guide/) - Complete adapter compatibility guide

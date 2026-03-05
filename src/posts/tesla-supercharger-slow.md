@@ -161,3 +161,4 @@ For optimal trip times:
 - [Charge Port Stuck](/posts/tesla-charge-port-stuck/) - If you can't connect to Supercharger
 - [Mobile Connector Issues](/posts/tesla-mobile-connector-issues/) - Home charging equipment problems
 - [Range Loss Fix](/posts/tesla-range-loss-fix/) - Maximize range between charging stops
+- [Tesla Charging Adapter Guide](/posts/tesla-charging-adapter-guide/) - Adapter compatibility for all charger types

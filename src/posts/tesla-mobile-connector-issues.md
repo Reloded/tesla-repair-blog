@@ -325,3 +325,4 @@ Tesla Mobile Connector warranty:
 - [Tesla Charging Port Replacement](/posts/tesla-charging-port-replacement/) - When the port itself needs replacing
 - [Supercharger Slow](/posts/tesla-supercharger-slow/) - Comparison with DC fast charging
 - [Phantom Battery Drain Fix](/posts/tesla-phantom-battery-drain-fix/) - Battery draining overnight
+- [Tesla Charging Adapter Guide](/posts/tesla-charging-adapter-guide/) - Which adapters you need for your Tesla

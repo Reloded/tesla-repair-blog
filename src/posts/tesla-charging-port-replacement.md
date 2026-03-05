@@ -153,3 +153,4 @@ The charge port is accessed through the left rear quarter panel:
 - [Tesla Mobile Connector Issues](/posts/tesla-mobile-connector-issues/) — Charger-side troubleshooting
 - [Tesla Tail Light Replacement](/posts/tesla-tail-light-replacement/) — You'll need this for access
 - [Tesla Rear Bumper Removal](/posts/tesla-rear-bumper-removal/) — For severe physical damage repairs
+- [Tesla Charging Adapter Guide](/posts/tesla-charging-adapter-guide/) — Which adapters work with your Tesla
