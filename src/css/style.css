@@ -529,6 +529,85 @@ img {
     color: var(--primary-color);
     border-left-color: var(--primary-color);
   }
+
+  /* Sidebar Promo Widget */
+  .sidebar-promo {
+    margin-top: 1.5rem;
+    padding: 1.25rem;
+    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+    border-radius: 10px;
+    color: #fff;
+    font-size: 0.85rem;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .sidebar-promo::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    right: -50%;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle, rgba(62, 106, 225, 0.15) 0%, transparent 70%);
+    pointer-events: none;
+  }
+
+  .promo-badge {
+    display: inline-block;
+    background: var(--primary-color);
+    color: #fff;
+    font-size: 0.7rem;
+    font-weight: 700;
+    padding: 0.2rem 0.5rem;
+    border-radius: 4px;
+    margin-bottom: 0.5rem;
+    letter-spacing: 0.5px;
+  }
+
+  .sidebar-promo h4 {
+    margin: 0 0 0.5rem 0;
+    font-size: 0.95rem;
+    color: #fff;
+    line-height: 1.3;
+  }
+
+  .sidebar-promo p {
+    margin: 0 0 0.75rem 0;
+    color: #b0b8c8;
+    line-height: 1.4;
+    font-size: 0.8rem;
+  }
+
+  .promo-highlights {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 1rem 0;
+  }
+
+  .promo-highlights li {
+    padding: 0.2rem 0;
+    font-size: 0.8rem;
+    color: #d0d7e3;
+  }
+
+  .promo-cta {
+    display: block;
+    text-align: center;
+    background: linear-gradient(135deg, var(--primary-color), #c41230);
+    color: #fff;
+    text-decoration: none;
+    padding: 0.6rem 1rem;
+    border-radius: 6px;
+    font-weight: 600;
+    font-size: 0.85rem;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+
+  .promo-cta:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(227, 25, 55, 0.4);
+  }
 }
 
 /* Author Box */
