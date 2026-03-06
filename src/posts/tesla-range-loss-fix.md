@@ -193,3 +193,4 @@ Seek service if:
 - [Supercharger Slow](/posts/tesla-supercharger-slow/) - Optimize Supercharger sessions
 - [Tire Rotation](/posts/tesla-tire-rotation/) - Proper tire pressure improves range
 - [Gear Oil Change](/posts/tesla-gear-oil-change/) - Fresh gear oil reduces drivetrain losses
+- [Acceleration Issues](/posts/tesla-acceleration-issues/) - Power limitations that also affect range

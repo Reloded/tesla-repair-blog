@@ -40,7 +40,7 @@ A whining, humming, or grinding noise from your Tesla's drive unit is a common c
 **When to worry:**
 - Noise that suddenly gets louder
 - Vibration accompanying the noise
-- Metallic grinding or clunking sounds (this may indicate bearing failure — see a professional)
+- Metallic grinding or clunking sounds (this may indicate bearing failure - see a professional)
 
 <div class="info-box">
 <strong>Quick Test:</strong> Put the car in neutral while coasting. If the noise goes away, it's drive unit related. If it persists, it may be a <a href="/posts/tesla-wheel-bearing-replacement/">wheel bearing issue</a> instead.
@@ -48,7 +48,7 @@ A whining, humming, or grinding noise from your Tesla's drive unit is a common c
 
 ## What You'll Need
 
-**Time Required:** 1–2 hours
+**Time Required:** 1-2 hours
 **Skill Level:** Intermediate
 
 **Fluid to Buy:**
@@ -57,8 +57,8 @@ Tesla uses **ATF-9 (P/N 1135241-00-A)** for 3DU drive units up to Model Year 202
 
 The rear drive unit on Model 3/Y requires **2,100 mL (2.1L) minimum**. Tesla recommends filling with **2,300 mL** to ensure the oil pump dispenses the full 2.1L without drawing air. The front drive unit requires **1,300 mL (1.3L)**.
 
-- **ATF-9 (P/N 1135241-00-A)** — Tesla OEM spec for up to MY2023
-- **KAF1 (P/N 1646886-02-A)** — Tesla spec for MY2024+, backwards compatible with ATF-9
+- **ATF-9 (P/N 1135241-00-A)** - Tesla OEM spec for up to MY2023
+- **KAF1 (P/N 1646886-02-A)** - Tesla spec for MY2024+, backwards compatible with ATF-9
 - **New crush washers/O-rings** for drain and fill plugs (~$5)
 
 > **See also:** [Tesla Gear Oil Change](/posts/tesla-gear-oil-change/) for detailed fluid specifications and model-specific capacities.
@@ -67,17 +67,17 @@ The rear drive unit on Model 3/Y requires **2,100 mL (2.1L) minimum**. Tesla rec
 
 | Option | Parts | Labor | Total |
 |--------|-------|-------|-------|
-| Tesla Service Center | $50–80 | $200–400 | $250–480 |
-| Independent Shop | $50–80 | $100–200 | $150–280 |
-| DIY | $50–80 | Your time | $50–80 |
+| Tesla Service Center | $50-80 | $200-400 | $250-480 |
+| Independent Shop | $50-80 | $100-200 | $150-280 |
+| DIY | $50-80 | Your time | $50-80 |
 
-**Your savings: $100–400**
+**Your savings: $100-400**
 
 ## Step-by-Step: Gearbox Fluid Change
 
 ### Step 1: Prepare the Vehicle
 
-1. Drive the car for 10–15 minutes to warm up the fluid (warm fluid drains better)
+1. Drive the car for 10-15 minutes to warm up the fluid (warm fluid drains better)
 2. Park on a flat surface and enable **Jack Mode** (Controls > Service > Jack Mode)
 3. Lift the vehicle and secure on jack stands at proper [jack points](/posts/tesla-jack-points-lifting-guide/)
 4. Remove the rear aero shield panel if working on the rear drive unit
@@ -85,11 +85,11 @@ The rear drive unit on Model 3/Y requires **2,100 mL (2.1L) minimum**. Tesla rec
 ### Step 2: Locate Drain and Fill Plugs
 
 **Rear Drive Unit (Model 3/Y):**
-- **Oil pump bolts (drain method):** Bottom of the drive unit housing — **EPL10 socket**, 2 bolts (5 Nm + 20 degrees)
+- **Oil pump bolts (drain method):** Bottom of the drive unit housing - **EPL10 socket**, 2 bolts (5 Nm + 20 degrees)
 - **Fill plug:** Side of the drive unit housing (10mm hex, 15 Nm)
 
 **Front Drive Unit (Dual Motor):**
-- **Oil pump bolts (drain method):** Bottom of the front drive unit — EPL10 socket
+- **Oil pump bolts (drain method):** Bottom of the front drive unit - EPL10 socket
 - **Fill plug:** Side of the unit (15 Nm), with an oil filter nearby
 
 <div class="warning-box">
@@ -97,16 +97,16 @@ The rear drive unit on Model 3/Y requires **2,100 mL (2.1L) minimum**. Tesla rec
 </div>
 
 <div class="warning-box">
-<strong>Important:</strong> Always remove the FILL plug first. If you can't get the fill plug out, you won't be able to refill — and you don't want to be stuck with a drained drive unit.
+<strong>Important:</strong> Always remove the FILL plug first. If you can't get the fill plug out, you won't be able to refill - and you don't want to be stuck with a drained drive unit.
 </div>
 
 ### Step 3: Drain the Old Fluid
 
 1. Place the drain pan under the drive unit
-2. Remove the **fill plug** first (10mm hex) — always open this before draining
-3. Remove the **oil pump** (2 bolts, EPL10 socket, 5 Nm + 20 degrees) to drain — fluid will flow out
-4. Allow fluid to drain completely (5–10 minutes)
-5. Inspect the old fluid — it should be reddish. Dark brown or metallic particles indicate wear
+2. Remove the **fill plug** first (10mm hex) - always open this before draining
+3. Remove the **oil pump** (2 bolts, EPL10 socket, 5 Nm + 20 degrees) to drain - fluid will flow out
+4. Allow fluid to drain completely (5-10 minutes)
+5. Inspect the old fluid - it should be reddish. Dark brown or metallic particles indicate wear
 
 ### Step 4: Replace Oil Filter (Front Drive Unit Only)
 
@@ -131,7 +131,7 @@ The front drive unit has an external oil filter:
 1. Wipe down the drive unit to remove any spilled fluid
 2. Reinstall the aero shield panel
 3. Lower the vehicle
-4. Drive for 10–15 minutes and listen for improvement
+4. Drive for 10-15 minutes and listen for improvement
 5. Check under the car for any leaks
 
 ## Torque Specifications Summary
@@ -140,26 +140,27 @@ The front drive unit has an external oil filter:
 |----------|--------|--------|
 | Oil pump bolts (3DU drain method) | EPL10 | 5 Nm (3.7 ft-lb) + 20 degrees |
 | Fill plug (rear & front drive units) | 10mm hex | 15 Nm (11 ft-lbs) |
-| Oil filter (front drive unit) | — | 3 Nm (2.2 ft-lb) + 135 degrees |
+| Oil filter (front drive unit) | - | 3 Nm (2.2 ft-lb) + 135 degrees |
 
 *Sources: Tesla Service Manual (service.tesla.com), March 2026*
 
-> **Torque values and fluid specs verified against Tesla Service Manual (service.tesla.com) — March 2026**
+> **Torque values and fluid specs verified against Tesla Service Manual (service.tesla.com) - March 2026**
 
 ## When a Fluid Change Won't Help
 
 If the noise persists after a fluid change, the issue may be:
 
-- **Worn bearings** in the drive unit — requires drive unit rebuild or replacement
-- **Gear tooth wear** — typically only on very high-mileage vehicles
-- **Halfshaft issues** — clicking during turns indicates a different problem (see our [halfshaft clicking fix](/posts/tesla-halfshaft-clicking-fix/))
+- **Worn bearings** in the drive unit - requires drive unit rebuild or replacement
+- **Gear tooth wear** - typically only on very high-mileage vehicles
+- **Halfshaft issues** - clicking during turns indicates a different problem (see our [halfshaft clicking fix](/posts/tesla-halfshaft-clicking-fix/))
 
-Drive unit replacement at Tesla costs $5,000–$9,000. A rebuilt unit from a specialist costs $2,000–$4,000. Always try the fluid change first — it's a $50–80 gamble that often pays off.
+Drive unit replacement at Tesla costs $5,000-$9,000. A rebuilt unit from a specialist costs $2,000-$4,000. Always try the fluid change first - it's a $50-80 gamble that often pays off.
 
 ## Related Guides
 
-- [Tesla Gear Oil Change](/posts/tesla-gear-oil-change/) — Detailed fluid specifications
-- [Tesla Halfshaft Clicking Fix](/posts/tesla-halfshaft-clicking-fix/) — CV joint noise diagnosis
-- [Tesla Suspension Noise Fix](/posts/tesla-suspension-noise-fix/) — Other common noises
-- [Tesla Jack Points & Lifting Guide](/posts/tesla-jack-points-lifting-guide/) — Safe lifting procedure
-- [Tesla Creaking & Rattling Fix](/posts/tesla-creaking-rattling-fix/) — Interior and exterior noise sources
+- [Tesla Gear Oil Change](/posts/tesla-gear-oil-change/) - Detailed fluid specifications
+- [Tesla Halfshaft Clicking Fix](/posts/tesla-halfshaft-clicking-fix/) - CV joint noise diagnosis
+- [Tesla Suspension Noise Fix](/posts/tesla-suspension-noise-fix/) - Other common noises
+- [Tesla Jack Points & Lifting Guide](/posts/tesla-jack-points-lifting-guide/) - Safe lifting procedure
+- [Tesla Creaking & Rattling Fix](/posts/tesla-creaking-rattling-fix/) - Interior and exterior noise sources
+- [Tesla Acceleration Issues](/posts/tesla-acceleration-issues/) - When drive unit problems cause power loss

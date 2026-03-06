@@ -157,3 +157,4 @@ There's no cost or damage from driving with limited regen. However:
 - [Brake Fluid Change](/posts/tesla-brake-fluid-change/) - Keep brake fluid fresh when using mechanical brakes more
 - [Squeaky Brakes Fix](/posts/tesla-squeaky-brakes-fix/) - Noise from increased mechanical brake use
 - [Range Loss Fix](/posts/tesla-range-loss-fix/) - Maximize efficiency when regen is limited
+- [Acceleration Issues](/posts/tesla-acceleration-issues/) - When power reduction goes beyond regen limits
