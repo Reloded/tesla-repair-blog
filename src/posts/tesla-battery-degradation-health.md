@@ -1,6 +1,6 @@
 ---
 layout: post.njk
-title: "Tesla Battery Degradation: How to Check Health & Maximize Lifespan"
+title: "Tesla Battery Degradation: How to Check Health & Maximize Lifespan (2026)"
 description: "Is your Tesla battery degrading too fast? Learn how to check battery health, understand normal degradation curves, and get proven tips to maximize your battery's lifespan."
 date: 2026-02-17
 category: "Battery"

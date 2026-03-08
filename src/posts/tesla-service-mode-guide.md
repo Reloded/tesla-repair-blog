@@ -1,6 +1,6 @@
 ---
 layout: post.njk
-title: "Tesla Service Mode: How to Access It, What It Unlocks & When You Need It (2025 Guide)"
+title: "Tesla Service Mode: How to Access It, What It Unlocks & When You Need It (2026 Guide)"
 description: "Tesla Service Mode gives you access to diagnostics, brake burnishing, camera calibration, and more. Learn how to activate it on Model 3, Model Y, Model S, and Model X — step by step."
 date: 2026-02-26
 category: "Maintenance"
@@ -260,3 +260,6 @@ Even if you never plan to wrench on your car, knowing how to access Service Mode
 - [Tesla Coolant Flush & Change: Complete DIY Guide](/posts/tesla-coolant-flush-change/) — Medium · Model 3, Model Y, Model S, Model X · Cooling System
 - [Tesla Door Seal Maintenance: Prevent Wind Noise](/posts/tesla-door-seal-maintenance/) — Easy · Maintenance
 - [Tesla Headlight Replacement: Complete DIY Guide (Model 3, Y, S, X)](/posts/tesla-headlight-replacement/) — Moderate
+- [Tesla Camera Calibration: How to Recalibrate Autopilot Cameras](/posts/tesla-autopilot-camera-calibration/) — Easy · Autopilot
+- [Tesla Battery Degradation: How to Check Health & Maximize Lifespan](/posts/tesla-battery-degradation-health/) — Easy · Battery
+- [Tesla Phantom Braking Issue: 5 Proven Fixes](/posts/tesla-phantom-braking-fix/) — Easy · Autopilot & Safety

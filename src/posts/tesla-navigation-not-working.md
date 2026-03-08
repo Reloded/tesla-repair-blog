@@ -1,14 +1,24 @@
 ---
 layout: post.njk
-title: "Tesla Navigation Not Working? 9 Proven Fixes"
-description: "Tesla navigation broken or inaccurate? 9 fixes for GPS issues, map loading problems, and routing errors. Get directions working again."
+title: "Tesla Navigation Not Working? 9 Proven Fixes (2026)"
+description: "Tesla navigation broken, maps not loading, or GPS inaccurate? 9 proven fixes for Model 3, Y, S & X. Step-by-step solutions — no service visit needed."
 date: 2025-01-14
+updated: 2026-03-08
 category: "Software"
 difficulty: "Easy"
 readTime: "10 min read"
 models: "All Models"
 emoji: "🗺️"
 tools: []
+faq:
+  - q: "Why is my Tesla navigation not working?"
+    a: "Common causes include poor cellular or Wi-Fi connection, outdated maps, GPS antenna issues, or software bugs. A scroll wheel reboot (hold both steering wheel buttons for 10 seconds) fixes most navigation problems instantly."
+  - q: "How do I reset Tesla navigation?"
+    a: "Press and hold both scroll wheels on the steering wheel for 10-15 seconds until the screen goes black and restarts. This soft reboot clears temporary glitches without affecting your settings or driving."
+  - q: "Why does my Tesla show the wrong location?"
+    a: "GPS inaccuracy is usually caused by signal interference from tall buildings, tunnels, or parking garages. Drive to an open area and the GPS should recalibrate within a few minutes. If it persists, check for software updates."
+  - q: "How do I update Tesla maps?"
+    a: "Connect your Tesla to Wi-Fi, go to Controls > Software, and check for updates. Map updates are included with Premium Connectivity or can be downloaded over Wi-Fi. Some updates are large and may take several hours."
 ---
 
 Tesla's navigation system is generally reliable, but issues can occur with map loading, GPS signals, or route calculations. This guide covers the most common navigation problems and their solutions.
@@ -196,3 +206,6 @@ Reach out to Tesla if:
 - [LTE Connectivity Issues](/posts/tesla-lte-connectivity-issues/) - Fix cellular data problems
 - [Software Update Stuck](/posts/tesla-software-update-stuck/) - WiFi troubleshooting techniques
 - [MCU Touchscreen Upgrade](/posts/tesla-mcu-touchscreen-upgrade/) - For persistent display issues on older models
+- [Tesla Camera Calibration: How to Recalibrate Autopilot Cameras](/posts/tesla-autopilot-camera-calibration/) — Easy · Autopilot
+- [Tesla Service Mode: How to Access Diagnostics](/posts/tesla-service-mode-guide/) — Easy · Maintenance
+- [Tesla Phantom Braking Issue: 5 Proven Fixes](/posts/tesla-phantom-braking-fix/) — Easy · Autopilot & Safety
