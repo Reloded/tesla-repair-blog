@@ -158,3 +158,4 @@ There's no cost or damage from driving with limited regen. However:
 - [Squeaky Brakes Fix](/posts/tesla-squeaky-brakes-fix/) - Noise from increased mechanical brake use
 - [Range Loss Fix](/posts/tesla-range-loss-fix/) - Maximize efficiency when regen is limited
 - [Acceleration Issues](/posts/tesla-acceleration-issues/) - When power reduction goes beyond regen limits
+- [Tesla Warning Lights & Error Messages](/posts/tesla-warning-lights-error-messages/) - Complete guide to every Tesla alert

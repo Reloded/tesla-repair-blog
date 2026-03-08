@@ -293,3 +293,4 @@ Book a service appointment if:
 - [Coolant Flush](/posts/tesla-coolant-flush-change/) — Keep thermal management working
 - [Range Loss Fix](/posts/tesla-range-loss-fix/) — Related efficiency troubleshooting
 - [Tesla Won't Start](/posts/tesla-wont-start-turn-on/) — When power loss becomes total failure
+- [Warning Lights & Error Messages](/posts/tesla-warning-lights-error-messages/) — Decode every Tesla warning

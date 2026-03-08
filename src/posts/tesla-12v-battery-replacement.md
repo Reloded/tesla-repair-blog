@@ -199,3 +199,4 @@ For the complete official procedure, see the [Tesla Model 3 Service Manual - 12V
 - [Tesla Screen Black Fix](/posts/tesla-screen-black-fix/) - If your screen went dark before or after battery replacement
 - [Key Fob Battery Replacement](/posts/tesla-key-fob-battery/) - Another battery that needs periodic replacement
 - [Acceleration Issues](/posts/tesla-acceleration-issues/) - A failing 12V battery can cause power reduction
+- [Tesla Warning Lights & Error Messages Guide](/posts/tesla-warning-lights-error-messages/) - Understand every warning on your Tesla screen
