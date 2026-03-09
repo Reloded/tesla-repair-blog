@@ -1,7 +1,7 @@
 ---
 layout: post.njk
-title: "Tesla Dog Mode & Camp Mode: How They Work, Settings & Tips (2025 Guide)"
-description: "Everything about Tesla Dog Mode and Camp Mode — how to activate them, what they do, battery drain, safety tips, and the key differences between the two climate-keeping features."
+title: "Tesla Dog Mode & Camp Mode: Full Guide (2026)"
+description: "How to activate Tesla Dog Mode and Camp Mode, how much battery they drain, safety tips, and the key differences — everything you need to know in one guide."
 date: 2026-02-26
 category: "Software & Tech"
 difficulty: "Beginner"
@@ -9,6 +9,15 @@ readTime: "10 min read"
 models: "Model 3, Model Y, Model S, Model X"
 emoji: "🐕"
 draft: false
+faq:
+  - q: "How do I turn on Dog Mode in my Tesla?"
+    a: "Tap the fan icon at the bottom of the touchscreen, select 'Keep Climate On,' then choose 'Dog' from the options. Set your desired temperature and leave. The screen shows a safety message to passersby."
+  - q: "How much battery does Dog Mode use?"
+    a: "Dog Mode uses roughly 1-3 miles of range per hour depending on outside temperature. In extreme heat or cold, it can use 5+ miles per hour. Always start with at least 50% charge."
+  - q: "What's the difference between Dog Mode and Camp Mode?"
+    a: "Dog Mode keeps climate on and shows a safety message for passersby. Camp Mode keeps climate running AND powers the 12V outlets and USB ports for camping, but doesn't show the public safety message."
+  - q: "Can Dog Mode run all night?"
+    a: "Yes, if you have enough battery. A full charge can run Dog Mode for 12-20+ hours. The car alerts you if battery drops below 20%. You can also set a minimum battery reserve in the app settings."
 tools:
   - name: "Tesla Sunshade (Model 3/Y)"
     link: "https://www.amazon.de/s?k=tesla+model+3+sunshade+windshield&tag=diyrepair-21"

@@ -1,7 +1,7 @@
 ---
 layout: post.njk
-title: "Tesla Maintenance Schedule: Complete Guide for Every Model (2025)"
-description: "The complete Tesla maintenance schedule for Model 3, Y, S, X and Cybertruck. What needs servicing, when, and what you can DIY to save thousands over dealer pricing."
+title: "Tesla Maintenance Schedule: Complete Guide (2026)"
+description: "The only Tesla maintenance schedule you need — Model 3, Y, S, X & Cybertruck. Exact intervals, what you can DIY, and how to save $1,000+ vs service center pricing."
 date: 2026-02-26
 category: "Maintenance"
 difficulty: "Beginner"
@@ -9,6 +9,15 @@ readTime: "14 min read"
 models: "Model 3, Model Y, Model S, Model X"
 emoji: "📋"
 draft: false
+faq:
+  - q: "How often should I service my Tesla?"
+    a: "Tesla recommends checking brake fluid every 2 years, replacing the cabin air filter every 2 years (12 months in high-dust areas), rotating tires every 6,250 miles, and flushing coolant every 4 years on Model S/X."
+  - q: "Does a Tesla need oil changes?"
+    a: "No. Teslas have no combustion engine and require no oil changes, spark plugs, transmission fluid, or timing belts. This saves Tesla owners $500-$1,000+ annually compared to gas vehicles."
+  - q: "What maintenance does a Tesla actually need?"
+    a: "Essential Tesla maintenance includes: tire rotations (every 6,250 miles), brake fluid checks (every 2 years), cabin air filter replacement (every 2 years), and coolant flush (every 4 years for Model S/X)."
+  - q: "How much does Tesla maintenance cost per year?"
+    a: "Annual Tesla maintenance typically costs $200-$400 DIY or $400-$800 at a service center. Main costs are cabin air filter, tire rotation, and occasional brake fluid — far cheaper than gas vehicles."
 tools:
   - name: "Tesla Cabin Air Filter (Model 3/Y)"
     link: "https://www.amazon.de/s?k=tesla+model+3+cabin+air+filter&tag=diyrepair-21"

@@ -1,13 +1,22 @@
 ---
 layout: post.njk
-title: "Tesla Rear Camera Blurry: Quick Clean & Fix Guide"
-description: "Tesla backup camera blurry or foggy? Quick cleaning guide and fixes for condensation, dirt, and lens clarity issues. Clear view in minutes."
+title: "Tesla Rear Camera Blurry? Fix It in Minutes (2026)"
+description: "Tesla backup camera blurry or foggy? 5 quick fixes for dirt, condensation, and lens damage. Most cases cleared in under 5 minutes — no service appointment needed."
 date: 2025-01-14
 category: "Cameras"
 difficulty: "Easy"
 readTime: "10 min read"
 models: "All Models"
 emoji: "📷"
+faq:
+  - q: "Why is my Tesla backup camera blurry?"
+    a: "The most common causes are dirt or debris on the lens, water droplets from rain or a car wash, internal condensation inside the camera housing, or a scratched lens. Start with a thorough lens cleaning."
+  - q: "How do I clean my Tesla rear camera?"
+    a: "Apply a drop of lens cleaning solution to a clean microfiber cloth and gently wipe the camera lens in circular motions. Never spray liquid directly on the camera. Dry with a fresh microfiber cloth."
+  - q: "Is a blurry Tesla camera covered by warranty?"
+    a: "If the camera is blurry due to internal condensation or hardware failure (not physical damage), it may be covered under Tesla's 4-year/50,000-mile basic warranty. Contact Tesla Service with photos of the issue."
+  - q: "Can I replace the Tesla rear camera myself?"
+    a: "Yes, the rear camera is DIY-replaceable. The camera module clips onto the trunk lid. Replacement cameras cost $50-$150 online. The job requires basic trim removal tools and takes about 30 minutes."
 tools:
   - name: "Microfiber Cloths"
     link: "https://www.amazon.de/s?k=microfiber+cloths+car&tag=diyrepair-21"

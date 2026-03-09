@@ -1,13 +1,22 @@
 ---
 layout: post.njk
-title: "Tesla Vision vs Radar & LiDAR: Why Tesla Removed Sensors and What It Means for You"
-description: "Tesla ditched radar and LiDAR for a camera-only Autopilot system. Learn why they made the switch, which models are affected, and what it means for your driving experience."
+title: "Tesla Vision vs Radar: Why Tesla Ditched Sensors (2026)"
+description: "Why did Tesla remove radar and LiDAR? Learn which models are affected, how Tesla Vision compares, and what it means for Autopilot safety and performance."
 date: 2026-02-16
 category: "Technology"
 difficulty: "Informational"
 readTime: "10 min read"
 models: "All Models"
 emoji: "📷"
+faq:
+  - q: "Why did Tesla remove radar from its cars?"
+    a: "Tesla removed radar in 2021-2022 because they believe cameras paired with AI can exceed radar's capabilities. Radar had false-positive issues and limited the AI's potential — Tesla bet everything on pure vision."
+  - q: "Is Tesla Vision better than radar?"
+    a: "Tesla Vision has improved significantly and handles most scenarios as well as radar did. However, radar had advantages in heavy rain and fog where cameras struggle. Overall FSD performance is now comparable or better."
+  - q: "Which Tesla models have radar?"
+    a: "Model S and X built before 2021, and Model 3/Y built before mid-2021 have radar. All Teslas built after that use Tesla Vision (camera-only). Check via Controls > Software > Additional Vehicle Information."
+  - q: "Does Tesla Vision affect Autopilot performance?"
+    a: "Early Tesla Vision had some limitations vs radar, but software improvements have largely closed the gap. FSD on vision-only cars is now generally on par with or better than radar-equipped models."
 tools:
   - name: "Tesla Dashcam USB Drive"
     link: "https://www.amazon.com/s?k=tesla+dashcam+USB+drive+endurance&tag=diyrepair07-20"

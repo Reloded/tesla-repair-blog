@@ -1,7 +1,7 @@
 ---
 layout: post.njk
-title: "Tesla Service Mode: How to Access It, What It Unlocks & When You Need It (2026 Guide)"
-description: "Tesla Service Mode gives you access to diagnostics, brake burnishing, camera calibration, and more. Learn how to activate it on Model 3, Model Y, Model S, and Model X — step by step."
+title: "Tesla Service Mode: Unlock Hidden Diagnostics (2026)"
+description: "Access Tesla's hidden Service Mode in 10 seconds. Covers diagnostics, brake burnishing, camera calibration & more — no special tools or subscriptions needed."
 date: 2026-02-26
 category: "Maintenance"
 difficulty: "Easy"
@@ -9,6 +9,15 @@ readTime: "10 min read"
 models: "Model 3, Model Y, Model S, Model X"
 emoji: "🔧"
 draft: false
+faq:
+  - q: "How do I access Tesla Service Mode?"
+    a: "Go to Controls > Software, then touch and hold the word MODEL (the large text under the vehicle image) for 5 seconds. Enter the code 'service' when prompted. A red border confirms it's active."
+  - q: "What can I do in Tesla Service Mode?"
+    a: "Service Mode lets you run diagnostics, calibrate cameras, perform brake burnishing, check battery data, test individual components, and unlock features normally only accessible to Tesla technicians."
+  - q: "Is Tesla Service Mode safe to use?"
+    a: "Yes, Service Mode is designed for owner and technician use. However, only perform functions you understand — some actions like brake burnishing require specific procedures. Don't change settings unless you know the impact."
+  - q: "Does Tesla Service Mode void warranty?"
+    a: "Simply accessing Service Mode does not void your warranty. Tesla technicians use it routinely. However, if you make changes that cause damage, Tesla may not cover that specific issue under warranty."
 tools:
   - name: "Tesla Jack Pad Adapter"
     link: "https://www.amazon.de/s?k=tesla+jack+pad+adapter&tag=diyrepair-21"

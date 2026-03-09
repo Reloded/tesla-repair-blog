@@ -1,13 +1,22 @@
 ---
 layout: post.njk
-title: "Tesla Battery Degradation: How to Check Health & Maximize Lifespan (2026)"
-description: "Is your Tesla battery degrading too fast? Learn how to check battery health, understand normal degradation curves, and get proven tips to maximize your battery's lifespan."
+title: "Tesla Battery Degrading? Free Health Check Guide (2026)"
+description: "Check your Tesla battery health in 2 minutes. See real degradation numbers, what's normal, and 6 proven ways to slow capacity loss and protect your range."
 date: 2026-02-17
 category: "Battery"
 difficulty: "Easy"
 readTime: "16 min read"
 models: "All Models"
 emoji: "🔋"
+faq:
+  - q: "How fast does a Tesla battery degrade?"
+    a: "Tesla batteries typically lose 2-3% capacity per year. After 5 years, most owners see 10-15% range reduction. LFP batteries degrade slower and benefit from regular 100% charging."
+  - q: "How do I check my Tesla's battery health?"
+    a: "Go to Controls > Software and compare your battery's current rated range to the original. For precise data, use a Bluetooth OBD2 scanner with the Scan My Tesla app to see exact degradation percentage."
+  - q: "What causes Tesla battery degradation?"
+    a: "The main causes are heat exposure, frequent DC fast charging, regularly charging to 100%, and calendar aging. Keeping charge between 20-80% and limiting supercharging slows degradation significantly."
+  - q: "Is Tesla battery degradation covered by warranty?"
+    a: "Tesla warrants battery capacity for 8 years depending on model. If capacity drops below 70% within the warranty period, Tesla will repair or replace the battery pack."
 tools:
   - name: "OBDLink CX Bluetooth Scanner"
     link: "https://www.amazon.com/dp/B08NFNLKTK?tag=diyrepair07-20"
