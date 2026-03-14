@@ -9,15 +9,12 @@ readTime: "12 min read"
 models: "Model Y"
 emoji: "🚗"
 tools:
-  - name: "Tesla Model Y Floor Mats (All-Weather)"
-    link: "https://www.amazon.de/s?k=tesla+model+y+floor+mats&tag=diyrepair-21"
-  - name: "Tesla Model Y Screen Protector"
-    link: "https://www.amazon.de/s?k=tesla+model+y+screen+protector&tag=diyrepair-21"
-  - name: "Tesla Model Y Cargo Liner"
-    link: "https://www.amazon.de/s?k=tesla+model+y+cargo+liner&tag=diyrepair-21"
-  - name: "OEM Tesla Parts (Model Y)"
-    link: "https://rrcarparts.com/collections/all?q=model+y"
-    provider: "rrcarparts"
+  - name: "Tesla Model Y Juniper Floor Mats (All-Weather TPE)"
+    link: "https://www.amazon.de/gp/search?ie=UTF8&tag=diyrepair-21&index=automotive&keywords=tesla+model+y+juniper+floor+mats+2025"
+  - name: "Tesla Model Y Screen Protector (15-inch)"
+    link: "https://www.amazon.de/gp/search?ie=UTF8&tag=diyrepair-21&index=automotive&keywords=tesla+model+y+juniper+screen+protector"
+  - name: "Tesla Model Y Cargo Liner (Trunk Mat)"
+    link: "https://www.amazon.de/gp/search?ie=UTF8&tag=diyrepair-21&index=automotive&keywords=tesla+model+y+juniper+cargo+liner+trunk+mat"
 ---
 
 Tesla's Model Y has been the world's best-selling car for good reason. Now there's a bigger version — the **Model Y L** — and it changes things for Tesla owners, buyers, and anyone who works on these cars.
