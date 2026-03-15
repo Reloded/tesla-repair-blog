@@ -156,14 +156,17 @@ As of March 2026, US pricing looks like this (verified from Tesla configurator, 
 
 The Model 3 is consistently cheaper, though the gap has narrowed on the Long Range AWD trim to just $1,500.
 
-### Important: What the base RWD trims DON'T include
+### Important: The new 2026 "Standard" base trim is de-contented
 
-Both base RWD trims ($36,990 Model 3 / $39,990 Model Y) now **omit** features that were previously standard:
-- ❌ No ventilated front seats
+The original Highland and Juniper launched with all premium features included. However, in late 2025 Tesla introduced a new budget **"Standard"** base trim for both models at a lower price point. These stripped-down versions omit several features:
+- ❌ No ventilated front seats (cloth inserts instead of full faux-leather)
 - ❌ No heated rear seats
-- ❌ No rear 8-inch touchscreen (Model 3 RWD)
+- ❌ No rear 8-inch touchscreen
+- ❌ No ambient lighting
+- ❌ Manual steering column adjustment
+- ❌ Fewer speakers (7 instead of 17/15)
 
-These features are reserved for the Long Range and Performance trims. If ventilated seats and the rear screen matter to you, budget for the LR AWD.
+If you're buying a **Long Range or Performance** trim, you get the full Highland/Juniper experience with all features. The Standard trim is for buyers who want the refreshed design at the lowest possible price and don't mind the trade-offs.
 
 **Note:** Tesla pricing changes without notice. Always check the live configurator at [tesla.com](https://www.tesla.com) before ordering. Federal EV tax credits of up to $7,500 may apply depending on your income.
 
