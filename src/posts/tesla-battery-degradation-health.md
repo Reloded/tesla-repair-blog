@@ -1,7 +1,7 @@
 ---
 layout: post.njk
-title: "Tesla Battery Degrading? Free Health Check Guide (2026)"
-description: "Check your Tesla battery health in 2 minutes. See real degradation numbers, what's normal, and 6 proven ways to slow capacity loss and protect your range."
+title: "Tesla Battery Degradation: What's Normal vs What's a Problem"
+description: "Lost 10% range already? Here's what real-world Tesla degradation looks like after 1-5 years, how to check your actual battery health, and when to worry."
 date: 2026-02-17
 category: "Battery"
 difficulty: "Easy"

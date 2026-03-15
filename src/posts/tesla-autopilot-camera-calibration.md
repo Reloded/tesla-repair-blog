@@ -1,7 +1,7 @@
 ---
 layout: post.njk
-title: "Tesla Camera Calibration: How to Recalibrate Autopilot Cameras (2026)"
-description: "Tesla camera calibration stuck or Autopilot unavailable? Step-by-step guide to recalibrate cameras on Model 3, Y, S & X. Fix calibration errors fast."
+title: "Tesla Camera Calibration Stuck? Here's the Real Fix (2026)"
+description: "Autopilot unavailable after windshield swap or update? The recalibration trick Tesla doesn't tell you — plus when cameras are actually faulty vs just stuck."
 date: 2026-01-14
 updated: 2026-03-08
 category: "Autopilot"

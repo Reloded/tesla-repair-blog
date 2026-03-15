@@ -1,7 +1,7 @@
 ---
 layout: post.njk
-title: "Tesla Screen Black or Frozen? 5 Reboot Fixes That Work Instantly"
-description: "Tesla screen black? Try these 5 reboot methods — from scroll-wheel reset to full power cycle. Fix your frozen touchscreen in 2 minutes."
+title: "Tesla Screen Black or Frozen? Do THIS First (Works Every Time)"
+description: "Don't panic — a black Tesla screen is almost never serious. One 10-second trick fixes 90% of cases. Plus 4 backup methods if the first one doesn't work."
 date: 2025-01-03
 category: "Electrical"
 difficulty: "Easy"
@@ -33,7 +33,7 @@ A black or frozen Tesla touchscreen can be alarming, but it's usually an easy fi
 
 ## Level 1: Soft Reboot (Most Common Fix)
 
-The soft reboot is like restarting your phone—it solves most temporary glitches.
+The soft reboot is like restarting your phone-it solves most temporary glitches.
 
 ### How to Soft Reboot
 
@@ -45,7 +45,7 @@ Per [Tesla's official procedure](https://service.tesla.com/docs/Public/diy/model
 4. Release the buttons
 5. Wait approximately **30 seconds** for the touchscreen to restart
 
-The car remains operational during this reboot—steering, brakes, and drive systems are unaffected.
+The car remains operational during this reboot-steering, brakes, and drive systems are unaffected.
 
 <div class="tip-box">
 <strong>Tip:</strong> You don't need to press the brake or turn anything off. Just hold both scroll wheels. The car remains operational during this reboot.
@@ -139,14 +139,14 @@ You'll need to set everything up again from scratch.
 ### Screen Black While Driving
 
 1. **Stay calm** - The car will continue driving safely
-2. Try soft reboot (hold both scroll wheels) while driving—this is safe
+2. Try soft reboot (hold both scroll wheels) while driving-this is safe
 3. Pull over when convenient to let the system fully restart
 4. If it happens repeatedly, schedule service
 
 ### Screen Stuck on Tesla Logo
 
 This indicates a boot problem:
-1. Let it sit for 15-20 minutes—sometimes it just takes a while
+1. Let it sit for 15-20 minutes-sometimes it just takes a while
 2. Try the scroll wheel + brake reboot
 3. If it persists, the car may need a software update via service center
 
@@ -155,7 +155,7 @@ This indicates a boot problem:
 This might indicate a hardware problem:
 1. Try all reboot methods
 2. If it persists, the screen or MCU (Media Control Unit) may need replacement
-3. Schedule service—this is not DIY fixable
+3. Schedule service-this is not DIY fixable
 
 ### Screen Issues After Update
 

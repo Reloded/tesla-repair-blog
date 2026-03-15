@@ -1,7 +1,7 @@
 ---
 layout: post.njk
-title: "Tesla Navigation Not Working? 9 Proven Fixes (2026)"
-description: "Tesla navigation broken, maps not loading, or GPS inaccurate? 9 proven fixes for Model 3, Y, S & X. Step-by-step solutions — no service visit needed."
+title: "Tesla Navigation Not Working? 9 Fixes That Actually Work"
+description: "Maps won't load, GPS stuck, or wrong location? Here are 9 real fixes from a Tesla repair shop — most take under 2 minutes. No service center visit needed."
 date: 2025-01-14
 updated: 2026-03-08
 category: "Software"
@@ -206,6 +206,6 @@ Reach out to Tesla if:
 - [LTE Connectivity Issues](/posts/tesla-lte-connectivity-issues/) - Fix cellular data problems
 - [Software Update Stuck](/posts/tesla-software-update-stuck/) - WiFi troubleshooting techniques
 - [MCU Touchscreen Upgrade](/posts/tesla-mcu-touchscreen-upgrade/) - For persistent display issues on older models
-- [Tesla Camera Calibration: How to Recalibrate Autopilot Cameras](/posts/tesla-autopilot-camera-calibration/) — Easy · Autopilot
-- [Tesla Service Mode: How to Access Diagnostics](/posts/tesla-service-mode-guide/) — Easy · Maintenance
-- [Tesla Phantom Braking Issue: 5 Proven Fixes](/posts/tesla-phantom-braking-fix/) — Easy · Autopilot & Safety
+- [Tesla Camera Calibration: How to Recalibrate Autopilot Cameras](/posts/tesla-autopilot-camera-calibration/) - Easy · Autopilot
+- [Tesla Service Mode: How to Access Diagnostics](/posts/tesla-service-mode-guide/) - Easy · Maintenance
+- [Tesla Phantom Braking Issue: 5 Proven Fixes](/posts/tesla-phantom-braking-fix/) - Easy · Autopilot & Safety

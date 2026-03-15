@@ -1,7 +1,7 @@
 ---
 layout: post.njk
-title: "Tesla Dashcam USB Setup: Best Drives & How to Format"
-description: "Set up Tesla dashcam and Sentry Mode correctly — best USB drives, formatting steps, and where to plug in. Stop losing footage with this 10-min setup."
+title: "Tesla Dashcam USB Setup: Stop Losing Sentry Mode Footage"
+description: "90% of Tesla dashcam problems come from wrong USB drives or bad formatting. Here's the exact setup that works — tested drives, format steps, and plug-in location."
 date: 2026-01-17
 category: "Electrical"
 difficulty: "Easy"
@@ -23,7 +23,7 @@ tools:
     link: "https://www.amazon.de/s?k=usb+c+to+usb+a+adapter&tag=diyrepair-21"
 ---
 
-Every Tesla has a built-in dashcam and Sentry Mode security system—but you need to provide the USB storage. The wrong drive causes recording failures, corrupted footage, and endless frustration. This guide covers exactly what you need and how to set it up right.
+Every Tesla has a built-in dashcam and Sentry Mode security system-but you need to provide the USB storage. The wrong drive causes recording failures, corrupted footage, and endless frustration. This guide covers exactly what you need and how to set it up right.
 
 ## What You Need to Know
 
@@ -64,7 +64,7 @@ Tesla's cameras write data constantly. A regular USB drive can fail within month
 - 24/7 recording applications
 - Extreme temperature ranges
 
-Spend a bit more on a quality drive—it's cheaper than losing important footage.
+Spend a bit more on a quality drive-it's cheaper than losing important footage.
 
 ## Best USB Drives for Tesla
 
@@ -272,7 +272,7 @@ Want to use a USB drive for music AND dashcam? You need a USB hub.
 
 ### Recommended Hubs
 
-Look for Tesla-specific USB hubs on Amazon—they're designed to fit the center console and include the right ports.
+Look for Tesla-specific USB hubs on Amazon-they're designed to fit the center console and include the right ports.
 
 ## Troubleshooting
 
@@ -288,7 +288,7 @@ Look for Tesla-specific USB hubs on Amazon—they're designed to fit the center 
 1. Remove drive, check contents on PC
 2. Backup any important footage
 3. Reformat (exFAT, create TeslaCam folder)
-4. If still failing, drive may be worn out—replace it
+4. If still failing, drive may be worn out-replace it
 
 ### Footage Is Corrupted
 
@@ -310,7 +310,7 @@ Look for Tesla-specific USB hubs on Amazon—they're designed to fit the center 
 **If higher:**
 - Frequent events triggering recording
 - Parked in high-traffic area
-- Software bug—try reboot
+- Software bug-try reboot
 
 **Solutions:**
 - Exclude home/work locations
@@ -326,7 +326,7 @@ Your drive can't keep up with the data rate from Tesla's cameras.
 - Use SSD instead of flash drive
 - Check if drive is nearly full (performance drops when full)
 
-For more dashcam troubleshooting, see our [dashcam not saving guide](/posts/tesla-dashcam-not-saving/). If your USB isn't recognized at all, try our [USB not working fix](/posts/tesla-usb-not-working/) — it covers port issues and drive compatibility.
+For more dashcam troubleshooting, see our [dashcam not saving guide](/posts/tesla-dashcam-not-saving/). If your USB isn't recognized at all, try our [USB not working fix](/posts/tesla-usb-not-working/) - it covers port issues and drive compatibility.
 
 ## Viewing Your Footage
 
@@ -367,7 +367,7 @@ For more dashcam troubleshooting, see our [dashcam not saving guide](/posts/tesl
 ### What Gets Overwritten
 
 - **RecentClips:** Oldest footage deleted when full (rolling buffer)
-- **SavedClips:** Never auto-deleted—you must manage manually
+- **SavedClips:** Never auto-deleted-you must manage manually
 - **SentryClips:** Oldest events deleted when full
 
 ### Managing Storage

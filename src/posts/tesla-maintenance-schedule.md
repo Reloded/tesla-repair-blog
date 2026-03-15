@@ -1,7 +1,7 @@
 ---
 layout: post.njk
-title: "Tesla Maintenance Schedule: Complete Guide (2026)"
-description: "The only Tesla maintenance schedule you need — Model 3, Y, S, X & Cybertruck. Exact intervals, what you can DIY, and how to save $1,000+ vs service center pricing."
+title: "Tesla Maintenance Schedule: What You Actually Need (2026)"
+description: "Skip the dealer upsells. Here's every Tesla maintenance item with exact intervals, DIY difficulty ratings, and which ones you can safely skip to save $1,000+."
 date: 2026-02-26
 category: "Maintenance"
 difficulty: "Beginner"
@@ -17,7 +17,7 @@ faq:
   - q: "What maintenance does a Tesla actually need?"
     a: "Essential Tesla maintenance includes: tire rotations (every 6,250 miles), brake fluid checks (every 2 years), cabin air filter replacement (every 2 years), and coolant flush (every 4 years for Model S/X)."
   - q: "How much does Tesla maintenance cost per year?"
-    a: "Annual Tesla maintenance typically costs $200-$400 DIY or $400-$800 at a service center. Main costs are cabin air filter, tire rotation, and occasional brake fluid — far cheaper than gas vehicles."
+    a: "Annual Tesla maintenance typically costs $200-$400 DIY or $400-$800 at a service center. Main costs are cabin air filter, tire rotation, and occasional brake fluid - far cheaper than gas vehicles."
 tools:
   - name: "Tesla Cabin Air Filter (Model 3/Y)"
     link: "https://www.amazon.de/s?k=tesla+model+3+cabin+air+filter&tag=diyrepair-21"
@@ -33,7 +33,7 @@ tools:
     provider: "ifixit"
 ---
 
-One of the biggest selling points of owning a Tesla is low maintenance. No oil changes, no spark plugs, no transmission fluid, no timing belts. But "low maintenance" doesn't mean "no maintenance" — and skipping what little there is can lead to expensive problems down the road.
+One of the biggest selling points of owning a Tesla is low maintenance. No oil changes, no spark plugs, no transmission fluid, no timing belts. But "low maintenance" doesn't mean "no maintenance" - and skipping what little there is can lead to expensive problems down the road.
 
 Here's exactly what needs servicing, when, and how much you'll save doing it yourself.
 
@@ -79,25 +79,25 @@ The official schedule is conservative. Based on repair shop experience with hund
 
 ### Every 6 Months
 
-- **[Tire pressure check](/posts/tesla-tire-pressure-guide/)** — the car monitors it, but manually verify with a gauge. TPMS sensors can drift.
-- **[Wiper fluid top-up](/posts/tesla-washer-fluid-pump-nozzle-fix/)** — especially before winter.
-- **Visual brake inspection** — look through the wheel spokes. Teslas use regen braking heavily, so pads last 100,000+ km, but rotors can rust from disuse in humid climates.
+- **[Tire pressure check](/posts/tesla-tire-pressure-guide/)** - the car monitors it, but manually verify with a gauge. TPMS sensors can drift.
+- **[Wiper fluid top-up](/posts/tesla-washer-fluid-pump-nozzle-fix/)** - especially before winter.
+- **Visual brake inspection** - look through the wheel spokes. Teslas use regen braking heavily, so pads last 100,000+ km, but rotors can rust from disuse in humid climates.
 
 ### Every Year
 
-- **[Interior deep clean](/posts/tesla-interior-cleaning-detailing/)** — Tesla's vegan leather needs conditioning to prevent cracking.
-- **[Door seal inspection and lubrication](/posts/tesla-door-seal-maintenance/)** — prevents wind noise and water leaks, especially in cold climates where rubber stiffens.
-- **[Software update check](/posts/tesla-software-update-stuck/)** — ensure you're on the latest version. Some owners unknowingly block updates.
+- **[Interior deep clean](/posts/tesla-interior-cleaning-detailing/)** - Tesla's vegan leather needs conditioning to prevent cracking.
+- **[Door seal inspection and lubrication](/posts/tesla-door-seal-maintenance/)** - prevents wind noise and water leaks, especially in cold climates where rubber stiffens.
+- **[Software update check](/posts/tesla-software-update-stuck/)** - ensure you're on the latest version. Some owners unknowingly block updates.
 
 ### Every 2 Years
 
-- **[Wheel alignment](/posts/tesla-wheel-alignment-diy/)** — Teslas are heavy and eat tires unevenly without proper alignment. Especially after hitting potholes.
-- **[12V battery health check](/posts/tesla-12v-battery-replacement/)** — the 12V battery powers all accessories and door mechanisms. A dead 12V means you can't even open the doors. Replace proactively at 3-4 years.
-- **[Brake rotor inspection](/posts/tesla-brake-rotor-replacement/)** — light surface rust is normal, but deep pitting means replacement time.
+- **[Wheel alignment](/posts/tesla-wheel-alignment-diy/)** - Teslas are heavy and eat tires unevenly without proper alignment. Especially after hitting potholes.
+- **[12V battery health check](/posts/tesla-12v-battery-replacement/)** - the 12V battery powers all accessories and door mechanisms. A dead 12V means you can't even open the doors. Replace proactively at 3-4 years.
+- **[Brake rotor inspection](/posts/tesla-brake-rotor-replacement/)** - light surface rust is normal, but deep pitting means replacement time.
 
 ### Every 3-4 Years
 
-- **[Battery health assessment](/posts/tesla-battery-degradation-health/)** — use an OBD2 scanner to check state of health (SoH), cell voltage delta, and charge cycles. Early detection of weak cells saves money.
+- **[Battery health assessment](/posts/tesla-battery-degradation-health/)** - use an OBD2 scanner to check state of health (SoH), cell voltage delta, and charge cycles. Early detection of weak cells saves money.
 
 ## Model 3/Y Maintenance Schedule at a Glance
 
@@ -120,14 +120,14 @@ Older Model S and X vehicles (especially pre-2021 refresh) have more to worry ab
 
 The air suspension system adds maintenance complexity:
 
-- **Air springs** — lifespan of 80,000-150,000 km. Listen for compressor running constantly (indicates a leak). See our [air suspension troubleshooting guide](/posts/tesla-air-suspension-issues/).
-- **Compressor** — usually fails from overwork (compensating for leaky springs). Replace springs first.
-- **Ride height sensors** — can corrode in winter salt. Clean annually.
+- **Air springs** - lifespan of 80,000-150,000 km. Listen for compressor running constantly (indicates a leak). See our [air suspension troubleshooting guide](/posts/tesla-air-suspension-issues/).
+- **Compressor** - usually fails from overwork (compensating for leaky springs). Replace springs first.
+- **Ride height sensors** - can corrode in winter salt. Clean annually.
 
 ### MCU1 Vehicles (2012-2018 Model S, 2015-2018 Model X)
 
-- **eMMC chip** — the original 8GB eMMC storage wears out from constant logging. If your touchscreen is getting slow, freezing, or failing to boot, the eMMC needs replacement. See our [MCU upgrade guide](/posts/tesla-mcu-touchscreen-upgrade/).
-- **Touchscreen** — yellow border around the edge indicates adhesive failure. Tesla covered this under warranty for affected models.
+- **eMMC chip** - the original 8GB eMMC storage wears out from constant logging. If your touchscreen is getting slow, freezing, or failing to boot, the eMMC needs replacement. See our [MCU upgrade guide](/posts/tesla-mcu-touchscreen-upgrade/).
+- **Touchscreen** - yellow border around the edge indicates adhesive failure. Tesla covered this under warranty for affected models.
 
 ### Drive Unit (Early Model S)
 
@@ -140,13 +140,13 @@ Early Model S vehicles (2012-2016) had known drive unit issues:
 
 Just as important as knowing what to do is knowing what you can skip:
 
-- **No engine oil** — electric motors don't use oil (the gear oil in the drive unit is a sealed system, checked only at very high mileage)
-- **No transmission service** — single-speed reduction gear, sealed unit
-- **No spark plugs** — no combustion engine
-- **No timing belt/chain** — doesn't exist
-- **No exhaust system** — nothing to rust or replace
-- **No emission testing** — EVs are exempt in most countries
-- **No alternator/starter motor** — electric architecture eliminates these
+- **No engine oil** - electric motors don't use oil (the gear oil in the drive unit is a sealed system, checked only at very high mileage)
+- **No transmission service** - single-speed reduction gear, sealed unit
+- **No spark plugs** - no combustion engine
+- **No timing belt/chain** - doesn't exist
+- **No exhaust system** - nothing to rust or replace
+- **No emission testing** - EVs are exempt in most countries
+- **No alternator/starter motor** - electric architecture eliminates these
 
 ## Maintenance Cost Comparison: DIY vs. Service Center
 
@@ -187,18 +187,18 @@ That's not counting the bigger jobs like [brake pads](/posts/tesla-brake-pad-rep
 ## When to Use Tesla Service Center vs. DIY
 
 **DIY-friendly (save money):**
-- [Cabin air filter](/posts/tesla-cabin-air-filter/) — 10 minutes, very easy
-- [Wiper blades](/posts/tesla-windshield-wiper-replacement/) — 5 minutes
-- [Tire rotation](/posts/tesla-tire-rotation/) — 30-60 minutes with a jack
-- [12V battery](/posts/tesla-12v-battery-replacement/) — 15 minutes
-- [Brake pads](/posts/tesla-brake-pad-replacement/) — 1-2 hours per axle
-- [Interior cleaning](/posts/tesla-interior-cleaning-detailing/) — as thorough as you want
+- [Cabin air filter](/posts/tesla-cabin-air-filter/) - 10 minutes, very easy
+- [Wiper blades](/posts/tesla-windshield-wiper-replacement/) - 5 minutes
+- [Tire rotation](/posts/tesla-tire-rotation/) - 30-60 minutes with a jack
+- [12V battery](/posts/tesla-12v-battery-replacement/) - 15 minutes
+- [Brake pads](/posts/tesla-brake-pad-replacement/) - 1-2 hours per axle
+- [Interior cleaning](/posts/tesla-interior-cleaning-detailing/) - as thorough as you want
 
 **Best left to professionals:**
-- A/C desiccant bag — requires refrigerant evacuation/recharge
-- [Coolant flush](/posts/tesla-coolant-flush-change/) — doable DIY but air bleeding takes patience
-- Alignment — requires specialized equipment
-- Anything high-voltage — leave orange cables alone unless trained
+- A/C desiccant bag - requires refrigerant evacuation/recharge
+- [Coolant flush](/posts/tesla-coolant-flush-change/) - doable DIY but air bleeding takes patience
+- Alignment - requires specialized equipment
+- Anything high-voltage - leave orange cables alone unless trained
 
 **Must be Tesla Service Center:**
 - Warranty claims
@@ -210,10 +210,10 @@ That's not counting the bigger jobs like [brake pads](/posts/tesla-brake-pad-rep
 
 Don't rely on memory. Set up maintenance reminders:
 
-1. **Tesla app** — schedule service directly from the app when items are due
-2. **Calendar reminders** — set recurring annual/biennial reminders for each item
-3. **Mileage-based** — note your odometer reading and set the next service at the target km
-4. **[Service Mode](/posts/tesla-service-mode-guide/)** — periodically check Service Alerts for any flagged issues
+1. **Tesla app** - schedule service directly from the app when items are due
+2. **Calendar reminders** - set recurring annual/biennial reminders for each item
+3. **Mileage-based** - note your odometer reading and set the next service at the target km
+4. **[Service Mode](/posts/tesla-service-mode-guide/)** - periodically check Service Alerts for any flagged issues
 
 ## Frequently Asked Questions
 
@@ -221,13 +221,13 @@ Don't rely on memory. Set up maintenance reminders:
 Not automatically, but if a failure is caused by neglected maintenance (like coolant degradation causing a pump failure), Tesla can deny that specific warranty claim. Keep records of your DIY maintenance.
 
 **Is Tesla maintenance more expensive than regular cars?**
-No — it's significantly cheaper. A comparable BMW or Mercedes costs €6,000-10,000 in maintenance over the same 8-year period. Tesla's lack of engine-related services saves thousands.
+No - it's significantly cheaper. A comparable BMW or Mercedes costs €6,000-10,000 in maintenance over the same 8-year period. Tesla's lack of engine-related services saves thousands.
 
 **Can I take my Tesla to an independent shop?**
 Yes. Tesla can't require you to use their service centers for warranty to remain valid (at least in the EU under consumer protection laws). Many independent EV shops offer Tesla service at lower prices.
 
 **What about the battery warranty?**
-The high-voltage battery and drive unit are covered for 8 years / 160,000 km (Model 3/Y) or 8 years / 240,000 km (Model S/X), with a guarantee of 70% retention. This is separate from maintenance — it's a warranty on the component itself.
+The high-voltage battery and drive unit are covered for 8 years / 160,000 km (Model 3/Y) or 8 years / 240,000 km (Model S/X), with a guarantee of 70% retention. This is separate from maintenance - it's a warranty on the component itself.
 
 **How do I know when brake pads need replacing?**
 Tesla pads last much longer than ICE cars (100,000-200,000 km) due to regenerative braking. When they're getting low, you'll hear a high-pitched squeal. You can also visually inspect pad thickness through the wheel spokes. See our [brake pad guide](/posts/tesla-brake-pad-replacement/).
@@ -236,7 +236,7 @@ Tesla pads last much longer than ICE cars (100,000-200,000 km) due to regenerati
 
 Tesla maintenance is refreshingly simple compared to traditional cars. The key items are cabin air filter, brake fluid, coolant, tire rotation, and the 12V battery. Everything else is either long-interval or as-needed.
 
-The best approach: set calendar reminders, do the easy stuff yourself, and use Tesla Service or a trusted independent shop for the specialized work. Your wallet — and your Tesla — will thank you.
+The best approach: set calendar reminders, do the easy stuff yourself, and use Tesla Service or a trusted independent shop for the specialized work. Your wallet - and your Tesla - will thank you.
 
 ---
 
@@ -244,9 +244,9 @@ The best approach: set calendar reminders, do the easy stuff yourself, and use T
 
 ## Related Guides
 
-- [Service Mode Guide](/posts/tesla-service-mode-guide/) — Access diagnostics to check vehicle health
-- [Brake Pad Replacement](/posts/tesla-brake-pad-replacement/) — When pads finally wear out
-- [Cabin Air Filter](/posts/tesla-cabin-air-filter/) — The most common DIY service
-- [12V Battery Replacement](/posts/tesla-12v-battery-replacement/) — Don't wait until you're locked out
-- [Coolant Flush & Change](/posts/tesla-coolant-flush-change/) — Critical for battery longevity
-- [Winter Preparation Guide](/posts/tesla-winter-preparation-guide/) — Seasonal maintenance tips
+- [Service Mode Guide](/posts/tesla-service-mode-guide/) - Access diagnostics to check vehicle health
+- [Brake Pad Replacement](/posts/tesla-brake-pad-replacement/) - When pads finally wear out
+- [Cabin Air Filter](/posts/tesla-cabin-air-filter/) - The most common DIY service
+- [12V Battery Replacement](/posts/tesla-12v-battery-replacement/) - Don't wait until you're locked out
+- [Coolant Flush & Change](/posts/tesla-coolant-flush-change/) - Critical for battery longevity
+- [Winter Preparation Guide](/posts/tesla-winter-preparation-guide/) - Seasonal maintenance tips
