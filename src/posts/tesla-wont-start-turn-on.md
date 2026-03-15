@@ -281,3 +281,4 @@ Most "Tesla won't start" situations are solved by either **jumping/replacing the
 - [Tesla 2026.2.3 Update: Hidden Features, Battery Recalibration, Autopark & Service Mode Changes](/posts/tesla-2026-2-3-software-update-features/) — Easy · Software & Tech
 - [How to Install Tesla Ambient Interior Lighting (Model 3/Y)](/posts/tesla-ambient-lighting-install/) — Medium · Model 3, Model Y · Interior
 - [Tesla Battery Degradation: How to Check Health & Maximize Lifespan](/posts/tesla-battery-degradation-health/) — Easy · Battery
+- [Tesla Pyrofuse Explained: What It Does, When It Blows & What to Do](/posts/tesla-pyrofuse-guide/) — Advanced · Electrical

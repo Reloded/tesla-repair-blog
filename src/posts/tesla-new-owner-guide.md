@@ -382,3 +382,6 @@ Save this for your first month:
 - [Tesla Service Mode: How to Access It, What It Unlocks](/posts/tesla-service-mode-guide/) - Easy · Maintenance
 - [Tesla Repair Cost Guide: DIY vs. Service Center](/posts/tesla-repair-cost-guide/) - Beginner · Ownership
 - [Tesla Winter Preparation: Complete Cold Weather Checklist](/posts/tesla-winter-preparation-guide/) - Easy · Maintenance
+- [Best Tesla Model Y Juniper Accessories: 2026 Owner's Guide](/posts/tesla-model-y-juniper-accessories-guide/) - Beginner · Accessories
+- [Tesla Model 3 Highland vs Model Y Juniper Comparison](/posts/tesla-model-3-highland-vs-model-y-juniper/) - Beginner · Buying
+- [Tesla Pyrofuse Explained: What It Does, When It Blows & What to Do](/posts/tesla-pyrofuse-guide/) - Advanced · Electrical

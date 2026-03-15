@@ -250,3 +250,5 @@ The best approach: set calendar reminders, do the easy stuff yourself, and use T
 - [12V Battery Replacement](/posts/tesla-12v-battery-replacement/) - Don't wait until you're locked out
 - [Coolant Flush & Change](/posts/tesla-coolant-flush-change/) - Critical for battery longevity
 - [Winter Preparation Guide](/posts/tesla-winter-preparation-guide/) - Seasonal maintenance tips
+- [Tesla Pyrofuse Explained](/posts/tesla-pyrofuse-guide/) - The safety fuse inside your battery pack
+- [Model 3 Highland vs Model Y Juniper](/posts/tesla-model-3-highland-vs-model-y-juniper/) - Comparing the refreshed models

@@ -17,7 +17,7 @@ tools:
     provider: "amazon-com"
 ---
 
-The Tesla battery is the most expensive single component in the car. When it fails or degrades significantly, the replacement cost can feel like buying a second car. But the reality is more nuanced than the scary numbers you see online — full pack replacements are rare, module-level repairs are often possible, and warranty covers more than most people realize.
+The Tesla battery is the most expensive single component in the car. When it fails or degrades significantly, the replacement cost can feel like buying a second car. But the reality is more nuanced than the scary numbers you see online - full pack replacements are rare, module-level repairs are often possible, and warranty covers more than most people realize.
 
 Here's what battery replacement actually costs, from someone who's pulled these packs for a living.
 
@@ -38,7 +38,7 @@ Here's what battery replacement actually costs, from someone who's pulled these 
 
 ### Module-Level Replacement
 
-This is where it gets more affordable. A Tesla battery pack contains multiple modules (4-5 in Model 3/Y, more in S/X). Often, only one module has a problem — a weak cell group, a failed sensor, or coolant intrusion in one section.
+This is where it gets more affordable. A Tesla battery pack contains multiple modules (4-5 in Model 3/Y, more in S/X). Often, only one module has a problem - a weak cell group, a failed sensor, or coolant intrusion in one section.
 
 | Repair Type | Cost Range | When It Applies |
 |------------|-----------|-----------------|
@@ -85,8 +85,8 @@ If your battery drops below 70% of its original capacity within the warranty per
 
 ### How to File a Battery Warranty Claim
 
-1. Document the issue — take screenshots of displayed range at 100% charge, note any error messages
-2. Run a diagnostic — use an [OBD2 scanner](/posts/tesla-obd2-scanner-diagnostics/) to record SoH, cell voltages, and any DTCs (diagnostic trouble codes)
+1. Document the issue - take screenshots of displayed range at 100% charge, note any error messages
+2. Run a diagnostic - use an [OBD2 scanner](/posts/tesla-obd2-scanner-diagnostics/) to record SoH, cell voltages, and any DTCs (diagnostic trouble codes)
 3. Schedule a Tesla Service appointment through the app
 4. Tesla will run their own diagnostics to verify the issue
 5. If it qualifies, replacement is covered at no cost including labor
@@ -97,7 +97,7 @@ If your battery drops below 70% of its original capacity within the warranty per
 
 ### Full Pack Replacement
 
-The entire battery pack assembly — cells, modules, BMS, cooling system, housing — is removed and replaced as one unit.
+The entire battery pack assembly - cells, modules, BMS, cooling system, housing - is removed and replaced as one unit.
 
 **When it's needed:**
 - Multiple modules are degraded
@@ -166,7 +166,7 @@ The pack is opened and individual modules are swapped. This requires more skill 
 - Some specialize specifically in Tesla battery work
 
 **Cons:**
-- Quality varies widely — find a shop with Tesla-specific experience
+- Quality varies widely - find a shop with Tesla-specific experience
 - Parts sourcing can be challenging (used modules from salvage vehicles)
 - No official Tesla warranty on the repair
 - BMS pairing may require additional tools
@@ -180,7 +180,7 @@ The pack is opened and individual modules are swapped. This requires more skill 
 - Access to replacement modules or packs
 - Understanding of high-voltage safety disconnect procedures
 
-The high-voltage battery in a Tesla runs at 350-400V (Model 3/Y) or up to 450V (Model S Plaid). This is **lethal voltage** — there is no room for error. Even with the main contactors open, residual charge exists.
+The high-voltage battery in a Tesla runs at 350-400V (Model 3/Y) or up to 450V (Model S Plaid). This is **lethal voltage** - there is no room for error. Even with the main contactors open, residual charge exists.
 
 <div class="warning-box">
 <strong>⚠️ High Voltage Warning:</strong> Tesla battery work involves lethal voltages. A single mistake can result in electrocution, severe burns, or fire. This is not a DIY job unless you are specifically trained and equipped for high-voltage EV work. The money saved is not worth the risk.
@@ -192,17 +192,17 @@ This is the real question. Here's the math:
 
 ### Replace the Battery When:
 
-- **Car value after repair > repair cost + car value before repair** — if your Model 3 is worth €12,000 with a bad battery and €25,000 with a good one, spending €10,000 on a replacement makes sense (you gain €3,000 in value)
-- **You plan to keep the car long-term** — spreading the cost over 5+ more years of driving makes it comparable to buying a new car's depreciation
-- **Module-level repair is possible** — spending €4,000 on one module is almost always worth it
-- **Car is otherwise in excellent condition** — low-mileage, good interior/exterior, well-maintained
+- **Car value after repair > repair cost + car value before repair** - if your Model 3 is worth €12,000 with a bad battery and €25,000 with a good one, spending €10,000 on a replacement makes sense (you gain €3,000 in value)
+- **You plan to keep the car long-term** - spreading the cost over 5+ more years of driving makes it comparable to buying a new car's depreciation
+- **Module-level repair is possible** - spending €4,000 on one module is almost always worth it
+- **Car is otherwise in excellent condition** - low-mileage, good interior/exterior, well-maintained
 
 ### Sell/Trade Instead When:
 
-- **Full pack cost exceeds 50% of car value** — the economics rarely work at that point
-- **Car has other expensive issues** — if you also need suspension, screens, or body work, the total cost compounds
-- **Newer models offer significantly better range/features** — sometimes upgrading makes more financial sense
-- **Battery degradation is gradual, not sudden** — if you're at 75% health and it's slowly declining, you may have years of usable range left before it actually needs replacement
+- **Full pack cost exceeds 50% of car value** - the economics rarely work at that point
+- **Car has other expensive issues** - if you also need suspension, screens, or body work, the total cost compounds
+- **Newer models offer significantly better range/features** - sometimes upgrading makes more financial sense
+- **Battery degradation is gradual, not sudden** - if you're at 75% health and it's slowly declining, you may have years of usable range left before it actually needs replacement
 
 ### The "Good Enough" Option
 
@@ -219,27 +219,27 @@ Prevention is always cheaper than replacement. Here's how to maximize your Tesla
 
 ### Charging Habits
 
-- **Daily charge limit: 80%** — only charge to 100% when needed for a trip (LFP batteries can charge to 100% daily)
-- **Avoid sitting at 0%** — deep discharge is harmful to lithium-ion cells
-- **Supercharge occasionally, not daily** — DC fast charging generates more heat. Regular AC home charging is gentler.
-- **Precondition before Supercharging** — the car's battery preconditioning system warms the pack for optimal charging. Navigate to a Supercharger and the car prepares automatically.
+- **Daily charge limit: 80%** - only charge to 100% when needed for a trip (LFP batteries can charge to 100% daily)
+- **Avoid sitting at 0%** - deep discharge is harmful to lithium-ion cells
+- **Supercharge occasionally, not daily** - DC fast charging generates more heat. Regular AC home charging is gentler.
+- **Precondition before Supercharging** - the car's battery preconditioning system warms the pack for optimal charging. Navigate to a Supercharger and the car prepares automatically.
 
 ### Parking and Storage
 
-- **Avoid extreme heat** — don't leave a fully charged Tesla in direct sun for days. Heat + high state of charge accelerates degradation.
-- **If storing long-term** — leave at 50-60% charge, plugged in if possible so the BMS can balance cells.
+- **Avoid extreme heat** - don't leave a fully charged Tesla in direct sun for days. Heat + high state of charge accelerates degradation.
+- **If storing long-term** - leave at 50-60% charge, plugged in if possible so the BMS can balance cells.
 
 ### Driving Patterns
 
-- **Regenerative braking** — use it. It's gentler on the battery than pedal braking and recovers energy.
-- **Avoid sustained high-power draws** — track mode and repeated 0-100 launches heat the battery significantly. Fun, but it adds up.
+- **Regenerative braking** - use it. It's gentler on the battery than pedal braking and recovers energy.
+- **Avoid sustained high-power draws** - track mode and repeated 0-100 launches heat the battery significantly. Fun, but it adds up.
 
 For a deeper dive, see our [Battery Degradation & Health Guide](/posts/tesla-battery-degradation-health/).
 
 ## Frequently Asked Questions
 
 **How long do Tesla batteries actually last?**
-Data from hundreds of thousands of vehicles shows most Tesla batteries retain 85-90% capacity at 300,000 km. The 8-year/70% warranty is conservative — real-world longevity far exceeds it for most owners.
+Data from hundreds of thousands of vehicles shows most Tesla batteries retain 85-90% capacity at 300,000 km. The 8-year/70% warranty is conservative - real-world longevity far exceeds it for most owners.
 
 **Can I upgrade to a larger battery?**
 Technically possible at some independent shops (e.g., putting a 75 kWh pack in a car that came with 50 kWh), but it requires extensive software modification and isn't straightforward. Not recommended unless done by a specialist.
@@ -259,9 +259,10 @@ Use an [OBD2 scanner](/posts/tesla-obd2-scanner-diagnostics/) with the Scan My T
 
 ## Related Guides
 
-- [Battery Degradation & Health](/posts/tesla-battery-degradation-health/) — Monitor and extend battery life
-- [OBD2 Scanner & Diagnostics](/posts/tesla-obd2-scanner-diagnostics/) — Check battery health yourself
-- [Service Mode Guide](/posts/tesla-service-mode-guide/) — Access HV battery diagnostics
-- [Coolant Flush & Change](/posts/tesla-coolant-flush-change/) — Healthy coolant protects the battery
-- [Slow Charging Fix](/posts/tesla-slow-charging-fix/) — Battery issues can cause slow charging
-- [Phantom Battery Drain](/posts/tesla-phantom-battery-drain-fix/) — Diagnose unexpected range loss
+- [Battery Degradation & Health](/posts/tesla-battery-degradation-health/) - Monitor and extend battery life
+- [OBD2 Scanner & Diagnostics](/posts/tesla-obd2-scanner-diagnostics/) - Check battery health yourself
+- [Service Mode Guide](/posts/tesla-service-mode-guide/) - Access HV battery diagnostics
+- [Coolant Flush & Change](/posts/tesla-coolant-flush-change/) - Healthy coolant protects the battery
+- [Slow Charging Fix](/posts/tesla-slow-charging-fix/) - Battery issues can cause slow charging
+- [Phantom Battery Drain](/posts/tesla-phantom-battery-drain-fix/) - Diagnose unexpected range loss
+- [Tesla Pyrofuse Explained](/posts/tesla-pyrofuse-guide/) - The HV disconnect fuse inside the battery pack ($300-700 to replace)
