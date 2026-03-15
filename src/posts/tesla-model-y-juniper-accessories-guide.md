@@ -8,6 +8,7 @@ difficulty: "Beginner"
 readTime: "14 min read"
 models: "Model Y"
 emoji: "🛒"
+featuredImage: "/images/og-juniper-accessories.png"
 faq:
   - q: "Do old Model Y accessories fit the 2025+ Juniper?"
     a: "Most don't. The Juniper has a redesigned interior with different center console, new dash layout, larger 15.4-inch screen, and reshaped door cards. Floor mats, console organizers, screen protectors, and trunk liners all need Juniper-specific versions. Only universal items like phone mounts, USB drives, and tire inflators carry over."

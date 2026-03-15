@@ -8,6 +8,7 @@ difficulty: "Beginner"
 readTime: "14 min read"
 models: "Model 3, Model Y"
 emoji: "⚖️"
+featuredImage: "/images/og-highland-vs-juniper.png"
 draft: false
 faq:
   - q: "What's the main difference between Highland and Juniper?"
