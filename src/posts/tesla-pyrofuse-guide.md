@@ -8,6 +8,7 @@ difficulty: "Advanced"
 readTime: "12 min read"
 models: "Model 3, Model Y, Model S, Model X"
 emoji: "⚡"
+featuredImage: "/images/pyrofuse/04-penthouse-open-hv-components.jpg"
 draft: false
 faq:
   - q: "What is a Tesla pyrofuse?"
