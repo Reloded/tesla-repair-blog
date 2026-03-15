@@ -98,13 +98,12 @@ Both refreshed models received major interior upgrades over their predecessors. 
 
 ### What they share:
 - ✅ 15.4-inch center touchscreen
-- ✅ 8-inch rear passenger touchscreen
-- ✅ Ventilated front seats
+- ✅ 8-inch rear passenger touchscreen (LR/Performance trims)
+- ✅ Ventilated front seats (LR/Performance trims)
 - ✅ Wraparound ambient lighting
-- ✅ Front-facing camera (8 cameras total)
 - ✅ USB-C ports (multiple, with fast charging support)
 - ✅ Wireless phone charging
-- ✅ Power-adjustable heated seats
+- ✅ Power-adjustable heated seats (front)
 - ✅ Acoustic glass for noise reduction
 
 ### Where they differ:
@@ -115,8 +114,9 @@ Both refreshed models received major interior upgrades over their predecessors. 
 | **Turn signal** | Steering wheel buttons | Traditional column stalk |
 | **Rear seats** | Manual folding | Power-folding |
 | **Trunk** | Sedan trunk (push-open) | Hatchback (hands-free) |
+| **Front bumper camera** | Not on original Highland; added 2026 | Yes, standard from launch |
 | **Rear climate** | Standard vents | Powered adjustable vents |
-| **Seating** | 5 seats | 5 seats (no 7-seat option at launch) |
+| **Seating** | 5 seats | 5 seats (7-seat option on LR AWD, +$2,500) |
 
 Surprise: the **Model 3 Highland actually has a better sound system** — 17 speakers with 2 subwoofers vs the Juniper's 15 speakers with 1 subwoofer (on Long Range/Performance trims). Audiophiles take note.
 
