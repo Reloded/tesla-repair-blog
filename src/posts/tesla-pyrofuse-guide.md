@@ -49,7 +49,7 @@ Think of it as the last line of defense. In a serious crash, the pyrofuse fires 
 The location varies by model and battery version:
 
 ### Model 3 & Model Y
-The pyrofuse sits **underneath the high-voltage battery pack**, accessible from below. On these vehicles (Battery 2.0 design), the fuse can be reached without removing the entire battery — though the car must be on a lift.
+The pyrofuse is located in the **battery penthouse** — the top section of the HV battery pack accessible from **inside the cabin** by removing the rear bench seat. It sits in the same compartment as the BMS (Battery Management System). No need to drop the battery pack — you remove the rear seat, then the penthouse service cover to access the fuse.
 
 ### Model S & Model X
 
