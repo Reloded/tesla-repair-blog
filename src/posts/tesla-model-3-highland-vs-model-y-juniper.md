@@ -132,7 +132,7 @@ This is where the Model Y pulls away dramatically.
 | **Trunk opening** | Sedan trunk lid | Hatchback (43 in clearance) |
 | **Trunk height** | Limited by sedan body | 27 in of vertical space |
 | **Frunk** | ~3.1 cu ft | ~4.1 cu ft |
-| **Towing** | Not recommended | 3,500 lbs capacity |
+| **Towing** | 2,200 lbs (factory tow package, $1,300) | 3,500 lbs capacity |
 
 The Model Y can fit:
 - Flat-pack furniture from IKEA
@@ -142,7 +142,7 @@ The Model Y can fit:
 
 The Model 3 can fit suitcases and grocery bags. It's fine for daily use, but it's a sedan — physics limits what you can stuff in there.
 
-**Towing** is a Model Y exclusive. If you need to tow a small trailer, bike rack mount, or boat, the Juniper handles up to 3,500 lbs. The Model 3 has no official towing rating.
+**Towing:** Both can tow, but the Model Y wins on capacity. The Juniper handles up to 3,500 lbs, while the Highland offers 2,200 lbs with the factory tow package ($1,300 add-on). Both can handle bike racks and small trailers, but if you're towing a boat or heavier load, the Model Y is the better choice.
 
 ## Pricing Breakdown
 
@@ -182,7 +182,7 @@ These features are reserved for the Long Range and Performance trims. If ventila
 - 📦 Need cargo space for gear, strollers, sports equipment
 - 🏕️ Want to camp in your car (Camp Mode is superior in the Y)
 - 🔄 Want the turn signal stalk back
-- 🚚 Need towing capability (up to 3,500 lbs)
+- 🚚 Need heavier towing (3,500 lbs vs Model 3's 2,200 lbs)
 - 🪑 Prefer a higher seating position and easier entry/exit
 - 🐕 Have large dogs
 
