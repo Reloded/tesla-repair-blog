@@ -51,6 +51,32 @@ The location varies by model and battery version:
 ### Model 3 & Model Y
 The pyrofuse is located in the **battery penthouse** — the top section of the HV battery pack accessible from **inside the cabin** by removing the rear bench seat. It sits in the same compartment as the BMS (Battery Management System). No need to drop the battery pack — you remove the rear seat, then the penthouse service cover to access the fuse.
 
+Here's what the process looks like on a real Model 3 (photos from our repair shop):
+
+**Step 1: Lift the rear bench seat** — you can see the orange HV components peeking through underneath.
+
+![Tesla Model 3 rear bench seat lifted showing battery penthouse access](/images/pyrofuse/01-rear-seat-lifted.jpg)
+
+**Step 2: Remove the seat to expose the penthouse cover** — the metal shield protecting the HV battery top. Notice the orange pyrofuse access cap.
+
+![Tesla Model 3 penthouse cover exposed after rear seat removal](/images/pyrofuse/02-penthouse-cover-with-brackets.jpg)
+
+![Tesla Model 3 battery penthouse cover full view with pyrofuse access cap](/images/pyrofuse/03-penthouse-cover-full-view.jpg)
+
+**Step 3: Remove the penthouse cover** — this reveals the HV components: orange HV connectors, BMS, wiring harness, and the pyrofuse area.
+
+![Tesla Model 3 battery penthouse opened showing HV components and pyrofuse](/images/pyrofuse/04-penthouse-open-hv-components.jpg)
+
+**Step 4: Identify the pyrofuse and BMS** — the orange component with the QR code label is the pyrofuse disconnect. Note the HV busbars and connectors surrounding it.
+
+![Tesla Model 3 BMS connector closeup in battery penthouse](/images/pyrofuse/05-bms-connector-closeup.jpg)
+
+![Tesla Model 3 pyrofuse area with HV-rated gloves — mandatory PPE](/images/pyrofuse/06-gloved-hand-working.jpg)
+
+![Tesla Model 3 pyrofuse component with QR code label and HV busbars](/images/pyrofuse/07-pyrofuse-component-view.jpg)
+
+**Notice the HV-rated gloves** in the photos — this is mandatory PPE when working anywhere near these components.
+
 ### Model S & Model X
 
 | Battery Version | Location | Access |
