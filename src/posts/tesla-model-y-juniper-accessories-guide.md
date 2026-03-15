@@ -144,7 +144,7 @@ Tesla doesn't include mud flaps from the factory, and the Juniper's lower ground
 
 ## 5. USB Hub & Dashcam Setup
 
-The Juniper comes with three 65W USB-C ports (enough to charge a laptop!), but you'll want a dedicated dashcam setup.
+The Juniper has four USB ports total — three USB-C (up to ~42W each, or two ports sharing up to ~65W) and one USB-A. That's enough to charge a laptop from a single port while running your dashcam on another.
 
 ### Recommended Setup
 1. **Samsung T7 500GB SSD** — reliable, fast, perfect for Tesla dashcam and Sentry Mode
@@ -159,7 +159,7 @@ The Juniper's dashcam records from multiple cameras including the new **front bu
 
 ## 6. Glass Roof Sunshade
 
-The Juniper's glass roof has **7x better heat refraction** than the old Model Y thanks to a new silver coating. But in hot climates, a sunshade still makes a noticeable difference.
+According to Tesla, the Juniper's glass roof reflects **7x more heat** than the old Model Y thanks to a new silver coating — reducing HVAC load and improving efficiency. But in hot climates, a sunshade still makes a noticeable difference.
 
 ### Types
 - **Mesh sunshade** — lets some light through, reduces heat significantly
