@@ -154,8 +154,16 @@ layout: base.njk
             <a href="{{ tool.link }}" class="buy-btn btn-rrcarparts" target="_blank" rel="nofollow noopener">RR Car Parts 🇪🇺</a>
             {% else %}
             <div class="amazon-buttons">
+              {% if tool.asin_de %}
+              <a href="https://www.amazon.de/dp/{{ tool.asin_de }}?tag=diyrepair-21" class="buy-btn btn-amazon-de" target="_blank" rel="nofollow noopener">Amazon.de 🇩🇪 →</a>
+              {% else %}
               <a href="{{ tool.link }}" class="buy-btn btn-amazon-de" target="_blank" rel="nofollow noopener">Amazon.de 🇩🇪</a>
+              {% endif %}
+              {% if tool.asin_com %}
+              <a href="https://www.amazon.com/dp/{{ tool.asin_com }}?tag=diyrepair07-20" class="buy-btn btn-amazon-us" target="_blank" rel="nofollow noopener">Amazon.com 🇺🇸 →</a>
+              {% else %}
               <a href="{{ tool.link | replace('amazon.de', 'amazon.com') | replace('diyrepair-21', 'diyrepair07-20') }}" class="buy-btn btn-amazon-us" target="_blank" rel="nofollow noopener">Amazon.com 🇺🇸</a>
+              {% endif %}
             </div>
             {% endif %}
           </div>
