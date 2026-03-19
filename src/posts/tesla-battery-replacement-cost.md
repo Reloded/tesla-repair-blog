@@ -12,9 +12,11 @@ draft: false
 tools:
   - name: "OBD2 Scanner for Tesla (OBDLink CX)"
     link: "https://www.amazon.de/s?k=OBDLink+CX+tesla+obd2&tag=diyrepair-21"
+    asin_de: "B08NFBKGR5"
   - name: "OBD2 Scanner for Tesla"
     link: "https://www.amazon.com/s?k=OBDLink+CX+tesla+obd2&tag=diyrepair07-20"
     provider: "amazon-com"
+    asin_com: "B08NFBKGR5"
 ---
 
 The Tesla battery is the most expensive single component in the car. When it fails or degrades significantly, the replacement cost can feel like buying a second car. But the reality is more nuanced than the scary numbers you see online - full pack replacements are rare, module-level repairs are often possible, and warranty covers more than most people realize.
