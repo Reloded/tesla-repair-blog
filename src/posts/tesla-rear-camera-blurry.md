@@ -17,13 +17,15 @@ faq:
     a: "If the camera is blurry due to internal condensation or hardware failure (not physical damage), it may be covered under Tesla's 4-year/50,000-mile basic warranty. Contact Tesla Service with photos of the issue."
   - q: "Can I replace the Tesla rear camera myself?"
     a: "Yes, the rear camera is DIY-replaceable. The camera module clips onto the trunk lid. Replacement cameras cost $50-$150 online. The job requires basic trim removal tools and takes about 30 minutes."
+asin_de: "B01FWNEUIM"
+asin_com: "B01FWNEUIM"
 tools:
   - name: "Microfiber Cloths"
-    link: "https://www.amazon.de/s?k=microfiber+cloths+car&tag=diyrepair-21"
-  - name: "Lens Cleaning Solution"
-    link: "https://www.amazon.de/s?k=camera+lens+cleaner&tag=diyrepair-21"
+    link: "https://www.amazon.de/dp/B009FUF6DM?tag=diyrepair-21"
+  - name: "Lens Cleaning Kit"
+    link: "https://www.amazon.de/dp/B01FWNEUIM?tag=diyrepair-21"
   - name: "Silica Gel Packets"
-    link: "https://www.amazon.de/s?k=silica+gel+packets&tag=diyrepair-21"
+    link: "https://www.amazon.de/dp/B00DYKTS9C?tag=diyrepair-21"
 ---
 
 The rear camera on your Tesla is essential for safe reversing and provides video for Sentry Mode recordings. When it becomes blurry, foggy, or shows a distorted image, you need to diagnose whether it's a simple cleaning issue or something more serious.

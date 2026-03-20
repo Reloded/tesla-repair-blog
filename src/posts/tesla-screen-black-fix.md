@@ -10,7 +10,7 @@ models: "All Models"
 emoji: "🖥️"
 tools:
   - name: "No tools required"
-    link: "https://www.amazon.de/s?k=tesla+accessories&tag=diyrepair-21"
+    link: "https://www.amazon.de/dp/B09BQ83XLR?tag=diyrepair-21"
   - name: "iFixit Pro Tech Toolkit"
     link: "https://sovrn.co/1dw8w9g"
     provider: "ifixit"

@@ -9,6 +9,8 @@ difficulty: "Easy"
 readTime: "20 min read"
 models: "All Models"
 emoji: "🔋"
+asin_de: "B0D7F5F4HN"
+asin_com: "B0BFFRV43G"
 faq:
   - q: "How fast does a Tesla battery degrade?"
     a: "Tesla batteries typically lose 2-3% capacity per year. After 5 years, most owners see 10-15% range reduction. LFP batteries degrade slower and benefit from regular 100% charging."
@@ -27,13 +29,13 @@ faq:
 tools:
   - name: "OBDLink CX Bluetooth Scanner"
     link: "https://www.amazon.com/dp/B08NFNLKTK?tag=diyrepair07-20"
-  - name: "Scan My Tesla App"
-    link: "https://www.amazon.de/s?k=scan+my+tesla+obd2&tag=diyrepair-21"
+  - name: "OBDLink CX Scanner (Amazon.de)"
+    link: "https://www.amazon.de/dp/B0D7F5F4HN?tag=diyrepair-21"
   - name: "Lectron Portable EV Chargers"
     link: "https://www.awin1.com/cread.php?awinmid=91891&awinaffid=2729872&ued=https%3A%2F%2Fev-lectron.com%2Fcollections%2Fev-chargers"
     provider: "lectron"
   - name: "Tesla Wall Connector"
-    link: "https://www.amazon.de/s?k=tesla+wall+connector&tag=diyrepair-21"
+    link: "https://www.amazon.de/dp/B0CS1YX18P?tag=diyrepair-21"
 ---
 
 Every Tesla owner eventually wonders: "Is my battery degrading normally?" Whether you're seeing slightly less range after a few years or considering buying a used Tesla, understanding battery health is essential. This guide covers everything you need to know about Tesla battery degradation — how to measure it, what's normal, and how to slow it down.
