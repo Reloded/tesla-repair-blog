@@ -3,9 +3,10 @@ layout: post.njk
 title: "Tesla Battery Degradation: What's Normal vs What's a Problem"
 description: "Lost 10% range already? Here's what real-world Tesla degradation looks like after 1-5 years, how to check your actual battery health, and when to worry."
 date: 2026-02-17
+updated: 2026-03-20
 category: "Battery"
 difficulty: "Easy"
-readTime: "16 min read"
+readTime: "20 min read"
 models: "All Models"
 emoji: "🔋"
 faq:
@@ -17,6 +18,12 @@ faq:
     a: "The main causes are heat exposure, frequent DC fast charging, regularly charging to 100%, and calendar aging. Keeping charge between 20-80% and limiting supercharging slows degradation significantly."
   - q: "Is Tesla battery degradation covered by warranty?"
     a: "Tesla warrants battery capacity for 8 years depending on model. If capacity drops below 70% within the warranty period, Tesla will repair or replace the battery pack."
+  - q: "What is the difference between LFP and NCA Tesla batteries?"
+    a: "LFP (lithium iron phosphate) batteries are used in Standard Range models from mid-2021. They can be charged to 100% daily, have longer cycle life, but slightly less energy density. NCA batteries are in Long Range and Performance models — charge to 80% daily for best longevity."
+  - q: "How many miles does a Tesla battery last?"
+    a: "Most Tesla batteries are designed to last 300,000-500,000 miles (500,000-800,000 km). Real-world data shows most packs retain 80%+ capacity at 200,000 miles. Battery replacement before end of vehicle life is uncommon."
+  - q: "Does cold weather permanently damage Tesla batteries?"
+    a: "No, cold weather causes temporary range reduction (20-40% in extreme cold) but does not permanently damage the battery. The thermal management system protects the cells. Preconditioning before driving recovers most of the lost range."
 tools:
   - name: "OBDLink CX Bluetooth Scanner"
     link: "https://www.amazon.com/dp/B08NFNLKTK?tag=diyrepair07-20"
@@ -84,6 +91,42 @@ Based on real-world data from hundreds of thousands of Tesla vehicles:
 | **Cold weather range** | Worse | Better |
 | **Degradation curve** | Flatter over time | Steeper initial drop |
 
+## Real-World Degradation by Model
+
+Community data from thousands of vehicles gives us a clearer picture of what to expect for each Tesla model. Here's what owners are actually seeing after 5 years of ownership:
+
+| Model | Battery | Original Range (WLTP) | Typical 5-Year Range | Avg Degradation |
+|-------|---------|----------------------|---------------------|-----------------|
+| Model 3 SR+ (LFP) | 60 kWh | 491 km | 430-450 km | 8-12% |
+| Model 3 LR (NCA) | 75 kWh | 602 km | 520-550 km | 8-14% |
+| Model Y LR (NCA) | 75 kWh | 533 km | 460-490 km | 8-14% |
+| Model S LR (NCA) | 100 kWh | 652 km | 570-600 km | 8-12% |
+| Model 3 Highland (NMC) | 60/79 kWh | 513-629 km | Too new | TBD |
+
+> **Note:** These are approximate ranges based on community data. Your results depend on climate, charging habits, and driving style. The Model 3 Highland uses newer NMC chemistry that may age differently — we'll update this table as more data becomes available.
+
+The key takeaway: most Tesla models cluster around 10-12% degradation at the 5-year mark, which is better than many EVs on the market. The Model S with its larger 100 kWh pack tends to do slightly better because each driving mile represents a smaller percentage of total capacity.
+
+## Temperature's Impact on Battery Health
+
+Temperature is the single biggest external factor affecting long-term battery health. Tesla's thermal management system does a lot of heavy lifting, but it can't overcome physics entirely.
+
+### Hot Climates (Arizona, Middle East, Southern Europe)
+
+Owners in consistently hot climates (average summer temps above 35°C) can see **15-20% degradation at 5 years** — noticeably higher than the fleet average. The battery pack sits underneath the car, absorbing road heat in addition to ambient temperature. Tesla's cooling system runs more aggressively in hot climates, which helps but adds to energy consumption.
+
+### Cold Climates (Scandinavia, Canada, Northern Europe)
+
+Cold climates cause **less permanent degradation** but significantly more **temporary range loss**. In extreme cold (-20°C and below), you might see 20-40% less range on a given drive. The good news: this range comes back when temperatures rise. Cold storage is actually gentler on lithium-ion chemistry than heat. For tips on handling cold weather range loss, see our [Battery Preconditioning Guide](/posts/tesla-battery-preconditioning-guide/).
+
+### Best Practices for Temperature Management
+
+- **Ideal storage temperature:** 15-25°C. If you can garage park, do it
+- **Garage parking vs outdoor** makes a measurable difference — roughly **2-3% less degradation over 5 years** according to fleet data
+- Tesla's thermal management system **runs even when parked** to protect the battery in extreme conditions. This is normal and expected — don't be alarmed by occasional fan noise
+- In summer, use Cabin Overheat Protection set to "Fan Only" to keep the interior cool without excessive battery drain from the A/C compressor
+- Pre-condition the battery before fast charging in cold weather — use **Navigate to Supercharger** to trigger automatic preheating
+
 ## How to Check Your Battery Health
 
 ### Method 1: In-Car Range Display (Least Accurate)
@@ -135,7 +178,7 @@ Long-term tracking services like TeslaFi log every charge session:
 
 ## BMS Calibration: The "Fake" Degradation
 
-Before assuming your battery is degrading, understand that the Battery Management System (BMS) can become miscalibrated, showing inaccurate capacity.
+Before assuming your battery is degrading, understand that the Battery Management System (BMS) can become miscalibrated, showing inaccurate capacity. If you have access to [Service Mode](/posts/tesla-service-mode-guide/), you can view detailed battery cell data to distinguish between real degradation and BMS drift.
 
 ### Signs of BMS Miscalibration
 - Sudden large range drops (5%+ overnight without driving)
@@ -175,7 +218,7 @@ Before assuming your battery is degrading, understand that the Battery Managemen
 ### 3. Minimize Supercharging
 - Occasional Supercharging is fine — Tesla designed the system for it
 - But making it your **primary** charging method increases heat stress
-- Home [AC charging](https://www.awin1.com/cread.php?awinmid=91891&awinaffid=2729872&ued=https%3A%2F%2Fev-lectron.com%2Fcollections%2Fev-chargers) at 7-11 kW is gentlest on the battery
+- Home [AC charging](https://www.awin1.com/cread.php?awinmid=91891&awinaffid=2729872&ued=https%3A%2F%2Fev-lectron.com%2Fcollections%2Fev-chargers) at 7-11 kW is gentlest on the battery. See our [Charging Adapter Guide](/posts/tesla-charging-adapter-guide/) for home charging options
 
 ### 4. Precondition Before Fast Charging
 - Use **Navigate to Supercharger** so the car preheats the battery
@@ -213,6 +256,26 @@ Before assuming your battery is degrading, understand that the Battery Managemen
   - Turn off Sentry Mode to prevent [phantom drain](/posts/tesla-phantom-battery-drain-fix/)
   - Leave plugged in if possible (the car manages itself)
   - Check on it every 2-3 weeks
+
+## Common Degradation Myths
+
+Battery degradation is one of the most misunderstood aspects of EV ownership. Let's clear up the most persistent myths.
+
+### Myth: "Supercharging ruins the battery"
+
+**Reality:** Occasional Supercharging has minimal long-term impact. Tesla's own fleet data shows **less than 1% additional degradation over 100,000 miles** for owners who Supercharge moderately (a few times per month). The battery management system actively protects cells during DC fast charging by limiting power and managing temperature. Making Supercharging your *only* charging method is suboptimal, but using it for road trips and occasional top-ups is exactly what it's designed for.
+
+### Myth: "You should never charge to 100%"
+
+**Reality:** This depends entirely on your battery chemistry. **LFP batteries should be charged to 100% regularly** — Tesla specifically recommends it, and it helps the BMS stay calibrated. For NCA/NMC batteries, daily charging to 80% is ideal, but **occasional 100% charges for trips are perfectly fine**. The damage comes from *sitting* at 100% for extended periods, not from briefly reaching full charge. Use Scheduled Departure to time your charge completion with your departure.
+
+### Myth: "Battery replacement costs $20,000+"
+
+**Reality:** Full pack replacements at those prices are increasingly rare. Most battery issues involve individual modules, not the entire pack. **Module-level repairs typically cost €2,000-5,000** and can resolve capacity issues, cell imbalances, and fault codes without replacing the whole battery. Third-party shops and specialists have also brought costs down significantly compared to early Tesla pricing.
+
+### Myth: "Degradation is linear"
+
+**Reality:** The degradation curve is **logarithmic, not linear**. You'll see the fastest capacity loss in the first year (5-8%), then the rate slows dramatically. A battery that lost 5% in year one won't lose another 5% in year two — more like 1-2%. This is why long-term Tesla owners often report that their degradation has essentially "plateaued" after the initial adjustment period. Understanding this curve prevents unnecessary anxiety about early range drops.
 
 ## When to Contact Tesla Service
 
@@ -258,7 +321,7 @@ For diagnosing other battery-related issues, check our guides on [phantom drain]
 
 ---
 
-*Last updated: February 2026. Degradation data based on publicly available fleet statistics and community reports.*
+*Last updated: March 2026. Degradation data based on publicly available fleet statistics and community reports.*
 
 ## Related Guides
 
@@ -269,3 +332,8 @@ For diagnosing other battery-related issues, check our guides on [phantom drain]
 - [Tesla Battery Replacement Cost: What It Really Costs in 2025](/posts/tesla-battery-replacement-cost/) — Informational · Model 3, Model Y, Model S, Model X · Battery & Electrical
 - [Tesla Key Fob Battery Replacement: 2-Minute Fix](/posts/tesla-key-fob-battery/) — Easy · Model S, Model X · Electrical
 - [How to Fix Tesla Phantom Battery Drain (Vampire Drain)](/posts/tesla-phantom-battery-drain-fix/) — Easy · Software & Settings
+- [Tesla Charging Adapter Guide](/posts/tesla-charging-adapter-guide/) — Charging equipment for home
+- [Tesla Supercharger Slow Charging Fix](/posts/tesla-slow-charging-fix/) — Fix slow charging speeds
+- [Tesla Service Mode Guide](/posts/tesla-service-mode-guide/) — Access battery diagnostics
+- [Tesla Used Buying Inspection Guide](/posts/tesla-used-buying-inspection-guide/) — Check battery before buying used
+- [Tesla Camera Calibration Guide](/posts/tesla-autopilot-camera-calibration/) — Another common maintenance task
