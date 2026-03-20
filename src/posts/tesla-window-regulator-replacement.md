@@ -42,7 +42,7 @@ If the window doesn't respond at all and you hear nothing, check the window swit
 - **10mm deep socket** with ratchet (regulator mounting nuts)
 - **13mm socket** (glass clamp bolts)
 - **T30 Torx bit** (door panel screws)
-- **[Plastic trim removal tools](https://www.amazon.com/s?k=plastic+trim+removal+tool+set&tag=diyrepair07-20)** (don't use metal—you'll scratch things)
+- **[Plastic trim removal tools](https://www.amazon.com/dp/B005NMCE04?tag=diyrepair07-20)** (don't use metal—you'll scratch things)
 - **Painter's tape** (to hold glass in place during repair)
 - **3mm Allen key** (for adjustment jack screws)
 - Work gloves and safety glasses

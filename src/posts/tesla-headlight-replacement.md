@@ -84,12 +84,12 @@ This job uses almost entirely 10mm fasteners — grab a coffee and a 10mm socket
 - **Socket extension** (6" minimum)
 - **Flat-head screwdriver** (for clip removal)
 - **Phillips screwdriver**
-- **[Plastic trim pry tool set](https://www.amazon.com/s?k=automotive+trim+removal+tools&tag=diyrepair07-20)** — protects your paint
+- **[Plastic trim pry tool set](https://www.amazon.com/dp/B005NMCE04?tag=diyrepair07-20)** — protects your paint
 - **Masking tape** — protect fender edges during bumper removal
 - **Zip-lock bags or magnetic tray** — keep track of bolts
 - **[Gloves](https://www.amazon.com/s?k=nitrile+mechanic+gloves&tag=diyrepair07-20)** — avoid cutting hands on plastic edges
 
-**🛒 EU shoppers:** [Amazon.de Werkzeug-Set](https://www.amazon.de/s?k=10mm+steckschl%C3%BCssel+ratsche+set&tag=diyrepair-21) | [iFixit Pro Tech Toolkit](https://sovrn.co/1dw8w9g)
+**🛒 EU shoppers:** [Amazon.de Werkzeug-Set](https://www.amazon.de/dp/B000I1RYXY?tag=diyrepair-21) | [iFixit Pro Tech Toolkit](https://sovrn.co/1dw8w9g)
 
 ### Parts: Where to Buy
 

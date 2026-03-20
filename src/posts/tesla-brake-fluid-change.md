@@ -11,7 +11,8 @@ emoji: "💧"
 draft: false
 tools:
   - name: "DOT 4 Brake Fluid (1L)"
-    link: "https://www.amazon.de/s?k=DOT+4+brake+fluid+1+liter&tag=diyrepair-21"
+    link: "https://www.amazon.de/dp/B0081JBXQ0?tag=diyrepair-21"
+    asin_de: "B0081JBXQ0"
   - name: "Brake Bleeder Kit"
     link: "https://www.amazon.de/s?k=brake+bleeder+kit&tag=diyrepair-21"
   - name: "Flare Nut Wrench Set"
@@ -23,9 +24,11 @@ tools:
   - name: "Catch Bottle"
     link: "https://www.amazon.de/s?k=brake+bleeder+catch+bottle&tag=diyrepair-21"
   - name: "Floor Jack (3-Ton)"
-    link: "https://www.amazon.de/s?k=3+ton+floor+jack&tag=diyrepair-21"
+    link: "https://www.amazon.de/dp/B074KQFD6W?tag=diyrepair-21"
+    asin_de: "B074KQFD6W"
   - name: "Jack Stands"
-    link: "https://www.amazon.de/s?k=jack+stands&tag=diyrepair-21"
+    link: "https://www.amazon.de/dp/B074KQFD6W?tag=diyrepair-21"
+    asin_de: "B074KQFD6W"
   - name: "Nitrile Gloves"
     link: "https://www.amazon.de/s?k=nitrile+gloves+mechanic&tag=diyrepair-21"
 ---
