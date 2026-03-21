@@ -10,15 +10,15 @@ models: "All Models"
 emoji: "🎨"
 tools:
   - name: "Tesla OEM Touch-Up Paint Kit"
-    link: "https://www.amazon.de/dp/B004Z5IF7A?tag=diyrepair-21"
+    link: "https://www.amazon.de/s?k=tesla+touch+up+paint&tag=diyrepair-21"
   - name: "Dr. ColorChip Paint Repair Kit"
-    link: "https://www.amazon.de/dp/B004Z5IF7A?tag=diyrepair-21"
+    link: "https://www.amazon.de/s?k=dr+colorchip+paint+repair+kit&tag=diyrepair-21"
   - name: "Isopropyl Alcohol 99%"
-    link: "https://www.amazon.de/dp/B07NFSFBXQ?tag=diyrepair-21"
+    link: "https://www.amazon.de/s?k=isopropyl+alcohol+99&tag=diyrepair-21"
   - name: "Microfiber Towels"
-    link: "https://www.amazon.de/dp/B009FUF6DM?tag=diyrepair-21"
+    link: "https://www.amazon.de/s?k=microfiber+towels+car&tag=diyrepair-21"
   - name: "Clay Bar Kit"
-    link: "https://www.amazon.de/dp/B00063X7KG?tag=diyrepair-21"
+    link: "https://www.amazon.de/s?k=clay+bar+kit+car&tag=diyrepair-21"
 ---
 
 Tesla paint is notoriously soft and chip-prone, especially on darker colors. Rock chips are inevitable, but you can repair them yourself for a fraction of what a body shop charges. Here's how to get professional-looking results at home.

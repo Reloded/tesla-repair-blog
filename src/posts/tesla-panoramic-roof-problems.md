@@ -27,17 +27,17 @@ faq:
     a: "Absolutely. Most Tesla sunshades are designed for easy DIY installation — they either clip into the existing roof trim, attach with integrated magnets, or sit in a friction-fit frame. No tools required. Installation takes 5–15 minutes."
 tools:
   - name: "Tesla Model Y Glass Roof Sunshade (2-piece)"
-    link: "https://www.amazon.de/dp/B07K3LHXHH?tag=diyrepair-21"
+    link: "https://www.amazon.de/s?k=tesla+model+y+glass+roof+sunshade&tag=diyrepair-21"
   - name: "Tesla Model 3 Glass Roof Sunshade"
-    link: "https://www.amazon.de/dp/B07K3LHXHH?tag=diyrepair-21"
+    link: "https://www.amazon.de/s?k=tesla+model+3+glass+roof+sunshade&tag=diyrepair-21"
   - name: "Tesla Model 3 Highland Roof Sunshade"
-    link: "https://www.amazon.de/dp/B07K3LHXHH?tag=diyrepair-21"
+    link: "https://www.amazon.de/s?k=tesla+model+3+highland+roof+sunshade&tag=diyrepair-21"
   - name: "Tesla Model Y Juniper Roof Sunshade"
-    link: "https://www.amazon.de/dp/B07K3LHXHH?tag=diyrepair-21"
+    link: "https://www.amazon.de/s?k=tesla+model+y+juniper+roof+sunshade+2025&tag=diyrepair-21"
   - name: "Ceramic Window Tint Film"
-    link: "https://www.amazon.de/dp/B07H2Y6XV1?tag=diyrepair-21"
+    link: "https://www.amazon.de/s?k=ceramic+window+tint+film+tesla&tag=diyrepair-21"
   - name: "Auto Glass Sealant"
-    link: "https://www.amazon.de/dp/B07H2Y6XV1?tag=diyrepair-21"
+    link: "https://www.amazon.de/s?k=auto+glass+sealant+urethane&tag=diyrepair-21"
 ---
 
 Tesla's panoramic glass roof is one of the most striking features of any Model 3, Model Y, Model S, or Model X. That unbroken sweep of glass from windshield to rear window gives you an incredible sense of openness — until something goes wrong.

@@ -10,15 +10,15 @@ models: "All Models"
 emoji: "🔋"
 tools:
   - name: "OBD2 Scanner for Tesla"
-    link: "https://www.amazon.de/dp/B08NFNLKTK?tag=diyrepair-21"
+    link: "https://www.amazon.de/s?k=obd2+scanner+tesla&tag=diyrepair-21"
   - name: "OBD2 Scanner for Tesla (US)"
-    link: "https://www.amazon.com/dp/B08NFNLKTK?tag=diyrepair07-20"
+    link: "https://www.amazon.com/s?k=obd2+scanner+tesla&tag=diyrepair07-20"
   - name: "Tesla Wall Connector"
-    link: "https://www.amazon.de/dp/B0B9JKLTF5?tag=diyrepair-21"
+    link: "https://www.amazon.de/s?k=tesla+wall+connector&tag=diyrepair-21"
   - name: "TPMS Sensor Tool"
-    link: "https://www.amazon.de/dp/B07MBX32MS?tag=diyrepair-21"
+    link: "https://www.amazon.de/s?k=tpms+sensor+reset+tool&tag=diyrepair-21"
   - name: "Digital Tire Pressure Gauge"
-    link: "https://www.amazon.com/dp/B07MBX32BS?tag=diyrepair07-20"
+    link: "https://www.amazon.com/s?k=digital+tire+pressure+gauge&tag=diyrepair07-20"
   - name: "Lectron Portable EV Chargers"
     link: "https://www.awin1.com/cread.php?awinmid=91891&awinaffid=2729872&ued=https%3A%2F%2Fev-lectron.com%2Fcollections%2Fev-chargers"
     provider: "lectron"
@@ -272,7 +272,7 @@ Monitor your actual battery health over time:
 4. Track quarterly — monthly checks create unnecessary anxiety
 
 ### Method 2: OBD2 Scanner
-For precise data, use an [OBD2 scanner](https://www.amazon.com/dp/B08NFNLKTK?tag=diyrepair07-20) with Tesla-compatible software:
+For precise data, use an [OBD2 scanner](https://www.amazon.com/s?k=obd2+scanner+tesla&tag=diyrepair07-20) with Tesla-compatible software:
 - Shows actual kWh capacity vs. original
 - Cell voltage balance information
 - More accurate than displayed range

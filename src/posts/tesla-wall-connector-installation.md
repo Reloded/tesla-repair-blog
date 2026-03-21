@@ -10,18 +10,18 @@ models: "Model 3, Y, S, X, Cybertruck"
 emoji: "⚡"
 tools:
   - name: "Tesla Wall Connector Gen 3"
-    link: "https://www.amazon.de/dp/B0B9JKLTF5?tag=diyrepair-21"
+    link: "https://www.amazon.de/s?k=tesla+wall+connector+gen+3&tag=diyrepair-21"
   - name: "Wire Strippers & Crimpers"
-    link: "https://www.amazon.de/dp/B01J5QMA5A?tag=diyrepair-21"
+    link: "https://www.amazon.de/s?k=wire+strippers+crimpers+professional&tag=diyrepair-21"
   - name: "Voltage Tester / Multimeter"
-    link: "https://www.amazon.de/dp/B01ISAMUA6?tag=diyrepair-21"
+    link: "https://www.amazon.de/s?k=non+contact+voltage+tester&tag=diyrepair-21"
   - name: "Conduit & Fittings Kit"
-    link: "https://www.amazon.de/dp/B0777LWBD6?tag=diyrepair-21"
+    link: "https://www.amazon.de/s?k=electrical+conduit+fittings+kit&tag=diyrepair-21"
   - name: "iFixit Pro Tech Toolkit"
     link: "https://sovrn.co/mqnnvon"
     provider: "ifixit"
   - name: "Cable Gland / Strain Relief"
-    link: "https://www.amazon.de/dp/B0777LWBD6?tag=diyrepair-21"
+    link: "https://www.amazon.de/s?k=cable+gland+strain+relief&tag=diyrepair-21"
 ---
 
 Charging at home is the single biggest advantage of owning an electric car, and the Tesla Wall Connector is the best way to do it. It charges roughly **5–10x faster** than a standard wall outlet, adding up to 71 km (44 miles) of range per hour depending on your electrical setup.

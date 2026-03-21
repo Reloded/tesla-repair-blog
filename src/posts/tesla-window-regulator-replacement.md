@@ -65,7 +65,7 @@ If the window doesn't respond at all and you hear nothing, check the window swit
 **Where to buy:**
 - [Tesla Official Parts](https://shop.tesla.com) — OEM, highest price
 - [eEuroparts](https://www.eeuroparts.com/Tesla/) — OEM parts, often discounted
-- [Amazon.com](https://www.amazon.com/dp/B09RQ3KKFN?tag=diyrepair07-20) | [Amazon.de](https://www.amazon.de/dp/B09RQ3KKFN?tag=diyrepair-21) — Aftermarket (Dorman), 30-50% cheaper
+- [Amazon.com](https://www.amazon.com/s?k=tesla+model+3+window+regulator&tag=diyrepair07-20) | [Amazon.de](https://www.amazon.de/s?k=tesla+model+3+fensterheber&tag=diyrepair-21) — Aftermarket (Dorman), 30-50% cheaper
 
 ## Step 1: Remove the Door Panel
 

@@ -10,13 +10,13 @@ models: "All Models"
 emoji: "💡"
 tools:
   - name: "Silica Gel Desiccant Packets"
-    link: "https://www.amazon.de/dp/B07D7SLGX4?tag=diyrepair-21"
+    link: "https://www.amazon.de/s?k=silica+gel+packets+car&tag=diyrepair-21"
   - name: "Headlight Sealant"
-    link: "https://www.amazon.de/dp/B005LFHPHE?tag=diyrepair-21"
+    link: "https://www.amazon.de/s?k=headlight+sealant+butyl&tag=diyrepair-21"
   - name: "Heat Gun"
-    link: "https://www.amazon.de/dp/B00EU2T8GG?tag=diyrepair-21"
+    link: "https://www.amazon.de/s?k=heat+gun+automotive&tag=diyrepair-21"
   - name: "T25 Torx Screwdriver Set"
-    link: "https://www.amazon.de/dp/B01N7YZJIJ?tag=diyrepair-21"
+    link: "https://www.amazon.de/s?k=torx+screwdriver+set+T25&tag=diyrepair-21"
 ---
 
 Discovering moisture or fog inside your Tesla headlights is frustrating—and unfortunately, quite common. This condensation can reduce visibility, look unsightly, and potentially damage the LED components over time. The good news is that most cases can be fixed at home without expensive dealership visits.

@@ -25,17 +25,17 @@ tools:
   - name: "OBDLink CX Scanner (Tesla Compatible)"
     link: "https://www.amazon.de/dp/B08NFKLQQ5?tag=diyrepair-21"
   - name: "Tesla OBD2 Diagnostic Cable"
-    link: "https://www.amazon.de/dp/B08NFNLKTK?tag=diyrepair-21"
+    link: "https://www.amazon.de/s?k=tesla+obd2+diagnostic+cable&tag=diyrepair-21"
   - name: "NOCO Boost Plus GB40 Jump Starter"
     link: "https://www.amazon.de/dp/B015TKUPIC?tag=diyrepair-21"
   - name: "Digital Tire Pressure Gauge"
-    link: "https://www.amazon.de/dp/B07MBX32MS?tag=diyrepair-21"
+    link: "https://www.amazon.de/s?k=digital+tire+pressure+gauge&tag=diyrepair-21"
   - name: "Microfiber Camera Cleaning Cloth"
-    link: "https://www.amazon.de/dp/B009FUF6DM?tag=diyrepair-21"
+    link: "https://www.amazon.de/s?k=microfiber+lens+cleaning+cloth&tag=diyrepair-21"
   - name: "12V Battery Tester"
-    link: "https://www.amazon.de/dp/B0797FWX9G?tag=diyrepair-21"
+    link: "https://www.amazon.de/s?k=12v+car+battery+tester&tag=diyrepair-21"
   - name: "Tesla Screen Protector Model 3/Y"
-    link: "https://www.amazon.de/dp/B09M3X2ZRF?tag=diyrepair-21"
+    link: "https://www.amazon.de/s?k=tesla+model+3+screen+protector&tag=diyrepair-21"
 ---
 
 Every Tesla owner has experienced that moment: a warning pops up on the touchscreen and your heart rate spikes. Is it serious? Can you keep driving? Do you need to call Tesla?

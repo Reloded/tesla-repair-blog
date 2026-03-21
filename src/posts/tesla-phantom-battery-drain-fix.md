@@ -10,11 +10,11 @@ models: "All Models"
 emoji: "🧛"
 tools:
   - name: "Tesla-Compatible Smart Plug (for home charging monitoring)"
-    link: "https://www.amazon.de/dp/B07N1WW638?tag=diyrepair-21"
+    link: "https://www.amazon.de/s?k=smart+plug+energy+monitor+wifi&tag=diyrepair-21"
   - name: "12V Battery Monitor (Bluetooth)"
-    link: "https://www.amazon.de/dp/B01ISAMUA6?tag=diyrepair-21"
+    link: "https://www.amazon.de/s?k=12v+battery+monitor+bluetooth&tag=diyrepair-21"
   - name: "Windshield Sun Shade (reduces Cabin Overheat drain)"
-    link: "https://www.amazon.de/dp/B07K3LHXHH?tag=diyrepair-21"
+    link: "https://www.amazon.de/s?k=tesla+windshield+sun+shade&tag=diyrepair-21"
 ---
 
 You come back to your Tesla after a weekend away and it's lost 15% battery — just sitting in the garage. Sound familiar? This is **phantom drain**, also called **vampire drain**, and it's one of the most common complaints from Tesla owners.

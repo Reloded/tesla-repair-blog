@@ -10,16 +10,16 @@ models: "Model 3 (2021+), Y, S, X"
 emoji: "🔥"
 tools:
   - name: "Plastic Trim Removal Tool Set"
-    link: "https://www.amazon.de/dp/B005NMCE04?tag=diyrepair-21"
+    link: "https://www.amazon.de/s?k=plastic+trim+removal+tool+set&tag=diyrepair-21"
   - name: "Multimeter"
-    link: "https://www.amazon.de/dp/B01ISAMUA6?tag=diyrepair-21"
+    link: "https://www.amazon.de/s?k=digital+multimeter+automotive&tag=diyrepair-21"
   - name: "Tesla Steering Wheel Heating Element"
-    link: "https://www.amazon.de/dp/B07VXVTJBH?tag=diyrepair-21"
+    link: "https://www.amazon.de/s?k=tesla+heated+steering+wheel+element&tag=diyrepair-21"
   - name: "iFixit Precision Toolkit"
     link: "https://sovrn.co/mqnnvon"
     provider: "ifixit"
   - name: "Torx Bit Set (T20/T25)"
-    link: "https://www.amazon.de/dp/B01N7YZJIJ?tag=diyrepair-21"
+    link: "https://www.amazon.de/s?k=torx+bit+set+t20+t25&tag=diyrepair-21"
 ---
 
 You hop in your Tesla on a freezing morning, tap the heated steering wheel icon, and… nothing. The wheel stays cold. It's a surprisingly common complaint, especially during winter months, and the fix is usually simpler than you'd expect.

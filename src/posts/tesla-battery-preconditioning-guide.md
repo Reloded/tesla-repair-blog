@@ -10,16 +10,16 @@ models: "All Models"
 emoji: "🔋"
 tools:
   - name: "Tesla Wall Connector (Gen 3)"
-    link: "https://www.amazon.de/dp/B0B9JKLTF5?tag=diyrepair-21"
+    link: "https://www.amazon.de/s?k=tesla+wall+connector&tag=diyrepair-21"
   - name: "Tesla Mobile Connector"
-    link: "https://www.amazon.de/dp/B0B9JKLTF5?tag=diyrepair-21"
+    link: "https://www.amazon.de/s?k=tesla+mobile+connector&tag=diyrepair-21"
   - name: "Lectron Level 2 Charger"
     link: "https://www.awin1.com/cread.php?awinmid=60857&awinaffid=2729872&ued=https://ev-lectron.com/collections/tesla-chargers"
     provider: "lectron"
   - name: "Tesla Winter Floor Mats"
-    link: "https://www.amazon.de/dp/B07Q3RK3ZQ?tag=diyrepair-21"
+    link: "https://www.amazon.de/s?k=tesla+winter+floor+mats&tag=diyrepair-21"
   - name: "OBD2 Scanner for Tesla"
-    link: "https://www.amazon.de/dp/B08NFNLKTK?tag=diyrepair-21"
+    link: "https://www.amazon.de/s?k=tesla+obd2+scanner&tag=diyrepair-21"
 ---
 
 If you've ever pulled up to a Supercharger in cold weather and watched your car charge at a fraction of its usual speed, you already know why preconditioning matters. Tesla's battery pack performs best in a specific temperature window, and preconditioning is how the car gets there before you need peak performance.

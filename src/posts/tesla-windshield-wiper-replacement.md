@@ -21,17 +21,17 @@ faq:
     a: "Every 6-12 months depending on climate. Hot, sunny climates dry out rubber faster. If you notice streaking, skipping, or squeaking, it's time to replace regardless of age."
 tools:
   - name: "Bosch ICON Wiper Blades (26\")"
-    link: "https://www.amazon.de/dp/B00GMMX028?tag=diyrepair-21"
+    link: "https://www.amazon.de/s?k=Bosch+ICON+26+wiper+blade&tag=diyrepair-21"
   - name: "Rain-X Latitude Wiper Blades"
-    link: "https://www.amazon.de/dp/B003V9WXHU?tag=diyrepair-21"
+    link: "https://www.amazon.de/s?k=Rain-X+Latitude+wiper+blades&tag=diyrepair-21"
   - name: "PIAA Super Silicone Wipers"
-    link: "https://www.amazon.de/dp/B00GPA4J24?tag=diyrepair-21"
+    link: "https://www.amazon.de/s?k=PIAA+super+silicone+wiper+blade&tag=diyrepair-21"
   - name: "Bosch ICON Wiper Blades (US)"
-    link: "https://www.amazon.com/dp/B00GMMX028?tag=diyrepair07-20"
+    link: "https://www.amazon.com/s?k=Bosch+ICON+wiper+blades+tesla&tag=diyrepair07-20"
   - name: "Microfiber Cloth"
-    link: "https://www.amazon.de/dp/B009FUF6DM?tag=diyrepair-21"
+    link: "https://www.amazon.de/s?k=microfiber+cloth+automotive&tag=diyrepair-21"
   - name: "Glass Cleaner"
-    link: "https://www.amazon.de/dp/B0016J7M6A?tag=diyrepair-21"
+    link: "https://www.amazon.de/s?k=invisible+glass+cleaner+automotive&tag=diyrepair-21"
   - name: "Tesla Wiper Parts (OEM)"
     link: "https://rrcarparts.com/collections/all?q=wiper"
     provider: "rrcarparts"
@@ -82,13 +82,13 @@ You don't need to buy from Tesla. Any quality wiper blade in the right size work
    - Excellent in rain, snow, and heat
    - Lasts 12–18 months (longest in testing)
    - Beam-style design for even pressure
-   - [🛒 Amazon DE](https://www.amazon.de/dp/B00GMMX028?tag=diyrepair-21) | [🛒 Amazon US](https://www.amazon.com/dp/B00GMMX028?tag=diyrepair07-20)
+   - [🛒 Amazon DE](https://www.amazon.de/s?k=Bosch+ICON+wiper+blade&tag=diyrepair-21) | [🛒 Amazon US](https://www.amazon.com/s?k=Bosch+ICON+wiper+blade&tag=diyrepair07-20)
 
 2. **PIAA Super Silicone** — Best for longevity
    - Silicone coating treats the windshield over time
    - Quietest operation
    - Outstanding in extreme temperatures
-   - [🛒 Amazon DE](https://www.amazon.de/dp/B00GPA4J24?tag=diyrepair-21) | [🛒 Amazon US](https://www.amazon.com/dp/B00GPA4J24?tag=diyrepair07-20)
+   - [🛒 Amazon DE](https://www.amazon.de/s?k=PIAA+super+silicone+wiper+blade&tag=diyrepair-21) | [🛒 Amazon US](https://www.amazon.com/s?k=PIAA+super+silicone+wiper+blade&tag=diyrepair07-20)
 
 ### Mid-Range Tier ($18–25 each)
 
@@ -96,13 +96,13 @@ You don't need to buy from Tesla. Any quality wiper blade in the right size work
    - Water-repelling coating on the blade
    - Great all-weather performance
    - Easy installation with multi-fit adapter
-   - [🛒 Amazon DE](https://www.amazon.de/dp/B003V9WXHU?tag=diyrepair-21) | [🛒 Amazon US](https://www.amazon.com/dp/B003V9WXHU?tag=diyrepair07-20)
+   - [🛒 Amazon DE](https://www.amazon.de/s?k=Rain-X+Latitude+wiper+blade&tag=diyrepair-21) | [🛒 Amazon US](https://www.amazon.com/s?k=Rain-X+Latitude+wiper+blade&tag=diyrepair07-20)
 
 4. **Michelin Stealth Ultra** — Hybrid design
    - Combines beam and conventional design
    - Good aerodynamic performance at highway speed
    - Widely available
-   - [🛒 Amazon DE](https://www.amazon.de/dp/B073VN8RJZ?tag=diyrepair-21) | [🛒 Amazon US](https://www.amazon.com/dp/B073VN8RJZ?tag=diyrepair07-20)
+   - [🛒 Amazon DE](https://www.amazon.de/s?k=Michelin+Stealth+Ultra+wiper&tag=diyrepair-21) | [🛒 Amazon US](https://www.amazon.com/s?k=Michelin+Stealth+Ultra+wiper&tag=diyrepair07-20)
 
 ### Budget Tier ($8–15 each)
 
@@ -192,7 +192,7 @@ This is slightly more involved than blade replacement:
 7. **Torque the nut** to spec and replace the cover cap
 8. **Install a new blade** on the new arm
 
-**Cost:** Tesla OEM wiper arms run $40–80 each. Check [RR Car Parts](https://rrcarparts.com/collections/all?q=wiper+arm) for OEM parts, or [Amazon DE](https://www.amazon.de/dp/B00GMMX028?tag=diyrepair-21) / [Amazon US](https://www.amazon.com/dp/B00GMMX028?tag=diyrepair07-20) for aftermarket options.
+**Cost:** Tesla OEM wiper arms run $40–80 each. Check [RR Car Parts](https://rrcarparts.com/collections/all?q=wiper+arm) for OEM parts, or [Amazon DE](https://www.amazon.de/s?k=tesla+wiper+arm+replacement&tag=diyrepair-21) / [Amazon US](https://www.amazon.com/s?k=tesla+wiper+arm+replacement&tag=diyrepair07-20) for aftermarket options.
 
 ## Common Wiper Problems & Fixes
 

@@ -87,7 +87,7 @@ This job uses almost entirely 10mm fasteners — grab a coffee and a 10mm socket
 - **[Plastic trim pry tool set](https://www.amazon.com/dp/B005NMCE04?tag=diyrepair07-20)** — protects your paint
 - **Masking tape** — protect fender edges during bumper removal
 - **Zip-lock bags or magnetic tray** — keep track of bolts
-- **[Gloves](https://www.amazon.com/dp/B009F97OLY?tag=diyrepair07-20)** — avoid cutting hands on plastic edges
+- **[Gloves](https://www.amazon.com/s?k=nitrile+mechanic+gloves&tag=diyrepair07-20)** — avoid cutting hands on plastic edges
 
 **🛒 EU shoppers:** [Amazon.de Werkzeug-Set](https://www.amazon.de/dp/B000I1RYXY?tag=diyrepair-21) | [iFixit Pro Tech Toolkit](https://sovrn.co/1dw8w9g)
 

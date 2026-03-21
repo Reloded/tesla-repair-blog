@@ -13,13 +13,13 @@ tools:
     link: "https://www.awin1.com/cread.php?awinmid=91891&awinaffid=2729872&ued=https%3A%2F%2Fev-lectron.com%2Fcollections%2Fev-chargers"
     provider: "lectron"
   - name: "Tesla Mobile Connector"
-    link: "https://www.amazon.de/dp/B0B9JKLTF5?tag=diyrepair-21"
+    link: "https://www.amazon.de/s?k=tesla+mobile+connector&tag=diyrepair-21"
   - name: "USB SSD for Dashcam"
-    link: "https://www.amazon.de/dp/B0874XN4D8?tag=diyrepair-21"
+    link: "https://www.amazon.de/s?k=usb+ssd+tesla+dashcam&tag=diyrepair-21"
   - name: "Tesla Trunk Organizer"
-    link: "https://www.amazon.de/dp/B07Z6T6N7B?tag=diyrepair-21"
+    link: "https://www.amazon.de/s?k=tesla+trunk+organizer&tag=diyrepair-21"
   - name: "Tire Inflator Portable"
-    link: "https://www.amazon.de/dp/B01L9WSTEG?tag=diyrepair-21"
+    link: "https://www.amazon.de/s?k=portable+tire+inflator+12v&tag=diyrepair-21"
 faq:
   - q: "How far can a Tesla go on one charge for a road trip?"
     a: "Real-world highway range is typically 70-80% of the EPA/WLTP estimate. A Model 3 Long Range rated at 560 km WLTP will realistically do 390-450 km at highway speeds. Speed, temperature, elevation, and cargo weight all affect this significantly."
@@ -181,7 +181,7 @@ For detailed range troubleshooting, see our [range loss fix guide](/posts/tesla-
 
 **Recommended:**
 - Portable tire inflator - Teslas don't have spare tires
-- [Tire repair kit](https://www.amazon.de/dp/B06XK3KGWF?tag=diyrepair-21) - For small punctures
+- [Tire repair kit](https://www.amazon.de/s?k=tire+repair+kit+tubeless&tag=diyrepair-21) - For small punctures
 - Sunshade for the panoramic roof - Reduces cabin heat while parked
 - Snacks and water - You'll thank yourself at charging stops
 - Blanket and warm clothes (winter) - If you break down in cold weather, [Camp Mode](/posts/tesla-dog-mode-camp-mode/) keeps the cabin warm but uses battery

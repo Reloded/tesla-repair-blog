@@ -11,26 +11,26 @@ models: "Model 3, Model Y"
 emoji: "🔧"
 tools:
   - name: "10mm Socket & Ratchet"
-    link: "https://www.amazon.com/dp/B07H43R12K?tag=diyrepair07-20"
+    link: "https://www.amazon.com/s?k=10mm+socket+ratchet+set&tag=diyrepair07-20"
   - name: "8mm Socket"
-    link: "https://www.amazon.com/dp/B07H43R12K?tag=diyrepair07-20"
+    link: "https://www.amazon.com/s?k=8mm+socket+wrench&tag=diyrepair07-20"
   - name: "8mm Stubby Wrench"
-    link: "https://www.amazon.com/dp/B0009ORXRU?tag=diyrepair07-20"
+    link: "https://www.amazon.com/s?k=8mm+stubby+wrench&tag=diyrepair07-20"
   - name: "T25 Torx Bit Socket"
-    link: "https://www.amazon.com/dp/B01N7YZJIJ?tag=diyrepair07-20"
+    link: "https://www.amazon.com/s?k=T25+torx+bit+socket&tag=diyrepair07-20"
   - name: "Trim Removal Tool Set"
-    link: "https://www.amazon.com/dp/B005NMCE04?tag=diyrepair07-20"
+    link: "https://www.amazon.com/s?k=trim+removal+tool+set+automotive&tag=diyrepair07-20"
   - name: "Extension Bar Set (2-6 inch)"
-    link: "https://www.amazon.com/dp/B003X5ZNVG?tag=diyrepair07-20"
+    link: "https://www.amazon.com/s?k=socket+extension+bar+set&tag=diyrepair07-20"
   - name: "Painter's Tape / Frog Tape"
-    link: "https://www.amazon.com/dp/B003AZ4P2U?tag=diyrepair07-20"
+    link: "https://www.amazon.com/s?k=frog+tape+painters+tape&tag=diyrepair07-20"
   - name: "iFixit Pro Tech Toolkit"
     link: "https://sovrn.co/1dw8w9g"
     provider: "ifixit"
   - name: "Jack Pads for Tesla"
-    link: "https://www.amazon.com/dp/B09BFXJHS1?tag=diyrepair07-20"
+    link: "https://www.amazon.com/s?k=tesla+jack+pads+model+3+Y&tag=diyrepair07-20"
   - name: "Floor Jack (3-Ton)"
-    link: "https://www.amazon.com/dp/B00HBFKFN8?tag=diyrepair07-20"
+    link: "https://www.amazon.com/s?k=3+ton+floor+jack+low+profile&tag=diyrepair07-20"
 ---
 
 ![Tesla Model Y complete teardown with body panels removed in workshop](/images/repairs/model-y-full-teardown.webp)
@@ -90,7 +90,7 @@ The 2024+ Model 3 "Highland" refresh has a redesigned rear fascia with different
 - Painter's tape (blue or green)
 
 **Recommended:**
-- Floor jack + [Tesla jack pads](https://www.amazon.com/dp/B09BFXJHS1?tag=diyrepair07-20) (or ramps)
+- Floor jack + [Tesla jack pads](https://www.amazon.com/s?k=tesla+jack+pads&tag=diyrepair07-20) (or ramps)
 - Jack stands
 - Magnetic parts tray
 - Gloves
@@ -106,7 +106,7 @@ The 2024+ Model 3 "Highland" refresh has a redesigned rear fascia with different
 ### Step 1: Preparation
 
 1. Park on a flat, level surface and engage the parking brake
-2. If you have access to a jack or lift, raise the rear of the vehicle — this makes accessing the underbody bolts much easier. Use proper [Tesla jack pads](https://www.amazon.com/dp/B09BFXJHS1?tag=diyrepair07-20) on the designated jack points to avoid damaging the battery pack
+2. If you have access to a jack or lift, raise the rear of the vehicle — this makes accessing the underbody bolts much easier. Use proper [Tesla jack pads](https://www.amazon.com/s?k=tesla+jack+pad+model+3+Y&tag=diyrepair07-20) on the designated jack points to avoid damaging the battery pack
 3. Apply two layers of painter's tape along both rear quarter panels where the bumper meets the body. This prevents scratches when sliding the bumper off
 
 > **💡 Tip:** You can do this job without raising the vehicle — you'll just be spending more time on your back reaching underneath. A creeper or cardboard helps.

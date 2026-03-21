@@ -10,9 +10,9 @@ models: "All Models"
 emoji: "📱"
 tools:
   - name: "Tesla Key Card (Backup)"
-    link: "https://www.amazon.de/dp/B00LGA5TKK?tag=diyrepair-21"
+    link: "https://www.amazon.de/s?k=tesla+key+card&tag=diyrepair-21"
   - name: "Tesla Key Fob"
-    link: "https://www.amazon.de/dp/B00LGA5TKK?tag=diyrepair-21"
+    link: "https://www.amazon.de/s?k=tesla+key+fob&tag=diyrepair-21"
 ---
 
 The Tesla phone key is convenient when it works, but frustrating when it doesn't. Standing outside your car with a phone that won't unlock it is a common Tesla owner experience. Here's how to diagnose and fix phone key problems for both iPhone and Android.

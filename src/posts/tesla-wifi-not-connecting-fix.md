@@ -21,11 +21,11 @@ faq:
     a: "2021+ Tesla models support both 2.4GHz and 5GHz WiFi. Older models (pre-2021 MCU2) only support 2.4GHz. If your router is 5GHz only, switch it to dual-band or create a 2.4GHz network."
 tools:
   - name: "WiFi Range Extender (Garage/Driveway)"
-    link: "https://www.amazon.com/dp/B07N1WW638?tag=diyrepair07-20"
-    linkDE: "https://www.amazon.de/dp/B07N1WW638?tag=diyrepair-21"
+    link: "https://www.amazon.com/s?k=wifi+range+extender+outdoor+garage&tag=diyrepair07-20"
+    linkDE: "https://www.amazon.de/s?k=wifi+repeater+garage+outdoor&tag=diyrepair-21"
   - name: "Portable WiFi Hotspot Device"
-    link: "https://www.amazon.com/dp/B09CYGYS31?tag=diyrepair07-20"
-    linkDE: "https://www.amazon.de/dp/B09CYGYS31?tag=diyrepair-21"
+    link: "https://www.amazon.com/s?k=portable+wifi+hotspot+device+4g&tag=diyrepair07-20"
+    linkDE: "https://www.amazon.de/s?k=mobiler+wlan+hotspot+4g&tag=diyrepair-21"
 ---
 
 Your Tesla won't connect to WiFi, and now you can't download the latest software update. Without WiFi, you're stuck — no over-the-air updates, spotty navigation, and no streaming. The good news: most Tesla WiFi problems are fixable in under five minutes without a service appointment.

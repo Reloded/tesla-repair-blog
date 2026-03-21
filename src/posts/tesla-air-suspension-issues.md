@@ -11,29 +11,29 @@ models: "Model S, Model X"
 emoji: "🔧"
 tools:
   - name: "OBD2 Diagnostic Scanner for Tesla"
-    link: "https://www.amazon.de/dp/B08NFNLKTK?tag=diyrepair-21"
-    linkUS: "https://www.amazon.com/dp/B08NFNLKTK?tag=diyrepair07-20"
+    link: "https://www.amazon.de/s?k=obd2+scanner+tesla&tag=diyrepair-21"
+    linkUS: "https://www.amazon.com/s?k=obd2+scanner+tesla&tag=diyrepair07-20"
     asin_com: "B08NFBKGR5"
     asin_de: "B08NFBKGR5"
   - name: "Jack Stands (3 Ton)"
-    link: "https://www.amazon.de/dp/B000CO86DC?tag=diyrepair-21"
-    linkUS: "https://www.amazon.com/dp/B000CO86DC?tag=diyrepair07-20"
+    link: "https://www.amazon.de/s?k=jack+stands+3+ton&tag=diyrepair-21"
+    linkUS: "https://www.amazon.com/s?k=jack+stands+3+ton&tag=diyrepair07-20"
   - name: "Floor Jack (3 Ton)"
-    link: "https://www.amazon.de/dp/B00HBFKFN8?tag=diyrepair-21"
-    linkUS: "https://www.amazon.com/dp/B00HBFKFN8?tag=diyrepair07-20"
+    link: "https://www.amazon.de/s?k=floor+jack+3+ton&tag=diyrepair-21"
+    linkUS: "https://www.amazon.com/s?k=floor+jack+3+ton&tag=diyrepair07-20"
     asin_com: "B00KGC7KWC"
     asin_de: "B074KQFD6W"
   - name: "Soapy Water Spray Bottle"
-    link: "https://www.amazon.de/dp/B073VBF1R4?tag=diyrepair-21"
-    linkUS: "https://www.amazon.com/dp/B073VBF1R4?tag=diyrepair07-20"
+    link: "https://www.amazon.de/s?k=spray+bottle+car+detailing&tag=diyrepair-21"
+    linkUS: "https://www.amazon.com/s?k=spray+bottle+car+detailing&tag=diyrepair07-20"
   - name: "Torque Wrench Set"
-    link: "https://www.amazon.de/dp/B00811WQT8?tag=diyrepair-21"
-    linkUS: "https://www.amazon.com/dp/B00811WQT8?tag=diyrepair07-20"
+    link: "https://www.amazon.de/s?k=torque+wrench+set+nm&tag=diyrepair-21"
+    linkUS: "https://www.amazon.com/s?k=torque+wrench+set&tag=diyrepair07-20"
     asin_com: "B07MP1Q3W8"
     asin_de: "B07MP1Q3W8"
   - name: "Air Suspension Compressor (Model S/X)"
-    link: "https://www.amazon.de/dp/B07GFBPW23?tag=diyrepair-21"
-    linkUS: "https://www.amazon.com/dp/B07GFBPW23?tag=diyrepair07-20"
+    link: "https://www.amazon.de/s?k=tesla+model+s+air+suspension+compressor&tag=diyrepair-21"
+    linkUS: "https://www.amazon.com/s?k=tesla+model+s+air+suspension+compressor&tag=diyrepair07-20"
 faq:
   - question: "How long does Tesla air suspension last?"
     answer: "Tesla air springs typically last 80,000–120,000 miles (130,000–200,000 km). The compressor usually lasts 100,000–150,000 miles. Harsh climates, frequent height changes, and heavy loading can reduce lifespan. Regular inspection of air lines and fittings can catch problems early before they lead to compressor failure."
@@ -99,7 +99,7 @@ Air leaks are the single most common air suspension issue. A slow leak may take 
 
 1. Park on a level surface and set ride height to **Standard**
 2. Turn off the car and wait — listen for hissing sounds around each wheel well
-3. Mix dish soap and water in a [spray bottle](https://www.amazon.de/dp/B073VBF1R4?tag=diyrepair-21)
+3. Mix dish soap and water in a [spray bottle](https://www.amazon.de/s?k=spray+bottle+car+detailing&tag=diyrepair-21)
 4. Spray all connections: the top of each air spring, the air line fittings at each corner, and the lines running along the subframe
 5. Bubbles indicate a leak — note the exact location
 6. Check the valve block connections as well (follow the lines from the compressor)
@@ -123,7 +123,7 @@ If the car sits low at all four corners:
 
 ### Step 3: Check Error Codes
 
-Use a Tesla-compatible [OBD2 diagnostic scanner](https://www.amazon.de/dp/B08NFNLKTK?tag=diyrepair-21) or put the car in [Service Mode](/posts/tesla-service-mode-guide/) to read suspension DTCs:
+Use a Tesla-compatible [OBD2 diagnostic scanner](https://www.amazon.de/s?k=obd2+scanner+tesla&tag=diyrepair-21) or put the car in [Service Mode](/posts/tesla-service-mode-guide/) to read suspension DTCs:
 
 | DTC Code | Meaning | Likely Cause |
 |----------|---------|-------------|
@@ -163,7 +163,7 @@ After any suspension work or if you're getting height-related warnings:
 
 If you've found a leaking air line or push-fit connection:
 
-1. **Safely lift** the vehicle on [jack stands](https://www.amazon.de/dp/B000CO86DC?tag=diyrepair-21) using the correct [jack points](/posts/tesla-jack-points-lifting-guide/)
+1. **Safely lift** the vehicle on [jack stands](https://www.amazon.de/s?k=jack+stands+3+ton&tag=diyrepair-21) using the correct [jack points](/posts/tesla-jack-points-lifting-guide/)
 2. Lower the suspension to the **lowest setting** before lifting to reduce system pressure
 3. Locate the leaking air line section
 4. Press the release collar on the push-fit connector and pull the line out
@@ -210,7 +210,7 @@ If the compressor itself has failed (no sound, no relay clicking):
 
 This is the most involved DIY job but saves $500+ per corner vs. the service center:
 
-1. Safely lift and support the vehicle on [jack stands](https://www.amazon.de/dp/B000CO86DC?tag=diyrepair-21)
+1. Safely lift and support the vehicle on [jack stands](https://www.amazon.de/s?k=jack+stands+3+ton&tag=diyrepair-21)
 2. Remove the wheel (lug nuts: **175 Nm / 129 ft-lb** for Model S, **175 Nm** for Model X)
 3. Lower suspension to the lowest setting and disconnect the air line at the top of the spring
 4. Support the lower control arm with a floor jack

@@ -10,9 +10,9 @@ models: "All Models"
 emoji: "📹"
 tools:
   - name: "USB Flash Drive (128GB+)"
-    link: "https://www.amazon.de/dp/B07BPG9YX9?tag=diyrepair-21"
+    link: "https://www.amazon.de/s?k=usb+flash+drive+128gb+tesla&tag=diyrepair-21"
   - name: "USB SSD Drive"
-    link: "https://www.amazon.de/dp/B0874XN4D8?tag=diyrepair-21"
+    link: "https://www.amazon.de/s?k=usb+ssd+drive+tesla&tag=diyrepair-21"
 ---
 
 Tesla's built-in dashcam and Sentry Mode are valuable features for security and documenting incidents. When recordings aren't saving, the problem is usually related to USB storage. This guide helps you get your dashcam working reliably.

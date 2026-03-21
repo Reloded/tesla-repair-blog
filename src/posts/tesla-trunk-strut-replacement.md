@@ -12,15 +12,15 @@ emoji: "🔧"
 slug: "tesla-trunk-strut-replacement"
 tools:
   - name: "Tesla Model 3 Trunk Power Struts (Pair)"
-    link: "https://www.amazon.com/dp/B07Z6T6N7B?tag=diyrepair07-20"
+    link: "https://www.amazon.com/s?k=tesla+model+3+trunk+power+strut+1551488&tag=diyrepair07-20"
   - name: "Tesla Model Y Liftgate Power Struts (Pair)"
-    link: "https://www.amazon.com/dp/B0916HJ2BJ?tag=diyrepair07-20"
+    link: "https://www.amazon.com/s?k=tesla+model+y+liftgate+power+strut+1500601+1500602&tag=diyrepair07-20"
   - name: "Tesla Model 3 Trunk Lift Struts (Manual/Upgrade)"
-    link: "https://www.amazon.com/dp/B07Z6T6N7B?tag=diyrepair07-20"
+    link: "https://www.amazon.com/s?k=tesla+model+3+trunk+lift+strut+automatic&tag=diyrepair07-20"
   - name: "Plastic Trim Removal Tools"
-    link: "https://www.amazon.de/dp/B005NMCE04?tag=diyrepair-21"
+    link: "https://www.amazon.de/s?k=automotive+trim+removal+tools&tag=diyrepair-21"
   - name: "Isopropyl Alcohol Wipes"
-    link: "https://www.amazon.de/dp/B07NFSFBXQ?tag=diyrepair-21"
+    link: "https://www.amazon.de/s?k=isopropyl+alcohol+wipes+automotive&tag=diyrepair-21"
   - name: "iFixit Pro Tech Toolkit"
     link: "https://sovrn.co/1dw8w9g"
     provider: "ifixit"
@@ -136,10 +136,10 @@ The Model Y has a large **rear liftgate** (hatchback-style) that's significantly
 **OEM struts** can be ordered through Tesla Service or parts suppliers like [Tesloid](https://tesloid.com), [Tesla Parts Catalog](https://parts.tesla.com), or pulled from salvage vehicles on eBay.
 
 **Aftermarket options** on Amazon:
-- 🇺🇸 [Model 3 Trunk Struts (US)](https://www.amazon.com/dp/B07Z6T6N7B?tag=diyrepair07-20)
-- 🇺🇸 [Model Y Liftgate Struts (US)](https://www.amazon.com/dp/B0916HJ2BJ?tag=diyrepair07-20)
-- 🇩🇪 [Model 3 Trunk Struts (DE)](https://www.amazon.de/dp/B07Z6T6N7B?tag=diyrepair-21)
-- 🇩🇪 [Model Y Liftgate Struts (DE)](https://www.amazon.de/dp/B0916HJ2BJ?tag=diyrepair-21)
+- 🇺🇸 [Model 3 Trunk Struts (US)](https://www.amazon.com/s?k=tesla+model+3+trunk+strut+replacement&tag=diyrepair07-20)
+- 🇺🇸 [Model Y Liftgate Struts (US)](https://www.amazon.com/s?k=tesla+model+y+liftgate+strut+replacement&tag=diyrepair07-20)
+- 🇩🇪 [Model 3 Trunk Struts (DE)](https://www.amazon.de/s?k=tesla+model+3+kofferraum+gasdruckfeder&tag=diyrepair-21)
+- 🇩🇪 [Model Y Liftgate Struts (DE)](https://www.amazon.de/s?k=tesla+model+y+heckklappe+gasdruckfeder&tag=diyrepair-21)
 
 ---
 
@@ -308,7 +308,7 @@ If your Model 3 has the **non-power trunk** (common on 2017-2020 Standard Range 
 7. Clip new strut onto upper ball stud
 8. Remove prop and test
 
-**Upgrade tip:** The factory manual struts are designed to *assist* opening — you still need to push the trunk up. Aftermarket struts from brands like [EVANNEX](https://www.amazon.com/dp/B07Z6T6N7B?tag=diyrepair07-20) or [TAPTES](https://www.amazon.com/dp/B07Z6T6N7B?tag=diyrepair07-20) use higher force ratings that pop the trunk open fully — like having a power trunk without the motor.
+**Upgrade tip:** The factory manual struts are designed to *assist* opening — you still need to push the trunk up. Aftermarket struts from brands like [EVANNEX](https://www.amazon.com/s?k=evannex+tesla+model+3+trunk+lift+struts&tag=diyrepair07-20) or [TAPTES](https://www.amazon.com/s?k=taptes+tesla+model+3+trunk+strut+upgrade&tag=diyrepair07-20) use higher force ratings that pop the trunk open fully — like having a power trunk without the motor.
 
 ---
 

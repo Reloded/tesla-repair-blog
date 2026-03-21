@@ -21,13 +21,13 @@ faq:
     a: "Up to 19 keys total (key cards, phone keys, and key fobs combined). Each Tesla comes with 2 key cards. You can order additional cards from Tesla or add phone keys through the Tesla app."
 tools:
   - name: "Tesla Key Card Holder"
-    link: "https://www.amazon.de/dp/B00LGA5TKK?tag=diyrepair-21"
+    link: "https://www.amazon.de/s?k=tesla+key+card+holder&tag=diyrepair-21"
   - name: "RFID Signal Blocking Sleeve"
-    link: "https://www.amazon.de/dp/B00LGA5TKK?tag=diyrepair-21"
+    link: "https://www.amazon.de/s?k=rfid+blocking+sleeve+card&tag=diyrepair-21"
   - name: "Tesla Key Card (Official Replacement)"
-    link: "https://www.amazon.de/dp/B00LGA5TKK?tag=diyrepair-21"
+    link: "https://www.amazon.de/s?k=tesla+key+card+model+3&tag=diyrepair-21"
   - name: "Tesla Key Fob Model 3/Y"
-    link: "https://www.amazon.de/dp/B00LGA5TKK?tag=diyrepair-21"
+    link: "https://www.amazon.de/s?k=tesla+key+fob+model+3&tag=diyrepair-21"
 ---
 
 **Your key card isn't broken** — you're probably tapping it in the wrong spot or something simple is interfering. Tesla key cards use passive NFC (no battery), so hardware failure is rare.

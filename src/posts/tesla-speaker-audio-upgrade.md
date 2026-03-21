@@ -11,21 +11,21 @@ models: "Model 3, Model Y"
 emoji: "🔊"
 tools:
   - name: "Trim Removal Tool Set"
-    link: "https://www.amazon.com/dp/B005NMCE04?tag=diyrepair07-20"
+    link: "https://www.amazon.com/s?k=automotive+trim+removal+tool+set&tag=diyrepair07-20"
   - name: "Trim Removal Tool Set (DE)"
-    link: "https://www.amazon.de/dp/B005NMCE04?tag=diyrepair-21"
+    link: "https://www.amazon.de/s?k=trim+removal+tool+set+automotive&tag=diyrepair-21"
   - name: "T20 Torx Bit Set"
-    link: "https://www.amazon.com/dp/B01N7YZJIJ?tag=diyrepair07-20"
+    link: "https://www.amazon.com/s?k=T20+torx+bit+set&tag=diyrepair07-20"
   - name: "Wire Crimping Tool Kit"
-    link: "https://www.amazon.com/dp/B01J5QMA5A?tag=diyrepair07-20"
+    link: "https://www.amazon.com/s?k=automotive+wire+crimping+tool+kit&tag=diyrepair07-20"
   - name: "Sound Deadening Material (Noico/Dynamat)"
-    link: "https://www.amazon.com/dp/B00URUIKAK?tag=diyrepair07-20"
+    link: "https://www.amazon.com/s?k=noico+sound+deadening+mat+automotive&tag=diyrepair07-20"
   - name: "Sound Deadening Material (DE)"
-    link: "https://www.amazon.de/dp/B00URUIKAK?tag=diyrepair-21"
+    link: "https://www.amazon.de/s?k=noico+d%C3%A4mmmatte+auto&tag=diyrepair-21"
   - name: "Panel Clip Removal Pliers"
-    link: "https://www.amazon.com/dp/B0002YUQSE?tag=diyrepair07-20"
+    link: "https://www.amazon.com/s?k=panel+clip+removal+pliers+automotive&tag=diyrepair07-20"
   - name: "Multimeter"
-    link: "https://www.amazon.com/dp/B01ISAMUA6?tag=diyrepair07-20"
+    link: "https://www.amazon.com/s?k=digital+multimeter+automotive&tag=diyrepair07-20"
   - name: "iFixit Pro Tech Toolkit"
     link: "https://sovrn.co/1dw8w9g"
     provider: "ifixit"
@@ -94,9 +94,9 @@ This is the most popular upgrade and delivers the biggest bang for your buck. Re
 
 ### What You'll Need
 
-- [Trim removal tool set](https://www.amazon.com/dp/B005NMCE04?tag=diyrepair07-20) (plastic pry tools are essential)
+- [Trim removal tool set](https://www.amazon.com/s?k=automotive+trim+removal+tool+set&tag=diyrepair07-20) (plastic pry tools are essential)
 - T20 Torx screwdriver
-- [Sound deadening material](https://www.amazon.com/dp/B00URUIKAK?tag=diyrepair07-20) (highly recommended)
+- [Sound deadening material](https://www.amazon.com/s?k=noico+sound+deadening+mat+automotive&tag=diyrepair07-20) (highly recommended)
 - Replacement speakers (see recommendations below)
 - Patience and a clean workspace
 
@@ -137,7 +137,7 @@ This is the most popular upgrade and delivers the biggest bang for your buck. Re
 5. **Lift the panel up and out** — it hooks over the window sill at the top. Lift straight up to release
 6. **Disconnect electrical connectors** — there are 2–3 connectors (window switches, speakers, ambient lighting). Press the release tabs and disconnect
 
-> ⚠️ **Be careful with the clips!** They break easily. Have [replacement clips](https://www.amazon.com/dp/B07C36JXLG?tag=diyrepair07-20) on hand. They're cheap insurance.
+> ⚠️ **Be careful with the clips!** They break easily. Have [replacement clips](https://www.amazon.com/s?k=tesla+model+3+door+panel+clips&tag=diyrepair07-20) on hand. They're cheap insurance.
 
 #### Step 3: Remove the Factory Speaker
 
@@ -149,12 +149,12 @@ This is the most popular upgrade and delivers the biggest bang for your buck. Re
 
 #### Step 4: Add Sound Deadening (Optional but Recommended)
 
-While the door is open, apply [sound deadening material](https://www.amazon.com/dp/B00URUIKAK?tag=diyrepair07-20) to the inner door skin behind the speaker opening. This reduces vibrations, tightens bass response, and is the single best thing you can do for audio quality. Cover at least 25–30% of the door's inner surface for noticeable improvement.
+While the door is open, apply [sound deadening material](https://www.amazon.com/s?k=noico+sound+deadening+mat+automotive&tag=diyrepair07-20) to the inner door skin behind the speaker opening. This reduces vibrations, tightens bass response, and is the single best thing you can do for audio quality. Cover at least 25–30% of the door's inner surface for noticeable improvement.
 
 #### Step 5: Install the New Speaker
 
 1. If your replacement speaker came with an adapter ring/bracket, install it first
-2. Connect the speaker plug — if using Tesla-specific kits (Alpine, Focal Tesla series), the connectors are plug-and-play. For generic speakers, you may need a [wiring harness adapter](https://www.amazon.com/dp/B09TZH77RZ?tag=diyrepair07-20)
+2. Connect the speaker plug — if using Tesla-specific kits (Alpine, Focal Tesla series), the connectors are plug-and-play. For generic speakers, you may need a [wiring harness adapter](https://www.amazon.com/s?k=tesla+model+3+speaker+wiring+harness+adapter&tag=diyrepair07-20)
 3. Mount the speaker with the T20 Torx screws (use the originals or the ones supplied with your kit)
 4. **Test before reassembly!** Reconnect the door panel connectors and play music. Verify both speakers work and sound correct
 
@@ -188,13 +188,13 @@ The factory 8" sub in the trunk well is easy to access and replace. Popular drop
 For Standard Audio owners or anyone wanting more bass than the factory location allows:
 
 1. **Choose a compact powered sub** — these have the amplifier built in, simplifying installation:
-   - [Alpine PWE-S8](https://www.amazon.com/dp/B018U3RXIE?tag=diyrepair07-20) — slim profile, fits under seats or in the trunk
-   - [JBL BassPro Hub](https://www.amazon.com/dp/B017EUXU6E?tag=diyrepair07-20) — spare tire replacement design
-   - [Kicker Hideaway HS10](https://www.amazon.com/dp/B006XM7GEI?tag=diyrepair07-20) — popular compact option
+   - [Alpine PWE-S8](https://www.amazon.com/s?k=Alpine+PWE-S8+powered+subwoofer&tag=diyrepair07-20) — slim profile, fits under seats or in the trunk
+   - [JBL BassPro Hub](https://www.amazon.com/s?k=JBL+BassPro+Hub+spare+tire+subwoofer&tag=diyrepair07-20) — spare tire replacement design
+   - [Kicker Hideaway HS10](https://www.amazon.com/s?k=Kicker+Hideaway+HS10+powered+subwoofer&tag=diyrepair07-20) — popular compact option
 
-2. **Signal source:** Tap into the rear speaker wires using a [line output converter (LOC)](https://www.amazon.com/dp/B00GD4AWEY?tag=diyrepair07-20) to convert the speaker-level signal to RCA for the powered sub
+2. **Signal source:** Tap into the rear speaker wires using a [line output converter (LOC)](https://www.amazon.com/s?k=line+output+converter+car+audio&tag=diyrepair07-20) to convert the speaker-level signal to RCA for the powered sub
 
-3. **Power:** Run a power wire from the 12V battery (located under the hood area) to the trunk. Use at least 8-gauge wire with an [inline fuse](https://www.amazon.com/dp/B0002KRGD8?tag=diyrepair07-20) near the battery
+3. **Power:** Run a power wire from the 12V battery (located under the hood area) to the trunk. Use at least 8-gauge wire with an [inline fuse](https://www.amazon.com/s?k=8+gauge+car+audio+wiring+kit&tag=diyrepair07-20) near the battery
 
 4. **Ground:** Bolt to a clean, bare-metal point in the trunk area
 
@@ -205,7 +205,7 @@ For Standard Audio owners or anyone wanting more bass than the factory location 
 The Model Y's large sub-trunk area is perfect for a custom subwoofer enclosure. Many owners install a 10" or 12" sub in a sealed enclosure that sits in the sub-trunk without sacrificing main cargo space.
 
 Popular setups:
-- [10" sealed enclosure + mono amp](https://www.amazon.com/dp/B001U0PCK0?tag=diyrepair07-20) ($200–400)
+- [10" sealed enclosure + mono amp](https://www.amazon.com/s?k=10+inch+subwoofer+sealed+enclosure+car+audio&tag=diyrepair07-20) ($200–400)
 - Custom-molded enclosures from companies like T Sportline or EVANNEX
 - JL Audio or Rockford Fosgate compact subs with matching enclosures
 
@@ -236,7 +236,7 @@ The factory amplifier is the real bottleneck. Even with better speakers, you're 
 2. **Mount location:** Behind the rear seats or in the trunk. The space next to the factory sub amp works well
 3. **Power:** 4-gauge power wire from the 12V battery with inline fuse
 4. **Speaker wires:** Run new speaker wire from the amp to each speaker location
-5. **Remote turn-on:** Use a [12V add-a-fuse](https://www.amazon.com/dp/B079JYKFZ5?tag=diyrepair07-20) from the interior fuse box for the amp's remote turn-on signal
+5. **Remote turn-on:** Use a [12V add-a-fuse](https://www.amazon.com/s?k=12v+add+a+fuse+tap+automotive&tag=diyrepair07-20) from the interior fuse box for the amp's remote turn-on signal
 
 > **Pro tip:** If you're adding both an amplifier and upgraded speakers, do the amp first. Even factory speakers sound dramatically better with clean amplifier power.
 
@@ -295,12 +295,12 @@ If you want a turnkey solution, several companies offer complete Tesla-specific 
 
 ## Sound Deadening: The Secret Weapon
 
-Before or during any speaker upgrade, adding [sound deadening material](https://www.amazon.com/dp/B00URUIKAK?tag=diyrepair07-20) to your doors is the single most cost-effective audio improvement. Tesla's doors have minimal factory deadening.
+Before or during any speaker upgrade, adding [sound deadening material](https://www.amazon.com/s?k=noico+sound+deadening+80+mil+car&tag=diyrepair07-20) to your doors is the single most cost-effective audio improvement. Tesla's doors have minimal factory deadening.
 
 **What to use:**
-- [Noico 80mil](https://www.amazon.com/dp/B00URUIKAK?tag=diyrepair07-20) — best value (~$30 for enough to do both front doors)
-- [Dynamat Xtreme](https://www.amazon.com/dp/B00020CBLW?tag=diyrepair07-20) — premium option, easier to work with
-- [Kilmat 80mil](https://www.amazon.com/dp/B0751G6PMV?tag=diyrepair07-20) — another great budget choice
+- [Noico 80mil](https://www.amazon.com/s?k=noico+80+mil+sound+deadening&tag=diyrepair07-20) — best value (~$30 for enough to do both front doors)
+- [Dynamat Xtreme](https://www.amazon.com/s?k=dynamat+xtreme+door+kit&tag=diyrepair07-20) — premium option, easier to work with
+- [Kilmat 80mil](https://www.amazon.com/s?k=kilmat+80+mil+sound+deadening&tag=diyrepair07-20) — another great budget choice
 
 **Where to apply:**
 1. Inner door skin (behind the speaker) — most important

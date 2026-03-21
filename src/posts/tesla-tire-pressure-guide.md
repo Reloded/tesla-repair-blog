@@ -10,11 +10,11 @@ models: "All Models"
 emoji: "🎈"
 tools:
   - name: "Digital Tire Pressure Gauge"
-    link: "https://www.amazon.de/dp/B07MBX32MS?tag=diyrepair-21"
+    link: "https://www.amazon.de/s?k=digital+tire+pressure+gauge&tag=diyrepair-21"
   - name: "Portable Tire Inflator (12V)"
-    link: "https://www.amazon.de/dp/B01L9WSTEG?tag=diyrepair-21"
+    link: "https://www.amazon.de/s?k=portable+tire+inflator+12v&tag=diyrepair-21"
   - name: "Tire Valve Stem Caps"
-    link: "https://www.amazon.de/dp/B07MBX32MS?tag=diyrepair-21"
+    link: "https://www.amazon.de/s?k=tire+valve+stem+caps+metal&tag=diyrepair-21"
 ---
 
 Keeping your Tesla at the correct tire pressure is one of the easiest ways to maximize range, tire life, and safety. Under-inflated tires can cost you 3-5% of your range and wear out thousands of miles early. Over-inflated tires reduce grip and make the ride harsh. Here's everything you need to know.

@@ -10,11 +10,11 @@ models: "Model 3, Model Y"
 emoji: "🛞"
 tools:
   - name: "Tesla Center Cap Kit"
-    link: "https://www.amazon.de/dp/B09BFXJHS1?tag=diyrepair-21"
+    link: "https://www.amazon.de/s?k=tesla+center+cap+kit&tag=diyrepair-21"
   - name: "Tesla Lug Nut Cover Set"
-    link: "https://www.amazon.de/dp/B09BFXJHS1?tag=diyrepair-21"
+    link: "https://www.amazon.de/s?k=tesla+lug+nut+covers&tag=diyrepair-21"
   - name: "Aftermarket Wheel Covers"
-    link: "https://www.amazon.de/dp/B09BFXJHS1?tag=diyrepair-21"
+    link: "https://www.amazon.de/s?k=tesla+model+3+wheel+covers&tag=diyrepair-21"
 ---
 
 Tesla's aero wheel covers (also called aero caps or hubcaps) improve efficiency by making the wheels more aerodynamic. Many owners prefer the look of the underlying wheels without the covers. Removing and installing them is one of the simplest "modifications" you can do—no tools required.

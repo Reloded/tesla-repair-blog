@@ -20,12 +20,12 @@ faq:
     a: "Yes, if you have enough battery. A full charge can run Dog Mode for 12-20+ hours. The car alerts you if battery drops below 20%. You can also set a minimum battery reserve in the app settings."
 tools:
   - name: "Tesla Sunshade (Model 3/Y)"
-    link: "https://www.amazon.de/dp/B07K3LHXHH?tag=diyrepair-21"
+    link: "https://www.amazon.de/s?k=tesla+model+3+sunshade+windshield&tag=diyrepair-21"
   - name: "Tesla Sunshade (Model 3/Y)"
-    link: "https://www.amazon.com/dp/B07K3LHXHH?tag=diyrepair07-20"
+    link: "https://www.amazon.com/s?k=tesla+model+3+sunshade+windshield&tag=diyrepair07-20"
     provider: "amazon-com"
   - name: "12V Portable Fan (USB)"
-    link: "https://www.amazon.de/dp/B07CVX3516?tag=diyrepair-21"
+    link: "https://www.amazon.de/s?k=usb+car+fan+portable&tag=diyrepair-21"
 ---
 
 Leaving your dog in the car or sleeping in your Tesla on a road trip? Dog Mode and Camp Mode are two of Tesla's most loved features - they keep the climate running while parked, but they work very differently. Here's everything you need to know.

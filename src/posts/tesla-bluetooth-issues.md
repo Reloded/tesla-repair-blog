@@ -11,11 +11,11 @@ models: "All Models"
 emoji: "📱"
 tools:
   - name: "Phone Mount (MagSafe Compatible)"
-    link: "https://www.amazon.de/dp/B09M3X2ZRF?tag=diyrepair-21"
+    link: "https://www.amazon.de/s?k=tesla+phone+mount+magsafe&tag=diyrepair-21"
   - name: "USB-C Charging Cable"
-    link: "https://www.amazon.de/dp/B08RNCNVFN?tag=diyrepair-21"
+    link: "https://www.amazon.de/s?k=usb+c+cable+fast+charging+car&tag=diyrepair-21"
   - name: "Key Card Holder"
-    link: "https://www.amazon.de/dp/B00LGA5TKK?tag=diyrepair-21"
+    link: "https://www.amazon.de/s?k=tesla+key+card+holder&tag=diyrepair-21"
 faq:
   - question: "Why does my Tesla Bluetooth keep disconnecting?"
     answer: "The most common causes are phone battery optimization killing the Tesla app in the background, outdated phone software, or Bluetooth interference from other devices. Disable battery optimization for the Tesla app, update your phone OS, and remove unused Bluetooth pairings from both your phone and your Tesla."
@@ -155,7 +155,7 @@ Tesla supports multiple phone keys (one per driver). Managing them properly prev
 4. Go to **Controls > Locks > Keys** to view active keys
 
 <div class="tip-box">
-<strong>Always carry a backup:</strong> Keep a <a href="https://www.amazon.de/dp/B00LGA5TKK?tag=diyrepair-21" target="_blank" rel="nofollow noopener">key card in your wallet</a> as backup. Phone keys can fail from phone updates, dead batteries, or Bluetooth problems. A <a href="/posts/tesla-key-fob-battery/">key fob</a> is another reliable alternative.
+<strong>Always carry a backup:</strong> Keep a <a href="https://www.amazon.de/s?k=tesla+key+card+holder+wallet&tag=diyrepair-21" target="_blank" rel="nofollow noopener">key card in your wallet</a> as backup. Phone keys can fail from phone updates, dead batteries, or Bluetooth problems. A <a href="/posts/tesla-key-fob-battery/">key fob</a> is another reliable alternative.
 </div>
 
 ## Audio Streaming Issues
@@ -164,7 +164,7 @@ Tesla supports multiple phone keys (one per driver). Managing them properly prev
 
 Common causes and fixes:
 
-1. **Phone position:** Keep your phone in a stable location, ideally on a [MagSafe-compatible mount](https://www.amazon.de/dp/B09M3X2ZRF?tag=diyrepair-21). Sitting on the phone or putting it in a metal-lined pocket can block the signal.
+1. **Phone position:** Keep your phone in a stable location, ideally on a [MagSafe-compatible mount](https://www.amazon.de/s?k=tesla+model+3+phone+mount+magsafe&tag=diyrepair-21). Sitting on the phone or putting it in a metal-lined pocket can block the signal.
 
 2. **Reduce streaming quality:** In Spotify/Apple Music, lower the streaming quality setting. High-quality audio requires more consistent Bluetooth bandwidth.
 
@@ -175,7 +175,7 @@ Common causes and fixes:
 ### Audio Delay (Lip Sync Issues)
 
 - Normal Bluetooth audio delay is 100-300ms
-- For video watching, use a wired [USB-C connection](https://www.amazon.de/dp/B08RNCNVFN?tag=diyrepair-21) if your Tesla supports USB media
+- For video watching, use a wired [USB-C connection](https://www.amazon.de/s?k=usb+c+cable+fast+charging+1m&tag=diyrepair-21) if your Tesla supports USB media
 - Theater mode with Bluetooth will always have some delay — this is a Bluetooth limitation, not a Tesla issue
 
 ### Poor Audio Quality
@@ -263,7 +263,7 @@ Bluetooth operates on 2.4GHz, which can get crowded:
 | Other cars' Bluetooth | Low | Usually auto-resolved |
 | WiFi hotspots | Medium | Switch Tesla WiFi off if not needed |
 | Aftermarket dash cams | High | Use wired power, not Bluetooth |
-| Wireless phone chargers | Low-Medium | Use a quality [Tesla-specific mount](https://www.amazon.de/dp/B09M3X2ZRF?tag=diyrepair-21) |
+| Wireless phone chargers | Low-Medium | Use a quality [Tesla-specific mount](https://www.amazon.de/s?k=tesla+wireless+charger+mount&tag=diyrepair-21) |
 
 ## Preventing Bluetooth Problems
 

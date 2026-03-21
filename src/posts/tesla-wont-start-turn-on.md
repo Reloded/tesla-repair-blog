@@ -12,12 +12,12 @@ tools:
   - name: "NOCO Boost Plus GB40 Jump Starter"
     link: "https://www.amazon.de/dp/B015TKUPIC?tag=diyrepair-21"
   - name: "Multimeter"
-    link: "https://www.amazon.de/dp/B01ISAMUA6?tag=diyrepair-21"
+    link: "https://www.amazon.de/s?k=digital+multimeter&tag=diyrepair-21"
   - name: "iFixit Pro Tech Toolkit"
     link: "https://sovrn.co/1dw8w9g"
     provider: "ifixit"
   - name: "12V LFP Replacement Battery (Model 3/Y)"
-    link: "https://www.amazon.de/dp/B0797FWX9G?tag=diyrepair-21"
+    link: "https://www.amazon.de/s?k=tesla+12v+lithium+battery&tag=diyrepair-21"
 ---
 
 Your Tesla won't start. The screen is black, the doors won't unlock, or the car refuses to shift into Drive. Before you panic and call a tow truck, work through this guide — most "won't start" situations have a simple fix you can do yourself.

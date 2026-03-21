@@ -11,12 +11,12 @@ emoji: "🆕"
 draft: false
 tools:
   - name: "Tesla Model 3 Screen Protector"
-    link: "https://www.amazon.de/dp/B09M3X2ZRF?tag=diyrepair-21"
+    link: "https://www.amazon.de/s?k=tesla+model+3+screen+protector+15+inch&tag=diyrepair-21"
   - name: "Tesla Model 3 Screen Protector"
-    link: "https://www.amazon.com/dp/B09M3X2ZRF?tag=diyrepair07-20"
+    link: "https://www.amazon.com/s?k=tesla+model+3+screen+protector+15+inch&tag=diyrepair07-20"
     provider: "amazon-com"
   - name: "Tesla Model 3 Headliner Cleaning Kit"
-    link: "https://www.amazon.de/dp/B009FUF6DM?tag=diyrepair-21"
+    link: "https://www.amazon.de/s?k=alcantara+headliner+cleaning+kit&tag=diyrepair-21"
 ---
 
 The 2026 Tesla Model 3 is getting a quiet but meaningful interior upgrade. Leaked configurator assets and parts catalogue data reveal two changes that Model 3 owners have been requesting for years: a black headliner and a larger, higher-resolution touchscreen.

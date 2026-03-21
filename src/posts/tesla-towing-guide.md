@@ -10,13 +10,13 @@ models: "Model 3, Model Y, Model S, Model X"
 emoji: "🚛"
 tools:
   - name: "7-Pin Trailer Wiring Adapter"
-    link: "https://www.amazon.de/dp/B09BFYH8GH?tag=diyrepair-21"
+    link: "https://www.amazon.de/s?k=tesla+trailer+wiring+adapter+7+pin&tag=diyrepair-21"
   - name: "Trailer Brake Controller"
-    link: "https://www.amazon.de/dp/B09BFYH8GH?tag=diyrepair-21"
+    link: "https://www.amazon.de/s?k=trailer+brake+controller&tag=diyrepair-21"
   - name: "Digital Tongue Weight Scale"
-    link: "https://www.amazon.de/dp/B09BFYH8GH?tag=diyrepair-21"
+    link: "https://www.amazon.de/s?k=tongue+weight+scale+trailer&tag=diyrepair-21"
   - name: "Trailer Hitch Lock"
-    link: "https://www.amazon.de/dp/B09BFYH8GH?tag=diyrepair-21"
+    link: "https://www.amazon.de/s?k=trailer+hitch+lock+2+inch&tag=diyrepair-21"
 ---
 
 So you've got a tow hitch on your Tesla — now what? Knowing the hardware is there is one thing, but actually towing with an EV is a different experience from a truck or SUV. There's Tow Mode to set up, trailer lights to wire, weight limits to respect, and range planning that matters a lot more than with a gas vehicle.

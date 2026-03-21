@@ -10,17 +10,17 @@ models: "Model X"
 emoji: "🦅"
 tools:
   - name: "Microfiber Cloths"
-    link: "https://www.amazon.de/dp/B009FUF6DM?tag=diyrepair-21"
+    link: "https://www.amazon.de/s?k=microfiber+cloths+car&tag=diyrepair-21"
   - name: "Silicone Spray Lubricant"
-    link: "https://www.amazon.de/dp/B00631GSSI?tag=diyrepair-21"
+    link: "https://www.amazon.de/s?k=silicone+spray+lubricant&tag=diyrepair-21"
   - name: "T30 Torx Bit Set"
-    link: "https://www.amazon.de/dp/B01N7YZJIJ?tag=diyrepair-21"
+    link: "https://www.amazon.de/s?k=torx+bit+set+T30&tag=diyrepair-21"
   - name: "Trim Removal Tools"
-    link: "https://www.amazon.de/dp/B005NMCE04?tag=diyrepair-21"
+    link: "https://www.amazon.de/s?k=trim+removal+tool+set+car&tag=diyrepair-21"
   - name: "Isopropyl Alcohol 99%"
-    link: "https://www.amazon.de/dp/B07NFSFBXQ?tag=diyrepair-21"
+    link: "https://www.amazon.de/s?k=isopropyl+alcohol+99&tag=diyrepair-21"
   - name: "Digital Torque Wrench"
-    link: "https://www.amazon.de/dp/B00811WQT8?tag=diyrepair-21"
+    link: "https://www.amazon.de/s?k=digital+torque+wrench+nm&tag=diyrepair-21"
 faqSchema:
   - question: "Why won't my Tesla Model X falcon wing door open?"
     answer: "The most common causes are a low 12V battery, dirty or misaligned ultrasonic sensors, software glitches, or a faulty door motor. Start by rebooting the MCU (hold both scroll wheels for 10 seconds), then try opening the door. If the 12V battery is below 11.5V, charge or replace it first. Sensor calibration via Controls > Service > Falcon Wing Doors > Calibrate fixes most software-related issues."
@@ -127,10 +127,10 @@ If your doors keep stopping because they detect obstacles that aren't there, the
 **Cleaning the Sensors**
 
 1. Locate the rubber seals along the door edges — there are pinch detection strips embedded in them
-2. Clean the entire seal with a damp [microfiber cloth](https://www.amazon.com/dp/B009FUF6DM?tag=diyrepair07-20) and mild soap
-3. Use [isopropyl alcohol](https://www.amazon.com/dp/B07NFSFBXQ?tag=diyrepair07-20) on a cotton swab for stubborn debris
+2. Clean the entire seal with a damp [microfiber cloth](https://www.amazon.com/s?k=microfiber+cloths+car+detailing&tag=diyrepair07-20) and mild soap
+3. Use [isopropyl alcohol](https://www.amazon.com/s?k=isopropyl+alcohol+99+percent&tag=diyrepair07-20) on a cotton swab for stubborn debris
 4. Pay special attention to the bottom edge where road grime collects
-5. Apply a thin layer of [silicone spray](https://www.amazon.com/dp/B00631GSSI?tag=diyrepair07-20) to the rubber seals
+5. Apply a thin layer of [silicone spray](https://www.amazon.com/s?k=silicone+spray+lubricant+car&tag=diyrepair07-20) to the rubber seals
 6. Wipe off excess to prevent dripping onto paint
 
 **Resetting Pinch Detection**
@@ -184,9 +184,9 @@ Over time, the falcon wing door hinge mechanisms can develop stiffness or creaki
 
 **What you need:**
 - White lithium grease (for metal hinge pivot points)
-- [Silicone spray](https://www.amazon.de/dp/B00631GSSI?tag=diyrepair-21) (for rubber seals and weather stripping)
+- [Silicone spray](https://www.amazon.de/s?k=silicone+spray+lubricant&tag=diyrepair-21) (for rubber seals and weather stripping)
 - Clean rags
-- [Trim removal tools](https://www.amazon.de/dp/B005NMCE04?tag=diyrepair-21) (if accessing inner hinge covers)
+- [Trim removal tools](https://www.amazon.de/s?k=trim+removal+tool+set+car&tag=diyrepair-21) (if accessing inner hinge covers)
 
 **Procedure:**
 
@@ -209,7 +209,7 @@ If your falcon wing door won't open normally, there are manual release options f
 ### Interior Manual Release
 
 1. Locate the manual release cable inside the car near the C-pillar
-2. It's behind a small triangular cover — use a [trim tool](https://www.amazon.com/dp/B005NMCE04?tag=diyrepair07-20) to pop it off
+2. It's behind a small triangular cover — use a [trim tool](https://www.amazon.com/s?k=trim+removal+tool+set&tag=diyrepair07-20) to pop it off
 3. Pull the cable firmly downward to release the latch
 4. The door can now be pushed open manually
 5. **Do not force the door** — it should move smoothly once unlatched

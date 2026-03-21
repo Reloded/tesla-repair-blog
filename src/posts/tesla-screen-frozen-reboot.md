@@ -21,13 +21,13 @@ faq:
     a: "Try a hard reboot: press and hold the brake pedal, then hold both scroll wheels for 10+ seconds. If the screen stays black after 2 minutes, your 12V battery may be dead or the MCU has failed. Check the 12V battery first."
 tools:
   - name: "Tesla Screen Protector Model 3/Y"
-    link: "https://www.amazon.de/dp/B09M3X2ZRF?tag=diyrepair-21"
+    link: "https://www.amazon.de/s?k=tesla+model+3+screen+protector&tag=diyrepair-21"
   - name: "Tesla Screen Protector Model S/X"
-    link: "https://www.amazon.de/dp/B09M3X2ZRF?tag=diyrepair-21"
+    link: "https://www.amazon.de/s?k=tesla+model+s+screen+protector&tag=diyrepair-21"
   - name: "Microfiber Screen Cleaning Cloth"
-    link: "https://www.amazon.de/dp/B009FUF6DM?tag=diyrepair-21"
+    link: "https://www.amazon.de/s?k=microfiber+screen+cleaning+cloth&tag=diyrepair-21"
   - name: "Screen Cleaning Kit"
-    link: "https://www.amazon.de/dp/B009FUF6DM?tag=diyrepair-21"
+    link: "https://www.amazon.de/s?k=touchscreen+cleaning+kit+car&tag=diyrepair-21"
 ---
 
 **Every Tesla owner hits this at some point** — the touchscreen freezes, goes black, or stops responding to taps. The fix is almost always a quick reboot that takes 30 seconds.

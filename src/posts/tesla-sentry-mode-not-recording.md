@@ -10,11 +10,11 @@ models: "All Models"
 emoji: "👁️"
 tools:
   - name: "Samsung High Endurance USB Drive 128GB"
-    link: "https://www.amazon.de/dp/B07BPG9YX9?tag=diyrepair-21"
+    link: "https://www.amazon.de/s?k=samsung+high+endurance+usb+128gb&tag=diyrepair-21"
   - name: "SanDisk Extreme SSD Portable"
-    link: "https://www.amazon.de/dp/B0874XN4D8?tag=diyrepair-21"
+    link: "https://www.amazon.de/s?k=sandisk+extreme+ssd+portable&tag=diyrepair-21"
   - name: "USB-C to USB-A Adapter"
-    link: "https://www.amazon.de/dp/B07CVX3516?tag=diyrepair-21"
+    link: "https://www.amazon.de/s?k=usb-c+to+usb-a+adapter&tag=diyrepair-21"
 ---
 
 Sentry Mode is one of Tesla's best security features, but it's frustrating when you check your footage and find nothing recorded. Whether you see the Sentry Mode icon but get no clips, or the feature won't activate at all, this guide covers all the common causes and solutions.

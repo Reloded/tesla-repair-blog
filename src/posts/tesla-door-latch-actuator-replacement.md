@@ -10,15 +10,15 @@ models: "All Models"
 emoji: "🔧"
 tools:
   - name: "Trim Removal Tool Set"
-    link: "https://www.amazon.de/dp/B005NMCE04?tag=diyrepair-21"
+    link: "https://www.amazon.de/s?k=car+trim+removal+tools&tag=diyrepair-21"
   - name: "T30 Torx Bit"
-    link: "https://www.amazon.de/dp/B01N7YZJIJ?tag=diyrepair-21"
+    link: "https://www.amazon.de/s?k=T30+torx+screwdriver&tag=diyrepair-21"
   - name: "T45 Torx Socket"
-    link: "https://www.amazon.de/dp/B01N7YZJIJ?tag=diyrepair-21"
+    link: "https://www.amazon.de/s?k=T45+torx+socket&tag=diyrepair-21"
   - name: "10mm Socket"
-    link: "https://www.amazon.de/dp/B07H43R12K?tag=diyrepair-21"
+    link: "https://www.amazon.de/s?k=10mm+socket+set&tag=diyrepair-21"
   - name: "Torque Wrench"
-    link: "https://www.amazon.de/dp/B00811WQT8?tag=diyrepair-21"
+    link: "https://www.amazon.de/s?k=torque+wrench+nm&tag=diyrepair-21"
   - name: "iFixit Pro Tech Toolkit"
     link: "https://sovrn.co/1eq15x9"
     provider: "ifixit"
@@ -107,7 +107,7 @@ If your issue is a loose striker causing the door not to close properly, the str
 
 - **[Tesla Official Parts](https://shop.tesla.com)** — OEM, guaranteed fit, highest price
 - **[eBay](https://www.ebay.com/sch/i.html?_nkw=tesla+model+3+door+latch+actuator)** — OEM pulled parts ($60-120) or aftermarket
-- **[Amazon](https://www.amazon.com/dp/B07VXVTJBH?tag=diyrepair07-20)** | **[Amazon.de](https://www.amazon.de/dp/B07VXVTJBH?tag=diyrepair-21)** — Aftermarket (A-Premium, Dorman)
+- **[Amazon](https://www.amazon.com/s?k=tesla+model+3+door+latch+actuator&tag=diyrepair07-20)** | **[Amazon.de](https://www.amazon.de/s?k=tesla+model+3+t%C3%BCrschloss+aktuator&tag=diyrepair-21)** — Aftermarket (A-Premium, Dorman)
 - **[eEuroparts](https://www.eeuroparts.com/Tesla/)** — OEM parts, sometimes discounted
 
 For European buyers, check our **[Tesla parts buying guide for Europe](/posts/tesla-parts-europe-buying-guide/)**.

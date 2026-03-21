@@ -10,11 +10,11 @@ models: "All Models"
 emoji: "❄️"
 tools:
   - name: "Cabin Air Filter (Tesla Compatible)"
-    link: "https://www.amazon.de/dp/B07RLKGFMS?tag=diyrepair-21"
+    link: "https://www.amazon.de/s?k=tesla+cabin+air+filter&tag=diyrepair-21"
   - name: "T20 Torx Screwdriver"
-    link: "https://www.amazon.de/dp/B01N7YZJIJ?tag=diyrepair-21"
+    link: "https://www.amazon.de/s?k=T20+torx+screwdriver&tag=diyrepair-21"
   - name: "Evaporator Coil Cleaner Spray"
-    link: "https://www.amazon.de/dp/B073VBF1R4?tag=diyrepair-21"
+    link: "https://www.amazon.de/s?k=evaporator+coil+cleaner+spray&tag=diyrepair-21"
 ---
 
 Tesla's all-electric HVAC system is incredibly efficient, but when the AC stops cooling properly, summer driving becomes miserable. The good news is that many AC issues have simple fixes you can do at home.

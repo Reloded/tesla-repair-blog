@@ -10,9 +10,9 @@ models: "All Models"
 emoji: "🎤"
 tools:
   - name: "Compressed Air Duster"
-    link: "https://www.amazon.de/dp/B0000AE67M?tag=diyrepair-21"
+    link: "https://www.amazon.de/s?k=compressed+air+duster+electronics&tag=diyrepair-21"
   - name: "Microfiber Cloths"
-    link: "https://www.amazon.de/dp/B009FUF6DM?tag=diyrepair-21"
+    link: "https://www.amazon.de/s?k=microfiber+cloth+cleaning+electronics&tag=diyrepair-21"
 faq:
   - question: "Why does my Tesla say 'voice command unavailable'?"
     answer: "This usually means your Tesla has lost its data connection (LTE or WiFi). Voice commands require a server connection for processing. Check your signal strength, try connecting to WiFi, or restart the touchscreen by holding both scroll wheels for 10 seconds. If the problem persists after reconnecting, a software update may be pending."
@@ -103,8 +103,8 @@ Dust, dirt, and debris can physically block microphone pickups, especially the c
 
 ### Cleaning Procedure
 
-1. Use [compressed air](https://www.amazon.de/dp/B0000AE67M?tag=diyrepair-21) to blow out dust around the headliner near the rearview mirror — **short bursts from 15cm away**
-2. Gently wipe the area with a [dry microfiber cloth](https://www.amazon.de/dp/B009FUF6DM?tag=diyrepair-21) — don't use liquid cleaners near electronics
+1. Use [compressed air](https://www.amazon.de/s?k=compressed+air+duster+electronics&tag=diyrepair-21) to blow out dust around the headliner near the rearview mirror — **short bursts from 15cm away**
+2. Gently wipe the area with a [dry microfiber cloth](https://www.amazon.de/s?k=microfiber+cloth+cleaning+electronics&tag=diyrepair-21) — don't use liquid cleaners near electronics
 3. Check A-pillar covers for any obstruction or aftermarket accessories blocking mics
 4. If you have aftermarket sunshades or headliner modifications, ensure they don't cover microphone areas
 
