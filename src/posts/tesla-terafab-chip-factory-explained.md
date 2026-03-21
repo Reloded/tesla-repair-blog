@@ -45,8 +45,9 @@ One week earlier, on March 14, Musk posted seven words that sent shockwaves thro
 
 The Terafab project officially launched on March 21, 2026. Here's what we now know:
 
-- **It's live.** The project is no longer a concept — Tesla has begun hiring semiconductor infrastructure managers and construction personnel for the facility
-- **Location:** Austin, Texas — a job posting for a "Technical Program Manager — Infrastructure, Semiconductor" is based near Tesla's existing Giga Texas campus
+- **It's live.** The project is no longer a concept — Tesla has posted **7 new Terafab job listings** as of launch day, per Sawyer Merritt on X
+- **Key roles being hired:** Sr. Counsel (Infrastructure & CapEx), Process Integration Engineer, Module Process Engineer, Silicon Module Process Engineer, Sr. Counsel (Supply Chain) — these are hands-on fab construction and process development roles
+- **Locations:** Both **Palo Alto, California** (engineering HQ) and **Austin, Texas** (near Giga Texas) — per The Tesla Newswire
 - **AI5 chip specs confirmed:** 50x total improvement over AI4 — broken down as 10x raw compute, 9x memory capacity, and 5x improvement in hardened block quantization and softmax (per a slide shared by Sawyer Merritt on X)
 - **Samsung deal signed:** Tesla has secured a **$16.5 billion deal with Samsung** to manufacture AI6 chips at Samsung's Taylor, Texas fab through 2033 — giving Tesla a second major foundry partnership alongside TSMC
 - **Three-leg supply chain:** AI5 is currently manufactured by TSMC (Taiwan, transitioning to Arizona). Samsung handles AI6 production. Terafab will eventually be the third leg — one Tesla owns outright
@@ -283,7 +284,8 @@ Whether you're a Tesla owner, investor, or just following the EV industry, this 
 - [Forbes Argentina: Tesla Terafab $25 billion project](https://www.forbesargentina.com/negocios/tesla-lanza-terafab-su-megaproyecto-construir-una-fabrica-chips-us-25000-millones-n87974) — March 20, 2026
 - [Drive Tesla Canada: Tesla hiring for Terafab](https://driveteslacanada.ca/news/tesla-takes-initial-hiring-steps-for-terafab-chip-project/) — March 20, 2026
 - [Elon Musk on X: "Terafab Project launches in 7 days"](https://x.com/elonmusk/status/2032814398033768737)
-- Sawyer Merritt on X: AI5 chip specs slide — March 21, 2026
+- [Sawyer Merritt on X: 7 new Terafab job listings + AI5 chip specs](https://x.com/SawyerMerritt/status/2035236827393638802) — March 21, 2026
+- [The Tesla Newswire on X: Hiring in Palo Alto and Austin](https://x.com/TeslaNewswire/status/2035254982295826439) — March 21, 2026
 - Stacy Rasgon, Bernstein analyst, via Business Insider — March 20, 2026
 - Tesla Q4 2025 Earnings Call, January 28, 2026
 - Tesla Annual Shareholder Meeting, November 6, 2025
