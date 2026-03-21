@@ -10,17 +10,17 @@ models: "Model X"
 emoji: "🦅"
 tools:
   - name: "Microfiber Cloths"
-    link: "https://www.amazon.de/s?k=microfiber+cloths+car&tag=diyrepair-21"
+    link: "https://www.amazon.de/dp/B009FUF6DM?tag=diyrepair-21"
   - name: "Silicone Spray Lubricant"
-    link: "https://www.amazon.de/s?k=silicone+spray+lubricant&tag=diyrepair-21"
+    link: "https://www.amazon.de/dp/B00631GSSI?tag=diyrepair-21"
   - name: "T30 Torx Bit Set"
-    link: "https://www.amazon.de/s?k=torx+bit+set+T30&tag=diyrepair-21"
+    link: "https://www.amazon.de/dp/B01N7YZJIJ?tag=diyrepair-21"
   - name: "Trim Removal Tools"
-    link: "https://www.amazon.de/s?k=trim+removal+tool+set+car&tag=diyrepair-21"
+    link: "https://www.amazon.de/dp/B005NMCE04?tag=diyrepair-21"
   - name: "Isopropyl Alcohol 99%"
-    link: "https://www.amazon.de/s?k=isopropyl+alcohol+99&tag=diyrepair-21"
+    link: "https://www.amazon.de/dp/B07NFSFBXQ?tag=diyrepair-21"
   - name: "Digital Torque Wrench"
-    link: "https://www.amazon.de/s?k=digital+torque+wrench+nm&tag=diyrepair-21"
+    link: "https://www.amazon.de/dp/B00811WQT8?tag=diyrepair-21"
 faqSchema:
   - question: "Why won't my Tesla Model X falcon wing door open?"
     answer: "The most common causes are a low 12V battery, dirty or misaligned ultrasonic sensors, software glitches, or a faulty door motor. Start by rebooting the MCU (hold both scroll wheels for 10 seconds), then try opening the door. If the 12V battery is below 11.5V, charge or replace it first. Sensor calibration via Controls > Service > Falcon Wing Doors > Calibrate fixes most software-related issues."
@@ -184,9 +184,9 @@ Over time, the falcon wing door hinge mechanisms can develop stiffness or creaki
 
 **What you need:**
 - White lithium grease (for metal hinge pivot points)
-- [Silicone spray](https://www.amazon.de/s?k=silicone+spray+lubricant&tag=diyrepair-21) (for rubber seals and weather stripping)
+- [Silicone spray](https://www.amazon.de/dp/B00631GSSI?tag=diyrepair-21) (for rubber seals and weather stripping)
 - Clean rags
-- [Trim removal tools](https://www.amazon.de/s?k=trim+removal+tool+set+car&tag=diyrepair-21) (if accessing inner hinge covers)
+- [Trim removal tools](https://www.amazon.de/dp/B005NMCE04?tag=diyrepair-21) (if accessing inner hinge covers)
 
 **Procedure:**
 

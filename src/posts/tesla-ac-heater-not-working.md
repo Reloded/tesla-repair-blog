@@ -21,13 +21,13 @@ faq:
     a: "Heating draws the most energy — roughly 2–4 kW depending on the outside temperature. The heat pump (2021+ models) is about 300% more efficient than the older resistive PTC heater. Preconditioning while plugged in saves the most range."
 tools:
   - name: "Cabin Air Filter for Tesla Model 3/Y"
-    link: "https://www.amazon.de/s?k=tesla+model+3+cabin+air+filter&tag=diyrepair-21"
+    link: "https://www.amazon.de/dp/B07RLKGFMS?tag=diyrepair-21"
   - name: "Cabin Air Filter for Tesla Model S/X"
-    link: "https://www.amazon.de/s?k=tesla+model+s+cabin+air+filter+HEPA&tag=diyrepair-21"
+    link: "https://www.amazon.de/dp/B07RLKGFMS?tag=diyrepair-21"
   - name: "Tesla HEPA Filter Replacement"
-    link: "https://www.amazon.de/s?k=tesla+HEPA+filter+replacement&tag=diyrepair-21"
+    link: "https://www.amazon.de/dp/B07RLKGFMS?tag=diyrepair-21"
   - name: "Automotive AC Thermometer"
-    link: "https://www.amazon.de/s?k=automotive+ac+vent+thermometer&tag=diyrepair-21"
+    link: "https://www.amazon.de/dp/B01ISAMUA6?tag=diyrepair-21"
 ---
 
 ![Tesla dashboard completely removed showing HVAC system and wiring harness during repair](/images/repairs/tesla-dashboard-teardown.webp)

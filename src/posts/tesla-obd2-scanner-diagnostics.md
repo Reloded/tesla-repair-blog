@@ -18,7 +18,7 @@ tools:
   - name: "OBD2 Extension Cable"
     link: "https://www.amazon.com/dp/B07MXCS62L?tag=diyrepair07-20"
   - name: "Tesla OBD2 Diagnostic Cable"
-    link: "https://www.amazon.de/s?k=tesla+OBD2+diagnostic+cable&tag=diyrepair-21"
+    link: "https://www.amazon.de/dp/B08NFNLKTK?tag=diyrepair-21"
 ---
 
 If you're doing any DIY work on your Tesla, a diagnostic scanner is one of the first tools you should pick up. It lets you read fault codes, monitor live battery data, check individual cell voltages, and verify your repairs actually fixed the problem. Without one, you're working blind.

@@ -11,7 +11,7 @@ emoji: "🔋"
 draft: false
 tools:
   - name: "OBD2 Scanner for Tesla (OBDLink CX)"
-    link: "https://www.amazon.de/s?k=OBDLink+CX+tesla+obd2&tag=diyrepair-21"
+    link: "https://www.amazon.de/dp/B08NFNLKTK?tag=diyrepair-21"
     asin_de: "B08NFBKGR5"
   - name: "OBD2 Scanner for Tesla"
     link: "https://www.amazon.com/dp/B08NFNLKTK?tag=diyrepair07-20"

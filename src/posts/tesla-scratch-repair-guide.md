@@ -20,22 +20,22 @@ faq:
 tools:
   - name: "Tesla Touch-Up Paint Kit (OEM)"
     link: "https://www.amazon.com/dp/B004Z5IF7A?tag=diyrepair07-20"
-    linkDE: "https://www.amazon.de/s?k=tesla+lackstift+set&tag=diyrepair-21"
+    linkDE: "https://www.amazon.de/dp/B004Z5IF7A?tag=diyrepair-21"
   - name: "Meguiar's Ultimate Compound"
     link: "https://www.amazon.com/dp/B001O7PNNM?tag=diyrepair07-20"
-    linkDE: "https://www.amazon.de/s?k=meguiars+ultimate+compound&tag=diyrepair-21"
+    linkDE: "https://www.amazon.de/dp/B001O7PNNM?tag=diyrepair-21"
   - name: "Microfiber Polishing Pads"
     link: "https://www.amazon.com/dp/B003LMBHFG?tag=diyrepair07-20"
-    linkDE: "https://www.amazon.de/s?k=mikrofaser+poliertuch+auto&tag=diyrepair-21"
+    linkDE: "https://www.amazon.de/dp/B009FUF6DM?tag=diyrepair-21"
   - name: "Dr. ColorChip Paint Repair Kit"
     link: "https://www.amazon.com/dp/B004Z5IF7A?tag=diyrepair07-20"
-    linkDE: "https://www.amazon.de/s?k=dr+colorchip+tesla&tag=diyrepair-21"
+    linkDE: "https://www.amazon.de/dp/B004Z5IF7A?tag=diyrepair-21"
   - name: "ScratchX 2.0 by Meguiar's"
     link: "https://www.amazon.com/dp/B0000AY3SR?tag=diyrepair07-20"
-    linkDE: "https://www.amazon.de/s?k=meguiars+scratchx&tag=diyrepair-21"
+    linkDE: "https://www.amazon.de/dp/B0002SQURG?tag=diyrepair-21"
   - name: "Isopropyl Alcohol (IPA) Spray"
     link: "https://www.amazon.com/dp/B07NFSFBXQ?tag=diyrepair07-20"
-    linkDE: "https://www.amazon.de/s?k=isopropylalkohol+spray+auto&tag=diyrepair-21"
+    linkDE: "https://www.amazon.de/dp/B07NFSFBXQ?tag=diyrepair-21"
 ---
 
 Scratches are the number one cosmetic complaint among Tesla owners — and it's not your imagination. Tesla's paint really is softer and thinner than most cars on the road. The good news: about 80% of scratches you'll encounter are surface-level clear coat marks that you can fix at home for under $50 in materials.

@@ -23,7 +23,7 @@ tools:
   - name: "Camera Lens Cleaning Kit"
     link: "https://www.amazon.com/dp/B01FWNEUIM?tag=diyrepair07-20"
   - name: "Tesla Camera Cover Set"
-    link: "https://www.amazon.de/s?k=tesla+camera+cover+privacy+set&tag=diyrepair-21"
+    link: "https://www.amazon.de/dp/B09M3X2ZRF?tag=diyrepair-21"
 ---
 
 If you've owned a Tesla for a few years, you might remember the days when your car had a radar unit behind the front bumper. Maybe you still have one. Then one day, a software update rolled out and your radar was quietly disabled. No explanation in the release notes beyond "transitioning to Tesla Vision."

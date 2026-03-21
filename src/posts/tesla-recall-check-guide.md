@@ -23,7 +23,7 @@ tools:
   - name: "OBDLink CX Bluetooth Scanner"
     link: "https://www.amazon.com/dp/B08NFNLKTK?tag=diyrepair07-20"
   - name: "Scan My Tesla App"
-    link: "https://www.amazon.de/s?k=scan+my+tesla+obd2&tag=diyrepair-21"
+    link: "https://www.amazon.de/dp/B08NFNLKTK?tag=diyrepair-21"
 ---
 
 Finding out if your Tesla has an open recall takes less than 60 seconds. This guide covers every method to check — from official tools to what the recall process actually looks like as a Tesla owner.

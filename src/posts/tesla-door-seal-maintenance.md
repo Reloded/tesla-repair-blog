@@ -10,13 +10,13 @@ models: "All Models"
 emoji: "🚪"
 tools:
   - name: "Rubber Seal Conditioner (303 Aerospace)"
-    link: "https://www.amazon.de/s?k=303+aerospace+protectant&tag=diyrepair-21"
+    link: "https://www.amazon.de/dp/B00631GSSI?tag=diyrepair-21"
   - name: "Silicone Lubricant Spray"
-    link: "https://www.amazon.de/s?k=silicone+lubricant+spray&tag=diyrepair-21"
+    link: "https://www.amazon.de/dp/B00631GSSI?tag=diyrepair-21"
   - name: "Microfiber Cloths"
-    link: "https://www.amazon.de/s?k=microfiber+cloths&tag=diyrepair-21"
+    link: "https://www.amazon.de/dp/B009FUF6DM?tag=diyrepair-21"
   - name: "Rubber Seal Repair Tape"
-    link: "https://www.amazon.de/s?k=rubber+seal+repair+tape+automotive&tag=diyrepair-21"
+    link: "https://www.amazon.de/dp/B007OWUBA6?tag=diyrepair-21"
 ---
 
 Tesla's frameless windows and flush door handles look sleek, but they put extra demands on door seals. Properly maintained seals keep water out, reduce wind noise, and prevent doors from freezing shut in winter. Here's everything you need to know about Tesla door seal care.

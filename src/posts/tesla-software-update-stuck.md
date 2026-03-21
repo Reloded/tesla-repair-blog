@@ -20,11 +20,11 @@ faq:
     a: "Download time depends on your WiFi speed: a typical 2-5 GB update takes 15-45 minutes on a good connection. Installation takes 25-45 minutes for most updates, though major releases (like holiday updates) can take up to 60 minutes. The car will show a progress bar and estimated time remaining."
 tools:
   - name: "WiFi Range Extender (Garage)"
-    link: "https://www.amazon.de/s?k=wifi+range+extender+garage&tag=diyrepair-21"
+    link: "https://www.amazon.de/dp/B07N1WW638?tag=diyrepair-21"
   - name: "WiFi Range Extender (US)"
     link: "https://www.amazon.com/dp/B07N1WW638?tag=diyrepair07-20"
   - name: "Tesla Screen Protector Model 3/Y"
-    link: "https://www.amazon.de/s?k=tesla+model+3+screen+protector&tag=diyrepair-21"
+    link: "https://www.amazon.de/dp/B09M3X2ZRF?tag=diyrepair-21"
 ---
 
 Tesla vehicles receive regular over-the-air (OTA) updates that add features, improve performance, and fix bugs. But sometimes these updates get stuck — refusing to download, stalling mid-install, or failing with cryptic errors. In 2026, with Tesla pushing more frequent updates than ever (including the 2026.2.x series), stuck updates are one of the most common owner frustrations.

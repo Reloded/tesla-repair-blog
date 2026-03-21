@@ -10,18 +10,18 @@ models: "Model S, Model X"
 emoji: "🔑"
 tools:
   - name: "CR2032 Battery (Energizer 6-Pack)"
-    link: "https://www.amazon.de/s?k=CR2032+battery&tag=diyrepair-21"
+    link: "https://www.amazon.de/dp/B00LGA5TKK?tag=diyrepair-21"
     asin_com: "B0002RID4G"
     asin_de: "B003U4GP1Y"
   - name: "Small Flathead Screwdriver"
-    link: "https://www.amazon.de/s?k=small+flathead+screwdriver+set&tag=diyrepair-21"
+    link: "https://www.amazon.de/dp/B01N7YZJIJ?tag=diyrepair-21"
     asin_com: "B00AFOSGHA"
     asin_de: "B00AFOSGHA"
   - name: "iFixit Precision Screwdriver Set"
     link: "https://sovrn.co/1eq15x9"
     provider: "ifixit"
   - name: "Isopropyl Alcohol Wipes"
-    link: "https://www.amazon.de/s?k=isopropyl+alcohol+wipes+electronics&tag=diyrepair-21"
+    link: "https://www.amazon.de/dp/B07NFSFBXQ?tag=diyrepair-21"
     asin_com: "B07L9JGG16"
     asin_de: "B07L9JGG16"
 faq:
@@ -75,7 +75,7 @@ Tesla key fobs use a **CR2032** 3V lithium coin cell battery—the same type use
 ### Where to Buy
 
 - **Any grocery store or pharmacy** — Usually near checkout counters
-- **Amazon** — [CR2032 multi-pack](https://www.amazon.de/s?k=CR2032+battery+Duracell&tag=diyrepair-21) ([US link](https://www.amazon.com/dp/B00LGA5TKK?tag=diyrepair07-20))
+- **Amazon** — [CR2032 multi-pack](https://www.amazon.de/dp/B00LGA5TKK?tag=diyrepair-21) ([US link](https://www.amazon.com/dp/B00LGA5TKK?tag=diyrepair07-20))
 - **Costco / hardware stores** — Multi-packs are cheapest here
 
 **Cost:** $2-5 for a 2-pack, $8-12 for a 10-pack
@@ -88,7 +88,7 @@ Not all CR2032 batteries are equal. Stick with reputable brands for consistent v
 - **Avoid:** No-name bulk batteries from unknown sellers — they may be below rated voltage out of the box
 
 <div class="tip-box">
-<strong>Pro Tip:</strong> Buy a 10-pack of <a href="https://www.amazon.de/s?k=CR2032+Duracell+10+pack&tag=diyrepair-21">Duracell CR2032 batteries</a>. They last 1-2 years in the fob, have a 10-year shelf life, and you'll use them in other devices too. Much cheaper per unit in bulk.
+<strong>Pro Tip:</strong> Buy a 10-pack of <a href="https://www.amazon.de/dp/B00LGA5TKK?tag=diyrepair-21">Duracell CR2032 batteries</a>. They last 1-2 years in the fob, have a 10-year shelf life, and you'll use them in other devices too. Much cheaper per unit in bulk.
 </div>
 
 ## Step-by-Step Replacement
@@ -147,7 +147,7 @@ Work through these steps in order:
 
 2. **Try a different battery** — Dead-on-arrival batteries exist, especially with cheap brands. Test with another CR2032 if you have one.
 
-3. **Clean the contacts** — Use a dry cloth or [isopropyl alcohol wipe](https://www.amazon.de/s?k=isopropyl+alcohol+wipes+electronics&tag=diyrepair-21) to clean the battery contacts inside the fob. Corrosion or residue from a leaking old battery can prevent good contact.
+3. **Clean the contacts** — Use a dry cloth or [isopropyl alcohol wipe](https://www.amazon.de/dp/B07NFSFBXQ?tag=diyrepair-21) to clean the battery contacts inside the fob. Corrosion or residue from a leaking old battery can prevent good contact.
 
 4. **Check for physical damage** — Look inside for any cracked solder joints, loose components, or signs of water damage (white/green corrosion on the circuit board).
 
@@ -210,7 +210,7 @@ If a fresh, correctly oriented CR2032 doesn't fix the problem, the issue is with
 | Buttons feel stuck or mushy | Physical damage from drops | Replace fob |
 | Works intermittently near home | RF interference from home devices | Move router/devices away from where you park |
 
-**Replacement fob cost:** ~$150-175 from Tesla, or $50-100 from third-party sellers on [Amazon](https://www.amazon.de/s?k=Tesla+Model+S+key+fob+replacement&tag=diyrepair-21). Third-party fobs need to be paired through the touchscreen and may not support all features (like Summon).
+**Replacement fob cost:** ~$150-175 from Tesla, or $50-100 from third-party sellers on [Amazon](https://www.amazon.de/dp/B00LGA5TKK?tag=diyrepair-21). Third-party fobs need to be paired through the touchscreen and may not support all features (like Summon).
 
 ## Cost Summary
 

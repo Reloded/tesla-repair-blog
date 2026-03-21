@@ -10,15 +10,15 @@ models: "Model 3, Model Y"
 emoji: "🪝"
 tools:
   - name: "Socket Set (10mm, 13mm, 18mm)"
-    link: "https://www.amazon.de/s?k=socket+set+metric&tag=diyrepair-21"
+    link: "https://www.amazon.de/dp/B07H43R12K?tag=diyrepair-21"
   - name: "Torx Bit Set (T30, T40)"
-    link: "https://www.amazon.de/s?k=torx+bit+set&tag=diyrepair-21"
+    link: "https://www.amazon.de/dp/B01N7YZJIJ?tag=diyrepair-21"
   - name: "Trim Removal Tool Set"
-    link: "https://www.amazon.de/s?k=trim+removal+tool+set&tag=diyrepair-21"
+    link: "https://www.amazon.de/dp/B005NMCE04?tag=diyrepair-21"
   - name: "Floor Jack and Jack Stands"
-    link: "https://www.amazon.de/s?k=floor+jack+jack+stands&tag=diyrepair-21"
+    link: "https://www.amazon.de/dp/B00HBFKFN8?tag=diyrepair-21"
   - name: "Torque Wrench"
-    link: "https://www.amazon.de/s?k=torque+wrench+set&tag=diyrepair-21"
+    link: "https://www.amazon.de/dp/B00811WQT8?tag=diyrepair-21"
 ---
 
 Adding a tow hitch to your Tesla opens up a lot of practical capability - bike racks, small cargo trailers, camping gear carriers, even light towing. And whether you go with the Tesla OEM package or an aftermarket hitch, this is a job you can do at home with basic tools and a couple of hours.

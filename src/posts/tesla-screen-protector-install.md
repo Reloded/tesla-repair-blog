@@ -20,7 +20,7 @@ tools:
   - name: "Microfiber Cleaning Cloths"
     link: "https://www.amazon.com/dp/B009FUF6DM?tag=diyrepair07-20"
   - name: "Screen Cleaning Kit"
-    link: "https://www.amazon.de/s?k=screen+cleaning+kit&tag=diyrepair-21"
+    link: "https://www.amazon.de/dp/B009FUF6DM?tag=diyrepair-21"
 ---
 
 Your Tesla's touchscreen is the command center for everything—navigation, climate, media, and vehicle settings. A single scratch or crack can be expensive to replace (Tesla charges $1,000+ for a screen replacement). A tempered glass screen protector costs under $40 and takes 10 minutes to install. It's one of the best investments you can make for your Tesla's interior.

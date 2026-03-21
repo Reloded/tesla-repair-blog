@@ -11,15 +11,15 @@ emoji: "🔍"
 draft: false
 tools:
   - name: "OBD2 Scanner for Tesla (OBDLink CX)"
-    link: "https://www.amazon.de/s?k=OBDLink+CX+tesla+obd2&tag=diyrepair-21"
+    link: "https://www.amazon.de/dp/B08NFNLKTK?tag=diyrepair-21"
   - name: "Tesla Scan (Android/iOS App)"
-    link: "https://www.amazon.de/s?k=tesla+obd2+diagnostic+scanner&tag=diyrepair-21"
+    link: "https://www.amazon.de/dp/B08NFNLKTK?tag=diyrepair-21"
   - name: "Paint Thickness Gauge"
-    link: "https://www.amazon.de/s?k=paint+thickness+gauge+car&tag=diyrepair-21"
+    link: "https://www.amazon.de/dp/B004Z5IF7A?tag=diyrepair-21"
   - name: "12V Battery Tester"
-    link: "https://www.amazon.de/s?k=12v+car+battery+tester&tag=diyrepair-21"
+    link: "https://www.amazon.de/dp/B0797FWX9G?tag=diyrepair-21"
   - name: "Flashlight for Inspection"
-    link: "https://www.amazon.de/s?k=led+inspection+flashlight+mechanic&tag=diyrepair-21"
+    link: "https://www.amazon.de/dp/B01ISAMUA6?tag=diyrepair-21"
 ---
 
 Buying a used Tesla is different from buying any other used car. There's no engine to listen to, no transmission to worry about, and the car's entire history lives in software logs that most buyers never check. That's a problem, because the expensive failures on these cars aren't obvious — a battery with degraded cells, a heat pump that's about to die, or suspension components worn from years of heavy regenerative braking all look fine from the outside.

@@ -18,9 +18,9 @@ tools:
   - name: "Tesla Model 3 Trunk Lift Struts (Manual/Upgrade)"
     link: "https://www.amazon.com/dp/B07Z6T6N7B?tag=diyrepair07-20"
   - name: "Plastic Trim Removal Tools"
-    link: "https://www.amazon.de/s?k=automotive+trim+removal+tools&tag=diyrepair-21"
+    link: "https://www.amazon.de/dp/B005NMCE04?tag=diyrepair-21"
   - name: "Isopropyl Alcohol Wipes"
-    link: "https://www.amazon.de/s?k=isopropyl+alcohol+wipes+automotive&tag=diyrepair-21"
+    link: "https://www.amazon.de/dp/B07NFSFBXQ?tag=diyrepair-21"
   - name: "iFixit Pro Tech Toolkit"
     link: "https://sovrn.co/1dw8w9g"
     provider: "ifixit"
@@ -138,8 +138,8 @@ The Model Y has a large **rear liftgate** (hatchback-style) that's significantly
 **Aftermarket options** on Amazon:
 - 🇺🇸 [Model 3 Trunk Struts (US)](https://www.amazon.com/dp/B07Z6T6N7B?tag=diyrepair07-20)
 - 🇺🇸 [Model Y Liftgate Struts (US)](https://www.amazon.com/dp/B0916HJ2BJ?tag=diyrepair07-20)
-- 🇩🇪 [Model 3 Trunk Struts (DE)](https://www.amazon.de/s?k=tesla+model+3+kofferraum+gasdruckfeder&tag=diyrepair-21)
-- 🇩🇪 [Model Y Liftgate Struts (DE)](https://www.amazon.de/s?k=tesla+model+y+heckklappe+gasdruckfeder&tag=diyrepair-21)
+- 🇩🇪 [Model 3 Trunk Struts (DE)](https://www.amazon.de/dp/B07Z6T6N7B?tag=diyrepair-21)
+- 🇩🇪 [Model Y Liftgate Struts (DE)](https://www.amazon.de/dp/B0916HJ2BJ?tag=diyrepair-21)
 
 ---
 

@@ -12,11 +12,11 @@ tools:
   - name: "Tesla Emergency Kit (First Aid + Safety)"
     link: "https://www.amazon.com/dp/B07D7SLGX4?tag=diyrepair07-20"
   - name: "Trim Removal Tool Set"
-    link: "https://www.amazon.de/s?k=car+trim+removal+tools&tag=diyrepair-21"
+    link: "https://www.amazon.de/dp/B005NMCE04?tag=diyrepair-21"
   - name: "Tesla Rear Door Manual Release Pull Strap (Retrofit)"
     link: "https://www.amazon.com/dp/B09BFXJHS1?tag=diyrepair07-20"
   - name: "USB-C Car Charger (Keep Phone Charged)"
-    link: "https://www.amazon.de/s?k=usb+c+car+charger+fast+charge&tag=diyrepair-21"
+    link: "https://www.amazon.de/dp/B08RNCNVFN?tag=diyrepair-21"
   - name: "Window Breaker & Seatbelt Cutter"
     link: "https://www.amazon.com/dp/B00CXOIFQG?tag=diyrepair07-20"
 ---

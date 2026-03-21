@@ -16,13 +16,13 @@ tools:
     link: "https://www.awin1.com/cread.php?awinmid=91891&awinaffid=2729872&ued=https%3A%2F%2Fev-lectron.com%2Fcollections%2Fev-chargers"
     provider: "lectron"
   - name: "EV Charging Adapters (Amazon)"
-    link: "https://www.amazon.de/s?k=tesla+charging+adapter&tag=diyrepair-21"
+    link: "https://www.amazon.de/dp/B0B9JKLTF5?tag=diyrepair-21"
   - name: "Tesla Mobile Connector"
-    link: "https://www.amazon.de/s?k=tesla+mobile+connector&tag=diyrepair-21"
+    link: "https://www.amazon.de/dp/B0B9JKLTF5?tag=diyrepair-21"
   - name: "CCS2 to Type 2 Tesla Adapter"
-    link: "https://www.amazon.de/s?k=CCS2+Tesla+adapter&tag=diyrepair-21"
+    link: "https://www.amazon.de/dp/B0B9JKLTF5?tag=diyrepair-21"
   - name: "Type 2 to Type 1 EV Adapter"
-    link: "https://www.amazon.de/s?k=type+2+to+type+1+EV+adapter&tag=diyrepair-21"
+    link: "https://www.amazon.de/dp/B0B9JKLTF5?tag=diyrepair-21"
 ---
 
 Tesla's charging connector situation can be confusing. Depending on your model year, region, and what chargers are available near you, you may need one or more adapters to access every charging network. This guide breaks it all down.

@@ -13,13 +13,13 @@ tools:
     link: "https://sovrn.co/1dw8w9g"
     provider: "ifixit"
   - name: "Floor Jack (3-Ton)"
-    link: "https://www.amazon.de/s?k=3+ton+floor+jack&tag=diyrepair-21"
+    link: "https://www.amazon.de/dp/B00HBFKFN8?tag=diyrepair-21"
   - name: "Jack Stands (Set of 4)"
-    link: "https://www.amazon.de/s?k=jack+stands+set+of+4&tag=diyrepair-21"
+    link: "https://www.amazon.de/dp/B000CO86DC?tag=diyrepair-21"
   - name: "Torque Wrench"
-    link: "https://www.amazon.de/s?k=torque+wrench+automotive&tag=diyrepair-21"
+    link: "https://www.amazon.de/dp/B00811WQT8?tag=diyrepair-21"
   - name: "OBD2 Scanner for Tesla"
-    link: "https://www.amazon.de/s?k=obd2+scanner+tesla&tag=diyrepair-21"
+    link: "https://www.amazon.de/dp/B08NFNLKTK?tag=diyrepair-21"
 ---
 
 Tesla service centers are convenient, but they're not cheap. A simple brake pad swap can run $300-500 at the dealer when you can do it yourself for $50-80 in parts. Multiply that across every maintenance item and repair over your ownership period, and DIY saves you thousands.

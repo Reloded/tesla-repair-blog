@@ -10,11 +10,11 @@ models: "Model 3, Model Y"
 emoji: "🚗"
 tools:
   - name: "T30 Torx Screwdriver"
-    link: "https://www.amazon.de/s?k=T30+torx+screwdriver&tag=diyrepair-21"
+    link: "https://www.amazon.de/dp/B01N7YZJIJ?tag=diyrepair-21"
   - name: "Silicone Lubricant Spray"
-    link: "https://www.amazon.de/s?k=silicone+lubricant+spray+automotive&tag=diyrepair-21"
+    link: "https://www.amazon.de/dp/B00631GSSI?tag=diyrepair-21"
   - name: "Microfiber Cloths"
-    link: "https://www.amazon.de/s?k=microfiber+cloth+automotive&tag=diyrepair-21"
+    link: "https://www.amazon.de/dp/B009FUF6DM?tag=diyrepair-21"
 ---
 
 A Tesla trunk that won't close properly is more than an inconvenience—it's a safety issue and can drain your 12V battery through repeated attempts. This common problem usually stems from latch misalignment, dirty sensors, or worn components. Most fixes take less than 30 minutes with basic tools.

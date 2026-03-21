@@ -13,9 +13,9 @@ tools:
     link: "https://www.awin1.com/cread.php?awinmid=91891&awinaffid=2729872&ued=https%3A%2F%2Fev-lectron.com%2Fcollections%2Fev-chargers"
     provider: "lectron"
   - name: "OBD2 Diagnostic Scanner for Tesla"
-    link: "https://www.amazon.de/s?k=obd2+scanner+tesla&tag=diyrepair-21"
+    link: "https://www.amazon.de/dp/B08NFNLKTK?tag=diyrepair-21"
   - name: "Tesla Winter Floor Mats"
-    link: "https://www.amazon.de/s?k=tesla+winter+floor+mats&tag=diyrepair-21"
+    link: "https://www.amazon.de/dp/B07Q3RK3ZQ?tag=diyrepair-21"
   - name: "OBD2 Scanner (US)"
     link: "https://www.amazon.com/dp/B08NFNLKTK?tag=diyrepair07-20"
 faq:

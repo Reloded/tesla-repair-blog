@@ -10,17 +10,17 @@ models: "All Models"
 emoji: "📹"
 tools:
   - name: "Samsung T7 Portable SSD (500GB)"
-    link: "https://www.amazon.de/s?k=samsung+t7+500gb&tag=diyrepair-21"
+    link: "https://www.amazon.de/dp/B0874XN4D8?tag=diyrepair-21"
   - name: "SanDisk High Endurance MicroSD (256GB)"
-    link: "https://www.amazon.de/s?k=sandisk+high+endurance+256gb&tag=diyrepair-21"
+    link: "https://www.amazon.de/dp/B07P3D6Y5B?tag=diyrepair-21"
   - name: "USB Hub for Tesla"
-    link: "https://www.amazon.de/s?k=tesla+usb+hub&tag=diyrepair-21"
+    link: "https://www.amazon.de/dp/B07CVX3516?tag=diyrepair-21"
   - name: "Samsung BAR Plus USB Drive (256GB)"
-    link: "https://www.amazon.de/s?k=samsung+bar+plus+256gb&tag=diyrepair-21"
+    link: "https://www.amazon.de/dp/B07BPG9YX9?tag=diyrepair-21"
   - name: "SanDisk Extreme Pro SSD"
-    link: "https://www.amazon.de/s?k=sandisk+extreme+pro+portable+ssd&tag=diyrepair-21"
+    link: "https://www.amazon.de/dp/B0874XN4D8?tag=diyrepair-21"
   - name: "USB-C to USB-A Adapter"
-    link: "https://www.amazon.de/s?k=usb+c+to+usb+a+adapter&tag=diyrepair-21"
+    link: "https://www.amazon.de/dp/B07CVX3516?tag=diyrepair-21"
 ---
 
 Every Tesla has a built-in dashcam and Sentry Mode security system-but you need to provide the USB storage. The wrong drive causes recording failures, corrupted footage, and endless frustration. This guide covers exactly what you need and how to set it up right.

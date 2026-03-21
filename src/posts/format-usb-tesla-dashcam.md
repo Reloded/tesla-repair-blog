@@ -20,13 +20,13 @@ faq:
     a: "Yes. Create a TeslaCam folder for recordings and a separate folder for music files. Tesla will use TeslaCam for video and play music from any other folder. A 256GB+ drive is recommended so recordings don't eat into your music storage."
 tools:
   - name: "Samsung Bar Plus 128GB"
-    link: "https://www.amazon.de/s?k=samsung+bar+plus+128gb&tag=diyrepair-21"
+    link: "https://www.amazon.de/dp/B07BPG9YX9?tag=diyrepair-21"
   - name: "SanDisk High Endurance 128GB"
-    link: "https://www.amazon.de/s?k=sandisk+high+endurance+128gb&tag=diyrepair-21"
+    link: "https://www.amazon.de/dp/B07P3D6Y5B?tag=diyrepair-21"
   - name: "Samsung T7 Portable SSD 500GB"
-    link: "https://www.amazon.de/s?k=samsung+t7+500gb+ssd&tag=diyrepair-21"
+    link: "https://www.amazon.de/dp/B0874XN4D8?tag=diyrepair-21"
   - name: "High Endurance microSD + USB Reader"
-    link: "https://www.amazon.de/s?k=high+endurance+microsd+256gb+usb+reader&tag=diyrepair-21"
+    link: "https://www.amazon.de/dp/B07P3D6Y5B?tag=diyrepair-21"
 amazonUs:
   - name: "Samsung Bar Plus 128GB"
     link: "https://www.amazon.com/dp/B07BPG9YX9?tag=diyrepair07-20"

@@ -14,9 +14,9 @@ tools:
   - name: "Scan My Tesla App (Android)"
     link: "https://www.amazon.com/dp/B08NFNLKTK?tag=diyrepair07-20"
   - name: "Tesla Screen Protector"
-    link: "https://www.amazon.de/s?k=tesla+screen+protector+model+3+y&tag=diyrepair-21"
+    link: "https://www.amazon.de/dp/B09M3X2ZRF?tag=diyrepair-21"
   - name: "USB Drive for Dashcam/Sentry"
-    link: "https://www.amazon.de/s?k=usb+drive+tesla+sentry+mode+dashcam&tag=diyrepair-21"
+    link: "https://www.amazon.de/dp/B07BPG9YX9?tag=diyrepair-21"
 ---
 
 **Tesla's 2026.2.3 update is now rolling out widely, and honestly — the official release notes barely scratch the surface.** The documented features (charge cable unlatching, child left-alone detection) are nice, but the *undocumented* stuff is what's actually interesting for anyone who likes to understand what's going on under the hood of their Tesla.

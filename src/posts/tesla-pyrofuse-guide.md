@@ -23,7 +23,7 @@ faq:
     a: "These codes mean 'Battery Fuse requires replacement soon.' The Battery Management System has detected that the pyrofuse is approaching the end of its lifespan. The car is still safe to drive, but you should schedule service soon — the fuse needs preventive replacement before it fails."
 tools:
   - name: "No DIY tools — professional service required"
-    link: "https://www.amazon.de/s?k=tesla+repair+manual&tag=diyrepair-21"
+    link: "https://www.amazon.de/dp/B08NFNLKTK?tag=diyrepair-21"
 ---
 
 There's a small explosive device inside your Tesla's battery pack, and it might save your life one day.

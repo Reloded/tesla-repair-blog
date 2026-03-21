@@ -10,17 +10,17 @@ models: "All Models"
 emoji: "🕶️"
 tools:
   - name: "Precut Ceramic Window Tint (Model 3/Y)"
-    link: "https://www.amazon.de/s?k=tesla+model+3+ceramic+window+tint+precut&tag=diyrepair-21"
+    link: "https://www.amazon.de/dp/B07H2Y6XV1?tag=diyrepair-21"
   - name: "Precut Ceramic Window Tint (Model S/X)"
-    link: "https://www.amazon.de/s?k=tesla+model+s+ceramic+window+tint+precut&tag=diyrepair-21"
+    link: "https://www.amazon.de/dp/B07H2Y6XV1?tag=diyrepair-21"
   - name: "Window Tint Application Kit"
-    link: "https://www.amazon.de/s?k=window+tint+application+tool+kit+squeegee&tag=diyrepair-21"
+    link: "https://www.amazon.de/dp/B07H2Y6XV1?tag=diyrepair-21"
   - name: "Heat Gun for Window Tint"
-    link: "https://www.amazon.de/s?k=heat+gun+window+tint&tag=diyrepair-21"
+    link: "https://www.amazon.de/dp/B00EU2T8GG?tag=diyrepair-21"
   - name: "Tint Meter / VLT Meter"
-    link: "https://www.amazon.de/s?k=window+tint+meter+VLT&tag=diyrepair-21"
+    link: "https://www.amazon.de/dp/B07H2Y6XV1?tag=diyrepair-21"
   - name: "Baby Shampoo (Slip Solution)"
-    link: "https://www.amazon.de/s?k=baby+shampoo&tag=diyrepair-21"
+    link: "https://www.amazon.de/dp/B073VBF1R4?tag=diyrepair-21"
 ---
 
 Window tinting is one of the most popular modifications Tesla owners make, and for good reason. That massive glass roof dumps heat into the cabin, the front windows come with zero tint from the factory, and the rear "privacy glass" blocks light but barely touches infrared heat. A proper ceramic tint job transforms how your Tesla feels on a sunny day.

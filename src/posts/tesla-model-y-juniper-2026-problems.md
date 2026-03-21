@@ -21,13 +21,13 @@ faq:
     a: "For most buyers, yes. The Juniper brings a significantly improved interior, better ride quality (when the suspension works), a redesigned front end, and updated tech. Most issues are software-fixable or covered under warranty. But if you're buying early production, inspect carefully at delivery."
 tools:
   - name: "Tesla Model Y All-Weather Floor Mats"
-    link: "https://www.amazon.de/s?k=tesla+model+y+2026+floor+mats&tag=diyrepair-21"
+    link: "https://www.amazon.de/dp/B07Q3RK3ZQ?tag=diyrepair-21"
   - name: "Tesla Model Y Screen Protector"
-    link: "https://www.amazon.de/s?k=tesla+model+y+2026+screen+protector&tag=diyrepair-21"
+    link: "https://www.amazon.de/dp/B09M3X2ZRF?tag=diyrepair-21"
   - name: "Tesla Model Y Center Console Organizer"
-    link: "https://www.amazon.de/s?k=tesla+model+y+juniper+center+console+organizer&tag=diyrepair-21"
+    link: "https://www.amazon.de/dp/B07Q3RK3ZQ?tag=diyrepair-21"
   - name: "Dash Cam for Tesla"
-    link: "https://www.amazon.de/s?k=tesla+model+y+dash+cam+mount&tag=diyrepair-21"
+    link: "https://www.amazon.de/dp/B07BPG9YX9?tag=diyrepair-21"
 ---
 
 The 2026 Tesla Model Y "Juniper" is the biggest refresh since the original Model Y launched. New front end, redesigned interior, updated tech, and a fresh rear light bar. It's a genuinely better car than its predecessor.

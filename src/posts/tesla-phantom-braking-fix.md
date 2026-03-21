@@ -19,13 +19,13 @@ faq:
     a: "Yes, phantom braking can occur on all Tesla models using vision-based Autopilot. It's more common in certain conditions like tunnels, overpasses, and areas with strong shadows."
 tools:
   - name: "Microfiber Glass Cleaning Cloths"
-    link: "https://www.amazon.de/s?k=microfiber+glass+cleaning+cloth&tag=diyrepair-21"
+    link: "https://www.amazon.de/dp/B009FUF6DM?tag=diyrepair-21"
   - name: "Camera Lens Cleaner"
-    link: "https://www.amazon.de/s?k=camera+lens+cleaner+spray&tag=diyrepair-21"
+    link: "https://www.amazon.de/dp/B01FWNEUIM?tag=diyrepair-21"
   - name: "Dash Cam (to document incidents)"
-    link: "https://www.amazon.de/s?k=tesla+dash+cam&tag=diyrepair-21"
+    link: "https://www.amazon.de/dp/B07BPG9YX9?tag=diyrepair-21"
   - name: "Sunshade for Windshield"
-    link: "https://www.amazon.de/s?k=tesla+model+3+sunshade&tag=diyrepair-21"
+    link: "https://www.amazon.de/dp/B07K3LHXHH?tag=diyrepair-21"
 ---
 
 **You're cruising on Autopilot, nothing ahead, and the car slams the brakes.** That's phantom braking — and yes, it's still happening in 2026. Tesla's improved it but hasn't eliminated it. Here's what triggers it and the settings that actually help.

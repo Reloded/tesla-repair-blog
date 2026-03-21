@@ -10,15 +10,15 @@ models: "All Models"
 emoji: "⚙️"
 tools:
   - name: "Floor Jack and Jack Stands"
-    link: "https://www.amazon.de/s?k=floor+jack+3+ton&tag=diyrepair-21"
+    link: "https://www.amazon.de/dp/B00HBFKFN8?tag=diyrepair-21"
   - name: "EPL10 Socket and Hex Socket Set"
-    link: "https://www.amazon.de/s?k=hex+socket+set+metric&tag=diyrepair-21"
+    link: "https://www.amazon.de/dp/B07H43R12K?tag=diyrepair-21"
   - name: "Fluid Transfer Pump"
-    link: "https://www.amazon.de/s?k=fluid+transfer+pump&tag=diyrepair-21"
+    link: "https://www.amazon.de/dp/B003I85DIO?tag=diyrepair-21"
   - name: "Drain Pan"
-    link: "https://www.amazon.de/s?k=oil+drain+pan&tag=diyrepair-21"
+    link: "https://www.amazon.de/dp/B000BQSFQ4?tag=diyrepair-21"
   - name: "ATF-9 / KAF1 Gearbox Fluid"
-    link: "https://www.amazon.de/s?k=tesla+atf-9+gearbox+fluid&tag=diyrepair-21"
+    link: "https://www.amazon.de/dp/B005YQY1DA?tag=diyrepair-21"
 ---
 
 Tesla doesn't include gear oil changes in their standard maintenance schedule, but that doesn't mean the fluid lasts forever. The reduction gear in your Tesla's drive unit relies on oil to lubricate the gears and bearings. Over time, this oil breaks down and collects metal particles from normal wear.

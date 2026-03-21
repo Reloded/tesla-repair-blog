@@ -45,7 +45,7 @@ Common reasons for replacement:
 
 That's it. No special Tesla tools required.
 
-**🛒 EU shoppers:** [Amazon.de Werkzeug-Set](https://www.amazon.de/s?k=zierleistenkeile+set&tag=diyrepair-21)
+**🛒 EU shoppers:** [Amazon.de Werkzeug-Set](https://www.amazon.de/dp/B005NMCE04?tag=diyrepair-21)
 
 ## Parts: Where to Buy
 
@@ -72,7 +72,7 @@ That's it. No special Tesla tools required.
 
 - [**AlphaRex PRO-Series**](https://www.amazon.com/dp/B08FZK4HZV?tag=diyrepair07-20) — sequential turn signals, smoked options
 - [**T Sportline**](https://tsportline.com/) — various styles
-- [**Amazon.com**](https://www.amazon.com/dp/B08FZK4HZV?tag=diyrepair07-20) | [**Amazon.de**](https://www.amazon.de/s?k=tesla+model+3+r%C3%BCckleuchte&tag=diyrepair-21) — budget options, quality varies
+- [**Amazon.com**](https://www.amazon.com/dp/B08FZK4HZV?tag=diyrepair07-20) | [**Amazon.de**](https://www.amazon.de/dp/B08FZK4HZV?tag=diyrepair-21) — budget options, quality varies
 
 **Tip:** If filing an insurance claim, use OEM parts. Aftermarket lights may complicate claims.
 

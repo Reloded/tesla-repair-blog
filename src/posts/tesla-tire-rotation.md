@@ -10,17 +10,17 @@ models: "All Models"
 emoji: "🔄"
 tools:
   - name: "3-Ton Floor Jack"
-    link: "https://www.amazon.de/s?k=3+ton+floor+jack&tag=diyrepair-21"
+    link: "https://www.amazon.de/dp/B00HBFKFN8?tag=diyrepair-21"
   - name: "Jack Stands (Set of 4)"
-    link: "https://www.amazon.de/s?k=jack+stands+set+of+4&tag=diyrepair-21"
+    link: "https://www.amazon.de/dp/B000CO86DC?tag=diyrepair-21"
   - name: "Tesla Jack Puck/Pad"
-    link: "https://www.amazon.de/s?k=tesla+jack+puck+pad&tag=diyrepair-21"
+    link: "https://www.amazon.de/dp/B09BFXJHS1?tag=diyrepair-21"
   - name: "Torque Wrench (100-150 ft-lbs)"
-    link: "https://www.amazon.de/s?k=torque+wrench+150+ft+lbs&tag=diyrepair-21"
+    link: "https://www.amazon.de/dp/B00811WQT8?tag=diyrepair-21"
   - name: "Breaker Bar"
-    link: "https://www.amazon.de/s?k=breaker+bar+1%2F2+drive&tag=diyrepair-21"
+    link: "https://www.amazon.de/dp/B003JNCD3Y?tag=diyrepair-21"
   - name: "21mm Socket"
-    link: "https://www.amazon.de/s?k=21mm+socket&tag=diyrepair-21"
+    link: "https://www.amazon.de/dp/B07H43R12K?tag=diyrepair-21"
 ---
 
 Tesla tires wear faster than you might expect—especially on performance-focused models. The combination of instant torque, heavy vehicle weight, and aggressive traction control means tire rotations are essential for maximizing tire life. Tesla charges $50-100 for this service, but it's an easy DIY job.

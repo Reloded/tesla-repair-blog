@@ -65,7 +65,7 @@ If you're unsure, look at your trunk hinges. If you see an electric motor connec
 - $40-60 per pair typical
 
 **Where to buy:**
-- [Amazon.com](https://www.amazon.com/dp/B097RZN6LP?tag=diyrepair07-20) | [Amazon.de](https://www.amazon.de/s?k=tesla+model+3+gasfeder+motorhaube&tag=diyrepair-21) — ARANA, AY Customs, Maxpow
+- [Amazon.com](https://www.amazon.com/dp/B097RZN6LP?tag=diyrepair07-20) | [Amazon.de](https://www.amazon.de/dp/B097RZN6LP?tag=diyrepair-21) — ARANA, AY Customs, Maxpow
 - [Abstract Ocean](https://abstractocean.com/) — Quality aftermarket, auto-lift upgrades
 - [EVANNEX](https://evannex.com/) — Premium Tesla accessories
 - [Tesla Parts](https://shop.tesla.com) — OEM, most expensive

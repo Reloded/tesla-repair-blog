@@ -10,13 +10,13 @@ models: "All Models"
 emoji: "🔊"
 tools:
   - name: "CRC Brakleen Brake Cleaner"
-    link: "https://www.amazon.de/s?k=CRC+brakleen+brake+cleaner&tag=diyrepair-21"
+    link: "https://www.amazon.de/dp/B000C9SDRQ?tag=diyrepair-21"
   - name: "Brake Caliper Grease"
-    link: "https://www.amazon.de/s?k=brake+caliper+grease&tag=diyrepair-21"
+    link: "https://www.amazon.de/dp/B07BDHX7R7?tag=diyrepair-21"
   - name: "Wire Brush"
-    link: "https://www.amazon.de/s?k=wire+brush+automotive&tag=diyrepair-21"
+    link: "https://www.amazon.de/dp/B005NMCE04?tag=diyrepair-21"
   - name: "3M Sandpaper (150 grit)"
-    link: "https://www.amazon.de/s?k=150+grit+sandpaper&tag=diyrepair-21"
+    link: "https://www.amazon.de/dp/B004Z5IF7A?tag=diyrepair-21"
 ---
 
 Squeaky brakes on a Tesla are more common than on gas cars—and the reason is actually a good thing. Because regenerative braking does most of the work, your traditional brakes get used less. This can cause rust and glazing that leads to noise.
