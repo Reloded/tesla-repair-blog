@@ -22,7 +22,7 @@ tools:
   - name: "Tesla Sunshade (Model 3/Y)"
     link: "https://www.amazon.de/s?k=tesla+model+3+sunshade+windshield&tag=diyrepair-21"
   - name: "Tesla Sunshade (Model 3/Y)"
-    link: "https://www.amazon.com/s?k=tesla+model+3+sunshade+windshield&tag=diyrepair07-20"
+    link: "https://www.amazon.com/dp/B07K3LHXHH?tag=diyrepair07-20"
     provider: "amazon-com"
   - name: "12V Portable Fan (USB)"
     link: "https://www.amazon.de/s?k=usb+car+fan+portable&tag=diyrepair-21"

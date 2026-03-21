@@ -27,7 +27,7 @@ tools:
   - name: "Coolant Funnel with Stopper"
     link: "https://www.amazon.de/s?k=coolant+funnel+spill+free&tag=diyrepair-21"
   - name: "Coolant Refill Funnel"
-    link: "https://www.amazon.com/s?k=spill+free+coolant+funnel&tag=diyrepair07-20"
+    link: "https://www.amazon.com/dp/B009JWHUPE?tag=diyrepair07-20"
     provider: "amazon-com"
   - name: "Distilled Water (5L)"
     link: "https://www.amazon.de/s?k=distilled+water+5l&tag=diyrepair-21"

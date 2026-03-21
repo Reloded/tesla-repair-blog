@@ -75,7 +75,7 @@ Tesla key fobs use a **CR2032** 3V lithium coin cell battery—the same type use
 ### Where to Buy
 
 - **Any grocery store or pharmacy** — Usually near checkout counters
-- **Amazon** — [CR2032 multi-pack](https://www.amazon.de/s?k=CR2032+battery+Duracell&tag=diyrepair-21) ([US link](https://www.amazon.com/s?k=CR2032+battery+Duracell&tag=diyrepair07-20))
+- **Amazon** — [CR2032 multi-pack](https://www.amazon.de/s?k=CR2032+battery+Duracell&tag=diyrepair-21) ([US link](https://www.amazon.com/dp/B00LGA5TKK?tag=diyrepair07-20))
 - **Costco / hardware stores** — Multi-packs are cheapest here
 
 **Cost:** $2-5 for a 2-pack, $8-12 for a 10-pack

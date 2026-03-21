@@ -40,7 +40,7 @@ Common reasons for replacement:
 
 - **8mm socket** (12-point deep socket works best)
 - **Ratchet or socket wrench**
-- **[Plastic trim tool set](https://www.amazon.com/s?k=plastic+trim+removal+tool&tag=diyrepair07-20)** (for garnish removal)
+- **[Plastic trim tool set](https://www.amazon.com/dp/B005NMCE04?tag=diyrepair07-20)** (for garnish removal)
 - **Bump stop removal tool** (optional—plastic pry tool works)
 
 That's it. No special Tesla tools required.
@@ -70,9 +70,9 @@ That's it. No special Tesla tools required.
 
 ### Aftermarket Options
 
-- [**AlphaRex PRO-Series**](https://www.amazon.com/s?k=alpharex+tesla+model+3+tail+light&tag=diyrepair07-20) — sequential turn signals, smoked options
+- [**AlphaRex PRO-Series**](https://www.amazon.com/dp/B08FZK4HZV?tag=diyrepair07-20) — sequential turn signals, smoked options
 - [**T Sportline**](https://tsportline.com/) — various styles
-- [**Amazon.com**](https://www.amazon.com/s?k=tesla+model+3+tail+light&tag=diyrepair07-20) | [**Amazon.de**](https://www.amazon.de/s?k=tesla+model+3+r%C3%BCckleuchte&tag=diyrepair-21) — budget options, quality varies
+- [**Amazon.com**](https://www.amazon.com/dp/B08FZK4HZV?tag=diyrepair07-20) | [**Amazon.de**](https://www.amazon.de/s?k=tesla+model+3+r%C3%BCckleuchte&tag=diyrepair-21) — budget options, quality varies
 
 **Tip:** If filing an insurance claim, use OEM parts. Aftermarket lights may complicate claims.
 

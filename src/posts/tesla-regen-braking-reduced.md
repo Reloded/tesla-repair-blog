@@ -17,7 +17,7 @@ tools:
   - name: "Tesla Winter Floor Mats"
     link: "https://www.amazon.de/s?k=tesla+winter+floor+mats&tag=diyrepair-21"
   - name: "OBD2 Scanner (US)"
-    link: "https://www.amazon.com/s?k=obd2+scanner+tesla&tag=diyrepair07-20"
+    link: "https://www.amazon.com/dp/B08NFNLKTK?tag=diyrepair07-20"
 faq:
   - question: "Why is my Tesla regenerative braking limited?"
     answer: "The most common cause is a cold battery. Lithium-ion cells can't safely accept charge when cold, so Tesla limits regen to protect battery health. Other causes include high state of charge (above 90%), recent fast charging, and in rare cases, battery degradation or a software glitch."

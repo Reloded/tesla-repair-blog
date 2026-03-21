@@ -11,9 +11,9 @@ models: "Model 3, Model Y"
 emoji: "🏔️"
 tools:
   - name: "Tesla OEM Roof Rack (Model 3)"
-    link: "https://www.amazon.com/s?k=tesla+model+3+OEM+roof+rack&tag=diyrepair07-20"
+    link: "https://www.amazon.com/dp/B09BFYH8GH?tag=diyrepair07-20"
   - name: "Tesla OEM Roof Rack (Model Y)"
-    link: "https://www.amazon.com/s?k=tesla+model+y+OEM+roof+rack&tag=diyrepair07-20"
+    link: "https://www.amazon.com/dp/B09BFYH8GH?tag=diyrepair07-20"
   - name: "Thule Roof Rack for Tesla"
     link: "https://www.amazon.de/s?k=thule+roof+rack+tesla&tag=diyrepair-21"
   - name: "Roof Rack Cargo Box"
@@ -28,9 +28,9 @@ tools:
     link: "https://sovrn.co/1dw8w9g"
     provider: "ifixit"
   - name: "Bike Rack for Roof Rack"
-    link: "https://www.amazon.com/s?k=roof+rack+bike+carrier&tag=diyrepair07-20"
+    link: "https://www.amazon.com/dp/B00TRTS0NM?tag=diyrepair07-20"
   - name: "Ski & Snowboard Carrier"
-    link: "https://www.amazon.com/s?k=roof+rack+ski+snowboard+carrier&tag=diyrepair07-20"
+    link: "https://www.amazon.com/dp/B001Q91DA8?tag=diyrepair07-20"
 ---
 
 Adding a roof rack to your Tesla Model 3 or Model Y opens up a world of cargo possibilities—from road trip gear and bikes to ski equipment and kayaks. Tesla designed both vehicles with hidden mounting points under the glass roof trim, making installation surprisingly straightforward. Whether you go with the Tesla OEM rack or an aftermarket option from Thule, Yakima, or others, this guide covers everything you need to know.

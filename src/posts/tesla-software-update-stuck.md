@@ -22,7 +22,7 @@ tools:
   - name: "WiFi Range Extender (Garage)"
     link: "https://www.amazon.de/s?k=wifi+range+extender+garage&tag=diyrepair-21"
   - name: "WiFi Range Extender (US)"
-    link: "https://www.amazon.com/s?k=wifi+range+extender+garage&tag=diyrepair07-20"
+    link: "https://www.amazon.com/dp/B07N1WW638?tag=diyrepair07-20"
   - name: "Tesla Screen Protector Model 3/Y"
     link: "https://www.amazon.de/s?k=tesla+model+3+screen+protector&tag=diyrepair-21"
 ---

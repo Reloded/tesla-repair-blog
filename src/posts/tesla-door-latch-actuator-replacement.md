@@ -107,7 +107,7 @@ If your issue is a loose striker causing the door not to close properly, the str
 
 - **[Tesla Official Parts](https://shop.tesla.com)** — OEM, guaranteed fit, highest price
 - **[eBay](https://www.ebay.com/sch/i.html?_nkw=tesla+model+3+door+latch+actuator)** — OEM pulled parts ($60-120) or aftermarket
-- **[Amazon](https://www.amazon.com/s?k=tesla+model+3+door+latch+actuator&tag=diyrepair07-20)** | **[Amazon.de](https://www.amazon.de/s?k=tesla+model+3+t%C3%BCrschloss+aktuator&tag=diyrepair-21)** — Aftermarket (A-Premium, Dorman)
+- **[Amazon](https://www.amazon.com/dp/B07VXVTJBH?tag=diyrepair07-20)** | **[Amazon.de](https://www.amazon.de/s?k=tesla+model+3+t%C3%BCrschloss+aktuator&tag=diyrepair-21)** — Aftermarket (A-Premium, Dorman)
 - **[eEuroparts](https://www.eeuroparts.com/Tesla/)** — OEM parts, sometimes discounted
 
 For European buyers, check our **[Tesla parts buying guide for Europe](/posts/tesla-parts-europe-buying-guide/)**.

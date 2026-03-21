@@ -65,7 +65,7 @@ If you're unsure, look at your trunk hinges. If you see an electric motor connec
 - $40-60 per pair typical
 
 **Where to buy:**
-- [Amazon.com](https://www.amazon.com/s?k=tesla+model+3+frunk+struts&tag=diyrepair07-20) | [Amazon.de](https://www.amazon.de/s?k=tesla+model+3+gasfeder+motorhaube&tag=diyrepair-21) — ARANA, AY Customs, Maxpow
+- [Amazon.com](https://www.amazon.com/dp/B097RZN6LP?tag=diyrepair07-20) | [Amazon.de](https://www.amazon.de/s?k=tesla+model+3+gasfeder+motorhaube&tag=diyrepair-21) — ARANA, AY Customs, Maxpow
 - [Abstract Ocean](https://abstractocean.com/) — Quality aftermarket, auto-lift upgrades
 - [EVANNEX](https://evannex.com/) — Premium Tesla accessories
 - [Tesla Parts](https://shop.tesla.com) — OEM, most expensive
@@ -162,8 +162,8 @@ Want your frunk to open fully by itself instead of just popping up an inch? Upgr
 
 **Model 3 Frunk:**
 - [Abstract Ocean Strut Upgrades](https://abstractocean.com/)
-- [ARANA Automatic Frunk Lift](https://www.amazon.com/s?k=ARANA+tesla+frunk+struts&tag=diyrepair07-20)
-- [AY Customs Pneumatic Struts](https://www.amazon.com/s?k=AY+customs+tesla+frunk&tag=diyrepair07-20)
+- [ARANA Automatic Frunk Lift](https://www.amazon.com/dp/B097RZN6LP?tag=diyrepair07-20)
+- [AY Customs Pneumatic Struts](https://www.amazon.com/dp/B097RZN6LP?tag=diyrepair07-20)
 
 **How they work:**
 - Standard struts provide ~50-60N of force (enough to hold open, not enough to lift)

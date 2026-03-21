@@ -127,10 +127,10 @@ If your doors keep stopping because they detect obstacles that aren't there, the
 **Cleaning the Sensors**
 
 1. Locate the rubber seals along the door edges — there are pinch detection strips embedded in them
-2. Clean the entire seal with a damp [microfiber cloth](https://www.amazon.com/s?k=microfiber+cloths+car+detailing&tag=diyrepair07-20) and mild soap
-3. Use [isopropyl alcohol](https://www.amazon.com/s?k=isopropyl+alcohol+99+percent&tag=diyrepair07-20) on a cotton swab for stubborn debris
+2. Clean the entire seal with a damp [microfiber cloth](https://www.amazon.com/dp/B009FUF6DM?tag=diyrepair07-20) and mild soap
+3. Use [isopropyl alcohol](https://www.amazon.com/dp/B07NFSFBXQ?tag=diyrepair07-20) on a cotton swab for stubborn debris
 4. Pay special attention to the bottom edge where road grime collects
-5. Apply a thin layer of [silicone spray](https://www.amazon.com/s?k=silicone+spray+lubricant+car&tag=diyrepair07-20) to the rubber seals
+5. Apply a thin layer of [silicone spray](https://www.amazon.com/dp/B00631GSSI?tag=diyrepair07-20) to the rubber seals
 6. Wipe off excess to prevent dripping onto paint
 
 **Resetting Pinch Detection**
@@ -209,7 +209,7 @@ If your falcon wing door won't open normally, there are manual release options f
 ### Interior Manual Release
 
 1. Locate the manual release cable inside the car near the C-pillar
-2. It's behind a small triangular cover — use a [trim tool](https://www.amazon.com/s?k=trim+removal+tool+set&tag=diyrepair07-20) to pop it off
+2. It's behind a small triangular cover — use a [trim tool](https://www.amazon.com/dp/B005NMCE04?tag=diyrepair07-20) to pop it off
 3. Pull the cable firmly downward to release the latch
 4. The door can now be pushed open manually
 5. **Do not force the door** — it should move smoothly once unlatched

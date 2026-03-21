@@ -215,7 +215,7 @@ This order prevents "chasing" adjustments where fixing one panel creates a new g
 | Door striker | T40 Torx |
 | Door hinges | T40 Torx, helper |
 
-**🛒 Recommended:** [Metric socket set](https://www.amazon.com/s?k=metric+socket+set&tag=diyrepair07-20) | [Torx bit set](https://www.amazon.com/s?k=torx+bit+set+t40&tag=diyrepair07-20) | [Amazon.de Werkzeug](https://www.amazon.de/s?k=steckschl%C3%BCssel+satz+metrisch&tag=diyrepair-21)
+**🛒 Recommended:** [Metric socket set](https://www.amazon.com/dp/B07H43R12K?tag=diyrepair07-20) | [Torx bit set](https://www.amazon.com/dp/B01N7YZJIJ?tag=diyrepair07-20) | [Amazon.de Werkzeug](https://www.amazon.de/s?k=steckschl%C3%BCssel+satz+metrisch&tag=diyrepair-21)
 
 ## Related Guides
 

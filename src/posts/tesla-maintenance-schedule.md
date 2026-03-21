@@ -23,7 +23,7 @@ tools:
     link: "https://www.amazon.de/s?k=tesla+model+3+cabin+air+filter&tag=diyrepair-21"
     asin_de: "B08L8KQ6GS"
   - name: "Tesla Cabin Air Filter (Model 3/Y)"
-    link: "https://www.amazon.com/s?k=tesla+model+3+cabin+air+filter&tag=diyrepair07-20"
+    link: "https://www.amazon.com/dp/B07RLKGFMS?tag=diyrepair07-20"
     provider: "amazon-com"
     asin_com: "B08L8KQ6GS"
   - name: "Brake Fluid DOT 4 (1L)"

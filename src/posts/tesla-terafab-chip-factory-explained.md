@@ -24,9 +24,9 @@ faq:
     a: "Tesla's stated ambition is 100 to 200 billion AI and memory chips per year at full scale, starting with 100,000 wafer starts per month and scaling to 1 million wafer starts per month."
 tools:
   - name: "Tesla Model 3/Y Floor Mats"
-    link: "https://www.amazon.com/s?k=tesla+model+3+Y+floor+mats+all+weather&tag=diyrepair07-20"
+    link: "https://www.amazon.com/dp/B07Q3RK3ZQ?tag=diyrepair07-20"
   - name: "Tesla Screen Protector"
-    link: "https://www.amazon.com/s?k=tesla+model+3+Y+screen+protector+matte&tag=diyrepair07-20"
+    link: "https://www.amazon.com/dp/B09M3X2ZRF?tag=diyrepair07-20"
 ---
 
 > **🟢 LAUNCHED — March 21, 2026:** Tesla's Terafab project is officially live. This article has been updated with confirmed AI5 chip specs, the $16.5 billion Samsung deal, Austin facility details, and analyst reactions. Last updated: March 21, 2026.

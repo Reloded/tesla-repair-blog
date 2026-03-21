@@ -13,7 +13,7 @@ tools:
   - name: "Tesla Model 3 Screen Protector"
     link: "https://www.amazon.de/s?k=tesla+model+3+screen+protector+15+inch&tag=diyrepair-21"
   - name: "Tesla Model 3 Screen Protector"
-    link: "https://www.amazon.com/s?k=tesla+model+3+screen+protector+15+inch&tag=diyrepair07-20"
+    link: "https://www.amazon.com/dp/B09M3X2ZRF?tag=diyrepair07-20"
     provider: "amazon-com"
   - name: "Tesla Model 3 Headliner Cleaning Kit"
     link: "https://www.amazon.de/s?k=alcantara+headliner+cleaning+kit&tag=diyrepair-21"

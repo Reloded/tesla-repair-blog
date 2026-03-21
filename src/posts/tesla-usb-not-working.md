@@ -351,7 +351,7 @@ If you have a **2024+ Model 3 Highland** or **2026 Model Y Juniper**, your USB s
 
 If you're upgrading from a pre-2024 Tesla:
 
-1. **You need a USB-C drive or adapter.** Your old USB-A flash drive won't fit without a [USB-A to USB-C adapter](https://www.amazon.de/s?k=usb+a+to+usb+c+adapter&tag=diyrepair-21) ([US link](https://www.amazon.com/s?k=usb+a+to+usb+c+adapter&tag=diyrepair07-20))
+1. **You need a USB-C drive or adapter.** Your old USB-A flash drive won't fit without a [USB-A to USB-C adapter](https://www.amazon.de/s?k=usb+a+to+usb+c+adapter&tag=diyrepair-21) ([US link](https://www.amazon.com/dp/B07CVX3516?tag=diyrepair07-20))
 2. **USB-C SSD drives work natively.** The Samsung T7 comes with a USB-C cable — plug it directly in
 3. **Formatting is the same.** exFAT + MBR + TeslaCam folder — nothing changes there
 4. **Port identification matters more.** With all ports being USB-C, it's harder to tell data from power-only. Check the owner's manual for your specific variant
@@ -380,7 +380,7 @@ For Sentry Mode and Dashcam, an SSD is the only option that reliably lasts more 
 | **SanDisk Extreme Portable** | 500GB–1TB | Rugged, IP55 water resistant, great for all-weather | €55–90 |
 | **Samsung T7 Shield** | 1TB–2TB | Drop-proof, dust/water resistant IP65 — the tank option | €70–120 |
 
-🛒 **Shop SSDs:** [Amazon DE](https://www.amazon.de/s?k=portable+ssd+tesla+dashcam&tag=diyrepair-21) | [Amazon US](https://www.amazon.com/s?k=portable+ssd+tesla+dashcam&tag=diyrepair07-20)
+🛒 **Shop SSDs:** [Amazon DE](https://www.amazon.de/s?k=portable+ssd+tesla+dashcam&tag=diyrepair-21) | [Amazon US](https://www.amazon.com/dp/B0874XN4D8?tag=diyrepair07-20)
 
 ### Best Budget: High-Endurance USB Drive
 
@@ -392,7 +392,7 @@ Good for 1–3 years with Sentry Mode. Replace when it starts showing corruption
 | **Samsung Bar Plus** | 128–256GB | Metal body, good heat dissipation | €12–25 |
 | **Samsung Fit Plus** | 128–256GB | Ultra-compact, stays flush in port | €10–20 |
 
-🛒 **Shop USB Drives:** [Amazon DE](https://www.amazon.de/s?k=high+endurance+usb+drive+tesla&tag=diyrepair-21) | [Amazon US](https://www.amazon.com/s?k=high+endurance+usb+drive+tesla&tag=diyrepair07-20)
+🛒 **Shop USB Drives:** [Amazon DE](https://www.amazon.de/s?k=high+endurance+usb+drive+tesla&tag=diyrepair-21) | [Amazon US](https://www.amazon.com/dp/B07BPG9YX9?tag=diyrepair07-20)
 
 ### Best for Music + Sentry Combo
 
@@ -402,16 +402,16 @@ If you want one drive for everything:
 - Keep music files in a `/Music` folder at root level (separate from TeslaCam)
 - The car indexes both locations independently
 
-🛒 **Samsung T7 1TB:** [Amazon DE](https://www.amazon.de/s?k=samsung+t7+1tb&tag=diyrepair-21) | [Amazon US](https://www.amazon.com/s?k=samsung+t7+1tb&tag=diyrepair07-20)
+🛒 **Samsung T7 1TB:** [Amazon DE](https://www.amazon.de/s?k=samsung+t7+1tb&tag=diyrepair-21) | [Amazon US](https://www.amazon.com/dp/B0874XN4D8?tag=diyrepair07-20)
 
 ### Essential Accessories
 
 | Accessory | Why You Need It | Link |
 |-----------|----------------|------|
-| **USB-C to USB-A Adapter** | For older drives in Highland/Juniper | [DE](https://www.amazon.de/s?k=usb+c+to+usb+a+adapter&tag=diyrepair-21) · [US](https://www.amazon.com/s?k=usb+c+to+usb+a+adapter&tag=diyrepair07-20) |
-| **Short USB-C Cable** | Keeps SSD tidy in glovebox | [DE](https://www.amazon.de/s?k=short+usb+c+cable+15cm&tag=diyrepair-21) · [US](https://www.amazon.com/s?k=short+usb+c+cable+6+inch&tag=diyrepair07-20) |
-| **Velcro Strips** | Mount SSD inside glovebox so it doesn't rattle | [DE](https://www.amazon.de/s?k=velcro+strips+adhesive&tag=diyrepair-21) · [US](https://www.amazon.com/s?k=velcro+strips+adhesive&tag=diyrepair07-20) |
-| **USB Drive Tester** | Verify drive health before it fails | [DE](https://www.amazon.de/s?k=usb+drive+health+tester&tag=diyrepair-21) · [US](https://www.amazon.com/s?k=usb+drive+speed+tester&tag=diyrepair07-20) |
+| **USB-C to USB-A Adapter** | For older drives in Highland/Juniper | [DE](https://www.amazon.de/s?k=usb+c+to+usb+a+adapter&tag=diyrepair-21) · [US](https://www.amazon.com/dp/B07CVX3516?tag=diyrepair07-20) |
+| **Short USB-C Cable** | Keeps SSD tidy in glovebox | [DE](https://www.amazon.de/s?k=short+usb+c+cable+15cm&tag=diyrepair-21) · [US](https://www.amazon.com/dp/B08RNCNVFN?tag=diyrepair07-20) |
+| **Velcro Strips** | Mount SSD inside glovebox so it doesn't rattle | [DE](https://www.amazon.de/s?k=velcro+strips+adhesive&tag=diyrepair-21) · [US](https://www.amazon.com/dp/B00006IC2T?tag=diyrepair07-20) |
+| **USB Drive Tester** | Verify drive health before it fails | [DE](https://www.amazon.de/s?k=usb+drive+health+tester&tag=diyrepair-21) · [US](https://www.amazon.com/dp/B07BPG9YX9?tag=diyrepair07-20) |
 
 ## USB Drive Health: When to Replace
 

@@ -19,9 +19,9 @@ faq:
     a: "Early Tesla Vision had some limitations vs radar, but software improvements have largely closed the gap. FSD on vision-only cars is now generally on par with or better than radar-equipped models."
 tools:
   - name: "Tesla Dashcam USB Drive"
-    link: "https://www.amazon.com/s?k=tesla+dashcam+USB+drive+endurance&tag=diyrepair07-20"
+    link: "https://www.amazon.com/dp/B07BPG9YX9?tag=diyrepair07-20"
   - name: "Camera Lens Cleaning Kit"
-    link: "https://www.amazon.com/s?k=camera+lens+cleaning+kit+microfiber&tag=diyrepair07-20"
+    link: "https://www.amazon.com/dp/B01FWNEUIM?tag=diyrepair07-20"
   - name: "Tesla Camera Cover Set"
     link: "https://www.amazon.de/s?k=tesla+camera+cover+privacy+set&tag=diyrepair-21"
 ---

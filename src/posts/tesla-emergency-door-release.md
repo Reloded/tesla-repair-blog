@@ -10,15 +10,15 @@ models: "All Models"
 emoji: "🚨"
 tools:
   - name: "Tesla Emergency Kit (First Aid + Safety)"
-    link: "https://www.amazon.com/s?k=tesla+emergency+kit+safety&tag=diyrepair07-20"
+    link: "https://www.amazon.com/dp/B07D7SLGX4?tag=diyrepair07-20"
   - name: "Trim Removal Tool Set"
     link: "https://www.amazon.de/s?k=car+trim+removal+tools&tag=diyrepair-21"
   - name: "Tesla Rear Door Manual Release Pull Strap (Retrofit)"
-    link: "https://www.amazon.com/s?k=tesla+rear+door+manual+release+pull+strap&tag=diyrepair07-20"
+    link: "https://www.amazon.com/dp/B09BFXJHS1?tag=diyrepair07-20"
   - name: "USB-C Car Charger (Keep Phone Charged)"
     link: "https://www.amazon.de/s?k=usb+c+car+charger+fast+charge&tag=diyrepair-21"
   - name: "Window Breaker & Seatbelt Cutter"
-    link: "https://www.amazon.com/s?k=car+window+breaker+seatbelt+cutter+emergency&tag=diyrepair07-20"
+    link: "https://www.amazon.com/dp/B00CXOIFQG?tag=diyrepair07-20"
 ---
 
 Every Tesla uses electronic door latches. That means the normal way you open the door — pressing a button or pulling an interior handle — relies on electrical power. In normal operation, this works perfectly. But if your Tesla's 12V battery dies, the car loses power after an accident, or there's an electrical fault, those electronic latches won't respond.

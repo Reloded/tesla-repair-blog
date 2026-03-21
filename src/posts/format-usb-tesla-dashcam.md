@@ -29,13 +29,13 @@ tools:
     link: "https://www.amazon.de/s?k=high+endurance+microsd+256gb+usb+reader&tag=diyrepair-21"
 amazonUs:
   - name: "Samsung Bar Plus 128GB"
-    link: "https://www.amazon.com/s?k=samsung+bar+plus+128gb&tag=diyrepair07-20"
+    link: "https://www.amazon.com/dp/B07BPG9YX9?tag=diyrepair07-20"
   - name: "SanDisk High Endurance 128GB"
-    link: "https://www.amazon.com/s?k=sandisk+high+endurance+128gb&tag=diyrepair07-20"
+    link: "https://www.amazon.com/dp/B07P3D6Y5B?tag=diyrepair07-20"
   - name: "Samsung T7 Portable SSD 500GB"
-    link: "https://www.amazon.com/s?k=samsung+t7+500gb+ssd&tag=diyrepair07-20"
+    link: "https://www.amazon.com/dp/B0874XN4D8?tag=diyrepair07-20"
   - name: "High Endurance microSD + USB Reader"
-    link: "https://www.amazon.com/s?k=high+endurance+microsd+256gb+usb+reader&tag=diyrepair07-20"
+    link: "https://www.amazon.com/dp/B07P14QHB7?tag=diyrepair07-20"
 ---
 
 **Quick answer:** Format your USB drive to **exFAT** and create a folder named **TeslaCam**. That's it — takes 30 seconds.
