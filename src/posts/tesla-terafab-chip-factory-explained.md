@@ -3,7 +3,7 @@ layout: post.njk
 title: "Tesla Terafab Explained: The $25 Billion AI Chip Factory That Could Change Everything"
 description: "What is Tesla's Terafab? Complete guide to Tesla's in-house 2nm chip fab — specs, AI5 chip, cleanroom innovation, timeline, risks, and what it means for Tesla owners. Updated for March 21 launch."
 date: 2026-03-17
-updated: 2026-03-20
+updated: 2026-03-21
 category: "Technology"
 difficulty: "Informational"
 readTime: "12 min read"
@@ -12,10 +12,10 @@ emoji: "🏭"
 faq:
   - q: "What is Tesla Terafab?"
     a: "Terafab is Tesla's in-house semiconductor fabrication facility designed to produce AI chips for Full Self-Driving, the Optimus robot, and the Cybercab robotaxi. It was announced by Elon Musk on March 14, 2026, with a launch date of March 21, 2026."
-  - q: "When does Tesla Terafab launch?"
-    a: "Tesla Terafab's launch event is scheduled for March 21, 2026. This likely marks the official project announcement and groundbreaking, not full chip production — volume production is expected in 2027."
+  - q: "When did Tesla Terafab launch?"
+    a: "Tesla Terafab officially launched on March 21, 2026. The project marks the beginning of Tesla's in-house chip manufacturing ambitions, with AI5 chip production already underway at TSMC and Samsung while Terafab construction proceeds."
   - q: "What chips will Terafab produce?"
-    a: "Terafab will produce Tesla's AI5 chip — the fifth-generation proprietary silicon designed for autonomous driving, robotics, and AI training. It targets the 2nm process node, matching the most advanced chipmakers in the world."
+    a: "Terafab will produce Tesla's AI5 and future-generation chips. The AI5 delivers a confirmed 50x total improvement over AI4 — including 10x raw compute, 9x memory capacity, and 5x improvement in quantization and softmax operations."
   - q: "Why is Tesla building its own chip factory?"
     a: "Tesla needs massive quantities of specialized AI chips for FSD, Cybercab, and Optimus. Relying on external suppliers like TSMC creates supply chain risk, higher costs, and design compromises. Building in-house gives Tesla full control over its AI hardware."
   - q: "Will Terafab affect Tesla vehicle prices?"
@@ -29,31 +29,33 @@ tools:
     link: "https://www.amazon.com/s?k=tesla+model+3+Y+screen+protector+matte&tag=diyrepair07-20"
 ---
 
-> **🔴 LIVE UPDATE — March 21, 2026:** This article will be updated during and after the Terafab launch event. Bookmark this page and check back for the latest announcements.
+> **🟢 LAUNCHED — March 21, 2026:** Tesla's Terafab project is officially live. This article has been updated with confirmed AI5 chip specs, the $16.5 billion Samsung deal, Austin facility details, and analyst reactions. Last updated: March 21, 2026.
 
-Tesla is about to do something no automaker has ever attempted: build its own cutting-edge semiconductor fabrication facility.
+Tesla has done something no automaker has ever attempted: officially launched its own cutting-edge semiconductor fabrication project.
 
-On March 14, 2026, Elon Musk posted seven words on X that sent shockwaves through the semiconductor industry: **"Terafab Project launches in 7 days."**
+On March 21, 2026, Tesla's Terafab chip manufacturing project went live, as confirmed by Tesla reporter Sawyer Merritt on X. The project is a direct response to a chip supply problem Elon Musk has stated openly: **even combining the best-case output of every current supplier, it won't be enough.**
 
-That date — **March 21, 2026** — marks the official launch of Tesla's most ambitious vertical integration move yet. If it works, Tesla won't just make cars and robots. It'll make the brains that power them.
+One week earlier, on March 14, Musk posted seven words that sent shockwaves through the semiconductor industry: **"Terafab Project launches in 7 days."** Today is that day — and Tesla's most ambitious vertical integration move is now officially underway.
 
 <div class="info-box">
 <strong>Quick Summary:</strong> Terafab is Tesla's planned in-house chip factory targeting 2nm process technology. It will produce custom AI chips for Full Self-Driving, Cybercab robotaxis, and Optimus robots. Estimated cost: $20–25 billion. Initial capacity: 100,000 wafer starts per month, scaling to 1 million.
 </div>
 
-## What to Expect: March 21 Launch Event
+## March 21 Launch: What Was Confirmed
 
-Tomorrow is the day. Here's what we know heading into the Terafab launch event:
+The Terafab project officially launched on March 21, 2026. Here's what we now know:
 
-- **Date & Location:** March 21, 2026, in Austin, Texas
-- **The Announcement:** Elon Musk posted on X on March 14, 2026 — exactly 7 days before the event — with: *"Terafab Project launches in 7 days."*
-- **Expected Reveals:** Location details for the facility, AI5 chip specifications, construction timeline, and a potential Intel partnership for manufacturing collaboration
-- **Investment Scale:** Forbes estimates the project at approximately **$25 billion** — one of the largest semiconductor investments in history
-- **AI5 Production Timeline:** The AI5 chip is expected to begin small-quantity production in 2026, with volume production ramping in 2027
-- **The Terafab Concept:** Unlike traditional chip fabs, Terafab combines logic processing, memory fabrication, and advanced packaging under one roof — a fully integrated semiconductor facility
+- **It's live.** The project is no longer a concept — Tesla has begun hiring semiconductor infrastructure managers and construction personnel for the facility
+- **Location:** Austin, Texas — a job posting for a "Technical Program Manager — Infrastructure, Semiconductor" is based near Tesla's existing Giga Texas campus
+- **AI5 chip specs confirmed:** 50x total improvement over AI4 — broken down as 10x raw compute, 9x memory capacity, and 5x improvement in hardened block quantization and softmax (per a slide shared by Sawyer Merritt on X)
+- **Samsung deal signed:** Tesla has secured a **$16.5 billion deal with Samsung** to manufacture AI6 chips at Samsung's Taylor, Texas fab through 2033 — giving Tesla a second major foundry partnership alongside TSMC
+- **Three-leg supply chain:** AI5 is currently manufactured by TSMC (Taiwan, transitioning to Arizona). Samsung handles AI6 production. Terafab will eventually be the third leg — one Tesla owns outright
+- **Investment Scale:** Forbes confirms approximately **$25 billion** — one of the largest semiconductor investments in history
+- **Capital expenditure:** Tesla's total 2026 capex exceeds **$20 billion**, with a substantial portion allocated to Terafab
+- **Supply constraint is real:** Musk stated plainly: *"In order to remove the probable constraint in 3–4 years, we'll have to build a very big fab, domestically. I know fabs are hard, but we do a lot of hard things."*
 
-<div class="info-box">
-<strong>📡 Live Coverage:</strong> This section will be updated LIVE during and after the March 21 event with confirmed announcements, specs, and partnership details. Check back throughout the day for updates.
+<div class="warning-box">
+<strong>Analyst Take:</strong> "It's Musk, so I would never count it out. But I suspect this is actually harder than sending rockets to Mars." — Stacy Rasgon, managing director and senior semiconductor analyst at Bernstein, speaking to Business Insider.
 </div>
 
 ## What Is Terafab?
@@ -107,19 +109,28 @@ Based on reporting from Tom's Hardware, Reuters, Forbes, and multiple industry s
 | **Primary Chips** | Tesla AI5, AI6, and future generations |
 | **Location** | Giga Texas North Campus (strongly indicated by drone footage, not officially confirmed) |
 | **Launch Date** | March 21, 2026 (project announcement/groundbreaking) |
-| **Partnerships** | Intel discussions mentioned but no deal signed (Reuters) |
+| **Samsung Deal** | $16.5 billion for AI6 production at Taylor, Texas through 2033 |
+| **TSMC** | Current AI5 manufacturer (Taiwan → Arizona transition) |
+| **Intel** | Discussions mentioned but no deal signed (Reuters) |
 | **External Sales** | None planned — exclusively for Tesla's internal use |
 
 For context, 1 million wafer starts per month would represent roughly 70% of TSMC's entire current output — from a single facility. That's the scale Tesla is targeting.
 
-## The AI5 Chip
+## The AI5 Chip — Confirmed Specs
 
-Before Terafab produces its first chip, Tesla's next-generation processor is already in development: the **AI5 chip**.
+Tesla's AI5 chip is no longer just in development — its specifications have been publicly shared. Here's what's confirmed as of March 21, 2026:
 
-- **Performance:** 40–50x more compute and 9x more memory vs. the current AI4/HW4, projected to match Nvidia's H100 performance while consuming only **150W** (vs. H100's 700W) — a ~4.7x efficiency advantage
-- **Manufacturing:** Being produced by both TSMC and Samsung in different versions, engineered for identical software performance
+- **50x total improvement** over AI4 — this is a combined, best-case workload benchmark that compounds gains across compute, memory, and specialized operations
+- **10x raw compute increase** over AI4
+- **9x memory capacity** over AI4
+- **5x improvement in hardened block quantization and softmax** — critical operations for neural network inference
+- **Power efficiency:** Projected to match Nvidia's H100 performance while consuming only **150W** (vs. H100's 700W) — a ~4.7x efficiency advantage
+- **Manufacturing:** Currently produced by **TSMC** (Taiwan, transitioning to TSMC Arizona). Tesla has also signed a **$16.5 billion deal with Samsung** to produce AI6 chips at Samsung's Taylor, Texas fab through 2033
 - **Timeline:** Small-batch production in 2026, volume production in 2027
-- **Samsung's Texas fab** is reportedly beginning critical equipment testing now, with AI5 mass production targeting H2 2026
+
+<div class="warning-box">
+<strong>A note on the "50x" claim:</strong> The 50x total improvement figure almost certainly reflects a combined, best-case AI inference scenario rather than a uniform 50x across every task. Raw compute is up 10x. Memory is up 9x. The 50x compounds these gains in specific workloads — which is standard chip marketing math. Real-world FSD inference throughput will become clearer once independent benchmarks emerge.
+</div>
 
 The strategy is clear: **AI5 bridges the gap** while Terafab is built. Once operational, Terafab will produce **AI6 and beyond** entirely in-house.
 
@@ -156,19 +167,13 @@ Musk has made the point colorfully, claiming you could **"eat a cheeseburger and
 <strong>Why This Matters:</strong> If Tesla's cleanroom-free approach works at 2nm scale, it could dramatically reduce the cost and time to build chip fabs. This would let Tesla replicate the Terafab model across multiple sites quickly — something traditional fabs can't do.
 </div>
 
-## What Does "Launch" Mean on March 21?
+## What "Launch" Actually Means
 
-Let's be clear about expectations. When Musk posted "Terafab Project launches in 7 days," that almost certainly does **not** mean a fully operational chip fab opens its doors.
+To be clear: the March 21 launch does **not** mean a fully operational chip fab opened its doors. Semiconductor fabs of this scale take **years** to build, equip, and commission.
 
-Semiconductor fabs of this scale take **years** to build, equip, and commission. What "launch" more likely signals:
+What launched on March 21 is the **project itself** — the formal commitment, the hiring push, and the public reveal of Tesla's chip supply strategy. Tesla is now actively recruiting semiconductor construction and infrastructure managers, and the facility's location near Giga Texas in Austin is strongly indicated.
 
-- A formal project announcement with location and timeline details
-- A groundbreaking ceremony at the construction site
-- A public reveal of the facility design and specifications
-- Possible partnership announcements (Intel has been mentioned as a potential collaborator)
-- The start of Phase 1 construction
-
-The realistic timeline looks something like this:
+Here's the realistic timeline:
 
 | Milestone | Expected Date |
 |---|---|
@@ -178,13 +183,13 @@ The realistic timeline looks something like this:
 | Terafab Phase 1 operational | 2028–2029 (estimated) |
 | Full-scale production | 2029–2030 (estimated) |
 
-### What to Watch For on March 21
+### What to Watch For Next
 
-These are the key details that will separate hype from substance:
+The March 21 launch confirmed the project is real and underway. Here's what remains to be revealed:
 
-- **Confirmed location announcement** — is it Giga Texas North Campus or somewhere else?
-- **Intel or Samsung partnership details** — any manufacturing collaboration?
-- **AI5/AI6 chip specs and demos** — concrete performance numbers?
+- **Exact facility site** — is it Giga Texas North Campus or a separate parcel?
+- **Intel partnership status** — Intel discussions were mentioned by Reuters, but no deal has been signed
+- **ASML equipment orders** — procurement of extreme ultraviolet lithography machines is critical and has year-long waitlists
 - **Construction timeline and Phase 1 targets** — when does the first chip roll off the line?
 - **Funding structure details** — how is the $20–25B being financed?
 
@@ -266,17 +271,20 @@ The March 21 launch event will provide the first concrete details on location, p
 Whether you're a Tesla owner, investor, or just following the EV industry, this is one to watch closely. The next chapter of Tesla's story might not be about cars at all — it might be about chips.
 
 <div class="info-box">
-<strong>We'll update this article</strong> as new details emerge from the March 21 launch event. Bookmark this page and check back for the latest confirmed information.
+<strong>This article was updated on March 21, 2026</strong> following the official Terafab launch. We'll continue to update as construction milestones, partnership details, and AI5 independent benchmarks emerge. Bookmark this page for ongoing coverage.
 </div>
 
 ## Sources
 
+- [EVXL: Tesla Terafab Project Goes Live](https://evxl.co/2026/03/20/tesla-terafab-ai5-chip-manufacturing-launch/) — March 21, 2026
+- [Business Insider: Why Tesla's Terafab might be Musk's biggest challenge](https://www.businessinsider.com/tesla-terafab-chip-factory-launch-elon-musk-biggest-challenge-2026-3) — March 20, 2026
 - [Tom's Hardware: Elon Musk's Terafab Project Launch](https://www.tomshardware.com/tech-industry/semiconductors/elon-musk-says-his-terafab-project-chipmaking-venture-will-launch-in-seven-days-musks-latest-moonshot-multi-billion-project-launches-on-a-saturday)
 - [Reuters: Musk says Tesla's mega AI chip fab project to launch in seven days](https://www.reuters.com/business/autos-transportation/musk-says-teslas-mega-ai-chip-fab-project-launch-seven-days-2026-03-14/)
-- [Forbes: Tesla Terafab cost estimates](https://www.forbes.com/sites/technology/)
-- [ilovetesla.com: AI5 chip performance details](https://ilovetesla.com)
+- [Forbes Argentina: Tesla Terafab $25 billion project](https://www.forbesargentina.com/negocios/tesla-lanza-terafab-su-megaproyecto-construir-una-fabrica-chips-us-25000-millones-n87974) — March 20, 2026
+- [Drive Tesla Canada: Tesla hiring for Terafab](https://driveteslacanada.ca/news/tesla-takes-initial-hiring-steps-for-terafab-chip-project/) — March 20, 2026
 - [Elon Musk on X: "Terafab Project launches in 7 days"](https://x.com/elonmusk/status/2032814398033768737)
+- Sawyer Merritt on X: AI5 chip specs slide — March 21, 2026
+- Stacy Rasgon, Bernstein analyst, via Business Insider — March 20, 2026
 - Tesla Q4 2025 Earnings Call, January 28, 2026
 - Tesla Annual Shareholder Meeting, November 6, 2025
 - Peter Diamandis podcast interview with Elon Musk, January 2026
-- BASENOR, Teslarati, NotATeslaApp reporting (March 2026)
