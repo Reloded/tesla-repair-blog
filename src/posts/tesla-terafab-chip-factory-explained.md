@@ -47,7 +47,7 @@ The Terafab project officially launched on March 21, 2026. Here's what we now kn
 
 - **It's live.** The project is no longer a concept — Tesla has posted **7 new Terafab job listings** as of launch day, per Sawyer Merritt on X
 - **Key roles being hired:** Sr. Counsel (Infrastructure & CapEx), Process Integration Engineer, Module Process Engineer, Silicon Module Process Engineer, Sr. Counsel (Supply Chain) — these are hands-on fab construction and process development roles
-- **Locations:** Both **Palo Alto, California** (engineering HQ) and **Austin, Texas** (near Giga Texas) — per The Tesla Newswire
+- **Locations:** Both **Palo Alto, California** and **Austin, Texas** — per The Tesla Newswire. Tesla Yoda on X noted the dual-city hiring may signal **two parallel foundry lines** targeting different transistor architectures: TSMC's FinFET process and Samsung's GAA (Gate-All-Around) technology, both at the 3nm node. Job descriptions specifically call for "proven silicon process expertise in optimizing a specific module process for advanced technology nodes (FinFET and GAA technology)"
 - **AI5 chip specs confirmed:** 50x total improvement over AI4 — broken down as 10x raw compute, 9x memory capacity, and 5x improvement in hardened block quantization and softmax (per a slide shared by Sawyer Merritt on X)
 - **Samsung deal signed:** Tesla has secured a **$16.5 billion deal with Samsung** to manufacture AI6 chips at Samsung's Taylor, Texas fab through 2033 — giving Tesla a second major foundry partnership alongside TSMC
 - **Three-leg supply chain:** AI5 is currently manufactured by TSMC (Taiwan, transitioning to Arizona). Samsung handles AI6 production. Terafab will eventually be the third leg — one Tesla owns outright
@@ -286,6 +286,7 @@ Whether you're a Tesla owner, investor, or just following the EV industry, this 
 - [Elon Musk on X: "Terafab Project launches in 7 days"](https://x.com/elonmusk/status/2032814398033768737)
 - [Sawyer Merritt on X: 7 new Terafab job listings + AI5 chip specs](https://x.com/SawyerMerritt/status/2035236827393638802) — March 21, 2026
 - [The Tesla Newswire on X: Hiring in Palo Alto and Austin](https://x.com/TeslaNewswire/status/2035254982295826439) — March 21, 2026
+- [Tesla Yoda on X: Two parallel foundry lines, FinFET + GAA](https://x.com/teslayoda/status/2035369656501047784) — March 21, 2026
 - Stacy Rasgon, Bernstein analyst, via Business Insider — March 20, 2026
 - Tesla Q4 2025 Earnings Call, January 28, 2026
 - Tesla Annual Shareholder Meeting, November 6, 2025
