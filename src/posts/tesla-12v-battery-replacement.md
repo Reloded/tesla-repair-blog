@@ -52,7 +52,7 @@ This guide focuses on the 12V batteries. If you have a 2024+ vehicle with a 16V 
 Before diving into the replacement process, here's how to know if your 12V battery is failing:
 
 - **"12V Battery Low" warning** on your touchscreen (if your [screen went black](/posts/tesla-screen-black-fix/) before the warning, the battery may already be dead)
-- Car won't wake up or respond to the app
+- Car [won't wake up or respond](/posts/tesla-wont-start-turn-on/) to the app
 - [Doors won't open](/posts/tesla-door-handle-not-working/) with the key card or phone key
 - Random system reboots while driving
 - Clicking sound when trying to start
@@ -171,7 +171,7 @@ Once the new battery is installed:
 
 - **Lead-Acid batteries:** 3-5 years typically
 - **Lithium batteries:** 7-10+ years expected
-- Frequent Sentry Mode use drains the 12V battery faster
+- Frequent Sentry Mode use drains the 12V battery faster — see our guide on [phantom battery drain](/posts/tesla-phantom-battery-drain-fix/) for tips to minimize drain
 - Extreme temperatures reduce lifespan
 
 ## Common Mistakes to Avoid
@@ -194,7 +194,7 @@ By doing this repair yourself, you save at least $100-200 compared to Tesla serv
 
 ---
 
-*Have questions about this repair? The process is straightforward, but every car is slightly different. Always consult your owner's manual for model-specific details.*
+*Have questions about this repair? The process is straightforward, but every car is slightly different. Always consult your owner's manual for model-specific details. For a full list of when to replace what, check our [Tesla maintenance schedule](/posts/tesla-maintenance-schedule/).*
 
 ## Official References
 

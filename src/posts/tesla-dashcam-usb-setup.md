@@ -416,3 +416,4 @@ A €15 no-name USB drive will fail within months. Spend €40-60 on a high-endu
 - [USB Not Working](/posts/tesla-usb-not-working/) - General USB troubleshooting
 - [How to Format USB for Tesla Dashcam](/posts/format-usb-tesla-dashcam/) - Quick 30-second formatting guide
 - [Screen Black Fix](/posts/tesla-screen-black-fix/) - If screen issues affect dashcam
+- [Tesla New Owner Guide](/posts/tesla-new-owner-guide/) - Setting up dashcam is just one of many first-week essentials

@@ -282,3 +282,7 @@ Most "Tesla won't start" situations are solved by either **jumping/replacing the
 - [How to Install Tesla Ambient Interior Lighting (Model 3/Y)](/posts/tesla-ambient-lighting-install/) — Medium · Model 3, Model Y · Interior
 - [Tesla Battery Degradation: How to Check Health & Maximize Lifespan](/posts/tesla-battery-degradation-health/) — Easy · Battery
 - [Tesla Pyrofuse Explained: What It Does, When It Blows & What to Do](/posts/tesla-pyrofuse-guide/) — Advanced · Electrical
+- [Tesla Emergency Door Release: How to Get Out When Power Fails](/posts/tesla-emergency-door-release/) — Know this before you need it
+- [Tesla Charge Port Stuck? How to Open It](/posts/tesla-charge-port-stuck/) — Stuck charge port can prevent charging a dead car
+- [Tesla Phantom Battery Drain Fix](/posts/tesla-phantom-battery-drain-fix/) — Prevent the 12V drain that causes "won't start"
+- [Tesla Recall Check Guide](/posts/tesla-recall-check-guide/) — Some recalls address power loss and safety issues

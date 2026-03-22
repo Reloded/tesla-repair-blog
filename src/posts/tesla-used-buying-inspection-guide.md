@@ -318,3 +318,8 @@ A well-maintained used Tesla is one of the best car purchases you can make — l
 - [Tesla Dent Repair: PDR, DIY Methods & Cost Guide](/posts/tesla-dent-repair-pdr-guide/) — Medium · Exterior
 - [Tesla Door Handle Not Working? DIY Fix (Save $500+)](/posts/tesla-door-handle-not-working/) — Intermediate · Body & Exterior
 - [Tesla Falcon Wing Door Problems: DIY Fixes](/posts/tesla-falcon-wing-door-fix/) — Medium · Model X · Body
+- [Tesla OBD2 Scanner & Diagnostics Guide](/posts/tesla-obd2-scanner-diagnostics/) — Essential tool for pre-purchase battery health checks
+- [Tesla Battery Degradation & Health Guide](/posts/tesla-battery-degradation-health/) — What's normal degradation vs a problem
+- [Tesla Recall Check Guide](/posts/tesla-recall-check-guide/) — How to verify all recalls are completed before buying
+- [Tesla Maintenance Schedule](/posts/tesla-maintenance-schedule/) — Know what service history to look for
+- [Tesla Tire Pressure Guide](/posts/tesla-tire-pressure-guide/) — Check tire condition as part of your inspection
