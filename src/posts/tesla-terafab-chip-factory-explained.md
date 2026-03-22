@@ -1,9 +1,9 @@
 ---
 layout: post.njk
 title: "Tesla Terafab Explained: The $25 Billion AI Chip Factory That Could Change Everything"
-description: "What is Tesla's Terafab? Complete guide to Tesla's in-house 2nm chip fab — specs, AI5 chip, cleanroom innovation, timeline, risks, and what it means for Tesla owners. Updated for March 21 launch."
+description: "What is Tesla's Terafab? Complete guide to Tesla's $20B joint venture with SpaceX and xAI — AI5 chip specs, D3 space chip, mini AI satellites, cleanroom innovation, and what it means for Tesla owners. Updated with full March 21 event recap."
 date: 2026-03-17
-updated: 2026-03-21
+updated: 2026-03-22
 category: "Technology"
 difficulty: "Informational"
 readTime: "12 min read"
@@ -11,11 +11,11 @@ models: "All Models"
 emoji: "🏭"
 faq:
   - q: "What is Tesla Terafab?"
-    a: "Terafab is Tesla's in-house semiconductor fabrication facility designed to produce AI chips for Full Self-Driving, the Optimus robot, and the Cybercab robotaxi. It was announced by Elon Musk on March 14, 2026, with a launch date of March 21, 2026."
+    a: "Terafab is a joint venture between Tesla, SpaceX, and xAI to build an in-house semiconductor fabrication facility. Unveiled by Elon Musk at the Seaholm Power Plant in Austin on March 21, 2026, it will produce AI chips for Full Self-Driving, Optimus robots, Cybercab robotaxis, and space-based AI satellites."
   - q: "When did Tesla Terafab launch?"
-    a: "Tesla Terafab officially launched on March 21, 2026. The project marks the beginning of Tesla's in-house chip manufacturing ambitions, with AI5 chip production already underway at TSMC and Samsung while Terafab construction proceeds."
+    a: "Tesla Terafab officially launched on March 21, 2026, at a live event at the Seaholm Power Plant in Austin, Texas. Musk called it 'the most epic chip building exercise in history' and revealed it as a joint venture between Tesla, SpaceX, and xAI."
   - q: "What chips will Terafab produce?"
-    a: "Terafab will produce Tesla's AI5 and future-generation chips. The AI5 delivers a confirmed 50x total improvement over AI4 — including 10x raw compute, 9x memory capacity, and 5x improvement in quantization and softmax operations."
+    a: "Terafab will produce two types of chips: one optimized for Optimus robots and Tesla vehicles (FSD inference), and a second chip called D3, designed specifically for space environments to power solar-powered AI satellites in low Earth orbit."
   - q: "Why is Tesla building its own chip factory?"
     a: "Tesla needs massive quantities of specialized AI chips for FSD, Cybercab, and Optimus. Relying on external suppliers like TSMC creates supply chain risk, higher costs, and design compromises. Building in-house gives Tesla full control over its AI hardware."
   - q: "Will Terafab affect Tesla vehicle prices?"
@@ -29,48 +29,84 @@ tools:
     link: "https://www.amazon.com/s?k=tesla+model+3+Y+screen+protector+matte&tag=diyrepair07-20"
 ---
 
-> **🟢 LAUNCHED — March 21, 2026:** Tesla's Terafab project is officially live. This article has been updated with confirmed AI5 chip specs, the $16.5 billion Samsung deal, Austin facility details, and analyst reactions. Last updated: March 21, 2026.
+> **🟢 FULL EVENT RECAP — March 22, 2026:** Elon Musk took the stage at Austin's Seaholm Power Plant on March 21 to unveil Terafab as a **joint venture between Tesla, SpaceX, and xAI**. Two chip types revealed: one for Optimus/vehicles, one for space (D3). Mini AI satellites, lunar industrial base, and a "galactic civilization" vision. This article includes all confirmed details from the live event, AI5 specs, the Samsung deal, and analyst reactions.
 
-Tesla has done something no automaker has ever attempted: officially launched its own cutting-edge semiconductor fabrication project.
+Tesla has done something no automaker — or any company — has ever attempted: officially launched its own cutting-edge semiconductor fabrication project as a cross-company venture spanning cars, rockets, and artificial intelligence.
 
-On March 21, 2026, Tesla's Terafab chip manufacturing project went live, as confirmed by Tesla reporter Sawyer Merritt on X. The project is a direct response to a chip supply problem Elon Musk has stated openly: **even combining the best-case output of every current supplier, it won't be enough.**
+On the evening of March 21, 2026, Elon Musk walked onto the stage of the defunct Seaholm Power Plant in downtown Austin and declared: **"We're starting a galactic civilization."** What followed was the formal unveiling of the Terafab Project — a massive joint venture between Tesla, SpaceX, and xAI (which SpaceX acquired in February 2026) to build what Musk called "the most epic chip building exercise in history by far."
 
-One week earlier, on March 14, Musk posted seven words that sent shockwaves through the semiconductor industry: **"Terafab Project launches in 7 days."** Today is that day — and Tesla's most ambitious vertical integration move is now officially underway.
+One week earlier, on March 14, Musk posted seven words that sent shockwaves through the semiconductor industry: **"Terafab Project launches in 7 days."** The March 21 event delivered far more than anyone expected — not just a chip factory announcement, but a vision for space-based AI compute, solar-powered satellites, and an economy "a million times the size of Earth's current output."
 
 <div class="info-box">
 <strong>Quick Summary:</strong> Terafab is Tesla's planned in-house chip factory targeting 2nm process technology. It will produce custom AI chips for Full Self-Driving, Cybercab robotaxis, and Optimus robots. Estimated cost: $20–25 billion. Initial capacity: 100,000 wafer starts per month, scaling to 1 million.
 </div>
 
-## March 21 Launch: What Was Confirmed
+## March 21 Event: Everything Musk Revealed
 
-The Terafab project officially launched on March 21, 2026. Here's what we now know:
+Musk took the stage at approximately 8 PM Central Time at the historic Seaholm Power Plant in downtown Austin. Here's everything that was confirmed during the live presentation:
 
-- **It's live.** The project is no longer a concept — Tesla has posted **7 new Terafab job listings** as of launch day, per Sawyer Merritt on X
-- **Key roles being hired:** Sr. Counsel (Infrastructure & CapEx), Process Integration Engineer, Module Process Engineer, Silicon Module Process Engineer, Sr. Counsel (Supply Chain) — these are hands-on fab construction and process development roles
-- **Locations:** Both **Palo Alto, California** and **Austin, Texas** — per The Tesla Newswire. Tesla Yoda on X noted the dual-city hiring may signal **two parallel foundry lines** targeting different transistor architectures: TSMC's FinFET process and Samsung's GAA (Gate-All-Around) technology, both at the 3nm node. Job descriptions specifically call for "proven silicon process expertise in optimizing a specific module process for advanced technology nodes (FinFET and GAA technology)"
-- **AI5 chip specs confirmed:** 50x total improvement over AI4 — broken down as 10x raw compute, 9x memory capacity, and 5x improvement in hardened block quantization and softmax (per a slide shared by Sawyer Merritt on X)
-- **Samsung deal signed:** Tesla has secured a **$16.5 billion deal with Samsung** to manufacture AI6 chips at Samsung's Taylor, Texas fab through 2033 — giving Tesla a second major foundry partnership alongside TSMC
-- **Three-leg supply chain:** AI5 is currently manufactured by TSMC (Taiwan, transitioning to Arizona). Samsung handles AI6 production. Terafab will eventually be the third leg — one Tesla owns outright
-- **Investment Scale:** Forbes confirms approximately **$25 billion** — one of the largest semiconductor investments in history
-- **Capital expenditure:** Tesla's total 2026 capex exceeds **$20 billion**, with a substantial portion allocated to Terafab
-- **Supply constraint is real:** Musk stated plainly: *"In order to remove the probable constraint in 3–4 years, we'll have to build a very big fab, domestically. I know fabs are hard, but we do a lot of hard things."*
+### Joint Venture: Tesla + SpaceX + xAI
+
+The biggest surprise: Terafab is **not just a Tesla project.** It's a joint venture between Tesla, SpaceX, and xAI (which SpaceX acquired in February 2026). This means the fab will serve the compute needs of all three companies — autonomous vehicles, orbital infrastructure, and AI training.
+
+### Two Types of Chips
+
+Musk revealed the Terafab will produce **two distinct chip lines:**
+
+1. **Optimus/Vehicle chip** — optimized for Tesla's autonomous vehicles and humanoid robots. Musk said this chip will "especially" serve Optimus because he expects robot unit volumes to be **10 to 100 times** greater than car volumes
+2. **D3 chip** — a new chip "designed for space," built to power solar-powered AI satellites in low Earth orbit. This is the first public mention of a Tesla/SpaceX space-optimized processor
+
+### All-in-One Fab: Logic, Memory, Packaging, Testing
+
+Musk described Terafab as a "comprehensive plant" housing **every stage of semiconductor production** under one roof — logic, memory, advanced packaging, testing, and mask revision. He claimed this capability "doesn't exist anywhere in the world" in a single facility, allowing a continuous loop of testing and revising masks without shipping wafers between locations.
+
+### Mini AI Satellites
+
+Musk revealed a **concept design for mini AI satellites**, each equipped with solar panels delivering 100 KW of power capacity. He predicted future satellites would reach the megawatt range. The argument: space-based AI compute will eventually cost **less than terrestrial AI** because "space is always sunny" — unlimited solar power with no land use disputes.
+
+*"No one wants AI computing centers in their backyard,"* Musk said. *"So as soon as the cost to orbit drops to a low number, it immediately makes extremely compelling sense to put AI in space."*
+
+### The "Galactic Civilization" Vision
+
+Musk framed Terafab not as a chip factory but as the foundation of a **post-scarcity galactic economy:**
+
+- **100 million tons** of solar capture equipment needs to be launched into space annually
+- This requires launching **millions of tons of mass into orbit** for solar-powered AI satellites
+- Optimus alone will need **100-200 GW of chips**; satellite arrays will need **terawatts**
+- A future **lunar industrial base** could enable petawatts of AI compute (1,000x more than a terawatt)
+- The end state: an economy "a million times the size of Earth's current output" where *"if you can think of it, you can have it"*
+
+Musk acknowledged the pitch sounded outlandish, joking it looked "a bit like the opening of Idiocracy with Mike Judge."
+
+### Previously Confirmed Details
+
+From pre-event reporting and the launch-day hiring push:
+
+- **7 new Terafab job listings** posted launch day (per Sawyer Merritt on X) — Sr. Counsel, Process Integration Engineers, Module Process Engineers
+- **Locations:** Both **Palo Alto, California** and **Austin, Texas** — dual-city hiring may signal two parallel foundry lines targeting FinFET and GAA architectures
+- **AI5 chip specs:** 50x total improvement over AI4 — 10x raw compute, 9x memory capacity, 5x quantization/softmax improvement
+- **Samsung deal:** $16.5 billion for AI6 production at Samsung's Taylor, Texas fab through 2033
+- **Three-leg supply chain:** TSMC (AI5, Taiwan → Arizona), Samsung (AI6, Taylor TX), Terafab (Tesla-owned, future generations)
+- **Investment:** $20-25 billion (Forbes confirms high end)
+- **Target:** 1 terawatt of computing power annually from a single facility
 
 <div class="warning-box">
-<strong>Analyst Take:</strong> "It's Musk, so I would never count it out. But I suspect this is actually harder than sending rockets to Mars." — Stacy Rasgon, managing director and senior semiconductor analyst at Bernstein, speaking to Business Insider.
+<strong>Analyst Take:</strong> "It's Musk, so I would never count it out. But I suspect this is actually harder than sending rockets to Mars." — Stacy Rasgon, managing director and senior semiconductor analyst at Bernstein, speaking to Business Insider. Morgan Stanley's semiconductor analysts called building a chip fab from scratch "herculean."
 </div>
 
 ## What Is Terafab?
 
-Terafab is Tesla's proposed semiconductor fabrication facility — a chip foundry built from the ground up to produce the advanced AI processors that power Tesla's autonomous driving systems and robotics programs.
+Terafab is a joint venture between Tesla, SpaceX, and xAI — a chip foundry built from the ground up to produce the advanced AI processors that power autonomous vehicles, humanoid robots, and space-based AI infrastructure.
 
-The chips it produces will run:
+The chips it produces will serve:
 
 - **Full Self-Driving (FSD)** — the neural network teaching Teslas to drive themselves
-- **Optimus** — Tesla's humanoid robot, which needs low-latency, high-performance silicon
+- **Optimus** — Tesla's humanoid robot, expected at 10-100x the volume of cars, making it the largest chip consumer
 - **Cybercab** — the upcoming robotaxi that depends entirely on AI chips for autonomous operation
-- **xAI / Grok** — Musk's AI company, which needs massive compute for training large language models
+- **D3 space chip** — a new processor designed specifically for solar-powered AI satellites in low Earth orbit
+- **xAI / Grok** — Musk's AI company (acquired by SpaceX in February 2026), which needs massive compute for training large language models
 
-The name follows Tesla's naming convention: Gigafactory handles batteries and vehicles at the "giga" scale. **Terafab handles chips at the "tera" scale** — as in trillions of operations, trillions of transistors, hundreds of billions of chips per year.
+The name follows Tesla's naming convention: Gigafactory handles batteries and vehicles at the "giga" scale. **Terafab handles chips at the "tera" scale** — targeting 1 terawatt of computing power annually from a single facility.
 
 ## Why Is Tesla Building Its Own Chip Factory?
 
@@ -108,8 +144,10 @@ Based on reporting from Tom's Hardware, Reuters, Forbes, and multiple industry s
 | **Annual Chip Output** | 100–200 billion custom AI chips |
 | **Estimated Cost** | $20–25 billion (Forbes confirms high end) |
 | **Primary Chips** | Tesla AI5, AI6, and future generations |
-| **Location** | Giga Texas North Campus (strongly indicated by drone footage, not officially confirmed) |
-| **Launch Date** | March 21, 2026 (project announcement/groundbreaking) |
+| **Joint Venture** | Tesla + SpaceX + xAI |
+| **Chip Types** | Optimus/Vehicle chip + D3 space chip |
+| **Location** | Austin, Texas (confirmed at event; Palo Alto also hiring) |
+| **Launch Date** | March 21, 2026 (unveiled at Seaholm Power Plant, Austin) |
 | **Samsung Deal** | $16.5 billion for AI6 production at Taylor, Texas through 2033 |
 | **TSMC** | Current AI5 manufacturer (Taiwan → Arizona transition) |
 | **Intel** | Discussions mentioned but no deal signed (Reuters) |
@@ -272,11 +310,14 @@ The March 21 launch event will provide the first concrete details on location, p
 Whether you're a Tesla owner, investor, or just following the EV industry, this is one to watch closely. The next chapter of Tesla's story might not be about cars at all — it might be about chips.
 
 <div class="info-box">
-<strong>This article was updated on March 21, 2026</strong> following the official Terafab launch. We'll continue to update as construction milestones, partnership details, and AI5 independent benchmarks emerge. Bookmark this page for ongoing coverage.
+<strong>This article was updated on March 22, 2026</strong> with full details from the March 21 Seaholm Power Plant event, including the Tesla/SpaceX/xAI joint venture, D3 space chip, mini AI satellites, and Musk's "galactic civilization" vision. We'll continue to update as construction milestones and AI5 independent benchmarks emerge. Bookmark this page for ongoing coverage.
 </div>
 
 ## Sources
 
+- [Business Insider: Elon Musk unveils moonshot Terafab — 4 takeaways](https://www.businessinsider.com/elon-musk-terafab-details-spacex-tesla-ai-satellites-terawatt-2026-3) — March 22, 2026
+- [TeslaNorth: Tesla and SpaceX unveil Terafab to build galactic AI infrastructure](https://teslanorth.com/2026/03/21/tesla-and-spacex-unveil-terafab-to-build-a-galactic-ai-infrastructure/) — March 21, 2026
+- [Austin Business Journal: Musk announces $20B Terafab chip plant for Austin](https://www.bizjournals.com/austin/news/2026/03/21/elon-musk-terafab-tesla-spacex-xai-austin.html) — March 21, 2026
 - [EVXL: Tesla Terafab Project Goes Live](https://evxl.co/2026/03/20/tesla-terafab-ai5-chip-manufacturing-launch/) — March 21, 2026
 - [Business Insider: Why Tesla's Terafab might be Musk's biggest challenge](https://www.businessinsider.com/tesla-terafab-chip-factory-launch-elon-musk-biggest-challenge-2026-3) — March 20, 2026
 - [Tom's Hardware: Elon Musk's Terafab Project Launch](https://www.tomshardware.com/tech-industry/semiconductors/elon-musk-says-his-terafab-project-chipmaking-venture-will-launch-in-seven-days-musks-latest-moonshot-multi-billion-project-launches-on-a-saturday)
