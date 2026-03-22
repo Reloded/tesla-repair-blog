@@ -19,22 +19,22 @@ faq:
   - q: "What's the best floor mat for the Model Y Juniper?"
     a: "The 3D Maxpider Kagu mats and Tesmanian all-weather mats are the most popular choices among Juniper owners. Both offer full coverage including under-seat areas. For budget options, Taptes and generic TPE mats from Amazon work well and don't have logos."
 tools:
-  - name: "All-Weather Floor Mats for Model Y Juniper"
-    link: "https://www.amazon.de/s?k=tesla+model+y+2025+2026+juniper+floor+mats&tag=diyrepair-21"
-  - name: "Screen Protector for Model Y 15.4-inch"
-    link: "https://www.amazon.de/s?k=tesla+model+y+juniper+screen+protector+15.4&tag=diyrepair-21"
-  - name: "Center Console Organizer for Juniper"
-    link: "https://www.amazon.de/s?k=tesla+model+y+juniper+center+console+organizer&tag=diyrepair-21"
-  - name: "Mud Flaps for Model Y 2025+"
-    link: "https://www.amazon.de/s?k=tesla+model+y+2025+2026+mud+flaps&tag=diyrepair-21"
-  - name: "USB Hub for Tesla Model Y"
-    link: "https://www.amazon.de/s?k=tesla+model+y+usb+hub+dashcam&tag=diyrepair-21"
-  - name: "Glass Roof Sunshade for Model Y Juniper"
-    link: "https://www.amazon.de/s?k=tesla+model+y+juniper+roof+sunshade&tag=diyrepair-21"
-  - name: "Trunk Sill Protector for Model Y"
-    link: "https://www.amazon.de/s?k=tesla+model+y+2025+trunk+sill+protector&tag=diyrepair-21"
-  - name: "Samsung T7 SSD for Tesla Dashcam"
-    link: "https://www.amazon.de/s?k=samsung+t7+500gb+ssd&tag=diyrepair-21"
+  - name: "3D MAXpider Kagu Floor Mats — Model Y Juniper Full Set"
+    link: "https://www.amazon.com/dp/B0F8PPNW49?tag=diyrepair07-20"
+  - name: "Spigen Matte Screen Protector — 15.4\" Touchscreen"
+    link: "https://www.amazon.com/dp/B0CHV4WP2C?tag=diyrepair07-20"
+  - name: "Spigen Center Console Organizer — Juniper/Highland"
+    link: "https://www.amazon.com/dp/B0CRZH3XFS?tag=diyrepair07-20"
+  - name: "Spigen Under-Screen Storage Organizer"
+    link: "https://www.amazon.com/dp/B0D7N5CB6X?tag=diyrepair07-20"
+  - name: "Spigen Rear Screen Protector — 8\" Matte"
+    link: "https://www.amazon.com/dp/B0DT3V1MTS?tag=diyrepair07-20"
+  - name: "Samsung T7 500GB SSD for Tesla Dashcam"
+    link: "https://www.amazon.com/dp/B0874XN4D8?tag=diyrepair07-20"
+  - name: "Mechanic's Stethoscope (for diagnosing rattles)"
+    link: "https://www.amazon.com/dp/B000EE5ORE?tag=diyrepair07-20"
+  - name: "Trim Removal Tool Kit"
+    link: "https://www.amazon.com/dp/B005NMCE04?tag=diyrepair07-20"
 ---
 
 The 2025+ Tesla Model Y Juniper is a major refresh — up to 50% of the parts are new compared to the pre-refresh Model Y. That means most old accessories **don't fit**. Different center console, reshaped doors, larger screen, new trunk design.
@@ -290,6 +290,7 @@ If you're picking up your Juniper soon, here's what to order now so it arrives b
 
 ## Related Guides
 
+- [Tesla Model Y Juniper Suspension Rattle: Causes, Fixes & Warranty Guide](/posts/tesla-model-y-juniper-suspension-rattle/)
 - [Tesla Model Y Juniper: Every Known Problem and How to Fix Them](/posts/tesla-model-y-juniper-2026-problems/)
 - [Tesla Model Y L Specs & Parts Guide](/posts/tesla-model-y-l-specs-parts-guide/)
 - [Tesla Dashcam USB Setup: Stop Losing Sentry Mode Footage](/posts/tesla-dashcam-usb-setup/)
