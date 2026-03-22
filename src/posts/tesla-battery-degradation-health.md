@@ -1,7 +1,7 @@
 ---
 layout: post.njk
 title: "Tesla Battery Degradation: What's Normal vs What's a Problem"
-description: "Lost 10% range already? Here's what real-world Tesla degradation looks like after 1-5 years, how to check your actual battery health, and when to worry."
+description: "Is your Tesla losing range too fast? Real owner data shows what's normal (hint: 5-10% in year 1 is fine). Free tools to check your actual battery health percentage — and the one number that means warranty claim."
 date: 2026-02-17
 updated: 2026-03-20
 category: "Battery"

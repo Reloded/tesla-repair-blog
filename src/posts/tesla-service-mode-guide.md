@@ -1,7 +1,7 @@
 ---
 layout: post.njk
 title: "Tesla Service Mode: The Hidden Menu Most Owners Miss (2026)"
-description: "Your Tesla has a secret diagnostics menu that technicians use — and you can access it in 10 seconds. Here's every feature inside and what's actually useful."
+description: "Access Tesla's hidden Service Mode in 10 seconds — the same diagnostics menu technicians use. See live sensor data, test cameras, check battery health, and run system tests. No OBD tool needed."
 date: 2026-02-26
 category: "Maintenance"
 difficulty: "Easy"

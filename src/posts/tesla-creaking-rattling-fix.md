@@ -1,7 +1,7 @@
 ---
 layout: post.njk
 title: "Tesla Creaking & Rattling: Find and Fix the Noise"
-description: "Find and fix Tesla creaking and rattling noises. Common locations, DIY solutions, and when trim clips or lubricant solves the problem."
+description: "That annoying Tesla rattle driving you crazy? 80% come from 3 spots: A-pillar, dash, and door panels. Exact locations, $5 fixes, and the one lubricant Tesla techs actually use."
 date: 2026-01-14
 category: "Interior"
 difficulty: "Easy"

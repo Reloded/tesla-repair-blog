@@ -1,7 +1,7 @@
 ---
 layout: post.njk
-title: "Tesla Frunk Strut Replacement: DIY Guide (All Models)"
-description: "Replace worn Tesla front trunk struts yourself. Step-by-step guide for Model 3, Model Y, Model S, and Model X. Fix a sagging frunk for under €50."
+title: "Tesla Frunk Sagging or Won't Stay Open? Easy DIY Fix (All Models)"
+description: "Fix your sagging Tesla frunk in 10 minutes. Exact replacement strut part numbers for Model 3, Y, S, and X — pop off the old ones, snap in the new. No mechanic needed, under €50."
 date: 2026-02-03
 lastUpdated: 2026-02-03
 category: "Body & Trim"

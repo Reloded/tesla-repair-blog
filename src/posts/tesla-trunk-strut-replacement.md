@@ -1,7 +1,7 @@
 ---
 layout: post.njk
-title: "Tesla Trunk Strut Replacement: Model 3 Trunk & Model Y Liftgate Lift Support Guide"
-description: "Replace worn trunk struts on your Tesla Model 3 or Model Y liftgate. Covers symptoms like trunk won't stay open, slow rise, part numbers, power vs manual struts, and step-by-step DIY instructions."
+title: "Tesla Trunk Won't Stay Open? Replace the Struts in 15 Minutes (Model 3 & Y)"
+description: "Your Tesla trunk dropping on your head? The struts are shot — $25 fix, 15 minutes, no tools beyond a trim tool. Exact part numbers for Model 3 trunk and Model Y liftgate, step-by-step with photos."
 date: 2026-02-10
 lastUpdated: 2026-02-10
 category: "Body & Trim"
