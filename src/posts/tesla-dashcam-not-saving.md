@@ -202,6 +202,7 @@ Reach out to Tesla if:
 
 ## Related Guides
 
+- [Best USB Drives for Tesla Sentry Mode & Dashcam](/posts/tesla-best-usb-drives-ssd/) — Tested picks that last
 - [How to Format USB for Tesla Dashcam](/posts/format-usb-tesla-dashcam/) - Quick 30-second formatting guide
 - [Sentry Mode Not Recording](/posts/tesla-sentry-mode-not-recording/) - Same USB troubleshooting applies
 - [USB Not Working](/posts/tesla-usb-not-working/) - Port and device issues

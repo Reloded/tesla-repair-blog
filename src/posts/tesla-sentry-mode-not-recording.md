@@ -217,6 +217,7 @@ Camera hardware or software issue:
 
 ## Related Guides
 
+- [Best USB Drives for Tesla Sentry Mode & Dashcam](/posts/tesla-best-usb-drives-ssd/) — Tested picks that last
 - [How to Format USB for Tesla Dashcam](/posts/format-usb-tesla-dashcam/) - Quick 30-second formatting guide
 - [Dashcam Not Saving](/posts/tesla-dashcam-not-saving/) - Same USB fixes apply to dashcam
 - [USB Not Working](/posts/tesla-usb-not-working/) - Detailed USB port troubleshooting

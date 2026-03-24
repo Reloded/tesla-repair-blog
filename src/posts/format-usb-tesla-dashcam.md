@@ -237,6 +237,7 @@ For in-depth USB port troubleshooting, see our [complete USB troubleshooting gui
 
 ## Related Guides
 
+- [Best USB Drives for Tesla Sentry Mode & Dashcam](/posts/tesla-best-usb-drives-ssd/) — Tested picks that last
 - [Tesla USB Not Working? Fix It in 2 Minutes](/posts/tesla-usb-not-working/) — Full USB port and drive troubleshooting
 - [Tesla Dashcam & Sentry Mode USB Setup](/posts/tesla-dashcam-usb-setup/) — Complete setup guide with drive recommendations
 - [Dashcam Not Saving Clips?](/posts/tesla-dashcam-not-saving/) — Fix recording issues after formatting

@@ -411,6 +411,7 @@ A €15 no-name USB drive will fail within months. Spend €40-60 on a high-endu
 
 ## Related Guides
 
+- [Best USB Drives for Tesla Sentry Mode & Dashcam](/posts/tesla-best-usb-drives-ssd/) — Tested picks that last
 - [Dashcam Not Saving](/posts/tesla-dashcam-not-saving/) - Troubleshoot recording issues
 - [Sentry Mode Not Recording](/posts/tesla-sentry-mode-not-recording/) - Fix Sentry problems
 - [USB Not Working](/posts/tesla-usb-not-working/) - General USB troubleshooting

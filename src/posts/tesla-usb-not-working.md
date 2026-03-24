@@ -521,6 +521,7 @@ Still stuck? Walk through this:
 
 ## Related Guides
 
+- [Best USB Drives for Tesla Sentry Mode & Dashcam](/posts/tesla-best-usb-drives-ssd/) — Tested picks that won't die in 3 months
 - [How to Format USB for Tesla Dashcam](/posts/format-usb-tesla-dashcam/) — Quick 30-second formatting guide
 - [Tesla Screen Frozen? How to Reboot](/posts/tesla-screen-frozen-reboot/) — Reboot fixes many USB issues
 - [Tesla 12V Battery Replacement](/posts/tesla-12v-battery-replacement/) — Weak 12V causes USB port problems
