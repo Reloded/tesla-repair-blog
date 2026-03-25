@@ -28,6 +28,8 @@ tools:
     link: "https://www.amazon.com/dp/B005NMCE04?tag=diyrepair07-20"
 ---
 
+<img src="/images/repairs/model-y-juniper-workshop.webp" alt="Two Tesla Model Y Juniper vehicles in the RR Car Parts workshop — silver and black, ready for suspension inspection" width="1200" height="900" loading="eager" />
+
 If you own a 2026 Tesla Model Y Juniper and hear a clunking, rattling, or bobbling noise from the front suspension when driving over bumps — you're not alone. **Thousands of owners** have reported this issue across Reddit, Tesla Motors Club, and Tesla Owners Online forums, and it's become one of the most discussed quality issues on the refreshed Model Y.
 
 The good news: it's a known issue. Tesla engineering has acknowledged it. The less-good news: there's no single silver-bullet fix yet, and some owners are on their second or third service visit trying to resolve it.
