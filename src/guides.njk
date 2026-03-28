@@ -3,6 +3,7 @@ layout: base.njk
 title: All Repair Guides
 description: Complete list of DIY Tesla repair guides for Model 3, Model Y, Model S, and Model X. Save money on maintenance and repairs.
 ---
+{% from "icons.njk" import icon %}
 
 <div class="section-header" style="margin-bottom: 1rem;">
   <h1>Tesla DIY Repair Guides</h1>
@@ -11,42 +12,42 @@ description: Complete list of DIY Tesla repair guides for Model 3, Model Y, Mode
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1rem; margin-bottom: 2.5rem;">
   <a href="/guides/battery-electrical/" style="display: block; padding: 1.25rem; background: var(--bg-secondary, #f8f9fa); border-radius: 12px; text-decoration: none; color: inherit; border: 1px solid var(--border, #e0e0e0); transition: transform 0.15s;">
-    <span style="font-size: 1.5rem;">⚡</span>
+    <span class="nav-icon">{{ icon("electrical", "24") }}</span>
     <strong style="display: block; margin-top: 0.25rem;">Battery & Electrical</strong>
     <small style="color: var(--text-secondary, #666);">12V battery, wiring, diagnostics</small>
   </a>
   <a href="/guides/brakes-suspension/" style="display: block; padding: 1.25rem; background: var(--bg-secondary, #f8f9fa); border-radius: 12px; text-decoration: none; color: inherit; border: 1px solid var(--border, #e0e0e0); transition: transform 0.15s;">
-    <span style="font-size: 1.5rem;">🛞</span>
+    <span class="nav-icon">{{ icon("suspension", "24") }}</span>
     <strong style="display: block; margin-top: 0.25rem;">Brakes & Suspension</strong>
     <small style="color: var(--text-secondary, #666);">Pads, shocks, control arms</small>
   </a>
   <a href="/guides/hvac-climate/" style="display: block; padding: 1.25rem; background: var(--bg-secondary, #f8f9fa); border-radius: 12px; text-decoration: none; color: inherit; border: 1px solid var(--border, #e0e0e0); transition: transform 0.15s;">
-    <span style="font-size: 1.5rem;">❄️</span>
+    <span class="nav-icon">{{ icon("hvac", "24") }}</span>
     <strong style="display: block; margin-top: 0.25rem;">HVAC & Climate</strong>
     <small style="color: var(--text-secondary, #666);">AC, heater, cabin filter</small>
   </a>
   <a href="/guides/exterior-body/" style="display: block; padding: 1.25rem; background: var(--bg-secondary, #f8f9fa); border-radius: 12px; text-decoration: none; color: inherit; border: 1px solid var(--border, #e0e0e0); transition: transform 0.15s;">
-    <span style="font-size: 1.5rem;">🚗</span>
+    <span class="nav-icon">{{ icon("exterior", "24") }}</span>
     <strong style="display: block; margin-top: 0.25rem;">Body & Exterior</strong>
     <small style="color: var(--text-secondary, #666);">Paint, bumpers, panel gaps</small>
   </a>
   <a href="/guides/software-tech/" style="display: block; padding: 1.25rem; background: var(--bg-secondary, #f8f9fa); border-radius: 12px; text-decoration: none; color: inherit; border: 1px solid var(--border, #e0e0e0); transition: transform 0.15s;">
-    <span style="font-size: 1.5rem;">💻</span>
+    <span class="nav-icon">{{ icon("software", "24") }}</span>
     <strong style="display: block; margin-top: 0.25rem;">Software & Tech</strong>
     <small style="color: var(--text-secondary, #666);">Screen, Autopilot, dashcam</small>
   </a>
   <a href="/guides/charging/" style="display: block; padding: 1.25rem; background: var(--bg-secondary, #f8f9fa); border-radius: 12px; text-decoration: none; color: inherit; border: 1px solid var(--border, #e0e0e0); transition: transform 0.15s;">
-    <span style="font-size: 1.5rem;">🔌</span>
+    <span class="nav-icon">{{ icon("charging", "24") }}</span>
     <strong style="display: block; margin-top: 0.25rem;">Charging</strong>
     <small style="color: var(--text-secondary, #666);">Wall Connector, ports, Supercharging</small>
   </a>
   <a href="/guides/maintenance/" style="display: block; padding: 1.25rem; background: var(--bg-secondary, #f8f9fa); border-radius: 12px; text-decoration: none; color: inherit; border: 1px solid var(--border, #e0e0e0); transition: transform 0.15s;">
-    <span style="font-size: 1.5rem;">🔧</span>
+    <span class="nav-icon">{{ icon("maintenance", "24") }}</span>
     <strong style="display: block; margin-top: 0.25rem;">Maintenance & Tires</strong>
     <small style="color: var(--text-secondary, #666);">Wipers, rotation, alignment</small>
   </a>
   <a href="/guides/interior/" style="display: block; padding: 1.25rem; background: var(--bg-secondary, #f8f9fa); border-radius: 12px; text-decoration: none; color: inherit; border: 1px solid var(--border, #e0e0e0); transition: transform 0.15s;">
-    <span style="font-size: 1.5rem;">🪑</span>
+    <span class="nav-icon">{{ icon("interior", "24") }}</span>
     <strong style="display: block; margin-top: 0.25rem;">Interior</strong>
     <small style="color: var(--text-secondary, #666);">Door handles, speakers, trim</small>
   </a>
@@ -100,9 +101,7 @@ description: Complete list of DIY Tesla repair guides for Model 3, Model Y, Mode
 
     <article class="post-card" data-category="{{ filterGroup }}" data-models="{{ post.data.models | lower | default('all models') }}">
       <div class="post-card-visual cat-{{ filterGroup }}">
-        <span class="cat-icon">
-          {% if filterGroup == "electrical" %}⚡{% elif filterGroup == "software" %}💻{% elif filterGroup == "maintenance" %}🔧{% elif filterGroup == "interior" %}🪑{% elif filterGroup == "suspension" %}🛞{% elif filterGroup == "hvac" %}❄️{% elif filterGroup == "exterior" %}🚗{% elif filterGroup == "charging" %}🔌{% else %}📋{% endif %}
-        </span>
+        <span class="cat-icon">{{ icon(filterGroup) }}</span>
       </div>
       <div class="post-card-content">
         <div class="post-card-tags">

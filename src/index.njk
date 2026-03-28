@@ -3,6 +3,7 @@ layout: base.njk
 title: DIY Tesla Repair Guides — Model 3, Y, S, X
 description: DIY Tesla repair guides from an independent mechanic. Save thousands on Tesla Model 3, Model Y, Model S, and Model X repairs with our step-by-step tutorials.
 ---
+{% from "icons.njk" import icon %}
 
 <div class="hero">
   <h1>Tesla Repairs Made Simple</h1>
@@ -45,9 +46,7 @@ description: DIY Tesla repair guides from an independent mechanic. Save thousand
     {% endif %}
     <article class="post-card">
       <div class="post-card-visual cat-{{ filterGroup }}">
-        <span class="cat-icon">
-          {% if filterGroup == "electrical" %}⚡{% elif filterGroup == "software" %}💻{% elif filterGroup == "maintenance" %}🔧{% elif filterGroup == "interior" %}🪑{% elif filterGroup == "suspension" %}🛞{% elif filterGroup == "hvac" %}❄️{% elif filterGroup == "exterior" %}🚗{% elif filterGroup == "charging" %}🔌{% else %}📋{% endif %}
-        </span>
+        <span class="cat-icon">{{ icon(filterGroup) }}</span>
       </div>
       <div class="post-card-content">
         <span class="post-card-category">{{ post.data.category or "Repair Guide" }}</span>
@@ -71,7 +70,7 @@ description: DIY Tesla repair guides from an independent mechanic. Save thousand
   </div>
   <div class="posts-grid">
     <article class="post-card">
-      <div class="post-card-visual cat-charging"><span class="cat-icon">⚡</span></div>
+      <div class="post-card-visual cat-charging"><span class="cat-icon">{{ icon("charging") }}</span></div>
       <div class="post-card-content">
         <span class="post-card-category">Charging</span>
         <h3><a href="/posts/tesla-supercharger-slow/">Tesla Supercharger Slow? 8 Fixes to Get Full Speed</a></h3>
@@ -79,7 +78,7 @@ description: DIY Tesla repair guides from an independent mechanic. Save thousand
       </div>
     </article>
     <article class="post-card">
-      <div class="post-card-visual cat-electrical"><span class="cat-icon">⚡</span></div>
+      <div class="post-card-visual cat-electrical"><span class="cat-icon">{{ icon("electrical") }}</span></div>
       <div class="post-card-content">
         <span class="post-card-category">Electrical</span>
         <h3><a href="/posts/tesla-12v-battery-replacement/">Tesla 12V Battery Replacement Guide</a></h3>
@@ -87,7 +86,7 @@ description: DIY Tesla repair guides from an independent mechanic. Save thousand
       </div>
     </article>
     <article class="post-card">
-      <div class="post-card-visual cat-other"><span class="cat-icon">🛒</span></div>
+      <div class="post-card-visual cat-other"><span class="cat-icon">{{ icon("shopping") }}</span></div>
       <div class="post-card-content">
         <span class="post-card-category">Buying Guide</span>
         <h3><a href="/posts/tesla-parts-europe-buying-guide/">Where to Buy Tesla Parts in Europe (2026)</a></h3>
@@ -111,7 +110,7 @@ description: DIY Tesla repair guides from an independent mechanic. Save thousand
   <div class="posts-grid">
     <div class="post-card">
       <div class="post-card-visual cat-electrical">
-        <span class="cat-icon">⚡</span>
+        <span class="cat-icon">{{ icon("electrical") }}</span>
       </div>
       <div class="post-card-content">
         <h3><a href="/guides/battery-electrical/">Battery & Electrical</a></h3>
@@ -121,7 +120,7 @@ description: DIY Tesla repair guides from an independent mechanic. Save thousand
 
     <div class="post-card">
       <div class="post-card-visual cat-suspension">
-        <span class="cat-icon">🛞</span>
+        <span class="cat-icon">{{ icon("suspension") }}</span>
       </div>
       <div class="post-card-content">
         <h3><a href="/guides/brakes-suspension/">Brakes & Suspension</a></h3>
@@ -131,7 +130,7 @@ description: DIY Tesla repair guides from an independent mechanic. Save thousand
 
     <div class="post-card">
       <div class="post-card-visual cat-hvac">
-        <span class="cat-icon">❄️</span>
+        <span class="cat-icon">{{ icon("hvac") }}</span>
       </div>
       <div class="post-card-content">
         <h3><a href="/guides/hvac-climate/">HVAC & Filters</a></h3>
