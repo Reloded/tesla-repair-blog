@@ -40,6 +40,7 @@
   <!-- <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-YOURCODE" crossorigin="anonymous"></script> -->
 </head>
 <body>
+  <a href="#main-content" class="skip-nav">Skip to main content</a>
   <header class="site-header">
     <nav class="nav-container">
       <a href="/" class="logo">
@@ -59,7 +60,7 @@
     </nav>
   </header>
 
-  <main class="main-content">
+  <main class="main-content" id="main-content">
     {{ content | safe }}
   </main>
 
@@ -81,7 +82,8 @@
         <h3>Stay Updated</h3>
         <p>Get new repair guides and tips in your inbox.</p>
         <form class="newsletter-form" action="https://buttondown.com/api/emails/embed-subscribe/tesladiyrepair" method="post" target="_blank">
-          <input type="email" name="email" placeholder="Your email" required>
+          <label for="footer-email" class="sr-only">Email address</label>
+          <input type="email" name="email" id="footer-email" placeholder="Your email" required>
           <button type="submit">Subscribe</button>
         </form>
         <p style="font-size: 0.8rem; margin-top: 0.5rem; opacity: 0.7;">No spam. Unsubscribe anytime.</p>
