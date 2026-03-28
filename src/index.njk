@@ -7,7 +7,12 @@ description: DIY Tesla repair guides from an independent mechanic. Save thousand
 <div class="hero">
   <h1>Tesla Repairs Made Simple</h1>
   <p>Expert DIY repair guides from an independent Tesla mechanic. Save thousands by doing it yourself with our step-by-step tutorials and tool recommendations.</p>
-  <a href="/guides/" class="hero-cta">Browse Repair Guides</a>
+  <form class="hero-search" action="/search/" method="get" role="search">
+    <label for="hero-q" class="sr-only">Search repair guides</label>
+    <input type="search" id="hero-q" name="q" placeholder="Search guides — e.g. brake pads, 12V battery, AC filter..." autocomplete="off">
+    <button type="submit" aria-label="Search">🔍</button>
+  </form>
+  <a href="/guides/" class="hero-cta">Browse All Guides</a>
 </div>
 
 <section>

@@ -15,12 +15,21 @@ description: Search all Tesla DIY repair guides. Find solutions for your Model 3
 <script src="/pagefind/pagefind-ui.js"></script>
 <script>
   window.addEventListener('DOMContentLoaded', (event) => {
-    new PagefindUI({
+    const pf = new PagefindUI({
       element: "#search",
       showSubResults: true,
       showImages: false,
       excerptLength: 25
     });
+    // Auto-fill from ?q= param (hero search bar)
+    const q = new URLSearchParams(window.location.search).get('q');
+    if (q) {
+      const input = document.querySelector('#search input');
+      if (input) {
+        input.value = q;
+        input.dispatchEvent(new Event('input', { bubbles: true }));
+      }
+    }
   });
 </script>
 
