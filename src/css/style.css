@@ -103,16 +103,16 @@ img {
   margin: 0 auto;
   padding: 2rem;
   min-height: 60vh;
+  overflow-x: hidden;
 }
 
 /* Hero Section */
 .hero {
   background: linear-gradient(135deg, var(--secondary-color) 0%, #2d3748 100%);
   color: white;
-  padding: 4rem 2rem;
+  padding: 5rem 2rem;
   text-align: center;
   margin: -2rem -2rem 3rem -2rem;
-  border-radius: 0 0 20px 20px;
 }
 
 .hero h1 {
@@ -1145,6 +1145,11 @@ img {
 
   .nav-links a:hover {
     background: rgba(255,255,255,0.1);
+  }
+
+  .hero {
+    margin: -2rem -2rem 2rem -2rem;
+    padding: 3rem 1.5rem;
   }
 
   .hero h1 {
