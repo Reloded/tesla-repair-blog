@@ -52,7 +52,18 @@ description: Complete list of DIY Tesla repair guides for Model 3, Model Y, Mode
   </a>
 </div>
 
-<div class="category-filters">
+<div class="model-filters" aria-label="Filter by Tesla model">
+  <span class="filter-label">Model:</span>
+  <button class="model-btn active" data-model="all">All</button>
+  <button class="model-btn" data-model="model 3">Model 3</button>
+  <button class="model-btn" data-model="model y">Model Y</button>
+  <button class="model-btn" data-model="model s">Model S</button>
+  <button class="model-btn" data-model="model x">Model X</button>
+  <button class="model-btn" data-model="cybertruck">Cybertruck</button>
+</div>
+
+<div class="category-filters" aria-label="Filter by category">
+  <span class="filter-label">Category:</span>
   <button class="filter-btn active" data-filter="all">All ({{ collections.posts | length }})</button>
   <button class="filter-btn" data-filter="electrical">Electrical</button>
   <button class="filter-btn" data-filter="software">Software</button>
@@ -87,7 +98,7 @@ description: Complete list of DIY Tesla repair guides for Model 3, Model Y, Mode
       {% set filterGroup = "charging" %}
     {% endif %}
 
-    <article class="post-card" data-category="{{ filterGroup }}">
+    <article class="post-card" data-category="{{ filterGroup }}" data-models="{{ post.data.models | lower | default('all models') }}">
       <div class="post-card-visual cat-{{ filterGroup }}">
         <span class="cat-icon">
           {% if filterGroup == "electrical" %}⚡{% elif filterGroup == "software" %}💻{% elif filterGroup == "maintenance" %}🔧{% elif filterGroup == "interior" %}🪑{% elif filterGroup == "suspension" %}🛞{% elif filterGroup == "hvac" %}❄️{% elif filterGroup == "exterior" %}🚗{% elif filterGroup == "charging" %}🔌{% else %}📋{% endif %}
@@ -114,17 +125,36 @@ description: Complete list of DIY Tesla repair guides for Model 3, Model Y, Mode
 </p>
 
 <style>
+  .model-filters,
   .category-filters {
     display: flex;
     flex-wrap: wrap;
     gap: 0.5rem;
-    margin-bottom: 2rem;
+    align-items: center;
     padding: 1rem;
     background: var(--card-bg, #f8f9fa);
     border-radius: 8px;
   }
 
-  .filter-btn {
+  .model-filters {
+    margin-bottom: 0.5rem;
+  }
+
+  .category-filters {
+    margin-bottom: 2rem;
+  }
+
+  .filter-label {
+    font-weight: 600;
+    font-size: 0.85rem;
+    color: var(--text-light, #666);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-right: 0.25rem;
+  }
+
+  .filter-btn,
+  .model-btn {
     padding: 0.5rem 1rem;
     border: 2px solid var(--border-color, #ddd);
     background: var(--bg-color, #fff);
@@ -136,7 +166,8 @@ description: Complete list of DIY Tesla repair guides for Model 3, Model Y, Mode
     transition: all 0.2s ease;
   }
 
-  .filter-btn:hover {
+  .filter-btn:hover,
+  .model-btn:hover {
     border-color: #e31937;
     color: #e31937;
   }
@@ -144,6 +175,12 @@ description: Complete list of DIY Tesla repair guides for Model 3, Model Y, Mode
   .filter-btn.active {
     background: #e31937;
     border-color: #e31937;
+    color: white;
+  }
+
+  .model-btn.active {
+    background: var(--secondary-color, #171a20);
+    border-color: var(--secondary-color, #171a20);
     color: white;
   }
 
@@ -216,30 +253,45 @@ description: Complete list of DIY Tesla repair guides for Model 3, Model Y, Mode
   }
 
   @media (max-width: 600px) {
-    .category-filters {
+    .category-filters,
+    .model-filters {
       gap: 0.4rem;
     }
 
-    .filter-btn {
+    .filter-btn,
+    .model-btn {
       padding: 0.4rem 0.8rem;
       font-size: 0.8rem;
+    }
+
+    .filter-label {
+      width: 100%;
+      font-size: 0.75rem;
     }
   }
 
   @media (prefers-color-scheme: dark) {
-    .category-filters {
+    .category-filters,
+    .model-filters {
       background: #2a2a2a;
     }
 
-    .filter-btn {
+    .filter-btn,
+    .model-btn {
       background: #1a1a1a;
       border-color: #444;
       color: #eee;
     }
 
-    .filter-btn:hover {
+    .filter-btn:hover,
+    .model-btn:hover {
       border-color: #e31937;
       color: #e31937;
+    }
+
+    .model-btn.active {
+      background: #444;
+      border-color: #666;
     }
 
     .category-tag {
@@ -252,30 +304,45 @@ description: Complete list of DIY Tesla repair guides for Model 3, Model Y, Mode
 <script>
   document.addEventListener('DOMContentLoaded', function() {
     const filterBtns = document.querySelectorAll('.filter-btn');
+    const modelBtns = document.querySelectorAll('.model-btn');
     const cards = document.querySelectorAll('.post-card');
     const noResults = document.querySelector('.no-results');
 
+    let activeCategory = 'all';
+    let activeModel = 'all';
+
+    function applyFilters() {
+      let visibleCount = 0;
+      cards.forEach(card => {
+        const catMatch = activeCategory === 'all' || card.dataset.category === activeCategory;
+        const models = card.dataset.models || '';
+        const modelMatch = activeModel === 'all' || models.includes('all models') || models.includes(activeModel);
+
+        if (catMatch && modelMatch) {
+          card.classList.remove('hidden');
+          visibleCount++;
+        } else {
+          card.classList.add('hidden');
+        }
+      });
+      noResults.style.display = visibleCount === 0 ? 'block' : 'none';
+    }
+
     filterBtns.forEach(btn => {
       btn.addEventListener('click', function() {
-        const filter = this.dataset.filter;
-
-        // Update active button
+        activeCategory = this.dataset.filter;
         filterBtns.forEach(b => b.classList.remove('active'));
         this.classList.add('active');
+        applyFilters();
+      });
+    });
 
-        // Filter cards
-        let visibleCount = 0;
-        cards.forEach(card => {
-          if (filter === 'all' || card.dataset.category === filter) {
-            card.classList.remove('hidden');
-            visibleCount++;
-          } else {
-            card.classList.add('hidden');
-          }
-        });
-
-        // Show/hide no results message
-        noResults.style.display = visibleCount === 0 ? 'block' : 'none';
+    modelBtns.forEach(btn => {
+      btn.addEventListener('click', function() {
+        activeModel = this.dataset.model;
+        modelBtns.forEach(b => b.classList.remove('active'));
+        this.classList.add('active');
+        applyFilters();
       });
     });
   });
