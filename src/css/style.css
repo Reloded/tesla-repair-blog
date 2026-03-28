@@ -4,6 +4,8 @@
   --primary-color: #e31937;
   --secondary-color: #171a20;
   --accent-color: #3e6ae1;
+  --link-color: #3e6ae1;
+  --link-hover: #e31937;
   --text-color: #333;
   --text-light: #666;
   --bg-color: #ffffff;
@@ -28,13 +30,13 @@ body {
 }
 
 a {
-  color: var(--accent-color);
+  color: var(--link-color);
   text-decoration: none;
   transition: color 0.2s;
 }
 
 a:hover {
-  color: var(--primary-color);
+  color: var(--link-hover);
 }
 
 img {
@@ -204,8 +206,11 @@ img {
 }
 
 .featured-cta {
-  color: #ffd700;
+  color: white;
   font-weight: 600;
+  text-decoration: underline;
+  text-decoration-color: rgba(255, 255, 255, 0.5);
+  text-underline-offset: 3px;
 }
 
 .featured-card:hover .featured-cta {
@@ -357,7 +362,7 @@ img {
 
 .read-more {
   font-weight: 600;
-  color: var(--accent-color);
+  color: var(--link-color);
 }
 
 /* Single Post Styles */
@@ -1192,7 +1197,7 @@ img {
 
 /* Inline product link - for mentioning products in text */
 .product-link {
-  color: var(--accent-color);
+  color: var(--link-color);
   font-weight: 500;
   background: linear-gradient(to bottom, transparent 60%, rgba(40, 167, 69, 0.2) 60%);
   padding: 0 2px;
