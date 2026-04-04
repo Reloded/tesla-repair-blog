@@ -22,14 +22,12 @@ faq:
   - q: "How long do Tesla trunk struts last?"
     a: "OEM gas struts typically last 3-5 years depending on climate and usage frequency. Hot climates can accelerate gas leakage. Aftermarket upgraded struts may last longer. If your trunk is slow to rise or won't stay up, it's time to replace them."
 tools:
-  - name: "Tesla Model 3 Trunk Lift Struts (Pack of 2)"
-    link: "https://www.amazon.com/s?k=tesla+model+3+trunk+lift+strut+automatic&tag=diyrepair07-20"
-  - name: "Tesla Model Y Liftgate Struts (Pack of 2)"
-    link: "https://www.amazon.com/s?k=tesla+model+y+liftgate+strut+replacement&tag=diyrepair07-20"
-  - name: "Plastic Trim Removal Tool Set"
-    link: "https://www.amazon.com/s?k=automotive+trim+removal+tool+set&tag=diyrepair07-20"
-  - name: "Isopropyl Alcohol Wipes"
-    link: "https://www.amazon.com/s?k=isopropyl+alcohol+wipes+automotive&tag=diyrepair07-20"
+  - name: "TRQ Trunk Strut Set — Model 3 2017-2023 (4.4★, 320 ratings)"
+    link: "https://www.amazon.com/dp/B0CWCS7G8G?tag=diyrepair07-20"
+  - name: "BOXI Rear Trunk Lift Supports — Model 3 (2 pack)"
+    link: "https://www.amazon.com/dp/B0F93CJN36?tag=diyrepair07-20"
+  - name: "Getfarway Power Liftgate Strut — Model 3 2021-2023"
+    link: "https://www.amazon.com/dp/B0D8KCDLFL?tag=diyrepair07-20"
   - name: "iFixit Pro Tech Toolkit"
     link: "https://sovrn.co/1dw8w9g"
     provider: "ifixit"
@@ -145,8 +143,9 @@ The Model Y has a large **rear liftgate** (hatchback-style) that's significantly
 **OEM struts** can be ordered through Tesla Service or parts suppliers like [Tesloid](https://tesloid.com), [Tesla Parts Catalog](https://parts.tesla.com), or pulled from salvage vehicles on eBay.
 
 **Aftermarket options** on Amazon:
-- 🇺🇸 [Model 3 Trunk Struts (US)](https://www.amazon.com/s?k=tesla+model+3+trunk+strut+replacement&tag=diyrepair07-20)
-- 🇺🇸 [Model Y Liftgate Struts (US)](https://www.amazon.com/s?k=tesla+model+y+liftgate+strut+replacement&tag=diyrepair07-20)
+- 🇺🇸 [TRQ Trunk Strut Set — 4.4★, 320 ratings, $44.95](https://www.amazon.com/dp/B0CWCS7G8G?tag=diyrepair07-20) — Amazon's Overall Pick, fits 2017-2023 Model 3
+- 🇺🇸 [BOXI Rear Trunk Supports — budget option](https://www.amazon.com/dp/B0F93CJN36?tag=diyrepair07-20) — basic gas struts, 2 pack
+- 🇺🇸 [Getfarway Power Liftgate Strut — 2021-2023](https://www.amazon.com/dp/B0D8KCDLFL?tag=diyrepair07-20) — electric power strut replacement
 - 🇩🇪 [Model 3 Trunk Struts (DE)](https://www.amazon.de/s?k=tesla+model+3+kofferraum+gasdruckfeder&tag=diyrepair-21)
 - 🇩🇪 [Model Y Liftgate Struts (DE)](https://www.amazon.de/s?k=tesla+model+y+heckklappe+gasdruckfeder&tag=diyrepair-21)
 
