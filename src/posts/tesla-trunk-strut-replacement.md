@@ -22,9 +22,12 @@ faq:
   - q: "How long do Tesla trunk struts last?"
     a: "OEM gas struts typically last 3-5 years depending on climate and usage frequency. Hot climates can accelerate gas leakage. Aftermarket upgraded struts may last longer. If your trunk is slow to rise or won't stay up, it's time to replace them."
 tools:
-  - name: "Tesla Model 3 Trunk Gas Struts"
+  - name: "TRQ Trunk Strut Set — Model 3 2017-2023"
+    asin_de: "B0CWCS7G8G"
+    asin_com: "B0CWCS7G8G"
+  - name: "BOXI Rear Trunk Lift Supports (2 pack)"
     link: "https://www.amazon.de/s?k=tesla+model+3+trunk+strut+replacement&tag=diyrepair-21"
-  - name: "Tesla Model Y Liftgate Gas Struts"
+  - name: "Tesla Model Y Liftgate Struts"
     link: "https://www.amazon.de/s?k=tesla+model+y+liftgate+strut+replacement&tag=diyrepair-21"
   - name: "Plastic Trim Removal Tool Set"
     link: "https://www.amazon.de/s?k=automotive+trim+removal+tool+set&tag=diyrepair-21"
@@ -34,13 +37,6 @@ tools:
   - name: "iFixit Plastic Pry Tools"
     link: "https://sovrn.co/mqnnvon"
     provider: "ifixit"
-amazonUs:
-  - name: "TRQ Trunk Strut Set — Model 3 2017-2023 (4.4★, 320 ratings)"
-    link: "https://www.amazon.com/dp/B0CWCS7G8G?tag=diyrepair07-20"
-  - name: "BOXI Rear Trunk Lift Supports — Model 3 (2 pack)"
-    link: "https://www.amazon.com/dp/B0F93CJN36?tag=diyrepair07-20"
-  - name: "Getfarway Power Liftgate Strut — Model 3 2021-2023"
-    link: "https://www.amazon.com/dp/B0D8KCDLFL?tag=diyrepair07-20"
 ---
 
 Your Tesla trunk barely lifts itself anymore. It opens halfway and stops, or you have to hold it up with one hand while grabbing groceries with the other. Maybe it used to pop open automatically but now just sort of… drifts upward like it's tired. Sound familiar?
