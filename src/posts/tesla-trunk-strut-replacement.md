@@ -22,10 +22,10 @@ faq:
   - q: "How long do Tesla trunk struts last?"
     a: "OEM gas struts typically last 3-5 years depending on climate and usage frequency. Hot climates can accelerate gas leakage. Aftermarket upgraded struts may last longer. If your trunk is slow to rise or won't stay up, it's time to replace them."
 tools:
-  - name: "OTUAYAUTO Tesla Model 3 Auto Trunk Struts (Pack of 2)"
-    link: "https://www.amazon.com/dp/B09BCSBQT2?tag=diyrepair07-20"
-  - name: "ARANA Tesla Model 3 Trunk Lift Struts (Pack of 2)"
-    link: "https://www.amazon.com/dp/B07WWY372F?tag=diyrepair07-20"
+  - name: "Tesla Model 3 Trunk Lift Struts (Pack of 2)"
+    link: "https://www.amazon.com/s?k=tesla+model+3+trunk+lift+strut+automatic&tag=diyrepair07-20"
+  - name: "Tesla Model Y Liftgate Struts (Pack of 2)"
+    link: "https://www.amazon.com/s?k=tesla+model+y+liftgate+strut+replacement&tag=diyrepair07-20"
   - name: "Plastic Trim Removal Tool Set"
     link: "https://www.amazon.com/s?k=automotive+trim+removal+tool+set&tag=diyrepair07-20"
   - name: "Isopropyl Alcohol Wipes"
@@ -145,10 +145,10 @@ The Model Y has a large **rear liftgate** (hatchback-style) that's significantly
 **OEM struts** can be ordered through Tesla Service or parts suppliers like [Tesloid](https://tesloid.com), [Tesla Parts Catalog](https://parts.tesla.com), or pulled from salvage vehicles on eBay.
 
 **Aftermarket options** on Amazon:
-- 🇺🇸 [OTUAYAUTO Model 3 Auto Trunk Struts — Pack of 2](https://www.amazon.com/dp/B09BCSBQT2?tag=diyrepair07-20) — includes springs and stainless steel washers, automatic lifting upgrade
-- 🇺🇸 [ARANA Model 3 Trunk Lift Struts — Pack of 2](https://www.amazon.com/dp/B07WWY372F?tag=diyrepair07-20) — popular choice, fits all Model 3 years
-- 🇩🇪 [Model 3 Trunk Struts (DE)](https://www.amazon.de/dp/B09BCSBQT2?tag=diyrepair-21)
-- 🇩🇪 [Model Y Liftgate Struts (DE)](https://www.amazon.de/dp/B0DK3BBLM7?tag=diyrepair-21)
+- 🇺🇸 [Model 3 Trunk Struts (US)](https://www.amazon.com/s?k=tesla+model+3+trunk+strut+replacement&tag=diyrepair07-20)
+- 🇺🇸 [Model Y Liftgate Struts (US)](https://www.amazon.com/s?k=tesla+model+y+liftgate+strut+replacement&tag=diyrepair07-20)
+- 🇩🇪 [Model 3 Trunk Struts (DE)](https://www.amazon.de/s?k=tesla+model+3+kofferraum+gasdruckfeder&tag=diyrepair-21)
+- 🇩🇪 [Model Y Liftgate Struts (DE)](https://www.amazon.de/s?k=tesla+model+y+heckklappe+gasdruckfeder&tag=diyrepair-21)
 
 ---
 
@@ -317,7 +317,7 @@ If your Model 3 has the **non-power trunk** (common on 2017-2020 Standard Range 
 7. Clip new strut onto upper ball stud
 8. Remove prop and test
 
-**Upgrade tip:** The factory manual struts are designed to *assist* opening — you still need to push the trunk up. Aftermarket struts from [OTUAYAUTO](https://www.amazon.com/dp/B09BCSBQT2?tag=diyrepair07-20) or [ARANA](https://www.amazon.com/dp/B07WWY372F?tag=diyrepair07-20) use higher force ratings that pop the trunk open fully — like having a power trunk without the motor.
+**Upgrade tip:** The factory manual struts are designed to *assist* opening — you still need to push the trunk up. Aftermarket struts from brands like OTUAYAUTO or ARANA use higher force ratings that pop the trunk open fully — like having a power trunk without the motor.
 
 ---
 
