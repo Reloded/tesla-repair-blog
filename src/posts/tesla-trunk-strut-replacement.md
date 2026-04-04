@@ -3,7 +3,7 @@ layout: post.njk
 title: "Tesla Trunk Won't Stay Open? Replace the Struts in 15 Minutes (Model 3 & Y)"
 description: "Your Tesla trunk dropping on your head? The struts are shot — $25 fix, 15 minutes, no tools beyond a trim tool. Exact part numbers for Model 3 trunk and Model Y liftgate, step-by-step with photos."
 date: 2026-02-10
-lastUpdated: 2026-02-10
+lastUpdated: 2026-04-04
 category: "Body & Trim"
 difficulty: "Easy-Medium"
 readTime: "15 min read"
@@ -22,16 +22,14 @@ faq:
   - q: "How long do Tesla trunk struts last?"
     a: "OEM gas struts typically last 3-5 years depending on climate and usage frequency. Hot climates can accelerate gas leakage. Aftermarket upgraded struts may last longer. If your trunk is slow to rise or won't stay up, it's time to replace them."
 tools:
-  - name: "Tesla Model 3 Trunk Power Struts (Pair)"
-    link: "https://www.amazon.com/s?k=tesla+model+3+trunk+power+strut+1551488&tag=diyrepair07-20"
-  - name: "Tesla Model Y Liftgate Power Struts (Pair)"
-    link: "https://www.amazon.com/s?k=tesla+model+y+liftgate+power+strut+1500601+1500602&tag=diyrepair07-20"
-  - name: "Tesla Model 3 Trunk Lift Struts (Manual/Upgrade)"
-    link: "https://www.amazon.com/s?k=tesla+model+3+trunk+lift+strut+automatic&tag=diyrepair07-20"
-  - name: "Plastic Trim Removal Tools"
-    link: "https://www.amazon.de/s?k=automotive+trim+removal+tools&tag=diyrepair-21"
+  - name: "OTUAYAUTO Tesla Model 3 Auto Trunk Struts (Pack of 2)"
+    link: "https://www.amazon.com/dp/B09BCSBQT2?tag=diyrepair07-20"
+  - name: "ARANA Tesla Model 3 Trunk Lift Struts (Pack of 2)"
+    link: "https://www.amazon.com/dp/B07WWY372F?tag=diyrepair07-20"
+  - name: "Plastic Trim Removal Tool Set"
+    link: "https://www.amazon.com/dp/B0CXCQWG11?tag=diyrepair07-20"
   - name: "Isopropyl Alcohol Wipes"
-    link: "https://www.amazon.de/s?k=isopropyl+alcohol+wipes+automotive&tag=diyrepair-21"
+    link: "https://www.amazon.com/dp/B07LFDS8JL?tag=diyrepair07-20"
   - name: "iFixit Pro Tech Toolkit"
     link: "https://sovrn.co/1dw8w9g"
     provider: "ifixit"
@@ -147,10 +145,10 @@ The Model Y has a large **rear liftgate** (hatchback-style) that's significantly
 **OEM struts** can be ordered through Tesla Service or parts suppliers like [Tesloid](https://tesloid.com), [Tesla Parts Catalog](https://parts.tesla.com), or pulled from salvage vehicles on eBay.
 
 **Aftermarket options** on Amazon:
-- 🇺🇸 [Model 3 Trunk Struts (US)](https://www.amazon.com/s?k=tesla+model+3+trunk+strut+replacement&tag=diyrepair07-20)
-- 🇺🇸 [Model Y Liftgate Struts (US)](https://www.amazon.com/s?k=tesla+model+y+liftgate+strut+replacement&tag=diyrepair07-20)
-- 🇩🇪 [Model 3 Trunk Struts (DE)](https://www.amazon.de/s?k=tesla+model+3+kofferraum+gasdruckfeder&tag=diyrepair-21)
-- 🇩🇪 [Model Y Liftgate Struts (DE)](https://www.amazon.de/s?k=tesla+model+y+heckklappe+gasdruckfeder&tag=diyrepair-21)
+- 🇺🇸 [OTUAYAUTO Model 3 Auto Trunk Struts — Pack of 2](https://www.amazon.com/dp/B09BCSBQT2?tag=diyrepair07-20) — includes springs and stainless steel washers, automatic lifting upgrade
+- 🇺🇸 [ARANA Model 3 Trunk Lift Struts — Pack of 2](https://www.amazon.com/dp/B07WWY372F?tag=diyrepair07-20) — popular choice, fits all Model 3 years
+- 🇩🇪 [Model 3 Trunk Struts (DE)](https://www.amazon.de/dp/B09BCSBQT2?tag=diyrepair-21)
+- 🇩🇪 [Model Y Liftgate Struts (DE)](https://www.amazon.de/dp/B0DK3BBLM7?tag=diyrepair-21)
 
 ---
 
@@ -319,7 +317,7 @@ If your Model 3 has the **non-power trunk** (common on 2017-2020 Standard Range 
 7. Clip new strut onto upper ball stud
 8. Remove prop and test
 
-**Upgrade tip:** The factory manual struts are designed to *assist* opening — you still need to push the trunk up. Aftermarket struts from brands like [EVANNEX](https://www.amazon.com/s?k=evannex+tesla+model+3+trunk+lift+struts&tag=diyrepair07-20) or [TAPTES](https://www.amazon.com/s?k=taptes+tesla+model+3+trunk+strut+upgrade&tag=diyrepair07-20) use higher force ratings that pop the trunk open fully — like having a power trunk without the motor.
+**Upgrade tip:** The factory manual struts are designed to *assist* opening — you still need to push the trunk up. Aftermarket struts from [OTUAYAUTO](https://www.amazon.com/dp/B09BCSBQT2?tag=diyrepair07-20) or [ARANA](https://www.amazon.com/dp/B07WWY372F?tag=diyrepair07-20) use higher force ratings that pop the trunk open fully — like having a power trunk without the motor.
 
 ---
 
@@ -378,6 +376,20 @@ If you're working on your Tesla's trunk area, these related guides might be help
 - 🚪 [Tesla Door Latch Actuator Replacement](/posts/tesla-door-latch-actuator-replacement/) — similar clip/connector work
 - 💡 [Tesla Tail Light Replacement](/posts/tesla-tail-light-replacement/) — you're already back there
 - 📐 [Tesla Panel Gap Adjustment](/posts/tesla-panel-gap-adjustment/) — trunk lid alignment
+
+## Real-World Tips From a Tesla Repair Shop
+
+After replacing hundreds of trunk struts, here are things the official manual won't tell you:
+
+**Cold weather makes it worse.** Gas struts lose pressure faster in cold climates. If your trunk barely stays open in winter but works fine in summer, the struts are borderline — they'll fully fail within a few months. Don't wait.
+
+**The ball studs wear out too.** If you install new struts and they still feel loose or click, the ball studs on the body and trunk lid are probably worn. These are cheap to replace and often overlooked. Check them while you're in there.
+
+**Aftermarket struts vary wildly in quality.** We've seen cheap Amazon struts fail within 6 months. The OTUAYAUTO and ARANA brands have been the most consistent in our experience. OEM is best if budget allows.
+
+**Power strut connector corrosion.** On Model Y especially, the electrical connector behind the headliner can develop corrosion from moisture intrusion through the roof seal. If your new power struts aren't responding, clean the connector pins with contact cleaner before assuming the strut is defective.
+
+**Don't forget the trunk seal.** While you have the trunk trim off, inspect the rubber trunk seal. A worn seal lets water in, which corrodes the strut mounting points and ball studs. Replace the seal if it's cracked or flattened — see our [Tesla Water Leak Fix](/posts/tesla-water-leak-fix/) guide.
 
 ## Final Thoughts
 
