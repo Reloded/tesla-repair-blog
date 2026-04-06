@@ -89,7 +89,7 @@ This job uses almost entirely 10mm fasteners — grab a coffee and a 10mm socket
 - **Zip-lock bags or magnetic tray** — keep track of bolts
 - **[Gloves](https://www.amazon.com/s?k=nitrile+mechanic+gloves&tag=diyrepair07-20)** — avoid cutting hands on plastic edges
 
-**🛒 EU shoppers:** [Amazon.de Werkzeug-Set](https://www.amazon.de/dp/B000I1RYXY?tag=diyrepair-21) | [iFixit Pro Tech Toolkit](https://sovrn.co/1dw8w9g)
+**🛒 EU shoppers:** [Amazon.de Werkzeug-Set](https://www.amazon.com/dp/B000I1RYXY?tag=diyrepair07-20) | [iFixit Pro Tech Toolkit](https://sovrn.co/1dw8w9g)
 
 ### Parts: Where to Buy
 

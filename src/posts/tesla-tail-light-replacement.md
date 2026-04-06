@@ -45,7 +45,7 @@ Common reasons for replacement:
 
 That's it. No special Tesla tools required.
 
-**🛒 EU shoppers:** [Amazon.de Werkzeug-Set](https://www.amazon.de/s?k=zierleistenkeile+set&tag=diyrepair-21)
+**🛒 EU shoppers:** [Amazon.de Werkzeug-Set](https://www.amazon.com/s?k=zierleistenkeile+set&tag=diyrepair07-20)
 
 ## Parts: Where to Buy
 

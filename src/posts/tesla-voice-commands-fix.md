@@ -103,8 +103,8 @@ Dust, dirt, and debris can physically block microphone pickups, especially the c
 
 ### Cleaning Procedure
 
-1. Use [compressed air](https://www.amazon.de/s?k=compressed+air+duster+electronics&tag=diyrepair-21) to blow out dust around the headliner near the rearview mirror — **short bursts from 15cm away**
-2. Gently wipe the area with a [dry microfiber cloth](https://www.amazon.de/s?k=microfiber+cloth+cleaning+electronics&tag=diyrepair-21) — don't use liquid cleaners near electronics
+1. Use [compressed air](https://www.amazon.com/s?k=compressed+air+duster+electronics&tag=diyrepair07-20) to blow out dust around the headliner near the rearview mirror — **short bursts from 15cm away**
+2. Gently wipe the area with a [dry microfiber cloth](https://www.amazon.com/s?k=microfiber+cloth+cleaning+electronics&tag=diyrepair07-20) — don't use liquid cleaners near electronics
 3. Check A-pillar covers for any obstruction or aftermarket accessories blocking mics
 4. If you have aftermarket sunshades or headliner modifications, ensure they don't cover microphone areas
 

@@ -133,14 +133,14 @@ In freezing temperatures, windows can freeze to the rubber door seals:
 2. Turn on climate control and set cabin heat to maximum
 3. Wait 5-10 minutes for the seals to thaw
 4. Once freed, run the window up and down a few times
-5. Apply [silicone lubricant spray](https://www.amazon.de/s?k=silicone+lubricant+spray+automotive&tag=diyrepair-21) to the seals to prevent re-freezing
+5. Apply [silicone lubricant spray](https://www.amazon.com/s?k=silicone+lubricant+spray+automotive&tag=diyrepair07-20) to the seals to prevent re-freezing
 
 ### Calibration Drift in Cold Weather
 
 Rubber seals contract in cold temperatures, changing the window's expected stopping point. If you notice windows not sealing properly in winter:
 
 - Recalibrate when the car is at outdoor temperature (not in a heated garage)
-- Treat all door seals with [rubber conditioner](https://www.amazon.de/s?k=rubber+seal+conditioner+automotive&tag=diyrepair-21) before winter
+- Treat all door seals with [rubber conditioner](https://www.amazon.com/s?k=rubber+seal+conditioner+automotive&tag=diyrepair07-20) before winter
 - Pre-condition your cabin using the Tesla app — this warms seals and makes windows operate smoothly
 
 See our [winter preparation guide](/posts/tesla-winter-preparation-guide/) for complete cold-weather maintenance tips.
@@ -162,10 +162,10 @@ Several things can cause calibration to drift:
 If recalibration doesn't fully solve the problem, dirty tracks might be the cause. This is especially common in dusty environments or after driving on unpaved roads:
 
 1. Lower the window halfway
-2. Spray [silicone lubricant](https://www.amazon.de/s?k=silicone+lubricant+spray+automotive&tag=diyrepair-21) into the track channel on both sides
+2. Spray [silicone lubricant](https://www.amazon.com/s?k=silicone+lubricant+spray+automotive&tag=diyrepair07-20) into the track channel on both sides
 3. Run the window up and down several times to distribute the lubricant
-4. Wipe away excess with a [microfiber cloth](https://www.amazon.de/s?k=microfiber+cleaning+cloths&tag=diyrepair-21)
-5. Clean the glass edge with [glass cleaner](https://www.amazon.de/s?k=invisible+glass+cleaner+automotive&tag=diyrepair-21) — dirt on the glass edge can trigger the pinch sensor
+4. Wipe away excess with a [microfiber cloth](https://www.amazon.com/s?k=microfiber+cleaning+cloths&tag=diyrepair07-20)
+5. Clean the glass edge with [glass cleaner](https://www.amazon.com/s?k=invisible+glass+cleaner+automotive&tag=diyrepair07-20) — dirt on the glass edge can trigger the pinch sensor
 6. Recalibrate using Method 1
 
 <div class="warning-box">
@@ -178,7 +178,7 @@ Healthy seals are essential for proper window operation — and they're the most
 
 **Every 3-6 months:**
 - Clean seals with mild soap and water
-- Apply [rubber conditioner](https://www.amazon.de/s?k=rubber+seal+conditioner+automotive&tag=diyrepair-21) to keep seals supple
+- Apply [rubber conditioner](https://www.amazon.com/s?k=rubber+seal+conditioner+automotive&tag=diyrepair07-20) to keep seals supple
 - Check for cracks or tears
 - Inspect the felt-like material inside the window track for wear
 

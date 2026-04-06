@@ -141,7 +141,7 @@ Dirty cameras are a major cause of phantom braking:
 - Front bumper cameras (Model 3 Highland, Model Y Juniper)
 
 <div class="tip-box">
-<strong>Pro Tip:</strong> Use a <a href="https://www.amazon.de/s?k=camera+lens+cleaner+spray&tag=diyrepair-21">camera lens cleaner</a> and <a href="https://www.amazon.de/s?k=microfiber+glass+cleaning+cloth&tag=diyrepair-21">microfiber cloth</a>. Avoid household glass cleaners which can leave residue that creates halos in sunlight — exactly the conditions that trigger phantom braking.
+<strong>Pro Tip:</strong> Use a <a href="https://www.amazon.com/s?k=camera+lens+cleaner+spray&tag=diyrepair07-20">camera lens cleaner</a> and <a href="https://www.amazon.com/s?k=microfiber+glass+cleaning+cloth&tag=diyrepair07-20">microfiber cloth</a>. Avoid household glass cleaners which can leave residue that creates halos in sunlight — exactly the conditions that trigger phantom braking.
 </div>
 
 ### Fix 2: Recalibrate Cameras
@@ -336,7 +336,7 @@ This guide focuses on free fixes. However:
 | Camera recalibration | Free (built-in) |
 | Software updates | Free |
 | [Dash cam setup](/posts/tesla-dashcam-usb-setup/) | €50-200 / $50-200 |
-| [Windshield sunshade](https://www.amazon.de/s?k=tesla+model+3+sunshade&tag=diyrepair-21) (reduces sun glare triggers) | €20-40 / $20-40 |
+| [Windshield sunshade](https://www.amazon.com/s?k=tesla+model+3+sunshade&tag=diyrepair07-20) (reduces sun glare triggers) | €20-40 / $20-40 |
 | Professional calibration (if needed) | €100-200 / $100-200 |
 
 ## What Tesla Owners Say Works Best

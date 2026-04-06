@@ -290,7 +290,7 @@ If the smell comes back within weeks of a new filter:
 
 3. **Check when buying used** — If you just bought a [used Tesla](/posts/tesla-used-buying-inspection-guide/), the cabin filter is almost certainly overdue. Replace it immediately — you don't know what the previous owner breathed through it.
 
-4. **Clean the housing while it's open** — You've already done the work of removing the panels. Take two extra minutes to vacuum out leaves, bugs, and debris from the filter housing. A can of [compressed air](https://www.amazon.de/s?k=compressed+air+duster+can&tag=diyrepair-21) works great for this.
+4. **Clean the housing while it's open** — You've already done the work of removing the panels. Take two extra minutes to vacuum out leaves, bugs, and debris from the filter housing. A can of [compressed air](https://www.amazon.com/s?k=compressed+air+duster+can&tag=diyrepair07-20) works great for this.
 
 5. **Combine with other maintenance** — While you're in DIY mode, knock out your [wiper blade replacement](/posts/tesla-windshield-wiper-replacement/) and [tire pressure check](/posts/tesla-tire-pressure-guide/) at the same time.
 

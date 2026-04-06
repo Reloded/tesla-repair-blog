@@ -181,7 +181,7 @@ For detailed range troubleshooting, see our [range loss fix guide](/posts/tesla-
 
 **Recommended:**
 - Portable tire inflator - Teslas don't have spare tires
-- [Tire repair kit](https://www.amazon.de/s?k=tire+repair+kit+tubeless&tag=diyrepair-21) - For small punctures
+- [Tire repair kit](https://www.amazon.com/s?k=tire+repair+kit+tubeless&tag=diyrepair07-20) - For small punctures
 - Sunshade for the panoramic roof - Reduces cabin heat while parked
 - Snacks and water - You'll thank yourself at charging stops
 - Blanket and warm clothes (winter) - If you break down in cold weather, [Camp Mode](/posts/tesla-dog-mode-camp-mode/) keeps the cabin warm but uses battery

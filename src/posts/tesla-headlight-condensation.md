@@ -105,12 +105,12 @@ Blocked vents are the most common cause of persistent condensation. Cleaning the
 **Step 1: Locate and Clean the Vents**
 1. Open the frunk and locate the headlight assembly from behind
 2. Find the rubber vent tubes — usually 1-2 per headlight, located on the back or bottom of the housing
-3. Use [compressed air](https://www.amazon.de/s?k=compressed+air+duster+electronics&tag=diyrepair-21) to blow out any debris, dirt, or spider webs (yes, spiders love these vents)
+3. Use [compressed air](https://www.amazon.com/s?k=compressed+air+duster+electronics&tag=diyrepair07-20) to blow out any debris, dirt, or spider webs (yes, spiders love these vents)
 4. Check that rubber vent caps aren't pinched or collapsed
 
 **Step 2: Add Desiccant Packets**
 1. Access the headlight housing area through the wheel liner or frunk
-2. Place 2-3 [silica gel packets](https://www.amazon.de/s?k=silica+gel+packets+car&tag=diyrepair-21) near (not blocking!) the vent holes
+2. Place 2-3 [silica gel packets](https://www.amazon.com/s?k=silica+gel+packets+car&tag=diyrepair07-20) near (not blocking!) the vent holes
 3. Secure packets with zip ties so they don't rattle or shift
 4. Replace packets every 3-6 months, or when the indicator beads change color
 
@@ -125,11 +125,11 @@ Blocked vents are the most common cause of persistent condensation. Cleaning the
 For persistent moisture that keeps returning despite clean vents and desiccant, the headlight seal has likely failed and needs replacement.
 
 **Tools Needed:**
-- [Heat gun](https://www.amazon.de/s?k=heat+gun+automotive&tag=diyrepair-21) (or hair dryer on highest setting)
-- [Butyl headlight sealant tape](https://www.amazon.de/s?k=headlight+sealant+butyl+tape&tag=diyrepair-21)
-- [T25 Torx screwdriver](https://www.amazon.de/s?k=torx+screwdriver+set+T25&tag=diyrepair-21)
+- [Heat gun](https://www.amazon.com/s?k=heat+gun+automotive&tag=diyrepair07-20) (or hair dryer on highest setting)
+- [Butyl headlight sealant tape](https://www.amazon.com/s?k=headlight+sealant+butyl+tape&tag=diyrepair07-20)
+- [T25 Torx screwdriver](https://www.amazon.com/s?k=torx+screwdriver+set+T25&tag=diyrepair07-20)
 - Plastic trim removal tools
-- [Lint-free microfiber cloths](https://www.amazon.de/s?k=microfiber+cloth+automotive+lint+free&tag=diyrepair-21)
+- [Lint-free microfiber cloths](https://www.amazon.com/s?k=microfiber+cloth+automotive+lint+free&tag=diyrepair07-20)
 - Isopropyl alcohol (90%+ for cleaning)
 
 **Step 1: Remove the Headlight Assembly**
@@ -156,7 +156,7 @@ For persistent moisture that keeps returning despite clean vents and desiccant, 
 **Step 3: Reseal and Reinstall**
 
 1. Remove all old sealant residue from both the lens and housing groove
-2. Apply fresh [butyl sealant tape](https://www.amazon.de/s?k=headlight+sealant+butyl+tape&tag=diyrepair-21) around the entire perimeter — don't leave any gaps
+2. Apply fresh [butyl sealant tape](https://www.amazon.com/s?k=headlight+sealant+butyl+tape&tag=diyrepair07-20) around the entire perimeter — don't leave any gaps
 3. Press the lens firmly and evenly into the housing
 4. Apply gentle heat around the perimeter to cure and bond the sealant
 5. Verify the seal by gently pressing the lens — you should feel no give or air movement

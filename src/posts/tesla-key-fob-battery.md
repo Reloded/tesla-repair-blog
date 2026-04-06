@@ -88,7 +88,7 @@ Not all CR2032 batteries are equal. Stick with reputable brands for consistent v
 - **Avoid:** No-name bulk batteries from unknown sellers — they may be below rated voltage out of the box
 
 <div class="tip-box">
-<strong>Pro Tip:</strong> Buy a 10-pack of <a href="https://www.amazon.de/s?k=CR2032+Duracell+10+pack&tag=diyrepair-21">Duracell CR2032 batteries</a>. They last 1-2 years in the fob, have a 10-year shelf life, and you'll use them in other devices too. Much cheaper per unit in bulk.
+<strong>Pro Tip:</strong> Buy a 10-pack of <a href="https://www.amazon.com/s?k=CR2032+Duracell+10+pack&tag=diyrepair07-20">Duracell CR2032 batteries</a>. They last 1-2 years in the fob, have a 10-year shelf life, and you'll use them in other devices too. Much cheaper per unit in bulk.
 </div>
 
 ## Step-by-Step Replacement
@@ -147,7 +147,7 @@ Work through these steps in order:
 
 2. **Try a different battery** — Dead-on-arrival batteries exist, especially with cheap brands. Test with another CR2032 if you have one.
 
-3. **Clean the contacts** — Use a dry cloth or [isopropyl alcohol wipe](https://www.amazon.de/s?k=isopropyl+alcohol+wipes+electronics&tag=diyrepair-21) to clean the battery contacts inside the fob. Corrosion or residue from a leaking old battery can prevent good contact.
+3. **Clean the contacts** — Use a dry cloth or [isopropyl alcohol wipe](https://www.amazon.com/s?k=isopropyl+alcohol+wipes+electronics&tag=diyrepair07-20) to clean the battery contacts inside the fob. Corrosion or residue from a leaking old battery can prevent good contact.
 
 4. **Check for physical damage** — Look inside for any cracked solder joints, loose components, or signs of water damage (white/green corrosion on the circuit board).
 
@@ -210,7 +210,7 @@ If a fresh, correctly oriented CR2032 doesn't fix the problem, the issue is with
 | Buttons feel stuck or mushy | Physical damage from drops | Replace fob |
 | Works intermittently near home | RF interference from home devices | Move router/devices away from where you park |
 
-**Replacement fob cost:** ~$150-175 from Tesla, or $50-100 from third-party sellers on [Amazon](https://www.amazon.de/s?k=Tesla+Model+S+key+fob+replacement&tag=diyrepair-21). Third-party fobs need to be paired through the touchscreen and may not support all features (like Summon).
+**Replacement fob cost:** ~$150-175 from Tesla, or $50-100 from third-party sellers on [Amazon](https://www.amazon.com/s?k=Tesla+Model+S+key+fob+replacement&tag=diyrepair07-20). Third-party fobs need to be paired through the touchscreen and may not support all features (like Summon).
 
 ## Cost Summary
 

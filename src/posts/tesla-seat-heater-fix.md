@@ -187,7 +187,7 @@ The connector under the seat is exposed to moisture from shoes, spills, and cond
 
 **DIY Fix:**
 1. Disconnect the heater connector
-2. Spray both sides with [electrical contact cleaner](https://www.amazon.de/s?k=electrical+contact+cleaner+spray&tag=diyrepair-21)
+2. Spray both sides with [electrical contact cleaner](https://www.amazon.com/s?k=electrical+contact+cleaner+spray&tag=diyrepair07-20)
 3. Use a small pick or compressed air to clean the pin cavities
 4. If pins look green or corroded, gently scrape with fine sandpaper (400 grit)
 5. Apply a thin coat of dielectric grease to prevent future corrosion

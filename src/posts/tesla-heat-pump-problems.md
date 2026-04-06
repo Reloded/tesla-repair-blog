@@ -121,7 +121,7 @@ A clogged filter is the #1 cause of HVAC underperformance and costs almost nothi
 1. Remove the [cabin air filter](/posts/tesla-cabin-air-filter/) — accessed from the **passenger footwell** (not the frunk)
 2. Inspect for dirt, leaves, pollen buildup, and debris
 3. Replace if visibly dirty — Tesla recommends every 2 years, but check annually in dusty or pollen-heavy areas
-4. Use a [HEPA-rated replacement filter](https://www.amazon.de/s?k=tesla+model+3+cabin+air+filter+HEPA&tag=diyrepair-21) for better filtration
+4. Use a [HEPA-rated replacement filter](https://www.amazon.com/s?k=tesla+model+3+cabin+air+filter+HEPA&tag=diyrepair07-20) for better filtration
 5. Test heat output — you may notice an immediate improvement
 
 ### Step 2: Clean the Front Condenser
@@ -129,7 +129,7 @@ A clogged filter is the #1 cause of HVAC underperformance and costs almost nothi
 The condenser (behind the front bumper fascia) needs clear airflow to transfer heat efficiently:
 
 1. Visually inspect through the lower front grille for leaves, plastic bags, or road debris
-2. Use [compressed air](https://www.amazon.de/s?k=compressed+air+can&tag=diyrepair-21) to blow out obstructions from the inside out
+2. Use [compressed air](https://www.amazon.com/s?k=compressed+air+can&tag=diyrepair07-20) to blow out obstructions from the inside out
 3. For thorough cleaning, remove the [front bumper](/posts/tesla-front-bumper-removal/) and rinse the condenser with low-pressure water
 4. Avoid high-pressure washing directly on the fins — this can bend the delicate aluminum
 5. Check again after driving through construction zones or after autumn leaf fall
@@ -170,7 +170,7 @@ While you can't recharge refrigerant yourself (requires EPA certification and sp
 
 1. Inspect visible HVAC lines in the frunk area for oily residue — refrigerant oil leaks alongside refrigerant gas
 2. Check if **both** heating and AC are weak (a refrigerant leak affects both)
-3. Use an [infrared thermometer](https://www.amazon.de/s?k=infrared+thermometer+hvac&tag=diyrepair-21) to measure vent outlet temperature — it should reach 40°C+ (104°F) when set to max heat
+3. Use an [infrared thermometer](https://www.amazon.com/s?k=infrared+thermometer+hvac&tag=diyrepair07-20) to measure vent outlet temperature — it should reach 40°C+ (104°F) when set to max heat
 4. If refrigerant is the issue, you'll need Tesla service or a qualified HVAC technician
 
 <div class="warning-box">
@@ -226,7 +226,7 @@ This interconnected design is why Tesla's [OBD2 diagnostics](/posts/tesla-obd2-s
 
 ## Heat Pump Error Codes
 
-If you have an [OBD2 scanner](https://www.amazon.de/s?k=obd2+scanner+tesla&tag=diyrepair-21), these diagnostic trouble codes (DTCs) indicate heat pump issues:
+If you have an [OBD2 scanner](https://www.amazon.com/s?k=obd2+scanner+tesla&tag=diyrepair07-20), these diagnostic trouble codes (DTCs) indicate heat pump issues:
 
 | Code | Meaning | Severity |
 |------|---------|----------|
@@ -265,7 +265,7 @@ If you have an [OBD2 scanner](https://www.amazon.de/s?k=obd2+scanner+tesla&tag=d
 
 | Issue | DIY Cost | Tesla Service Cost | Time |
 |-------|----------|-------------------|------|
-| Cabin filter replacement | [$25-50](https://www.amazon.de/s?k=tesla+cabin+air+filter&tag=diyrepair-21) | $100-150 | 15 min DIY |
+| Cabin filter replacement | [$25-50](https://www.amazon.com/s?k=tesla+cabin+air+filter&tag=diyrepair07-20) | $100-150 | 15 min DIY |
 | Condenser cleaning | Free | $100+ | 20 min DIY |
 | Software reset | Free | Free (mobile service) | 5 min |
 | Refrigerant recharge | N/A (certification required) | $300-500 | 1-2 hours |

@@ -130,7 +130,7 @@ The Model S door handle is notorious for failures. The handle contains a small m
 **Step 3: Repair or Replace**
 
 **For gear failure (most common):**
-- Replacement gear kits are available on Amazon (~$30–50): [search Tesla door handle gear kit](https://www.amazon.de/s?k=tesla+model+s+door+handle+gear+kit&tag=diyrepair-21)
+- Replacement gear kits are available on Amazon (~$30–50): [search Tesla door handle gear kit](https://www.amazon.com/s?k=tesla+model+s+door+handle+gear+kit&tag=diyrepair07-20)
 - Disassemble the handle unit (4–6 small Phillips screws)
 - Replace the broken plastic gear with the new one
 - Reassemble and apply a thin layer of silicone grease to gear teeth
@@ -141,7 +141,7 @@ The Model S door handle is notorious for failures. The handle contains a small m
 - Replace motor if dead (~$40–60 aftermarket)
 
 **For complete handle failure:**
-- Aftermarket handles available (~$150–250): [search aftermarket Model S door handle](https://www.amazon.de/s?k=tesla+model+s+door+handle+replacement&tag=diyrepair-21)
+- Aftermarket handles available (~$150–250): [search aftermarket Model S door handle](https://www.amazon.com/s?k=tesla+model+s+door+handle+replacement&tag=diyrepair07-20)
 - OEM replacements from Tesla (~$300–500)
 
 **Torque Specs — Model S Door Handle:**
@@ -152,7 +152,7 @@ The Model S door handle is notorious for failures. The handle contains a small m
 
 1. Insert the repaired/new handle into the door
 2. Secure mounting bolts — torque to **9 Nm**
-3. Reconnect electrical connector (apply a small amount of [dielectric grease](https://www.amazon.de/s?k=dielectric+grease&tag=diyrepair-21) to the pins)
+3. Reconnect electrical connector (apply a small amount of [dielectric grease](https://www.amazon.com/s?k=dielectric+grease&tag=diyrepair07-20) to the pins)
 4. Test handle operation before reinstalling door panel
 5. Reinstall door panel in reverse order — clips first from the top, then press firmly along the bottom
 
@@ -182,7 +182,7 @@ These models have simpler mechanical handles but can still fail. The mechanism u
 4. Apply silicone spray to prevent refreezing
 
 <div class="tip-box">
-<strong>Prevention Tip:</strong> Spray <a href="https://www.amazon.de/dp/B00AF0OFVU?tag=diyrepair-21">silicone lubricant</a> on door handles, seals, and pivot points before winter. This prevents ice from bonding to the surface. Reapply every 3–4 months in cold climates.
+<strong>Prevention Tip:</strong> Spray <a href="https://www.amazon.com/dp/B00AF0OFVU?tag=diyrepair07-20">silicone lubricant</a> on door handles, seals, and pivot points before winter. This prevents ice from bonding to the surface. Reapply every 3–4 months in cold climates.
 </div>
 
 ### Full Handle Replacement (Model 3/Y) — Step by Step

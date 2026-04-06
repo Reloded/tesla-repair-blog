@@ -51,7 +51,7 @@ This is the #1 fix — and the most overlooked. Tesla vehicles have **8 cameras*
 
 **How to clean them properly:**
 
-1. Use a clean, soft [microfiber cloth](https://www.amazon.de/dp/B07GXFMSHY?tag=diyrepair-21) — never paper towels or dry rags
+1. Use a clean, soft [microfiber cloth](https://www.amazon.com/dp/B07GXFMSHY?tag=diyrepair07-20) — never paper towels or dry rags
 2. Spray glass cleaner on the cloth, **not** directly on the camera
 3. Gently wipe each lens in a circular motion
 4. Pay special attention to the **fender cameras** — they collect the most road grime

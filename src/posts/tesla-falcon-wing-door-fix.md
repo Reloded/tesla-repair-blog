@@ -184,9 +184,9 @@ Over time, the falcon wing door hinge mechanisms can develop stiffness or creaki
 
 **What you need:**
 - White lithium grease (for metal hinge pivot points)
-- [Silicone spray](https://www.amazon.de/s?k=silicone+spray+lubricant&tag=diyrepair-21) (for rubber seals and weather stripping)
+- [Silicone spray](https://www.amazon.com/s?k=silicone+spray+lubricant&tag=diyrepair07-20) (for rubber seals and weather stripping)
 - Clean rags
-- [Trim removal tools](https://www.amazon.de/s?k=trim+removal+tool+set+car&tag=diyrepair-21) (if accessing inner hinge covers)
+- [Trim removal tools](https://www.amazon.com/s?k=trim+removal+tool+set+car&tag=diyrepair07-20) (if accessing inner hinge covers)
 
 **Procedure:**
 

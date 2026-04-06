@@ -91,10 +91,10 @@ Dirt, road salt, and debris accumulation is the #1 cause of trunk problems, espe
 
 1. Open the trunk fully
 2. Locate the latch mechanism on the trunk lid (the hook-shaped metal piece)
-3. Spray [silicone lubricant](https://www.amazon.de/s?k=silicone+lubricant+spray+automotive&tag=diyrepair-21) directly on the latch
+3. Spray [silicone lubricant](https://www.amazon.com/s?k=silicone+lubricant+spray+automotive&tag=diyrepair07-20) directly on the latch
 4. Clean the striker on the car body (the U-shaped post the latch grabs)
-5. Wipe all surrounding surfaces with a [microfiber cloth](https://www.amazon.de/s?k=microfiber+cloth+automotive&tag=diyrepair-21)
-6. Clean any visible sensors with [isopropyl alcohol](https://www.amazon.de/s?k=isopropyl+alcohol+99+percent&tag=diyrepair-21) on a cotton swab
+5. Wipe all surrounding surfaces with a [microfiber cloth](https://www.amazon.com/s?k=microfiber+cloth+automotive&tag=diyrepair07-20)
+6. Clean any visible sensors with [isopropyl alcohol](https://www.amazon.com/s?k=isopropyl+alcohol+99+percent&tag=diyrepair07-20) on a cotton swab
 
 <div class="tip-box">
 <strong>Tip:</strong> Never use WD-40 on Tesla latches. Use silicone-based lubricant only — petroleum-based products degrade rubber seals and weatherstripping over time. This applies to <a href="/posts/tesla-door-seal-maintenance/">door seals</a> too.
@@ -114,7 +114,7 @@ If cleaning didn't fix it, the striker likely needs a small adjustment. This is 
 
 ### What You'll Need
 
-- [T30 Torx screwdriver](https://www.amazon.de/s?k=T30+torx+screwdriver&tag=diyrepair-21) (Model 3/Y)
+- [T30 Torx screwdriver](https://www.amazon.com/s?k=T30+torx+screwdriver&tag=diyrepair07-20) (Model 3/Y)
 - Painter's tape or a marker to mark the original position
 
 ### Step-by-Step Adjustment
@@ -167,7 +167,7 @@ If striker adjustment doesn't solve it, the latch itself may need attention.
 
 Sometimes surface cleaning isn't enough:
 
-1. Remove the interior trunk trim panel using [trim removal tools](https://www.amazon.de/s?k=trim+removal+tool+set+automotive&tag=diyrepair-21) to access the full latch mechanism
+1. Remove the interior trunk trim panel using [trim removal tools](https://www.amazon.com/s?k=trim+removal+tool+set+automotive&tag=diyrepair07-20) to access the full latch mechanism
 2. Clean the entire mechanism with brake cleaner (spray, let drip, wipe)
 3. Apply fresh silicone lubricant to all pivot points
 4. Manually operate the latch 20-30 times to work the lubricant in

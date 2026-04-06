@@ -247,7 +247,7 @@ Open the app while charging to see:
 
 ### With an OBD2 Scanner
 
-For the most detailed data, an [OBDLink CX scanner](https://www.amazon.de/dp/B0D7F5F4HN?tag=diyrepair-21) with Scan My Tesla shows:
+For the most detailed data, an [OBDLink CX scanner](https://www.amazon.com/dp/B0D7F5F4HN?tag=diyrepair07-20) with Scan My Tesla shows:
 - Individual cell voltages during charging
 - Exact battery temperature across all sensors
 - BMS-imposed power limits and why
@@ -295,7 +295,7 @@ Tesla can run remote diagnostics on your charging system and battery. If there's
 
 If slow Supercharging is a recurring frustration, investing in home charging eliminates the problem for daily driving:
 
-- **[Tesla Wall Connector](https://www.amazon.de/dp/B0CS1YX18P?tag=diyrepair-21):** Up to 11.5 kW (48A) — adds ~60 km/hour of charge
+- **[Tesla Wall Connector](https://www.amazon.com/dp/B0CS1YX18P?tag=diyrepair07-20):** Up to 11.5 kW (48A) — adds ~60 km/hour of charge
 - **[Portable EV Charger (Lectron)](https://www.awin1.com/cread.php?awinmid=91891&awinaffid=2729872&ued=https%3A%2F%2Fev-lectron.com%2Fcollections%2Fev-chargers):** Flexible option for renters or second homes
 - **Standard wall outlet:** 2-3 kW — slow but enough for overnight top-ups
 

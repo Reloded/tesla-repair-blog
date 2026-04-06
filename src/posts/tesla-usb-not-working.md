@@ -364,7 +364,7 @@ If you're upgrading from a pre-2024 Tesla:
 
 - **"USB device not supported" on Highland:** Some USB-C hubs with HDMI passthrough confuse Tesla's USB controller. Use a simple USB-C hub without video output
 - **Intermittent disconnects on Juniper:** Early 2026 builds had a USB power management bug. Update to software version 2026.2+ which fixes this
-- **Adapter issues:** Cheap USB-A to USB-C adapters can cause data corruption. Stick with name-brand adapters from [Anker](https://www.amazon.de/s?k=anker+usb+c+adapter&tag=diyrepair-21) or Apple
+- **Adapter issues:** Cheap USB-A to USB-C adapters can cause data corruption. Stick with name-brand adapters from [Anker](https://www.amazon.com/s?k=anker+usb+c+adapter&tag=diyrepair07-20) or Apple
 
 ## Best USB Drives for Tesla in 2026
 

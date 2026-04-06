@@ -155,7 +155,7 @@ Tesla supports multiple phone keys (one per driver). Managing them properly prev
 4. Go to **Controls > Locks > Keys** to view active keys
 
 <div class="tip-box">
-<strong>Always carry a backup:</strong> Keep a <a href="https://www.amazon.de/s?k=tesla+key+card+holder+wallet&tag=diyrepair-21" target="_blank" rel="nofollow noopener">key card in your wallet</a> as backup. Phone keys can fail from phone updates, dead batteries, or Bluetooth problems. A <a href="/posts/tesla-key-fob-battery/">key fob</a> is another reliable alternative.
+<strong>Always carry a backup:</strong> Keep a <a href="https://www.amazon.com/s?k=tesla+key+card+holder+wallet&tag=diyrepair07-20" target="_blank" rel="nofollow noopener">key card in your wallet</a> as backup. Phone keys can fail from phone updates, dead batteries, or Bluetooth problems. A <a href="/posts/tesla-key-fob-battery/">key fob</a> is another reliable alternative.
 </div>
 
 ## Audio Streaming Issues
@@ -164,7 +164,7 @@ Tesla supports multiple phone keys (one per driver). Managing them properly prev
 
 Common causes and fixes:
 
-1. **Phone position:** Keep your phone in a stable location, ideally on a [MagSafe-compatible mount](https://www.amazon.de/s?k=tesla+model+3+phone+mount+magsafe&tag=diyrepair-21). Sitting on the phone or putting it in a metal-lined pocket can block the signal.
+1. **Phone position:** Keep your phone in a stable location, ideally on a [MagSafe-compatible mount](https://www.amazon.com/s?k=tesla+model+3+phone+mount+magsafe&tag=diyrepair07-20). Sitting on the phone or putting it in a metal-lined pocket can block the signal.
 
 2. **Reduce streaming quality:** In Spotify/Apple Music, lower the streaming quality setting. High-quality audio requires more consistent Bluetooth bandwidth.
 
@@ -175,7 +175,7 @@ Common causes and fixes:
 ### Audio Delay (Lip Sync Issues)
 
 - Normal Bluetooth audio delay is 100-300ms
-- For video watching, use a wired [USB-C connection](https://www.amazon.de/s?k=usb+c+cable+fast+charging+1m&tag=diyrepair-21) if your Tesla supports USB media
+- For video watching, use a wired [USB-C connection](https://www.amazon.com/s?k=usb+c+cable+fast+charging+1m&tag=diyrepair07-20) if your Tesla supports USB media
 - Theater mode with Bluetooth will always have some delay — this is a Bluetooth limitation, not a Tesla issue
 
 ### Poor Audio Quality
@@ -263,7 +263,7 @@ Bluetooth operates on 2.4GHz, which can get crowded:
 | Other cars' Bluetooth | Low | Usually auto-resolved |
 | WiFi hotspots | Medium | Switch Tesla WiFi off if not needed |
 | Aftermarket dash cams | High | Use wired power, not Bluetooth |
-| Wireless phone chargers | Low-Medium | Use a quality [Tesla-specific mount](https://www.amazon.de/s?k=tesla+wireless+charger+mount&tag=diyrepair-21) |
+| Wireless phone chargers | Low-Medium | Use a quality [Tesla-specific mount](https://www.amazon.com/s?k=tesla+wireless+charger+mount&tag=diyrepair07-20) |
 
 ## Preventing Bluetooth Problems
 

@@ -189,7 +189,7 @@ Understanding the energy cost:
 | Off | Zero drain | Multi-day airport parking |
 
 **Reducing drain while keeping protection active:**
-- Use a [windshield sunshade](https://www.amazon.de/s?k=tesla+model+3+sunshade+windshield&tag=diyrepair-21) — can cut cabin temps by 15–20°C
+- Use a [windshield sunshade](https://www.amazon.com/s?k=tesla+model+3+sunshade+windshield&tag=diyrepair07-20) — can cut cabin temps by 15–20°C
 - Park in shade whenever possible
 - Use "Fan Only" mode for moderate climates
 - Switch to "Off" if parked for more than 12 hours anyway (feature auto-stops)

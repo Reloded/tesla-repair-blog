@@ -149,8 +149,8 @@ The Model Y has a large **rear liftgate** (hatchback-style) that's significantly
 - 🇺🇸 [TRQ Trunk Strut Set — 4.4★, 320 ratings, $44.95](https://www.amazon.com/dp/B0CWCS7G8G?tag=diyrepair07-20) — Amazon's Overall Pick, fits 2017-2023 Model 3
 - 🇺🇸 [BOXI Rear Trunk Supports — budget option](https://www.amazon.com/dp/B0F93CJN36?tag=diyrepair07-20) — basic gas struts, 2 pack
 - 🇺🇸 [Getfarway Power Liftgate Strut — 2021-2023](https://www.amazon.com/dp/B0D8KCDLFL?tag=diyrepair07-20) — electric power strut replacement
-- 🇩🇪 [Model 3 Trunk Struts (DE)](https://www.amazon.de/s?k=tesla+model+3+kofferraum+gasdruckfeder&tag=diyrepair-21)
-- 🇩🇪 [Model Y Liftgate Struts (DE)](https://www.amazon.de/s?k=tesla+model+y+heckklappe+gasdruckfeder&tag=diyrepair-21)
+- 🇩🇪 [Model 3 Trunk Struts (DE)](https://www.amazon.com/s?k=tesla+model+3+kofferraum+gasdruckfeder&tag=diyrepair07-20)
+- 🇩🇪 [Model Y Liftgate Struts (DE)](https://www.amazon.com/s?k=tesla+model+y+heckklappe+gasdruckfeder&tag=diyrepair07-20)
 
 ---
 

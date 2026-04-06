@@ -127,7 +127,7 @@ This is the most critical step. Don't skip any part of it.
 5. For extra safety, disconnect the 12V battery:
    - **Model 3:** Under the rear seat (passenger side)
    - **Model Y:** Under the hood, front trunk area
-6. Put on your [insulated gloves](https://www.amazon.de/dp/B0CVTK3HLS?tag=diyrepair-21) before touching any charging components
+6. Put on your [insulated gloves](https://www.amazon.com/dp/B0CVTK3HLS?tag=diyrepair07-20) before touching any charging components
 
 <div class="info-box">
 <strong>Note:</strong> The charge port connects to the HV battery via busbars. While the pins are not live when no charger is connected and the car is off, always treat HV components with caution. Use a <a href="https://www.amazon.com/dp/B07SHLS639?tag=diyrepair07-20">multimeter</a> to verify zero voltage before touching any wiring.
@@ -138,7 +138,7 @@ This is the most critical step. Don't skip any part of it.
 The charge port is accessed through the left rear quarter panel:
 
 1. Open the trunk
-2. Remove the trunk side trim panel on the driver's (left) side — gently pull clips with [trim removal tools](https://www.amazon.de/dp/B005NMCE04?tag=diyrepair-21)
+2. Remove the trunk side trim panel on the driver's (left) side — gently pull clips with [trim removal tools](https://www.amazon.com/dp/B005NMCE04?tag=diyrepair07-20)
 3. Disconnect and remove the tail light assembly (see our [tail light replacement guide](/posts/tesla-tail-light-replacement/) for detailed photos)
 4. This gives you access to the charge port area behind the quarter panel
 
@@ -161,7 +161,7 @@ The charge port is accessed through the left rear quarter panel:
 
 ### Step 5: Remove the Charge Port Assembly
 
-1. Remove the mounting bolts securing the charge port carrier to the body (typically 3–4 bolts, [10mm socket](https://www.amazon.de/dp/B09BFNPCMQ?tag=diyrepair-21))
+1. Remove the mounting bolts securing the charge port carrier to the body (typically 3–4 bolts, [10mm socket](https://www.amazon.com/dp/B09BFNPCMQ?tag=diyrepair07-20))
 2. Carefully slide the assembly out through the body opening
 3. Note the routing of cables and the drain tube — take another photo
 
@@ -172,7 +172,7 @@ The charge port is accessed through the left rear quarter panel:
 3. Slide the new charge port assembly into position
 4. Install mounting bolts hand-tight first
 5. **Verify alignment** — the charge port should be flush with the body panel and centered in the opening. Use the charge port door as a reference
-6. Torque mounting bolts to **5 Nm (4 ft-lbs)** with a [torque wrench](https://www.amazon.de/dp/B0BH2ZKQ6T?tag=diyrepair-21)
+6. Torque mounting bolts to **5 Nm (4 ft-lbs)** with a [torque wrench](https://www.amazon.com/dp/B0BH2ZKQ6T?tag=diyrepair07-20)
 7. Reconnect all electrical connectors in reverse order:
    - Manual release cable
    - Charge port ECU connector (click until fully seated)
@@ -245,7 +245,7 @@ This is an advanced repair. Consider professional help if:
 - The damage extends beyond the charge port (wiring harness, body damage)
 - You see **burn marks on the wiring harness** behind the charge port (not just the pins)
 - Your vehicle is still under warranty — let Tesla handle it for free
-- You don't have access to a [torque wrench](https://www.amazon.de/dp/B0BH2ZKQ6T?tag=diyrepair-21) or [insulated gloves](https://www.amazon.de/dp/B0CVTK3HLS?tag=diyrepair-21)
+- You don't have access to a [torque wrench](https://www.amazon.com/dp/B0BH2ZKQ6T?tag=diyrepair07-20) or [insulated gloves](https://www.amazon.com/dp/B0CVTK3HLS?tag=diyrepair07-20)
 
 ## Related Guides
 
