@@ -226,7 +226,7 @@ This interconnected design is why Tesla's [OBD2 diagnostics](/posts/tesla-obd2-s
 
 ## Heat Pump Error Codes
 
-If you have an [OBD2 scanner](https://amzn.to/4jK2mRF), these diagnostic trouble codes (DTCs) indicate heat pump issues:
+If you have an [OBD2 scanner](https://www.amazon.de/s?k=obd2+scanner+tesla&tag=diyrepair-21), these diagnostic trouble codes (DTCs) indicate heat pump issues:
 
 | Code | Meaning | Severity |
 |------|---------|----------|
