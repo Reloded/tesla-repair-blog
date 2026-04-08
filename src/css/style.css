@@ -103,16 +103,19 @@ img {
   margin: 0 auto;
   padding: 2rem;
   min-height: 60vh;
-  overflow-x: hidden;
+  overflow-x: clip; /* clip instead of hidden so full-width hero can break out */
 }
 
-/* Hero Section */
+/* Hero Section — breaks out of the max-width container to fill full viewport width */
 .hero {
   background: linear-gradient(135deg, var(--secondary-color) 0%, #2d3748 100%);
   color: white;
   padding: 5rem 2rem;
   text-align: center;
-  margin: -2rem -2rem 3rem -2rem;
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
+  margin-top: -2rem;
+  margin-bottom: 3rem;
 }
 
 .hero h1 {
@@ -315,6 +318,7 @@ img {
   box-shadow: 0 4px 15px rgba(0,0,0,0.08);
   transition: transform 0.3s, box-shadow 0.3s;
   border: 1px solid var(--border-color);
+  position: relative; /* needed for stretched link */
 }
 
 .post-card:hover {
@@ -390,6 +394,13 @@ img {
 
 .post-card h3 a {
   color: inherit;
+}
+
+/* Stretched link — makes the entire card clickable via the title anchor */
+.post-card h3 a::after {
+  content: "";
+  position: absolute;
+  inset: 0;
 }
 
 .post-card h3 a:hover {
@@ -1200,7 +1211,8 @@ img {
   }
 
   .hero {
-    margin: -2rem -2rem 2rem -2rem;
+    margin-top: -2rem;
+    margin-bottom: 2rem;
     padding: 3rem 1.5rem;
   }
 
