@@ -1,9 +1,9 @@
 ---
 layout: post.njk
-title: "Tesla Navigation Not Working? 9 Fixes That Actually Work"
-description: "Maps won't load, GPS stuck, or wrong location? Here are 9 real fixes from a Tesla repair shop — most take under 2 minutes. No service center visit needed."
+title: "How to Reset Tesla GPS & Navigation (Model 3/Y) - 9 Proven Fixes"
+description: "Tesla GPS not working or showing wrong location? Learn how to reset GPS navigation on Model 3 and Model Y with 9 proven fixes — Most take under 2 minutes, no service center needed."
 date: 2025-01-14
-updated: 2026-03-20
+updated: 2026-04-08
 category: "Software"
 difficulty: "Easy"
 readTime: "12 min read"
