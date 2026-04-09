@@ -1,7 +1,7 @@
 ---
 layout: post.njk
 title: "Tesla Maintenance Schedule: What You Actually Need (2026)"
-description: "Skip the dealer upsells. Here's every Tesla maintenance item with exact intervals, DIY difficulty ratings, and which ones you can safely skip to save $1,000+."
+description: "Tesla maintenance schedule 2026: exact service intervals, DIY difficulty ratings, and what to skip to save €3,300+ over 8 years. Covers Model 3, Y, S, X, Highland, and Juniper."
 date: 2026-02-26
 category: "Maintenance"
 difficulty: "Beginner"
@@ -138,6 +138,26 @@ Early Model S vehicles (2012-2016) had known drive unit issues:
 - Clunking during transitions between drive and regen
 - These were covered under the 8-year drivetrain warranty and most have been replaced by now
 
+## Model 3 Highland & Model Y Juniper (2024+): What Changed
+
+The 2024 refresh models introduced a few maintenance differences worth knowing:
+
+### 16V Auxiliary Battery
+
+Both the Highland and Juniper replaced the old 12V lead-acid auxiliary battery with a **16V lithium-ion system**. The upside: it's far more reliable, with an expected lifespan of 10+ years vs. 3-5 years for the old lead-acid units. The downside: there's no published DIY replacement procedure as of 2026. If you get a "12V battery" alert on a 2024+ vehicle, take it to Tesla service. **Do not substitute a standard 12V battery** — the charging system is calibrated for 16V and will damage electronics.
+
+### Rear-Wheel Steering (Model Y Juniper)
+
+The Juniper added 4-wheel active steering (4WAS), where rear wheels steer slightly at low speeds for improved maneuverability. This changes tire wear dynamics: the rear tires experience more lateral scrub during low-speed turns and parking. Check rear tire wear every **6 months** instead of yearly. When getting an alignment, confirm your shop has 4WAS calibration capability — not all alignment shops have updated their equipment yet.
+
+### Cabin Air Filter: Same Interval, New Location
+
+The Highland moved the cabin air filter access point compared to older Model 3s. The replacement interval is unchanged (every 2 years), but the procedure differs. Check for model-year-specific instructions before starting — search "Model 3 Highland cabin air filter replacement" for the correct approach. The [OEM-compatible filter](/posts/tesla-cabin-air-filter/) is the same specification and costs €15-30 on [Amazon DE](https://www.amazon.de/s?k=tesla+model+3+highland+cabin+air+filter&tag=diyrepair-21) or [Amazon US](https://www.amazon.com/s?k=tesla+model+3+highland+cabin+air+filter&tag=diyrepair07-20).
+
+### Everything Else: Same Schedule
+
+Brake fluid intervals, coolant schedule, tire rotation cadence, and wiper blade replacement are unchanged from previous generations. The full maintenance tables above apply to 2024+ models as well.
+
 ## What You Don't Need to Maintain
 
 Just as important as knowing what to do is knowing what you can skip:
@@ -149,6 +169,36 @@ Just as important as knowing what to do is knowing what you can skip:
 - **No exhaust system** - nothing to rust or replace
 - **No emission testing** - EVs are exempt in most countries
 - **No alternator/starter motor** - electric architecture eliminates these
+
+## Tire Health & Replacement: The Hidden Tesla Maintenance Cost
+
+Tires deserve their own section because Teslas eat them faster than comparable ICE cars. The reason is weight: a Model Y weighs ~2,100 kg vs. ~1,600 kg for a comparable gas SUV. That extra 500 kg shows up directly on your tires — especially with an electric motor's instant torque delivery.
+
+### Typical Tire Lifespan by Model
+
+| Model | Front Tires | Rear Tires | Notes |
+|-------|------------|-----------|-------|
+| Model 3 LR / SR | 40,000–60,000 km | 35,000–55,000 km | RWD: rears wear faster |
+| Model 3 Performance | 25,000–35,000 km | 20,000–30,000 km | Aggressive alignment, staggered fitment |
+| Model Y LR / AWD | 35,000–50,000 km | 28,000–45,000 km | Heavy + AWD loads rears |
+| Model Y Performance | 20,000–35,000 km | 15,000–28,000 km | Staggered — can't cross-rotate |
+| Model S LR | 40,000–60,000 km | 35,000–55,000 km | Air suspension distributes load better |
+
+**Why rear tires wear faster on AWD models:** The rear motor handles the majority of regenerative braking load. Combined with rear-biased torque distribution during acceleration, rear tires typically need replacing 10,000–20,000 km before fronts. Rotating every 10,000 km is the single best way to equalize this.
+
+### When to Replace
+
+- **EU legal minimum:** 1.6mm tread depth across the central three-quarters of the tread
+- **Tesla recommendation:** Replace at **3mm** — significantly better wet grip and hydroplaning resistance
+- **Quick check:** Insert a 1-euro coin into the tread groove. If you can see the gold outer rim, you're near the limit
+
+A [digital tread depth gauge](https://www.amazon.de/s?k=reifenprofil+messgeraet+digital&tag=diyrepair-21) ([US](https://www.amazon.com/s?k=tire+tread+depth+gauge&tag=diyrepair07-20)) costs €5–10 and takes 30 seconds to use. Worth keeping in the frunk alongside your emergency kit.
+
+### Performance Models: Staggered Tires and What That Means
+
+Model 3 Performance and Model Y Performance use **different front and rear tire sizes** (staggered fitment). These **cannot be cross-rotated** to the opposite axle — only front-left/front-right swaps are possible. The practical result: rear tires wear out before fronts, and you'll typically replace rear tires twice for every set of fronts. Factor this into your total cost of ownership.
+
+For the complete rotation procedure for all models, see our [Tesla Tire Rotation Guide](/posts/tesla-tire-rotation/).
 
 ## Maintenance Cost Comparison: DIY vs. Service Center
 
@@ -217,6 +267,63 @@ Don't rely on memory. Set up maintenance reminders:
 3. **Mileage-based** - note your odometer reading and set the next service at the target km
 4. **[Service Mode](/posts/tesla-service-mode-guide/)** - periodically check Service Alerts for any flagged issues
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How often should I service my Tesla?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Tesla recommends checking brake fluid every 2 years, replacing the cabin air filter every 2 years (12 months in high-dust areas), rotating tires every 6,250 miles (10,000 km), and flushing coolant every 4 years. No oil changes, spark plugs, or transmission service are ever needed."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does a Tesla need oil changes?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Teslas have no combustion engine and require no oil changes, spark plugs, transmission fluid, or timing belts. This saves Tesla owners €500–€1,000+ annually compared to gas vehicles. The only fluid changes needed are brake fluid (every 2–4 years) and coolant (every 4 years)."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What maintenance does a Tesla actually need?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Essential Tesla maintenance: tire rotations every 6,250 miles (10,000 km), brake fluid check every 2 years and replacement every 4 years, cabin air filter replacement every 2 years, coolant flush every 4 years, and 12V auxiliary battery replacement every 3–5 years (lead-acid) or 7–10+ years (lithium). That's the complete list."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How much does Tesla maintenance cost per year?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Annual Tesla maintenance typically costs €150–€300 DIY or €400–€800 at a service center. Over 8 years, DIY maintenance totals around €1,200 vs. €4,500+ at a Tesla service center — a saving of over €3,300. Main costs are cabin air filter (€15–30 DIY), tire rotation (free with a jack), and brake fluid (€10–30 DIY)."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long do Tesla tires last?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Tesla tires typically last 35,000–60,000 km on standard models and 20,000–35,000 km on Performance variants. Rear tires wear faster than fronts on AWD models due to regenerative braking loads. Rotate every 10,000 km to maximize lifespan. Replace when tread depth reaches 3mm (EU legal minimum is 1.6mm)."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I take my Tesla to an independent shop for maintenance?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. In the EU, consumer protection laws mean Tesla cannot require you to use their service centers for warranty to remain valid. Many independent EV shops offer Tesla maintenance — cabin air filter, brake fluid, tire rotation, coolant flush — at lower prices. Keep records of all maintenance performed."
+      }
+    }
+  ]
+}
+</script>
+
 ## Frequently Asked Questions
 
 **Does skipping maintenance void the Tesla warranty?**
@@ -233,6 +340,12 @@ The high-voltage battery and drive unit are covered for 8 years / 160,000 km (Mo
 
 **How do I know when brake pads need replacing?**
 Tesla pads last much longer than ICE cars (100,000-200,000 km) due to regenerative braking. When they're getting low, you'll hear a high-pitched squeal. You can also visually inspect pad thickness through the wheel spokes. See our [brake pad guide](/posts/tesla-brake-pad-replacement/).
+
+**How long do Tesla tires last?**
+Teslas are heavier than equivalent gas cars, which accelerates tire wear. Standard Model 3/Y variants typically see 35,000–60,000 km per set; Performance variants on aggressive alignment get 20,000–35,000 km. Rear tires wear faster than fronts on AWD models — rotate every 10,000 km and replace at 3mm tread depth (EU legal minimum: 1.6mm).
+
+**Does the Model 3 Highland or Model Y Juniper need different maintenance?**
+Mostly the same schedule. The 2024+ models have a 16V lithium auxiliary battery (10+ year lifespan, no DIY replacement procedure available yet) and the Model Y Juniper has rear-wheel steering that changes tire wear patterns slightly. All brake fluid, coolant, cabin air filter, and tire rotation intervals remain the same as older models.
 
 ## Conclusion
 
