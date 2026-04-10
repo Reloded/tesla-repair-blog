@@ -27,6 +27,7 @@ body {
   line-height: 1.7;
   color: var(--text-color);
   background: var(--bg-color);
+  overflow-x: clip;
 }
 
 a {
@@ -103,7 +104,6 @@ img {
   margin: 0 auto;
   padding: 2rem;
   min-height: 60vh;
-  overflow-x: clip; /* clip instead of hidden so full-width hero can break out */
 }
 
 /* Hero Section — breaks out of the max-width container to fill full viewport width */
