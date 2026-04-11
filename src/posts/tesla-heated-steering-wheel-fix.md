@@ -6,7 +6,7 @@ date: 2025-02-19
 category: "Climate & Comfort"
 difficulty: "Easy–Medium"
 readTime: "7 min read"
-models: "Model 3 (2021+), Y, S, X"
+models: "Model 3, Model Y, Model S, Model X"
 emoji: "🔥"
 tools:
   - name: "Plastic Trim Removal Tool Set"

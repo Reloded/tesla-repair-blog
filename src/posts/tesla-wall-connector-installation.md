@@ -6,7 +6,7 @@ date: 2025-02-20
 category: "Charging"
 difficulty: "Advanced"
 readTime: "12 min read"
-models: "Model 3, Y, S, X, Cybertruck"
+models: "Model 3, Model Y, Model S, Model X, Cybertruck"
 emoji: "⚡"
 tools:
   - name: "Tesla Wall Connector Gen 3"

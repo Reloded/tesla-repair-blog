@@ -7,7 +7,7 @@ lastmod: 2026-03-13
 category: "HVAC"
 difficulty: "Medium"
 readTime: "18 min read"
-models: "Model 3, Model Y, 2021+ Model S/X"
+models: "Model 3, Model Y, Model S, Model X"
 emoji: "🌡️"
 tools:
   - name: "OBD2 Scanner for Tesla"

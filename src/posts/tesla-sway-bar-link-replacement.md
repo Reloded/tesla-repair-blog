@@ -6,7 +6,7 @@ date: 2026-02-06
 category: "Suspension"
 difficulty: "Medium"
 readTime: "15 min read"
-models: "Model 3/Y"
+models: "Model 3, Model Y"
 emoji: "🔧"
 tools:
   - name: "Floor Jack and Jack Stands"

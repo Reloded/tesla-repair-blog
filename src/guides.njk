@@ -120,7 +120,11 @@ description: Complete list of DIY Tesla repair guides for Model 3, Model Y, Mode
 </div>
 
 <p class="no-results" style="display: none; text-align: center; padding: 2rem; color: #666;">
-  No guides found in this category. <a href="#" onclick="document.querySelector('[data-filter=all]').click(); return false;">Show all guides</a>
+  No model-specific guides found. <a href="#" onclick="document.querySelector('[data-model=all]').click(); return false;">Show all guides</a>
+</p>
+
+<p class="general-guides-notice" style="display: none; text-align: center; padding: 0.75rem 1rem; margin-top: -1rem; margin-bottom: 1.5rem; background: #f0f4ff; border-radius: 8px; color: #555; font-size: 0.9rem;">
+  <span class="general-count"></span> general guides that apply to all Teslas are hidden. <a href="#" onclick="document.querySelector('[data-model=all]').click(); return false;">Show all guides →</a>
 </p>
 
 <style>
@@ -306,25 +310,51 @@ description: Complete list of DIY Tesla repair guides for Model 3, Model Y, Mode
     const modelBtns = document.querySelectorAll('.model-btn');
     const cards = document.querySelectorAll('.post-card');
     const noResults = document.querySelector('.no-results');
+    const generalNotice = document.querySelector('.general-guides-notice');
+    const generalCountEl = document.querySelector('.general-count');
 
     let activeCategory = 'all';
     let activeModel = 'all';
 
     function applyFilters() {
       let visibleCount = 0;
+      let hiddenGeneralCount = 0;
+
       cards.forEach(card => {
         const catMatch = activeCategory === 'all' || card.dataset.category === activeCategory;
-        const models = card.dataset.models || '';
-        const modelMatch = activeModel === 'all' || models.includes('all models') || models.includes(activeModel);
+        const models = (card.dataset.models || '').toLowerCase();
+        const isAllModels = models.includes('all models');
+
+        let modelMatch;
+        if (activeModel === 'all') {
+          // "All" button: show everything
+          modelMatch = true;
+        } else {
+          // Specific model: only show articles explicitly tagged for this model
+          // "All Models" articles are hidden (shown via the notice instead)
+          modelMatch = models.includes(activeModel);
+        }
 
         if (catMatch && modelMatch) {
           card.classList.remove('hidden');
           visibleCount++;
         } else {
           card.classList.add('hidden');
+          // Count "All Models" articles hidden by the model filter (not category filter)
+          if (catMatch && activeModel !== 'all' && isAllModels) {
+            hiddenGeneralCount++;
+          }
         }
       });
+
       noResults.style.display = visibleCount === 0 ? 'block' : 'none';
+
+      if (hiddenGeneralCount > 0) {
+        generalCountEl.textContent = hiddenGeneralCount;
+        generalNotice.style.display = 'block';
+      } else {
+        generalNotice.style.display = 'none';
+      }
     }
 
     filterBtns.forEach(btn => {
