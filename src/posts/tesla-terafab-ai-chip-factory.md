@@ -1,4 +1,5 @@
 ---
+type: news
 layout: redirect.njk
 redirect: /posts/tesla-terafab-chip-factory-explained/
 title: "Tesla Terafab"

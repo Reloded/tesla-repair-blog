@@ -1,4 +1,5 @@
 ---
+type: news
 layout: post.njk
 title: "Tesla Vision vs Radar: Why Tesla Ditched Sensors (2026)"
 description: "Why did Tesla remove radar and LiDAR? Learn which models are affected, how Tesla Vision compares, and what it means for Autopilot safety and performance."

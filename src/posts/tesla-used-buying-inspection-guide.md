@@ -1,4 +1,5 @@
 ---
+type: news
 layout: post.njk
 title: "Used Tesla Buying Guide: Pre-Purchase Inspection Checklist"
 description: "Complete used Tesla buying guide with a 50-point inspection checklist covering battery health, panel gaps, common failures, and what to check before buying a Model 3, Y, S or X."

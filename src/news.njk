@@ -1,0 +1,73 @@
+---
+layout: base.njk
+title: Tesla News & Updates
+description: Latest Tesla news, model updates, buying guides, and ownership tips from Tesla DIY Repair.
+---
+
+<div class="section-header" style="margin-bottom: 2rem;">
+  <h1>Tesla News & Updates</h1>
+  <p>Model updates, ownership guides, buying advice, and the latest from Tesla</p>
+</div>
+
+<div class="posts-grid">
+  {% for post in collections.newsItems %}
+    <article class="post-card">
+      <div class="post-card-visual cat-{{ post.data.category | lower | replace(' ', '-') | replace('&', '') | replace('  ', '-') }}">
+        <span class="cat-icon">📰</span>
+      </div>
+      <div class="post-card-content">
+        <div class="post-card-tags">
+          {% if post.data.category %}
+            <span class="post-card-category category-tag">{{ post.data.category }}</span>
+          {% endif %}
+        </div>
+        <h3><a href="{{ post.url }}">{{ post.data.title }}</a></h3>
+        <p>{{ post.data.description }}</p>
+        <div class="post-card-meta">
+          <span>{{ post.data.readTime or "5 min read" }}</span>
+          <span class="read-more" aria-hidden="true">Read More →</span>
+        </div>
+      </div>
+    </article>
+  {% endfor %}
+</div>
+
+{% if collections.newsItems | length == 0 %}
+  <p style="text-align: center; padding: 3rem; color: #666;">No news articles yet.</p>
+{% endif %}
+
+<style>
+  .post-card-tags {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .category-tag {
+    background: #e8e8e8 !important;
+    color: #555 !important;
+  }
+
+  .post-card-visual {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  }
+
+  .cat-icon {
+    font-size: 2.5rem;
+    filter: drop-shadow(0 2px 4px rgba(0,0,0,0.2));
+  }
+
+  .post-card {
+    position: relative;
+  }
+
+  .post-card h3 a::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+  }
+</style>

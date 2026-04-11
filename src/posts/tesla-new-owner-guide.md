@@ -1,4 +1,5 @@
 ---
+type: news
 layout: post.njk
 title: "Tesla New Owner Guide: Everything to Do in Your First 30 Days"
 description: "The complete guide for new Tesla owners. Day-one setup, essential settings, first accessories, maintenance basics, and insider tips to get the most out of your Model 3, Y, S, X, or Cybertruck."

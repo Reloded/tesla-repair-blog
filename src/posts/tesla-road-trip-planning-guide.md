@@ -1,4 +1,5 @@
 ---
+type: news
 layout: post.njk
 title: "Tesla Road Trip Planning: The Complete Guide"
 description: "Plan the perfect Tesla road trip. Covers route planning, Supercharger strategy, range optimization, packing essentials, and what to do when things go wrong."

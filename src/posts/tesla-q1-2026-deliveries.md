@@ -1,4 +1,5 @@
 ---
+type: news
 layout: post.njk
 title: "Tesla Q1 2026 Deliveries: Missed Wall Street Estimates at 358,023 — Full Breakdown"
 description: "Tesla delivered 358,023 vehicles in Q1 2026, missing the 365,645 consensus by 7,600 units. Here's the full breakdown including the 50,000 vehicle inventory buildup."

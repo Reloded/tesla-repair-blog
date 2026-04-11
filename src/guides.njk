@@ -65,7 +65,7 @@ description: Complete list of DIY Tesla repair guides for Model 3, Model Y, Mode
 
 <div class="category-filters" aria-label="Filter by category">
   <span class="filter-label">Category:</span>
-  <button class="filter-btn active" data-filter="all">All ({{ collections.posts | length }})</button>
+  <button class="filter-btn active" data-filter="all">All ({{ collections.repairGuides | length }})</button>
   <button class="filter-btn" data-filter="electrical">Electrical</button>
   <button class="filter-btn" data-filter="software">Software</button>
   <button class="filter-btn" data-filter="maintenance">Maintenance</button>
@@ -77,7 +77,7 @@ description: Complete list of DIY Tesla repair guides for Model 3, Model Y, Mode
 </div>
 
 <div class="posts-grid" id="guides-grid">
-  {% for post in collections.posts | reverse %}
+  {% for post in collections.repairGuides %}
     {% set category = post.data.category | lower %}
     {% set filterGroup = "other" %}
 

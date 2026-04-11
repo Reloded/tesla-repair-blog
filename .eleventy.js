@@ -31,6 +31,20 @@ module.exports = function(eleventyConfig) {
     });
   });
 
+  // Repair guides only (excludes news/informational posts)
+  eleventyConfig.addCollection("repairGuides", function(collectionApi) {
+    return collectionApi.getFilteredByGlob("src/posts/*.md")
+      .filter(item => item.data.type !== "news")
+      .sort((a, b) => b.date - a.date);
+  });
+
+  // News & informational posts only
+  eleventyConfig.addCollection("newsItems", function(collectionApi) {
+    return collectionApi.getFilteredByGlob("src/posts/*.md")
+      .filter(item => item.data.type === "news")
+      .sort((a, b) => b.date - a.date);
+  });
+
   return {
     dir: {
       input: "src",

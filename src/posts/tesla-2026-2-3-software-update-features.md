@@ -1,4 +1,5 @@
 ---
+type: news
 layout: post.njk
 title: "Tesla 2026.2.3 Update: Hidden Features, Battery Recalibration, Autopark & Service Mode Changes"
 description: "Tesla's 2026.2.3 software update packs more than the release notes say. Here's what actually changed — Service Mode FSD trip weights, automatic battery recalibration, improved Autopark, and more."

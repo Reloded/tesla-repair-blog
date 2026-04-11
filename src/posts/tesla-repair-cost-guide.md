@@ -1,4 +1,5 @@
 ---
+type: news
 layout: post.njk
 title: "Tesla Repair Cost Guide: Dealer vs DIY Prices (2026)"
 description: "Tesla DIY repair costs vs dealer prices for every common fix. Tesla troubleshooting starts here — save thousands with step-by-step guides."

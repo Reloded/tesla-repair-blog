@@ -1,4 +1,5 @@
 ---
+type: news
 layout: post.njk
 title: "Tesla Battery Replacement Cost: What It Really Costs in 2025"
 description: "Real Tesla battery replacement costs from service centers and independent shops. Covers all models, pack vs module replacement, warranty coverage, and whether it's worth it vs selling."
