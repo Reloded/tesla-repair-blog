@@ -1,0 +1,29 @@
+---
+layout: base.njk
+title: Tesla HVAC & Climate Control Repair Guides
+description: Fix Tesla AC not cooling, heater problems, cabin air filter replacement, and climate control issues. DIY guides for all Tesla models.
+permalink: /guides/hvac-climate/
+---
+
+<div class="section-header" style="margin-bottom: 2rem;">
+  <h1>❄️ Tesla HVAC & Climate Guides</h1>
+  <p>AC not blowing cold? Heater acting up? Musty smell? These guides cover cabin air filter replacement, AC troubleshooting, and climate system maintenance for every Tesla model.</p>
+  <p><a href="/guides/">← Back to all guides</a></p>
+</div>
+
+<div class="posts-grid">
+  {% for post in collections.posts | reverse %}
+    {% set cat = post.data.category | lower %}
+    {% if cat == "hvac" or cat == "climate" or cat == "climate & comfort" or cat == "cooling system" %}
+    <article class="post-card">
+      <div class="post-card-visual cat-hvac">
+        <span class="cat-icon">❄️</span>
+        <span class="difficulty-tag">{{ post.data.difficulty or "Easy" }}</span>
+        <span class="cat-label">{{ post.data.category }}</span>
+      </div>
+      <h3><a href="{{ post.url }}">{{ post.data.title }}</a></h3>
+      <p class="post-excerpt">{{ post.data.description }}</p>
+    </article>
+    {% endif %}
+  {% endfor %}
+</div>

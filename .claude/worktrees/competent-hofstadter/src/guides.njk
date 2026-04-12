@@ -1,0 +1,348 @@
+---
+layout: base.njk
+title: All Repair Guides
+description: Complete list of DIY Tesla repair guides for Model 3, Model Y, Model S, and Model X. Save money on maintenance and repairs.
+---
+{% from "icons.njk" import icon %}
+
+<div class="section-header" style="margin-bottom: 1rem;">
+  <h1>Tesla DIY Repair Guides</h1>
+  <p>Step-by-step tutorials to fix and maintain your Tesla yourself</p>
+</div>
+
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1rem; margin-bottom: 2.5rem;">
+  <a href="/guides/battery-electrical/" style="display: block; padding: 1.25rem; background: var(--bg-secondary, #f8f9fa); border-radius: 12px; text-decoration: none; color: inherit; border: 1px solid var(--border, #e0e0e0); transition: transform 0.15s;">
+    <span class="nav-icon">{{ icon("electrical", "24") }}</span>
+    <strong style="display: block; margin-top: 0.25rem;">Battery & Electrical</strong>
+    <small style="color: var(--text-secondary, #666);">12V battery, wiring, diagnostics</small>
+  </a>
+  <a href="/guides/brakes-suspension/" style="display: block; padding: 1.25rem; background: var(--bg-secondary, #f8f9fa); border-radius: 12px; text-decoration: none; color: inherit; border: 1px solid var(--border, #e0e0e0); transition: transform 0.15s;">
+    <span class="nav-icon">{{ icon("suspension", "24") }}</span>
+    <strong style="display: block; margin-top: 0.25rem;">Brakes & Suspension</strong>
+    <small style="color: var(--text-secondary, #666);">Pads, shocks, control arms</small>
+  </a>
+  <a href="/guides/hvac-climate/" style="display: block; padding: 1.25rem; background: var(--bg-secondary, #f8f9fa); border-radius: 12px; text-decoration: none; color: inherit; border: 1px solid var(--border, #e0e0e0); transition: transform 0.15s;">
+    <span class="nav-icon">{{ icon("hvac", "24") }}</span>
+    <strong style="display: block; margin-top: 0.25rem;">HVAC & Climate</strong>
+    <small style="color: var(--text-secondary, #666);">AC, heater, cabin filter</small>
+  </a>
+  <a href="/guides/exterior-body/" style="display: block; padding: 1.25rem; background: var(--bg-secondary, #f8f9fa); border-radius: 12px; text-decoration: none; color: inherit; border: 1px solid var(--border, #e0e0e0); transition: transform 0.15s;">
+    <span class="nav-icon">{{ icon("exterior", "24") }}</span>
+    <strong style="display: block; margin-top: 0.25rem;">Body & Exterior</strong>
+    <small style="color: var(--text-secondary, #666);">Paint, bumpers, panel gaps</small>
+  </a>
+  <a href="/guides/software-tech/" style="display: block; padding: 1.25rem; background: var(--bg-secondary, #f8f9fa); border-radius: 12px; text-decoration: none; color: inherit; border: 1px solid var(--border, #e0e0e0); transition: transform 0.15s;">
+    <span class="nav-icon">{{ icon("software", "24") }}</span>
+    <strong style="display: block; margin-top: 0.25rem;">Software & Tech</strong>
+    <small style="color: var(--text-secondary, #666);">Screen, Autopilot, dashcam</small>
+  </a>
+  <a href="/guides/charging/" style="display: block; padding: 1.25rem; background: var(--bg-secondary, #f8f9fa); border-radius: 12px; text-decoration: none; color: inherit; border: 1px solid var(--border, #e0e0e0); transition: transform 0.15s;">
+    <span class="nav-icon">{{ icon("charging", "24") }}</span>
+    <strong style="display: block; margin-top: 0.25rem;">Charging</strong>
+    <small style="color: var(--text-secondary, #666);">Wall Connector, ports, Supercharging</small>
+  </a>
+  <a href="/guides/maintenance/" style="display: block; padding: 1.25rem; background: var(--bg-secondary, #f8f9fa); border-radius: 12px; text-decoration: none; color: inherit; border: 1px solid var(--border, #e0e0e0); transition: transform 0.15s;">
+    <span class="nav-icon">{{ icon("maintenance", "24") }}</span>
+    <strong style="display: block; margin-top: 0.25rem;">Maintenance & Tires</strong>
+    <small style="color: var(--text-secondary, #666);">Wipers, rotation, alignment</small>
+  </a>
+  <a href="/guides/interior/" style="display: block; padding: 1.25rem; background: var(--bg-secondary, #f8f9fa); border-radius: 12px; text-decoration: none; color: inherit; border: 1px solid var(--border, #e0e0e0); transition: transform 0.15s;">
+    <span class="nav-icon">{{ icon("interior", "24") }}</span>
+    <strong style="display: block; margin-top: 0.25rem;">Interior</strong>
+    <small style="color: var(--text-secondary, #666);">Door handles, speakers, trim</small>
+  </a>
+</div>
+
+<div class="model-filters" aria-label="Filter by Tesla model">
+  <span class="filter-label">Model:</span>
+  <button class="model-btn active" data-model="all">All</button>
+  <button class="model-btn" data-model="model 3">Model 3</button>
+  <button class="model-btn" data-model="model y">Model Y</button>
+  <button class="model-btn" data-model="model s">Model S</button>
+  <button class="model-btn" data-model="model x">Model X</button>
+  <button class="model-btn" data-model="cybertruck">Cybertruck</button>
+</div>
+
+<div class="category-filters" aria-label="Filter by category">
+  <span class="filter-label">Category:</span>
+  <button class="filter-btn active" data-filter="all">All ({{ collections.posts | length }})</button>
+  <button class="filter-btn" data-filter="electrical">Electrical</button>
+  <button class="filter-btn" data-filter="software">Software</button>
+  <button class="filter-btn" data-filter="maintenance">Maintenance</button>
+  <button class="filter-btn" data-filter="interior">Interior</button>
+  <button class="filter-btn" data-filter="suspension">Suspension & Brakes</button>
+  <button class="filter-btn" data-filter="hvac">HVAC & Climate</button>
+  <button class="filter-btn" data-filter="exterior">Exterior & Body</button>
+  <button class="filter-btn" data-filter="charging">Charging</button>
+</div>
+
+<div class="posts-grid" id="guides-grid">
+  {% for post in collections.posts | reverse %}
+    {% set category = post.data.category | lower %}
+    {% set filterGroup = "other" %}
+
+    {% if category == "electrical" or category == "battery" or category == "connectivity" %}
+      {% set filterGroup = "electrical" %}
+    {% elif category == "software" or category == "troubleshooting" or category == "autopilot" or category == "autopilot & safety" or category == "features" or category == "cameras" %}
+      {% set filterGroup = "software" %}
+    {% elif category == "maintenance" or category == "tires" or category == "wheels" or category == "driving" %}
+      {% set filterGroup = "maintenance" %}
+    {% elif category == "interior" %}
+      {% set filterGroup = "interior" %}
+    {% elif category == "suspension" or category == "brakes" %}
+      {% set filterGroup = "suspension" %}
+    {% elif category == "hvac" or category == "climate" %}
+      {% set filterGroup = "hvac" %}
+    {% elif category == "exterior" or category == "body" or category == "body & exterior" or category == "body & glass" %}
+      {% set filterGroup = "exterior" %}
+    {% elif category == "charging" %}
+      {% set filterGroup = "charging" %}
+    {% endif %}
+
+    <article class="post-card" data-category="{{ filterGroup }}" data-models="{{ post.data.models | lower | default('all models') }}">
+      <div class="post-card-visual cat-{{ filterGroup }}">
+        <span class="cat-icon">{{ icon(filterGroup) }}</span>
+      </div>
+      <div class="post-card-content">
+        <div class="post-card-tags">
+          <span class="post-card-category">{{ post.data.difficulty }}</span>
+          <span class="post-card-category category-tag">{{ post.data.category }}</span>
+        </div>
+        <h3><a href="{{ post.url }}">{{ post.data.title }}</a></h3>
+        <p>{{ post.data.description }}</p>
+        <div class="post-card-meta">
+          <span>{{ post.data.readTime }}</span>
+          <span class="read-more" aria-hidden="true">Read Guide →</span>
+        </div>
+      </div>
+    </article>
+  {% endfor %}
+</div>
+
+<p class="no-results" style="display: none; text-align: center; padding: 2rem; color: #666;">
+  No guides found in this category. <a href="#" onclick="document.querySelector('[data-filter=all]').click(); return false;">Show all guides</a>
+</p>
+
+<style>
+  .model-filters,
+  .category-filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    align-items: center;
+    padding: 1rem;
+    background: var(--card-bg, #f8f9fa);
+    border-radius: 8px;
+  }
+
+  .model-filters {
+    margin-bottom: 0.5rem;
+  }
+
+  .category-filters {
+    margin-bottom: 2rem;
+  }
+
+  .filter-label {
+    font-weight: 600;
+    font-size: 0.85rem;
+    color: var(--text-light, #666);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-right: 0.25rem;
+  }
+
+  .filter-btn,
+  .model-btn {
+    padding: 0.5rem 1rem;
+    border: 2px solid var(--border-color, #ddd);
+    background: var(--bg-color, #fff);
+    color: var(--text-color, #333);
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    font-weight: 500;
+    transition: all 0.2s ease;
+  }
+
+  .filter-btn:hover,
+  .model-btn:hover {
+    border-color: #e31937;
+    color: #e31937;
+  }
+
+  .filter-btn.active {
+    background: #e31937;
+    border-color: #e31937;
+    color: white;
+  }
+
+  .model-btn.active {
+    background: var(--secondary-color, #171a20);
+    border-color: var(--secondary-color, #171a20);
+    color: white;
+  }
+
+  .post-card-tags {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .category-tag {
+    background: #e8e8e8 !important;
+    color: #555 !important;
+  }
+
+  .post-card.hidden {
+    display: none;
+  }
+
+  /* Category Visual Headers */
+  .post-card-visual {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .cat-icon {
+    font-size: 2.5rem;
+    z-index: 1;
+    filter: drop-shadow(0 2px 4px rgba(0,0,0,0.2));
+  }
+
+  /* Category Gradients */
+  .cat-electrical {
+    background: linear-gradient(135deg, #f6d365 0%, #fda085 100%);
+  }
+
+  .cat-software {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  }
+
+  .cat-maintenance {
+    background: linear-gradient(135deg, #11998e 0%, #38ef7d 100%);
+  }
+
+  .cat-interior {
+    background: linear-gradient(135deg, #eb5757 0%, #f2994a 100%);
+  }
+
+  .cat-suspension {
+    background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+  }
+
+  .cat-hvac {
+    background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);
+  }
+
+  .cat-exterior {
+    background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);
+  }
+
+  .cat-charging {
+    background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
+  }
+
+  .cat-other {
+    background: linear-gradient(135deg, #d299c2 0%, #fef9d7 100%);
+  }
+
+  @media (max-width: 600px) {
+    .category-filters,
+    .model-filters {
+      gap: 0.4rem;
+    }
+
+    .filter-btn,
+    .model-btn {
+      padding: 0.4rem 0.8rem;
+      font-size: 0.8rem;
+    }
+
+    .filter-label {
+      width: 100%;
+      font-size: 0.75rem;
+    }
+  }
+
+  @media (prefers-color-scheme: dark) {
+    .category-filters,
+    .model-filters {
+      background: #2a2a2a;
+    }
+
+    .filter-btn,
+    .model-btn {
+      background: #1a1a1a;
+      border-color: #444;
+      color: #eee;
+    }
+
+    .filter-btn:hover,
+    .model-btn:hover {
+      border-color: #e31937;
+      color: #e31937;
+    }
+
+    .model-btn.active {
+      background: #444;
+      border-color: #666;
+    }
+
+    .category-tag {
+      background: #333 !important;
+      color: #ccc !important;
+    }
+  }
+</style>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const filterBtns = document.querySelectorAll('.filter-btn');
+    const modelBtns = document.querySelectorAll('.model-btn');
+    const cards = document.querySelectorAll('.post-card');
+    const noResults = document.querySelector('.no-results');
+
+    let activeCategory = 'all';
+    let activeModel = 'all';
+
+    function applyFilters() {
+      let visibleCount = 0;
+      cards.forEach(card => {
+        const catMatch = activeCategory === 'all' || card.dataset.category === activeCategory;
+        const models = card.dataset.models || '';
+        const modelMatch = activeModel === 'all' || models.includes('all models') || models.includes(activeModel);
+
+        if (catMatch && modelMatch) {
+          card.classList.remove('hidden');
+          visibleCount++;
+        } else {
+          card.classList.add('hidden');
+        }
+      });
+      noResults.style.display = visibleCount === 0 ? 'block' : 'none';
+    }
+
+    filterBtns.forEach(btn => {
+      btn.addEventListener('click', function() {
+        activeCategory = this.dataset.filter;
+        filterBtns.forEach(b => b.classList.remove('active'));
+        this.classList.add('active');
+        applyFilters();
+      });
+    });
+
+    modelBtns.forEach(btn => {
+      btn.addEventListener('click', function() {
+        activeModel = this.dataset.model;
+        modelBtns.forEach(b => b.classList.remove('active'));
+        this.classList.add('active');
+        applyFilters();
+      });
+    });
+  });
+</script>

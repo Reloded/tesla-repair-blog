@@ -1,0 +1,13 @@
+node_modules/
+_site/
+.DS_Store
+*.log
+
+# Google API credentials (sensitive)
+scripts/credentials.json
+scripts/token.json
+scripts/token-ga.json
+
+# Environment variables
+.env
+Photos-1-001/

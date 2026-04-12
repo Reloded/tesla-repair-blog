@@ -1,0 +1,259 @@
+---
+layout: base.njk
+---
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "{{ title }}",
+  "description": "{{ description }}",
+  "datePublished": "{{ date | isoDate }}",
+  {% if lastUpdated %}"dateModified": "{{ lastUpdated | isoDate }}",{% endif %}
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://tesladiyrepair.com{{ page.url }}"
+  },
+  "image": "https://tesladiyrepair.com{{ featuredImage or '/images/social-share.jpg' }}",
+  "author": {
+    "@type": "Person",
+    "name": "Tesla DIY Repair",
+    "url": "https://tesladiyrepair.com/about/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Tesla DIY Repair",
+    "url": "https://tesladiyrepair.com",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://tesladiyrepair.com/images/favicon.svg"
+    }
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://tesladiyrepair.com/"},
+    {"@type": "ListItem", "position": 2, "name": "Repair Guides", "item": "https://tesladiyrepair.com/guides/"},
+    {"@type": "ListItem", "position": 3, "name": "{{ title }}"}
+  ]
+}
+</script>
+{% if difficulty and readTime %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "{{ title }}",
+  "description": "{{ description }}",
+  "totalTime": "PT{{ readTime | replace(' min read', '') | replace(' min', '') }}M",
+  {% if tools %}"tool": [{% for tool in tools %}{"@type": "HowToTool", "name": "{{ tool.name }}"}{% if not loop.last %},{% endif %}{% endfor %}],{% endif %}
+  "estimatedCost": {
+    "@type": "MonetaryAmount",
+    "currency": "USD",
+    "value": "{{ estimatedCost or '50-200' }}"
+  }
+}
+</script>
+{% endif %}
+{% if faq %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {% for item in faq %}
+    {
+      "@type": "Question",
+      "name": "{{ item.q }}",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "{{ item.a }}"
+      }
+    }{% if not loop.last %},{% endif %}
+    {% endfor %}
+  ]
+}
+</script>
+{% endif %}
+
+<article class="post">
+  <header class="post-header">
+    <h1>{{ title }}</h1>
+    <div class="post-meta">
+      <span>📅 {{ date | dateFormat }}</span>
+      {% if lastUpdated %}
+      <span>🔄 Updated: {{ lastUpdated | dateFormat }}</span>
+      {% endif %}
+      <span>⏱️ {{ readTime or "10 min read" }}</span>
+      <span>🔧 {{ difficulty or "Intermediate" }}</span>
+      <span>🚗 {{ models or "All Models" }}</span>
+    </div>
+    <div class="share-buttons">
+      <span>Share:</span>
+      <a href="https://twitter.com/intent/tweet?url=https://tesladiyrepair.com{{ page.url }}&text={{ title | urlencode }}" target="_blank" rel="noopener" title="Share on X">𝕏</a>
+      <a href="https://www.facebook.com/sharer/sharer.php?u=https://tesladiyrepair.com{{ page.url }}" target="_blank" rel="noopener" title="Share on Facebook">f</a>
+      <a href="https://www.reddit.com/submit?url=https://tesladiyrepair.com{{ page.url }}&title={{ title | urlencode }}" target="_blank" rel="noopener" title="Share on Reddit">r</a>
+      <a href="mailto:?subject={{ title | urlencode }}&body=Check out this Tesla repair guide: https://tesladiyrepair.com{{ page.url }}" title="Share via Email">✉</a>
+    </div>
+  </header>
+
+  <div class="post-layout">
+    <aside class="toc-sidebar">
+      <nav class="toc" id="toc">
+        <h4>📋 Contents</h4>
+        <ul id="toc-list"></ul>
+      </nav>
+
+      <div class="sidebar-promo">
+        <div class="promo-badge">🔥 NEW</div>
+        <h4>500+ AI Prompts for Creators</h4>
+        <p>Stop staring at a blank screen. 465+ ready-to-use prompts for ChatGPT, Claude & Grok — organized by platform.</p>
+        <ul class="promo-highlights">
+          <li>📱 Instagram, TikTok, Reels</li>
+          <li>📅 2026 Content Planner</li>
+          <li>⚡ Copy, paste, post</li>
+        </ul>
+        <a href="https://payhip.com/b/TnoJI" class="promo-cta" target="_blank" rel="noopener">Get It — $19.99</a>
+      </div>
+    </aside>
+
+    <div class="post-content" id="post-content">
+      {{ content | safe }}
+    </div>
+  </div>
+
+  <div class="author-box">
+    <img src="/images/repairs/tesla-workshop-drive-unit.webp" alt="Tesla repair workshop" class="author-img">
+    <div class="author-info">
+      <h4>About the Author</h4>
+      <p>Written by an independent, self-taught Tesla mechanic working on Teslas since 2018. I run my own shop and work on Teslas every day. These guides are based on real repair experience — not theory.</p>
+      <a href="/about/" class="author-link">More about this site →</a>
+    </div>
+  </div>
+
+  <div class="affiliate-box">
+    <h3>🛠️ Tools Needed for This Repair</h3>
+    <p>These are the tools I personally use and recommend. Using quality tools makes the job easier and safer.</p>
+    <ul>
+      {% if tools %}
+        {% for tool in tools %}
+        <li>
+          <div class="affiliate-link">
+            <span class="product-name">{{ tool.name }}</span>
+            {% if tool.provider == "ifixit" %}
+            <a href="{{ tool.link }}" class="buy-btn btn-ifixit" target="_blank" rel="nofollow noopener">View on iFixit</a>
+            {% elif tool.provider == "tesmanian" %}
+            <a href="{{ tool.link }}" class="buy-btn btn-tesmanian" target="_blank" rel="nofollow noopener">View on Tesmanian</a>
+            {% elif tool.provider == "lectron" %}
+            <a href="{{ tool.link }}" class="buy-btn btn-lectron" target="_blank" rel="nofollow noopener">View on Lectron</a>
+            {% elif tool.provider == "rrcarparts" %}
+            <a href="{{ tool.link }}" class="buy-btn btn-rrcarparts" target="_blank" rel="nofollow noopener">RR Car Parts 🇪🇺</a>
+            {% else %}
+            <div class="amazon-buttons">
+              {% if tool.asin_de %}
+              <a href="https://www.amazon.de/dp/{{ tool.asin_de }}?tag=diyrepair-21" class="buy-btn btn-amazon-de" target="_blank" rel="nofollow noopener">Amazon.de 🇩🇪 →</a>
+              {% else %}
+              <a href="{{ tool.link }}" class="buy-btn btn-amazon-de" target="_blank" rel="nofollow noopener">Amazon.de 🇩🇪</a>
+              {% endif %}
+              {% if tool.asin_com %}
+              <a href="https://www.amazon.com/dp/{{ tool.asin_com }}?tag=diyrepair07-20" class="buy-btn btn-amazon-us" target="_blank" rel="nofollow noopener">Amazon.com 🇺🇸 →</a>
+              {% else %}
+              <a href="{{ tool.link | replace('amazon.de', 'amazon.com') | replace('diyrepair-21', 'diyrepair07-20') }}" class="buy-btn btn-amazon-us" target="_blank" rel="nofollow noopener">Amazon.com 🇺🇸</a>
+              {% endif %}
+            </div>
+            {% endif %}
+          </div>
+        </li>
+        {% endfor %}
+      {% else %}
+        <li>
+          <div class="affiliate-link">
+            <span class="product-name">Basic Mechanic Tool Set</span>
+            <div class="amazon-buttons">
+              <a href="https://www.amazon.de/s?k=mechanic+tool+set&tag=diyrepair-21" class="buy-btn btn-amazon-de" target="_blank" rel="nofollow noopener">Amazon.de 🇩🇪</a>
+              <a href="https://www.amazon.com/s?k=mechanic+tool+set&tag=diyrepair07-20" class="buy-btn btn-amazon-us" target="_blank" rel="nofollow noopener">Amazon.com 🇺🇸</a>
+            </div>
+          </div>
+        </li>
+      {% endif %}
+    </ul>
+    <p style="margin-top: 1rem; font-size: 0.9rem; color: #666;"><em>We earn commissions from qualifying purchases through our affiliate partners. This helps support the site at no extra cost to you.</em></p>
+  </div>
+
+  <div class="article-newsletter">
+    <h3>Found This Guide Helpful?</h3>
+    <p>Get more Tesla repair tips and new guides delivered to your inbox.</p>
+    <form class="newsletter-form" action="https://buttondown.com/api/emails/embed-subscribe/tesladiyrepair" method="post" target="_blank">
+      <input type="email" name="email" placeholder="Your email" required>
+      <button type="submit">Subscribe</button>
+    </form>
+  </div>
+</article>
+
+<section style="margin-top: 3rem; padding: 2rem; background: var(--bg-light); border-radius: 12px;">
+  <h3>More Repair Guides</h3>
+  <div class="posts-grid" style="margin-top: 1.5rem;">
+    {% for post in collections.posts | reverse %}
+    {% if post.url != page.url and loop.index <= 3 %}
+    <div class="post-card">
+      <div class="post-card-content">
+        <h3><a href="{{ post.url }}">{{ post.data.title }}</a></h3>
+        <p>{{ post.data.description }}</p>
+      </div>
+    </div>
+    {% endif %}
+    {% endfor %}
+  </div>
+</section>
+
+<script>
+// Generate Table of Contents from h2 headings
+document.addEventListener('DOMContentLoaded', function() {
+  const content = document.getElementById('post-content');
+  const tocList = document.getElementById('toc-list');
+  const headings = content.querySelectorAll('h2');
+  
+  if (headings.length < 3) {
+    // Hide TOC for short articles
+    document.querySelector('.toc-sidebar').style.display = 'none';
+    return;
+  }
+  
+  headings.forEach((heading, index) => {
+    // Add ID to heading if it doesn't have one
+    if (!heading.id) {
+      heading.id = 'section-' + index;
+    }
+    
+    const li = document.createElement('li');
+    const a = document.createElement('a');
+    a.href = '#' + heading.id;
+    a.textContent = heading.textContent;
+    li.appendChild(a);
+    tocList.appendChild(li);
+  });
+  
+  // Highlight current section on scroll
+  const tocLinks = tocList.querySelectorAll('a');
+  window.addEventListener('scroll', function() {
+    let current = '';
+    headings.forEach(heading => {
+      const sectionTop = heading.offsetTop - 100;
+      if (window.scrollY >= sectionTop) {
+        current = heading.id;
+      }
+    });
+    
+    tocLinks.forEach(link => {
+      link.classList.remove('active');
+      if (link.getAttribute('href') === '#' + current) {
+        link.classList.add('active');
+      }
+    });
+  });
+});
+</script>

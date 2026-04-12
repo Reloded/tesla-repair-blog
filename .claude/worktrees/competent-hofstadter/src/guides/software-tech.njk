@@ -1,0 +1,29 @@
+---
+layout: base.njk
+title: Tesla Software & Technology Guides
+description: Troubleshoot Tesla screen issues, Autopilot problems, software updates, voice commands, dashcam, Sentry Mode, and more. DIY tech guides for all models.
+permalink: /guides/software-tech/
+---
+
+<div class="section-header" style="margin-bottom: 2rem;">
+  <h1>💻 Tesla Software & Tech Guides</h1>
+  <p>Screen frozen? Autopilot phantom braking? USB not working? These guides cover Tesla's software features, diagnostics, camera calibration, and tech troubleshooting.</p>
+  <p><a href="/guides/">← Back to all guides</a></p>
+</div>
+
+<div class="posts-grid">
+  {% for post in collections.posts | reverse %}
+    {% set cat = post.data.category | lower %}
+    {% if cat == "software" or cat == "troubleshooting" or cat == "autopilot" or cat == "autopilot & safety" or cat == "features" or cat == "cameras" or cat == "software & settings" or cat == "software & tech" or cat == "technology" or cat == "diagnostics" or cat == "safety" %}
+    <article class="post-card">
+      <div class="post-card-visual cat-software">
+        <span class="cat-icon">💻</span>
+        <span class="difficulty-tag">{{ post.data.difficulty or "Easy" }}</span>
+        <span class="cat-label">{{ post.data.category }}</span>
+      </div>
+      <h3><a href="{{ post.url }}">{{ post.data.title }}</a></h3>
+      <p class="post-excerpt">{{ post.data.description }}</p>
+    </article>
+    {% endif %}
+  {% endfor %}
+</div>

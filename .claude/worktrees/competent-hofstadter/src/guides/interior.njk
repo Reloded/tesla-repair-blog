@@ -1,0 +1,29 @@
+---
+layout: base.njk
+title: Tesla Interior Repair & Upgrade Guides
+description: DIY guides for Tesla door handles, speakers, seat repairs, interior trim, and cabin upgrades. Step-by-step tutorials for Model 3, Y, S & X.
+permalink: /guides/interior/
+---
+
+<div class="section-header" style="margin-bottom: 2rem;">
+  <h1>🪑 Tesla Interior Guides</h1>
+  <p>Door handles, speaker upgrades, seat fixes, trim repairs, and interior modifications. Everything you need to maintain and upgrade your Tesla's cabin.</p>
+  <p><a href="/guides/">← Back to all guides</a></p>
+</div>
+
+<div class="posts-grid">
+  {% for post in collections.posts | reverse %}
+    {% set cat = post.data.category | lower %}
+    {% if cat == "interior" %}
+    <article class="post-card">
+      <div class="post-card-visual cat-interior">
+        <span class="cat-icon">🪑</span>
+        <span class="difficulty-tag">{{ post.data.difficulty or "Easy" }}</span>
+        <span class="cat-label">{{ post.data.category }}</span>
+      </div>
+      <h3><a href="{{ post.url }}">{{ post.data.title }}</a></h3>
+      <p class="post-excerpt">{{ post.data.description }}</p>
+    </article>
+    {% endif %}
+  {% endfor %}
+</div>
