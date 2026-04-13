@@ -1,4 +1,5 @@
 ---
+type: news
 layout: post.njk
 title: "Tesla FSD v14.3 Update (2026.2.9.6): Everything Owners Need to Know"
 description: "Tesla FSD v14.3 is rolling out now with 20% faster reaction times, a rewritten MLIR compiler, upgraded vision, and smarter parking. Here's what changed, who gets it, and what to expect."
