@@ -23,7 +23,7 @@ description: DIY Tesla repair guides from an independent mechanic. Save thousand
   </div>
 
   <div class="posts-grid">
-    {% for post in collections.posts %}
+    {% for post in collections.repairGuides %}
     {% if loop.index <= 6 %}
     {% set category = post.data.category | lower %}
     {% set filterGroup = "other" %}
