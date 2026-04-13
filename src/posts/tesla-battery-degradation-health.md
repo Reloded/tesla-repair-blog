@@ -1,9 +1,9 @@
 ---
 layout: post.njk
 title: "Tesla Battery Degradation: What's Normal vs What's a Problem"
-description: "Is your Tesla losing range too fast? Real owner data shows what's normal (hint: 5-10% in year 1 is fine). Free tools to check your actual battery health percentage — and the one number that means warranty claim."
+description: "Is your Tesla losing range too fast? Real owner data shows what's normal (5-10% in year 1 is fine). Free tools to check your actual battery health — and the one number that triggers a warranty claim. Updated 2026."
 date: 2026-02-17
-updated: 2026-03-20
+updated: 2026-04-13
 category: "Battery"
 difficulty: "Easy"
 readTime: "20 min read"
@@ -323,7 +323,147 @@ For diagnosing other battery-related issues, check our guides on [phantom drain]
 
 ---
 
-*Last updated: March 2026. Degradation data based on publicly available fleet statistics and community reports.*
+## Buying a Used Tesla? Battery Health Check Protocol
+
+Battery health is the single most important factor when evaluating a used Tesla. A car with 20% degradation at 80,000 km isn't a bargain at any price — it means less range today and a potential €8,000–16,000 battery bill down the line. Here's how to check it properly before you commit.
+
+### The 15-Minute OBD2 Check
+
+Bring an [OBDLink CX Bluetooth adapter](https://www.amazon.com/dp/B08NFNLKTK?tag=diyrepair07-20) ([Amazon DE](https://www.amazon.de/dp/B0D7F5F4HN?tag=diyrepair-21)) and a phone with Scan My Tesla installed. Five minutes after arriving, you'll have hard data no seller can argue with.
+
+**What to check:**
+
+1. **Full pack energy (kWh)** — Compare to the original spec for that model year. A Model 3 Long Range should show ~73 kWh usable. Below 65 kWh is significant degradation (13%+).
+2. **Cell voltage delta** — The spread between the highest and lowest cell voltage in the pack:
+   - **Under 20 mV**: healthy, balanced pack
+   - **20–50 mV**: acceptable, may need balancing soon
+   - **50–100 mV**: warning sign — ask for a price reduction or have a shop inspect
+   - **Over 100 mV**: likely a bad cell module. Walk away unless the price is very low and you understand what you're getting into
+3. **Minimum cell voltage** — Any cell showing below 3.0 V at 50%+ state of charge is a problem cell
+
+### Cross-Check with Range Display
+
+Before the OBD2 check, do a full charge to 100% and note the displayed range. Compare to the original rated range:
+
+| Model | Original WLTP | 10% Loss (Normal) | 15% Loss (High) |
+|-------|--------------|-------------------|-----------------|
+| Model 3 SR+ LFP | 491 km | 442 km | 417 km |
+| Model 3 LR NCA | 602 km | 542 km | 512 km |
+| Model Y LR NCA | 533 km | 480 km | 453 km |
+| Model S LR | 652 km | 587 km | 554 km |
+
+> Range display isn't perfectly reliable (it's influenced by driving style), but anything more than 15% below original rated range is worth digging into.
+
+### Red Flags on Used Teslas
+
+- **Rapid degradation for the mileage** — more than 15% loss under 100,000 km suggests aggressive supercharging, extended hot-climate storage, or a previous fault
+- **Recent battery work history** — check the car's service records. Module replacements aren't inherently bad (Tesla fixed something), but ask what was replaced and why
+- **Flashing or recent BMS reset** — a BMS recalibration just before sale can temporarily make range look better than it is. Check the car over multiple days if possible
+- **"12V Battery Low" history** — indicates the main battery may have been deeply discharged repeatedly, which stresses the cells
+
+### Using Battery Health as a Negotiation Tool
+
+Even "normal" degradation has real monetary value. If the car shows 12% degradation vs. the fleet average of 10% for that mileage:
+
+- That's roughly 35–50 km less usable range on a daily basis
+- It represents accelerated wear relative to comparable cars on the market
+- Use it to negotiate: "Battery shows 12% degradation at 90,000 km vs. the 8–10% average — I'd like that reflected in the price"
+
+Most private sellers don't know these numbers. Coming prepared with a real-time OBD2 readout instantly positions you as a serious buyer who won't be oversold. For a full used Tesla inspection checklist beyond just the battery, see our [Used Tesla Buying Inspection Guide](/posts/tesla-used-buying-inspection-guide/).
+
+---
+
+## Battery Degradation FAQ
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How fast does a Tesla battery degrade?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Tesla batteries typically lose 2-3% capacity per year after the initial first-year drop of 5-8%. After 5 years, most owners see 10-15% total range reduction. LFP batteries (Standard Range from mid-2021) degrade slower and benefit from regular 100% charging."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I check my Tesla battery health?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The most accurate method is a Bluetooth OBD2 scanner (OBDLink CX) paired with the Scan My Tesla app. Check full pack energy in kWh and cell voltage delta. For a quick estimate, charge to 100% and compare the displayed range to the original EPA/WLTP rating for your model."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What causes Tesla battery degradation?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The main causes are heat exposure (the #1 factor), frequent DC fast charging, regularly sitting at 100% state of charge, and calendar aging. Keeping charge between 20-80% daily and limiting supercharging significantly slows degradation."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is Tesla battery degradation covered by warranty?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Tesla warrants battery capacity for 8 years on all current models. If capacity drops below 70% within the warranty period, Tesla will repair or replace the battery pack. Warranty mileage limits vary by model: 160,000 km for Model 3 SR, 192,000 km for Model 3 LR/Performance."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does cold weather permanently damage Tesla batteries?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Cold weather causes temporary range reduction of 20-40% in extreme cold but does not permanently damage the battery. Tesla's thermal management system protects the cells. Preconditioning before driving and charging recovers most of the lost range."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How many miles does a Tesla battery last?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Most Tesla batteries are designed to last 300,000-500,000 miles (500,000-800,000 km). Real-world data shows most packs retain 80%+ capacity at 200,000 miles. Battery replacement before end of vehicle life is uncommon for well-maintained cars."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a good cell voltage delta for a used Tesla battery?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Under 20 mV cell voltage delta (measured with an OBD2 scanner at full charge) indicates a healthy, balanced pack. 20-50 mV is acceptable but worth monitoring. Over 50 mV suggests cell imbalance needing attention, and over 100 mV indicates a likely bad module that needs professional inspection."
+      }
+    }
+  ]
+}
+</script>
+
+**Q: How fast does a Tesla battery degrade?**
+Typically 5–8% in year one, then 1–2% per year after. Most owners hit 10–15% total degradation at the 5-year mark. LFP batteries (Standard Range, 2021+) degrade slower.
+
+**Q: How do I check my Tesla battery health?**
+Best method: OBDLink CX Bluetooth adapter + Scan My Tesla app. Checks pack kWh and cell voltage delta in real time. Quick estimate: charge to 100%, compare displayed range to original rated range.
+
+**Q: What causes Tesla battery degradation?**
+Heat is #1. Then: frequent DC fast charging, sitting at 100% for long periods, and normal calendar aging. Charging to 80% daily and home AC charging are the most impactful protective habits.
+
+**Q: Is Tesla battery degradation covered by warranty?**
+Yes — 8 years, with a 70% capacity floor. If your pack drops below 70% within the warranty period and mileage limit, Tesla repairs or replaces it. Check your specific model's documentation for the mileage cap.
+
+**Q: Does cold weather permanently damage Tesla batteries?**
+No. Cold causes temporary range loss (20–40% in extreme cold) but not permanent damage. Preconditioning before driving restores most range. Cold storage is actually gentler on lithium-ion than heat.
+
+**Q: How many miles does a Tesla battery last?**
+300,000–500,000 miles (500,000–800,000 km) is the design target. Real-world data shows most packs at 200,000 miles still retain 80%+ capacity. Outright failure before end of vehicle life is uncommon.
+
+**Q: What's a good cell voltage delta for a used Tesla?**
+Under 20 mV = healthy. 20–50 mV = acceptable. Over 50 mV = needs attention. Over 100 mV = likely bad module — get a shop inspection before buying.
+
+---
+
+*Last updated: April 2026. Degradation data based on publicly available fleet statistics and community reports.*
 
 ## Related Guides
 
@@ -331,7 +471,7 @@ For diagnosing other battery-related issues, check our guides on [phantom drain]
 - [Tesla 12V Battery Replacement: Step-by-Step DIY (Save €200+)](/posts/tesla-12v-battery-replacement/) — Easy · Electrical
 - [Tesla 2026.2.3 Update: Hidden Features, Battery Recalibration, Autopark & Service Mode Changes](/posts/tesla-2026-2-3-software-update-features/) — Easy · Software & Tech
 - [Tesla Battery Preconditioning: Faster Charging & Better Range](/posts/tesla-battery-preconditioning-guide/) — Beginner · Battery & Charging
-- [Tesla Battery Replacement Cost: What It Really Costs in 2025](/posts/tesla-battery-replacement-cost/) — Informational · Model 3, Model Y, Model S, Model X · Battery & Electrical
+- [Tesla Battery Replacement Cost: What It Really Costs in 2026](/posts/tesla-battery-replacement-cost/) — Informational · Model 3, Model Y, Model S, Model X · Battery & Electrical
 - [Tesla Key Fob Battery Replacement: 2-Minute Fix](/posts/tesla-key-fob-battery/) — Easy · Model S, Model X · Electrical
 - [How to Fix Tesla Phantom Battery Drain (Vampire Drain)](/posts/tesla-phantom-battery-drain-fix/) — Easy · Software & Settings
 - [Tesla Charging Adapter Guide](/posts/tesla-charging-adapter-guide/) — Charging equipment for home
