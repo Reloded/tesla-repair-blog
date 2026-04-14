@@ -729,6 +729,123 @@ img {
   }
 }
 
+/* Quick Tools Bar - Top of article */
+.quick-tools-bar {
+  background: linear-gradient(135deg, #1a3a2a 0%, #0d2818 100%);
+  border: 2px solid #28a745;
+  border-radius: 12px;
+  padding: 1rem 1.5rem;
+  margin-bottom: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.quick-tools-label {
+  font-weight: 700;
+  font-size: 1rem;
+  color: #fff;
+  white-space: nowrap;
+}
+
+.quick-tools-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1rem;
+  flex: 1;
+}
+
+.quick-tool-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: rgba(255,255,255,0.08);
+  border-radius: 8px;
+  padding: 0.5rem 0.75rem;
+}
+
+.quick-tool-name {
+  font-size: 0.85rem;
+  color: #ccc;
+  white-space: nowrap;
+  max-width: 160px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.quick-tool-buttons {
+  display: flex;
+  gap: 0.35rem;
+}
+
+.quick-buy-btn {
+  display: inline-block;
+  padding: 0.3rem 0.6rem;
+  border-radius: 6px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: white;
+  text-decoration: none;
+  transition: all 0.2s;
+}
+
+.quick-buy-btn.btn-amazon-us {
+  background: #146eb4;
+}
+
+.quick-buy-btn.btn-amazon-us:hover {
+  background: #0f5a8f;
+  color: white;
+}
+
+.quick-buy-btn.btn-amazon-de {
+  background: #ff9900;
+}
+
+.quick-buy-btn.btn-amazon-de:hover {
+  background: #e88a00;
+  color: white;
+}
+
+.quick-buy-btn.btn-ifixit,
+.quick-buy-btn.btn-tesmanian,
+.quick-buy-btn.btn-rrcarparts {
+  background: #28a745;
+}
+
+.quick-buy-btn.btn-ifixit:hover,
+.quick-buy-btn.btn-tesmanian:hover,
+.quick-buy-btn.btn-rrcarparts:hover {
+  background: #218838;
+  color: white;
+}
+
+.quick-tools-more {
+  font-size: 0.85rem;
+  color: #28a745;
+  font-weight: 600;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.quick-tools-more:hover {
+  color: #34d058;
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .quick-tools-bar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .quick-tool-name {
+    max-width: 120px;
+  }
+}
+
 /* Affiliate Box - Enhanced for visibility */
 .affiliate-box {
   background: linear-gradient(135deg, #fff9e6 0%, #fff3cd 100%);

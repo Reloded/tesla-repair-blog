@@ -101,6 +101,48 @@ layout: base.njk
     </div>
   </header>
 
+  {% if tools and tools.length %}
+  <div class="quick-tools-bar">
+    <div class="quick-tools-label">🛠️ Tools for this job:</div>
+    <div class="quick-tools-list">
+      {% for tool in tools %}
+        {% if loop.index <= 3 %}
+        <div class="quick-tool-item">
+          <span class="quick-tool-name">{{ tool.name }}</span>
+          <div class="quick-tool-buttons">
+            {% if tool.provider == "ifixit" %}
+            <a href="{{ tool.link }}" class="quick-buy-btn btn-ifixit" target="_blank" rel="nofollow noopener">iFixit</a>
+            {% elif tool.provider == "tesmanian" %}
+            <a href="{{ tool.link }}" class="quick-buy-btn btn-tesmanian" target="_blank" rel="nofollow noopener">Tesmanian</a>
+            {% elif tool.provider == "rrcarparts" %}
+            <a href="{{ tool.link }}" class="quick-buy-btn btn-rrcarparts" target="_blank" rel="nofollow noopener">RR Car Parts</a>
+            {% else %}
+              {% if tool.asin_com %}
+              <a href="https://www.amazon.com/dp/{{ tool.asin_com }}?tag=diyrepair07-20" class="quick-buy-btn btn-amazon-us" target="_blank" rel="nofollow noopener">🇺🇸 Buy</a>
+              {% elif tool.linkUS %}
+              <a href="{{ tool.linkUS }}" class="quick-buy-btn btn-amazon-us" target="_blank" rel="nofollow noopener">🇺🇸 Buy</a>
+              {% else %}
+              <a href="{{ tool.link | replace('amazon.de', 'amazon.com') | replace('diyrepair-21', 'diyrepair07-20') }}" class="quick-buy-btn btn-amazon-us" target="_blank" rel="nofollow noopener">🇺🇸 Buy</a>
+              {% endif %}
+              {% if tool.asin_de %}
+              <a href="https://www.amazon.de/dp/{{ tool.asin_de }}?tag=diyrepair-21" class="quick-buy-btn btn-amazon-de" target="_blank" rel="nofollow noopener">🇩🇪 Buy</a>
+              {% elif tool.linkDE %}
+              <a href="{{ tool.linkDE }}" class="quick-buy-btn btn-amazon-de" target="_blank" rel="nofollow noopener">🇩🇪 Buy</a>
+              {% elif tool.link and 'amazon.de' in (tool.link | string) %}
+              <a href="{{ tool.link }}" class="quick-buy-btn btn-amazon-de" target="_blank" rel="nofollow noopener">🇩🇪 Buy</a>
+              {% endif %}
+            {% endif %}
+          </div>
+        </div>
+        {% endif %}
+      {% endfor %}
+      {% if tools.length > 3 %}
+      <a href="#tools-section" class="quick-tools-more">+{{ tools.length - 3 }} more tools ↓</a>
+      {% endif %}
+    </div>
+  </div>
+  {% endif %}
+
   <div class="post-layout">
     <aside class="toc-sidebar">
       <nav class="toc" id="toc">
@@ -135,7 +177,7 @@ layout: base.njk
     </div>
   </div>
 
-  <div class="affiliate-box">
+  <div class="affiliate-box" id="tools-section">
     <h3>🛠️ Tools Needed for This Repair</h3>
     <p>These are the tools I personally use and recommend. Using quality tools makes the job easier and safer.</p>
     <ul>
