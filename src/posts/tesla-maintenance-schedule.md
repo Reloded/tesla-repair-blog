@@ -1,8 +1,9 @@
 ---
 layout: post.njk
 title: "Tesla Maintenance Schedule: What You Actually Need (2026)"
-description: "Complete Tesla maintenance schedule 2026: exact service intervals, DIY vs service center costs, seasonal checklists, and the essential tool list. Save €3,300+ over 8 years. Model 3, Y, S, X, Highland, Juniper."
+description: "Complete Tesla maintenance schedule 2026: exact service intervals, torque specs, DIY vs service center costs, seasonal checklists, Cybertruck guide, and gear oil info. Save €3,300+ over 8 years. Model 3, Y, S, X, Highland, Juniper, Cybertruck."
 date: 2026-02-26
+lastUpdated: 2026-04-17
 category: "Maintenance"
 difficulty: "Beginner"
 readTime: "14 min read"
@@ -22,6 +23,10 @@ faq:
     a: "For most Tesla DIY maintenance you need: a low-profile floor jack (3T), Tesla jack pad adapters, a torque wrench (20-110 Nm), plastic trim pry tools, a brake fluid tester, and optionally an OBD2 Bluetooth scanner (OBDLink CX) for battery health checks. Total tool investment is €150-300 and pays for itself on the first brake fluid change."
   - q: "When should I do Tesla maintenance by season?"
     a: "Spring: check tire pressure after winter, inspect door seals and wiper blades. Summer: cabin air filter and interior conditioning. Autumn: switch to winter tires, check brake fluid moisture, top up winter washer fluid. Winter: check 12V battery voltage monthly — cold kills weak batteries."
+  - q: "Does the Tesla Cybertruck need different maintenance?"
+    a: "Mostly the same as Model 3/Y. The stainless steel body needs no paint protection. The 48V auxiliary battery lasts 10+ years but cannot be jump-started with a standard 12V pack. Rotate tires every 8,000–10,000 km given the Cybertruck's weight. All brake fluid, coolant, and cabin air filter intervals are identical to Model Y."
+  - q: "Does Tesla need gear oil changes?"
+    a: "Yes, but rarely — around 200,000 km. Tesla's sealed drive units contain gear oil that lubricates the reduction gear and motor bearings. Use the correct spec (Dexron VI ATF or Pentosin ATF 9 depending on the unit). DIY cost is €30–50 in fluid; service center charges €200–400."
 tools:
   - name: "Tesla Cabin Air Filter (Model 3/Y)"
     link: "https://www.amazon.de/s?k=tesla+model+3+cabin+air+filter&tag=diyrepair-21"
@@ -333,6 +338,88 @@ Tying maintenance to the seasons is more practical than tracking exact intervals
 - **Charge port door check** — ice can form in the charge port latch. Keep the port door operation clean; apply silicone lubricant if it's sticking
 - **[Phantom drain monitoring](/posts/tesla-phantom-battery-drain-fix/)** — battery drain is higher in winter. Disable Sentry Mode when parked in a safe location to preserve charge. Don't let the battery drop below 20% in extreme cold
 
+## Cybertruck Maintenance: What's Different
+
+The Cybertruck (2024+) shares Tesla's low-maintenance EV architecture but has a few unique considerations:
+
+### 48V Electrical Architecture
+Unlike all other Teslas, the Cybertruck runs a **48V low-voltage system** instead of 12V. This means:
+- The auxiliary battery (a lithium cell) has an estimated 10+ year lifespan
+- Do **not** attempt to jump-start the 48V system with a standard 12V battery pack — it will cause damage
+- If you see a "48V system" alert, this requires Tesla service
+
+### Stainless Steel Body
+The brushed stainless steel exterior requires zero corrosion protection — there's no paint to chip or rust through. Skip the PPF and undercoating products marketed for the body panels. The **underbody** is still conventional steel and benefits from an annual underbody wash to remove road salt.
+
+### Tire Maintenance: Critical
+The Cybertruck rides on large 35-inch tires with a unique size (AT37 stock). Rotation is **especially important** given the truck's weight (>3,000 kg). Rotate every 8,000–10,000 km. Replacement tires are expensive (€400–600+ each) and have limited aftermarket options as of 2026 — budget for this.
+
+### Air Suspension (Standard)
+All Cybertrucks include air suspension. Refer to the Model S/X air suspension notes above — the same maintenance logic applies. Inspect annually for compressor run time and listen for the system running more than 30 seconds when leveling.
+
+### Everything Else
+Brake fluid, cabin air filter, coolant intervals are identical to Model Y. The same DIY guides on this site apply. Torque spec for lug bolts: **175 Nm** (same as Model 3/Y).
+
+---
+
+## Torque Specs Quick Reference
+
+When doing DIY maintenance that involves removing and reinstalling fasteners, these are the specs you need:
+
+| Component | Spec | Notes |
+|-----------|------|-------|
+| Wheel lug bolts — Model 3/Y/Cybertruck | **175 Nm (129 ft-lbs)** | Torque in a star pattern; re-torque after 50 km if wheels were removed |
+| Wheel lug bolts — Model S/X | **165 Nm (122 ft-lbs)** | Same star pattern procedure |
+| Cabin air filter cover screws (Model S/X) | **2 Nm** | Finger-tight + quarter turn; plastic threads strip easily |
+| Brake caliper slide pin bolts (Model 3/Y) | **35 Nm** | Clean threads before reinstalling; use fresh copper grease on pin |
+| Brake caliper bracket bolts (Model 3/Y) | **88 Nm** | Critical — these hold the caliper to the knuckle |
+| Wheel speed sensor bolt | **10 Nm** | Delicate — do not overtighten |
+| Drive unit drain plug (gear oil) | **45–50 Nm** | Torque to lower end of range on aluminum housings |
+
+> **Pro tip:** Always use a calibrated click-type torque wrench for wheel lug bolts. The factory spec is not a suggestion — under-torqued wheels can loosen at speed and overtorqued studs will crack. A quality torque wrench like this [€40–80 model](https://www.amazon.de/s?k=drehmomentschluessel+1%2F2+20+110nm&tag=diyrepair-21) ([US](https://www.amazon.com/s?k=torque+wrench+1%2F2+inch+drive&tag=diyrepair07-20)) pays for itself after your first tire rotation.
+
+---
+
+## Gear Oil: The Forgotten Fluid
+
+Tesla's drive units use a small amount of gear oil to lubricate the reduction gear and motor bearings. It's a sealed system — you won't find a dipstick, and Tesla doesn't list it in the official maintenance schedule. But it's not magic oil that lasts forever.
+
+### When to Check or Change
+
+- **Standard: 200,000 km** for most models (Model 3/Y front and rear units)
+- **After any drive unit repair or water ingress event** — contaminated gear oil accelerates bearing wear
+- **Pre-purchase inspection on high-mileage used Teslas** (150,000+ km): check the oil color and level at the drain plug
+
+### What Oil to Use
+
+| Model | Unit | Spec |
+|-------|------|------|
+| Model 3/Y rear (large motor) | Dexron VI ATF or Castrol Axle EPX 75W | 0.45L capacity |
+| Model 3/Y front (small motor) | Pentosin ATF 9 or equiv. | 0.5L capacity |
+| Model S/X | NOCO Gear Oil or Tesla OEM spec | Varies by unit generation |
+
+Use **only the correct spec** — mixing gear oil types or using engine oil will cause foaming and premature bearing failure. The procedure requires a lift and a fluid pump. Full details: [Tesla Gear Oil Change Guide](/posts/tesla-gear-oil-change/).
+
+**Cost:** About €30–50 in fluids DIY. At a service center: €200–400. Not a frequent job, but worth doing on any Tesla approaching 200,000 km or exhibiting a faint whine from the drive unit.
+
+Also check our [Drive Unit Noise Fix guide](/posts/tesla-drive-unit-noise-fix/) if you suspect early-stage bearing wear — catching it before it reaches the gear oil isn't cheap, but it's significantly cheaper than a full drive unit replacement.
+
+---
+
+## Rust Prevention: One Step Many Owners Skip
+
+Teslas don't rust in the traditional sense — the aluminum body panels, glass roof, and stainless steel fasteners don't corrode. But the **steel subframe, brake lines, suspension arms, and heat pump plumbing** under the car absolutely do, especially in northern Europe where road salt is used from October to April.
+
+A single annual underbody wash (spring, after the last salt application) removes the majority of chloride deposits before they can pit the steel. Budget €15–20 at a high-pressure car wash with underbody flush capability.
+
+For vehicles operating in heavy salt conditions or coastal environments, an application of a **cavity wax or rubberized underbody coating** every 2–3 years adds years to the underbody components. See our [Tesla Rust Prevention & Undercoating Guide](/posts/tesla-rust-prevention-undercoating/) for product recommendations and application areas.
+
+Key products:
+- [Dinitrol RC900 Cavity Wax](https://www.amazon.de/s?k=dinitrol+cavity+wax+rc900&tag=diyrepair-21) ([US](https://www.amazon.com/s?k=cavity+wax+rust+prevention&tag=diyrepair07-20)) — for enclosed sections and subframe cavities
+- [Bilt Hamber Dynax S50](https://www.amazon.de/s?k=bilt+hamber+dynax+s50&tag=diyrepair-21) ([US](https://www.amazon.com/s?k=bilt+hamber+dynax+s50&tag=diyrepair07-20)) — waxy film for exposed underbody panels
+
+---
+
 ## Setting Up Reminders
 
 Don't rely on memory. Set up maintenance reminders:
@@ -410,6 +497,22 @@ Don't rely on memory. Set up maintenance reminders:
         "@type": "Answer",
         "text": "Spring: check tire pressure after winter cold, inspect door seals and wiper blades, wash underbody salt. Summer: review battery preconditioning settings, condition the vegan leather interior, measure tire tread depth. Autumn: switch to winter tires (below 7°C), test brake fluid moisture, fill winter washer fluid. Winter: check 12V battery voltage monthly (replace if under 12.2V at rest) and top up tire pressure each month as temperatures stay low."
       }
+    },
+    {
+      "@type": "Question",
+      "name": "Does the Tesla Cybertruck need different maintenance?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Mostly the same as Model 3/Y. The Cybertruck's stainless steel body needs no paint protection or corrosion treatment on body panels. However, its 48V auxiliary system cannot be jump-started with a standard 12V pack. Tire rotation is especially important given the Cybertruck's weight (over 3,000 kg) — every 8,000–10,000 km. All brake fluid, coolant, and cabin air filter intervals are identical to Model Y."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does Tesla need gear oil changes?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, but rarely. Tesla's sealed drive units contain a small amount of gear oil that lubricates the reduction gear and motor bearings. Tesla does not officially list it in their maintenance schedule, but most independent shops recommend inspecting or replacing it around 200,000 km. Using the correct spec (Dexron VI ATF or Pentosin ATF 9 depending on the unit) is critical — the wrong fluid will cause foaming and premature bearing wear. Cost: €30–50 in fluid DIY."
+      }
     }
   ]
 }
@@ -462,5 +565,11 @@ The best approach: set calendar reminders, do the easy stuff yourself, and use T
 - [12V Battery Replacement](/posts/tesla-12v-battery-replacement/) - Don't wait until you're locked out
 - [Coolant Flush & Change](/posts/tesla-coolant-flush-change/) - Critical for battery longevity
 - [Winter Preparation Guide](/posts/tesla-winter-preparation-guide/) - Seasonal maintenance tips
+- [Tesla Gear Oil Change](/posts/tesla-gear-oil-change/) - The high-mileage fluid change most owners forget
+- [Drive Unit Noise Fix](/posts/tesla-drive-unit-noise-fix/) - Diagnose bearing wear before it becomes expensive
+- [Rust Prevention & Undercoating Guide](/posts/tesla-rust-prevention-undercoating/) - Protect the underbody in salt climates
+- [Battery Preconditioning Guide](/posts/tesla-battery-preconditioning-guide/) - Extend battery life and maximize charge speed
+- [Tesla OBD2 Scanner & Diagnostics](/posts/tesla-obd2-scanner-diagnostics/) - App-based battery health monitoring
 - [Tesla Pyrofuse Explained](/posts/tesla-pyrofuse-guide/) - The safety fuse inside your battery pack
 - [Model 3 Highland vs Model Y Juniper](/posts/tesla-model-3-highland-vs-model-y-juniper/) - Comparing the refreshed models
+- [Tesla Jack Points & Lifting Guide](/posts/tesla-jack-points-lifting-guide/) - Safe lifting positions for every Tesla model
