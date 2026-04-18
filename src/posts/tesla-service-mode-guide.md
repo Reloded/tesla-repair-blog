@@ -1,9 +1,9 @@
 ---
 layout: post.njk
 title: "Tesla Service Mode: The Hidden Menu Most Owners Miss (2026)"
-description: "Access Tesla's hidden Service Mode in 10 seconds — the same diagnostics menu technicians use. See live sensor data, test cameras, check battery health, and run system tests. No OBD tool needed."
+description: "Access Tesla's hidden Service Mode in 10 seconds — the same diagnostics menu technicians use. Check battery cell voltage delta, decode service alerts, calibrate cameras, and diagnose Cybertruck & Model S/X systems. No OBD tool needed."
 date: 2026-02-26
-lastUpdated: 2026-04-10
+lastUpdated: 2026-04-18
 category: "Maintenance"
 difficulty: "Easy"
 readTime: "15 min read"
@@ -19,6 +19,10 @@ faq:
     a: "Yes, Service Mode is designed for owner and technician use. However, only perform functions you understand - some actions like brake burnishing require specific procedures. Don't change settings unless you know the impact."
   - q: "Does Tesla Service Mode void warranty?"
     a: "Simply accessing Service Mode does not void your warranty. Tesla technicians use it routinely. However, if you make changes that cause damage, Tesla may not cover that specific issue under warranty."
+  - q: "Does Tesla Service Mode work on Cybertruck?"
+    a: "Yes. Access is identical — Controls → Software → hold 'MODEL' for 5 seconds → enter 'service'. The Cybertruck adds a 48V Low Voltage battery section (replacing the standard 12V readout), steer-by-wire diagnostics, and air suspension data on equipped models. The 48V auxiliary battery cannot be jump-started from a conventional 12V source."
+  - q: "Can I share Tesla Service Mode data with my mechanic?"
+    a: "Yes. Use the built-in screenshot function (hold both scroll wheel buttons until the screen flashes) while on the relevant Service Mode page. Screenshots save to an inserted USB drive, or access them via Controls → Service → Dashcam and Sentry Clips. Share the Service Alerts and HV Battery screenshots — they give an independent mechanic everything needed to estimate a repair."
 asin_de: "B0D7F5F4HN"
 asin_com: "B0BFFRV43G"
 tools:
@@ -378,6 +382,126 @@ For more on camera issues, see our [Autopilot Camera Calibration Guide](/posts/t
 
 ---
 
+## Cybertruck: What's Different in Service Mode
+
+The Cybertruck uses the same access method — Controls → Software → hold "MODEL" → enter "service" — but has several menu differences because of its unique 48V electrical architecture and steer-by-wire system.
+
+### 48V Auxiliary Battery Section
+
+Instead of the 12V battery section found on Model 3/Y/S/X, Cybertruck shows a **48V Low Voltage system** readout. Key differences:
+
+- Battery voltage should read **46–52V** (not 12–13V like other models)
+- The 48V battery **cannot be jump-started** from a conventional 12V battery pack — a critical safety point if you ever see a low-voltage alert on the road
+- A "12V Conversion Module" also appears in diagnostics, providing 12V power for accessories while the 48V system handles main vehicle loads
+- If the 48V battery drops below 38V, the car will refuse to drive and requires Tesla Roadside assistance — Service Mode will show the exact voltage
+
+### Steer-by-Wire Diagnostics
+
+The Cybertruck has no mechanical steering column. In Service Mode, a dedicated **Steer-by-Wire** section shows:
+- Steering actuator position and motor current
+- Feedback sensor status (both primary and redundant sensors)
+- Wheel angle vs. commanded angle — any persistent offset indicates a calibration issue
+
+**Important:** If you see `SBW_a*` codes in Service Alerts, do not ignore them. Steering system faults on a steer-by-wire vehicle are higher priority than on a conventional rack. Do not drive long distances with an active `SBW_a` fault — schedule service.
+
+Steering calibration (angle sensor zero-point reset) is a technician-only procedure and does not appear in the standard owner-accessible Service Mode menu.
+
+### Air Suspension (Cybertruck Foundation Series)
+
+Higher-spec Cybertrucks with air suspension show an **Air Suspension** section:
+
+| Parameter | What to Look For |
+|-----------|-----------------|
+| Corner height (FL/FR/RL/RR) | Within ±5mm of target at ride height |
+| Compressor pressure | Low at startup = possible leak or sensor fault |
+| Valve block status per corner | Any valve flagged "stuck" = replace valve block |
+| Compressor runtime | Elevated runtime = air leak somewhere in the system |
+
+Note: Cybertruck air suspension uses different compressor specs than Model S/X — part numbers are not interchangeable.
+
+---
+
+## Model S & Model X: Air Suspension and Falcon Wing Door Diagnostics
+
+Model S and Model X owners get diagnostic sections that Model 3/Y doesn't have.
+
+### Air Suspension (Model S/X)
+
+Navigate to **Service Mode → Service Settings → Air Suspension**:
+
+| Parameter | What to Look For |
+|-----------|-----------------|
+| Corner height (FL/FR/RL/RR) | Within ±5mm of target height at ride level |
+| Compressor runtime | High runtime → possible air leak or failing strut |
+| Compressor pressure | Low pressure at startup → leak or faulty pressure sensor |
+| Individual corner valve status | "Stuck" valve → replace valve block assembly |
+
+The most practical use: if your Model S/X is sitting unevenly, Service Mode tells you exactly *which corner* is the problem. This saves hours of diagnostic guesswork vs. pressurizing each strut individually. See our [Tesla Air Suspension Issues guide](/posts/tesla-air-suspension-issues/) for repair procedures once you've identified the faulty corner.
+
+### Falcon Wing Door Diagnostics (Model X)
+
+**Service Mode → Service Settings → Doors** shows:
+
+- Individual door switch status (open, closed, obstacle detection) for all four doors
+- Falcon Wing door proximity sensor readings — the doors use radar-like sensors embedded in the door frame to detect overhead obstacles
+- Door actuator motor current draw — a motor pulling abnormally high current usually precedes a failure by weeks
+
+**Practical troubleshooting flow for slow or stopping Falcon Wing doors:**
+1. Enter Service Mode and navigate to the door diagnostics
+2. Command the door to open and watch sensor readings in real time
+3. Any "obstacle detected" reading with no actual obstacle = faulty proximity sensor
+4. High actuator current with no obstacle = worn door strut or binding hinge
+
+See our [Falcon Wing Door Fix guide](/posts/tesla-falcon-wing-door-fix/) for replacement procedures once Service Mode confirms the fault source.
+
+### HVAC Deep Diagnostics (Model S/X)
+
+Model S/X has a more complex HVAC system than Model 3/Y. In Service Mode you can see:
+
+- **Heat pump status** (2021+ vehicles) — refrigerant circuit pressures, high and low side
+- Individual compressor RPM and current draw
+- Front and rear evaporator temperatures independently
+- Chiller valve status (the chiller loop pre-cools the battery before DC fast charging)
+
+For heat pump fault codes, see our [Tesla Heat Pump Problems guide](/posts/tesla-heat-pump-problems/).
+
+---
+
+## Service Mode Limitations: What It Can't Show You
+
+Service Mode is powerful, but knowing what it *cannot* do prevents misdiagnosis:
+
+| What You Want to Know | Service Mode | Better Alternative |
+|----------------------|-------------|-------------------|
+| Historical cell-level voltage data | ❌ Current snapshot only | [OBDLink CX](https://www.amazon.de/dp/B0D7F5F4HN?tag=diyrepair-21) ([US](https://www.amazon.com/dp/B08NFNLKTK?tag=diyrepair07-20)) + Scan My Tesla |
+| Charge session efficiency logs | ❌ Not available | TeslaFi or A Better Route Planner |
+| Individual cell voltages per cell | ❌ Pack-level only | Requires Toolbox 3 or specialist EV tools |
+| Power draw by consumer (A/C, heat, etc.) | ❌ Not visible | Energy screen in normal driving UI |
+| Fault code history from prior software versions | ⚠️ Partial — many clear on reboot | Tesla Service Center with Toolbox 3 |
+| WiFi and cellular signal strength | ✅ Available | — |
+| Supercharger session logs | ❌ Not available | Tesla app → Charging history |
+| 12V battery voltage (live) | ✅ Available in Vehicle Info | — |
+
+For historical data, cell-by-cell analysis, and charge session logs, the [OBDLink CX Bluetooth adapter](https://www.amazon.de/dp/B0D7F5F4HN?tag=diyrepair-21) ([US](https://www.amazon.com/dp/B08NFNLKTK?tag=diyrepair07-20)) with **Scan My Tesla** fills the gaps that built-in Service Mode leaves open. It's the logical next step for any owner who wants to go deeper than what Service Mode shows.
+
+---
+
+## How to Share Service Mode Data With Your Mechanic
+
+If you're taking your Tesla to an independent shop and want to give them useful diagnostic information before the appointment:
+
+1. **Screenshot the Service Alerts screen** — hold both scroll wheel buttons simultaneously until the screen flashes. The screenshot saves to your dashcam USB drive (if inserted) or is accessible via Controls → Service → Dashcam & Sentry Clips.
+2. **Screenshot the HV Battery screen** — capture Cell Voltage Min, Max, Delta, and battery temperatures.
+3. **Screenshot the Driver Assist Cameras screen** — shows which cameras are online and which are flagged.
+
+Send these screenshots to your mechanic ahead of the appointment. A good independent Tesla specialist can pre-order parts, look up known fix procedures, and give you a much more accurate quote before the car even arrives. It also prevents the "we need to run diagnostics first (€150)" charge that some shops levy.
+
+<div class="tip-box">
+<strong>💡 Sharing tip:</strong> If your Tesla doesn't have a dashcam USB drive, screenshots can still be retrieved via the Tesla app after syncing — or just photograph the screen with your phone. The cell voltage delta and any active fault codes are the most important numbers to capture.
+</div>
+
+---
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -430,6 +554,22 @@ For more on camera issues, see our [Autopilot Camera Calibration Guide](/posts/t
         "@type": "Answer",
         "text": "Tap the red wrench icon in the dock (or find it under All Apps), scroll to the bottom of the left navigation panel, and press and hold the red 'Exit Service Mode' button for about 5 seconds to confirm. The red border disappears and normal operation resumes. Always exit before driving."
       }
+    },
+    {
+      "@type": "Question",
+      "name": "Does Tesla Service Mode work on Cybertruck?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Access is identical on Cybertruck — Controls > Software > hold 'MODEL' for 5 seconds > enter 'service'. The Cybertruck adds a 48V Low Voltage battery section (replacing the standard 12V readout found on other models), steer-by-wire diagnostics, and air suspension data on Foundation Series models. Key safety note: the Cybertruck's 48V auxiliary battery cannot be jump-started from a conventional 12V battery pack."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I share Tesla Service Mode data with my mechanic?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Use the built-in screenshot function — hold both steering wheel scroll buttons simultaneously until the screen flashes. Screenshots save to your dashcam USB drive or are accessible via Controls > Service > Dashcam and Sentry Clips. Screenshot the Service Alerts page and the HV Battery page (showing Cell Voltage Delta, Min, Max, and temperatures). Send these to your mechanic before the appointment so they can pre-order parts and give an accurate quote."
+      }
     }
   ]
 }
@@ -454,6 +594,12 @@ No. Service Mode runs entirely on-vehicle. Some features (like checking for soft
 
 **Is Service Mode available on older MCU1 vehicles?**
 Yes, though the interface and available features may differ. On very old software versions, some functions may be more limited. Updating to the latest available software is recommended.
+
+**Does Service Mode work the same on Cybertruck?**
+Mostly yes, but the Cybertruck adds a 48V Low Voltage battery section (the Cybertruck uses 48V auxiliary power instead of 12V), steer-by-wire diagnostics, and air suspension data on equipped models. Access the same way. Do not try to jump-start a Cybertruck with a conventional 12V charger if the aux battery is dead — you'll need Tesla Roadside.
+
+**Can I photograph the Service Mode screen to share with a mechanic?**
+Yes, and it's highly recommended. Use the in-car screenshot function (hold both scroll wheel buttons) to save images of the Service Alerts and HV Battery screens before your appointment. This lets a good independent Tesla shop pre-order parts and skip the "diagnostic fee" on arrival. A screenshot of the cell voltage delta alone tells an EV specialist a lot about battery health.
 
 ## Wrapping Up
 
