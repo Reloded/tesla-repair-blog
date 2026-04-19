@@ -36,6 +36,43 @@
     gtag('config', 'G-MHWB6T22RQ');
   </script>
 
+  <!-- Geo-detect via Cloudflare /cdn-cgi/trace — routes visitors to their local Amazon marketplace -->
+  <script>
+    (function() {
+      var US_MARKET = ['US','CA','MX','PR'];
+      var DE_MARKET = ['DE','AT','CH','NL','BE','FR','IT','ES','LU','PL','CZ','SK','HU','SI','DK','SE','FI','NO','IE','GB','PT','GR','EE','LV','LT','HR','BG','RO','MT','CY','IS'];
+      var UNSUPPORTED = ['SG','CN','HK','TW','IN','JP','KR','TH','VN','MY','PH','ID','AU','NZ','ZA','BR','AR','AE','SA','EG','TR','RU','UA','IL'];
+      fetch('/cdn-cgi/trace', { cache: 'no-store' })
+        .then(function(r) { return r.text(); })
+        .then(function(text) {
+          var m = text.match(/^loc=(.+)$/m);
+          var c = (m && m[1]) ? m[1].trim().toUpperCase() : 'XX';
+          var market = 'unknown';
+          if (US_MARKET.indexOf(c) !== -1) market = 'us';
+          else if (DE_MARKET.indexOf(c) !== -1) market = 'de';
+          else if (UNSUPPORTED.indexOf(c) !== -1) market = 'unsupported';
+          document.documentElement.setAttribute('data-market', market);
+          document.documentElement.setAttribute('data-country', c);
+          // Send to GA4 so we can see market distribution in reports
+          if (typeof gtag === 'function') {
+            gtag('set', 'user_properties', { market: market, country: c });
+          }
+        })
+        .catch(function() {
+          document.documentElement.setAttribute('data-market', 'unknown');
+        });
+    })();
+  </script>
+  <style>
+    /* Default (no data-market or data-market="unknown"): both Amazon buttons visible.
+       Geo-detect hides the irrelevant marketplace once CDN trace resolves (~20-50ms). */
+    html[data-market="us"] .btn-amazon-de { display: none !important; }
+    html[data-market="de"] .btn-amazon-us { display: none !important; }
+    /* Unsupported regions (SG, CN, etc.): hide both — Amazon won't ship anyway, keeps Payhip/newsletter focus */
+    html[data-market="unsupported"] .btn-amazon-us,
+    html[data-market="unsupported"] .btn-amazon-de { display: none !important; }
+  </style>
+
   <!-- Google AdSense placeholder - replace ca-pub-YOURCODE with your AdSense publisher ID -->
   <!-- <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-YOURCODE" crossorigin="anonymous"></script> -->
 </head>
