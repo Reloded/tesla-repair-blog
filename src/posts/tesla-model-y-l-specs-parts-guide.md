@@ -184,3 +184,13 @@ For DIY repair enthusiasts, the key takeaway: the **front half shares parts with
 ---
 
 *Prices shown in local currencies (Australian dollars where noted). Specifications based on manufacturer data for the Australian-market Model Y L Premium AWD. European and US specs may vary when announced. Last updated March 2026.*
+
+## Related Guides
+
+- [Tesla Battery Degradation: What's Normal vs What's a Problem](/posts/tesla-battery-degradation-health/) — Easy · Battery
+- [Tesla Battery Replacement Cost: What It Really Costs in 2025](/posts/tesla-battery-replacement-cost/) — Informational · Model 3, Model Y, Model S, Model X · Battery & Electrical
+- [Tesla Flat Tire: Complete Guide to Repair, Kits, and What to Do](/posts/tesla-flat-tire-repair-guide/) — Easy-Medium · Model 3, Model Y, Model S, Model X · Tires & Wheels
+- [Tesla Pyrofuse Explained: What It Does, When It Blows & What to Do](/posts/tesla-pyrofuse-guide/) — Advanced · Model 3, Model Y, Model S, Model X · Electrical
+- [Tesla Seat Adjustment Not Working: Fix Guide](/posts/tesla-seat-adjustment-not-working/) — Intermediate · Model 3, Model Y, Model S, Model X · Interior
+- [Tesla Seat Heater Not Working: Complete DIY Fix Guide (2026)](/posts/tesla-seat-heater-fix/) — Medium · Interior
+- [How to Install Tesla Ambient Interior Lighting (Model 3/Y)](/posts/tesla-ambient-lighting-install/) — Medium · Model 3, Model Y · Interior

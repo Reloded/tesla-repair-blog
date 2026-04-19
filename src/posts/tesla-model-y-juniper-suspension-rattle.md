@@ -251,3 +251,13 @@ If you're considering buying a Juniper, don't let this scare you off. It's a rea
 - [YouTube: The 2026 Model Y Juniper Has a MAJOR Defect (Suspension Rattle)](https://www.youtube.com/watch?v=NNjOLVAWkT8) — February 2026
 - [Tesla Owners Online: Clunking over minor bumps at low speeds](https://www.teslaownersonline.com/threads/2026-y-slight-clunking-over-minor-bumps-at-low-speeds.36062/)
 - Tesla Service Center reports from multiple owner accounts
+
+## Related Guides
+
+- [Tesla Battery Replacement Cost: What It Really Costs in 2025](/posts/tesla-battery-replacement-cost/) — Informational · Model 3, Model Y, Model S, Model X · Battery & Electrical
+- [Tesla Control Arm Replacement: DIY Suspension Fix](/posts/tesla-control-arm-replacement/) — Hard · Suspension
+- [Tesla Maintenance Schedule: What You Actually Need (2026)](/posts/tesla-maintenance-schedule/) — Beginner · Model 3, Model Y, Model S, Model X · Maintenance
+- [Tesla Suspension Noise: Diagnose & Fix at Home](/posts/tesla-suspension-noise-fix/) — Intermediate · Suspension
+- [Tesla Wheel Bearing Replacement: DIY Guide for Model 3, Y, S & X](/posts/tesla-wheel-bearing-replacement/) — Advanced · Suspension
+- [Tesla Air Suspension Problems: DIY Diagnosis & Repair Guide (2026)](/posts/tesla-air-suspension-issues/) — Hard · Model S, Model X · Suspension
+- [Tesla Coil Spring Replacement & Lowering Springs Guide](/posts/tesla-coil-spring-replacement/) — Advanced · Model 3, Model Y · Suspension
