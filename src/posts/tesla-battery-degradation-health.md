@@ -1,7 +1,7 @@
 ---
 layout: post.njk
 title: "Tesla Battery Degradation: What's Normal vs What's a Problem"
-description: "Tesla battery degradation explained: what's actually normal (most owners keep 85%+ after 5 years), how to check health with free tools, the exact number that triggers a warranty claim, and 2026 data on Highland, Juniper & 4680 cells."
+description: "Is your Tesla battery degrading too fast? Most owners keep 85-90% after 100,000 km. Free 3-minute check inside, plus the exact kWh threshold for warranty claims, 2026 community data on Highland/Juniper/4680, and how degradation affects resale value."
 date: 2026-02-17
 updated: 2026-04-19
 category: "Battery"
@@ -112,6 +112,79 @@ Community data from thousands of vehicles gives us a clearer picture of what to 
 > **Note:** These are approximate ranges based on community data. Your results depend on climate, charging habits, and driving style. The Model 3 Highland uses newer NMC chemistry that may age differently — we'll update this table as more data becomes available.
 
 The key takeaway: most Tesla models cluster around 10-12% degradation at the 5-year mark, which is better than many EVs on the market. The Model S with its larger 100 kWh pack tends to do slightly better because each driving mile represents a smaller percentage of total capacity.
+
+## 2026 Community Tracking Data: Which Batteries Age Best?
+
+Battery tracking communities (Recurrent, What About Tesla, TeslaFi fleet stats) now have multi-year data on hundreds of thousands of vehicles. Here's what stands out in the 2026 picture.
+
+### Best-Performing Batteries
+
+**2021–2023 LFP Standard Range (Model 3/Y)**
+
+The move to lithium iron phosphate cells in mid-2021 was the most significant degradation improvement Tesla has made. Two- to three-year-old LFP cars are tracking at **4–7% lifetime degradation** — considerably below the equivalent NCA cars of the same vintage. The chemistry's flatter voltage curve also means the BMS has less drift, so what you measure is closer to what you actually have.
+
+If you charge to 100% regularly (as Tesla recommends for LFP), these packs are calibrated and honest. Owners who charge LFP to 80% out of habit inherited from an old NCA car are often artificially suppressing range display without actually protecting anything.
+
+**2022–2023 Model Y Long Range (NMC)**
+
+Community data shows 2022 Model Y LR packs holding up slightly better than comparable 2020–2021 units — likely a result of cell manufacturing improvements in the Austin Gigafactory ramp. Average community-reported degradation at 80,000 km is **7–9%**, with fewer outliers above 12% than in the 2020–2021 cohort.
+
+### Watch List: Higher-Than-Average Degradation
+
+**Early 2019 Model 3 Long Range (NCA, pre-CCS)**
+
+First-generation 2019 LR packs from the early Fremont ramp show higher-than-average degradation by the 5-year mark — community averages are closer to **14–18%** at 100,000+ km, particularly in warm-climate markets. If you're buying one of these used, budget for above-average degradation and check the OBD2 reading carefully.
+
+**Hot-climate ownership (any model, sustained 35°C+)**
+
+Fleet data consistently shows that geography matters more than model year for long-term health. A 2022 Model Y in Phoenix degrades measurably faster than the same car in Stockholm — roughly **2–4% more total degradation** over 5 years, all else equal. If you're evaluating a used Tesla from a hot-climate market, apply a mental penalty of a few percentage points versus the fleet average.
+
+### 4680 Cells (Cybertruck, 2024+ Model Y with structural pack)
+
+As of April 2026, the longest-owned 4680-pack vehicles are approaching 18–24 months. Community tracking on TMC and Reddit r/TeslaLounge shows:
+
+- Average degradation at 12 months: **2–4%** (encouraging)
+- Cell voltage delta readings remain tight — no early cell-imbalance issues emerging at scale
+- Peak charge rate stability appears better than early 2170 cohorts at the same mileage
+
+The sample size is still limited. Check community trackers in late 2026 for more robust conclusions.
+
+### How to Find Your Car's Cohort Average
+
+TeslaFi's fleet stats let you filter by model, year, and region to see how your car compares to similar vehicles. If your degradation is within 2–3% of the cohort average for your mileage, you're doing fine. More than 5% above the cohort average for your mileage is worth investigating (OBD2 check, service appointment if still in warranty).
+
+## How Battery Degradation Affects Tesla Resale Value
+
+This is the section most guides skip — but it's arguably the most useful number for owners who plan to sell within 5–7 years.
+
+### The Buyer's Discount Formula
+
+Used Tesla buyers in Europe increasingly check battery health before making offers, particularly as the market has matured and OBD2 tools are widely known. The rough market discount that experienced buyers apply:
+
+| Degradation vs. Fleet Average | Typical Market Impact (Model Y LR) |
+|-------------------------------|-------------------------------------|
+| At or below fleet average | No discount, often a selling point |
+| 2–4% above fleet average | €500–1,000 off asking price |
+| 5–8% above fleet average | €1,500–2,500 off, or longer time to sell |
+| 10%+ above fleet average | Significant discount required; some buyers walk |
+
+These aren't hard rules — market conditions, overall mileage, and service history all factor in. But if your car shows 16% degradation at 90,000 km when the fleet average for your model is 10%, expect buyers to know this and price accordingly.
+
+### When to Disclose Proactively
+
+If you're selling privately, disclosing battery health upfront builds trust and filters out time-wasters. Include a Scan My Tesla screenshot (full pack energy at 100%) in your listing. Sellers who do this consistently report faster sales and fewer lowball offers — because you've removed the uncertainty buyers fear.
+
+If your car is **at or below fleet average**, this is a genuine selling point. "Battery health: X kWh / Y% of original, measured April 2026" is worth including in the listing.
+
+### When It Doesn't Matter Much
+
+For cars under 50,000 km with under 10% degradation, most buyers don't pay a meaningful discount. At this point, you're clearly within normal operating range and the warranty is still intact. The degradation conversation becomes more important after 80,000 km or 5 years.
+
+If you're planning to sell within 3–4 years, the most cost-effective thing you can do is maintain charging habits (80% daily, home AC charging) and keep records — not spend money on treatments or services that don't change the underlying chemistry.
+
+### Independent Battery Reports for Private Sales
+
+Some certified EV shops (and Tesla-focused independents) now offer **battery health certificates** — a printed report with OBD2 data, cell voltage readings, and comparison to fleet benchmarks. These cost €40–80 and can be included in the sale documentation. For high-value used sales (Model S, Plaid, early Cybertruck), this level of documentation meaningfully supports asking price. See our [Used Tesla Buying Inspection Guide](/posts/tesla-used-buying-inspection-guide/) for what these reports cover.
 
 ## Temperature's Impact on Battery Health
 
@@ -643,6 +716,30 @@ Most private sellers don't know these numbers. Coming prepared with a real-time 
         "@type": "Answer",
         "text": "No — for most Tesla owners. Model 3 and Model Y are limited to 170–250 kW by their own onboard systems, regardless of whether you plug into a V3 (250 kW) or V4 (500 kW) Supercharger. Your car draws the same power at both. Only the Cybertruck actually uses the full 500 kW V4 capability. For road-trip Supercharging, the V3-to-V4 transition has negligible impact on long-term battery degradation. Home AC charging remains the lowest-degradation primary charging method."
       }
+    },
+    {
+      "@type": "Question",
+      "name": "What is PACK_FULL_ENERGY in Scan My Tesla and how do I read it?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "PACK_FULL_ENERGY (also shown as 'Full Pack Energy' or 'Nom Full Pack Energy') is the OBD2 parameter that shows your battery's current maximum usable capacity in kWh at 100% state of charge. Compare it to your model's original factory spec to calculate degradation. Example: a 2021 Model 3 Long Range originally shows ~79 kWh. If Scan My Tesla shows 71 kWh, that's approximately 10% degradation. Always take this reading after a full charge (100%) with the car fully awake and DC-DC converter active. A single reading can vary slightly — average 2–3 readings for the most accurate picture."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "My Tesla has 12% degradation after only 3 years — is that normal?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "12% at 3 years is on the higher end of normal but not necessarily a problem. Context matters: if you have 120,000+ km and supercharge frequently in a hot climate, 12% is within the expected range. If you have 40,000 km and primarily home-charge in a moderate climate, 12% is above average and worth investigating. First step: run a BMS recalibration (deep discharge to below 10%, slow-charge to 100%, leave plugged in 2+ hours, repeat 2–3 times). Some 'degradation' is BMS miscalibration, not real capacity loss. If degradation persists above 10% with normal usage and mileage, check your warranty status — Tesla's 8-year warranty covers drops below 70% capacity."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does how I charge at home affect long-term battery degradation?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes — home charging habits are the single biggest variable within your control. Charging at 7–11 kW AC (a standard home wallbox or J1772/Type 2 charger) is the gentlest option: low heat generation, no BMS stress, and the car can optimize the charge curve. Charging to 80% daily is optimal for NCA/NMC packs; 100% daily is recommended for LFP. A quality home charger like the Lectron L2 or Tesla Wall Connector pays for itself in extended battery life — see our Charging Adapter Guide for options. Avoid charging at the lowest AC rate (3.7 kW) for extended periods if faster options are available — the extra time at partial charge states doesn't help and occupies the car unnecessarily."
+      }
     }
   ]
 }
@@ -675,6 +772,15 @@ Tessie and Stats for Tesla are free API-based options that work without any hard
 **Q: Do 2024 Highland and Juniper batteries degrade faster or slower?**
 Early 12–18 month data shows 3–6% first-year degradation — slightly better than the 5–8% typical of older NCA cells. They use NMC21 chemistry. Standard Range variants still use LFP (charge to 100% regularly). Long-term curves are too early to call definitively.
 
+**Q: What is PACK_FULL_ENERGY in Scan My Tesla?**
+It's the OBD2 reading that shows your battery's current maximum usable capacity in kWh at 100% charge. Compare it to your model's original factory spec to get your actual degradation percentage. A 2021 Model 3 LR should read ~79 kWh when new — if yours reads 71 kWh, that's ~10% degradation. Take 2–3 readings after a full charge and average them for accuracy.
+
+**Q: My Tesla shows 12% degradation at 3 years — is that normal?**
+Depends on mileage and usage. At 120,000+ km with frequent Supercharging in a hot climate: yes, that's within range. At 40,000 km with mostly home charging: that's above average and worth investigating. Start with a BMS recalibration (discharge below 10%, slow AC charge to 100%, leave plugged in 2+ hours — repeat 2–3 cycles). Some apparent degradation is BMS drift, not real capacity loss. If it persists after recalibration, check your warranty status.
+
+**Q: Does home charging speed affect long-term battery health?**
+Yes — 7–11 kW AC home charging is the gentlest option for long-term health. Low charge rates generate less heat and let the BMS optimize the charge curve. Charging to 80% daily (NCA/NMC) or 100% (LFP) at a quality [home wallbox](https://www.awin1.com/cread.php?awinmid=91891&awinaffid=2729872&ued=https%3A%2F%2Fev-lectron.com%2Fcollections%2Fev-chargers) is the single most impactful habit for long-term retention. See our [Charging Adapter Guide](/posts/tesla-charging-adapter-guide/) for home charger options.
+
 ---
 
 *Last updated: April 2026. Degradation data based on publicly available fleet statistics and community reports.*
@@ -697,3 +803,5 @@ Early 12–18 month data shows 3–6% first-year degradation — slightly better
 - [Tesla Service Mode Guide](/posts/tesla-service-mode-guide/) — Access battery diagnostics
 - [Tesla Used Buying Inspection Guide](/posts/tesla-used-buying-inspection-guide/) — Check battery before buying used
 - [Tesla Camera Calibration Guide](/posts/tesla-autopilot-camera-calibration/) — Another common maintenance task
+- [Tesla Drive Unit Noise Fix](/posts/tesla-drive-unit-noise-fix/) — Diagnose early-stage bearing wear before it escalates
+- [Tesla Winter Preparation Guide](/posts/tesla-winter-preparation-guide/) — Cold-climate charging and range management
