@@ -13,6 +13,7 @@ tools:
     link: "https://www.amazon.de/s?k=tesla+model+3+cabin+air+filter&tag=diyrepair-21"
     asin_de: "B0897XNHC2"
     asin_com: "B0897XNHC2"
+    shopee_sg: "https://invl.me/clnek95"
   - name: "Tesla HEPA Filter Upgrade"
     link: "https://www.amazon.de/s?k=tesla+HEPA+cabin+air+filter&tag=diyrepair-21"
     asin_de: "B09NNGN4FR"

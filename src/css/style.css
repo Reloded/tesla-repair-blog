@@ -809,6 +809,24 @@ img {
   color: white;
 }
 
+.quick-buy-btn.btn-lazada-sg {
+  background: #0D24C1;
+}
+
+.quick-buy-btn.btn-lazada-sg:hover {
+  background: #0B1C98;
+  color: white;
+}
+
+.quick-buy-btn.btn-shopee-sg {
+  background: #EE4D2D;
+}
+
+.quick-buy-btn.btn-shopee-sg:hover {
+  background: #D84315;
+  color: white;
+}
+
 .quick-buy-btn.btn-ifixit,
 .quick-buy-btn.btn-tesmanian,
 .quick-buy-btn.btn-rrcarparts {
@@ -989,6 +1007,24 @@ img {
   box-shadow: 0 4px 12px rgba(20, 110, 180, 0.4);
 }
 
+.affiliate-link .btn-lazada-sg {
+  background: linear-gradient(135deg, #0D24C1 0%, #0B1C98 100%);
+}
+
+.affiliate-link .btn-lazada-sg:hover {
+  background: linear-gradient(135deg, #0B1C98 0%, #08166F 100%);
+  box-shadow: 0 4px 12px rgba(13, 36, 193, 0.4);
+}
+
+.affiliate-link .btn-shopee-sg {
+  background: linear-gradient(135deg, #EE4D2D 0%, #D84315 100%);
+}
+
+.affiliate-link .btn-shopee-sg:hover {
+  background: linear-gradient(135deg, #D84315 0%, #BF360C 100%);
+  box-shadow: 0 4px 12px rgba(238, 77, 45, 0.4);
+}
+
 .amazon-buttons {
   display: flex;
   gap: 0.5rem;
@@ -1081,6 +1117,22 @@ img {
 
 .tool-card .btn-amazon-us:hover {
   background: linear-gradient(135deg, #0f5a8f 0%, #0a4a75 100%);
+}
+
+.tool-card .btn-lazada-sg {
+  background: linear-gradient(135deg, #0D24C1 0%, #0B1C98 100%);
+}
+
+.tool-card .btn-lazada-sg:hover {
+  background: linear-gradient(135deg, #0B1C98 0%, #08166F 100%);
+}
+
+.tool-card .btn-shopee-sg {
+  background: linear-gradient(135deg, #EE4D2D 0%, #D84315 100%);
+}
+
+.tool-card .btn-shopee-sg:hover {
+  background: linear-gradient(135deg, #D84315 0%, #BF360C 100%);
 }
 
 /* About Page */

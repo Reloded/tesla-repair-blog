@@ -131,6 +131,12 @@ layout: base.njk
               {% elif tool.link and 'amazon.de' in (tool.link | string) %}
               <a href="{{ tool.link }}" class="quick-buy-btn btn-amazon-de" target="_blank" rel="nofollow noopener">🇩🇪 Buy</a>
               {% endif %}
+              {% if tool.lazada_sg %}
+              <a href="{{ tool.lazada_sg }}" class="quick-buy-btn btn-lazada-sg" target="_blank" rel="nofollow noopener" onclick="if(typeof gtag==='function')gtag('event','lazada_click_sg',{value:0.10});">🇸🇬 Lazada</a>
+              {% endif %}
+              {% if tool.shopee_sg %}
+              <a href="{{ tool.shopee_sg }}" class="quick-buy-btn btn-shopee-sg" target="_blank" rel="nofollow noopener" onclick="if(typeof gtag==='function')gtag('event','shopee_click_sg',{value:0.10});">🇸🇬 Shopee</a>
+              {% endif %}
             {% endif %}
           </div>
         </div>
@@ -209,6 +215,12 @@ layout: base.njk
               <a href="{{ tool.linkDE }}" class="buy-btn btn-amazon-de" target="_blank" rel="nofollow noopener">Amazon.de 🇩🇪</a>
               {% elif tool.link and 'amazon.de' in (tool.link | string) %}
               <a href="{{ tool.link }}" class="buy-btn btn-amazon-de" target="_blank" rel="nofollow noopener">Amazon.de 🇩🇪</a>
+              {% endif %}
+              {% if tool.lazada_sg %}
+              <a href="{{ tool.lazada_sg }}" class="buy-btn btn-lazada-sg" target="_blank" rel="nofollow noopener" onclick="if(typeof gtag==='function')gtag('event','lazada_click_sg',{value:0.10});">Lazada 🇸🇬 →</a>
+              {% endif %}
+              {% if tool.shopee_sg %}
+              <a href="{{ tool.shopee_sg }}" class="buy-btn btn-shopee-sg" target="_blank" rel="nofollow noopener" onclick="if(typeof gtag==='function')gtag('event','shopee_click_sg',{value:0.10});">Shopee 🇸🇬 →</a>
               {% endif %}
             </div>
             {% endif %}

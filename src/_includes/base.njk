@@ -41,7 +41,8 @@
     (function() {
       var US_MARKET = ['US','CA','MX','PR'];
       var DE_MARKET = ['DE','AT','CH','NL','BE','FR','IT','ES','LU','PL','CZ','SK','HU','SI','DK','SE','FI','NO','IE','GB','PT','GR','EE','LV','LT','HR','BG','RO','MT','CY','IS'];
-      var UNSUPPORTED = ['SG','CN','HK','TW','IN','JP','KR','TH','VN','MY','PH','ID','AU','NZ','ZA','BR','AR','AE','SA','EG','TR','RU','UA','IL'];
+      var SG_MARKET = ['SG'];
+      var UNSUPPORTED = ['CN','HK','TW','IN','JP','KR','TH','VN','MY','PH','ID','AU','NZ','ZA','BR','AR','AE','SA','EG','TR','RU','UA','IL'];
       fetch('/cdn-cgi/trace', { cache: 'no-store' })
         .then(function(r) { return r.text(); })
         .then(function(text) {
@@ -50,6 +51,7 @@
           var market = 'unknown';
           if (US_MARKET.indexOf(c) !== -1) market = 'us';
           else if (DE_MARKET.indexOf(c) !== -1) market = 'de';
+          else if (SG_MARKET.indexOf(c) !== -1) market = 'sg';
           else if (UNSUPPORTED.indexOf(c) !== -1) market = 'unsupported';
           document.documentElement.setAttribute('data-market', market);
           document.documentElement.setAttribute('data-country', c);
@@ -64,11 +66,17 @@
     })();
   </script>
   <style>
-    /* Default (no data-market or data-market="unknown"): both Amazon buttons visible.
-       Geo-detect hides the irrelevant marketplace once CDN trace resolves (~20-50ms). */
+    /* Default (no data-market or data-market="unknown"): US + DE Amazon buttons visible, SG buttons hidden.
+       Geo-detect swaps marketplaces once CDN trace resolves (~20-50ms). */
     html[data-market="us"] .btn-amazon-de { display: none !important; }
     html[data-market="de"] .btn-amazon-us { display: none !important; }
-    /* Unsupported regions (SG, CN, etc.): hide both — Amazon won't ship anyway, keeps Payhip/newsletter focus */
+    /* SG market: hide US/DE Amazon (user can't buy), show Lazada + Shopee instead */
+    html[data-market="sg"] .btn-amazon-us,
+    html[data-market="sg"] .btn-amazon-de { display: none !important; }
+    /* Lazada/Shopee SG buttons: hidden everywhere except SG (default-hidden to avoid flash on US/DE) */
+    html:not([data-market="sg"]) .btn-lazada-sg,
+    html:not([data-market="sg"]) .btn-shopee-sg { display: none !important; }
+    /* Unsupported regions (CN, etc.): hide all marketplace buttons — keeps Payhip/newsletter focus */
     html[data-market="unsupported"] .btn-amazon-us,
     html[data-market="unsupported"] .btn-amazon-de { display: none !important; }
   </style>
