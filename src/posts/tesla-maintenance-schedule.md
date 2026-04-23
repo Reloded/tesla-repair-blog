@@ -1,9 +1,9 @@
 ---
 layout: post.njk
 title: "Tesla Maintenance Schedule: What You Actually Need (2026)"
-description: "Complete Tesla maintenance schedule 2026: exact service intervals, torque specs, DIY vs service center costs, seasonal checklists, Cybertruck guide, and gear oil info. Save €3,300+ over 8 years. Model 3, Y, S, X, Highland, Juniper, Cybertruck."
+description: "Tesla maintenance schedule 2026: exact intervals, brake fluid buying guide, DIY vs service center costs, seasonal checklist, torque specs, Cybertruck. Save €3,300+ over 8 years. All models."
 date: 2026-02-26
-lastUpdated: 2026-04-17
+lastUpdated: 2026-04-23
 category: "Maintenance"
 difficulty: "Beginner"
 readTime: "14 min read"
@@ -27,6 +27,12 @@ faq:
     a: "Mostly the same as Model 3/Y. The stainless steel body needs no paint protection. The 48V auxiliary battery lasts 10+ years but cannot be jump-started with a standard 12V pack. Rotate tires every 8,000–10,000 km given the Cybertruck's weight. All brake fluid, coolant, and cabin air filter intervals are identical to Model Y."
   - q: "Does Tesla need gear oil changes?"
     a: "Yes, but rarely — around 200,000 km. Tesla's sealed drive units contain gear oil that lubricates the reduction gear and motor bearings. Use the correct spec (Dexron VI ATF or Pentosin ATF 9 depending on the unit). DIY cost is €30–50 in fluid; service center charges €200–400."
+  - q: "What brake fluid should I use in my Tesla?"
+    a: "Tesla specifies DOT 3/DOT 4 compatible fluid. Both standard DOT 4 and DOT 4 LV (low viscosity) are compatible. Never use DOT 5 (silicone-based). Castrol React DOT 4, ATE SL DOT 4, and Bosch ENV6 DOT 4 LV are the recommended brands. Buy 500 mL for Model 3/Y; 1 liter for Model S/X."
+  - q: "Do I need to keep maintenance records for Tesla warranty?"
+    a: "Tesla's warranty doesn't require their service centers — EU consumer law protects this. However, if a failure is maintenance-related, Tesla may request evidence that the item was serviced. Keeping dated receipts for DIY parts (cabin filter, brake fluid, coolant) and a mileage log protects your warranty claims and adds €500–1,500 to resale value."
+  - q: "What coolant does Tesla use?"
+    a: "All Tesla models use G-48 specification coolant — OAT formula, ethylene glycol, silicate-free. Compatible brands include VW G 048, BASF Glysantin G48, and Febi Bilstein G48. Mix 50/50 with distilled water only (not tap water). Never use universal coolants with phosphates or silicates — they degrade Tesla's aluminum heat exchangers."
 tools:
   - name: "Tesla Cabin Air Filter (Model 3/Y)"
     link: "https://www.amazon.de/s?k=tesla+model+3+cabin+air+filter&tag=diyrepair-21"
@@ -98,6 +104,34 @@ Tesla has simplified their maintenance recommendations over the years. Here's th
 | [Air suspension check](/posts/tesla-air-suspension-issues/) | Model S/X with air suspension | Every 2 years | Visual only |
 | [Gear oil change](/posts/tesla-gear-oil-change/) | All models (front/rear drive units) | Every 200,000 km (or as needed) | Advanced |
 | [12V battery replacement](/posts/tesla-12v-battery-replacement/) | All models | Every 3-5 years | Easy |
+
+## Which Brake Fluid to Buy for Your Tesla
+
+Tesla specifies **DOT 3/DOT 4 compatible fluid** across all models. The critical compatibility rules:
+
+- ✅ DOT 3, DOT 4, DOT 4 LV (Low Viscosity) — all compatible
+- ✅ DOT 5.1 (water-based) — compatible on most models
+- ❌ DOT 5 (silicone-based) — **never use**, not compatible with Tesla's rubber seals
+
+### Recommended Brands
+
+| Brand | Grade | Dry Boiling Point | Best For |
+|-------|-------|-------------------|----------|
+| Castrol React DOT 4 | DOT 4 | 260°C | Best everyday pick, widely available |
+| ATE SL DOT 4 | DOT 4 | 260°C | OEM-spec equivalent |
+| Bosch ENV6 | DOT 4 LV | 265°C | Slightly better cold-temperature viscosity |
+| Motul RBF 600 | DOT 4 Racing | 312°C | Track use or consistently hot climates |
+
+For most owners, **Castrol React DOT 4** or **ATE SL** is the right choice. Racing-grade fluid isn't needed for street use and costs significantly more.
+
+**How much to buy:** Model 3/Y brake systems hold approximately **350–450 mL** of fluid — a single 500 mL bottle covers a complete change with minimal waste. Model S/X systems hold slightly more; buy **1 liter** to be safe.
+
+- [DOT 4 Brake Fluid — Amazon DE](https://www.amazon.de/s?k=castrol+react+dot+4+bremsflüssigkeit&tag=diyrepair-21)
+- [DOT 4 Brake Fluid — Amazon US](https://www.amazon.com/s?k=castrol+dot+4+brake+fluid&tag=diyrepair07-20)
+
+**Calendar replacement note:** Even if your brake fluid test strips show acceptable moisture levels, replace fluid every **4 years on a calendar basis**. Glycol-based fluid absorbs atmospheric moisture through the reservoir cap over time — a test strip only catches one degradation mode. For the complete fluid change procedure, see our [Tesla Brake Fluid Change guide](/posts/tesla-brake-fluid-change/).
+
+---
 
 ## What Tesla Doesn't Tell You (But You Should Do Anyway)
 
@@ -406,6 +440,34 @@ Also check our [Drive Unit Noise Fix guide](/posts/tesla-drive-unit-noise-fix/) 
 
 ---
 
+## Tesla Coolant: G-48 and What to Buy
+
+All Tesla models (except Cybertruck, which uses the same spec) use **G-48 specification coolant** — OAT chemistry, ethylene glycol-based, silicate-free. This is a standard automotive formulation, not a proprietary Tesla product. Multiple brands are compatible.
+
+### Compatible Coolant Brands
+
+| Brand | Spec | Form |
+|-------|------|------|
+| VW G 048 000 | OEM G-48 | Concentrate — dilute 1:1 with distilled water |
+| BASF Glysantin G48 | OEM G-48 | Concentrate |
+| Febi Bilstein G48 | G-48 compatible | Concentrate |
+| Mannol Longterm AF12+ | G-48 compatible | Concentrate |
+
+**What to avoid:** "Universal" coolants claiming compatibility with all vehicles. Some contain silicates or phosphates that form deposits in Tesla's aluminum coolant channels over time. Always verify the G-48 specification on the label before buying.
+
+**Mixing ratio:** Tesla uses a **50/50 mix** of concentrate to distilled water. Never use tap water — mineral content causes scale buildup in coolant passages. Pre-mixed 50/50 formulations also work (no measuring needed).
+
+**How much you need:** The thermal management system on Model 3/Y holds approximately **6–7 liters** total. For a complete flush, buy **3–4 liters of concentrate** and have 4 liters of distilled water ready. Model S/X cooling systems are larger — buy 5 liters of concentrate.
+
+- [G-48 Coolant Concentrate — Amazon DE](https://www.amazon.de/s?k=tesla+g48+kühlmittel+konzentrat+glysantin&tag=diyrepair-21)
+- [G-48 Compatible Coolant — Amazon US](https://www.amazon.com/s?k=g48+coolant+concentrate+compatible&tag=diyrepair07-20)
+
+**Coolant disposal:** Ethylene glycol is toxic to animals and must not go down drains or into general waste. Most auto parts stores (Halfords, ATU, Midas in EU; AutoZone and O'Reilly in US) accept used coolant for recycling at no charge. Store it in a sealed, labeled jug until disposal day.
+
+Full procedure with photos: [Tesla Coolant Flush & Change Guide](/posts/tesla-coolant-flush-change/).
+
+---
+
 ## Rust Prevention: One Step Many Owners Skip
 
 Teslas don't rust in the traditional sense — the aluminum body panels, glass roof, and stainless steel fasteners don't corrode. But the **steel subframe, brake lines, suspension arms, and heat pump plumbing** under the car absolutely do, especially in northern Europe where road salt is used from October to April.
@@ -428,6 +490,37 @@ Don't rely on memory. Set up maintenance reminders:
 2. **Calendar reminders** - set recurring annual/biennial reminders for each item
 3. **Mileage-based** - note your odometer reading and set the next service at the target km
 4. **[Service Mode](/posts/tesla-service-mode-guide/)** - periodically check Service Alerts for any flagged issues
+
+## Keep a Maintenance Log — It's Worth Real Money
+
+A simple maintenance record protects your warranty, increases resale value, and gives you a diagnostic baseline. It takes 90 seconds per service event.
+
+### What to Record
+
+For each job, note:
+- Date
+- Odometer reading
+- What was done (e.g., "cabin air filter replaced")
+- Parts used (brand, part number if known, where purchased)
+- Cost (parts only for DIY)
+
+### Where to Store It
+
+**Physical logbook:** A service logbook in the glove box carries more weight at resale — buyers and dealers can inspect it in person. A [generic car service logbook](https://www.amazon.de/s?k=auto+serviceheft+notizbuch&tag=diyrepair-21) ([US](https://www.amazon.com/s?k=car+service+maintenance+log+book&tag=diyrepair07-20)) from any stationery store or Amazon works. Cost: €5–10.
+
+**Digital backup:** Photograph your receipts after each service and save them to a Google Drive folder named with your Tesla's VIN. This takes 15 seconds and ensures you can prove maintenance history even if the physical book is lost.
+
+**Tesla app:** The app automatically logs Tesla service center visits. For DIY work, add a brief note in a recurring calendar reminder — that timestamp and mileage is enough to establish a record.
+
+### Why Records Matter for Warranty
+
+Tesla's warranty doesn't require you to use their service centers (EU consumer law is clear on this). But if a failure is related to a maintenance item — for example, a coolant pump failure at 70,000 km where coolant was never changed — Tesla may ask for evidence of upkeep. A dated receipt for G-48 coolant and a log entry with mileage rebuts any maintenance-negligence argument.
+
+### Resale Value
+
+A documented Tesla service history adds **€500–1,500 to private sale value** based on typical European used EV pricing. Buyers and dealers both check maintenance records before making offers — a clean log is a concrete differentiator against identical cars with no records.
+
+---
 
 <script type="application/ld+json">
 {
@@ -512,6 +605,30 @@ Don't rely on memory. Set up maintenance reminders:
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Yes, but rarely. Tesla's sealed drive units contain a small amount of gear oil that lubricates the reduction gear and motor bearings. Tesla does not officially list it in their maintenance schedule, but most independent shops recommend inspecting or replacing it around 200,000 km. Using the correct spec (Dexron VI ATF or Pentosin ATF 9 depending on the unit) is critical — the wrong fluid will cause foaming and premature bearing wear. Cost: €30–50 in fluid DIY."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What brake fluid should I use in my Tesla?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Tesla specifies DOT 3/DOT 4 compatible fluid. Standard DOT 4 and DOT 4 LV (low viscosity) are both compatible. Never use DOT 5 (silicone-based) — it is not compatible with Tesla's rubber brake seals. Recommended brands: Castrol React DOT 4, ATE SL DOT 4, or Bosch ENV6 DOT 4 LV. Buy 500 mL for Model 3/Y (one bottle covers a complete change); buy 1 liter for Model S/X."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do I need to keep maintenance records for Tesla warranty?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "EU law does not require you to use Tesla service centers to maintain your warranty. However, if a failure is related to a maintenance item, Tesla may request evidence of upkeep. Keeping dated receipts for DIY parts (cabin filter, brake fluid, coolant) and a simple odometer log creates a paper trail that protects warranty claims. Records also add €500–1,500 to resale value — a concrete financial return on 90 seconds of record-keeping per service."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What coolant does Tesla use?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "All Tesla models use G-48 specification coolant — OAT formula, ethylene glycol-based, silicate-free. Compatible brands include VW G 048, BASF Glysantin G48, and Febi Bilstein G48. Mix at 50/50 with distilled water only — tap water causes mineral deposits. For a full Model 3/Y coolant flush, buy 3–4 liters of concentrate. Never use universal coolants containing phosphates or silicates, as they degrade Tesla's aluminum heat exchangers over time."
       }
     }
   ]
