@@ -42,7 +42,11 @@ layout: base.njk
   ]
 }
 </script>
-{% if difficulty and readTime %}
+{# HowTo schema: emit ONLY for procedural articles.
+   Suppress for `type: news` and `difficulty: Informational` (essays, explainers, buying guides) —
+   Google penalizes HowTo applied to non-step-by-step content as misleading structured data.
+   Per-page override: set `howto: false` in front matter to force-suppress. #}
+{% if difficulty and readTime and difficulty != "Informational" and type != "news" and howto != false %}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",

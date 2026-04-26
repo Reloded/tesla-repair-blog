@@ -4,6 +4,7 @@ layout: post.njk
 title: "Tesla Vision vs Radar: Why Tesla Ditched Sensors (2026)"
 description: "Why did Tesla remove radar and LiDAR? Learn which models are affected, how Tesla Vision compares, and what it means for Autopilot safety and performance."
 date: 2026-02-16
+lastUpdated: 2026-04-26
 category: "Technology"
 difficulty: "Informational"
 readTime: "10 min read"
@@ -142,6 +143,16 @@ Every other company chasing autonomous driving — Waymo, Cruise, you name it �
 As of early 2026, the bet appears to be paying off. FSD has improved dramatically, and ironically, the Model Y — which has no radar at all — runs the most evolved version of FSD. The Hardware 4 vehicles with their unused high-definition radar units sit there collecting dust — Tesla hasn't turned them on.
 
 For you as an owner, the bottom line is simple: keep your cameras clean and don't waste money fixing disabled radar hardware. And next time someone tells you Tesla cheaped out by removing sensors, you'll know there's more to it than that.
+
+## April 2026 Update: Where Things Stand Now
+
+A couple of things are worth pulling out two months after this article first went live:
+
+- **Hardware 4 radar still hasn't been activated.** The high-definition radar unit that ships with HW4 cars has been sitting in vehicles for years now without ever being enabled in production firmware. Tesla has neither announced a timeline for turning it on nor removed it from the bill of materials. Treat it as parts-list inventory, not a working sensor.
+- **The earlier rough patches of vision-only Autopilot are mostly gone.** Owners who held off on Autopilot updates during the 2021–2022 transition have since reported the same phantom-braking-down, lane-keeping-up trajectory the cars on early Tesla Vision saw. The "remove the conflicting sensor" thesis broadly held up.
+- **Practical takeaway for repairs:** if you're replacing a front bumper on a radar-disabled Tesla and your replacement bumper has no opening for the radar unit, that's fine. The radar was disabled years ago via software and isn't coming back. Don't pay extra for an OEM bumper just to preserve a radar cutout.
+
+If you have firm dates or part details for your specific car, always verify against your VIN-specific service manual or service.tesla.com — model-year nuances matter and this article doesn't substitute for the official documentation.
 
 ## Key Takeaways
 

@@ -3,6 +3,7 @@ layout: post.njk
 title: "Tesla Side Repeater Camera Replacement: Complete DIY Guide"
 description: "Fix a foggy, cracked, or dead Tesla side repeater camera yourself. Step-by-step replacement guide for Model 3, Model Y, Model S, and Model X with part numbers and calibration tips."
 date: 2026-03-04
+lastUpdated: 2026-04-26
 category: "Exterior & Body"
 difficulty: "Easy"
 readTime: "15 min read"
@@ -206,6 +207,17 @@ While this is generally an easy repair, consider professional help if:
 - **The fender mounting clips are broken** — pushing a new repeater into broken clip holes won't hold
 - **Multiple cameras are failing simultaneously** — this may indicate a deeper electrical issue, not just the camera unit
 - **You're within warranty** — let Tesla fix it for free if it qualifies
+
+## April 2026 Notes — Practical Updates Since Publication
+
+A few observations worth adding since this guide first went live in March:
+
+- **Aftermarket availability for Highland and Juniper has improved.** When this guide originally published, third-party repeaters that included the camera module were hard to find for the new-generation cars. That's eased — but listings are still a minefield. Always confirm the listing explicitly says "with camera" rather than relying on photos. Pull your VIN-specific part number from a Tesla parts catalog or your service center before you order.
+- **Camera calibration tends to complete faster on recent firmware.** Owners on 2026.x builds report calibration finishing within a single highway commute instead of needing several days of mixed driving. If it's still showing "calibrating" after a couple hundred kilometers, that's a sign something else is off — see the [autopilot camera calibration guide](/posts/tesla-autopilot-camera-calibration/) for the deeper troubleshooting tree.
+- **Be cautious with cheap aftermarket on Hardware 4 cars.** The HW4 camera generation has a different sensor than HW3, and not every cheap aftermarket unit ships the correct one. Physical fit is no guarantee the car will accept it — a mismatched sensor typically throws a "camera not recognized" error after install. If your car is HW4, OEM is the safer call until aftermarket vendors prove their sensor SKU.
+- **The root cause is almost always the same.** If your part is more than a year old and the symptom is fog or moisture, you're seeing a perimeter seal failure. Replacing the unit fixes it; running a thin silicone bead around the new one before snapping it in extends life noticeably.
+
+As always: cross-check the exact part number for your VIN against Tesla's parts catalog or the service manual before ordering. Tesla revises these parts more often than you'd expect and a number that worked last year may not be current today.
 
 ---
 
