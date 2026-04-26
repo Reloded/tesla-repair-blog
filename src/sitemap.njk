@@ -27,7 +27,7 @@ eleventyExcludeFromCollections: true
   {%- for post in collections.posts %}
   <url>
     <loc>{{ metadata.url }}{{ post.url }}</loc>
-    <lastmod>{{ post.date | dateToRfc3339 | truncate(10, true, "") }}</lastmod>
+    <lastmod>{{ (post.data.lastUpdated or post.date) | dateToRfc3339 | truncate(10, true, "") }}</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
