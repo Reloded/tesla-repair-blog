@@ -1,62 +1,95 @@
 ---
 layout: post.njk
-title: "Tesla Trunk Won't Stay Open? Replace the Struts in 15 Minutes (Model 3 & Y)"
-description: "Your Tesla trunk dropping on your head? The struts are shot — $25 fix, 15 minutes, no tools beyond a trim tool. Exact part numbers for Model 3 trunk and Model Y liftgate, step-by-step with photos."
+title: "Tesla Trunk Won't Stay Open? Replace the Struts in 20 Minutes (All Models, 2026)"
+description: "Fix a Tesla trunk that won't stay open: exact part numbers for Model 3, Y (Juniper), S, and X, step-by-step DIY guide, $40 fix vs $300+ dealer. Updated 2026."
 date: 2026-02-10
-lastUpdated: 2026-04-04
+lastUpdated: 2026-04-27
 category: "Body & Trim"
 difficulty: "Easy-Medium"
-readTime: "15 min read"
-models: "Model 3, Model Y"
+readTime: "18 min read"
+models: "Model 3, Model Y, Model S, Model X"
 emoji: "🔧"
 slug: "tesla-trunk-strut-replacement"
 faq:
   - q: "Why won't my Tesla trunk stay open?"
     a: "Worn gas struts (lift supports) are the most common cause. Over time, the nitrogen gas inside the strut leaks out and it can no longer hold the trunk or liftgate up. This typically happens after 3-5 years or 50,000+ miles."
   - q: "How much does it cost to replace Tesla trunk struts?"
-    a: "DIY replacement costs $20-40 for a pair of aftermarket struts. Tesla Service Center charges $150-300+ for the same job. The struts are easy to replace yourself in about 15 minutes with just a trim removal tool."
+    a: "DIY replacement costs $20-80 for a pair of aftermarket struts. Tesla Service Center charges $200-400+ for the same job. The struts are easy to replace yourself in about 20-45 minutes with just a trim removal tool."
   - q: "Can I upgrade my Tesla Model 3 trunk to power open?"
     a: "Yes. Aftermarket power trunk strut kits are available for the Model 3 that add automatic open/close functionality. They replace the manual gas struts and add a motor. Kits cost $150-300 and take about 30-45 minutes to install."
-  - q: "What are the Tesla trunk strut part numbers?"
-    a: "Model 3 trunk strut: 1551488-00-A (pair). Model Y liftgate strut: 1499839-00-B (pair). Always verify against your VIN at service.tesla.com, as part numbers can change with revisions."
+  - q: "What are the Tesla Model 3 trunk strut part numbers?"
+    a: "Model 3 power strut LH: 1551488-00-C, RH: 1551489-00-C. Model Y liftgate strut LH: 1500601-00-A, RH: 1500602-00-A. Always verify against your VIN at service.tesla.com, as part numbers can change with revisions."
   - q: "How long do Tesla trunk struts last?"
-    a: "OEM gas struts typically last 3-5 years depending on climate and usage frequency. Hot climates can accelerate gas leakage. Aftermarket upgraded struts may last longer. If your trunk is slow to rise or won't stay up, it's time to replace them."
+    a: "OEM gas struts typically last 3-5 years depending on climate and usage frequency. Hot climates accelerate gas leakage. If your trunk is slow to rise or won't stay up, it's time to replace them."
+  - q: "Do I need to calibrate the trunk after replacing struts?"
+    a: "For power trunk and power liftgate models, run a calibration after replacing struts: go to Controls > Service > Calibrate Liftgate (or Trunk) on the touchscreen. This resets the motor's travel limits to match the new strut resistance."
+  - q: "Will DIY trunk strut replacement void my Tesla warranty?"
+    a: "Replacing trunk struts on an out-of-warranty vehicle does not void other warranties. Tesla's warranty is component-specific under the Magnuson-Moss Act — replacing struts yourself does not affect your battery or drivetrain warranty."
 tools:
   - name: "TRQ Trunk Strut Set — Model 3 2017-2023"
     asin_de: "B0CWCS7G8G"
     asin_com: "B0CWCS7G8G"
   - name: "BOXI Rear Trunk Lift Supports (2 pack)"
-    link: "https://www.amazon.de/s?k=tesla+model+3+trunk+strut+replacement&tag=diyrepair-21"
-  - name: "Tesla Model Y Liftgate Struts"
-    link: "https://www.amazon.de/s?k=tesla+model+y+liftgate+strut+replacement&tag=diyrepair-21"
+    asin_com: "B0F93CJN36"
+  - name: "Getfarway Power Liftgate Strut — Model Y 2021-2023"
+    asin_com: "B0D8KCDLFL"
   - name: "Plastic Trim Removal Tool Set"
-    link: "https://www.amazon.de/s?k=automotive+trim+removal+tool+set&tag=diyrepair-21"
+    asin_com: "B09Y45XBT7"
+    asin_de: "B07PKCMF3T"
   - name: "iFixit Pro Tech Toolkit"
     link: "https://sovrn.co/1dw8w9g"
     provider: "ifixit"
   - name: "iFixit Plastic Pry Tools"
     link: "https://sovrn.co/mqnnvon"
     provider: "ifixit"
+  - name: "Inflatable Air Wedge Bag (Model Y headliner access)"
+    asin_com: "B07G7MXTGZ"
+    asin_de: "B07G7MXTGZ"
 ---
 
-Your Tesla trunk barely lifts itself anymore. It opens halfway and stops, or you have to hold it up with one hand while grabbing groceries with the other. Maybe it used to pop open automatically but now just sort of… drifts upward like it's tired. Sound familiar?
+Your Tesla trunk barely lifts itself anymore. It opens halfway and stops, or you have to hold it up with one hand while grabbing groceries with the other. Maybe it used to pop open automatically but now just sort of drifts upward like it's tired. Sound familiar?
 
 Worn trunk struts (also called lift supports or gas springs) are one of the most common Tesla issues after 3-5 years of ownership. The fix is straightforward, takes 20-45 minutes, and costs $40-120 depending on whether you have power or manual struts.
 
-**Here's the catch:** Model 3 and Model Y use completely different trunk/liftgate designs, and the strut replacement process differs significantly between them. This guide covers both.
+**Here's the catch:** Model 3 and Model Y use completely different trunk/liftgate designs, and the strut replacement process differs significantly between them. This guide covers all models including the 2024+ Juniper and Highland facelifts.
 
-## ⚡ Quick Info
+## Quick Reference: Tesla Trunk Strut Facts (2026)
 
-| Detail | Info |
-|--------|------|
-| **Difficulty** | Easy-Medium (2/5) |
-| **Time** | 20-45 minutes |
-| **Cost** | $40-120 (pair of struts) |
-| **Tesla Service Cost** | $200-400+ |
-| **Models** | Model 3 (2017+), Model Y (2020+) |
-| **Tools needed** | Trim tools, IPA wipes, prop rod |
+| Detail | Model 3 | Model Y |
+|--------|---------|---------|
+| **Difficulty** | Easy-Medium (2/5) | Easy-Medium (2/5) |
+| **Time** | 20-30 minutes | 30-45 minutes |
+| **Aftermarket strut cost** | $40-80/pair | $50-90/pair |
+| **OEM strut cost** | $100-150/pair | $120-180/pair |
+| **Tesla Service cost** | $200-350+ | $250-400+ |
+| **OEM LH part #** | 1551488-00-C | 1500601-00-A |
+| **OEM RH part #** | 1551489-00-C | 1500602-00-A |
+| **Service correction code** | 1133070022 | 11334202 |
+| **Flat rate time (Tesla)** | 0.12 hrs | 0.18 hrs |
+| **Tools needed** | Trim tools, IPA wipes, prop rod | Trim tools, IPA wipes, prop rod, air wedge |
 
-## Symptoms: How to Know Your Trunk Struts Are Failing
+## Table of Contents
+
+1. [Symptoms: How to Tell Your Struts Are Failing](#symptoms-how-to-tell-your-struts-are-failing)
+2. [Model 3 vs Model Y: Key Differences](#model-3-vs-model-y-key-differences)
+3. [Model Y Juniper (2024+): What Changed](#model-y-juniper-2024-what-changed)
+4. [Model S and Model X: Trunk Strut Overview](#model-s-and-model-x-trunk-strut-overview)
+5. [Power Struts vs Manual Gas Struts](#power-struts-vs-manual-gas-struts)
+6. [What You'll Need](#what-youll-need)
+7. [Step-by-Step: Model 3 Power Strut Replacement](#step-by-step-model-3-trunk-strut-replacement-power-struts)
+8. [Step-by-Step: Model Y Liftgate Strut Replacement](#step-by-step-model-y-liftgate-strut-replacement-power-struts)
+9. [Model 3 Manual Strut Upgrade](#model-3-manual-strut-upgrade-non-power-trunk)
+10. [Touchscreen Calibration After Replacement](#touchscreen-calibration-after-replacement)
+11. [Troubleshooting After Replacement](#troubleshooting-after-replacement)
+12. [OEM Part Number Reference](#oem-part-number-reference)
+13. [Where to Buy: US and EU Buying Guide](#where-to-buy-us-and-eu-buying-guide)
+14. [Cost Comparison](#cost-comparison)
+15. [Frequently Asked Questions](#frequently-asked-questions)
+16. [Real-World Tips From a Tesla Repair Shop](#real-world-tips-from-a-tesla-repair-shop)
+
+---
+
+## Symptoms: How to Tell Your Struts Are Failing
 
 - **Trunk won't stay fully open** — sags down under its own weight
 - **Slow rise** — trunk opens sluggishly instead of popping up
@@ -70,16 +103,17 @@ Worn trunk struts (also called lift supports or gas springs) are one of the most
 <strong>Quick test:</strong> Open your trunk fully and let go. A healthy trunk should stay put with zero droop. If it drops even 1-2 inches over 30 seconds, your struts are on the way out.
 </div>
 
+---
+
 ## Model 3 vs Model Y: Key Differences
 
 This is important to understand before ordering parts or starting the job.
 
-### Tesla Model 3 — Trunk Lid (Sedan)
+### Tesla Model 3 (2017-2023) — Trunk Lid (Sedan)
 
 The Model 3 has a traditional **sedan trunk lid** that hinges upward. It's relatively light compared to the Model Y liftgate.
 
 - **Pre-2024 Model 3:** Has two trunk struts — either manual gas struts or power struts (with electric motor) depending on trim and year
-- **2024+ Model 3 Highland:** All versions come with power trunk as standard
 - **Strut type:** Clips onto ball studs at both ends (upper on trunk lid, lower on body)
 - **Power struts have an electrical connector** that must be disconnected before removal
 
@@ -87,7 +121,14 @@ The Model 3 has a traditional **sedan trunk lid** that hinges upward. It's relat
 - LH (Left): **1551488-00-C** (also 1551488-98-B, 1551488-99-B)
 - RH (Right): **1551489-00-C**
 
-### Tesla Model Y — Liftgate (SUV/Hatchback)
+### Tesla Model 3 Highland (2024+) — Power Trunk Standard
+
+The 2024+ Model 3 Highland refresh standardized the power trunk across all trim levels. If you own a 2024+ Model 3:
+- All vehicles ship with powered lift support (no manual strut option)
+- The part numbers carry over from the 2023 model (1551488-00-C / 1551489-00-C) but verify via your VIN
+- The Highland's revised trunk lid geometry means the struts sit at a slightly different angle — confirm your replacement struts match the original length (measured fully extended and fully compressed)
+
+### Tesla Model Y (2020-2023) — Liftgate (SUV/Hatchback)
 
 The Model Y has a large **rear liftgate** (hatchback-style) that's significantly heavier than the Model 3 trunk lid. This means:
 
@@ -104,17 +145,63 @@ The Model Y has a large **rear liftgate** (hatchback-style) that's significantly
 <strong>Model 3 and Model Y struts are NOT interchangeable.</strong> They have different lengths, force ratings, and mounting configurations. Always order the correct part for your specific vehicle.
 </div>
 
+---
+
+## Model Y Juniper (2024+): What Changed
+
+The 2024 Model Y Juniper refresh brought meaningful liftgate changes that affect strut replacement:
+
+**Liftgate design updates:**
+- Revised glass geometry with a wider rear pillar — slightly different strut mounting angle than pre-facelift Model Y
+- The Juniper uses the same basic power strut mechanism but with updated part numbers in some markets. At time of writing (April 2026), part number **1500601-00-A / 1500602-00-A** still fits pre-facelift and Juniper units, but always confirm via [parts.tesla.com](https://parts.tesla.com) with your VIN
+- The headliner access procedure (Step 2 in the Model Y guide below) is the same — inflatable air wedge technique still applies
+
+**Juniper-specific note:** Several owners on Tesla forums report the Juniper's liftgate feels heavier than the pre-facelift version. If you're installing aftermarket struts, choose a force rating at or above OEM spec — going lighter will result in the same slow-open symptom you started with.
+
+<div class="tip-box">
+<strong>Juniper VIN check:</strong> Model Y Juniper production started in China (Giga Shanghai) in late 2023 and Fremont in mid-2024. Your VIN's plant code (5YJ = Fremont, 7SA = Austin, LRW = Shanghai) plus build date determines which revision applies.
+</div>
+
+---
+
+## Model S and Model X: Trunk Strut Overview
+
+### Tesla Model S
+
+The Model S has two trunk systems: a **rear trunk** (frunk/trunk lid) and a **front trunk (frunk)**. Most strut failures occur on the rear trunk.
+
+- **Rear trunk:** Power liftgate with electric struts — similar clip-on ball stud design to Model 3
+- **Frunk:** Manual gas struts on most trims
+- Part numbers vary by facelift generation (pre-2021 "Raven" vs. post-2021 "Plaid" refresh)
+- **Look up your VIN at service.tesla.com** before ordering — the 2021+ Model S refresh changed strut geometry
+
+Aftermarket options are available on Amazon US and DE for the pre-2021 Model S rear trunk. For 2021+ Plaid, OEM parts are more reliable due to lower aftermarket coverage at this time.
+
+### Tesla Model X
+
+The Model X situation is unique:
+
+- **Falcon Wing Doors** (rear passenger doors) use **actuators**, not struts — their failure is covered in a separate procedure
+- The **rear cargo liftgate** uses a power liftgate strut similar to Model Y
+- The **frunk** (front trunk) uses manual gas struts
+
+If your Model X **falcon wing door** won't stay up or moves erratically, that's not a strut issue — it's the door actuator or limit switch. The procedure in this guide covers the cargo liftgate only.
+
+For falcon wing door repairs, consult the Tesla Service Manual (correction code 1191600110) or book a Tesla Service appointment — the falcon wing actuators are high-voltage adjacent and best left to professionals.
+
+---
+
 ## Power Struts vs Manual Gas Struts
 
 ### Power Struts (Motorized)
-- Found on: All Model Y, Model 3 with power trunk option, all 2024+ Model 3
+- Found on: All Model Y, Model 3 with power trunk option, all 2024+ Model 3 Highland
 - Have an **electric motor** built into the strut that actively opens/closes the trunk
 - Include an **electrical harness connector** — you must disconnect it during replacement
 - More expensive ($80-120 per pair aftermarket, $150-200+ OEM)
 - Tesla correction code: **1133070022** (Model 3), **11334202** (Model Y)
 
 ### Manual Gas Struts (Passive)
-- Found on: Some early Model 3 base/SR+ trims without power trunk
+- Found on: Some early Model 3 base/SR+ trims (2017-2020) without power trunk
 - Pure gas springs — no motor, no electrical connection
 - Simply provide lift assist when you manually open the trunk
 - Cheaper ($30-60 per pair)
@@ -123,6 +210,8 @@ The Model Y has a large **rear liftgate** (hatchback-style) that's significantly
 <div class="tip-box">
 <strong>Upgrade opportunity:</strong> If your Model 3 has manual (non-power) trunk struts, you can install stronger aftermarket gas struts that will pop the trunk open fully on their own — essentially giving you "automatic" trunk opening without the power trunk motor. Brands like EVANNEX and TAPTES sell these upgrade kits for around $40-60.
 </div>
+
+---
 
 ## What You'll Need
 
@@ -141,17 +230,6 @@ The Model Y has a large **rear liftgate** (hatchback-style) that's significantly
 <strong>Always replace both struts together.</strong> If one is failing, the other isn't far behind. Mismatched struts cause uneven stress on hinges and can lead to alignment issues.
 </div>
 
-### Where to Buy
-
-**OEM struts** can be ordered through Tesla Service or parts suppliers like [Tesloid](https://tesloid.com), [Tesla Parts Catalog](https://parts.tesla.com), or pulled from salvage vehicles on eBay.
-
-**Aftermarket options** on Amazon:
-- 🇺🇸 [TRQ Trunk Strut Set — 4.4★, 320 ratings, $44.95](https://www.amazon.com/dp/B0CWCS7G8G?tag=diyrepair07-20) — Amazon's Overall Pick, fits 2017-2023 Model 3
-- 🇺🇸 [BOXI Rear Trunk Supports — budget option](https://www.amazon.com/dp/B0F93CJN36?tag=diyrepair07-20) — basic gas struts, 2 pack
-- 🇺🇸 [Getfarway Power Liftgate Strut — 2021-2023](https://www.amazon.com/dp/B0D8KCDLFL?tag=diyrepair07-20) — electric power strut replacement
-- 🇩🇪 [Model 3 Trunk Struts (DE)](https://www.amazon.com/s?k=tesla+model+3+kofferraum+gasdruckfeder&tag=diyrepair07-20)
-- 🇩🇪 [Model Y Liftgate Struts (DE)](https://www.amazon.com/s?k=tesla+model+y+heckklappe+gasdruckfeder&tag=diyrepair07-20)
-
 ---
 
 ## Step-by-Step: Model 3 Trunk Strut Replacement (Power Struts)
@@ -165,8 +243,6 @@ Open the trunk fully. You need to remove the interior trunk garnish (trim panel)
 1. Use a plastic trim tool to carefully pry the trunk garnish panel
 2. Work around the clips — they pop off with moderate force
 3. Set the garnish aside
-
-*See also: [Garnish - Trunk (Remove and Replace)](https://service.tesla.com/docs/Model3/ServiceManual/2024/en-us/GUID-81AE7DD7-122C-4206-81F3-A3A53D9EFB16.html) in the Tesla Service Manual*
 
 ### Step 2: Disconnect the Electrical Harness
 
@@ -271,7 +347,7 @@ This is the trickiest part of the Model Y procedure:
 
 ### Step 5: Support the Liftgate
 
-1. Use a prop rod to support the liftgate — it's heavy!
+1. Use a prop rod to support the liftgate — it's heavy
 2. The Model Y liftgate weighs significantly more than a Model 3 trunk lid
 
 <div class="warning-box">
@@ -323,26 +399,61 @@ If your Model 3 has the **non-power trunk** (common on 2017-2020 Standard Range 
 
 ---
 
+## Touchscreen Calibration After Replacement
+
+After replacing **power struts** on any model, run a calibration sequence so the trunk/liftgate motor relearns the new strut's resistance profile. Skipping this causes erratic behavior — the trunk may open only partway or stop before it's fully closed.
+
+### How to Calibrate the Liftgate (Model Y)
+
+1. Close the liftgate fully
+2. On the touchscreen: **Controls > Service > Calibrate Liftgate**
+3. The liftgate will automatically open and close 3-4 times — this is normal
+4. Do not interrupt the cycle
+5. After calibration completes, test manual and auto-close operation
+
+### How to Calibrate the Trunk (Model 3)
+
+1. Close the trunk fully
+2. On the touchscreen: **Controls > Service > Calibrate Trunk** (available on software 2023.20+)
+3. If the menu item isn't visible on your version, perform 3 full manual open/close cycles — the system auto-recalibrates after several operations
+
+### Adjusting Opening Height
+
+To adjust how far the trunk/liftgate opens:
+
+- **Model Y:** Controls > Vehicle > Liftgate > Adjust liftgate opening height
+- **Model 3:** Controls > Vehicle > Trunk > Adjust trunk opening height
+
+Set the height by stopping the liftgate at your preferred position and tapping "Save." This is useful in garages with low clearance.
+
+---
+
 ## Troubleshooting After Replacement
 
 ### Trunk still won't stay open
 - Verify both clips are fully seated on the ball studs
 - Check if ball studs themselves are worn or damaged — they can be replaced separately
-- For Model Y, see [Ball Stud - Liftgate](https://service.tesla.com/docs/ModelY/ServiceManual/en-us/GUID-2C44723F-E949-47E4-88A7-C4D41672B76E.html) procedure
+- For Model Y, see Ball Stud - Liftgate procedure in the Tesla Service Manual
 
 ### Power trunk opens/closes erratically
+- Run the touchscreen calibration procedure above
 - Make sure the electrical connector is fully seated
 - Check for pinched wires in the grommet
-- A touchscreen recalibration may be needed: go to **Controls > Service > Calibrate Trunk** (if available on your software version)
 
 ### Trunk opens too far or not far enough
 - If you installed aftermarket upgraded struts (higher force), the trunk may open more aggressively — this is normal
-- Adjust the trunk opening height in **Controls > Vehicle > Trunk** on the touchscreen
+- Adjust the trunk opening height via the touchscreen as described above
 
-### Clicking or popping noise
+### Clicking or popping noise after install
 - Ball studs may need replacement
 - Clips may not be fully seated
 - Apply a small amount of silicone grease to the ball studs
+
+### New strut sagging after a few weeks
+- Cheap aftermarket struts from unknown brands have a failure rate within 3-6 months
+- Return and replace with a reputable brand (TRQ, Getfarway, A-Premium) or OEM
+
+---
 
 ## OEM Part Number Reference
 
@@ -350,34 +461,89 @@ If your Model 3 has the **non-power trunk** (common on 2017-2020 Standard Range 
 |---------|------|-------------|------|
 | Model 3 (2017-2023) | LH | 1551488-00-C | Power Strut |
 | Model 3 (2017-2023) | RH | 1551489-00-C | Power Strut |
-| Model 3 (2024+) | LH | 1551488-00-C | Power Strut |
-| Model 3 (2024+) | RH | 1551489-00-C | Power Strut |
-| Model Y (2020-2024) | LH | 1500601-00-A | Power Strut |
-| Model Y (2020-2024) | RH | 1500602-00-A | Power Strut |
+| Model 3 Highland (2024+) | LH | 1551488-00-C | Power Strut |
+| Model 3 Highland (2024+) | RH | 1551489-00-C | Power Strut |
+| Model Y (2020-2023) | LH | 1500601-00-A | Power Strut |
+| Model Y (2020-2023) | RH | 1500602-00-A | Power Strut |
+| Model Y Juniper (2024+) | LH | 1500601-00-A* | Power Strut |
+| Model Y Juniper (2024+) | RH | 1500602-00-A* | Power Strut |
+
+*Verify via your VIN at parts.tesla.com — Juniper-specific revisions may apply in your market.
 
 <div class="tip-box">
 <strong>Note:</strong> Part numbers may have revision suffixes (e.g., -00-A, -00-B, -00-C). Later revisions are typically compatible with earlier vehicles. Always confirm with your VIN when ordering from Tesla directly.
 </div>
 
+---
+
+## Where to Buy: US and EU Buying Guide
+
+### United States (amazon.com — tag: diyrepair07-20)
+
+| Part | ASIN | Price (approx.) | Notes |
+|------|------|-----------------|-------|
+| TRQ Model 3 Trunk Strut Set | [B0CWCS7G8G](https://www.amazon.com/dp/B0CWCS7G8G?tag=diyrepair07-20) | ~$45/pair | Amazon's Pick, 320+ ratings, 2017-2023 M3 |
+| BOXI Trunk Supports (2 pack) | [B0F93CJN36](https://www.amazon.com/dp/B0F93CJN36?tag=diyrepair07-20) | ~$35/pair | Budget option, gas struts |
+| Getfarway Power Liftgate Strut (Model Y) | [B0D8KCDLFL](https://www.amazon.com/dp/B0D8KCDLFL?tag=diyrepair07-20) | ~$80/pair | Electric power strut, 2021-2023 |
+| Trim Removal Tool Set | [B09Y45XBT7](https://www.amazon.com/dp/B09Y45XBT7?tag=diyrepair07-20) | ~$12 | Plastic pry tools, no scratch |
+| Inflatable Air Wedge | [B07G7MXTGZ](https://www.amazon.com/dp/B07G7MXTGZ?tag=diyrepair07-20) | ~$18 | For Model Y headliner access |
+
+### Europe (amazon.de — tag: diyrepair-21)
+
+| Part | Link | Price (approx.) |
+|------|------|-----------------|
+| Model 3 Trunk Gas Struts (pair) | [Search on Amazon.de](https://www.amazon.de/s?k=tesla+model+3+kofferraum+gasdruckfeder&tag=diyrepair-21) | €35-60/pair |
+| Model Y Liftgate Struts (pair) | [Search on Amazon.de](https://www.amazon.de/s?k=tesla+model+y+heckklappe+gasdruckfeder&tag=diyrepair-21) | €45-80/pair |
+| Trim Removal Set | [Search on Amazon.de](https://www.amazon.de/s?k=kfz+verkleidungsabzieher+set+kunststoff&tag=diyrepair-21) | €8-15 |
+| Air Wedge Bag | [Search on Amazon.de](https://www.amazon.de/s?k=aufblasbare+luftkissen+auto+verkleidung&tag=diyrepair-21) | €12-20 |
+
+### OEM and Specialist Sources (EU)
+
+- **Tesla Parts Shop** — [shop.tesla.com/en_DE](https://shop.tesla.com/en_DE) — OEM struts, verify VIN first
+- **Tesloid.eu** — carries OEM-equivalent struts for Model 3 and Y, ships EU-wide
+- **eBay.de / kleinanzeigen.de** — used OEM struts from salvage vehicles; functional but gas pressure uncertain. Acceptable for short-term use only.
+
+If you're in Lithuania or the Baltics, sourcing from Amazon.de typically arrives in 3-5 days with standard shipping.
+
+---
+
 ## Cost Comparison
 
-| Option | Cost | Notes |
-|--------|------|-------|
-| Tesla Service Center | $200-400+ | Includes labor, OEM parts |
-| OEM struts (DIY) | $100-200/pair | From Tesla parts suppliers |
-| Aftermarket struts (DIY) | $40-80/pair | A-Premium, Getfarway, etc. |
-| Upgrade struts (Model 3 manual) | $40-60/pair | EVANNEX, TAPTES — auto-open upgrade |
+| Option | Model 3 Cost | Model Y Cost | Notes |
+|--------|-------------|-------------|-------|
+| Tesla Service Center | $200-350+ | $250-400+ | Includes labor, OEM parts |
+| OEM struts (DIY) | $100-180/pair | $120-200/pair | From Tesla parts suppliers |
+| Aftermarket struts (DIY) | $35-80/pair | $50-90/pair | TRQ, Getfarway, A-Premium |
+| Upgrade struts (Model 3 manual → auto-open) | $40-60/pair | N/A | EVANNEX, TAPTES |
 
-## Related Guides
+**Bottom line:** DIY saves $150-300 over a service center visit and takes less than an hour including calibration.
 
-If you're working on your Tesla's trunk area, these related guides might be helpful:
+---
 
-- 🔧 [Tesla Frunk Strut Replacement](/posts/tesla-frunk-strut-replacement/) — same concept, front trunk
-- 💧 [Tesla Water Leak Fix](/posts/tesla-water-leak-fix/) — trunk seal and water ingress issues
-- 🔒 [Tesla Trunk Won't Close](/posts/tesla-trunk-wont-close/) — latch and alignment problems
-- 🚪 [Tesla Door Latch Actuator Replacement](/posts/tesla-door-latch-actuator-replacement/) — similar clip/connector work
-- 💡 [Tesla Tail Light Replacement](/posts/tesla-tail-light-replacement/) — you're already back there
-- 📐 [Tesla Panel Gap Adjustment](/posts/tesla-panel-gap-adjustment/) — trunk lid alignment
+## Frequently Asked Questions
+
+**Why won't my Tesla trunk stay open?**
+Worn gas struts (lift supports) are the most common cause. Over time, the nitrogen gas inside the strut leaks out and it can no longer hold the trunk or liftgate up. This typically happens after 3-5 years or 50,000+ miles. Cold climate owners tend to see this faster.
+
+**How much does it cost to replace Tesla trunk struts?**
+DIY replacement costs $35-80 for a pair of aftermarket struts. Tesla Service Center charges $200-400+ for the same job, including labor. The struts are easy to replace yourself in about 20-45 minutes.
+
+**Can I upgrade my Tesla Model 3 trunk to power open?**
+Yes. Aftermarket power trunk strut kits are available for the Model 3 that add automatic open/close functionality. They replace the manual gas struts and add a motor. Kits cost $150-300 and take 30-45 minutes to install.
+
+**What are the Tesla Model 3 and Model Y trunk strut part numbers?**
+Model 3 power strut: LH 1551488-00-C, RH 1551489-00-C. Model Y liftgate strut: LH 1500601-00-A, RH 1500602-00-A. Always verify against your VIN at service.tesla.com — revision suffixes change with production updates.
+
+**Do I need to calibrate the trunk after replacing struts?**
+For power trunk models: yes. Go to Controls > Service > Calibrate Liftgate or Calibrate Trunk on the touchscreen. This resets the motor's travel limits to match the new strut resistance. Skipping this can cause the trunk to stop partway or report faults.
+
+**How long do Tesla trunk struts last?**
+OEM gas struts last 3-5 years depending on climate and usage frequency. Hot climates accelerate gas leakage. Cold climates temporarily reduce gas pressure, making early-stage failure feel worse in winter.
+
+**Will DIY trunk strut replacement void my Tesla warranty?**
+Replacing trunk struts on a vehicle outside the body/trim warranty does not affect your battery or powertrain warranty. The Magnuson-Moss Warranty Act prevents manufacturers from voiding warranties for owner repairs unless the repair caused the specific failure being claimed.
+
+---
 
 ## Real-World Tips From a Tesla Repair Shop
 
@@ -387,14 +553,32 @@ After replacing hundreds of trunk struts, here are things the official manual wo
 
 **The ball studs wear out too.** If you install new struts and they still feel loose or click, the ball studs on the body and trunk lid are probably worn. These are cheap to replace and often overlooked. Check them while you're in there.
 
-**Aftermarket struts vary wildly in quality.** We've seen cheap Amazon struts fail within 6 months. The OTUAYAUTO and ARANA brands have been the most consistent in our experience. OEM is best if budget allows.
+**Aftermarket struts vary wildly in quality.** Cheap Amazon struts can fail within 6 months. The OTUAYAUTO and ARANA brands have been the most consistent in our experience. OEM is best if budget allows.
 
 **Power strut connector corrosion.** On Model Y especially, the electrical connector behind the headliner can develop corrosion from moisture intrusion through the roof seal. If your new power struts aren't responding, clean the connector pins with contact cleaner before assuming the strut is defective.
 
-**Don't forget the trunk seal.** While you have the trunk trim off, inspect the rubber trunk seal. A worn seal lets water in, which corrodes the strut mounting points and ball studs. Replace the seal if it's cracked or flattened — see our [Tesla Water Leak Fix](/posts/tesla-water-leak-fix/) guide.
+**Don't forget the trunk seal.** While you have the trunk trim off, inspect the rubber trunk seal. A worn seal lets water in, which corrodes the strut mounting points and ball studs. Replace the seal if it's cracked or flattened.
+
+---
+
+## Related Guides
+
+If you're working on your Tesla's trunk area, these related guides might be helpful:
+
+- 🔧 [Tesla Frunk Strut Replacement](/posts/tesla-frunk-strut-replacement/) — same concept, front trunk
+- 💧 [Tesla Water Leak Fix](/posts/tesla-water-leak-fix/) — trunk seal and water ingress issues
+- 🔒 [Tesla Trunk Won't Close](/posts/tesla-trunk-wont-close/) — latch and alignment problems
+- 🔩 [Tesla Trunk Latch Replacement](/posts/tesla-trunk-latch-replacement/) — when the latch mechanism itself fails
+- 🔌 [Tesla Trunk Wiring Harness Repair](/posts/tesla-trunk-wiring-harness-repair/) — electrical faults in the trunk
+- 🚪 [Tesla Door Seal Maintenance](/posts/tesla-door-seal-maintenance/) — seal inspection while the trim is off
+- 🚪 [Tesla Door Latch Actuator Replacement](/posts/tesla-door-latch-actuator-replacement/) — similar clip/connector work
+- 💡 [Tesla Tail Light Replacement](/posts/tesla-tail-light-replacement/) — you're already back there
+- 📐 [Tesla Panel Gap Adjustment](/posts/tesla-panel-gap-adjustment/) — trunk lid alignment after replacement
+
+---
 
 ## Final Thoughts
 
 Trunk strut replacement is one of the most satisfying Tesla DIY repairs. The symptoms are annoying (nobody likes holding a trunk open with their head), the fix is cheap, and the difference is immediately noticeable. Whether you're restoring your trunk to factory behavior or upgrading your Model 3 with auto-opening struts, this is a 30-minute job that saves you a $300+ service center visit.
 
-Just remember: **always replace as a pair**, **clean the ball studs**, and **make sure those clips are fully seated**. That's really all there is to it.
+Just remember: **always replace as a pair**, **clean the ball studs**, **run calibration afterward**, and **make sure those clips are fully seated**. That's really all there is to it.
