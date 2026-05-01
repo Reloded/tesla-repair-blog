@@ -36,14 +36,17 @@ tools:
     link: "https://www.amazon.de/s?k=samsung+t7+ssd+500gb&tag=diyrepair-21"
     asin_de: "B087DDSXD3"
     asin_com: "B0874YS2N7"
+    shopee_sg: "https://invl.me/clnfdp9"
   - name: "SanDisk High Endurance 256GB microSD"
     link: "https://www.amazon.de/s?k=sandisk+high+endurance+256gb&tag=diyrepair-21"
     asin_de: "B07P4HBRMV"
     asin_com: "B07P4HBRMV"
+    shopee_sg: "https://invl.me/clnfdpm"
   - name: "Samsung Bar Plus 256GB USB"
     link: "https://www.amazon.de/s?k=samsung+bar+plus+256gb+usb&tag=diyrepair-21"
     asin_de: "B07D1KF73V"
     asin_com: "B07BPG9YKQ"
+    shopee_sg: "https://invl.me/clnfdpj"
   - name: "Anker USB-C to USB-A Adapter (2-Pack)"
     link: "https://www.amazon.de/s?k=usb+c+to+usb+a+adapter&tag=diyrepair-21"
     asin_de: "B08HZ6PS61"
@@ -52,6 +55,7 @@ tools:
     link: "https://www.amazon.de/s?k=sandisk+extreme+portable+ssd&tag=diyrepair-21"
     asin_de: "B08GV4YYV7"
     asin_com: "B08GTYFC37"
+    shopee_sg: "https://invl.me/clnfdpe"
 ---
 
 **Your USB drive probably isn't broken** — it's just formatted wrong. Or plugged into the wrong port. Or worn out from Sentry Mode grinding it to death.
