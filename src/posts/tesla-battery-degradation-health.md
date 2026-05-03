@@ -3,7 +3,7 @@ layout: post.njk
 title: "Tesla Battery Degradation: What's Normal vs What's a Problem"
 description: "Check Tesla battery health in 3 numbers: exact kWh thresholds for all models, 70% warranty threshold calculator, 2026 community data for Highland/Juniper/4680 cells, and how to reclaim lost range via BMS recalibration. Step-by-step warranty claim guide included."
 date: 2026-02-17
-lastUpdated: 2026-04-25
+lastUpdated: 2026-05-03
 category: "Battery"
 difficulty: "Easy"
 readTime: "20 min read"
@@ -48,6 +48,48 @@ tools:
 ---
 
 Every Tesla owner eventually wonders: "Is my battery degrading normally?" Whether you're seeing slightly less range after a few years or considering buying a used Tesla, understanding battery health is essential. This guide covers everything you need to know about Tesla battery degradation — how to measure it, what's normal, and how to slow it down.
+
+## Battery Degradation at a Glance
+
+| Metric | Number | What It Means |
+|--------|--------|---------------|
+| **Year 1 capacity loss** | 5–8% | Normal — much is BMS calibration, not real cell loss |
+| **5-year capacity loss** | 10–15% | Expected fleet average across all models |
+| **Annual loss (years 2–5)** | 1–2%/year | Gradual decline, curve flattens over time |
+| **Warranty threshold** | 70% of original usable kWh | 8-year coverage — below this threshold = file a claim |
+| **Healthy cell voltage delta** | Under 20 mV at 100% charge | Check via OBDLink CX + Scan My Tesla |
+| **Warning cell delta** | 50–100 mV | Run BMS recalibration; investigate if it persists |
+| **Critical cell delta** | Over 100 mV | Schedule service — likely a bad module |
+| **LFP daily charge target** | 100% | Standard Range 2021+ — Tesla recommends it daily |
+| **NCA/NMC daily charge target** | 80% | Long Range/Performance — save 100% for road trips |
+| **Battery design lifespan** | 300,000–500,000 miles | Most packs outlast the rest of the car |
+| **Diagnostic cost** | ~€75 + €10 | OBDLink CX adapter + Scan My Tesla app (one-time) |
+
+## Table of Contents
+
+1. [Battery Degradation at a Glance](#quick-reference)
+2. [How Tesla Batteries Degrade](#how-tesla-batteries-degrade)
+3. [What's Normal Degradation?](#whats-normal-degradation)
+4. [Real-World Degradation by Model](#real-world-degradation-by-model)
+5. [2026 Community Tracking Data](#2026-community-tracking-data-which-batteries-age-best)
+6. [2026 Model Year Breakdown](#2026-model-year-breakdown-what-to-expect-by-purchase-year)
+7. [How Battery Degradation Affects Resale Value](#how-battery-degradation-affects-tesla-resale-value)
+8. [Temperature's Impact on Battery Health](#temperatures-impact-on-battery-health)
+9. [How to Check Your Battery Health](#how-to-check-your-battery-health)
+10. [Your 3-Number Battery Health Snapshot](#your-3-number-battery-health-snapshot)
+11. [BMS Calibration: Fake vs Real Degradation](#bms-calibration-the-fake-degradation)
+12. [10 Tips to Maximize Battery Lifespan](#10-tips-to-maximize-battery-lifespan)
+13. [Common Degradation Myths](#common-degradation-myths)
+14. [2024+ Models: Highland, Juniper & 4680 Cells](#2024-models-whats-different-about-highland-juniper--4680-cells)
+15. [V4 Superchargers and Battery Health](#v4-superchargers-and-battery-health-what-you-need-to-know)
+16. [Replace, Repair, or Keep? Decision Framework](#replace-repair-or-keep-the-2026-decision-framework)
+17. [Tesla Battery Replacement Costs](#tesla-battery-replacement-costs)
+18. [When to Contact Tesla Service](#when-to-contact-tesla-service)
+19. [How to File a Battery Warranty Claim](#how-to-file-a-tesla-battery-warranty-claim-step-by-step)
+20. [Buying a Used Tesla: Battery Check Protocol](#buying-a-used-tesla-battery-health-check-protocol)
+21. [Battery Degradation FAQ](#battery-degradation-faq)
+
+---
 
 ## How Tesla Batteries Degrade
 
@@ -172,6 +214,61 @@ Beyond model and climate, *how* you charge is the biggest controllable variable.
 The difference between "home AC primary" and "Supercharger primary" is typically **3–7% of total capacity over 5 years**. On a 75 kWh pack, that's 2.25–5.25 kWh — roughly 15–35 km of preserved daily range.
 
 For LFP vehicles (Standard Range), the spread is narrower — LFP chemistry tolerates DC fast charging better. But even for LFP, home AC charging produces less cumulative heat stress. A quality [home wallbox (Type 2, 11 kW)](https://www.amazon.de/s?k=wallbox+typ+2+11kw+tesla&tag=diyrepair-21) ([US Level 2](https://www.amazon.com/s?k=level+2+ev+charger+32+amp+tesla&tag=diyrepair07-20)) pays back through preserved battery capacity and deferred replacement costs — not just per-kWh electricity savings.
+
+## 2026 Model Year Breakdown: What to Expect by Purchase Year
+
+Every Tesla model year uses different battery chemistry and carries a different track record. Here is what fleet data shows in 2026 for each production cohort — use this to benchmark your own car or evaluate a used purchase.
+
+### 2019–2020 (NCA — Maturing Fleet, Established Degradation Curves)
+
+The first production years of Model 3/Y have the most real-world mileage behind them. By 2026, many of these vehicles are at 150,000–250,000 km.
+
+| Model | Cell Chemistry | Avg Degradation at 5–6 Years | Watch For |
+|-------|---------------|------------------------------|-----------|
+| Model 3 LR NCA (2019) | NCA | 14–20% | Early Fremont ramp units worst; hot-climate cars push 20%+ |
+| Model 3 SR NCA (2019–2020) | NCA | 10–14% | Smaller pack amplifies percentage loss |
+| Model Y LR (2020–early 2021) | NCA/NMC | 10–15% | Early Austin ramp units slightly worse than later builds |
+| Model S/X 100D (2019–2020) | NCA | 8–13% | Large pack absorbs degradation better; per-kWh loss still significant |
+
+**Bottom line for this cohort:** 2019 Model 3 LR units with 120,000+ km in warm climates are where outlier degradation concentrates. A cell voltage delta above 50 mV is common here — run a BMS recalibration before assuming real cell loss.
+
+### 2021–2022 (LFP SR + NCA/NMC LR — The Benchmark Cohort)
+
+The 2021–2022 transition to LFP for Standard Range models is the single biggest quality step in Tesla battery history. This cohort now has 3–4 years of real-world data and is the most predictable.
+
+| Model | Cell Chemistry | Avg Degradation at 3–4 Years | Notes |
+|-------|---------------|------------------------------|-------|
+| Model 3 SR+ LFP (2021–2022) | LFP | 4–8% | Best-performing Tesla pack at this age |
+| Model 3 LR NCA (2021–2022) | NCA | 8–12% | Measurably improved over 2019–2020 cohort |
+| Model Y LR NMC (2021–2022) | NMC | 7–11% | Austin Gigafactory cell improvements visible in data |
+| Model S LR (2021–2022) | NCA | 6–10% | Large pack; excellent long-term data |
+| Model X LR (2021–2022) | NCA | 6–10% | Comparable to Model S LR pack |
+
+**LFP owners:** Charge to 100% regularly — it actively benefits cell balancing. Owners who cap LFP at 80% (old NCA habit) are degrading their range estimate accuracy without protecting anything.
+
+### 2023 (NMC Transition + LFP Continuation)
+
+Two to three years of real-world data. Trends are visible but not fully confirmed.
+
+| Model | Cell Chemistry | Avg Degradation at 2–3 Years | Notes |
+|-------|---------------|------------------------------|-------|
+| Model 3 SR+ LFP (2023) | LFP | 3–6% | Consistent with 2021–2022 LFP pattern |
+| Model 3 LR NMC (2023) | NMC | 5–9% | Tracking slightly better than 2021 NCA at same mileage |
+| Model Y LR NMC (2023) | NMC | 5–9% | Similar to Model 3 LR 2023 performance |
+| Model Y RWD LFP (2023) | LFP | 3–6% | Consistent with LFP performance pattern |
+
+### 2024–2025 (Highland, Juniper, NMC21 + 4680 — Early Data Only)
+
+Limited data — 12–24 months of real-world records available as of May 2026.
+
+| Model | Cell Chemistry | Avg Degradation at 12 Months | Notes |
+|-------|---------------|------------------------------|-------|
+| Model 3 Highland LR (2024+) | NMC21 | 3–6% | First-year trending slightly better than older NMC |
+| Model Y Juniper LR (2025+) | NMC21 | 3–6% | Matching Highland trend; very small sample still |
+| Model 3/Y SR (2024+) | LFP | 2–4% | Consistent with established LFP pattern |
+| Cybertruck AWD (2024+) | 4680 | 2–5% | Very limited sample — check Tesla Motors Club for updates |
+
+**Important caveat:** Don't choose a 2025 Juniper over a well-maintained 2022 Model Y LR purely on expected degradation. The difference in data confidence is wider than the likely real-world difference. A 2022 car with documented charging habits and known history is often the safer bet over a 2025 car with unknown history and 12 months of data.
 
 ## How Battery Degradation Affects Tesla Resale Value
 
@@ -621,6 +718,71 @@ For the average owner using Superchargers for road trips (not as a primary charg
 
 ---
 
+## Replace, Repair, or Keep? The 2026 Decision Framework
+
+Battery degradation does not automatically mean battery replacement. Most Tesla owners facing a degradation concern have three paths — and the right answer depends on specific numbers.
+
+### Quick Decision Matrix
+
+| Your Situation | Best Action |
+|----------------|-------------|
+| Within warranty + below 70% capacity | File warranty claim — free repair or replacement |
+| Within warranty + above 70% + over 10% loss | Monitor; build evidence file; claim if mileage/years permit |
+| Out of warranty + cell delta under 50 mV + loss under 20% | Keep driving; optimize charging habits |
+| Out of warranty + cell delta 50–100 mV + loss 15–25% | Module-level repair assessment (€2,000–5,000) |
+| Out of warranty + cell delta over 100 mV | Service inspection immediately; likely module replacement |
+| Out of warranty + loss over 30% + 200,000+ km | Full pack replacement or resell decision |
+
+### When to File a Warranty Claim
+
+File immediately if the pack usable energy (PACK_FULL_ENERGY via Scan My Tesla or Tesla Service Mode) reads below **70% of your model's original factory spec** while within the 8-year warranty period.
+
+Quick warranty threshold calculation:
+- Model 3 LR (2021–2023): original ~79 kWh → threshold **55.3 kWh**
+- Model Y LR (2020–2023): original ~75 kWh → threshold **52.5 kWh**
+- Model 3 SR+ LFP (2021–2023): original ~57.5 kWh → threshold **40.3 kWh**
+- Model S LR (2021+): original ~95–99 kWh → threshold **66.5–69.3 kWh**
+
+Don't wait until the car "feels" worse. Use kWh numbers. A 2021 Model 3 LR showing 54 kWh at 100% charge is below the 55.3 kWh threshold — that is a valid warranty claim regardless of displayed range.
+
+### When Module Repair Makes Sense
+
+Tesla's pack architecture uses module-level construction — individual cell groups inside the larger pack. When one module degrades ahead of the others, it sets the ceiling for the entire pack. Replacing only the failed module restores full pack capacity without the cost of a complete swap.
+
+Module repair at a certified independent shop: **€2,000–5,000** depending on model and module count.
+
+Module repair makes financial sense when:
+- Cell voltage delta is above 50 mV with one or two outlier cell groups pulling the average down (not uniform degradation across all cells)
+- Total pack loss is 15–25% with otherwise healthy cells
+- The vehicle has under 150,000 km and is otherwise in good condition
+- The car's residual value justifies the repair cost
+
+**How to identify a module candidate:** Scan My Tesla shows individual cell group voltages. If one or two groups read significantly lower than the rest, that is module-level failure — a targeted repair rather than a whole-pack problem.
+
+### When to Consider Full Pack Replacement
+
+Full pack replacement (€8,000–16,000 depending on model) makes sense when:
+- Multiple modules show high voltage delta or low minimum voltage
+- Total degradation exceeds 30% of original capacity
+- The vehicle is otherwise low-wear (body, motors, suspension all solid)
+- You plan to keep the car 5+ more years
+- The car's market value with a new pack significantly exceeds its value without
+
+For a Model S with 250,000 km and 28% degradation, a €15,000 full pack replacement can extend useful life by 8–10 years. For a 2019 Model 3 with 200,000 km and 22% degradation, the math is harder — the total vehicle value may not justify €10,000+ in battery work.
+
+### The "Keep and Manage" Strategy
+
+For out-of-warranty packs with 15–25% degradation and balanced cell voltage:
+
+- A 20%-degraded 75 kWh pack still holds 60 kWh — enough for most daily use
+- BMS recalibration may recover 3–5% of apparent loss that is calibration drift, not real capacity
+- Maintaining 80% daily charge (NCA/NMC) and home AC charging slows further loss
+- Temporarily raising the daily limit to 90% is a valid choice if daily range is tight — the incremental long-term degradation from 80→90% is small
+
+See our [Tesla Repair Cost Guide](/posts/tesla-repair-cost-guide/) for 2026 pricing on module repairs and full pack replacements at independent shops vs. Tesla Service Centers.
+
+---
+
 ## Tesla Battery Replacement Costs
 
 If your battery is out of warranty and needs replacement:
@@ -833,6 +995,30 @@ Most private sellers don't know these numbers. Coming prepared with a real-time 
         "@type": "Answer",
         "text": "BMS recalibration is needed when displayed range drops suddenly (over a few weeks) without a corresponding drop in actual usable energy. Real degradation shows in both the display AND in OBD2 data — lower PACK_FULL_ENERGY kWh readings via Scan My Tesla or Tesla Service Mode. To recalibrate: discharge below 10%, slow AC charge to 100%, leave plugged in 2+ hours, repeat 2–3 cycles. If kWh readings stay low after recalibration, that's real capacity loss — not a calibration issue. A cell voltage delta over 100 mV always indicates a hardware investigation is needed, regardless of what the range display shows."
       }
+    },
+    {
+      "@type": "Question",
+      "name": "Which Tesla model year has the best battery degradation record?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The 2021–2022 Model 3 Standard Range+ with LFP chemistry has the best long-term degradation record: 4–8% average at 3–4 years, versus 10–15% for equivalent NCA cars. Among Long Range models, 2022–2023 Model Y LR NMC packs from the Austin Gigafactory average 7–11% at 3–4 years — slightly better than 2020–2021 units. The weakest cohort is 2019 Model 3 LR NCA, which averages 14–20% degradation at 5–6 years, especially in hot climates."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Should I repair, replace, or keep my Tesla battery after significant degradation?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Decision depends on four numbers: current kWh vs. factory spec, cell voltage delta, vehicle mileage, and repair cost. Within warranty below 70% capacity: file a warranty claim. Out of warranty with cell delta 50–100 mV and 15–25% loss: get a module-level repair assessment (€2,000–5,000 to replace only the degraded section). Out of warranty with cell delta under 50 mV and loss under 20%: keep driving with optimized charging habits. Full pack replacement (€8,000–16,000) only makes financial sense with 30%+ loss on a well-maintained vehicle where the replaced pack extends 8–10 more years of life."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the exact 70% warranty threshold in kWh for each Tesla model?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Tesla's 8-year warranty covers drops below 70% of original usable capacity. Thresholds by model: Model 3 SR+ LFP (2021–2023): original 57.5 kWh, threshold 40.3 kWh. Model 3 LR (2021–2023): original 75–79 kWh, threshold 52.5–55.3 kWh. Model Y LR (2020–2023): original 75 kWh, threshold 52.5 kWh. Model 3 Highland LR (2024+): original 79 kWh, threshold 55.3 kWh. Model S LR (2021+): original 95–99 kWh, threshold 66.5–69.3 kWh. Measure via PACK_FULL_ENERGY in Scan My Tesla or HV Battery screen in Tesla Service Mode at 100% charge. Use kWh readings, not estimated range — range varies with conditions, kWh is absolute."
+      }
     }
   ]
 }
@@ -882,7 +1068,7 @@ Recalibration fixes BMS drift — a sudden display range drop without matching r
 
 ---
 
-*Last updated: April 2026. Degradation data based on publicly available fleet statistics and community reports.*
+*Last updated: May 2026. Degradation data based on publicly available fleet statistics, TeslaFi, Recurrent, What About Tesla, and community reports. Model year breakdown figures updated to reflect 2026 cohort data.*
 
 ## Related Guides
 
