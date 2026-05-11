@@ -1,9 +1,9 @@
 ---
 layout: post.njk
 title: "Tesla Side Repeater Camera Replacement: Complete DIY Guide (2026)"
-description: "Replace your Tesla side repeater camera in 10–20 min. 2026 guide: HW3 vs HW4, part costs, step-by-step swap for Model 3, Y, S, X, Highland & Juniper."
+description: "Tesla side repeater camera: $40–200 DIY vs $300–600 at Tesla. HW3 vs HW4 guide, part numbers, step-by-step for all models, Sentry Mode impact (2026)."
 date: 2026-03-04
-lastUpdated: 2026-05-02
+lastUpdated: 2026-05-11
 category: "Exterior & Body"
 difficulty: "Easy"
 readTime: "20 min read"
@@ -21,6 +21,16 @@ faq:
     a: "Calibration typically completes in 20–100 miles of driving on roads with clear lane markings. Highway driving at 60+ mph speeds it up significantly. On recent 2026.x firmware, most owners report calibration completing within a single highway commute. Go to Controls > Service > Camera Calibration > Clear Calibration to reset and restart the process."
   - q: "What happens if I install a repeater without a camera module?"
     a: "Many cheap Amazon and AliExpress listings are turn-signal-only units that look identical from outside but have no camera. Installing one permanently disables that side's Autopilot camera. You'll lose blind-spot detection on that side and Autopilot will be degraded. Always confirm the listing explicitly states 'with camera' before purchasing."
+  - q: "Can I drive my Tesla with a failed side repeater camera?"
+    a: "Yes, the car drives normally, but Autopilot and FSD are disabled on 2026.x firmware when a side camera fails. Sentry Mode also has a dead zone on the affected side. Fix the camera before relying on Autopilot for highway driving."
+  - q: "Does a failed side repeater camera affect Sentry Mode coverage?"
+    a: "Yes. Sentry Mode uses all 8 cameras for 360° perimeter coverage. A failed side repeater creates a dead zone in the 60°–120° sector flanking the car — anyone in that zone won't trigger a Sentry alert or appear in dashcam footage."
+  - q: "My replacement side repeater shows a distorted or fish-eye image — is that normal?"
+    a: "Mild wide-angle distortion is normal — side repeater cameras use a wide focal length. If Autopilot calibration completes within 150 miles and works correctly, the camera is functional. If calibration fails to complete after 150 miles, the camera sensor spec is likely incompatible with your hardware generation — return it."
+  - q: "Can I replace just the camera module inside the side repeater housing?"
+    a: "Technically yes, but it is not practical. Opening the housing breaks the moisture seal, bare camera modules are hard to source separately, and the separation adds 30 minutes vs a 10-minute full-assembly swap. Full assembly replacement is always the correct approach."
+  - q: "Is there a Tesla service bulletin for side repeater camera water ingress?"
+    a: "Tesla's SB-20-23-001 series covers condensation in front camera assemblies on Model 3 and Y. Within warranty, this is grounds for a covered repair at no cost. Out of warranty, ask any installing shop to apply the updated sealing procedure from this bulletin."
 tools:
   - name: "Tesla Model 3/Y Side Repeater Camera (with camera) — US"
     link: "https://www.amazon.com/s?k=tesla+model+3+side+repeater+camera+with+camera+module&tag=diyrepair07-20"
@@ -83,6 +93,11 @@ A Tesla service center charges $300–600+ per side for this repair (parts + lab
 12. [Cost Comparison](#cost-comparison)
 13. [Frequently Asked Questions](#frequently-asked-questions)
 14. [When to Skip DIY](#when-to-skip-diy)
+15. [OEM Part Numbers Reference](#oem-part-numbers-reference)
+16. [Model S and Model X Notes](#model-s-and-model-x-whats-different)
+17. [Sentry Mode, Dashcam, and Autopilot Impact](#sentry-mode-dashcam-and-autopilot-impact)
+18. [Seasonal and Temperature Considerations](#seasonal-and-temperature-considerations)
+19. [Finding an Independent Specialist](#finding-an-independent-tesla-specialist)
 
 ---
 
@@ -221,6 +236,32 @@ The side repeater on Tesla is a single assembly — the camera and turn signal a
 
 ---
 
+## OEM Part Numbers Reference
+
+Tesla updates part numbers with each production revision. The table below lists the part number series in use as of 2026 — **always verify against your exact VIN** before ordering. Go to [service.tesla.com](https://service.tesla.com), enter your VIN, and navigate to Parts, or call the Tesla Service Center parts desk with your VIN and production date.
+
+| Model | Year | Side | Part Series | Notes |
+|-------|------|------|-------------|-------|
+| Model 3 (HW3) | 2017–2023 | Left | 1077779-00-x | Suffix letter changes by revision |
+| Model 3 (HW3) | 2017–2023 | Right | 1077780-00-x | Suffix letter changes by revision |
+| Model Y (HW3) | 2020–2024 | Left | 1077779-00-x | Same series as Model 3 HW3 |
+| Model Y (HW3) | 2020–2024 | Right | 1077780-00-x | Same series as Model 3 HW3 |
+| Model Y Juniper (HW4) | 2025+ | Left/Right | New series — verify via VIN | HW3 parts do NOT fit |
+| Model 3 Highland (HW4) | 2025+ | Left/Right | New series — verify via VIN | Check Controls > Software first |
+| Model S Refresh | 2021+ | Left/Right | Different series — verify via VIN | Larger housing, different clips |
+| Model X Refresh | 2021+ | Left/Right | Different series — verify via VIN | Larger housing, different clips |
+
+**Why the revision suffix matters:** Tesla's -A, -B, -C suffix indicates updated production specs. An A-revision and C-revision unit may look identical but have different camera sensor specs or housing tolerances. Always request the current revision for your production date — the parts desk looks this up by VIN in under 60 seconds.
+
+**Fastest verification method:**
+1. Open the Tesla app → tap your car → Service → Request Service
+2. Type your request in the notes: "VIN [your VIN] — need current OEM part number for left/right side repeater camera"
+3. Tesla responds with the exact part number for your production date
+
+**For EU owners:** [RR Car Parts](https://rrcarparts.com/collections/all?q=side+repeater+camera) stocks EU-spec OEM parts with VIN cross-reference. UK and EU spec repeaters have the same camera sensor but different housing approval markings.
+
+---
+
 ## Step-by-Step Replacement
 
 ### What You'll Need
@@ -281,6 +322,30 @@ This is the gentlest method and least likely to scratch paint or damage clip mou
 
 ---
 
+## Model S and Model X: What's Different
+
+Model S and Model X side repeaters share the same concept — turn signal + camera in one unit — but three things differ from Model 3/Y:
+
+**1. Housing size and clip force**
+S and X use a larger fender-integrated housing. Clips are more robust and require more force to release. The push-from-behind method (Method 1) is the only recommended approach for S/X. Never use Method 2 (pry from outside) on S/X without first warming the area — the clips are deeper-set and cold plastic at this scale cracks rather than flexes.
+
+**2. Fender liner access (more fasteners)**
+The Model S and Model X front fender liner has 6–8 plastic rivets plus 1–2 plastic screws versus 4 rivets on Model 3/Y. Budget an extra 5–8 minutes for liner removal and reinstallation. A plastic rivet puller prevents splitting the rivet heads. Replace any rivets you crack — they cost $2 each and a missing rivet lets the liner flap at highway speed.
+
+**3. Pre-2021 Model S/X (pre-refresh) — different assembly**
+Pre-refresh S and X (built before April 2021) had different front fascia layouts. Some pre-2021 VINs had smaller, lower-spec repeater units. Before ordering parts for a pre-refresh S or X:
+- Check Controls > Software > Additional Vehicle Information for your Autopilot hardware generation
+- If your car shows HW2.5 or lower, confirm whether your side repeater even contains a camera — some early builds had turn-signal-only units in those positions
+- Pre-refresh S/X camera units are less available from aftermarket suppliers; OEM sourcing is more reliable
+
+**Model X access shortcut:**
+The Model X front wheel well is slightly easier to access with the falcon wing doors open on the same side — the door position shifts how you stand relative to the wheel well and gives better reach behind the fender liner. It is not required but owners report it helps on the right side.
+
+**Torque specs (S/X fender liner screws):**
+Fender liner plastic screws on S/X: 1.5 N⋅m (13 in-lb). Hand-tight plus a quarter turn with a 7 mm socket is sufficient — overtightening cracks the liner grommet.
+
+---
+
 ## Post-Installation: Camera Calibration
 
 After replacing a side repeater camera, the new camera needs calibration before Autopilot can use it.
@@ -314,6 +379,34 @@ If your repeater failed due to moisture, replacing the unit alone may not preven
 
 ---
 
+## Sentry Mode, Dashcam, and Autopilot Impact
+
+Many Tesla owners don't realize the side repeater cameras feed three different systems simultaneously. A failed camera doesn't just hurt Autopilot.
+
+### Autopilot and FSD
+
+Side cameras provide the 70°–80° blind-spot zone flanking the car. Without them, Autopilot lane change capability is degraded or disabled. On 2026.x firmware, a failed side camera triggers an immediate "Autopilot Unavailable" warning. The car drives normally under manual control, but Autopilot, Navigate on Autopilot, and FSD supervised driving are all disabled until the camera is replaced and calibrated.
+
+The Autopilot neural network requires all cameras to be operational and calibrated before engaging. There is no partial mode that skips the failed side — it's all or nothing.
+
+### Sentry Mode Coverage Gap
+
+Sentry Mode uses all 8 cameras to build a full 360° perimeter. A failed side repeater creates a dead zone covering roughly the 60°–120° sector on the affected side — the zone directly flanking the front quarter of the car. This is a real security gap:
+
+- Someone approaching from a 2–4 o'clock position (right side failure) or 8–10 o'clock (left side failure) can walk up to the car, touch it, or break in without triggering a Sentry alert
+- That approach angle won't appear in dashcam footage saved to the USB drive
+- The Tesla app live stream shows a blank or error frame for the failed side
+
+If you park in public garages, high-traffic lots, or high-crime areas and rely on Sentry Mode for security, a failed side repeater is a genuine problem — not just an inconvenience. Prioritize the replacement.
+
+### Dashcam Recording
+
+Tesla's dashcam saves footage from all available cameras to the USB drive. A failed side camera leaves a permanent blind spot in every dashcam clip. In a side-swipe, hit-and-run, or parking lot incident, the one angle you need most may be missing. Insurance adjusters increasingly know that Teslas have all-angle dashcam capability — a gap in footage can raise questions during a claim.
+
+See our guide on [Sentry Mode not recording fixes](/posts/tesla-sentry-mode-not-recording/) if you're also troubleshooting dashcam behavior alongside the camera replacement.
+
+---
+
 ## Troubleshooting: Camera Error After Replacement
 
 **Error persists immediately after replacement:**
@@ -340,6 +433,38 @@ If your repeater failed due to moisture, replacing the unit alone may not preven
 - This is typically a software glitch, not hardware failure
 - Full reboot (hold both scroll wheels 10 seconds, wait 3 minutes) resolves this in most cases
 - If it returns after reboot, the camera module is likely defective
+
+---
+
+## Seasonal and Temperature Considerations
+
+Temperature affects both the removal process and the long-term reliability of the replacement.
+
+### Cold Weather (Below 0°C / 32°F)
+
+Plastic clips become brittle when cold. The fender material contracts, causing the clips to grip tighter than normal. Forcing a cold repeater out without warming the area is the primary cause of cracked mounting clip points — a $60 part replacement turning into a $400 body shop visit.
+
+Before starting the job in cold weather:
+- Let the car sit in a heated garage for 30 minutes
+- Use a heat gun on the lowest setting for 20–30 seconds around the housing perimeter
+- Apply steady, even pressure — cold clips that are slowly warming respond to gradual force, not sudden jerks
+
+**Road salt in winter:** Salt-belt regions (US Midwest, Northeast, Canada, Northern Europe) see connector corrosion rates 3× higher than dry climates. Dielectric grease on the connector pins is essential in these areas, not optional. Inspect the connector annually — salt corrosion looks like white powdery residue on the pins and causes intermittent camera errors that are difficult to diagnose remotely.
+
+### Hot Weather (Above 30°C / 86°F)
+
+In summer heat, plastic clips are more pliable and the repeater pops out with minimal force. No warming needed. However, if the lens shows UV yellowing or hazing, the housing material is already degrading — a replacement is overdue even if the camera feed still appears functional. A yellowed lens diffuses the camera's field of view and reduces Autopilot performance before an error message appears.
+
+**UV protection tip:** After installation in sunny climates, some owners apply a thin coat of UV protectant spray (same product used on exterior trim) around the repeater housing every 6–12 months. This has no effect on camera performance and extends the lens clarity by 2–3 years.
+
+### Post-Rain Inspection (First Two Weeks)
+
+After your first significant rain post-installation, check the camera feed and visually inspect the lens in daylight. Condensation forming inside the new lens within the first two weeks indicates one of three things:
+1. The fender drain path is blocked (clear it with compressed air)
+2. The fender liner is directing runoff into the repeater pocket (check liner routing)
+3. The new unit itself has a seal defect (return it)
+
+A sealed cavity that fills with water will corrode the new unit within 90 days. Address any moisture finding immediately.
 
 ---
 
@@ -370,6 +495,36 @@ Side repeater camera failure due to a manufacturing defect — including prematu
 
 ---
 
+## Finding an Independent Tesla Specialist
+
+Tesla Service Centers charge $300–600+ per side because they use OEM parts, apply full labor rates, and carry significant overhead. A qualified independent Tesla specialist typically charges $120–200 per side (parts + labor), and some charge $80–120 labor-only if you supply the part.
+
+### How to Find a Qualified Independent Shop
+
+- Search "independent Tesla specialist" or "EV-certified repair" in your area
+- Look for ASE certification or membership in the Electric Vehicle Technicians Association (EVTA)
+- Ask specifically: "Do you have experience with Tesla Autopilot camera replacements including post-swap calibration?" — a shop without calibration experience may not clear and reset calibration correctly, leaving you with a "calibration stuck" situation even after a good mechanical install
+
+### What to Ask Before Booking
+
+- Do they use OEM or quality aftermarket parts? (Either is acceptable; avoid unbranded no-name suppliers)
+- Do they perform camera calibration in-house or hand you a drive-it-off instruction sheet?
+- What warranty do they offer on the repair? (30 days minimum is standard; 90 days is typical at quality shops)
+- Have they done this specific job on your model year? HW4 Juniper/Highland jobs require a technician who knows the new connector and calibration workflow
+
+### Price Check by Market (2026)
+
+| Location | Single Side (Labor + Parts) | Both Sides |
+|----------|-----------------------------|------------|
+| US metro area | $130–180 | $220–320 |
+| US suburban | $100–150 | $180–260 |
+| Germany / Western EU | €110–160 | €190–280 |
+| UK | £100–150 | £175–260 |
+
+Get two quotes. If a shop quotes below the bottom of these ranges with OEM parts, ask which parts they're actually using.
+
+---
+
 ## Frequently Asked Questions
 
 **Can I replace just one side?**  
@@ -389,6 +544,21 @@ No. Camera modules are matched to the vehicle's Autopilot computer hardware. Ins
 
 **Is this the same camera used for Autopilot?**  
 Yes. The side repeater is one of the 8 cameras that feed Tesla's vision-only Autopilot system. It covers the blind spot zone on each side of the car and is used for lane change detection and Autopilot lateral control.
+
+**Can I drive with a failed side repeater camera?**  
+Yes, the car drives normally under manual control. On 2026.x firmware, Autopilot and FSD are disabled when a side camera fails — you'll see "Autopilot Unavailable" on the touchscreen. Sentry Mode also has a coverage gap on the affected side. For daily commuting without Autopilot, the car is fully drivable. Fix the camera before any highway driving where you'd rely on Autopilot or before leaving the car in a public area where Sentry Mode matters.
+
+**Does a failed side repeater camera affect Sentry Mode?**  
+Yes. The side repeater contributes to Sentry Mode's 360° coverage. A failed unit creates a dead zone in the 60°–120° sector flanking the front quarter of the car on that side. Someone approaching from that angle won't trigger a Sentry alert and won't appear in dashcam footage saved to the USB drive. See our [Sentry Mode not recording guide](/posts/tesla-sentry-mode-not-recording/) for related troubleshooting.
+
+**My replacement camera shows a distorted or fish-eye image — is that normal?**  
+Mild wide-angle distortion on the side repeater preview is normal — these cameras use a wide focal length to cover the blind-spot zone. If Autopilot calibration completes within 150 miles and Autopilot functions correctly afterward, the camera is working as designed. If calibration fails to complete after 150 miles of highway driving, the camera sensor spec is likely incompatible with your Autopilot hardware generation — return it and get the correct HW3 or HW4 unit.
+
+**Can I replace just the camera module inside the housing?**  
+Technically the camera module is separable from the housing with small internal clips, but it is not practical. Opening the housing breaks the moisture seal. Bare camera modules without the housing are difficult to source. The separation process adds 30+ minutes compared to a 10-minute full-assembly swap. Full assembly replacement is the correct approach in every real-world scenario.
+
+**Is there a Tesla service bulletin for repeater camera water ingress?**  
+Tesla's SB-20-23-001 series covers condensation in front camera assemblies on Model 3 and Y. If your car is within the 4-year / 50,000-mile warranty, this bulletin is grounds for a covered repair at no cost — file a service request through the Tesla app. Out of warranty, reference this bulletin when booking with an independent shop and request that they apply the updated sealing procedure to prevent recurrence.
 
 ---
 
@@ -448,6 +618,38 @@ Consider professional help if:
         "@type": "Answer",
         "text": "Many cheap listings on Amazon and AliExpress are turn-signal-only units with no camera. They look physically identical from the outside. Installing one permanently disables that side's Autopilot camera. You lose blind-spot detection on that side and Autopilot performance degrades. Always confirm the listing explicitly states the unit includes the camera module before purchasing."
       }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I drive my Tesla with a failed side repeater camera?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, the car drives normally under manual control. On 2026.x firmware, Autopilot and FSD are disabled when a side camera fails — you'll see 'Autopilot Unavailable' on the touchscreen. Sentry Mode also has a coverage gap on the affected side. Fix the camera before relying on Autopilot for highway driving."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does a failed Tesla side repeater camera affect Sentry Mode coverage?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Sentry Mode uses all 8 cameras for 360° perimeter coverage. A failed side repeater creates a dead zone in the 60°–120° sector flanking the car on the affected side. Anyone approaching from that angle won't trigger a Sentry alert or appear in dashcam footage saved to the USB drive."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "My replacement Tesla side repeater camera shows a distorted image — is that normal?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Mild wide-angle distortion on the side repeater preview is normal — these cameras use a wide focal length to cover the blind-spot zone. If Autopilot calibration completes within 150 miles and Autopilot functions correctly afterward, the camera is working as designed. If calibration fails to complete after 150 miles of highway driving, the camera sensor spec is incompatible with your hardware generation — return it and get the correct HW3 or HW4 unit."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is there a Tesla service bulletin for side repeater camera water ingress?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Tesla's SB-20-23-001 series covers condensation in front camera assemblies on Model 3 and Y. Within warranty, this is grounds for a covered repair at no cost — file a service request through the Tesla app. Out of warranty, ask any installing shop to apply the updated sealing procedure from this bulletin to prevent recurrence."
+      }
     }
   ]
 }
@@ -466,3 +668,6 @@ Consider professional help if:
 - [Tesla Front Bumper Removal](/posts/tesla-front-bumper-removal/) — Required if you have deeper fender access issues
 - [Tesla Door Seal Maintenance](/posts/tesla-door-seal-maintenance/) — Address other moisture entry points while you're in the area
 - [Tesla Paint Chip Repair](/posts/tesla-paint-chip-repair/) — Touch up any paint nicks from the repair
+- [Tesla Sentry Mode Not Recording Fix](/posts/tesla-sentry-mode-not-recording/) — Troubleshoot dashcam and Sentry Mode coverage gaps
+- [Tesla Maintenance Schedule](/posts/tesla-maintenance-schedule/) — Full inspection checklist including camera and sensor checks
+- [Tesla Window Regulator Replacement](/posts/tesla-window-regulator-replacement/) — Another clip-and-connector exterior repair at similar difficulty
