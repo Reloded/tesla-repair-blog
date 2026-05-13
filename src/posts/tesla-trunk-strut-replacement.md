@@ -1,9 +1,9 @@
 ---
 layout: post.njk
 title: "Tesla Trunk Won't Stay Open? Replace the Struts in 20 Minutes (All Models, 2026)"
-description: "Tesla trunk strut replacement 2026: fix a sagging trunk in 30 min. Model 3, Y, S, X part numbers, power vs manual struts, $40 DIY vs $350 dealer."
+description: "Tesla trunk strut replacement 2026: fix a sagging trunk in 20-45 min. Model 3, Y, S, X part numbers, force ratings, power vs manual struts — $40 DIY vs $350 dealer."
 date: 2026-02-10
-lastUpdated: 2026-05-05
+lastUpdated: 2026-05-13
 category: "Body & Trim"
 difficulty: "Easy-Medium"
 readTime: "18 min read"
@@ -31,6 +31,12 @@ faq:
     a: "Yes, but support the lid manually on every open cycle. A strut that can no longer hold the trunk open will fall with increasing speed as it weakens further. A falling trunk lid can injure your head or neck — don't leave children unattended near a trunk with failing struts."
   - q: "What is the difference between trunk struts and frunk struts on a Tesla?"
     a: "Trunk struts (rear liftgate/trunk lid) are typically power struts with an integrated electric motor and 60-80N more gas force than frunk struts due to the heavier panel. Frunk struts are passive gas springs only — no motor, no electrical connector. The replacement procedure is simpler for frunk struts. Part numbers are completely different — they are not interchangeable."
+  - q: "What force rating should I choose for aftermarket Tesla trunk struts?"
+    a: "Match or exceed OEM force ratings. Model 3 power struts use approximately 380N (85 lbs) gas component per strut. Model Y liftgate struts use approximately 490-500N (110-112 lbs) per strut — Juniper owners should choose 110-120 lbs minimum. Aftermarket listings that omit force ratings are typically undersized. Never go lighter than OEM spec or you will get the same slow-open symptom you started with."
+  - q: "Do Tesla trunk ball studs need to be replaced when installing new struts?"
+    a: "Check them every time. Rock the clip end after strut removal — zero wobble means the stud is fine. Any perceptible play, flat spots, or corrosion on the ball surface means replace it. Ball studs cost $8-15 OEM and take 10 minutes to swap. Installing new struts on worn ball studs results in clicking noises and eventually the strut popping off."
+  - q: "Can I replace Tesla trunk struts without a prop rod?"
+    a: "You should not attempt it alone without independent trunk support. The Model Y liftgate weighs 18-22 kg and will fall when strut gas pressure is lost during removal. A proper prop rod, a piece of 2x4 lumber cut to the correct height, or a helper holding the liftgate are all acceptable substitutes. Never rely on the failing strut itself to hold the lid while removing it."
 tools:
   - name: "TRQ Trunk Strut Set — Model 3 2017-2023"
     asin_de: "B0CWCS7G8G"
@@ -109,10 +115,13 @@ Worn trunk struts (also called lift supports or gas springs) are one of the most
 14. [Where to Buy: US and EU Buying Guide](#where-to-buy-us-and-eu-buying-guide)
 15. [Aftermarket Brand Quality Comparison](#aftermarket-brand-quality-comparison-2026)
 16. [Pre-Purchase Inspection for Used Tesla Buyers](#pre-purchase-inspection-used-tesla-buyers)
-17. [Cost Comparison](#cost-comparison)
-18. [Frequently Asked Questions](#frequently-asked-questions)
-19. [Common Mistakes That Cause Callbacks](#common-mistakes-that-cause-callbacks)
-20. [Real-World Tips From a Tesla Repair Shop](#real-world-tips-from-a-tesla-repair-shop)
+17. [Strut Force Rating Guide](#strut-force-rating-guide-choosing-the-right-n-rating)
+18. [Ball Stud Replacement](#ball-stud-replacement-when-and-how)
+19. [Power Trunk Upgrade Kit Guide (Model 3)](#power-trunk-upgrade-kit-guide-model-3)
+20. [Cost Comparison](#cost-comparison)
+21. [Frequently Asked Questions](#frequently-asked-questions)
+22. [Common Mistakes That Cause Callbacks](#common-mistakes-that-cause-callbacks)
+23. [Real-World Tips From a Tesla Repair Shop](#real-world-tips-from-a-tesla-repair-shop)
 
 ---
 
@@ -607,6 +616,138 @@ Also check: [Tesla Used Buying & Inspection Guide](/posts/tesla-used-buying-insp
 
 ---
 
+## Strut Force Rating Guide: Choosing the Right N Rating
+
+Every gas strut has a force rating in Newtons (N) — the amount of upward push it provides at full extension. Choosing the wrong rating is the most common reason aftermarket struts cause the same slow-open symptom you started with, or make the trunk slam closed too aggressively.
+
+### OEM Force Ratings by Model
+
+| Vehicle | Gas Force per Strut | Total Gas Force | Panel Weight |
+|---------|--------------------|-----------------|-----------------------|
+| Model 3 (2017-2023) power strut | ~380N (~85 lbs) | ~760N combined | ~15 kg trunk lid |
+| Model 3 Highland (2024+) | ~380N (~85 lbs) | ~760N combined | ~15 kg trunk lid |
+| Model Y (2020-2023) liftgate | ~490N (~110 lbs) | ~980N combined | ~20 kg liftgate |
+| Model Y Juniper (2024+) | ~500N (~112 lbs) | ~1000N combined | ~21 kg liftgate |
+| Model S rear liftgate (2021+ Plaid) | ~520N (~117 lbs) | ~1040N combined | ~22 kg liftgate |
+
+*These are estimated gas force values based on measured panel weights and OEM performance benchmarks. Tesla does not publish strut force specs — these figures are derived from engineering calculations and community measurements. Power struts add electric motor torque on top of these gas values.*
+
+### How to Read Aftermarket Listings
+
+When shopping, look for the **fully extended force** or **holding force** — the value that keeps the trunk up at full open. Aftermarket listings typically state this in lbs or N:
+
+| Stated Force | Equivalent | Suitable for |
+|---|---|---|
+| 50 lbs (~220N) per strut | Too low | No Tesla model |
+| 80 lbs (~355N) per strut | Borderline | Model 3 only, marginally |
+| 85-90 lbs (~380-400N) per strut | Correct | Model 3 (all years) |
+| 100 lbs (~445N) per strut | Good | Model 3; borderline for Model Y |
+| 110-112 lbs (~490-500N) per strut | Correct | Model Y (2020-2023) |
+| 115-120 lbs (~511-535N) per strut | Correct | Model Y Juniper (2024+), Model S |
+
+### Rules for Choosing Force Rating
+
+**For Model 3 (all years):** Choose struts rated 85-90 lbs (380-400N) per strut.
+
+**For Model Y pre-Juniper (2020-2023):** Choose struts rated 110-112 lbs (490-500N) per strut.
+
+**For Model Y Juniper (2024+):** Choose struts rated 110-120 lbs minimum. The Juniper liftgate is approximately 1 kg heavier than the pre-facelift version — several owners report pre-Juniper rated struts feel slightly soft on the new model.
+
+**For Model S (2021+):** OEM struts are strongly recommended. Aftermarket coverage for the 2021+ Plaid refresh is thin, and mismatched force ratings can affect the power liftgate motor's calibration in ways that are difficult to diagnose without a service tool.
+
+**Never go lighter than OEM.** A strut that cannot support the panel weight will compress under load, creating the exact slow-rise symptom you started with. Replacing a $40 strut twice is more expensive than buying the correct rating once.
+
+---
+
+## Ball Stud Replacement: When and How
+
+Ball studs are the threaded anchor posts on the body and trunk lid that the strut clips snap onto. They are small, inexpensive, and routinely overlooked — but a worn ball stud will cause your brand-new struts to click, wobble, or detach entirely within weeks.
+
+### When to Replace Ball Studs
+
+Replace ball studs whenever:
+- You feel any wobble when gripping the strut end-cap and rocking it firmly after strut removal
+- The ball surface has visible flat spots, corrosion pitting, or rough texture
+- The new strut clip does not snap on with a firm, audible click
+- You are installing new struts after 5+ years of use — ball stud replacement takes 10 minutes and costs $8-15 per stud
+
+### Parts and Sourcing
+
+| Vehicle | Location | OEM Part # (representative) | Cost |
+|---------|-----------|-----------------------------|------|
+| Model 3 | Trunk lid (upper) | Verify at parts.tesla.com with VIN | ~$10 each |
+| Model 3 | Body (lower) | Verify at parts.tesla.com with VIN | ~$10 each |
+| Model Y | Liftgate (upper) | Verify at parts.tesla.com with VIN | ~$12 each |
+| Model Y | Body (lower) | Verify at parts.tesla.com with VIN | ~$12 each |
+
+Ball studs are available from Tesla parts suppliers including **Tesloid.eu** (EU) and **EVMotive.com** (US), often cheaper than direct from Tesla. Always confirm with your VIN — ball stud thread size and shoulder diameter have changed between production runs.
+
+### Step-by-Step: Ball Stud Replacement
+
+**Tools needed:** Ball stud removal tool (preferred) or two flat-head screwdrivers, wire brush, Loctite 243 (blue, medium-strength threadlocker), torque wrench, IPA wipes
+
+1. Remove the strut using the main procedure above — the trunk must be propped open independently
+2. Position the ball stud removal tool around the stud base and rotate counterclockwise to unscrew from the sheet metal
+3. **No removal tool?** Cross two flat-head screwdrivers at the base of the ball stud and lever against the surrounding sheet metal to rotate counterclockwise — works on 8 out of 10 studs; corroded studs may need penetrating oil (let soak 10 minutes)
+4. Once removed, clean the threaded hole in the sheet metal with a wire brush — remove all rust, sealant residue, and debris
+5. Apply 1-2 drops of Loctite 243 to the threads of the new ball stud (not the ball head)
+6. Thread the new stud in by hand until finger-tight, then torque to **8-10 Nm** — firm but not aggressive; overtightening can crack the sheet metal flange
+7. Allow 20-30 minutes cure time before clipping the strut onto the new ball stud
+8. Wipe the ball surface with a clean IPA cloth immediately before installing the strut clip — even fingerprint oils can prevent the clip from seating flush
+
+<div class="warning-box">
+<strong>Do not use red Loctite (271).</strong> Red is permanent-strength and will make future ball stud removal extremely difficult without heat. Blue (243) provides sufficient holding force while remaining serviceable.
+</div>
+
+<div class="tip-box">
+<strong>Replace all 4 ball studs at once</strong> (2 per strut × 2 struts) when doing a full strut job if there's any visible wear. The total parts cost is under $50 and the extra time is 20 minutes. Doing them one at a time because "only one is bad" is a false economy.
+</div>
+
+---
+
+## Power Trunk Upgrade Kit Guide (Model 3)
+
+The 2017-2020 Model 3 Standard Range and SR+ shipped with **manual gas struts** — no motor, no auto-open, no touchscreen control. If you're tired of manually lifting and closing your trunk, you can retrofit a full power trunk system in 60-90 minutes for $120-300.
+
+### How Retrofit Power Trunk Kits Work
+
+Aftermarket power trunk kits include:
+- Two motorized power struts (direct replacements for the OEM manual gas struts)
+- A control module that connects to the vehicle's 12V system and trunk latch signal wire
+- A pre-wired harness
+- Optional: a kick sensor module (wave your foot under the rear bumper to trigger auto-open without touching the car)
+
+The control module monitors the trunk latch release signal. When Tesla sends an "open" command — via touchscreen, key fob, or the exterior door button — the module powers the strut motors to push the trunk lid up automatically. Manual close is triggered by the stock Tesla trunk close button or the touchscreen; some kits add a dedicated button on the D-pillar.
+
+### Compatible Kits (2026)
+
+| Brand | Price (US) | Models | Kick Sensor | Notes |
+|-------|-----------|--------|-------------|-------|
+| **EVANNEX Power Trunk Kit** | $249-299 | Model 3 2017-2023 | Optional add-on | Premium brand, clean OEM-style install, US phone support |
+| **TAPTES Smart Electric Trunk** | $160-200 | Model 3 2017-2023 | Included | Good reviews, covers 2022+ updates |
+| **Generic OEM-style kit** | $120-160 | Model 3 2017-2021 | Not included | Search "Model 3 power trunk retrofit" on Amazon — verify year compatibility, check ratings |
+
+*Note: No compatible kits cover the 2024+ Model 3 Highland — the Highland ships with the power trunk as standard equipment, so no upgrade is needed.*
+
+### Installation Overview (60-90 minutes)
+
+1. **Remove the existing manual struts** using the simplified procedure: prop the trunk, release both ball stud clips (no electrical work needed — manual struts have no connector), remove struts
+2. **Mount the motorized struts** into the same ball stud positions — the mounting geometry is identical
+3. **Route the wiring harness** through the trunk body using the OEM wire grommet path — many kits include a grommet that occupies the same hole the factory would have used for a power trunk option
+4. **Connect the control module:** 12V constant power via a fuse tap in the trunk fuse block, chassis ground to a body bolt, and the trunk latch signal wire (typically brown/white — confirm with your kit's wiring diagram)
+5. **Run the initial calibration cycle** per the kit's instructions — usually 3 full open/close cycles; the module learns travel limits automatically
+6. **Set opening height** via the kit's control button or the adjustment sequence in the instructions
+
+### After Installation
+
+Once the kit is installed, auto-open works like a factory power trunk: the trunk pops up when you touch the button on the door handle, touchscreen, or key fob. Most kits do not integrate with the Tesla app's trunk control — the in-car touchscreen trunk button does work on kits that tap the latch signal directly.
+
+**Warranty note:** Installing an aftermarket power trunk kit on an out-of-warranty Model 3 does not void other warranties under the Magnuson-Moss Warranty Act. On in-warranty vehicles, any damage directly caused by the kit would not be covered by Tesla — factor your remaining warranty period into the timing decision.
+
+Also see: [Tesla Door Latch Actuator Replacement](/posts/tesla-door-latch-actuator-replacement/) for related latch mechanism work, and [Tesla Trunk Wiring Harness Repair](/posts/tesla-trunk-wiring-harness-repair/) if you encounter wiring issues during installation.
+
+---
+
 ## Cost Comparison
 
 | Option | Model 3 Cost | Model Y Cost | Notes |
@@ -651,6 +792,15 @@ Yes, but support the lid manually every time you open it. A weakening strut fall
 
 **What is the difference between trunk struts and frunk struts on a Tesla?**
 Rear trunk/liftgate struts are power struts with an integrated electric motor and higher gas force ratings due to the heavier panel. Frunk struts are passive gas springs with no motor and no electrical connector — replacement is simpler (15 minutes, no calibration). Part numbers, lengths, and force ratings are completely different. See the [Tesla frunk strut replacement guide](/posts/tesla-frunk-strut-replacement/) for the front hood procedure.
+
+**What force rating (N or lbs) should I choose for aftermarket Tesla trunk struts?**
+Match or exceed OEM force ratings. Model 3 power struts use approximately 380N (85 lbs) gas component per strut. Model Y liftgate struts use approximately 490-500N (110-112 lbs) per strut — and Juniper owners should choose 110-120 lbs minimum since the 2024+ liftgate is heavier. Never go lighter than OEM spec. Listings that state compatibility without listing force ratings are typically undersized. Look for the force rating in the product specifications section, not just the listing title.
+
+**Do Tesla trunk ball studs need to be replaced when installing new struts?**
+Not always, but check them every time. After removing the old strut, grab the clip end and rock it firmly — zero wobble means the stud is fine. Any perceptible play, flat spots, or corrosion on the ball surface means replace it before installing new struts. Ball studs cost $8-15 OEM and take 10 minutes to swap. Installing new struts on worn ball studs results in clicking noises and eventually the strut popping off its mount — it is false economy to skip the inspection.
+
+**Can I replace Tesla trunk struts without a prop rod?**
+You should not attempt it alone without independent trunk support. The Model Y liftgate weighs 18-22 kg and will fall when strut gas pressure is lost during removal. A proper prop rod, a piece of 2x4 lumber cut to the trunk-open height, or a second person holding the liftgate are all acceptable options. Never rely on the old strut to hold the lid while disconnecting it — the moment the clip releases, the strut is no longer controlling the weight.
 
 ---
 
@@ -797,6 +947,30 @@ Just remember: **always replace as a pair**, **clean the ball studs**, **run cal
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Rear trunk/liftgate struts are power struts with an integrated electric motor and higher gas force ratings. Frunk struts are passive gas springs with no motor and no electrical connector — replacement is simpler (15 minutes, no calibration required). Part numbers and force ratings are completely different and not interchangeable."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What force rating should I choose for aftermarket Tesla trunk struts?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Match or exceed OEM force ratings. Model 3 power struts use approximately 380N (85 lbs) gas component per strut. Model Y liftgate struts use approximately 490-500N (110-112 lbs) per strut — Juniper owners should choose 110-120 lbs minimum. Never go lighter than OEM spec, or you will get the same slow-open symptom you started with. Always check the force rating in the product specifications, not just the compatibility listing."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do Tesla trunk ball studs need to be replaced when installing new struts?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Check them every time by rocking the strut clip end after removal — zero wobble means the stud is fine. Any play, flat spots, or corrosion means replace before installing new struts. Ball studs cost $8-15 OEM and take 10 minutes to swap. Installing new struts on worn ball studs results in clicking and the strut eventually popping off its mount."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I replace Tesla trunk struts without a prop rod?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "You should not attempt it without independent trunk support. The Model Y liftgate weighs 18-22 kg and will fall when strut gas pressure is lost during removal. A prop rod, a 2x4 lumber piece cut to the correct height, or a helper are all acceptable. Never rely on the failing strut to hold the lid while you remove it."
       }
     }
   ]
