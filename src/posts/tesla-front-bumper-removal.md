@@ -1,9 +1,9 @@
 ---
 layout: post.njk
 title: "Tesla Model 3/Y Front Bumper Removal Guide: Step-by-Step with Clip Locations"
-description: "Remove the Tesla Model 3/Y front bumper in 30–60 min. Fastener map, torque specs, connector guide, inspection checklist, Highland/Juniper differences. 2026 updated."
+description: "Remove the Tesla Model 3/Y front bumper in 30–60 min. Fastener map, torque specs, OEM part numbers, fault code guide, Highland/Juniper differences. 2026."
 date: 2026-02-10
-lastUpdated: 2026-05-09
+lastUpdated: 2026-05-17
 category: "Body & Exterior"
 difficulty: "Medium"
 readTime: "25 min read"
@@ -135,6 +135,30 @@ tools:
         "@type": "Answer",
         "text": "Sight down the beam from one end — any visible bow or misalignment indicates impact damage. Press firmly at the center with both hands; a damaged beam feels soft instead of fully rigid. Also check the EPP foam crash absorber between the beam and fascia for compression or tearing — that foam is sacrificial and should be replaced ($40–$80 aftermarket) if deformed. A bent beam is a structural part and should be replaced before driving."
       }
+    },
+    {
+      "@type": "Question",
+      "name": "What fault codes appear if I forget to reconnect a bumper connector on my Tesla?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A disconnected pedestrian warning speaker (PWS) connector triggers a 'Pedestrian Warning System Fault' alert within 60 seconds of startup. A disconnected USS (ultrasonic parking sensor) harness shows 'Parking Sensors Unavailable.' On radar-equipped cars (pre-mid-2022 Model 3, pre-late-2022 Model Y), a disconnected radar plug causes 'Forward Collision Warning Unavailable.' All faults clear automatically once the correct connector is reseated and the car is power-cycled: tap Controls → Safety → Power Off, wait 3 minutes, then restart."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the correct panel gap measurement after reinstalling a Tesla front bumper?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The bumper-to-fender seam should measure 3.0–4.0 mm and be consistent from front to rear on each side. The bumper-to-hood gap at center should be 4.0–5.0 mm. If gaps are uneven after reinstallation, partially loosen the upper 10mm bolts and shift the bumper before re-torquing. Uneven gaps almost always mean the side snap-clips seated before the upper rail was fully aligned — back the bolts out and reset."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Where can European Tesla owners source front bumper fascia parts?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "In Europe, OEM Tesla bumper fascias are available through the Tesla app (Service → Parts & Accessories) or any Tesla Service Center parts desk with your VIN. Third-party EU suppliers include listings on eBay.de and mobile.de for OEM-pull fascias from insurance write-offs. Aftermarket fascias ship from German, Polish, and Chinese EU warehouses at €130–€280 unpainted. EU painting labor runs €350–€700 for a front bumper; metallic colors (PMNG Midnight Silver, PPSB Deep Blue) are at the higher end. Lead time for OEM Tesla parts within the EU is typically 2–4 weeks."
+      }
     }
   ]
 }
@@ -177,16 +201,18 @@ This guide covers the **2017–2023 Model 3 (pre-Highland)**, the **2020–2024 
 8. [Fastener Torque Specifications](#fastener-torque-specifications)
 9. [Model Y vs. Model 3: Key Differences](#model-y-vs-model-3-key-differences)
 10. [Pre-2021 vs. 2021+ vs. 2024 Highland vs. 2024+ Juniper](#pre-2021-vs-2021-vs-2024-highland-vs-2024-model-y-juniper)
-11. [Reinstallation Tips](#reinstallation-tips)
+11. [Reinstallation: Step-by-Step Procedure](#reinstallation-step-by-step-procedure)
 12. [What to Inspect While the Bumper Is Off](#what-to-inspect-while-the-bumper-is-off)
 13. [Buying a Replacement Bumper Fascia](#buying-a-replacement-bumper-fascia)
-14. [Cold Weather Removal Considerations](#cold-weather-removal-considerations)
-15. [Troubleshooting: Bumper Won't Come Off?](#troubleshooting-bumper-wont-come-off)
-16. [Cost Comparison: DIY vs. Professional](#cost-comparison-diy-vs-professional)
-17. [Common Mistakes to Avoid](#common-mistakes-to-avoid)
-18. [When to Call a Professional](#when-to-call-a-professional)
-19. [Frequently Asked Questions](#frequently-asked-questions)
-20. [Related Guides](#related-guides)
+14. [Tesla OEM Part Numbers and VIN-Specific Sourcing](#tesla-oem-part-numbers-and-vin-specific-sourcing)
+15. [Cold Weather Removal Considerations](#cold-weather-removal-considerations)
+16. [Troubleshooting: Bumper Won't Come Off?](#troubleshooting-bumper-wont-come-off)
+17. [Cost Comparison: DIY vs. Professional](#cost-comparison-diy-vs-professional)
+18. [Common Mistakes to Avoid](#common-mistakes-to-avoid)
+19. [When to Call a Professional](#when-to-call-a-professional)
+20. [Post-Reinstall Fault Codes and How to Clear Them](#post-reinstall-fault-codes-and-how-to-clear-them)
+21. [Frequently Asked Questions](#frequently-asked-questions)
+22. [Related Guides](#related-guides)
 
 ---
 
@@ -425,18 +451,61 @@ The step-by-step process above works for both vehicles.
 
 ---
 
-## Reinstallation Tips
+## Reinstallation: Step-by-Step Procedure
 
-Putting the bumper back on is the reverse of removal. Keep these tips in mind:
+Reinstallation takes 20–40 minutes. The most common mistake is pushing the bumper into place before reconnecting the harnesses — once the bumper seats, connectors are hard to reach. Follow this order exactly.
 
-1. **Reconnect all electrical connectors first** before pushing the bumper into place. Once the bumper seats, the connectors are much harder to reach.
-2. **Align the side clips first.** Guide each clip tab into its fender receiver before pushing anything home. If you push the bumper in at the top before aligning the sides, the clips won't seat properly.
-3. **Push the bumper firmly** until you hear the side clips snap in. The fender seam should look even and consistent from each end.
-4. **Start all bolts by hand** before tightening any of them. This ensures proper alignment and prevents cross-threading.
-5. **Tighten in order:** top center, then upper sides, then fender liner bolts, then underbody screws.
-6. **Check panel gaps** along the bumper-to-fender seam and the bumper-to-hood gap. These should be consistent and even side to side. If not, loosen and readjust before final torque. Our [panel gap adjustment guide](/posts/tesla-panel-gap-adjustment/) has specific gap targets for the Model 3 and Model Y.
-7. **Don't forget the hidden 10mm bolt** behind each fender liner — reinstall it before buttoning up the liner.
-8. **Test all electronics** before calling it done. Turn on the car and verify fog lights, turn signals, parking sensors, and the pedestrian warning speaker all work.
+**Time estimate:** 20–40 minutes · **Panel gap targets:** bumper-to-fender 3.0–4.0 mm, bumper-to-hood 4.0–5.0 mm
+
+### Step R1: Reconnect All Electrical Harnesses (Bumper Off-Car)
+
+Before the bumper goes near the car, reconnect every connector you photographed during removal. Lock each one until you feel or hear a click. For **red-tab connectors:** push the red tab inward first, then push the connector body together until it seats. Verify the PWS (pedestrian speaker), USS harness block, fog light connectors, and — on radar-equipped cars — the center radar plug are all seated. Do not proceed until every harness is verified.
+
+### Step R2: Align the Lower Edge
+
+Have a helper hold one side. Angle the bottom of the bumper inward and hook the lower edge onto the front air dam / lower rail. The bumper should sit roughly level. Do not force — if it doesn't hook cleanly, the helper is holding their side too high.
+
+### Step R3: Seat the Upper Edge
+
+Tilt the top of the bumper toward the frunk tub. The upper edge has alignment tabs that slot into receivers in the bumper mounting rail. Push gently until the upper edge is flush. Install **one center 10mm bolt finger-tight** to hold it while you work on the sides.
+
+### Step R4: Engage the Side Snap-Clips
+
+Guide the bumper's fender tabs into the receiving clips on both front fenders. Grip the bumper at the fender seam on each side and push it firmly **rearward and slightly inward**. You'll hear a distinct click when the friction clip engages. Both sides must click — a missing click means that side of the bumper will flex and the fender gap will be uneven.
+
+### Step R5: Install the Hidden Fender Liner Bolts
+
+Turn the steering wheel to full lock on each side and install the 10mm bolt behind each wheel well liner. Torque to **8–10 Nm**. Skipping these bolts means the bumper flexes at the fender seam under any lateral load — potholes, car wash brushes, anything.
+
+### Step R6: Install Remaining Hardware in Sequence
+
+Work in this order to maintain panel alignment throughout:
+
+| Fastener | Torque |
+|----------|--------|
+| Upper 10mm bolts (under frunk) — all except the center one already installed | 8–10 Nm |
+| Center 10mm bolt (already finger-tight) | 8–10 Nm |
+| Wheel well liner Torx screws (T20/T25) | 2–3 Nm — snug, not overtightened |
+| Underbody Torx screws (T30 or T40 on Highland/Juniper) | 3–5 Nm |
+| Push-pin clips — all locations | Hand-pressure only; press center pin last |
+
+Start every fastener by hand before torquing any of them. This ensures the bumper can still shift to its natural alignment before being locked in.
+
+### Step R7: Button Up the Wheel Well Liners
+
+Reinstall the push-pin liner clips and Torx screws in each wheel well. Straighten the steering wheel and verify the liner sits flat with no gaps along its forward edge where it meets the bumper.
+
+### Step R8: Reinstall the Frunk Tub Liner
+
+Press the liner clips back into their sockets. On 2024+ Highland models, reinstall the additional trim layer before the outer liner — the layer order matters for water drainage.
+
+### Step R9: Verify Panel Gaps and All Electronics
+
+Check:
+- **Bumper-to-fender seam:** 3.0–4.0 mm, consistent front to rear on each side. Uneven gaps mean a snap-clip didn't seat — back out the upper bolts and reset. See our [panel gap adjustment guide](/posts/tesla-panel-gap-adjustment/) for model-specific targets.
+- **Bumper-to-hood gap:** 4.0–5.0 mm at center.
+
+Turn on the car and verify within 2 minutes: fog lights, turn signals, parking sensors (wave your hand in front), and pedestrian warning speaker (present on all models). On radar-equipped cars, confirm no sensor fault appears on the touchscreen. If any fault shows, see the [Post-Reinstall Fault Codes section](#post-reinstall-fault-codes-and-how-to-clear-them) below.
 
 ---
 
@@ -511,17 +580,60 @@ Aftermarket options run $150–$320 unpainted. Quality varies significantly. Loo
 
 Several vendors sell pre-painted fascias at a $200–$400 premium over unpainted. Color match accuracy is inconsistent — check seller photos carefully and verify against your door jamb sticker (look for the color code field under "Exterior Color").
 
+### EU / European Pricing
+
+EU buyers have the same OEM options via the Tesla app but should expect different cost profiles:
+
+| Item | EU Price Estimate |
+|------|------------------|
+| Aftermarket bumper fascia (unpainted) | €130–€280 shipped |
+| OEM pull from write-off (eBay.de) | €80–€200 depending on color/condition |
+| Spare push-pin clip pack (20×) | €8–€15 |
+| Body shop paint labor (EU) | €350–€600 standard colors |
+| Metallic paint premium (PMNG, PPSB, PPMR) | +€100–€200 |
+| Trim tool set | €10–€20 ([Amazon.de](https://www.amazon.de/s?k=trim+removal+tool+set+automotive&tag=diyrepair-21)) |
+
+EU paint prices are higher than US on average — a full respray of an OEM Model Y Juniper fascia in Midnight Silver Metallic runs €500–€700 in Germany. Factor this in when deciding repair-vs-replace on a moderately damaged OEM fascia: at €600 in paint, a repaired OEM piece often makes more sense than a €200 aftermarket part that then needs the same €600 respray.
+
+**EU shipping note:** Tesla spare parts ordered via the Tesla app ship from the regional EU depot (Netherlands/Germany). Current lead times: 3–10 days within the EU, up to 3 weeks for less-common variants (Juniper, Plaid).
+
 ### When to Repair vs. Replace
 
 Repair the existing fascia when:
 - The damage is cracking or paint chips without structural deformation
 - Mounting tabs are intact
-- A [bumper repair kit](https://www.amazon.com/s?k=bumper+repair+kit+plastic+welding&tag=diyrepair07-20) ($20–$40) plus repaint comes out under 50% of replacement cost
+- A [bumper repair kit](https://www.amazon.com/s?k=bumper+repair+kit+plastic+welding&tag=diyrepair07-20) ($20–$40 / €18–€35) plus repaint comes out under 50% of replacement cost
 
 Replace when:
 - Clip mounting tabs are snapped off the fascia itself
 - The fascia is split across a major structural section
 - The lower valance (diffuser area) is torn and cannot be bonded structurally
+
+---
+
+## Tesla OEM Part Numbers and VIN-Specific Sourcing
+
+Tesla bumper fascias are VIN-specific: color code, HW version (radar vs. Vision / HW4), and production date all determine the exact part number. The same model year can have multiple part variants.
+
+### How to Find Your Correct Part Number
+
+1. **parts.tesla.com** — enter your VIN → navigate to Body → Front Bumper Assembly. Tesla's catalog shows the exact OEM part number and current price for your specific build. This is the authoritative source.
+2. **Tesla Service Center parts desk** — call with your VIN. They look up the correct part, confirm availability, and can place an order. Parts purchased via a Tesla Service Center are guaranteed to match your build specification.
+3. **Door jamb sticker** — the color code field (e.g., PPSW = Pearl White Multi-Coat, PBK = Solid Black, PMNG = Midnight Silver Metallic, PPSB = Deep Blue Metallic, PPMR = Multi-Coat Red) is essential when ordering any pre-painted or color-matched part from a third-party supplier.
+
+### Community-Reported Reference Part Numbers
+
+These are community-verified reference numbers — **always confirm against your VIN via parts.tesla.com** before ordering, as Tesla issues revision letters (e.g., -A, -B, -C) with each production run change:
+
+| Model | Reference OEM Part # | Notes |
+|-------|---------------------|-------|
+| Model 3 Standard/Long Range (2017–2020) | 1077889-00-x | x = current production revision |
+| Model 3 (2021–2023, pre-Highland) | 1497870-00-x | Revised grille integration |
+| Model 3 Highland (2024+) | 1791862-00-x | Redesigned; T40 underbody screws |
+| Model Y (2020–2023, pre-Juniper) | 1554499-00-x | Larger fascia than M3 |
+| Model Y Juniper (2024+) | Confirm via VIN | Verify on parts.tesla.com — multiple variants |
+
+**Push-pin retainer clips (all models):** Toyota-equivalent 28mm two-stage push-pin, compatible with Toyota 90467-07201. Available as aftermarket packs on [Amazon US](https://www.amazon.com/s?k=Tesla+Model+3+bumper+push+clips+retainer&tag=diyrepair07-20) and [Amazon DE](https://www.amazon.de/s?k=Tesla+Model+3+Sto%C3%9Ff%C3%A4nger+Clips&tag=diyrepair-21) at $0.40–€0.80 each — buy 20+ before starting.
 
 ---
 
@@ -601,6 +713,36 @@ This is a solid DIY job, but consider professional help if:
 
 ---
 
+## Post-Reinstall Fault Codes and How to Clear Them
+
+If a connector didn't seat or was forgotten, the car will alert you within 60 seconds of startup. Every alert has a specific cause and a specific fix — do not ignore them and drive.
+
+### Fault Code Reference
+
+| Alert | Cause | Fix |
+|-------|-------|-----|
+| "Pedestrian Warning System Fault" or PWS disabled | PWS speaker connector not fully seated or left disconnected | Power off → partially swing bumper out on the lower valance side → reseat the 2-pin PWS connector until it clicks |
+| "Parking Sensors Unavailable" or individual sensor faults | USS harness block not fully locked | Reseat the main harness connector block — all 6 USS sensors feed from a single multi-pin plug; one partially-seated connector disables all of them |
+| "Forward Collision Warning Unavailable" | Radar 4-pin connector not seated (radar-equipped cars built before mid-2022 M3 / late-2022 MY) | Locate the center-lower radar plug; pull both latch wings simultaneously while pushing the connector together |
+| "Camera Calibration in Progress" (front-facing) | Normal after any harness disconnection — camera module recalibrating | Drive 30–50 miles on varied roads including highway; calibration resolves automatically. No action required. |
+| No fault but front USS randomly false-triggers | One USS sensor housing reseated at an angle inside the bumper | Partially remove bumper via lower fasteners, press each sensor housing flat from behind until it clicks flush |
+
+### Clearing Persistent Faults
+
+After reseating the correct connector, clear the fault with a full power cycle:
+
+1. **Tap Controls → Safety → Power Off** on the touchscreen.
+2. **Wait 3 full minutes** without opening any door, touching the brake, or interacting with the car.
+3. **Press the brake pedal** to restart.
+
+Most faults (PWS, USS, radar) clear immediately after the power cycle confirms the connector is live. Camera Calibration clears on its own after driving — no power cycle required, no service visit needed.
+
+**If faults persist after power cycle:** A connector pin is bent, the latch housing cracked, or the harness section is damaged. This requires a replacement harness section from Tesla — do not drive with a PWS or Forward Collision Warning fault. Log a service request via the Tesla app.
+
+**Documentation tip:** Screenshot the Alerts screen (tap the bell icon on the Tesla touchscreen) before starting the job and again after reassembly. A clean "before" screenshot proves any new fault appeared during your work session — useful if a prior issue was already present.
+
+---
+
 ## Frequently Asked Questions
 
 **How long does it take to remove the Tesla front bumper?**
@@ -632,6 +774,15 @@ Tesla uses 28mm two-stage push-pin retainer clips — the same family as Toyota/
 
 **How do I check if the bumper beam is bent after a collision?**
 Sight down the steel beam from one end — any bow, kink, or visible misalignment confirms impact damage. Press firmly at the center with both hands; a damaged beam feels slightly soft or gives marginally instead of being completely rigid. Also check the EPP foam crash absorber between the beam and fascia: significant compression, tearing, or crumbling means the foam absorbed impact energy (that's its job), and it should be replaced before reinstalling the bumper. A bent beam is a structural part and requires replacement before driving.
+
+**What fault codes appear if I forget to reconnect a bumper connector?**
+A disconnected pedestrian warning speaker (PWS) triggers "Pedestrian Warning System Fault" within 60 seconds of startup. A disconnected USS harness causes "Parking Sensors Unavailable." On radar-equipped cars (pre-mid-2022 Model 3, pre-late-2022 Model Y), a disconnected radar plug causes "Forward Collision Warning Unavailable." Reseat the missed connector, then power-cycle the car: Controls → Safety → Power Off, wait 3 minutes, restart. All faults clear automatically. If they persist, a pin is bent or a latch housing cracked — replacement harness section required.
+
+**What is the correct panel gap after reinstalling the Tesla front bumper?**
+Bumper-to-fender seam: 3.0–4.0 mm, consistent from front to rear on each side. Bumper-to-hood gap at center: 4.0–5.0 mm. Uneven side-to-side gaps mean a side snap-clip didn't seat — loosen the upper 10mm bolts, reposition the bumper, and push firmly until both side clips click before re-torquing. See the [Tesla Panel Gap Adjustment guide](/posts/tesla-panel-gap-adjustment/) for step-by-step correction.
+
+**Where can EU/European Tesla owners source front bumper parts?**
+OEM fascias are available through the Tesla app (Service → Parts & Accessories) or any Tesla Service Center parts desk with your VIN. EU lead time is typically 2–4 weeks. For faster sourcing, check eBay.de for OEM-pull fascias from insurance write-offs at €80–€200 depending on color and condition. Aftermarket fascias from EU warehouses run €130–€280 unpainted. EU painting labor: €350–€600 for standard colors, €450–€700 for metallics (PMNG, PPSB, PPMR). Spare clip packs: [Amazon.de](https://www.amazon.de/s?k=Tesla+Model+3+Sto%C3%9Ff%C3%A4nger+Clips&tag=diyrepair-21) for €8–€15 per 20-pack.
 
 ---
 
