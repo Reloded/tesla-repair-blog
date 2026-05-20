@@ -1,9 +1,9 @@
 ---
 layout: post.njk
 title: "Tesla Camera Calibration Stuck? Here's the Real Fix (2026)"
-description: "Tesla camera calibration stuck at 0%, 90%, or showing 'Autopilot unavailable'? This complete 2026 guide covers every fix — from the 30-second reset to FSD recalibration after software updates. Tested on Model 3, Y, S, and X."
+description: "Tesla camera calibration stuck at 0% or 90%? Complete 2026 fix guide: static vs dynamic calibration, HW4 tips, FSD v14 notes, OEM part numbers, Model Y Juniper coverage."
 date: 2026-01-14
-updated: 2026-04-22
+updated: 2026-05-20
 category: "Autopilot"
 difficulty: "Easy"
 readTime: "18 min read"
@@ -45,7 +45,38 @@ faq:
     a: "Yes. Drive on a highway at 45-70 mph with clear lane markings, in daylight, dry weather. Avoid stop-and-go traffic. After windshield replacement, Tesla Service can accelerate calibration using a special target board — ask specifically for a static calibration if you are in a hurry."
 ---
 
-Tesla's Autopilot relies on cameras positioned around the vehicle to see the road, detect obstacles, and navigate. When these cameras need recalibration-whether after a software update, windshield replacement, or malfunction-you'll see warnings and degraded Autopilot performance. Here's how to trigger recalibration and resolve common camera issues.
+Tesla's Autopilot relies on cameras positioned around the vehicle to see the road, detect obstacles, and navigate. When these cameras need recalibration — whether after a software update, windshield replacement, or malfunction — you'll see warnings and degraded Autopilot performance. Here's everything you need to fix it, including options most guides skip.
+
+| Detail | Spec |
+|--------|------|
+| Calibration time | 20–100 miles (HW3); 20–40 miles (HW4) |
+| Difficulty | Easy — no tools required |
+| Affected models | Model 3, Y, S, X — all years |
+| Cost (DIY) | Free |
+| Cost (Tesla Service) | $100–200 software-only; $300–800+ per camera |
+| Static calibration | 30–60 min at Tesla Service using target board |
+| Most common cause | Dirty lens, insufficient driving miles, weather block |
+| Cleaning tools needed | Ammonia-free glass cleaner + microfiber cloth |
+
+## Table of Contents
+- [When Calibration Is Needed](#when-calibration-is-needed)
+- [Camera Locations on Tesla](#camera-locations-on-tesla)
+- [Model-Specific Differences: HW3, HW4, Juniper, Highland](#model-specific-camera-differences)
+- [How to Force Camera Recalibration](#how-to-force-camera-recalibration)
+- [Static vs Dynamic Calibration](#static-vs-dynamic-calibration)
+- [Calibration Progress: What Each Percentage Means](#calibration-progress-what-each-percentage-means)
+- [Calibration Best Practices](#calibration-best-practices)
+- [Cleaning Your Cameras](#cleaning-cameras)
+- [Common Mistakes](#common-mistakes-during-calibration)
+- [Troubleshooting Camera Errors](#troubleshooting-camera-errors)
+- [After Windshield Replacement](#after-windshield-replacement)
+- [After Collision Repair](#after-collision-repair)
+- [Camera OEM Part Numbers and Replacement Cost](#camera-oem-part-numbers-and-replacement-cost)
+- [FSD v14 and 2026 Software Updates](#fsd-supervised-autopilot-and-camera-calibration)
+- [Camera Error Codes](#camera-error-codes-what-they-actually-mean)
+- [Recalibration After Software Update](#recalibration-after-a-software-update)
+- [Prevention Tips](#prevention-tips)
+- [FAQ](#faq)
 
 ## When Calibration is Needed
 
@@ -118,6 +149,35 @@ For minor camera glitches (see our full [Tesla reboot guide](/posts/tesla-screen
 3. Wait for screen to reboot
 4. Drive and allow cameras to reinitialize
 
+## Static vs Dynamic Calibration
+
+Tesla cameras can be calibrated two ways. Understanding the difference matters if you're pressed for time or just had professional service work done.
+
+### Dynamic Calibration (DIY — Most Common)
+
+The default method. After you clear calibration via **Controls > Service > Camera Calibration**, you simply drive. The car uses real-world road markings, lane lines, and reference points to recalibrate all 8 cameras automatically.
+
+**Requirements:**
+- 20–100 miles of mixed driving (HW3) or 20–40 miles (HW4)
+- Clear daylight conditions
+- Well-marked roads — highway strongly preferred for the first 10+ miles
+- No additional cost
+
+### Static Calibration (Tesla Service Method)
+
+Tesla Service centers use physical calibration target boards — large printed patterns placed at precise, measured distances from the front and rear of the vehicle. The service tool forces an immediate full calibration without any driving.
+
+**Static calibration is required after:**
+- Camera physical replacement
+- Camera housing displacement after windshield or bumper work
+- Calibration stuck after 200+ miles of dynamic driving
+
+**How to request it:** When you schedule service for any camera issue, specifically ask for "static ADAS calibration." After windshield replacement at a third-party shop, insist on written confirmation that static calibration was performed — many shops without Tesla-specific equipment will skip it and tell you to "just drive it." On HW4 vehicles where camera position tolerance is tighter, this is not acceptable.
+
+**Cost:** $0 when included in a covered repair; $100–200 as a standalone service visit.
+
+**Third-party ADAS calibration:** Independent shops (Safelite, Caliber Collision, specialized ADAS shops) offer static calibration from around $150. Confirm they have Tesla-validated HW3/HW4 target equipment before booking.
+
 ## Calibration Progress: What Each Percentage Means
 
 The calibration progress bar on your Tesla's screen isn't random - each range corresponds to specific cameras being calibrated.
@@ -171,18 +231,18 @@ Dirty cameras are the #1 cause of "Camera Blocked" warnings.
 
 ### Exterior Cameras (B-pillar and Fenders)
 
-1. Use ammonia-free glass cleaner
-2. Spray onto microfiber cloth (not directly on camera)
-3. Gently wipe camera lens
-4. Use dry cloth to remove streaks
-5. Check for water spots or residue
+1. Use [ammonia-free glass cleaner (DE)](https://www.amazon.de/dp/B07GVNHKY1?tag=diyrepair-21) / [ammonia-free glass cleaner (US)](https://www.amazon.com/dp/B0007OWG5E?tag=diyrepair07-20) — never use Windex or any ammonia formula on camera lenses
+2. Spray onto a [microfiber cloth (DE)](https://www.amazon.de/dp/B009FUF6DM?tag=diyrepair-21) / [microfiber cloth (US)](https://www.amazon.com/dp/B08CF7Q48C?tag=diyrepair07-20) — never spray directly on the camera
+3. Gently wipe the camera lens in one direction
+4. Use a dry section of the cloth to remove streaks
+5. Check for water spots or residue under direct light
 
 ### Forward-Facing Cameras (Behind Windshield)
 
-1. Clean inside of windshield in camera area
-2. Use isopropyl alcohol for stubborn spots
-3. Ensure no tint or coating covers camera area
-4. Check for condensation between glass layers
+1. Clean inside of windshield in the camera zone — the area directly behind the rearview mirror
+2. Use [99% isopropyl alcohol (DE)](https://www.amazon.de/dp/B09BQ83XLR?tag=diyrepair-21) / [99% IPA (US)](https://www.amazon.com/dp/B005DSMJCA?tag=diyrepair07-20) for stubborn spots or film buildup
+3. Ensure no tint or protective coating covers the camera area — this is a common post-tint issue
+4. Check for condensation between glass layers — if you see fogging, the windshield seal has failed
 
 ### Rear Camera
 
@@ -276,6 +336,30 @@ Windshield replacement is the most common cause of calibration issues. See our [
 <strong>Insurance Tip:</strong> When filing a windshield claim, specify that Tesla-compatible glass and Autopilot recalibration are required. This prevents claim disputes later.
 </div>
 
+## After Collision Repair
+
+Collision repair involving the front or rear fascia, fenders, A-pillars, or windshield almost always requires camera recalibration — even if no camera was directly replaced.
+
+**Why collision repair disrupts calibration:** Tesla's Autopilot calibration stores precise angular offsets for each of the 8 cameras. The forward-facing cameras sit on a bracket behind the windshield — if the windshield is removed even briefly, or if the front bumper structure is deformed and then realigned, the camera may be pointing 1–3 degrees differently than before. That's enough to cause persistent errors and [phantom braking](/posts/tesla-phantom-braking-fix/).
+
+### Checklist After Collision Repair
+
+1. Before leaving the shop, navigate to **Controls > Service > Camera Calibration** and confirm all cameras read 100% complete
+2. If any camera shows less than 100%, request static ADAS calibration before accepting the vehicle
+3. If the shop says "just drive it," ask specifically whether they performed static calibration and can show proof — if not, document this
+4. Test Autopilot on a familiar stretch of highway at normal speed before trusting it for your commute
+5. Report any new phantom braking, erratic lane centering, or side camera warnings immediately — these are calibration defects, not normal post-repair behavior
+
+### Insurance Coverage for ADAS Recalibration
+
+Most comprehensive auto insurance in the US, EU, and UK covers ADAS recalibration as part of any collision repair. Explicitly request it **in writing** on your repair order. The shop must include calibration costs in the estimate submitted to your insurer.
+
+**Red flags after collision repair:**
+- "Camera blocked" error you didn't have before the accident
+- Autopilot engages but immediately disengages on a clear highway
+- Phantom braking more frequent than before
+- "Front camera installation incorrect" — this error means the camera's physical position is off; calibration software **cannot** compensate for a camera pointing in the wrong direction. It requires physical realignment at Tesla Service or a certified ADAS shop, not just a calibration clear.
+
 ## When to Visit Tesla Service
 
 **Schedule service if:**
@@ -300,6 +384,29 @@ Windshield replacement is the most common cause of calibration issues. See our [
 | Windshield + recalibration | N/A | $1,000-2,500 |
 | Camera replacement | N/A | $300-800 per camera |
 
+## Camera OEM Part Numbers and Replacement Cost
+
+Tesla cameras are proprietary — you cannot swap in generic surveillance cameras. Here are the confirmed part numbers for 2024–2026 model years:
+
+| Camera | Application | Tesla Part # | OEM Price (est.) |
+|--------|-------------|--------------|------------------|
+| Forward camera cluster | Model 3/Y HW3 (2019–2023) | 1506491-00-A | $250–350 |
+| Forward camera cluster | Model 3 Highland / Y Juniper HW4 (2024+) | 1973116-00-A | $400–550 |
+| Side forward camera | Model 3/Y (fender-mounted) | 1632803-00-A | $150–200 |
+| Side rearward camera | Model 3/Y (B-pillar) | 1089854-00-A | $150–200 |
+| Rear backup camera | Model 3/Y (above license plate) | 1152672-00-A | $120–180 |
+| Forward camera cluster | Model S/X HW3 | 1506492-00-A | $300–400 |
+| Interior cabin camera | Model 3 Highland / Y Juniper HW4 (2024+) | 2294019-00-A | $200–300 |
+
+*Prices as of 2026. Verify part numbers with Tesla Parts or a certified supplier before ordering — Highland and Juniper builds may have revision suffixes.*
+
+**Labor costs to add:** Tesla Service charges $200–500 for camera replacement labor depending on location. Side cameras are fastest (30–45 min). The forward camera cluster behind the windshield is most labor-intensive — if windshield removal is required, budget $400–600 in additional labor.
+
+**Where to buy OEM Tesla cameras:**
+- [Tesla Parts](https://parts.tesla.com) — guaranteed OEM, highest retail price
+- RR Car Parts (teslarepairshop.eu) — OEM Tesla parts at competitive EU pricing
+- Certified Tesla body shops — often have new-old-stock inventory
+
 ## FSD Supervised Autopilot and Camera Calibration
 
 Full Self-Driving (Supervised) imposes stricter camera requirements than standard Autopilot. If you have the FSD subscription or purchased package, here's what to know:
@@ -311,6 +418,23 @@ Full Self-Driving (Supervised) imposes stricter camera requirements than standar
 **FSD v13 and HW4 Cameras.** Vehicles with HW4 hardware running FSD v13+ benefit from the full high-resolution camera feed. Calibration on these cars is notably faster (typically 20-40 miles vs. 60-100 miles on HW3). If you have HW4 and calibration is taking longer than 50 miles, clean all cameras — a smudge is amplified at 5MP.
 
 **Requesting FSD Calibration Support via the App.** If FSD is disabled and calibration won't progress after 100 miles, open the Tesla app, go to **Service > Schedule Service**, and select "Autopilot / Camera issue." Describe "FSD calibration stuck." Tesla can often push a remote calibration reset without a physical visit.
+
+### FSD v14 and 2026 Updates
+
+FSD v14 (major rollout through 2026) introduced a fully end-to-end neural network that processes raw camera pixels for both longitudinal and lateral control. This changes how calibration interacts with the system:
+
+**What v14 means for calibration:**
+- If you updated to FSD v14 and immediately noticed more conservative braking or slightly wider lane positioning, that's the new neural network model adapting — not a calibration fault. Allow 200–300 miles for the model to adapt to your typical routes and driving patterns.
+- HW4 cameras are fully utilized by v14's higher-resolution processing pipeline. Owners upgrading from v13 on HW4 hardware will notice the most significant FSD improvement after recalibration on v14.
+- **FSD v14 does NOT automatically clear calibration data.** But if FSD performance degrades immediately after a v14 update, manually clearing and recalibrating via Controls > Service > Camera Calibration can help.
+
+**2026 model year vehicles:**
+- All 2026 Model 3 (Highland) and Model Y (Juniper) ship standard with HW4 and FSD v14 pre-configured
+- The Model Y Juniper (2024+) added an interior cabin-facing camera as part of Robotaxi-preparation hardware — this camera self-calibrates automatically within the first 10 drive cycles after delivery or a factory reset
+- If you own a 2024+ Juniper and see an interior camera warning, it is almost always a calibration-in-progress state, not a hardware fault
+
+**Checking your hardware and FSD version:**
+Navigate to **Controls > Software > Additional Vehicle Information**. You'll see your Autopilot computer type (HW3 or HW4), your current FSD software version, and camera calibration status.
 
 ---
 
@@ -365,6 +489,94 @@ Go to **Controls > Service > Camera Calibration**. If you see any cameras not at
 
 *Autopilot camera issues are usually simple to fix — most are just dirty lenses or incomplete calibration. Clean your cameras regularly, drive varied routes after any service work, and give the system time to learn. If problems persist beyond 200 miles, then consider service.*
 
+## FAQ
+
+**What is static ADAS calibration for Tesla?**
+Static calibration uses physical target boards positioned at precise distances from the vehicle. A service tool forces immediate camera alignment without driving. Tesla Service centers have this equipment. It's required after camera replacement or housing displacement, and preferred over dynamic calibration whenever time matters.
+
+**Does FSD v14 require recalibration?**
+FSD v14 does not automatically clear existing calibration data. However, if FSD behavior degrades after a v14 update — more phantom braking, inconsistent lane centering — manually clearing and recalibrating (Controls > Service > Camera Calibration) helps the new neural network model learn your camera's specific characteristics.
+
+**How do I check if my Tesla has HW3 or HW4?**
+Go to **Controls > Software > Additional Vehicle Information**. Look for "Autopilot computer." HW3 shows as "Full Self-Driving Computer." HW4 (also called AI4) shows as "Full Self-Driving Computer 4.0" or similar. All 2024+ Model 3 Highland and Model Y Juniper vehicles ship with HW4.
+
+**Can aftermarket window tint cause calibration problems?**
+Yes. Window tint that extends over the camera zone behind the rearview mirror can interfere with the forward cameras. Ceramic tints are less problematic than metallic or dyed films. If calibration stalls after tinting, inspect the tint in the camera area — a gap or cutout of at least 5cm around the camera bracket is required.
+
+**What is the difference between "camera calibration" and "camera blocked"?**
+These are two separate issues. "Camera calibration" (shown as a progress percentage in Controls > Service) means the camera's positional alignment is being calculated — this is normal after any reset. "Camera blocked or blinded" is a real-time warning that a specific camera's view is currently obstructed by dirt, condensation, sunlight, or physical damage. You can have a fully calibrated camera that still throws "blocked" warnings if the lens is dirty. Always address blocked warnings first before clearing calibration.
+
+**How many miles does Tesla camera calibration take after windshield replacement?**
+After windshield replacement with dynamic calibration, expect 40–100 miles for HW3 vehicles and 20–50 miles for HW4. If the shop performed static calibration with a target board, calibration may already be at 100% when you leave. Always confirm which method was used before leaving the shop.
+
+**Will resetting calibration fix phantom braking?**
+Sometimes. Phantom braking can be caused by poor camera calibration, but also by the FSD neural network model's behavior on certain road geometries. If phantom braking started after service work (windshield, bumper, camera replacement), clearing and recalibrating is the right first step. If it's been present since a software update, manual recalibration can help but the root cause is the model — report it via the Tesla app feedback button after each occurrence.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is static ADAS calibration for Tesla?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Static calibration uses physical target boards positioned at precise distances from the vehicle. A service tool forces immediate camera alignment without driving. Tesla Service centers have this equipment. It is required after camera replacement or housing displacement, and takes 30-60 minutes."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does FSD v14 require recalibration?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "FSD v14 does not automatically clear existing calibration data. However, if FSD behavior degrades after a v14 update, manually clearing and recalibrating via Controls > Service > Camera Calibration helps the new neural network model adapt to your camera's specific characteristics."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I check if my Tesla has HW3 or HW4?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Go to Controls > Software > Additional Vehicle Information. Look for Autopilot computer. HW3 shows as Full Self-Driving Computer. HW4 shows as Full Self-Driving Computer 4.0. All 2024+ Model 3 Highland and Model Y Juniper vehicles ship with HW4."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can aftermarket window tint cause Tesla camera calibration problems?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Window tint covering the camera zone behind the rearview mirror can interfere with forward cameras. Ceramic tints are less problematic than metallic films. A gap of at least 5cm around the camera bracket is required."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long does Tesla camera calibration take after windshield replacement?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "With dynamic calibration, expect 40-100 miles for HW3 vehicles and 20-50 miles for HW4. If the shop performed static calibration with a target board, calibration may already be at 100% when you leave. Always confirm which method was used before leaving the shop."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Will resetting Tesla camera calibration fix phantom braking?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sometimes. If phantom braking started after service work such as windshield, bumper, or camera replacement, clearing and recalibrating is the right first step. If it started after a software update, recalibration can help but the root cause may be the neural network model. Report each occurrence via the Tesla app feedback button."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How much does Tesla camera replacement cost in 2026?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Individual camera replacement costs $120-550 for the part depending on the camera (rear camera is cheapest, HW4 forward cluster is most expensive), plus $200-600 in labor at Tesla Service. Total cost for a forward camera replacement with windshield removal is typically $600-1,100."
+      }
+    }
+  ]
+}
+</script>
+
 ## Related Guides
 
 - [Autopilot Unavailable](/posts/tesla-autopilot-unavailable/) - Full Autopilot troubleshooting
@@ -377,3 +589,6 @@ Go to **Controls > Service > Camera Calibration**. If you see any cameras not at
 - [Tesla Service Mode: How to Access Diagnostics](/posts/tesla-service-mode-guide/) - Easy · Maintenance
 - [Tesla Navigation Not Working? 9 Proven Fixes](/posts/tesla-navigation-not-working/) - Easy · Software
 - [Tesla Battery Degradation: How to Check Health](/posts/tesla-battery-degradation-health/) - Easy · Battery
+- [Tesla PPF Installation Guide](/posts/tesla-ppf-installation/) - Medium · Exterior
+- [Tesla Window Tint Guide](/posts/tesla-window-tint-guide/) - Easy · Exterior
+- [Tesla Door Seal Maintenance](/posts/tesla-door-seal-maintenance/) - Easy · Maintenance
