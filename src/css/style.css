@@ -1291,6 +1291,138 @@ img {
   border: 1px solid var(--border-color);
 }
 
+/* Mid-article promo (VIN TESLA) — JS-injected before first <h2> in post content.
+   Dark cyan-accent card matches vintesla.com brand and visually distinguishes it
+   from inline content + from the orange/red sidebar promo. */
+.article-promo {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 1.25rem;
+  align-items: start;
+  margin: 2.5rem 0;
+  padding: 1.5rem 1.5rem 1.5rem 1.25rem;
+  border-radius: 14px;
+  border-left: 4px solid #29D4FF;
+  background: linear-gradient(135deg, #0a1726 0%, #0f1f33 60%, #0a1726 100%);
+  color: #e6f3ff;
+  box-shadow: 0 10px 30px -10px rgba(0, 60, 100, 0.4), 0 1px 0 rgba(255, 255, 255, 0.04) inset;
+  position: relative;
+  overflow: hidden;
+}
+
+.article-promo::after {
+  /* subtle cyan glow in upper-right corner */
+  content: "";
+  position: absolute;
+  top: -40px;
+  right: -40px;
+  width: 160px;
+  height: 160px;
+  background: radial-gradient(circle, rgba(41, 212, 255, 0.18) 0%, rgba(41, 212, 255, 0) 70%);
+  pointer-events: none;
+}
+
+.article-promo-icon {
+  color: #29D4FF;
+  background: rgba(41, 212, 255, 0.1);
+  border: 1px solid rgba(41, 212, 255, 0.3);
+  border-radius: 10px;
+  padding: 0.65rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.article-promo-body {
+  min-width: 0;
+}
+
+.article-promo-eyebrow {
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  color: #29D4FF;
+  margin-bottom: 0.4rem;
+  text-transform: uppercase;
+}
+
+.article-promo-title {
+  font-size: 1.15rem;
+  font-weight: 700;
+  line-height: 1.35;
+  color: #ffffff;
+  margin: 0 0 0.5rem;
+}
+
+.article-promo-desc {
+  font-size: 0.95rem;
+  line-height: 1.55;
+  color: #b8d4e8;
+  margin: 0 0 0.85rem;
+}
+
+.article-promo-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem 1rem;
+  margin-bottom: 1rem;
+  font-size: 0.85rem;
+  color: #9bbfd9;
+}
+
+.article-promo-price {
+  color: #ffffff;
+  font-weight: 700;
+  background: rgba(41, 212, 255, 0.12);
+  border: 1px solid rgba(41, 212, 255, 0.3);
+  padding: 0.15rem 0.55rem;
+  border-radius: 999px;
+}
+
+.article-promo-feature {
+  white-space: nowrap;
+}
+
+.article-promo-cta {
+  display: inline-block;
+  background: linear-gradient(135deg, #29D4FF 0%, #1AA7CC 100%);
+  color: #051221 !important;
+  font-weight: 700;
+  padding: 0.7rem 1.4rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 0.95rem;
+  transition: transform 0.15s ease, box-shadow 0.15s ease, filter 0.15s ease;
+  box-shadow: 0 4px 12px rgba(41, 212, 255, 0.25);
+  position: relative;
+  z-index: 1;
+}
+
+.article-promo-cta:hover {
+  transform: translateY(-1px);
+  filter: brightness(1.05);
+  box-shadow: 0 6px 18px rgba(41, 212, 255, 0.35);
+}
+
+/* Stack on mobile */
+@media (max-width: 600px) {
+  .article-promo {
+    grid-template-columns: 1fr;
+    padding: 1.25rem;
+  }
+  .article-promo-icon {
+    width: 48px;
+    height: 48px;
+  }
+  .article-promo-title {
+    font-size: 1.05rem;
+  }
+  .article-promo-meta {
+    font-size: 0.8rem;
+  }
+}
+
 /* Mobile Navigation Toggle */
 .nav-toggle {
   display: none;

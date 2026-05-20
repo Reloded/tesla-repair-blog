@@ -178,6 +178,32 @@ layout: base.njk
     </div>
   </div>
 
+  {# VIN TESLA promo template — JS injects this just before the first <h2> in post content (mid-article placement) #}
+  <template id="vintesla-promo-tpl">
+    <aside class="article-promo article-promo-vintesla" role="complementary" aria-label="Recommended Tesla tool">
+      <div class="article-promo-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" width="32" height="32" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></svg>
+      </div>
+      <div class="article-promo-body">
+        <div class="article-promo-eyebrow">RECOMMENDED — TESLA OWNERS</div>
+        <h4 class="article-promo-title">Want to verify your Tesla's exact factory spec?</h4>
+        <p class="article-promo-desc">Tesla VIN check reveals warranty status, original configuration, Autopilot version, FSD hardware, and battery details — straight from Tesla's database. Buying used or confirming what you have? 60-second sanity check.</p>
+        <div class="article-promo-meta">
+          <span class="article-promo-price">From&nbsp;$19.99</span>
+          <span class="article-promo-feature">⚡ Within 15 minutes</span>
+          <span class="article-promo-feature">🔒 No signup</span>
+        </div>
+        <a href="https://vintesla.com/?utm_source=tesladiyrepair&amp;utm_medium=blog&amp;utm_campaign=vintesla_ad&amp;utm_content=mid_article"
+           class="article-promo-cta"
+           target="_blank"
+           rel="noopener"
+           onclick="if(typeof gtag==='function')gtag('event','vintesla_click',{value:0.20,utm_content:'mid_article'});">
+          Check your VIN →
+        </a>
+      </div>
+    </aside>
+  </template>
+
   <div class="author-box">
     <img src="/images/repairs/tesla-workshop-drive-unit.webp" alt="Tesla repair workshop" class="author-img">
     <div class="author-info">
@@ -278,7 +304,23 @@ document.addEventListener('DOMContentLoaded', function() {
   const content = document.getElementById('post-content');
   const tocList = document.getElementById('toc-list');
   const headings = content.querySelectorAll('h2');
-  
+
+  // VIN TESLA mid-article promo injection — placed before the first h2 so it lands
+  // between the intro/TL;DR section and the start of the body. Falls back to "after
+  // first paragraph" if there are no h2s. Only injects once per page.
+  (function injectVinTeslaPromo() {
+    const tpl = document.getElementById('vintesla-promo-tpl');
+    if (!tpl || document.querySelector('.article-promo-vintesla')) return;
+    const node = tpl.content.cloneNode(true);
+    const firstH2 = content.querySelector('h2');
+    if (firstH2) {
+      firstH2.parentNode.insertBefore(node, firstH2);
+    } else {
+      const firstP = content.querySelector('p');
+      if (firstP && firstP.parentNode) firstP.parentNode.insertBefore(node, firstP.nextSibling);
+    }
+  })();
+
   if (headings.length < 3) {
     // Hide TOC for short articles
     document.querySelector('.toc-sidebar').style.display = 'none';
