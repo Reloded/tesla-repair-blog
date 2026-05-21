@@ -1,9 +1,9 @@
 ---
 layout: post.njk
 title: "Tesla Trunk Won't Stay Open? Replace the Struts in 20 Minutes (All Models, 2026)"
-description: "Tesla trunk strut replacement 2026: fix a sagging trunk in 20-45 min. Model 3, Y, S, X part numbers, force ratings, power vs manual struts — $40 DIY vs $350 dealer."
+description: "Tesla trunk strut replacement 2026: fix a sagging trunk in 20-45 min. Model 3, Y, S, X: OEM part numbers, force ratings, fault codes, climate schedule — $40 DIY vs $350 dealer."
 date: 2026-02-10
-lastUpdated: 2026-05-13
+lastUpdated: 2026-05-21
 category: "Body & Trim"
 difficulty: "Easy-Medium"
 readTime: "18 min read"
@@ -122,6 +122,10 @@ Worn trunk struts (also called lift supports or gas springs) are one of the most
 21. [Frequently Asked Questions](#frequently-asked-questions)
 22. [Common Mistakes That Cause Callbacks](#common-mistakes-that-cause-callbacks)
 23. [Real-World Tips From a Tesla Repair Shop](#real-world-tips-from-a-tesla-repair-shop)
+24. [Model S Rear Trunk: Full Step-by-Step](#model-s-rear-trunk-strut-replacement-raven--plaid)
+25. [Model X Cargo Liftgate: Full Step-by-Step](#model-x-cargo-liftgate-strut-replacement-full-procedure)
+26. [Fault Code Reference](#fault-codes-what-your-tesla-touchscreen-shows)
+27. [Climate-Based Replacement Schedule](#climate-based-strut-replacement-timeline)
 
 ---
 
@@ -802,6 +806,12 @@ Not always, but check them every time. After removing the old strut, grab the cl
 **Can I replace Tesla trunk struts without a prop rod?**
 You should not attempt it alone without independent trunk support. The Model Y liftgate weighs 18-22 kg and will fall when strut gas pressure is lost during removal. A proper prop rod, a piece of 2x4 lumber cut to the trunk-open height, or a second person holding the liftgate are all acceptable options. Never rely on the old strut to hold the lid while disconnecting it — the moment the clip releases, the strut is no longer controlling the weight.
 
+**Can I replace Tesla Model X cargo liftgate struts myself?**
+Yes, but it is the most involved Tesla strut job. The Model X cargo liftgate weighs 22–26 kg — you need a rigid prop rod and ideally a second helper. Headliner access requires releasing a wider strip than Model Y, and the electrical routing is longer. Allow 60–90 minutes for a first-time Model X job. Do not confuse the cargo liftgate struts with the falcon wing door actuators — the falcon wing system is a separate electromechanical component that requires service tools and should be handled by a Tesla technician.
+
+**How do I know if my Tesla needs new struts or a new trunk motor?**
+Disconnect the power strut's electrical connector and try pushing the trunk open manually with your hand. If the trunk holds firmly when you apply upward force but won't stay up on its own, the motor is functional — only the gas spring component has failed (the normal failure pattern). If the trunk gives way even with your full hand pressure applied, either there is zero gas pressure remaining or the motor has a structural failure. A grinding noise during the last 20% of the opening arc, combined with slow travel, almost always indicates a dying gas strut rather than motor failure. Motors fail silently — no movement, no noise. Struts fail noisily — strain, slow travel, then sag.
+
 ---
 
 ## Common Mistakes That Cause Callbacks
@@ -835,6 +845,113 @@ After replacing hundreds of trunk struts, here are things the official manual wo
 **Power strut connector corrosion.** On Model Y especially, the electrical connector behind the headliner can develop corrosion from moisture intrusion through the roof seal. If your new power struts aren't responding, clean the connector pins with contact cleaner before assuming the strut is defective.
 
 **Don't forget the trunk seal.** While you have the trunk trim off, inspect the rubber trunk seal. A worn seal lets water in, which corrodes the strut mounting points and ball studs. Replace the seal if it's cracked or flattened.
+
+---
+
+## Model S Rear Trunk Strut Replacement (Raven & Plaid)
+
+The Tesla Model S has a traditional sedan-style **rear trunk lid** — heavier than the Model 3's and with a different access path for the power strut connector.
+
+| Spec | Model S Raven (2017–2020) | Model S Plaid (2021+) |
+|---|---|---|
+| Trunk lid weight | ~18 kg | ~19 kg |
+| Gas force per strut | ~510N (~115 lbs) | ~520N (~117 lbs) |
+| Aftermarket coverage | Good (A-Premium, TRQ) | Limited — OEM preferred |
+| Tesla service code | 11330100XX | Verify via VIN |
+| Calibration path | Controls > Service > Calibrate Trunk | Same |
+
+**Part numbers:** Model S strut references are in the 1095xxx range for pre-2021 units; the 2021+ Plaid refresh changed mounting geometry. Always verify via parts.tesla.com with your VIN before ordering — the two generations are not interchangeable.
+
+### Model S Trunk Strut Replacement — Step-by-Step
+
+**Time:** 30–50 min | **Difficulty:** 2.5 / 5 | **Tools:** Plastic trim tools, prop rod, IPA wipes
+
+1. **Remove trunk interior trim.** The Model S trunk well is deeper than the Model 3 — the trim panel has 6–8 plastic retaining clips instead of 4–5. Start at the bottom edge and work upward with a plastic trim tool.
+2. **Access the connector.** On pre-2021 Model S, the power strut connector routes through the driver-side (LH) D-pillar area — not directly through the trunk garnish. Partially releasing the D-pillar trim (2 clips at the base) gives you enough slack to disconnect the connector cleanly. Budget an extra 8–10 minutes for this step.
+3. **Push the rubber grommet through** the body panel to gain slack on the harness.
+4. **Prop the trunk lid.** The Model S trunk lid weighs 18–19 kg — use a solid, non-spring prop rod. Do not use a piece of lumber unless it is cut to exactly the right height.
+5. **Release upper then lower ball stud clips.** Technique is identical to the Model 3 procedure above.
+6. **Remove the strut and inspect ball studs.** The Model S trunk lid ball studs corrode faster than Model 3 due to the exposed rear deck position. Replace them if there is any wobble or pitting.
+7. **Install new struts** lower-first, route the harness through the grommet, reconnect the D-pillar trim, reconnect the electrical connector.
+8. **Calibrate:** Controls > Service > Calibrate Trunk. The Model S calibration cycle runs 3–4 full open/close cycles. Do not interrupt it.
+
+**Aftermarket note:** As of 2026, A-Premium and TRQ both list Model S fitment for the Raven generation. For the 2021+ Plaid, aftermarket inventory is thin — OEM via Tesla Parts or a reputable Tesla salvage yard is the more reliable path. Mismatched force ratings on the Plaid's heavier trunk lid will produce the same slow-open symptom within days of installation.
+
+---
+
+## Model X Cargo Liftgate Strut Replacement (Full Procedure)
+
+**What this covers:** The rear cargo liftgate on Model X — the panel that opens over the cargo area behind row 3. This is separate from the falcon wing doors (rear passenger doors), which use electromechanical actuators, not struts.
+
+**Do not confuse these two systems.** If your falcon wing door moves erratically, won't fully open, or clicks when closing — that is an actuator or limit switch issue, not a strut failure. The falcon wing actuators are high-voltage adjacent and require service tooling; this guide does not cover them.
+
+| Spec | Model X Cargo Liftgate |
+|---|---|
+| Liftgate weight | 22–26 kg |
+| Gas force per strut | ~580–625N (~130–140 lbs) |
+| Aftermarket coverage | Very limited — OEM strongly recommended |
+| Time | 60–90 min |
+| Calibration | Controls > Service > Calibrate Liftgate (4–6 cycles) |
+
+**Part numbers:** Model X cargo liftgate struts have gone through at least three revision generations (2015–2019, 2020–2021, 2021+ Plaid). Confirm your year and VIN at parts.tesla.com before ordering anything.
+
+### Model X Cargo Liftgate Replacement — Step-by-Step
+
+1. **Open liftgate and rear doors.** Open both rear passenger doors to gain access to the headliner edge along the full cargo opening width.
+2. **Access the headliner.** The Model X requires releasing the rear headliner strip across the entire cargo opening — a wider area than the Model Y. Use an inflatable air wedge at 2–3 points across the width, and tape headliner edges with painter's tape to prevent scratches.
+3. **Disconnect the power strut connector.** Two connectors run along this route on the Model X: the strut connector and the liftgate camera connector. They look similar — confirm you are disconnecting the strut connector (typically the one routed closer to the liftgate hinge). Leave the camera connector seated.
+4. **Prop the liftgate.** 22–26 kg will fall hard. Use the most rigid prop available. Two helpers are strongly recommended for a first-time Model X job.
+5. **Release lower ball stud first**, then upper. Control the strut — even a dead strut has residual gas tension on the compressed end.
+6. **Check the spoiler.** The Model X cargo liftgate spoiler sits above the strut upper mount. It does not need to be removed, but it limits access — a 90° angled trim tool helps release the upper clip.
+7. **Install new struts.** Clip upper first (same as Model Y order). Route the harness carefully — the longer harness path on the Model X makes it easy to leave slack that gets pinched by the liftgate on close.
+8. **Seal the grommet.** The Model X body is prone to moisture intrusion at the liftgate body grommet, especially in Scandinavian and northern European climates. Inspect the existing grommet seal before reinstalling — replace it if cracked.
+9. **Calibrate.** Controls > Service > Calibrate Liftgate. The Model X cycle takes 4–6 full open/close passes. After calibration, set liftgate height via Controls > Vehicle > Liftgate — the factory default assumes full open, which may hit a standard garage ceiling if you have a low door.
+
+**Do not use Model Y struts on Model X.** The force ratings are different (Model Y: ~490–500N per strut; Model X cargo: ~580–625N per strut). Under-rated struts will not hold the heavier Model X liftgate and will fail to open fully within days of installation.
+
+---
+
+## Fault Codes: What Your Tesla Touchscreen Shows
+
+When trunk struts are failing, the Tesla touchscreen generates specific alert text. Knowing these helps confirm the diagnosis before spending money on parts.
+
+| Alert Text | Root Cause | First Action |
+|-----------|-----------|-------------|
+| "Trunk unable to open fully" | Gas pressure loss — motor cannot push panel through full arc | Replace struts, run calibration |
+| "Liftgate unable to close fully" | Same as above, or physical obstruction | Clear obstruction first; if clean, replace struts |
+| "Trunk position calibration required" | Motor lost position reference (post-swap, or power interruption during calibration) | Run Controls > Service > Calibrate |
+| "Trunk motor failure" | Motor burned out compensating for dead struts over time | Replace struts AND motor; the motor cannot be saved once it overheats |
+| "Liftgate obstructed" | Power liftgate stopped mid-cycle — inconsistent strut resistance triggers obstruction detection | Almost always a dying strut; replace pair |
+| "Trunk latch not fully open" | Incomplete travel triggers latch sensor — strut cannot push panel fully open | Replace struts; confirm latch arm is not bent |
+
+**Where to check:**
+- Tesla mobile app → Car → Controls → Alerts: shows all active warnings
+- Touchscreen → Controls → Service → Trunk/Liftgate: shows last calibration date and open/close cycle count
+- **Service Mode** (hold brake pedal + move gear selector to the right twice): shows raw diagnostic codes — useful for confirming strut vs motor failure before buying parts
+
+**Interpreting "Trunk motor failure":** This alert appearing before you replace struts is the worst-case scenario. It means the motor spent weeks or months fighting dead gas pressure and overheated. The motor is a $180–400 part depending on model. This is why replacing struts at first sign of sluggish travel — not after the trunk completely fails to open — saves significant money.
+
+---
+
+## Climate-Based Strut Replacement Timeline
+
+Gas struts degrade at different rates depending on where you drive. Proactive inspection prevents the motor-burnout scenario above.
+
+| Climate Zone | Example Locations | Inspect At | Expected Lifespan |
+|---|---|---|---|
+| **Hot + humid** | Houston, Miami, Singapore, Bangkok, coastal Spain | 18 months | 2–3 years |
+| **Hot + dry** | Phoenix, Las Vegas, Southern Portugal, UAE | 24 months | 2.5–3.5 years |
+| **Temperate** | Bay Area, Seattle, Germany, Netherlands, Poland | 3 years | 3–5 years |
+| **Cold** | Lithuania, Finland, Norway, Minnesota, Canada | 3–4 years | 4–6 years |
+| **Extreme cold** | Alaska, northern Canada, northern Scandinavia | 3 years | 3–5 years (cold temporarily hides borderline failure) |
+
+**3-minute proactive inspection (do this at every tire rotation):**
+1. Open trunk fully, release immediately — healthy trunk holds with zero droop
+2. Time the opening speed — any slowdown vs. new condition indicates pressure loss
+3. Shine a light on the strut shaft — oil residue on the shaft means seal failure, weeks from total loss
+4. Rock the ball stud clip end firmly — any wobble means ball stud replacement is overdue
+
+**Cold climate trap:** Gas pressure drops 15–20% at −20°C compared to +20°C. A strut holding fine in summer will feel completely dead in a Lithuanian January. If your trunk struggles in winter but recovers in spring, the struts are borderline — replace them in September before temperatures drop, not in January when you are standing in a parking lot with frozen hands.
 
 ---
 
@@ -971,6 +1088,22 @@ Just remember: **always replace as a pair**, **clean the ball studs**, **run cal
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "You should not attempt it without independent trunk support. The Model Y liftgate weighs 18-22 kg and will fall when strut gas pressure is lost during removal. A prop rod, a 2x4 lumber piece cut to the correct height, or a helper are all acceptable. Never rely on the failing strut to hold the lid while you remove it."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I replace Tesla Model X cargo liftgate struts myself?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, but it is the most involved Tesla strut job. The Model X cargo liftgate weighs 22-26 kg — you need a rigid prop rod and ideally a second helper. Headliner access requires releasing a wider strip than Model Y, and the electrical routing is longer. Allow 60-90 minutes for a first-time Model X job. Do not confuse the cargo liftgate struts with the falcon wing door actuators — the falcon wing system requires service tools and should be handled by a Tesla technician."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I know if my Tesla needs new struts or a new trunk motor?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Disconnect the power strut's electrical connector and try pushing the trunk open manually with your hand. If the trunk holds firmly when you apply upward force but won't stay up on its own, the motor is functional — only the gas spring has failed (the normal pattern). A grinding noise during the last 20% of the opening arc combined with slow travel almost always indicates a dying gas strut. Motors fail silently with no movement. If the trunk gives way even with full hand pressure, the gas pressure is completely gone or the motor has a structural failure — replace both the struts and the motor."
       }
     }
   ]
