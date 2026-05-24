@@ -198,7 +198,7 @@ The Model 3 and Y are the simplest Teslas to maintain. Here's your at-a-glance s
 | Every 2 years | [Cabin air filter](/posts/tesla-cabin-air-filter/), brake fluid test, [alignment](/posts/tesla-wheel-alignment-diy/) | 1-2 hours |
 | Every 3-4 years | [12V battery replacement](/posts/tesla-12v-battery-replacement/) | 15 min |
 | Every 4 years | [Coolant flush](/posts/tesla-coolant-flush-change/), [brake fluid change](/posts/tesla-brake-fluid-change/), caliper service | 3-4 hours |
-| As needed | [Brake pads](/posts/tesla-brake-pad-replacement/) (100k+ km), [shock absorbers](/posts/tesla-shock-absorber-replacement/) (80-120k km) | Varies |
+| As needed | [Brake pads](/posts/tesla-brake-pad-replacement/) (100k+ km), [shock absorbers](/posts/tesla-shock-absorber-replacement/) (80-120k km), [wheel bearings](/posts/tesla-wheel-bearing-replacement/) (80-150k km), [control arm bushings](/posts/tesla-control-arm-replacement/) (100k+ km), [tie rod ends](/posts/tesla-tie-rod-end-replacement/) (80-120k km), [sway bar links](/posts/tesla-sway-bar-link-replacement/) (60-100k km) | Varies |
 
 ## Model S/X Additional Maintenance
 

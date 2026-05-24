@@ -210,3 +210,7 @@ While this job is DIY-able, consider professional help if:
 - [Control Arm Replacement](/posts/tesla-control-arm-replacement/) - Often done alongside bearing work
 - [Suspension Noise Fix](/posts/tesla-suspension-noise-fix/) - Diagnose the noise before replacing parts
 - [Brake Pad Replacement](/posts/tesla-brake-pad-replacement/) - Inspect while the wheel is off
+- [Shock Absorber Replacement](/posts/tesla-shock-absorber-replacement/) - Replace shocks while suspension is already disassembled
+- [Tie Rod End Replacement](/posts/tesla-tie-rod-end-replacement/) - Steering wear often coincides with bearing failure
+- [Wheel Alignment DIY](/posts/tesla-wheel-alignment-diy/) - Always required after any steering or suspension work
+- [Coil Spring Replacement](/posts/tesla-coil-spring-replacement/) - Replace springs when replacing the hub assembly
