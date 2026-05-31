@@ -3,7 +3,7 @@ layout: post.njk
 title: "Tesla Brake Rotor Replacement: Complete DIY Guide (2026)"
 description: "DIY Tesla brake rotor replacement in 2026: save $300–700, torque specs, EPB reset, bed-in procedure, rotor sizes for all models including Highland & Juniper."
 date: 2026-02-06
-lastUpdated: 2026-05-23
+lastUpdated: 2026-05-31
 category: "Brakes"
 difficulty: "Intermediate"
 readTime: "35 min read"
@@ -171,6 +171,30 @@ tools:
         "@type": "Answer",
         "text": "On Model 3 and Model Y, the brake fluid reservoir is located in the front trunk (frunk) on the driver's side — look for a black plastic reservoir with MIN and MAX markings. When you press the caliper pistons back to clear the new rotors, displaced fluid raises the reservoir level. If the reservoir was already at MAX before you started, remove 20–30ml with a turkey baster before compressing the pistons to prevent overflow. Tesla specifies DOT 3 brake fluid on all current Model 3, Y, S, and X — never mix DOT ratings. If fluid is dark brown or has not been changed in two years, do a full flush while the calipers are already removed."
       }
+    },
+    {
+      "@type": "Question",
+      "name": "How deep can rotor grooves be before Tesla brake rotors need replacement?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Surface grooves under 0.5mm deep are normal wear — the rotor can continue in service. Grooves 0.5–1.5mm deep: machine if the rotor remains above minimum thickness after cutting, otherwise replace. Any groove over 1.5mm deep, or wider than 3mm, requires immediate replacement regardless of overall thickness — deep scoring creates uneven pad contact and deposit buildup. A practical field check: if you can catch your thumbnail in a groove and rock it side-to-side, it exceeds 0.5mm and warrants formal measurement. A raised lip at the outer rotor edge taller than 1.5mm also signals the rotor has worn below minimum spec."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Should I replace my Tesla brake caliper at the same time as the rotors?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Inspect the caliper while it is already off the car. Replace or rebuild if you find: a torn or cracked piston boot; a piston that resists compression or feels gritty; seized slide pins that will not pull free by hand; brake fluid weeping around the piston seal; or one pad significantly thinner than the other on the same corner (indicating the caliper was dragging before removal). Caliper rebuild kits cost $40–80; a remanufactured replacement caliper costs $60–150. Caliper slide pins must be serviced at every rotor job regardless — clean the pins, inspect boots, and regrease with silicone brake caliper grease. A seized slide pin destroys a new rotor within 10,000 miles."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What EU aftermarket part numbers fit Tesla Model 3 and Model Y 320mm brake rotors?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "For the 320mm Standard / Long Range front rotors: Zimmermann 100.3300.20 (front right) and 100.3301.20 (front left) are confirmed fits for Model 3 and Model Y through the 2024 Highland and Juniper facelifts. Rear 320mm: Zimmermann 100.3310.20 (rear right) and 100.3311.20 (rear left). Brembo EU front reference 09.D216.11 is also confirmed for Standard and LR. For Performance 355mm front rotors, verify via the Autodoc.de or FCP Euro VIN fitment tool — the Performance caliper requires a 355mm rotor and the Standard size will not mount correctly. Always confirm the listed diameter in millimeters against your trim spec before purchasing."
+      }
     }
   ]
 }
@@ -218,6 +242,8 @@ Tesla brake rotors last 75,000–150,000 miles thanks to regenerative braking, b
 18. [Troubleshooting After Rotor Replacement](#troubleshooting-after-rotor-replacement)
 19. [FAQ](#faq)
 20. [Torque Specifications](#torque-specifications)
+21. [Rotor Groove Depth and Scoring Severity](#rotor-groove-depth-and-scoring-severity)
+22. [Planning Your Full Brake Service: Combining Jobs Efficiently](#planning-your-full-brake-service-combining-jobs-efficiently)
 
 ## When Do Tesla Rotors Need Replacement?
 
@@ -261,6 +287,24 @@ Rotor runout is the side-to-side wobble as the rotor spins. A rotor can be at fu
 | Above 0.10mm | Fail — replace rotor. If new rotor also reads above 0.05mm, measure hub flange runout; the hub assembly may need inspection |
 
 **Checking hub runout before installing a new rotor:** With the old rotor off, hold the indicator tip against the hub face and rotate. If hub runout exceeds 0.03mm, clean the hub face thoroughly and re-measure. Corrosion buildup on the hub face is the most common source of runout on high-mileage Teslas — a wire brush often solves it without any parts replacement. See the [Tesla wheel bearing replacement guide](/posts/tesla-wheel-bearing-replacement/) if hub runout persists after cleaning.
+
+### Rotor Groove Depth and Scoring Severity
+
+Measuring rotor thickness confirms whether it is above the discard spec — but it does not capture groove depth or surface scoring, which can make a rotor unserviceable even when thickness is technically in spec.
+
+Scoring happens when brake pads wear to the metal backing plate and the metal gouges the rotor face, or when road debris embeds between the pad and rotor. Here is how to assess severity:
+
+| Groove Depth | Width | Verdict | Action |
+|---|---|---|---|
+| Under 0.5mm | Any | Surface wear — normal | Continue use; recheck at next inspection |
+| 0.5–1.5mm | Under 3mm | Moderate scoring | Machine if rotor stays above minimum thickness after cut; otherwise replace |
+| 0.5–1.5mm | Over 3mm | Heavy scoring | Replace — wide groove creates uneven pad deposit area |
+| Over 1.5mm | Any | Deep scoring | Replace immediately regardless of overall thickness |
+| Raised lip at outer edge | Over 1.5mm lip height | Material loss exceeds minimum spec | Replace immediately |
+
+**How to measure groove depth without a depth gauge:** Use a feeler gauge blade across the groove while the blade bridges the undamaged rotor surface on both sides. The blade thickness that slides through the groove without rocking equals the groove depth. Digital calipers can also bridge across the groove — zero the caliper on the undamaged surface and lower the jaw into the groove. Any groove you can catch your thumbnail in and rock side-to-side exceeds 0.5mm.
+
+**EV-specific scoring risk:** Because Tesla regenerative braking keeps mechanical pads mostly lifted from the rotor surface, any scoring that does exist tends to be localized to a narrow strip of the rotor face — the zone that actually contacts the pad under hard braking. If scoring is limited to that inner 30–40mm band and measures under 0.5mm deep, the rotor is serviceable. Scoring that extends to the full rotor face width, or that is deepest at the outer 10mm of the friction surface, indicates the pad has been contacting the rotor at an incorrect angle — inspect the caliper bracket and slide pins.
 
 ## Is It Really the Rotors? Quick Diagnosis
 
@@ -628,6 +672,92 @@ These Tesla brake rotor replacement cases illustrate actual DIY scenarios report
 
 ---
 
+**Case 5 — Model 3 Highland LR, 44,000 km, Kaunas, Lithuania (2026)**
+
+*Symptom:* Post-winter inspection found deep pitting on all four rotors despite only 44,000 km total mileage. Two Baltic winters of overnight street parking in slush caused aggressive corrosion on the non-friction areas near the hat and vane slots. Surface rust was visible as dense orange streaks through the wheel spokes from 2 meters away. Thickness measured 25.2mm front (spec: 26mm minimum) — technically borderline, but the pitting pattern ruled out machining.
+
+*Fix:* All four corners replaced in a single day. Zimmermann Sport Z e-coated 320mm rotors, front and rear. EPB Service Mode used correctly for both rear corners. Hub faces had severe corrosion buildup — each hub required 15–20 minutes of wire brush work plus anti-corrosion spray before the new rotors could seat flat.
+
+*Time:* 7 hours for all four corners, including hub preparation.
+
+*Cost:* €420 for all four rotors (Zimmermann, ordered via Autodoc.de with 2-day delivery to Lithuania). Tesla Service Center Vilnius quote: €2,600 for all four corners.
+
+*Note:* This case illustrates why EV owners in the Baltics and Northern Europe must inspect rotors every 12 months regardless of mileage. The failure mode is calendar-driven — two winters of low-friction-contact parking in salty, humid conditions, not 100,000 km of hard braking. Owner switched to Zimmermann Sport Z for all subsequent replacements.
+
+---
+
+**Case 6 — Model Y Performance, 31,000 km, Helsinki, Finland (2026)**
+
+*Symptom:* Annual summer track day produced visible blue heat glazing across both front Brembo rotor faces by session two. No pedal pulsation at road speeds, but hairline radial cracks around the ventilation vane openings confirmed thermal fatigue on both front rotors. The OEM Tesla bare-steel 355mm rotors had been heat-cycled beyond their design envelope for repeated hard use.
+
+*Fix:* Front axle only — DBA 4000 XS slotted 355mm rotors. Owner arrived prepared with a 4-piston Brembo spreader tool from a previous track-day brake job. Power Stop Z23 pads replaced simultaneously (existing pads at 6mm — above the 5mm reuse threshold — but the compound pairing with DBA XS slots works better with matched pads rather than worn-in OEM pads).
+
+*Time:* 2 hours 45 minutes.
+
+*Cost:* €380 rotors + €110 pads = €490 total. Tesla Helsinki Service Center quote: €920 per front axle.
+
+*Note:* Post-track-day inspection at 3,000 km showed no glazing or cracking. The slotted rotor design vented heat the solid OEM design could not sustain under repeated hard stops. DBA XS performance bed-in cycle was completed in full — 45 mph ×5, 60 mph ×3, 70 mph ×2, then a 30-minute cool-down before repeating.
+
+---
+
+**Case 7 — Model S Long Range (2021+), 108,000 miles, Seattle, Washington (2026)**
+
+*Symptom:* Combined presentation — pedal pulsation plus brake drag on the front axle (one corner hotter than the other three after highway driving). Micrometer confirmed the front left rotor at 31.4mm (355mm spec: 32mm minimum — 0.6mm below minimum). Separate diagnosis confirmed the front right caliper had a seized slide pin causing sustained drag and accelerated wear on that corner.
+
+*Fix:* Full front brake service in one session — EBC Ultimax2 355mm rotors, new EBC RedStuff pads, complete slide pin service on both front calipers (pins removed, cleaned, new Permatex brake caliper grease, boots inspected and intact). Brake fluid flushed while calipers were already open (fluid was dark brown — over two years old).
+
+*Time:* 4 hours 15 minutes for combined rotor + pad + slide pin + fluid job.
+
+*Cost:* $310 rotors + $85 pads + $20 brake fluid + $8 caliper grease = $423 total. Tesla Seattle quote for rotors and pads only: $1,240.
+
+*Note:* The seized slide pin was causing the premature left-side rotor wear. The right rotor was still at 32.8mm while the left was 0.6mm below minimum — clear evidence of asymmetric load from the dragging caliper. Without identifying and fixing the slide pin, the new left rotor would have worn prematurely again within 15,000–20,000 miles. This case is why caliper slide pin inspection is mandatory every time calipers come off the car.
+
+---
+
+## Planning Your Full Brake Service: Combining Jobs Efficiently
+
+When wheels come off for rotor replacement, several additional services can be completed with no extra lift time. For owners who work without a permanent lift and must schedule DIY sessions around weather and weekends, consolidating jobs in a single session saves the most time and eliminates return visits.
+
+**Four-corner brake overhaul timeline:**
+
+| Task | Additional Time | Notes |
+|---|---|---|
+| Rotor replacement, all 4 corners | Baseline ~3 hours | EPB Service Mode required for rear |
+| Brake pad replacement | +30 min if pads under 4mm | Caliper is already off — add pads now |
+| Caliper slide pin service | +20 min per axle | Required every rotor job |
+| Brake fluid flush | +45 min | Best after calipers are reinstalled |
+| Tire rotation | +15 min | Wheels already off — combine with torque recheck |
+| Hub face cleaning + anti-corrosion treatment | +10 min per corner | Critical in wet/winter climates — prevents stuck rotors at next service |
+| 50-mile lug nut recheck | 5 min at 50 miles | Set a phone reminder before leaving the driveway |
+
+**Full 4-corner combined session: 4.5–5.5 hours.** This covers what a Tesla Service Center typically books as two to three separate appointments and charges $2,000–3,000 for total.
+
+**Recommended sequence within a combined session:**
+
+1. Enable Jack Mode → lift all four corners on jack stands
+2. Work front axle first: remove wheels → remove calipers → service slide pins → replace rotors → replace pads → reinstall calipers at torque spec
+3. Repeat on rear axle (enable EPB Service Mode before rear caliper removal; exit Service Mode after rear calipers are torqued back)
+4. Lower the vehicle
+5. Flush brake fluid: check reservoir level, connect pressure bleeder, bleed right rear → left rear → right front → left front until fluid runs clear
+6. Pump the brake pedal 10 times in Park to seat the pistons
+7. Perform bed-in procedure (see section above)
+8. Mark your calendar for the 50-mile lug nut recheck
+
+**What to have ready before you start a combined session:**
+
+- New caliper bracket bolts P/N 1088969-00-B × 8 (2 per corner, all four corners)
+- Replacement rotors confirmed for your trim diameter
+- Brake pads if under 4mm (or under 5mm if you want clean matching to new rotor life)
+- 1 liter fresh DOT 3 brake fluid
+- Silicone brake caliper grease for slide pins
+- Wire brush + anti-corrosion spray for hub faces
+- Paint pen for torque verification marks
+- Feeler gauge for groove depth check on the old rotors (10 seconds per rotor, informs future planning)
+
+See the [Tesla brake fluid change guide](/posts/tesla-brake-fluid-change/) for the full flush procedure to integrate into this session, and the [Tesla brake pad replacement guide](/posts/tesla-brake-pad-replacement/) for the pad swap steps.
+
+---
+
 ## Tesla Brake Caliper Types: What DIYers Must Know
 
 This is where most generic brake guides fail Tesla owners. Tesla uses two fundamentally different front caliper designs depending on trim — and the piston retraction method differs completely.
@@ -887,6 +1017,15 @@ Yes. A 3-ton floor jack and four jack stands rated at 2 tons each are sufficient
 
 **How do I check brake fluid level when replacing Tesla brake rotors?**  
 On Model 3 and Model Y, the brake fluid reservoir is in the front trunk (frunk) on the driver's side — look for a black plastic reservoir with MIN and MAX markings on the body. When you press caliper pistons back to clear the new rotor, displaced fluid raises the reservoir level. If it was already at MAX, remove 20–30ml with a turkey baster before compressing the pistons to prevent overflow. Tesla specifies DOT 3 across all current models — never mix DOT ratings. If fluid is dark brown or has not been changed in two years, do a full flush while the calipers are already off.
+
+**How deep can rotor grooves be before replacement on a Tesla?**  
+Grooves under 0.5mm: normal surface wear, no action needed. Grooves 0.5–1.5mm: machine if the rotor stays above minimum thickness after the cut; otherwise replace. Any groove over 1.5mm deep, or over 3mm wide, means replace immediately — the scoring pattern creates uneven pad deposits and pulsation returns quickly. A quick field check: if your thumbnail catches in a groove and rocks, it exceeds 0.5mm. A raised lip at the outer rotor edge over 1.5mm high also confirms the rotor is at or below minimum spec.
+
+**Should I replace the caliper at the same time as the rotors?**  
+Not necessarily — inspect it while it is already off the car. Replace or rebuild if you find: torn piston boots, a piston that resists compression, seized slide pins that won't pull free by hand, brake fluid weeping at the piston seal, or one pad substantially thinner than the other (dragging caliper). Caliper slide pins must be serviced at every rotor job regardless — clean, regrease with silicone brake caliper grease, and inspect the rubber boots. A seized pin undetected after a rotor job destroys the new rotor within 10,000–15,000 miles.
+
+**What EU part numbers fit Tesla Model 3 and Model Y 320mm rotors?**  
+For Standard and Long Range (including 2024 Highland and 2024 Juniper): Zimmermann 100.3300.20 (front right) and 100.3301.20 (front left); rear 320mm: Zimmermann 100.3310.20 (right) and 100.3311.20 (left). These are confirmed fits through the 2024 facelifts and are widely stocked on Autodoc.de with 1–3 day delivery to Germany, Lithuania, and most of the EU. Brembo EU front reference 09.D216.11 also confirms for Standard/LR. For Performance 355mm front rotors, use the VIN fitment tool on Autodoc.de or FCP Euro — do not substitute Standard 320mm in a Performance bracket.
 
 ## Torque Specifications
 
