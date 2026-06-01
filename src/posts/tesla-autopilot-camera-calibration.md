@@ -3,7 +3,7 @@ layout: post.njk
 title: "Tesla Camera Calibration Stuck? Here's the Real Fix (2026)"
 description: "Tesla camera calibration stuck at 0% or 90%? Complete 2026 fix guide: static vs dynamic calibration, HW4 tips, FSD v14 notes, OEM part numbers, Model Y Juniper coverage."
 date: 2026-01-14
-updated: 2026-05-20
+updated: 2026-06-01
 category: "Autopilot"
 difficulty: "Easy"
 readTime: "18 min read"
@@ -43,6 +43,12 @@ faq:
     a: "Not usually. Most over-the-air updates preserve existing calibration data. However, major FSD updates (e.g., FSD v12 to v13) can reset calibration because the neural network model changes. If Autopilot features degrade immediately after an update, check Controls > Service > Camera Calibration to confirm calibration is still complete."
   - q: "Can I speed up Tesla camera calibration?"
     a: "Yes. Drive on a highway at 45-70 mph with clear lane markings, in daylight, dry weather. Avoid stop-and-go traffic. After windshield replacement, Tesla Service can accelerate calibration using a special target board — ask specifically for a static calibration if you are in a hurry."
+  - q: "Does EU or Lithuanian car insurance cover Tesla ADAS calibration?"
+    a: "Yes. Under comprehensive car insurance (kasko) in Lithuania, Germany, and most EU countries, ADAS calibration is covered when part of an insured repair. Lithuanian insurers Ergo, Gjensidige, and BTA cover calibration as a line item. Typical cost EUR 120-200 is below most deductibles, so it adds nothing extra to your claim. Request it explicitly on the damage assessment form."
+  - q: "Is it legal to drive a Tesla with uncalibrated cameras in the EU?"
+    a: "Yes, basic driving is legal — uncalibrated cameras do not affect brakes, steering, or lights. Autopilot and FSD are disabled until calibration completes. During EU technical inspections (TÜV in Germany, Techninė apžiūra in Lithuania), active camera error warnings can cause a failed inspection. Complete calibration before your next inspection."
+  - q: "Can a standard OBD2 scanner check Tesla camera calibration status?"
+    a: "No. Standard ELM327-based OBD2 adapters cannot read Tesla camera calibration data. Tesla uses a proprietary CAN bus protocol. Apps like Scan My Tesla can read some camera fault codes (C1B00, A0100) but cannot check calibration percentage or force recalibration. The only way to check calibration is Controls > Service > Camera Calibration."
 ---
 
 Tesla's Autopilot relies on cameras positioned around the vehicle to see the road, detect obstacles, and navigate. When these cameras need recalibration — whether after a software update, windshield replacement, or malfunction — you'll see warnings and degraded Autopilot performance. Here's everything you need to fix it, including options most guides skip.
@@ -62,6 +68,7 @@ Tesla's Autopilot relies on cameras positioned around the vehicle to see the roa
 - [When Calibration Is Needed](#when-calibration-is-needed)
 - [Camera Locations on Tesla](#camera-locations-on-tesla)
 - [Model-Specific Differences: HW3, HW4, Juniper, Highland](#model-specific-camera-differences)
+- [Juniper and Highland Camera Updates (2024–2026)](#tesla-model-y-juniper-and-model-3-highland-camera-updates-20242026)
 - [How to Force Camera Recalibration](#how-to-force-camera-recalibration)
 - [Static vs Dynamic Calibration](#static-vs-dynamic-calibration)
 - [Calibration Progress: What Each Percentage Means](#calibration-progress-what-each-percentage-means)
@@ -71,10 +78,15 @@ Tesla's Autopilot relies on cameras positioned around the vehicle to see the roa
 - [Troubleshooting Camera Errors](#troubleshooting-camera-errors)
 - [After Windshield Replacement](#after-windshield-replacement)
 - [After Collision Repair](#after-collision-repair)
+- [EU Workshop Cases](#eu-workshop-cases-when-calibration-goes-wrong)
 - [Camera OEM Part Numbers and Replacement Cost](#camera-oem-part-numbers-and-replacement-cost)
 - [FSD v14 and 2026 Software Updates](#fsd-supervised-autopilot-and-camera-calibration)
 - [Camera Error Codes](#camera-error-codes-what-they-actually-mean)
 - [Recalibration After Software Update](#recalibration-after-a-software-update)
+- [How to Verify Calibration Was Done](#how-to-verify-your-shop-actually-calibrated-your-tesla)
+- [EU Cost Table (EUR)](#camera-calibration-cost-in-europe-2026-eur-pricing)
+- [EU Technical Inspection (MOT)](#eu-adas-calibration-and-technical-inspection)
+- [OBD2 Scanner Limitations](#can-an-obd2-scanner-check-tesla-camera-health)
 - [Prevention Tips](#prevention-tips)
 - [FAQ](#faq)
 
@@ -122,6 +134,32 @@ The refreshed Model 3 (Highland) introduced redesigned camera placement. The for
 
 **Ultrasonic Sensors (USS):**
 Tesla removed ultrasonic sensors from Model 3/Y in late 2022 and Model S/X in 2023. Older vehicles with USS have a slight advantage for low-speed maneuvering during calibration since the parking sensors still work independently. Newer vehicles without USS rely on cameras for everything, including parking proximity warnings.
+
+## Tesla Model Y Juniper and Model 3 Highland Camera Updates (2024–2026)
+
+The Juniper (2024+ Model Y) and Highland (2024+ Model 3) are meaningfully different from their predecessors from a camera system standpoint. Generic calibration advice from most guides does not fully apply to these vehicles.
+
+### Model Y Juniper (2024+) Camera Changes
+
+| Camera | Pre-Juniper (HW3) | Juniper (2024+, HW4) |
+|--------|--------------------|----------------------|
+| Forward cluster | 1.2MP (part 1506491-00-A) | 5MP (part 1973116-00-A) |
+| Rear backup | Mounted in lower bumper trim | Integrated into trunk lid spoiler |
+| Interior cabin camera | Not present | Added (part 2294019-00-A) — robotaxi prep |
+| B-pillar side cameras | Standard dynamic range | Higher dynamic range sensor |
+| Dynamic calibration distance | 60–100 miles | 20–35 miles |
+
+**Interior cabin camera (Juniper-specific):** This camera self-calibrates automatically within the first 10 drive cycles. No user action is required. If you see "Interior cabin camera not detected" after delivery or a factory reset, perform a full power cycle: hold brake pedal + both scroll wheels for 10 seconds, then wait 3 minutes with the car fully off. If the warning persists beyond 5 drive cycles, schedule service — early Juniper builds had a documented connector seating issue.
+
+**Calibration speed:** Juniper/HW4 dynamic calibration completes in 20–35 miles under ideal conditions. If your Juniper is taking over 60 miles, inspect all cameras for smudges — HW4's 5MP resolution amplifies even light contamination that HW3 cameras would ignore.
+
+### Model 3 Highland (2024+) Camera Changes
+
+The Highland's forward-facing camera cluster was repositioned to a different bracket height compared to pre-2024 Model 3. The camera housing is not interchangeable — a pre-2024 camera unit will not mount correctly in a Highland and will immediately throw "front camera installation incorrect."
+
+**For windshield replacements on Highland:** Confirm the glass shop has done Highland-specific calibrations before booking. The camera bracket angle tolerance on the Highland forward cluster (1973116-00-A) is tighter than on pre-2024 Model 3. A shop that has only done pre-2024 calibrations may not have the updated target board spacing — ask directly before leaving your car.
+
+**Third-party ADAS shops and HW4:** The static calibration target board geometry is different for HW4 vehicles. Independent shops that only have HW3 target equipment cannot properly calibrate Highland or Juniper forward cameras. Verify your shop has HW4-specific targets or use Tesla Service for these models.
 
 ## How to Force Camera Recalibration
 
@@ -360,6 +398,33 @@ Most comprehensive auto insurance in the US, EU, and UK covers ADAS recalibratio
 - Phantom braking more frequent than before
 - "Front camera installation incorrect" — this error means the camera's physical position is off; calibration software **cannot** compensate for a camera pointing in the wrong direction. It requires physical realignment at Tesla Service or a certified ADAS shop, not just a calibration clear.
 
+## EU Workshop Cases: When Calibration Goes Wrong
+
+These are patterns from EU Tesla owners and workshops, including from RR Car Parts in Lithuania, illustrating what actually happens when calibration is skipped or incomplete.
+
+### Case 1 — Vilnius, January 2026: Dynamic-Only After Windshield Replacement
+
+**Vehicle:** Model Y Long Range (2023, HW3)
+**Repair:** Windshield replaced at an approved body shop.
+**What happened:** Shop performed dynamic calibration only and told the owner to "drive 150km." Phantom braking began within 10km on the A1 motorway at 120 km/h. Owner drove 200km — no improvement.
+**Resolution:** Tesla Service Vilnius performed static calibration using target boards. Duration: 45 minutes. Cost: EUR 165. Phantom braking eliminated immediately.
+**Lesson:** For HW3 vehicles after windshield replacement, dynamic-only calibration frequently fails to achieve correct angular alignment. Static calibration at a Tesla Service center is the correct standard — not optional.
+
+### Case 2 — Kaunas, February 2026: "Front Camera Installation Incorrect" After Bumper Repair
+
+**Vehicle:** Model 3 Highland (2024, HW4)
+**Repair:** Minor front bumper repair after a parking lot impact.
+**What happened:** Shop repaired the bumper but did not inspect the camera bracket. "Front camera installation incorrect" appeared immediately on pickup. The mounting bracket was displaced 2mm during bumper realignment — undetectable by eye.
+**Resolution:** Physical bracket realignment + static calibration. Total: EUR 220. Insurance (comprehensive MTPL, Gjensidige Lithuania) covered the full amount as part of the collision repair claim.
+**Lesson:** After any front-end work, navigate to Controls > Service > Camera Calibration before leaving the shop. Physical displacement cannot be corrected by software calibration alone.
+
+### Case 3 — Riga, March 2026: Successful HW4 Self-Calibration on the Via Baltica
+
+**Vehicle:** Model Y Performance (2024, HW4)
+**Situation:** Owner manually cleared calibration after FSD v14 update following community advice.
+**Result:** Dynamic calibration completed in 28 miles on the Via Baltica (E67) between Riga and Panevėžys. No service visit needed. FSD v14 lane centering noticeably improved post-recalibration.
+**Lesson:** HW4 dynamic calibration on European highways is fast and reliable. One highway run is enough for a 2024+ vehicle after a voluntary calibration clear. Autobahn, Via Baltica, A1 — any motorway with clear markings and 90+ km/h cruising works.
+
 ## When to Visit Tesla Service
 
 **Schedule service if:**
@@ -476,6 +541,86 @@ Go to **Controls > Service > Camera Calibration**. If you see any cameras not at
 
 ---
 
+## How to Verify Your Shop Actually Calibrated Your Tesla
+
+Most calibration disputes happen because shops say calibration was done but the owner has no documentation. Here is exactly how to confirm before you drive away:
+
+**Before leaving the shop:**
+1. Navigate to **Controls > Service > Camera Calibration**. Every camera must read 100%. If any camera shows less, do not accept the vehicle — request static calibration on the spot.
+2. Ask for a printed or emailed completion certificate. A Tesla Service center report lists "Camera Calibration: Complete" with a timestamp. Third-party ADAS shops should provide a signed calibration certificate with the target distances used.
+3. Enable Autopilot briefly on a straight road near the shop. Confirm lane centering activates and holds without excessive corrections or immediate disengagement.
+
+**Red flags that calibration was skipped:**
+- Shop says "just drive it and calibration will finish" after windshield or camera replacement — for these procedures, static calibration is required, not optional
+- Any camera at less than 100% when you leave
+- "Front camera installation incorrect" — physical displacement, not a calibration problem
+
+**After dynamic-only calibration:**
+Dynamic calibration does not appear in Tesla's service history — it is not a logged event. Static calibration performed by Tesla Service appears as a service entry in the Tesla app. Keep the shop's invoice as your only documentary proof for dynamic-only procedures.
+
+---
+
+## Camera Calibration Cost in Europe (2026 EUR Pricing)
+
+| Service | Lithuania | Germany | Netherlands | UK |
+|---------|-----------|---------|-------------|-----|
+| Dynamic calibration (DIY) | Free | Free | Free | Free |
+| Static calibration — Tesla Service | EUR 140–180 | EUR 160–220 | EUR 170–230 | GBP 140–200 |
+| Static calibration — third-party ADAS shop | EUR 100–150 | EUR 130–200 | EUR 140–200 | GBP 110–170 |
+| Forward camera cluster replacement (HW4) | EUR 480–600 | EUR 510–650 | EUR 530–680 | GBP 460–580 |
+| Side or rear camera replacement | EUR 150–200 | EUR 160–220 | EUR 170–240 | GBP 130–200 |
+| Full windshield + static calibration | EUR 900–1,600 | EUR 1,100–2,000 | EUR 1,100–2,100 | GBP 900–1,800 |
+
+*Prices include VAT, 2026. Verify with your local service center before booking.*
+
+**EU insurance coverage:** Under comprehensive car insurance (kasko draudimas) in Lithuania and most EU countries, ADAS calibration costs are covered when caused by an insured event — collision, glass breakage, or vandalism. Lithuanian insurers Ergo, Gjensidige, and BTA all accept calibration as a line item on the damage assessment form. The typical EUR 120–200 calibration cost is below most deductibles, so it adds nothing to your out-of-pocket cost. Request it in writing on the initial damage form — do not add it verbally after the estimate is filed.
+
+---
+
+## EU ADAS Calibration and Technical Inspection
+
+In Lithuania, Germany, and most EU member states, vehicle technical inspections (Techninė apžiūra in Lithuania, TÜV in Germany, APK in Netherlands) require all electronic safety systems to be free of active fault codes.
+
+**What inspectors check:**
+- No active fault codes on the vehicle's diagnostic bus
+- All warning lights off (including camera warnings on the main display)
+- Electronic safety systems respond to standard test scenarios
+
+**If your Tesla has camera warnings during inspection:**
+An active "Camera blocked" or "Autopilot unavailable" warning on the main touchscreen is sufficient grounds for a failed inspection in most EU countries. Inspectors cannot override the fault code requirement even if you explain it is a calibration issue in progress.
+
+**Before any scheduled inspection:**
+1. Check **Controls > Service > Camera Calibration** — all cameras at 100%
+2. Clean all 8 cameras with ammonia-free glass cleaner
+3. Drive 20+ miles the day before to clear any temporary weather-related blocks
+4. Allow 24 hours after calibration before the inspection — some warnings clear after a full drive cycle
+
+**Lithuania-specific note:** Regitra inspection stations fail vehicles with active electronic warning lights, including camera faults. As of 2026, LAKD does not require a separate ADAS calibration certificate, but if a camera fault is displayed during inspection, you will need to return after resolving it — no exceptions.
+
+---
+
+## Can an OBD2 Scanner Check Tesla Camera Health?
+
+Standard ELM327-based OBD2 adapters cannot read Tesla camera calibration data. Tesla uses a proprietary CAN bus protocol that generic OBD2 tools do not decode.
+
+**What third-party tools can read:**
+- **Scan My Tesla / TeslaFi (via Tesla API):** Can surface some camera-related fault codes:
+  - **C1B00** — Camera module not detected (hardware fault or connector issue)
+  - **A0100** — Camera obstruction persisted (camera stuck "blocked" status)
+  - **VCFRONT_a188** — Forward camera calibration required
+- These fault codes are useful for diagnosing a hardware failure vs. a calibration issue
+
+**What third-party tools cannot do:**
+- Show calibration percentage (only visible in Controls > Service > Camera Calibration)
+- Force recalibration or clear calibration
+- Clear camera fault codes (requires Tesla Service tooling)
+
+See the [Tesla OBD2 scanner and diagnostics guide](/posts/tesla-obd2-scanner-diagnostics/) for a full breakdown of what third-party tools can and cannot access.
+
+**Practical takeaway:** If cameras are showing errors, check Controls > Service > Camera Calibration first — that screen gives more actionable information than any third-party scanner. OBD2 tools are most valuable for drivetrain and battery diagnostics on Teslas, not camera calibration.
+
+---
+
 ## Prevention Tips
 
 1. **Clean cameras weekly** - Quick wipe during charging
@@ -511,6 +656,15 @@ After windshield replacement with dynamic calibration, expect 40–100 miles for
 
 **Will resetting calibration fix phantom braking?**
 Sometimes. Phantom braking can be caused by poor camera calibration, but also by the FSD neural network model's behavior on certain road geometries. If phantom braking started after service work (windshield, bumper, camera replacement), clearing and recalibrating is the right first step. If it's been present since a software update, manual recalibration can help but the root cause is the model — report it via the Tesla app feedback button after each occurrence.
+
+**Does EU or Lithuanian car insurance cover Tesla ADAS calibration?**
+Yes. Under comprehensive car insurance (kasko) in Lithuania, Germany, and most EU countries, ADAS calibration is covered when part of an insured repair event — collision, glass breakage, or vandalism damage. Lithuanian insurers Ergo, Gjensidige, and BTA cover calibration as a line item on the damage assessment. Typical cost EUR 120–200 is below most deductibles, so it adds nothing to your claim. Request it explicitly in writing on the initial damage form — do not add it verbally after the estimate is filed.
+
+**Is it legal to drive a Tesla with uncalibrated cameras in the EU?**
+Yes, basic driving is legal — uncalibrated cameras do not affect brakes, steering, or headlights. Autopilot and FSD are disabled until calibration completes, and using these features with an incomplete calibration is not permitted. During EU technical inspections (TÜV in Germany, Techninė apžiūra in Lithuania), active camera error warnings on the main display can cause a failed inspection. Complete calibration and allow 24 hours before your next inspection date.
+
+**Can a standard OBD2 scanner check Tesla camera calibration?**
+No. Standard ELM327-based OBD2 adapters cannot read Tesla camera calibration data — Tesla uses a proprietary CAN bus protocol. Third-party apps like Scan My Tesla can surface some camera fault codes (C1B00 = camera not detected, A0100 = persistent obstruction, VCFRONT_a188 = calibration required) but cannot show calibration percentage or force recalibration. The only way to check calibration status is Controls > Service > Camera Calibration on the vehicle's screen.
 
 <script type="application/ld+json">
 {
@@ -571,6 +725,30 @@ Sometimes. Phantom braking can be caused by poor camera calibration, but also by
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Individual camera replacement costs $120-550 for the part depending on the camera (rear camera is cheapest, HW4 forward cluster is most expensive), plus $200-600 in labor at Tesla Service. Total cost for a forward camera replacement with windshield removal is typically $600-1,100."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does EU or Lithuanian car insurance cover Tesla ADAS calibration?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Under comprehensive car insurance (kasko) in Lithuania, Germany, and most EU countries, ADAS calibration is covered when part of an insured repair. Lithuanian insurers Ergo, Gjensidige, and BTA cover calibration as a line item on the damage assessment form. Typical cost EUR 120-200 is below most deductibles and adds nothing to your claim. Request it in writing on the initial damage form."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is it legal to drive a Tesla with uncalibrated cameras in the EU?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, basic driving is legal — uncalibrated cameras do not affect brakes, steering, or lights. Autopilot and FSD are disabled until calibration completes. During EU technical inspections (TÜV in Germany, Techninė apžiūra in Lithuania), active camera error warnings on the display can cause a failed inspection. Complete calibration and allow 24 hours before your next inspection."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can a standard OBD2 scanner check Tesla camera calibration?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Standard ELM327-based OBD2 adapters cannot read Tesla camera calibration data. Tesla uses a proprietary CAN bus protocol. Apps like Scan My Tesla can surface some fault codes (C1B00, A0100, VCFRONT_a188) but cannot show calibration percentage or force recalibration. The only way to check is Controls > Service > Camera Calibration on the vehicle screen."
       }
     }
   ]
