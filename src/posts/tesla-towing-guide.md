@@ -1,9 +1,9 @@
 ---
 layout: post.njk
-title: "Tesla Towing Guide 2026: Tow Mode, Weight Limits, Brake Controllers & Range Tips"
-description: "Tesla towing guide 2026: tow ratings by model (X: 5,000 lbs, Y: 3,500 lbs), enable Tow Mode in 3 taps, real range loss data, trailer type guide, brake controllers & EU rules."
+title: "Tesla Towing Guide 2026: All Models incl. Cybertruck, Tow Mode, Brake Controllers & EU Rules"
+description: "Tesla towing guide 2026: all model ratings (Cybertruck 11k lbs, Model X 5k, Model Y 3.5k), Tow Mode setup, real range loss tables, brake controller wiring & EU speed limits."
 date: 2026-03-01
-lastUpdated: 2026-05-18
+lastUpdated: 2026-06-03
 category: "Driving & Features"
 difficulty: "Easy"
 readTime: "22 min read"
@@ -158,6 +158,38 @@ tools:
         "@type": "Answer",
         "text": "No. Tesla's built-in navigation does not accept trailer weight input and calculates stops based on your car's rated range with no trailer. With a mid-size trailer, you have 40–60% less range — Tesla's nav will underestimate the number of stops required and you risk arriving at a Supercharger with insufficient charge. Use A Better Route Planner (ABRP) instead: set your reference consumption to 420–480 Wh/mile for a 2,000–3,000 lb trailer and plan Supercharger stops at 20% arrival SoC."
       }
+    },
+    {
+      "@type": "Question",
+      "name": "How much can the Tesla Cybertruck tow?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The Cybertruck AWD is rated at 7,500 lbs / 3,400 kg with 750 lbs tongue weight. The Cybertruck Foundation Series and Cyberbeast (Tri-Motor) are rated at 11,000 lbs / 4,990 kg with 1,100 lbs tongue weight — making it the highest-rated Tesla for towing by far. The Cybertruck uses a factory-integrated Class IV 2-inch rear receiver; no aftermarket hitch is available or needed. Tow Mode must still be enabled manually before every trip via Controls > Pedals & Steering."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do I need a trailer breakaway switch when towing with a Tesla?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, if your trailer has electric brakes. A breakaway switch is required in most U.S. states for trailers with electric brakes, and is mandatory in the EU for trailers over 750 kg gross. The kit includes a battery box, battery, and actuating cable — if the trailer separates from the hitch, the cable pulls a pin and applies the trailer's electric brakes automatically. Wire it to pin 7 (blue wire) on the 7-pin connector, the same circuit as the brake controller. Complete kits cost $30–60."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I monitor tire pressure on my trailer while towing a Tesla?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Install a dedicated trailer TPMS. Tesla's onboard tire pressure system monitors only the car's four wheels — not trailer tires. Aftermarket systems from TireMinder (~$180) and EEZTire (~$150) clip valve-stem sensors onto each trailer wheel and transmit pressure and temperature to a dashboard display unit. Set the low-pressure alert at 25% below the tire's rated PSI. Trailer tire blowouts cause severe sway and are nearly undetectable from inside the car — TPMS is the only early warning you have."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does my car insurance cover the trailer I tow with my Tesla?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Liability coverage from your Tesla's policy typically extends to damage you cause to others while towing — but the trailer itself is usually not covered for physical damage under your Tesla's comprehensive or collision policy. You need a separate trailer insurance policy or rider. In the EU, most countries require separate trailer liability registration (Anhänger-Haftpflicht) for trailers over 750 kg. Declare any trailer to your insurer before the first towing trip — failure to do so can void the liability extension."
+      }
     }
   ]
 }
@@ -172,6 +204,7 @@ tools:
 | **Model S (2022+)** | **2,000 lbs / 907 kg** | 200 lbs / 91 kg | 2" | Select trims only |
 | **Model 3 (EU only)** | **2,205 lbs / 1,000 kg** | 220 lbs / 100 kg | 2" | Factory tow option required |
 | **Model 3 (NA)** | **Not rated** | — | — | No tow option |
+| **Cybertruck AWD** | **7,500 lbs / 3,400 kg** | 750 lbs / 340 kg | 2" integrated | Cyberbeast Tri-Motor: 11,000 lbs / 4,990 kg |
 
 **Hitch ball:** 2" standard for most trailers. Use 1-7/8" only for older couplers on trailers under 2,000 lbs. Safety chains: required by law in all U.S. states and most EU countries — cross them under the tongue.
 
@@ -205,6 +238,10 @@ tools:
 24. [Tesla Towing Troubleshooting](#tesla-towing-troubleshooting)
 25. [Cost of Towing With a Tesla](#cost-of-towing-with-a-tesla)
 26. [Frequently Asked Questions](#frequently-asked-questions)
+27. [Cybertruck Towing](#cybertruck-towing)
+28. [State-by-State Brake Controller Requirements](#state-by-state-brake-controller-requirements)
+29. [Trailer Breakaway Switch](#trailer-breakaway-switch)
+30. [Trailer Tire Pressure Monitoring (TPMS)](#trailer-tire-pressure-monitoring-tpms)
 
 ---
 
@@ -241,6 +278,14 @@ The Model X ships with a factory 2" receiver and wiring. No aftermarket receiver
 
 Factory tow option only — not universally available across all Model S trims or markets. Order through Tesla parts. Aftermarket fitment is difficult due to the Model S's recessed hitch bay design.
 
+### Cybertruck
+
+The Cybertruck has a factory-integrated Class IV 2-inch rear receiver built into the stainless steel body — no aftermarket hitch is required or available. Tongue weight capacity is 10% of the tow rating: 750 lbs for AWD, 1,100 lbs for Cyberbeast Tri-Motor.
+
+**Wiring:** The Cybertruck ships with a factory 7-pin trailer connector. Model Y T-connector kits do not fit — use Cybertruck-specific trailer wiring adapters. The Cybertruck's bed outlets (two 120V 1,875W outlets + one 240V 1,600W outlet) can power a brake controller or trailer accessories directly from the bed without a 7-pin connection.
+
+**Pull-through Supercharger clearance:** The Cybertruck's 5.9-foot bed makes total vehicle length roughly 19 feet before adding a trailer. Check PlugShare for pull-through stall length (ideally 60+ feet) before routing through Supercharger stops on long towing trips.
+
 For detailed DIY installation instructions for Model Y and Model 3 EU, see our [Tesla tow hitch installation guide](/posts/tesla-tow-hitch-installation/).
 
 ---
@@ -269,6 +314,17 @@ Every Tesla has different limits. Going over them risks suspension damage, voide
 - Towing capacity: 2,000 lbs (907 kg)
 - Tongue weight: 200 lbs (91 kg)
 - Not all Model S variants are tow-rated — confirm with your VIN before installing a hitch
+
+**Cybertruck AWD:**
+- Towing capacity: 7,500 lbs (3,400 kg)
+- Tongue weight: 750 lbs (340 kg)
+- GVWR: ~9,100 lbs — curb weight is ~6,600 lbs, leaving ~500 lbs for passengers + cargo; load carefully
+
+**Cybertruck Tri-Motor (Foundation Series / Cyberbeast):**
+- Towing capacity: 11,000 lbs (4,990 kg)
+- Tongue weight: 1,100 lbs (499 kg)
+- GVWR: ~9,800 lbs — the highest tow rating of any Tesla, more than double the Model X
+- Note: the Cybertruck's high curb weight means GVWR fills fast. With 5 adults and camping gear in the bed, on-vehicle load can approach GVWR before the trailer's tongue weight is even counted. Weigh the loaded truck at a truck scale before long towing trips.
 
 **Important:** These numbers are maximums. The combined weight of your car, passengers, cargo, AND tongue weight cannot exceed the Gross Vehicle Weight Rating (GVWR) on your door jamb sticker. Overloading is the most common towing mistake.
 
@@ -466,6 +522,46 @@ The brake signal runs through **pin 7 (blue wire)** on the 7-pin connector. The 
 
 Mount the controller under the dash within reach of the driver. Most proportional units include a mounting bracket and all necessary wiring. Install time: 2–3 hours for someone comfortable with wiring.
 
+## State-by-State Brake Controller Requirements
+
+Laws vary by state but most require electric brakes — and a controller — when gross trailer weight exceeds a threshold. Verify current rules with your state DMV; thresholds here reflect 2026 statute.
+
+| State | Brakes Required When | Controller Notes |
+|-------|---------------------|-----------------|
+| **California** | GTW over 1,500 lbs | Strictest in the US — most trailers need brakes |
+| **Ohio** | GTW over 2,000 lbs | Brakes on all wheels above threshold |
+| **Florida** | GTW over 3,000 lbs | Controller required when electric brakes present |
+| **New York** | GTW over 3,000 lbs | Controller required when electric brakes present |
+| **Washington** | GTW over 3,000 lbs | Controller required when electric brakes present |
+| **Michigan** | GTW over 3,000 lbs | Controller required when electric brakes present |
+| **Colorado** | GTW over 3,000 lbs | Proportional type recommended |
+| **Arizona** | GTW over 3,000 lbs | Controller required when electric brakes present |
+| **Oregon** | GTW over 3,000 lbs | Controller required when electric brakes present |
+| **Nevada** | GTW over 3,000 lbs | Controller required when electric brakes present |
+| **Texas** | GTW over 4,500 lbs | Most lenient threshold in the US |
+| **EU (most countries)** | Trailer over 750 kg | Inertia or electric brakes; controller for electric |
+
+**Practical rule:** If your trailer has electric brakes, install a controller regardless of state thresholds — the additional braking force is a genuine safety benefit at any weight.
+
+## Trailer Breakaway Switch
+
+A breakaway switch applies the trailer's electric brakes automatically if the trailer separates from the hitch ball at speed. Required in most U.S. states wherever electric brakes are present, and mandatory in the EU for trailers over 750 kg (EU Directive 71/320/EEC).
+
+**How it works:**
+1. A breakaway cable connects the trailer tongue to the Tesla's hitch receiver
+2. If the trailer unhitches, the cable stays with the Tesla — pulling a pin from the switch box
+3. The switch closes, connecting the breakaway battery to the trailer's brake magnets
+4. The trailer brakes engage and hold, slowing the runaway trailer before it causes a multi-car collision
+
+**Installation:**
+1. Mount the battery box on the trailer tongue (weatherproof location, accessible for charging)
+2. Wire the battery box positive lead to the trailer's brake circuit hot wire
+3. Attach the breakaway cable to a solid anchor point on the Tesla — the hitch receiver safety chain loop or a purpose-made D-ring, never the hitch ball
+4. Leave 12–18 inches of slack — enough to unhitch intentionally without triggering, short enough to pull the pin on a true separation
+5. Test: pull the pin by hand and verify the trailer brakes clamp
+
+**Cost:** $30–60 for a complete kit including sealed battery box ([breakaway kit on Amazon US](https://www.amazon.com/s?k=trailer+breakaway+kit+electric+brake&tag=diyrepair07-20) / [EU version](https://www.amazon.de/s?k=anh%C3%A4nger+abreisskabel+elektrische+bremse&tag=diyrepair-21)). Replace the internal battery every 2 years or any time it activates in an actual separation event — a flat battery makes the device useless.
+
 ## Weight Distribution Hitches: When and Why
 
 A standard hitch ball puts all tongue weight stress on the rear of the car. With heavy trailers close to the tongue weight limit, this lifts the front wheels slightly — steering becomes light and headlights point skyward.
@@ -630,6 +726,32 @@ Cold weather hurts range on its own. Combined with towing, the impact is severe.
 - **Allow extra stopping distance** — ABS and traction control operate normally in Tow Mode, but icy trailer tires reduce braking effectiveness of the whole rig
 
 See our [Tesla Range Loss Fix guide](/posts/tesla-range-loss-fix/) for winter range optimization strategies that apply even when towing.
+
+## Trailer Tire Pressure Monitoring (TPMS)
+
+Tesla's TPMS monitors only the car's four wheels — not trailer tires. A trailer tire blowout at 70 mph is nearly impossible to detect from inside the cabin until sway begins. At that point you have seconds to react before the trailer shreds the tire and starts jackknifing.
+
+Install a dedicated trailer TPMS. Systems from TireMinder and EEZTire clamp valve-stem sensors onto each trailer wheel and transmit real-time pressure and temperature data to a display unit on your dashboard.
+
+| System | Price | Max Wheels | Best For |
+|--------|-------|-----------|---------|
+| TireMinder TPMS-A10 | ~$180 | 10 (5 axles) | RVs, horse trailers, large utility trailers |
+| EEZTire TPMS-300 | ~$150 | 8 (4 axles) | Boat trailers, enclosed cargo trailers |
+| DORAN 360 Monitor | ~$130 | 4 (2 axles) | Single-axle trailers; budget pick |
+
+**Installation:** Each sensor screws onto a trailer valve stem (replacing the cap). The receiver plugs into the Tesla's 12V outlet or sits in a windshield mount. Setup takes under 20 minutes.
+
+**Alert thresholds:**
+- Low pressure: 25% below the tire's sidewall-rated PSI (e.g., alert at 49 PSI if sidewall shows 65 PSI max)
+- High temperature: 70°C / 158°F — a spike above this means the tire carcass is failing
+
+**Trailer tire rules:**
+- Inflate to the sidewall rating, not the trailer's sticker (stickers often show minimum cold inflation, not optimal)
+- Check pressure cold before departure — not after 30 miles on the highway
+- Replace trailer tires every 5–6 years regardless of tread depth — UV and ozone crack rubber even on rarely-used trailers
+- Never tow on a spare donut — trailer tires are speed-rated for sustained highway use; donuts are not
+
+[Trailer TPMS kit on Amazon US](https://www.amazon.com/s?k=trailer+tire+pressure+monitor+system+TPMS+kit&tag=diyrepair07-20) | [EU version](https://www.amazon.de/s?k=anh%C3%A4nger+reifendruckkontrolle+TPMS&tag=diyrepair-21)
 
 ## Safety Tips for Towing With a Tesla
 
@@ -864,6 +986,31 @@ No. Towing within rated limits does not damage or accelerate degradation of the 
 **What ABRP settings should I use for towing?**
 Select your Tesla model, set reference consumption to 420–480 Wh/mile for a 2,000–3,000 lb trailer (vs ~300 Wh/mile unloaded), and plan Supercharger stops with 20% arrival SoC. This gives you a safe buffer for unexpected headwinds or detours. Do not use Tesla's built-in navigation for route planning while towing — it does not account for trailer drag and will underestimate the number of stops needed.
 
+## Cybertruck Towing
+
+The Cybertruck is the highest-towing Tesla ever built and the only one capable of pulling full-size trailers that previously required a 3/4-ton truck.
+
+### Cybertruck Tow Ratings (2024–2026)
+
+| Variant | Max Tow Rating | Tongue Weight | GVWR |
+|---------|---------------|---------------|------|
+| Cybertruck AWD | 7,500 lbs / 3,400 kg | 750 lbs / 340 kg | ~9,100 lbs |
+| Cybertruck Tri-Motor (Foundation / Cyberbeast) | 11,000 lbs / 4,990 kg | 1,100 lbs / 499 kg | ~9,800 lbs |
+
+### Cybertruck-Specific Considerations
+
+**GVWR fills faster than you think.** The Cybertruck AWD weighs ~6,600 lbs. With a GVWR of ~9,100 lbs, you only have ~2,500 lbs of payload before GVWR is reached. Five adults (875 lbs) + camping gear in the bed (400 lbs) + tongue weight from a 7,000-lb trailer (700 lbs) = 1,975 lbs on-vehicle — still under GVWR, but barely. Never add more passengers or bed weight without recalculating.
+
+**Range impact is severe.** The Cybertruck's flat front face and tall body create more aerodynamic drag than a Model Y towing the same trailer. Real-world Cybertruck owners report 50–70% range reduction towing near max capacity at 65 mph. The Cybertruck AWD has ~318 miles rated range — expect 100–160 miles per charge with a large trailer.
+
+**Powershare for trailers.** The Cybertruck's two 120V outlets (1,875W each) and one 240V outlet (1,600W) in the bed can power a proportional brake controller module directly, run trailer accessories, or charge a horse trailer or camper's internal battery without a 7-pin converter. This is unique among all Tesla models.
+
+**Tow Mode path:** Controls > Pedals & Steering > Tow Mode — same as Model Y. The Cybertruck Tow Mode additionally adjusts the air suspension to towing height and stiffens the adaptive dampers.
+
+**Supercharger logistics:** The Cybertruck's total vehicle length with a 20-foot trailer exceeds 38 feet. Most pull-through V3 stalls accommodate 40–45 feet. Always scout pull-through availability via PlugShare before your route — backing a large trailer into a standard stall in a crowded Supercharger is manageable but time-consuming.
+
+**Aftermarket hitches:** Not available. The factory-integrated hitch is a structural component of the stainless steel exoskeleton — it cannot be added or replaced by an independent shop. If the hitch receiver is damaged, go to Tesla Service.
+
 ## Related Guides
 
 - [Tesla Tow Hitch Installation Guide](/posts/tesla-tow-hitch-installation/) — DIY hitch install for Model 3 and Model Y
@@ -877,3 +1024,5 @@ Select your Tesla model, set reference consumption to 420–480 Wh/mile for a 2,
 - [Tesla TPMS Sensor Replacement](/posts/tesla-tpms-sensor-replacement/) — Monitor trailer tire pressure with a standalone TPMS kit
 - [Tesla Suspension Noise Fix](/posts/tesla-suspension-noise-fix/) — Diagnose creaks and clunks that develop after regular towing
 - [Tesla Parts Europe Buying Guide](/posts/tesla-parts-europe-buying-guide/) — Sourcing tow hardware and accessories in the EU
+- [Tesla Sway Bar Link Replacement](/posts/tesla-sway-bar-link-replacement/) — Heavy towing accelerates sway bar link wear; inspect annually
+- [Tesla Control Arm Replacement](/posts/tesla-control-arm-replacement/) — Suspension fatigue from repeated towing loads; signs and DIY replacement
