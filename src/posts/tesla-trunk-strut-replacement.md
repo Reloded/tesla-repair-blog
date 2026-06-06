@@ -1,9 +1,9 @@
 ---
 layout: post.njk
 title: "Tesla Trunk Won't Stay Open? Replace the Struts in 20 Minutes (All Models, 2026)"
-description: "Tesla trunk strut replacement 2026: fix a sagging trunk in 20-45 min. Model 3, Y, S, X: OEM part numbers, force ratings, fault codes, climate schedule — $40 DIY vs $350 dealer."
+description: "Tesla trunk strut replacement guide 2026: DIY in 20-45 min for $40. Model 3, Y, S, X, Cybertruck — OEM part numbers, torque specs, force ratings, step-by-step, calibration guide."
 date: 2026-02-10
-lastUpdated: 2026-05-29
+lastUpdated: 2026-06-06
 category: "Body & Trim"
 difficulty: "Easy-Medium"
 readTime: "18 min read"
@@ -43,6 +43,12 @@ faq:
     a: "Tesla does not publish official strut dimensions. Community measurements confirm: Model 3 power strut fully extended approximately 615 mm, compressed approximately 450 mm, stroke approximately 165 mm. Model Y liftgate strut fully extended approximately 695 mm, compressed approximately 510 mm, stroke approximately 185 mm. Shaft diameter is 10 mm for both. Measure your existing strut before it fully fails to verify aftermarket fitment — a ±15 mm difference in extended length is usually still compatible; more than 20 mm indicates an incorrect part."
   - q: "Is it normal for Tesla trunk struts to fail under 30,000 km?"
     a: "Premature failure under 30,000 km occurs from hot-climate heat (above 40°C summer temperatures accelerate shaft seal degradation), leaving the trunk at full extension for extended periods during cargo loading or camping, or high-pressure car washes that spray directly into the strut shaft seal. If failure occurs before 3 years or 80,000 km, it falls under Tesla's New Vehicle Limited Warranty — report it via the Tesla app before spending money on aftermarket parts."
+  - q: "Does the Tesla Cybertruck have trunk struts?"
+    a: "The Cybertruck's cargo vault uses a motorized tonneau cover, not traditional gas struts — vault problems are almost never a gas spring issue and require Tesla Service for most mechanical repairs. The Cybertruck frunk does use two passive gas spring struts similar to Model S frunk struts. OEM part numbers are not publicly listed as of Q2 2026; order via your VIN at parts.tesla.com. Frunk strut replacement takes 20-25 minutes using the same ball-stud clip technique as Model 3 and Y, with no calibration required."
+  - q: "How can I check Tesla trunk strut health when buying a used Tesla?"
+    a: "Open the trunk fully and release — healthy struts hold with zero droop for 60 seconds. Push firmly down on the open lid near the strut mount: healthy struts resist with immediate, firm pushback. During powered open, listen for grinding or laboring motor sound in the last 20% of travel — this signals the motor compensating for failing gas pressure. Budget $40-90 for DIY replacement or negotiate $200-350 off the purchase price if struts show failure signs."
+  - q: "Can extreme cold permanently damage Tesla trunk struts?"
+    a: "Cold weather temporarily reduces gas pressure — at −20°C struts feel 15-25% weaker than at +20°C, which is normal and reversible. However, water vapor trapped through a cracked shaft seal will freeze, expanding the damage permanently. In cold climates: if struts feel dead in January but recover in April, they are borderline — replace before next winter. If they remain weak at room temperature after warming, the seal has failed and immediate replacement is needed. Baltic and Scandinavian owners should inspect struts every September."
 tools:
   - name: "TRQ Trunk Strut Set — Model 3 2017-2023"
     asin_de: "B0CWCS7G8G"
@@ -122,19 +128,22 @@ Worn trunk struts (also called lift supports or gas springs) are one of the most
 15. [Aftermarket Brand Quality Comparison](#aftermarket-brand-quality-comparison-2026)
 16. [Pre-Purchase Inspection for Used Tesla Buyers](#pre-purchase-inspection-used-tesla-buyers)
 17. [Strut Force Rating Guide](#strut-force-rating-guide-choosing-the-right-n-rating)
-18. [Ball Stud Replacement](#ball-stud-replacement-when-and-how)
-19. [Power Trunk Upgrade Kit Guide (Model 3)](#power-trunk-upgrade-kit-guide-model-3)
-20. [Cost Comparison](#cost-comparison)
-21. [Frequently Asked Questions](#frequently-asked-questions)
-22. [Common Mistakes That Cause Callbacks](#common-mistakes-that-cause-callbacks)
-23. [Real-World Tips From a Tesla Repair Shop](#real-world-tips-from-a-tesla-repair-shop)
-24. [Model S Rear Trunk: Full Step-by-Step](#model-s-rear-trunk-strut-replacement-raven--plaid)
-25. [Model X Cargo Liftgate: Full Step-by-Step](#model-x-cargo-liftgate-strut-replacement-full-procedure)
-26. [Fault Code Reference](#fault-codes-what-your-tesla-touchscreen-shows)
-27. [Climate-Based Replacement Schedule](#climate-based-strut-replacement-timeline)
-28. [EU Workshop Case Studies](#eu-workshop-case-studies-real-trunk-strut-failures)
-29. [Strut Dimensional Specifications](#strut-dimensional-specifications-verify-before-ordering)
-30. [EU Cost Reality: Mobile Service vs. Workshop vs. DIY](#tesla-mobile-service-vs-independent-workshop-vs-diy-2026-eu-cost)
+18. [Testing Remaining Strut Force (5-Minute Method)](#testing-remaining-strut-force-5-minute-method)
+19. [Ball Stud Replacement](#ball-stud-replacement-when-and-how)
+20. [Power Trunk Upgrade Kit Guide (Model 3)](#power-trunk-upgrade-kit-guide-model-3)
+21. [Cost Comparison](#cost-comparison)
+22. [Frequently Asked Questions](#frequently-asked-questions)
+23. [Common Mistakes That Cause Callbacks](#common-mistakes-that-cause-callbacks)
+24. [Real-World Tips From a Tesla Repair Shop](#real-world-tips-from-a-tesla-repair-shop)
+25. [Model S Rear Trunk: Full Step-by-Step](#model-s-rear-trunk-strut-replacement-raven--plaid)
+26. [Model X Cargo Liftgate: Full Step-by-Step](#model-x-cargo-liftgate-strut-replacement-full-procedure)
+27. [Fault Code Reference](#fault-codes-what-your-tesla-touchscreen-shows)
+28. [2026 Firmware Updates Affecting Trunk Behavior](#2026-firmware-updates-affecting-trunk-behavior)
+29. [Climate-Based Replacement Schedule](#climate-based-strut-replacement-timeline)
+30. [EU Workshop Case Studies](#eu-workshop-case-studies-real-trunk-strut-failures)
+31. [Strut Dimensional Specifications](#strut-dimensional-specifications-verify-before-ordering)
+32. [EU Cost Reality: Mobile Service vs. Workshop vs. DIY](#tesla-mobile-service-vs-independent-workshop-vs-diy-2026-eu-cost)
+33. [Tesla Cybertruck: Frunk Struts and Vault Cover](#tesla-cybertruck-frunk-struts-and-vault-cover)
 
 ---
 
@@ -702,6 +711,58 @@ When shopping, look for the **fully extended force** or **holding force** — th
 
 ---
 
+## Testing Remaining Strut Force (5-Minute Method)
+
+You can estimate how much gas pressure your struts have left using a push test or a fish scale — no removal required. This tells you whether you're at 60% capacity (schedule replacement) or near zero (replace immediately), and is essential before buying a used Tesla or ordering parts after a 2025.44+ firmware alert.
+
+### Method 1: Push-Down Force Test (No Tools Needed)
+
+1. Open the trunk fully — do **not** prop it, let the struts hold the weight
+2. Place one hand flat on the trunk lid near the strut mounting point (halfway along the lid, not at the latch edge)
+3. Push downward with steady, increasing pressure
+
+**What the resistance tells you:**
+
+| Resistance Level | Strut Condition | Action |
+|---|---|---|
+| Firm — requires full arm force to compress 5 cm | 70–100% rated pressure | Healthy — inspect annually |
+| Moderate — one hand compresses 5–8 cm without effort | 40–70% rated pressure | Schedule replacement within 60 days |
+| Soft — lid moves with two-finger pressure | 15–40% rated pressure | Replace within 2 weeks |
+| No resistance — lid falls freely under its own weight | Below 15% rated pressure | Replace immediately — injury risk |
+
+<div class="warning-box">
+<strong>Model Y caution:</strong> The liftgate weighs 18–22 kg. Do not let it fall onto you during this test. Always keep one hand on the lid and have a helper ready to grab it if it drops unexpectedly.
+</div>
+
+### Method 2: Fish Scale (Luggage Scale) Test — Most Accurate
+
+**What you need:** A digital fish scale / luggage scale rated to at least 30 kg, available on Amazon for under €15.
+
+1. Open the trunk fully and hook the scale's loop to the trunk lid's center rear edge
+2. Remove all independent support — let the struts hold the lid and the scale
+3. Read the combined upward force shown on the scale
+
+**Interpreting the reading:**
+
+| Model | Reading | Strut Health |
+|---|---|---|
+| Model 3 | Above 12 kg combined | Good — above 60% rated gas pressure |
+| Model 3 | 6–12 kg combined | Declining — replace within 30 days |
+| Model 3 | Below 6 kg combined | Replace immediately |
+| Model Y | Above 16 kg combined | Good — above 60% rated gas pressure |
+| Model Y | 8–16 kg combined | Declining — replace within 30 days |
+| Model Y | Below 8 kg combined | Replace immediately |
+
+*Thresholds based on OEM gas force ratings (380N Model 3, 490N Model Y) and typical panel weights, accounting for the geometric leverage angle of the strut mount.*
+
+### When to Use This Test
+
+- **Before buying a used Tesla:** Takes 3 minutes during your test drive and tells you whether to negotiate strut cost into the price.
+- **Autumn check (September in Baltic/Nordic climates):** Struts that pass in summer may fail at −20°C when gas pressure drops 15–20%. Catching borderline struts in September means replacing in a warm garage, not a frozen parking lot in January.
+- **After a 2025.44+ firmware alert:** The updated torque sensing triggers "Liftgate obstructed" alerts at lower strut degradation levels than previous firmware. Run the push test before ordering parts — many are firmware-triggered false positives on 50–70% pressure struts.
+
+---
+
 ## Ball Stud Replacement: When and How
 
 Ball studs are the threaded anchor posts on the body and trunk lid that the strut clips snap onto. They are small, inexpensive, and routinely overlooked — but a worn ball stud will cause your brand-new struts to click, wobble, or detach entirely within weeks.
@@ -828,6 +889,57 @@ For readers in Lithuania, Latvia, Estonia, and wider Central Europe, the cost pi
 
 ---
 
+## Tesla Cybertruck: Frunk Struts and Vault Cover
+
+The Cybertruck uses fundamentally different trunk mechanisms from the rest of the Tesla lineup. Understand which system is failing before ordering parts or attempting any work.
+
+### Cybertruck Cargo Vault Cover — NOT a Strut System
+
+The Cybertruck's bed cover (officially the "vault cover" or "tonneau cover") is an **electrically motorized panel drive system** — not a gas strut assembly. If your vault cover won't open or close, the failure is almost certainly one of the following:
+
+| Vault Cover Symptom | Most Likely Cause | First Action |
+|---|---|---|
+| Won't open at all | Software-locked after OTA update | Controls > Service > Vault Cover Reset |
+| Opens partway then stops | Motor controller obstruction detection | Clear bed completely, reset, retest |
+| Moves slowly or hesitates | Drive cable tension needs adjustment | Schedule Tesla service |
+| Won't latch closed | Latch motor failure ($180–350 OEM) | Service appointment required |
+| Grinding noise during operation | Drive gear or cable fraying | Stop using immediately — schedule service |
+
+The vault cover drive motor and tension cable are not DIY-serviceable on first-generation Cybertruck (2023–2026 production). Tesla Service Center visits are required for mechanical vault cover failures. A software-triggered "stuck vault" (most common symptom after OTA updates) is resolved via the service mode reset above.
+
+### Cybertruck Frunk (Front Trunk) Struts — DIY Serviceable
+
+The Cybertruck frunk uses **two passive gas spring lift supports** on ball-stud clips — the same clip-off design as the Model S frunk and functionally identical to Model 3 non-power gas struts. No electrical connector, no calibration required.
+
+| Spec | Cybertruck Frunk Struts |
+|---|---|
+| Strut type | Passive gas spring (no motor, no connector) |
+| Estimated force per strut | ~460N (~103 lbs) — community estimated |
+| Frunk lid weight | ~19–21 kg |
+| Estimated extended length | ~580–610 mm — community measured |
+| Difficulty | 2/5 |
+| Time | 20–25 min |
+| Calibration required | No |
+| OEM part numbers | Not publicly listed as of Q2 2026 — order via VIN at parts.tesla.com |
+| Aftermarket availability | Very limited — no major brand lists Cybertruck fitment as of June 2026 |
+
+### Cybertruck Frunk Strut Replacement — Overview
+
+The procedure is identical to the Model 3 manual gas strut replacement with one critical difference — the stainless steel exoskeleton:
+
+1. Open frunk fully and prop with a solid prop rod (frunk lid is heavier than Model 3)
+2. Release the lower ball-stud clip with a trim tool — **wrap the tool tip** or tape its edge before inserting against stainless panels. Unpainted stainless scratches permanently.
+3. Release the upper ball-stud clip on the frunk lid
+4. Remove strut, clean both ball studs with IPA wipes
+5. Install new strut lower-first, verify both clips seat with an audible click
+6. Test frunk open/close at least 5 times — no calibration step needed
+
+**Aftermarket sourcing (June 2026):** TRQ, A-Premium, and Getfarway do not yet list Cybertruck frunk struts. Current options: OEM via Tesla Parts (parts.tesla.com, 7–14 day shipping), or a specialty gas spring supplier using the measurements above. Any universal gas spring with matching extended length (±15 mm), 10 mm shaft diameter, and 14 mm ball socket end will be functionally compatible.
+
+Also see: [Tesla Frunk Strut Replacement](/posts/tesla-frunk-strut-replacement/) for the Model 3/Y/S frunk procedure that shares this technique.
+
+---
+
 ## Frequently Asked Questions
 
 **Why won't my Tesla trunk stay open?**
@@ -874,6 +986,15 @@ Yes, but it is the most involved Tesla strut job. The Model X cargo liftgate wei
 
 **How do I know if my Tesla needs new struts or a new trunk motor?**
 Disconnect the power strut's electrical connector and try pushing the trunk open manually with your hand. If the trunk holds firmly when you apply upward force but won't stay up on its own, the motor is functional — only the gas spring component has failed (the normal failure pattern). If the trunk gives way even with your full hand pressure applied, either there is zero gas pressure remaining or the motor has a structural failure. A grinding noise during the last 20% of the opening arc, combined with slow travel, almost always indicates a dying gas strut rather than motor failure. Motors fail silently — no movement, no noise. Struts fail noisily — strain, slow travel, then sag.
+
+**Does the Tesla Cybertruck have trunk struts?**
+The Cybertruck's cargo vault uses a motorized tonneau cover — not traditional gas struts. Vault problems are almost never a gas spring issue; they are motor controller, drive cable, or software faults that require Tesla Service for most mechanical repairs. The Cybertruck frunk does use two passive gas spring struts similar to Model S frunk struts. OEM part numbers are not publicly listed as of Q2 2026 — order via your VIN at parts.tesla.com. Frunk strut replacement takes 20–25 minutes using the same ball-stud clip technique as Model 3 and Y. No calibration is required since frunk struts are passive springs with no electrical connection.
+
+**How can I check Tesla trunk strut health when buying a used Tesla?**
+Open the trunk fully and release immediately — a healthy trunk holds with zero droop for 60 seconds. Push firmly down on the open lid near the strut mount: healthy struts resist with firm, immediate pushback. During powered open, listen for a grinding or laboring motor sound in the last 20% of travel — this signals the motor compensating for failing gas pressure. Budget $40–90 for DIY replacement or negotiate $200–350 off the purchase price if struts show failure signs. Run the 5-minute force test from this guide before committing to a purchase.
+
+**Can extreme cold permanently damage Tesla trunk struts?**
+Cold weather temporarily reduces gas pressure — at −20°C, struts feel 15–25% weaker than at +20°C. This is normal and reversible as temperature warms. However, water vapor trapped through a cracked shaft seal will freeze, expanding the damage and accelerating permanent failure. In cold climates: if struts feel dead in January but recover in April, they are borderline — replace before the next winter. If they remain weak at room temperature after warming up, the seal has failed and immediate replacement is needed. Baltic and Scandinavian owners should inspect struts every September as part of winter preparation — do it in a warm garage, not a January parking lot.
 
 ---
 
@@ -1047,6 +1168,40 @@ When trunk struts are failing, the Tesla touchscreen generates specific alert te
 - **Service Mode** (hold brake pedal + move gear selector to the right twice): shows raw diagnostic codes — useful for confirming strut vs motor failure before buying parts
 
 **Interpreting "Trunk motor failure":** This alert appearing before you replace struts is the worst-case scenario. It means the motor spent weeks or months fighting dead gas pressure and overheated. The motor is a $180–400 part depending on model. This is why replacing struts at first sign of sluggish travel — not after the trunk completely fails to open — saves significant money.
+
+---
+
+## 2026 Firmware Updates Affecting Trunk Behavior
+
+Software updates through late 2025 and early 2026 changed how Tesla's trunk controllers detect and respond to strut degradation. If you're diagnosing a trunk issue on a 2024+ vehicle, these changes affect what appears on the touchscreen.
+
+### 2025.44 (Released December 2025) — Increased Torque Sensitivity
+
+The 2025.44 update increased trunk motor torque sensing sensitivity by approximately 15% on Model Y Juniper and Model 3 Highland. Vehicles with borderline struts — 50–70% gas pressure remaining — began throwing **"Liftgate obstructed"** and **"Trunk unable to open fully"** alerts that were previously silent on earlier firmware.
+
+**Practical impact:** If your 2024+ Juniper or Highland started throwing trunk alerts after the 2025.44 update, run the push-down force test above before assuming a physical obstruction. Numerous owners replaced latch components or spent hours checking for debris — the root cause was borderline struts that 2025.44 now correctly flags at an earlier degradation point.
+
+### 2026.12 (Released March 2026) — Trunk Health Monitoring Panel
+
+The 2026.12 update added a trunk/liftgate health monitoring panel on Juniper and Highland models under **Controls > Service > Trunk Status**. It displays:
+
+- Cumulative open/close cycle count since last calibration
+- Last calibration timestamp
+- "Estimated strut health" indicator (Low / Normal / Good)
+
+**Important caveat:** "Estimated strut health" is not a direct pressure measurement — it infers health from motor current draw trends over the last 50 cycles. It is intentionally conservative and will show "Low" before physical failure is noticeable. Use it as a replacement scheduling signal, not an emergency indicator.
+
+### Known Issue: 2026.6–2026.20 Calibration EEPROM Bug (Pre-2024 Model 3)
+
+Multiple reports on Tesla Motor Club and r/teslamotors confirm that pre-2024 Model 3 vehicles running firmware 2026.6 through 2026.20 experience a **"Trunk position calibration required"** alert that returns after every soft reboot, even after successfully completing calibration via Controls > Service > Calibrate Trunk.
+
+**Fix procedure:**
+1. Enter service mode: hold brake pedal firmly + move gear selector to the right twice
+2. Navigate to Trunk section → select **Calibrate** (not the standard touchscreen path)
+3. Run calibration 3 times in sequence without rebooting between attempts
+4. Exit service mode and test over 24 hours
+
+If the alert persists after 3 service-mode calibrations, schedule a Tesla Service appointment — a small percentage of affected vehicles require a service-mode EEPROM flash. **This is a software defect, not a hardware strut failure.** Do not order replacement struts based on this alert alone without first performing the push-down force test.
 
 ---
 
@@ -1248,6 +1403,30 @@ Just remember: **always replace as a pair**, **clean the ball studs**, **run cal
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Premature failure under 30,000 km occurs from extended exposure to high heat (above 40°C accelerates shaft seal degradation), leaving the trunk at maximum extension for long periods during cargo loading or camping, or high-pressure car washes that spray directly into the strut shaft seal. If failure occurs before 3 years or 80,000 km, it falls under Tesla's New Vehicle Limited Warranty for body components — report it via the Tesla app before purchasing aftermarket parts."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does the Tesla Cybertruck have trunk struts?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The Cybertruck's cargo vault uses a motorized tonneau cover — not traditional gas struts. Vault problems are almost never a gas spring issue; they are motor controller, drive cable, or software faults that require Tesla Service for most mechanical repairs. The Cybertruck frunk does use two passive gas spring struts similar to Model S frunk struts. OEM part numbers are not publicly listed as of Q2 2026 — order via your VIN at parts.tesla.com. Frunk strut replacement takes 20-25 minutes using the same ball-stud clip technique as Model 3 and Y. No calibration is required since frunk struts are passive springs with no electrical connection."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How can I check Tesla trunk strut health when buying a used Tesla?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Open the trunk fully and release immediately — a healthy trunk holds with zero droop for 60 seconds. Push firmly down on the open lid near the strut mount: healthy struts resist with immediate, firm pushback. During powered open, listen for grinding or laboring motor sound in the last 20% of travel — this signals the motor compensating for failing gas pressure. Budget $40-90 for DIY replacement or negotiate $200-350 off the purchase price if struts show failure signs."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can extreme cold permanently damage Tesla trunk struts?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Cold weather temporarily reduces gas strut pressure — at -20°C, struts feel 15-25% weaker than at +20°C. This is normal and fully reversible as temperature warms. However, water vapor trapped through a cracked shaft seal will freeze, expanding the damage and accelerating permanent failure. In cold climates: if struts feel dead in January but recover in April, they are borderline — replace before the next winter. If they remain weak at room temperature after warming up, the seal has failed and immediate replacement is needed. Baltic and Scandinavian owners should inspect struts every September as part of winter preparation."
       }
     }
   ]
