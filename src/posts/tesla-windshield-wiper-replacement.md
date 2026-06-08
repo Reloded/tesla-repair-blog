@@ -1,9 +1,9 @@
 ---
 layout: post.njk
 title: "Tesla Windshield Wiper Replacement Guide (2026): All Models, Sizes & Service Mode"
-description: "Replace Tesla wipers in 5 minutes in 2026. Service Mode steps, correct sizes for Model 3 Highland, Model Y Juniper, S & X. DIY saves $50–80 vs. service center."
+description: "Skip the $75 Tesla service appointment. Exact wiper blade sizes for all 7 models including Cybertruck, rear wiper specs, Service Mode steps — done in 5 min (2026)."
 date: 2025-01-05
-lastUpdated: 2026-04-29
+lastUpdated: 2026-06-08
 category: "Maintenance"
 difficulty: "Easy"
 readTime: "15 min read"
@@ -24,6 +24,12 @@ faq:
     a: "No. The 2024+ Model 3 Highland and 2024+ Model Y Juniper use the same 26-inch driver and 19-inch passenger wiper blades as earlier models. The pinch-tab attachment is unchanged. All Bosch ICON, Rain-X Latitude, and PIAA blades that fit pre-refresh models also fit the Highland and Juniper."
   - q: "How often should I replace Tesla wiper blades?"
     a: "Every 6–12 months depending on climate. Hot, sunny climates degrade rubber faster. Cold climates cause hardening and cracking. Replace at the first sign of streaking, skipping, or squeaking — do not wait for a fixed mileage or time interval."
+  - q: "What size wiper blade does Tesla Cybertruck use?"
+    a: "The Tesla Cybertruck uses a single 33-inch (838 mm) beam-style blade — driver side only, no passenger blade. The attachment is a side-pin/hook connector, not the pinch-tab used on all other Tesla models."
+  - q: "Does Tesla Model Y have a rear wiper?"
+    a: "Yes. Tesla Model Y has a 14-inch (356 mm) rear wiper blade with a J-hook attachment. The Model 3 has no rear wiper. Service Mode raises the rear wiper arm along with the front ones."
+  - q: "How do I adjust Tesla auto-wiper sensitivity?"
+    a: "Tap the wiper icon on the status bar or go to Controls > Wipers. Use the sensitivity slider (1–7). Default is 4. Reduce to 2–3 for dry climates or to stop false activations. Clean the cabin camera window at the top interior of the windshield if auto-wipers are erratic."
 tools:
   - name: "Bosch ICON Wiper Blades 26\" — DE"
     link: "https://www.amazon.de/s?k=Bosch+ICON+26+wiper+blade+tesla&tag=diyrepair-21"
@@ -112,6 +118,30 @@ tools:
         "@type": "Answer",
         "text": "Chattering is caused by a dirty windshield, incorrect blade size, or weak arm spring tension. Clean the windshield with a clay bar and automotive glass cleaner, verify blade size against the chart, apply a water-repellent treatment, and check arm tension. If chattering continues, the wiper arm spring needs replacement."
       }
+    },
+    {
+      "@type": "Question",
+      "name": "What size wiper blade does Tesla Cybertruck use?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The Tesla Cybertruck uses a single 33-inch (838 mm) beam-style wiper blade on the driver side only — there is no passenger-side blade. The attachment uses a side-pin (hook-style) connector, not the pinch-tab used on Model 3, Y, S, and X. Use Service Mode before replacement: Controls > Service > Wiper Service Mode."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does Tesla Model Y have a rear wiper? What size is it?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. The Tesla Model Y has a rear wiper blade. The size is 14 inches (356 mm) and it uses a J-hook (hook adapter) attachment — not the pinch-tab used on the front blades. The Model 3 has no rear wiper. Model X also has a rear wiper (14 inches, J-hook). Service Mode raises all wipers including the rear."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I adjust Tesla auto-wiper sensitivity?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Tap the wiper icon on the status bar (or go to Controls > Wipers) and use the sensitivity slider — levels 1 through 7, where 1 is slowest to activate and 7 is most sensitive. Default is 4. Reduce to 2–3 for dry climates or to stop false activations from dust and glare. Clean the cabin camera window at the top center of the windshield interior if auto-wipers misbehave — the camera drives the detection system."
+      }
     }
   ]
 }
@@ -147,14 +177,19 @@ tools:
 2. [Wiper Blade Sizes — All Models & Years](#tesla-wiper-blade-sizes-all-models--years)
 3. [2024+ Model 3 Highland & Model Y Juniper Notes](#2024-model-3-highland--model-y-juniper-notes)
 4. [Best Replacement Wiper Blades](#best-replacement-wiper-blades)
-5. [Step-by-Step Replacement](#step-by-step-wiper-blade-replacement)
-6. [Wiper Arm Replacement](#wiper-arm-replacement)
-7. [Common Problems & Fixes](#common-wiper-problems--fixes)
-8. [Hydrophobic Glass Coatings](#hydrophobic-glass-coatings--longevity)
-9. [Maintaining Your Wipers](#maintaining-your-wipers)
-10. [Washer Fluid Guide](#washer-fluid-refill)
-11. [Cost Comparison](#cost-comparison-diy-vs-tesla-service)
-12. [FAQ](#frequently-asked-questions)
+5. [Beam vs. Conventional vs. Hybrid: Which Type Is Right for Your Tesla](#beam-vs-conventional-vs-hybrid-which-type-is-right-for-your-tesla)
+6. [Step-by-Step Replacement](#step-by-step-wiper-blade-replacement)
+7. [Wiper Arm Replacement](#wiper-arm-replacement)
+8. [Tesla Cybertruck Wiper Replacement](#tesla-cybertruck-wiper-replacement)
+9. [Model Y & Model X Rear Wiper Replacement](#model-y--model-x-rear-wiper-replacement)
+10. [Common Problems & Fixes](#common-wiper-problems--fixes)
+11. [Auto-Wiper Settings & Calibration](#auto-wiper-settings--calibration)
+12. [EU Wiper Buying Guide](#eu-wiper-buying-guide-germany-france-netherlands-lithuania)
+13. [Hydrophobic Glass Coatings](#hydrophobic-glass-coatings--longevity)
+14. [Maintaining Your Wipers](#maintaining-your-wipers)
+15. [Washer Fluid Guide](#washer-fluid-refill)
+16. [Cost Comparison](#cost-comparison-diy-vs-tesla-service)
+17. [FAQ](#frequently-asked-questions)
 
 ## When to Replace Your Wipers
 
@@ -255,6 +290,42 @@ Budget blades work fine but need replacement every 4–6 months rather than 6–
 
 **Need OEM Tesla wiper blades?** Check [RR Car Parts](https://rrcarparts.com/collections/all?q=wiper) for original Tesla parts at better-than-dealer prices.
 
+## Beam vs. Conventional vs. Hybrid: Which Type Is Right for Your Tesla
+
+Tesla windshields have more curvature than most conventional cars — this directly affects which blade technology performs best.
+
+### Beam Blades (Recommended for All Teslas)
+
+No external frame. A single curved piece of spring steel distributes pressure across the entire blade length. Because the blade conforms to the windshield curve, every centimeter of rubber maintains glass contact — no dry strips along the outer edges, no streaking in the corners.
+
+**Why this matters for Tesla:** Model Y Juniper (2024+) has a notably wider and more curved windshield than pre-refresh Model Y. Conventional blades leave the outer 10–15% of the arc with reduced pressure. Beam blades fix this completely.
+
+**Best in snow:** No external frame means nothing for snow and ice to pack into. In Baltic and Nordic winters, conventional framed blades fill with ice and lose contact pressure by the third day of use. Beam blades wipe cleanly at −20°C.
+
+**Examples:** Bosch ICON, Rain-X Latitude Beam, PIAA Super Silicone.
+
+### Conventional (Framed) Blades
+
+Metal external frame with multiple pressure points. Fine for flat windshields. On Tesla's curved glass, the center of the blade gets more pressure than the outer edges — minor streaking, especially visible on the driver side where you watch the rain line closely.
+
+**Use case:** Budget replacement, mild climates, owners who replace every 4–6 months anyway. Not recommended as a long-term choice for Model Y Juniper or Cybertruck.
+
+### Hybrid Blades
+
+Beam steel backbone inside, aerodynamic plastic cover outside. Better highway performance than conventional; more widely available at auto parts stores than pure beam blades. Performance sits between beam and conventional.
+
+**Examples:** Michelin Stealth Ultra, Trico Force.
+
+### Blade Type Comparison Table
+
+| Type | Tesla Fit Quality | Snow/Ice Performance | Avg. Price (per blade) | Lifespan |
+|------|------------------|---------------------|----------------------|----------|
+| Beam | Excellent | Excellent | €16–35 / $20–35 | 12–18 months |
+| Hybrid | Good | Good | €12–22 / $15–25 | 8–12 months |
+| Conventional | Fair | Poor | €7–14 / $8–15 | 4–6 months |
+
+**Bottom line:** For any Tesla, beam blades are worth the small premium. The curved windshields and frequent rain-sensor activations mean better rubber contact translates directly into fewer streaks and longer blade life.
+
 ## Step-by-Step: Wiper Blade Replacement
 
 ### Step 1: Activate Wiper Service Mode
@@ -331,6 +402,81 @@ In rare cases, the wiper arm itself needs replacement rather than just the blade
 
 **Cost:** Tesla OEM wiper arms run $40–80 each. Check [RR Car Parts](https://rrcarparts.com/collections/all?q=wiper+arm) for OEM parts, or [Amazon DE](https://www.amazon.de/s?k=tesla+wiper+arm+replacement&tag=diyrepair-21) / [Amazon US](https://www.amazon.com/s?k=tesla+wiper+arm+replacement&tag=diyrepair07-20) for aftermarket options.
 
+## Tesla Cybertruck Wiper Replacement
+
+The Cybertruck uses a fundamentally different wiper design from every other Tesla model.
+
+### Cybertruck Wiper Specs
+
+| | Cybertruck |
+|--|--|
+| Driver side | 33 inches (838 mm) |
+| Passenger side | None — single-wiper system |
+| Attachment type | Side-pin / hook connector |
+| OEM part number | 1871017-00-A |
+| Service Mode path | Controls > Service > Wiper Service Mode |
+
+**What makes it different:**
+- **One blade, not two.** A single extended-reach arm sweeps the full width of the massive Cybertruck windshield.
+- **Side-pin attachment.** Not the pinch-tab used on Model 3, Y, S, and X. When buying replacement blades, you need a 33-inch beam blade with a **side-pin** or **top-lock** adapter — most premium brands (Bosch ICON, Rain-X Latitude) include this adapter in their universal kit.
+- **Higher arm tension.** The extended arm requires more spring tension to maintain contact across the full arc. After installing a new blade, run full wiper cycles for 60 seconds to allow the blade to conform to the windshield curve before evaluating performance.
+
+### Buying Blades for the Cybertruck
+
+[Cybertruck Wiper Blade 33" — Amazon US](https://www.amazon.com/s?k=tesla+cybertruck+wiper+blade+33+inch&tag=diyrepair07-20) | [Amazon DE](https://www.amazon.de/s?k=tesla+cybertruck+scheibenwischer+33+zoll&tag=diyrepair-21)
+
+Confirm the listing specifies **33 inches** and **side-pin adapter included**. The OEM part (1871017-00-A) is available from Tesla Service and [RR Car Parts](https://rrcarparts.com/collections/all?q=cybertruck+wiper).
+
+### Cybertruck Service Mode Notes
+
+Same activation path as all Teslas: Controls > Service > Wiper Service Mode. The single arm raises to a center-windshield vertical position. Because the arm's reach is longer than on other models, never skip Service Mode — manually forcing the arm can stress the pivot joint and misalign the park position encoder.
+
+---
+
+## Model Y & Model X Rear Wiper Replacement
+
+The **Model 3 and Model S have no rear wiper.** The Model Y and Model X both have one.
+
+### Model Y Rear Wiper
+
+| | Specification |
+|--|--|
+| Size | 14 inches (356 mm) |
+| Attachment | J-hook (hook adapter) |
+| Service Mode | Raises with front wipers via Controls > Service > Wiper Service Mode |
+
+**Critical:** The rear wiper on Model Y uses a **J-hook connector**, not the pinch-tab used on the front blades. Buy a **14-inch rear wiper with J-hook** — do not buy a pinch-tab blade for the rear.
+
+**Replacement steps (Model Y rear):**
+
+1. Activate Wiper Service Mode — the rear wiper arm raises along with the front arms
+2. Open the rear hatch for clear access to the rear glass
+3. Lift the rear wiper arm away from the glass until it locks upright
+4. At the blade-to-arm junction, lift the small retention tab and slide the blade toward the hook end to release
+5. Hook the new 14" blade onto the arm connector, then slide inward until it clicks
+6. Gently lower the arm back to the glass
+7. Exit Service Mode and run the rear wiper through 3–4 cycles to verify seating
+
+**Time:** 3 minutes. No tools required.
+
+[Model Y Rear Wiper 14" — Amazon US](https://www.amazon.com/s?k=14+inch+tesla+model+y+rear+wiper+blade+j-hook&tag=diyrepair07-20) | [Amazon DE](https://www.amazon.de/s?k=14+zoll+heckscheibenwischer+tesla+model+y&tag=diyrepair-21)
+
+### Model X Rear Wiper
+
+| | Specification |
+|--|--|
+| Size | 14 inches (356 mm) |
+| Attachment | J-hook (hook adapter) |
+| Service Mode | Controls > Service > Wiper Service Mode |
+
+Same replacement procedure as Model Y rear. The Model X rear glass has more curvature than Model Y — a beam-style 14" rear blade conforms better than a conventional framed blade.
+
+<div class="tip-box">
+<strong>Replacement tip:</strong> Replace front and rear blades on the same visit. Rear blades are half the price of fronts and are often neglected until they fail completely. A failed rear blade in rain reduces visibility dramatically when reversing.
+</div>
+
+---
+
 ## Common Wiper Problems & Fixes
 
 ### Streaking After Replacement
@@ -379,6 +525,86 @@ In rare cases, the wiper arm itself needs replacement rather than just the blade
 2. Clean the cabin camera window at the top center of the windshield with glass cleaner
 3. Software updates improve auto-wiper accuracy — keep your Tesla on current firmware
 
+## Auto-Wiper Settings & Calibration
+
+Tesla uses a camera-based rain detection system rather than a traditional optical rain sensor. The front cabin camera reads visual cues from the windshield surface — water distortion, beading, and sheet formation. This system is more sensitive than traditional sensors but also more prone to false activations from dust, glare, and sprinklers.
+
+### Adjusting Sensitivity
+
+**Path:** Tap the wiper icon on the status bar → Sensitivity slider appears (levels 1–7)
+
+- **1–2:** Very slow to activate — for dry climates, dusty roads, or summer driving where glare causes false triggers
+- **3–4:** Default range — works well for most European climates
+- **5–7:** Aggressive — activates on very light mist; useful for driving in heavy rain regions
+
+| Climate | Recommended Setting | Reason |
+|---------|-------------------|--------|
+| Baltic/Nordic (LT, LV, FI, SE) | 4–5 | High annual rainfall, frequent light drizzle |
+| Western Europe (DE, NL, FR, UK) | 4 | Consistent rain, mild temperatures |
+| Southern Europe (ES, IT, GR) | 2–3 | Dry summers; reduces dust/glare false triggers |
+| North America, Pacific Northwest | 5 | Persistent light rain and heavy mist |
+
+### Why Auto-Wipers False-Activate
+
+| Cause | Fix |
+|-------|-----|
+| Dirty cabin camera window | Wipe with glass cleaner — the camera is a small sensor at the top center of the windshield interior behind the mirror |
+| Low sun angle (morning/evening) | Lower sensitivity 1–2 levels; sun glare appears similar to water distortion to the camera |
+| Car wash tunnel strobes | Normal — wipers activate briefly; no fix needed |
+| Road spray from trucks | Expected; lower by 1 level if bothersome |
+| Post-update sensitivity change | Recalibration happens over ~20 wipe cycles after a firmware update |
+
+### Car Wash Mode
+
+Always use Car Wash Mode at automated car washes. **Controls > Service > Car Wash Mode** disables auto-wipers, folds mirrors, and locks the charge port. Without it, the wiper spray and tunnel sensors will trigger multiple wiper activations.
+
+### Manually Disabling Auto-Wipers
+
+Tap the wiper status bar icon and set to **OFF**. Manual activation via the stalk (Model S/X) or the wiper button on the touchscreen then controls all wiper functions. Useful when cleaning the windshield from inside or during detailing.
+
+### Post-Replacement Calibration
+
+After installing new blades, the camera re-learns the visual signature of the clean blade edge. Auto-wiper sensitivity may feel off for the first 15–20 wipe cycles. Do not adjust settings immediately — wait for recalibration before deciding whether a sensitivity change is needed.
+
+---
+
+## EU Wiper Buying Guide (Germany, France, Netherlands, Lithuania)
+
+Tesla has the highest per-capita ownership rate in Norway, the Netherlands, and Germany. EU owners have specific purchasing considerations.
+
+### EU Prices (2026)
+
+| Brand | Size (26" driver) | EU Price (pair) | Buy |
+|-------|-----------------|-----------------|-----|
+| Bosch ICON | 26" + 19" | €28–42 | [Amazon.de](https://www.amazon.de/s?k=Bosch+ICON+scheibenwischer+26+19&tag=diyrepair-21) |
+| Rain-X Latitude | 26" + 19" | €22–35 | [Amazon.de](https://www.amazon.de/s?k=Rain-X+Latitude+wischer+26+19&tag=diyrepair-21) |
+| Valeo Silencio X-TRM | 26" + 19" | €18–28 | [Amazon.de](https://www.amazon.de/s?k=Valeo+Silencio+26+19+zoll&tag=diyrepair-21) |
+| PIAA Super Silicone | 26" + 19" | €38–52 | [Amazon.de](https://www.amazon.de/s?k=PIAA+silicone+wischer&tag=diyrepair-21) |
+| Hella | 26" + 19" | €16–24 | [Amazon.de](https://www.amazon.de/s?k=Hella+scheibenwischer+26+19&tag=diyrepair-21) |
+
+### EU-Specific Brands Worth Considering
+
+**Valeo Silencio X-TRM** — European-engineered flat beam blade, widely stocked across Germany, Lithuania, and the Baltics at AutoDoc and local parts chains. Excellent performance in North European rain conditions. Compatible with Tesla pinch-tab with the included adapter.
+
+**Hella** — German brand, available at Lithuanian parts stores (AutoDoc LT, Autodistributor). Good pricing for Baltic owners who want a local pickup option rather than online ordering.
+
+**SWF (a Valeo brand)** — Original Tesla wiper supplier for some production years. Sold as OEM replacement at European Tesla service partners.
+
+### Baltic & Nordic Winter Wiper Notes
+
+In Lithuania, Latvia, Estonia, Finland, Sweden, and Norway:
+
+- **Switch to winter-rated blades in October.** Standard beam blades handle light frost, but rubber rated only to −20°C can harden and crack in Finnish or Estonian winters where −30°C is routine.
+- **Bosch Aerotwin Multi-Clip with silicone edge** or **PIAA Super Silicone** are the best choices for Baltic winters — both maintain flexibility to −40°C.
+- **Dedicated winter set:** Buy a second set of blades for November–March and store summer blades inside. The rubber compound for winter blades is optimized for cold; summer blades harden faster when cycled through freeze-thaw cycles.
+- **Lift blades in ice weather overnight** — prevents rubber freezing to the glass and tearing the edge on the first activation. See the winter preparation section below.
+
+### VAT & Delivery
+
+All Amazon.de shipments travel within the EU customs zone — no additional import duties for Lithuania, Germany, France, Netherlands, or other EU members. DE VAT (19%) is already included in listed prices. Delivery to Lithuania from Amazon.de typically takes 3–5 business days via DHL or DPD.
+
+---
+
 ## Hydrophobic Glass Coatings & Longevity
 
 Applying a hydrophobic treatment to the Tesla windshield reduces wiper wear and improves wet-weather visibility. When water beads off the glass at speed, the wipers barely need to run.
@@ -411,6 +637,27 @@ Extend wiper blade life:
 5. **Use quality washer fluid** — Not plain water, which leaves mineral deposits and freezes in cold climates
 6. **Apply windshield coating** — Halves wiper use and wear; see the section above
 7. **Inspect door seals annually** — A leaking [door seal](/posts/tesla-door-seal-maintenance/) allows water to pool on the windshield during rain or car washes, running the auto-wipers unnecessarily and accelerating blade wear
+
+### Winter Wiper Protocol (Baltic & Nordic Climates)
+
+Winter is the primary cause of early wiper failure in cold-climate countries.
+
+**Before the first freeze (October in Lithuania, September in Finland/Norway):**
+- Swap to winter-rated blades rated to −40°C if you have summer blades installed
+- Switch washer fluid to winter-grade rated to at least −20°C (−30°C for severe climates) — see the [Washer Fluid section](#washer-fluid-refill) below
+- Apply a hydrophobic windshield treatment — ice forms thinner on treated glass and scrapes off without blade contact
+
+**Daily winter routine:**
+- Activate Wiper Service Mode and lift the blades vertically before parking overnight in freezing temperatures. This prevents the rubber edge from bonding to ice-covered glass. At startup, frozen-bonded wipers either tear their edge or trip the motor overload limiter — the Tesla wiper motor does not have enough torque to break an ice bond.
+- If you forget and wipers freeze to the glass: do **not** force activation from the touchscreen. Run the climate system at full defrost for 5–10 minutes first to soften the ice at the blade contact line. Then activate Service Mode before lifting.
+- Do not use an ice scraper blade-first against the wiper rubber — scrape glass only, and move the wipers out of the way before scraping.
+
+**When wiper performance degrades in cold:**
+- Chattering in cold: normal for the first 2–3 activation cycles while rubber warms — not a failure
+- Persistent chattering or streaking after 5+ minutes of use: blade rubber has hardened from age or wrong temperature rating — replace
+- Wipers not parking correctly after ice event: exit and re-enter Service Mode to recalibrate the park position
+
+**If washer fluid nozzles freeze:** Do not tap the washer button repeatedly — this overheats the pump. Thaw the nozzle lines by running the climate at maximum heat with the car parked for 20 minutes, or use a hair dryer on low heat aimed at the nozzle area. See our guide on [washer fluid pump and nozzle fixes](/posts/tesla-washer-fluid-pump-nozzle-fix/) for full diagnosis steps.
 
 ## Washer Fluid Refill
 
@@ -478,12 +725,30 @@ Tesla's camera-based auto-wiper system responds to light and moisture detected a
 
 This is a heat issue — the sun bakes rubber to glass on hot days, leaving residue when the wipers move. Clean the windshield with automotive glass cleaner, apply Rain-X or another hydrophobic treatment, and wipe the blade rubber with alcohol to remove any baked residue. Lower the auto-wiper sensitivity so they do not activate unless there is actual moisture.
 
+### What size wiper blade does Tesla Cybertruck use?
+
+**33 inches (838 mm), single blade, driver side only.** The Cybertruck uses one large wiper instead of two. The attachment is a side-pin (hook) connector — not the pinch-tab found on Model 3, Y, S, and X. When ordering, confirm the blade is 33 inches and includes a side-pin/hook adapter. OEM part: 1871017-00-A.
+
+### Does Tesla Model Y have a rear wiper?
+
+**Yes — 14 inches (356 mm) with a J-hook attachment.** The Model 3 does not have a rear wiper. The Model X also has a 14-inch rear wiper with J-hook. Replacement takes 3 minutes; Service Mode raises the rear wiper arm along with the fronts.
+
+### How do I adjust Tesla auto-wiper sensitivity?
+
+Tap the wiper icon on the status bar and use the slider. Level 1 activates the slowest; level 7 activates on the lightest mist. Default is 4. For Baltic and Nordic climates with frequent light drizzle, 4–5 works best. For Southern Europe or dusty roads, drop to 2–3 to prevent false activations. Always clean the cabin camera window (top center interior of the windshield) before adjusting sensitivity — a dirty camera is the most common cause of erratic auto-wiper behavior.
+
+### Can I use winter wiper blades on a Tesla?
+
+Yes. Winter wiper blades — rated to −35°C or −40°C — are the right choice for Baltic and Nordic climates from October through March. They use a softer rubber compound that remains flexible in severe cold. The installation procedure is identical to standard blades. Buy the same sizes (26" driver, 19" passenger for Model 3/Y) but look for "winter rated" or temperature specifications in the product listing.
+
 ## Related Guides
 
-- [Tesla Winter Preparation Guide](/posts/tesla-winter-preparation-guide/) — Winter wiper tips, washer fluid selection, and blade lift technique
+- [Tesla Winter Preparation Guide](/posts/tesla-winter-preparation-guide/) — Winter wiper tips, washer fluid selection, and blade lift technique for cold climates
+- [Washer Fluid Pump & Nozzle Fix](/posts/tesla-washer-fluid-pump-nozzle-fix/) — Frozen or blocked nozzles, pump replacement, low-pressure diagnosis
 - [Tesla Door Seal Maintenance](/posts/tesla-door-seal-maintenance/) — Leaking seals cause water intrusion and unnecessary auto-wiper activation
 - [Tire Pressure Guide](/posts/tesla-tire-pressure-guide/) — Check wipers at every tire pressure interval; pair both into one maintenance session
 - [Tesla Ceramic Coating Guide](/posts/tesla-ceramic-coating/) — Apply hydrophobic coating to windshield to cut wiper use by 50%
 - [Headlight Condensation Fix](/posts/tesla-headlight-condensation/) — Other moisture and visibility issues that accompany wiper problems
-- [Cabin Air Filter Replacement](/posts/tesla-cabin-air-filter/) — Another 15-minute maintenance item; do both on the same afternoon
+- [Cabin Air Filter Replacement](/posts/tesla-cabin-air-filter/) — Another 15-minute maintenance item; batch with wiper replacement on the same afternoon
 - [Tesla Scratch Repair Guide](/posts/tesla-scratch-repair-guide/) — If a wiper arm ever contacted the hood, here is how to fix the paint
+- [Tesla Maintenance Schedule](/posts/tesla-maintenance-schedule/) — Full DIY service interval guide; wipers fit into the 6-month check
