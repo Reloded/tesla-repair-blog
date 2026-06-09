@@ -10,23 +10,27 @@
 ## Project Summary
 Tesla repair affiliate blog targeting EU market. Goal: $1000/month passive income.
 
-## Current Status
+## Current Status (2026-06-09)
 - **Milestones:** All 3 complete (v1.0, v2.0, v3.0 shipped)
-- **Articles:** 58 repair guides
-- **Monetization:** Multi-affiliate (Amazon + Lectron + iFixit + RR Car Parts live)
+- **Articles:** 157 posts (139 repair guides + 18 news posts on /news)
+- **Monetization:** Multi-affiliate (Amazon geo-detected + Lectron + iFixit + RR Car Parts + VIN TESLA promo + Payhip product + Shopee SG pilot)
 - **Hosting:** Cloudflare Pages (LIVE)
 - **Live URL:** https://tesladiyrepair.com
+- **Current mode:** Nightly "enhance: lift to indexing-grade" pipeline (one article/night at ~03:00 since late April)
 
 ## Affiliate Programs
-| Program | Status | ID | Articles |
-|---------|--------|-----|----------|
-| Amazon.de | **LIVE** | diyrepair-21 | 55 |
-| Amazon.com | **LIVE** | diyrepair07-20 | 55 |
-| Lectron (Awin) | **LIVE** | 2729872 | 6 |
-| iFixit (Sovrn) | **LIVE** | sovrn.co/... | 15 |
-| RR Car Parts | **LIVE** | (employer) | 4 |
-| Tesmanian | Pending | - | 0 (8 ready) |
-| EVannex (Rakuten) | Pending | - | 0 |
+| Program | Status | ID | Notes |
+|---------|--------|-----|-------|
+| Amazon.de | **LIVE** | diyrepair-21 | Geo-detected buttons (Cloudflare trace, Apr 19) |
+| Amazon.com | **LIVE** | diyrepair07-20 | Geo-detected buttons |
+| Lectron (Awin) | **LIVE** | 2729872 | Charging articles |
+| iFixit (Sovrn) | **LIVE** | sovrn.co/... | Repair tool links |
+| RR Car Parts | **LIVE** | (employer) | ~20 articles; dead links cleaned 2026-03-14 |
+| VIN TESLA | **LIVE** | UTM-tracked | Mid-article promo on every post (May 20), `vintesla_click` event |
+| AI Prompts (Payhip) | **LIVE** | - | Sidebar promo widget (Mar 5) |
+| Shopee SG | Pilot | deeplinks | USB article (4 drives) + cabin filter; Lazada scaffolding ready |
+| Tesmanian | **DEAD** | - | No response after 2 follow-ups, abandoned |
+| EVannex (Rakuten) | **DEAD** | - | No response to direct email, abandoned |
 
 ## Key Files
 - `.planning/STATE.md` - Current progress
@@ -35,7 +39,9 @@ Tesla repair affiliate blog targeting EU market. Goal: $1000/month passive incom
 - `.planning/AFFILIATE-UPDATES-READY.md` - Pending affiliate link updates
 - `scripts/gsc.js` - Google Search Console API script
 
-## GSC Stats (2026-01-25)
+## GSC Stats (2026-01-25 — STALE, refresh locally)
+> ⚠️ Could not refresh on 2026-06-09: `scripts/credentials.json` (OAuth) is gitignored and only exists on the local machine. Run `npm run gsc` / `npm run analytics` locally and update these tables.
+
 | Metric | Value | Change |
 |--------|-------|--------|
 | Clicks | 2 | same |
@@ -46,7 +52,7 @@ Tesla repair affiliate blog targeting EU market. Goal: $1000/month passive incom
 **Top Pages:** tesla-usb-not-working (75 imp), window-reset-calibration (38 imp), windshield-wiper-replacement (24 imp), phantom-braking-fix (21 imp)
 **Note:** USB article up to 75 impressions with 0 clicks (CTR issue), homepage getting 2 clicks from 9 impressions
 
-## Analytics Stats (2026-01-25)
+## Analytics Stats (2026-01-25 — STALE, refresh locally)
 | Metric | Value | Change |
 |--------|-------|--------|
 | Active Users | 183 | +3.4% |
@@ -178,6 +184,52 @@ Tesla repair affiliate blog targeting EU market. Goal: $1000/month passive incom
 - Camp Mode (battery threshold)
 - Cabin Overheat Protection (temperature options)
 
+## Session 2026-06-09 (memory catch-up)
+This file went un-updated from 2026-01-25 to 2026-06-09 while ~300 commits shipped. Summary reconstructed from git history:
+
+### February 2026 — Content sprint (58 → ~130 articles)
+- Hit article #100 on Feb 11, kept publishing near-daily through Feb
+- Notable: OBD2 diagnostics, Wall Connector install, won't-start troubleshooting, Service Mode guide (verified before publish), used Tesla buying guide, 2026 Model 3 Refresh, Model Y Juniper problems, battery degradation, FSD Europe
+- SEO infrastructure: WebP images, 404 page, FAQ schema, topic clusters, E-E-A-T about page (Feb 25)
+- Added real RR workshop photos to 8 articles (Feb 21)
+- Verification discipline held: several articles re-checked against Tesla service docs before/after publish
+
+### March 2026 — Articles to #143 + Terafab event + design overhaul
+- New articles through #143: BMS calibration, recall check, warning lights, coolant pump, pyrofuse (safety-critical, verified against service manuals), Highland vs Juniper comparison, Juniper accessories, Juniper suspension rattle, Model Y L specs
+- **Terafab live coverage** (Mar 16–22): explainer prepped early, live-updated through Mar 21 launch event, pinned on homepage
+- **ASIN migration saga**: converted Amazon search URLs → direct ASIN links (566 links), then **reverted same day** — broken ASINs were 404ing. Partial re-migration only where ASINs verified. Lesson: verify ASINs before bulk conversion.
+- Removed dead rrcarparts.com links (Mar 14); ~20 articles still carry working RR links
+- Payhip "AI Prompts" sidebar promo added (Mar 5)
+- Homepage redesign (Mar 28): Tesla model filter (3/Y/S/X/Cybertruck), hero search bar, "Most Popular Guides" section, SVG icons replacing emoji, a11y fixes (skip-nav, WCAG)
+
+### April 2026 — Structure + SEO recovery + enhancement pipeline starts
+- Split news from repair guides: /news page, nav link, posts tagged `type:news` (18 now)
+- Fixed HowTo schema misuse on news/info posts — **2 pages had been de-indexed**, refreshed (Apr 26)
+- Geo-detect Amazon buttons via Cloudflare trace (Apr 19)
+- Quick-tools bar at top of articles, full-width hero, UX fixes
+- Sitemap: `lastUpdated` used for lastmod (Apr 26)
+- SG market scaffolding: Lazada/Shopee deeplinks, cabin filter pilot (Apr 20)
+- **Nightly enhancement pipeline began ~Apr 25**: one article per night "lifted to indexing-grade" (Cybertruck sections, FAQ/JSON-LD, EU buying guides, +1.5–4.4k words each)
+
+### May–June 2026 — Maintenance + nightly enhancements
+- VIN TESLA mid-article promo on every post, UTM-tracked with `vintesla_click` GA event (May 20)
+- News post: FSD Supervised launches in Lithuania (May 21)
+- Shopee SG deeplinks on USB article (May 1)
+- SEO audit: fixed internal linking in suspension cluster (May 24)
+- Nightly enhance commits continuous through Jun 9 (latest: brake rotor, wiper, frunk/trunk struts, tie rod end, PPF, towing, front bumper)
+
+### Housekeeping notes (2026-06-09)
+- Tesmanian and EVannex never responded — marked DEAD above
+- GSC/Analytics stats below are from January; OAuth credentials live only on the local machine, refresh there
+- `.planning/STATE.md` is even staler (last updated 2026-01-22) — treat this file as the source of truth
+
+### Site audit + fixes (2026-06-09, same session)
+Full technical audit of the built site. Verified healthy: clean build, all 528 JSON-LD blocks valid, no HowTo schema on news posts, all ~2,500 Amazon links tagged, all VIN TESLA links UTM-tagged, no duplicate titles/descriptions. Fixed:
+- [x] 28 broken internal links — missing `/posts/` prefix in 5 articles (used-buying guide, charging-adapter, wont-start, emergency-door-release, TPMS), wrong slugs (`tesla-battery-drain-fix` → `tesla-phantom-battery-drain-fix`, `tesla-model-3-door-panel-removal` → `tesla-door-panel-removal`), dead `/tags/tires/` link → `/guides/`
+- [x] 5 broken image references removed (roof trim ×3, sway bar link, tie rod end) — files never existed; per content guidelines did NOT substitute unverified photos
+- [x] Terafab meta-refresh stub (`tesla-terafab-ai-chip-factory`) deleted; proper 301 added to `_redirects`; removes it from sitemap + Pagefind index
+- Known remaining (not fixed): 81 meta descriptions >165 chars, 26 titles >70 chars (CTR opportunity); external link liveness + 89 ASINs unverifiable from sandbox (check locally); ~100 articles published since Jan never audited against service.tesla.com
+
 ## Session 2026-01-25
 - [x] Updated GSC stats: 167 impressions (+32), 2 clicks (same)
 - [x] Updated Analytics: 183 users (+3.4%), 509 page views (+5.8%)
@@ -281,20 +333,16 @@ Tesla repair affiliate blog targeting EU market. Goal: $1000/month passive incom
 - [x] Wrote article #52: Tesla Winter Preparation Guide
 
 ## Pending Approvals
-- [ ] Tesmanian (GoAffPro) - applied ~2026-01-14, follow-up sent 2026-01-21, no response (8+ days)
-  - May need to try different contact or move on
-- [ ] EVannex (Rakuten) - applied ~2026-01-16, direct email sent 2026-01-22
-  - Emailed partnerships@evannex.com directly
+- None. Tesmanian and EVannex abandoned (no response after follow-ups) — see Session 2026-06-09 notes.
 
 ## Next Actions
-- [ ] Check Tesmanian approval (applied 4+ days ago) → add links to 8 articles
-- [x] ~~Find EVannex direct affiliate program~~ DONE - emailed partnerships@evannex.com
-- [ ] Check Buttondown subscriber count → ready to send first newsletter
-- [x] ~~Optimize tesla-usb-not-working article~~ DONE - new title/meta/intro for CTR
-- [ ] Write more high-value articles
-- [ ] Continue Reddit engagement (2-3 helpful comments/day)
-- [ ] Monitor GSC weekly with `npm run gsc`
-- [ ] Consider adding display ads (Ezoic/AdSense)
+- [ ] Refresh GSC + Analytics stats locally (`npm run gsc`, `npm run analytics`) and update tables above
+- [ ] Continue nightly enhancement pipeline (lift remaining articles to indexing-grade)
+- [ ] Check Buttondown subscriber count → first newsletter still unsent
+- [ ] Evaluate Shopee SG pilot results → expand or drop Lazada scaffolding
+- [ ] Verify remaining Amazon search-URL links → safe ASIN migration where verified
+- [ ] Update `.planning/STATE.md` (stale since 2026-01-22)
+- [ ] Consider display ads (Ezoic/AdSense) — revisit threshold with current traffic
 
 ## Tech Stack
 - Eleventy 2.0.1 (static site generator)

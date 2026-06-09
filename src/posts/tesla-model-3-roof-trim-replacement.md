@@ -77,9 +77,6 @@ Pull down to release the front and rear primary body seals from the upper bright
 
 **Note:** You don't need to release the seals from the top of the B-pillar applique.
 
-![Door seal release point](/images/repairs/model-3-roof-trim/door-seal.jpg)
-*Pull down on the door seals to release them from the trim edge*
-
 ### Step 3: Remove the Fasteners
 
 The trim is secured by **10 Torx T20 screws** and **1 push rivet**.
@@ -101,9 +98,6 @@ With all fasteners removed, carefully lift the trim away from the vehicle. The t
 ### Step 5: Remove and Discard the Grommets
 
 Remove all 10 grommets from the body and **discard them**. These are one-time-use parts and must be replaced.
-
-![Grommets in roof channel](/images/repairs/model-3-roof-trim/grommets.jpg)
-*The grommets must be replaced — don't reuse the old ones*
 
 ## Step-by-Step: Installing New Trim
 
@@ -130,9 +124,6 @@ With a helper, carefully position the rear of the trim into the rear quarter gla
 Working from **rear to front**, install all 10 screws and the push rivet.
 
 Torque the screws to **1 Nm (0.7 lb-ft)**. That's basically hand-tight — don't crank them down.
-
-![Screw being installed](/images/repairs/model-3-roof-trim/screw-install.jpg)
-*Work from rear to front when installing screws — opposite of removal*
 
 ### Step 6: Reattach the Door Seals
 

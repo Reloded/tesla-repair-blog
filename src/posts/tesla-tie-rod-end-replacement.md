@@ -87,9 +87,6 @@ Worn tie rod ends are one of the most common steering issues on Tesla Model 3 an
 | Castle nut P/N | 1109263-00-B (new — never reuse) |
 | Models covered | Model 3 (2017–2026), Model Y (2020–2026) |
 
-![Tesla front suspension showing tie rod end connection to steering knuckle](/images/repairs/tesla-tie-rod-end-steering.jpg)
-*The outer tie rod end connects the steering rack to the steering knuckle. When it wears out, you lose precise steering control.*
-
 ## Table of Contents
 
 1. [Symptoms of Worn Tie Rod Ends](#symptoms-of-worn-tie-rod-ends)

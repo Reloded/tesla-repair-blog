@@ -96,7 +96,7 @@ Walk away or negotiate hard if you see:
 - **Battery was replaced under warranty** for thermal runaway or coolant intrusion — ask if the cooling system was also addressed
 - **BMS errors in the log** — cell balancing failures, contactors sticking
 
-For a deeper dive on battery health monitoring, see our [Tesla Battery Degradation & Health Guide](/tesla-battery-degradation-health/).
+For a deeper dive on battery health monitoring, see our [Tesla Battery Degradation & Health Guide](/posts/tesla-battery-degradation-health/).
 
 ## Exterior Inspection
 
@@ -108,7 +108,7 @@ Tesla's paint is notoriously thin, especially on 2018-2021 cars from Fremont. Br
 - **Repainted panels:** 200+ microns (could indicate accident repair)
 - **Bare spots or sub-80 microns:** Factory defect, common on early Model 3
 
-Check the usual spots: lower door edges, rear quarter panels, front bumper (stone chips), A-pillars. For paint repair options, see our [Tesla Paint Chip Repair Guide](/tesla-paint-chip-repair/).
+Check the usual spots: lower door edges, rear quarter panels, front bumper (stone chips), A-pillars. For paint repair options, see our [Tesla Paint Chip Repair Guide](/posts/tesla-paint-chip-repair/).
 
 ### Panel Gaps
 
@@ -119,7 +119,7 @@ Tesla's panel alignment has improved, but older cars can have significant gaps. 
 - **Door gaps** — compare left to right, they should match
 - **Charge port door** — should sit flush and open smoothly
 
-Uneven panels aren't always a deal-breaker (it might be factory), but dramatically uneven panels on one side suggest collision repair. See our [Panel Gap Adjustment Guide](/tesla-panel-gap-adjustment/) if minor tweaks are needed.
+Uneven panels aren't always a deal-breaker (it might be factory), but dramatically uneven panels on one side suggest collision repair. See our [Panel Gap Adjustment Guide](/posts/tesla-panel-gap-adjustment/) if minor tweaks are needed.
 
 ### Wheels and Tires
 
@@ -128,7 +128,7 @@ Uneven panels aren't always a deal-breaker (it might be factory), but dramatical
 - **Tire wear pattern** — uneven inner-edge wear is common and suggests alignment issues or worn suspension components. Teslas eat tires, especially rear tires on RWD cars.
 - **Matching tires** — all four should be the same brand and model. Mismatched tires suggest the owner was cutting corners.
 
-For wheel repairs, see our [Curb Rash Repair Guide](/tesla-curb-rash-wheel-repair/).
+For wheel repairs, see our [Curb Rash Repair Guide](/posts/tesla-curb-rash-wheel-repair/).
 
 ### Underbody
 
@@ -138,7 +138,7 @@ Get under the car if possible (or use your phone camera):
 - **Suspension components** — check for rust on control arms and subframe bolts. Surface rust is normal in cold climates. Flaking rust is a concern.
 - **Coolant lines** — look for any green/orange residue under the car, especially around the front subframe area.
 
-More on protecting the underside in our [Rust Prevention & Undercoating Guide](/tesla-rust-prevention-undercoating/).
+More on protecting the underside in our [Rust Prevention & Undercoating Guide](/posts/tesla-rust-prevention-undercoating/).
 
 ## Interior Inspection
 
@@ -151,7 +151,7 @@ The screen is the car's brain. Check carefully:
 - **Dead pixels or discoloration** — look for dark spots or uneven brightness.
 - **eMMC wear** — on MCU1 cars, ask if the eMMC chip has been replaced. If not, it will need it eventually (the original 8GB chip wears out from logging).
 
-See our [MCU & Touchscreen Upgrade Guide](/tesla-mcu-touchscreen-upgrade/) for options.
+See our [MCU & Touchscreen Upgrade Guide](/posts/tesla-mcu-touchscreen-upgrade/) for options.
 
 ### Seats and Interior Trim
 
@@ -168,16 +168,16 @@ Run both heating and cooling during the test:
 - **A/C performance** — should blow cold within 60 seconds. Weak cooling could mean a refrigerant leak or failing compressor.
 - **Cabin filter smell** — musty smell on fan startup means the cabin filter hasn't been changed. Not a deal-breaker but indicates maintenance neglect.
 
-For climate issues, check our [AC & Heater Troubleshooting Guide](/tesla-ac-heater-not-working/) and [Heat Pump Problems Guide](/tesla-heat-pump-problems/).
+For climate issues, check our [AC & Heater Troubleshooting Guide](/posts/tesla-ac-heater-not-working/) and [Heat Pump Problems Guide](/posts/tesla-heat-pump-problems/).
 
 ## Driving Test
 
 ### What to Listen For
 
 - **Clunking over bumps** — likely worn control arms (front) or sway bar links. Common on cars over 60,000 km. Budget €300-800 for parts plus labor.
-- **Clicking during tight turns** — CV joint or half-shaft issue. More common on dual motor cars. See our [Half-Shaft Clicking Fix](/tesla-halfshaft-clicking-fix/).
+- **Clicking during tight turns** — CV joint or half-shaft issue. More common on dual motor cars. See our [Half-Shaft Clicking Fix](/posts/tesla-halfshaft-clicking-fix/).
 - **Humming or whining from the drive unit** — some whine is normal on Tesla motors. Excessive or changing pitch under load could indicate bearing wear.
-- **Rattles from the dashboard or doors** — common on all Teslas. Annoying but usually fixable. See our [Creaking & Rattling Fix Guide](/tesla-creaking-rattling-fix/).
+- **Rattles from the dashboard or doors** — common on all Teslas. Annoying but usually fixable. See our [Creaking & Rattling Fix Guide](/posts/tesla-creaking-rattling-fix/).
 
 ### Brakes
 
@@ -187,7 +187,7 @@ Tesla brakes last much longer than ICE cars because regenerative braking does mo
 - **Test low-speed braking** — any pulsation means warped or corroded rotors.
 - **Emergency braking feel** — should be firm and progressive, not spongy.
 
-See our [Brake Pad Replacement](/tesla-brake-pad-replacement/) and [Brake Rotor Replacement](/tesla-brake-rotor-replacement/) guides.
+See our [Brake Pad Replacement](/posts/tesla-brake-pad-replacement/) and [Brake Rotor Replacement](/posts/tesla-brake-rotor-replacement/) guides.
 
 ### Suspension
 
@@ -300,11 +300,11 @@ Used Tesla prices fluctuate heavily based on new car pricing changes. Tesla has 
 
 Once you own it:
 
-1. **Change the cabin air filter** immediately — you don't know when it was last done. See our [Cabin Air Filter Guide](/tesla-cabin-air-filter/).
-2. **Check the 12V battery** — if it's original and the car is 3+ years old, replace it proactively. A dead 12V battery means you can't open the doors. See our [12V Battery Replacement Guide](/tesla-12v-battery-replacement/).
-3. **Get a wheel alignment** — baseline it fresh so you know where you're starting from. See our [Wheel Alignment Guide](/tesla-wheel-alignment-diy/).
+1. **Change the cabin air filter** immediately — you don't know when it was last done. See our [Cabin Air Filter Guide](/posts/tesla-cabin-air-filter/).
+2. **Check the 12V battery** — if it's original and the car is 3+ years old, replace it proactively. A dead 12V battery means you can't open the doors. See our [12V Battery Replacement Guide](/posts/tesla-12v-battery-replacement/).
+3. **Get a wheel alignment** — baseline it fresh so you know where you're starting from. See our [Wheel Alignment Guide](/posts/tesla-wheel-alignment-diy/).
 4. **Register on Tesla.com** — transfer the car to your account for app access, service scheduling, and software updates.
-5. **Check tire condition** and rotate if needed. See our [Tire Rotation Guide](/tesla-tire-rotation/).
+5. **Check tire condition** and rotate if needed. See our [Tire Rotation Guide](/posts/tesla-tire-rotation/).
 
 ## Final Thought
 

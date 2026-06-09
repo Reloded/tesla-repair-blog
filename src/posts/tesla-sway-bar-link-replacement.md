@@ -29,9 +29,6 @@ tools:
 
 If your Tesla makes a metallic clunk when you hit a bump or pothole, worn sway bar links are a likely culprit. Good news: this is one of the easier suspension repairs you can do yourself, and it takes about 30 minutes per side.
 
-![Tesla Model 3 front suspension showing sway bar link location](/images/repairs/tesla-sway-bar-link-suspension.jpg)
-*The sway bar link connects the stabilizer bar to the strut. When the ball joints wear out, you get that annoying clunk.*
-
 ## Symptoms of Bad Sway Bar Links
 
 Sway bar links (also called stabilizer bar links or drop links) connect your sway bar to the struts. They have ball joints at each end that wear out over time.

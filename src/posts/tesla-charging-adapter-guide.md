@@ -256,9 +256,9 @@ Look for: UL or CE certification, appropriate voltage/amperage ratings for your 
 
 ## Related Guides
 
-- [Tesla Slow Charging? 12 Ways to Speed It Up](/tesla-slow-charging-fix/)
-- [Tesla Mobile Connector Troubleshooting](/tesla-mobile-connector-issues/)
-- [Tesla Wall Connector Installation Guide](/tesla-wall-connector-installation/)
-- [Tesla Charge Port Stuck — How to Release](/tesla-charge-port-stuck/)
-- [Tesla Supercharger Slow or Not Working](/tesla-supercharger-slow/)
-- [Tesla Charging Port Replacement Guide](/tesla-charging-port-replacement/)
+- [Tesla Slow Charging? 12 Ways to Speed It Up](/posts/tesla-slow-charging-fix/)
+- [Tesla Mobile Connector Troubleshooting](/posts/tesla-mobile-connector-issues/)
+- [Tesla Wall Connector Installation Guide](/posts/tesla-wall-connector-installation/)
+- [Tesla Charge Port Stuck — How to Release](/posts/tesla-charge-port-stuck/)
+- [Tesla Supercharger Slow or Not Working](/posts/tesla-supercharger-slow/)
+- [Tesla Charging Port Replacement Guide](/posts/tesla-charging-port-replacement/)

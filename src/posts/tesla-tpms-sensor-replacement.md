@@ -180,7 +180,7 @@ TPMS sensor replacement is one of those jobs that sounds intimidating but is act
 
 ---
 
-*Have questions about TPMS sensors? Drop a comment below or check out our other [tire and wheel guides](/tags/tires/).*
+*Have questions about TPMS sensors? Drop a comment below or check out our other [tire and wheel guides](/guides/).*
 
 ## Related Guides
 

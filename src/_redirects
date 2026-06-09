@@ -10,3 +10,7 @@
 /tools  /tools/  301
 /about  /about/  301
 /search  /search/  301
+
+# Terafab article consolidated (was a meta-refresh stub)
+/posts/tesla-terafab-ai-chip-factory/ /posts/tesla-terafab-chip-factory-explained/ 301
+/posts/tesla-terafab-ai-chip-factory /posts/tesla-terafab-chip-factory-explained/ 301
