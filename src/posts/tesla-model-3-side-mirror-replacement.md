@@ -183,7 +183,7 @@ The mirror should sit flush with the door with no gaps around the base.
 
 ## Related Guides
 
-- [Tesla Door Panel Removal](/posts/tesla-model-3-door-panel-removal/) — Full door panel access procedure
+- [Tesla Door Panel Removal](/posts/tesla-door-panel-removal/) — Full door panel access procedure
 - [Tesla Window Reset Calibration](/posts/tesla-window-reset-calibration/) — If window acts up after door work
 - [Tesla Screen Black Fix](/posts/tesla-screen-black-fix/) — If touchscreen issues arise
 

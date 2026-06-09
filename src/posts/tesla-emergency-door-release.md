@@ -215,7 +215,7 @@ Your Tesla is an incredibly safe car. The manual door releases are a backup syst
 
 ---
 
-*Have a question about Tesla emergency features or door mechanisms? Drop a comment below or check our guides on [Tesla door handle repair](/tesla-door-handle-not-working/) and [12V battery replacement](/tesla-12v-battery-replacement/).*
+*Have a question about Tesla emergency features or door mechanisms? Drop a comment below or check our guides on [Tesla door handle repair](/posts/tesla-door-handle-not-working/) and [12V battery replacement](/posts/tesla-12v-battery-replacement/).*
 
 ## Related Guides
 

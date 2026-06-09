@@ -57,7 +57,7 @@ Before ordering a full assembly, make sure you actually need one. Most charging 
 | Physical damage to the port | Full port assembly |
 | Intermittent charging failures | Check connector first, then full port |
 | Reduced charging speed (all chargers) | See [slow charging guide](/posts/tesla-slow-charging-fix/) first |
-| Charge rate drops after a few minutes | Could be [battery or thermal issue](/posts/tesla-battery-drain-fix/), not port |
+| Charge rate drops after a few minutes | Could be [battery or thermal issue](/posts/tesla-phantom-battery-drain-fix/), not port |
 
 ### How to Inspect for Pin Damage
 
@@ -231,7 +231,7 @@ Once you've done this repair, you don't want to do it again:
 |-------|----------|
 | "Unable to charge" error persists | Check all connectors are fully seated — orange safety clips engaged? |
 | Charge port door won't open | Verify door actuator connector is plugged in |
-| Slow charging on all chargers | May need a [software update](/posts/tesla-software-update-stuck/) or separate [battery issue](/posts/tesla-battery-drain-fix/) |
+| Slow charging on all chargers | May need a [software update](/posts/tesla-software-update-stuck/) or separate [battery issue](/posts/tesla-phantom-battery-drain-fix/) |
 | Error codes on screen | Reboot: hold both scroll wheels for 10 seconds |
 | Charge port LED not lighting up | Check 12V battery reconnection and fuse |
 | Water dripping in trunk | Drain tube kinked or disconnected — recheck routing |
@@ -256,6 +256,6 @@ This is an advanced repair. Consider professional help if:
 - [Tesla Tail Light Replacement](/posts/tesla-tail-light-replacement/) — You'll need this for access
 - [Tesla Rear Bumper Removal](/posts/tesla-rear-bumper-removal/) — For severe physical damage repairs
 - [Tesla Charging Adapter Guide](/posts/tesla-charging-adapter-guide/) — Which adapters work with your Tesla
-- [Tesla Battery Drain Fix](/posts/tesla-battery-drain-fix/) — If charging issues relate to battery drain
+- [Tesla Battery Drain Fix](/posts/tesla-phantom-battery-drain-fix/) — If charging issues relate to battery drain
 - [Tesla 12V Battery Replacement](/posts/tesla-12v-battery-replacement/) — Related electrical system guide
 - [Tesla Won't Start](/posts/tesla-wont-start-turn-on/) — Electrical troubleshooting basics

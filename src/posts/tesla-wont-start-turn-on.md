@@ -72,7 +72,7 @@ You need a portable jump starter or another 12V source. **Do NOT use another car
 4. Wait for systems to wake up
 
 <div class="warning-box">
-<strong>Important:</strong> Once the car wakes up, the high-voltage battery will begin charging the 12V battery. If the 12V battery is completely dead and won't hold a charge, you'll need to <a href="/tesla-12v-battery-replacement/">replace it</a>. Don't just jump it and ignore the problem — the car will die again.
+<strong>Important:</strong> Once the car wakes up, the high-voltage battery will begin charging the 12V battery. If the 12V battery is completely dead and won't hold a charge, you'll need to <a href="/posts/tesla-12v-battery-replacement/">replace it</a>. Don't just jump it and ignore the problem — the car will die again.
 </div>
 
 ### When to Replace the 12V Battery
@@ -81,7 +81,7 @@ You need a portable jump starter or another 12V source. **Do NOT use another car
 - **Model 3/Y 2021+:** Lithium (LFP) battery, longer life but still can fail
 - **Model S/X:** Varies by year; check for swelling or corrosion
 
-If your 12V battery has died more than once, replace it. See our full [Tesla 12V Battery Replacement Guide](/tesla-12v-battery-replacement/).
+If your 12V battery has died more than once, replace it. See our full [Tesla 12V Battery Replacement Guide](/posts/tesla-12v-battery-replacement/).
 
 ## Fix #2: Key Not Detected
 
@@ -109,7 +109,7 @@ Always keep a key card in your wallet. If phone key fails:
 
 ### Key Fob Issues (Model S/X)
 
-- Replace the **CR2032 battery** in the fob ([key fob battery guide](/tesla-key-fob-battery/))
+- Replace the **CR2032 battery** in the fob ([key fob battery guide](/posts/tesla-key-fob-battery/))
 - Try holding the fob against the driver's side B-pillar
 - Check if the fob is physically damaged
 
@@ -147,7 +147,7 @@ If you can't even get into the car:
 
 All Teslas have **mechanical interior door releases**:
 
-- **Model 3/Y:** Pull the manual release lever on each door (not the electronic button — the physical latch behind it). See our [Emergency Door Release Guide](/tesla-emergency-door-release/).
+- **Model 3/Y:** Pull the manual release lever on each door (not the electronic button — the physical latch behind it). See our [Emergency Door Release Guide](/posts/tesla-emergency-door-release/).
 - **Model S/X front doors:** Manual latch near the speaker grille
 - **Model X rear/falcon wing:** Manual latch in the door pocket area
 

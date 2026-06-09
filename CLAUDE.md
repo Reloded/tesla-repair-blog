@@ -223,6 +223,13 @@ This file went un-updated from 2026-01-25 to 2026-06-09 while ~300 commits shipp
 - GSC/Analytics stats below are from January; OAuth credentials live only on the local machine, refresh there
 - `.planning/STATE.md` is even staler (last updated 2026-01-22) — treat this file as the source of truth
 
+### Site audit + fixes (2026-06-09, same session)
+Full technical audit of the built site. Verified healthy: clean build, all 528 JSON-LD blocks valid, no HowTo schema on news posts, all ~2,500 Amazon links tagged, all VIN TESLA links UTM-tagged, no duplicate titles/descriptions. Fixed:
+- [x] 28 broken internal links — missing `/posts/` prefix in 5 articles (used-buying guide, charging-adapter, wont-start, emergency-door-release, TPMS), wrong slugs (`tesla-battery-drain-fix` → `tesla-phantom-battery-drain-fix`, `tesla-model-3-door-panel-removal` → `tesla-door-panel-removal`), dead `/tags/tires/` link → `/guides/`
+- [x] 5 broken image references removed (roof trim ×3, sway bar link, tie rod end) — files never existed; per content guidelines did NOT substitute unverified photos
+- [x] Terafab meta-refresh stub (`tesla-terafab-ai-chip-factory`) deleted; proper 301 added to `_redirects`; removes it from sitemap + Pagefind index
+- Known remaining (not fixed): 81 meta descriptions >165 chars, 26 titles >70 chars (CTR opportunity); external link liveness + 89 ASINs unverifiable from sandbox (check locally); ~100 articles published since Jan never audited against service.tesla.com
+
 ## Session 2026-01-25
 - [x] Updated GSC stats: 167 impressions (+32), 2 clicks (same)
 - [x] Updated Analytics: 183 users (+3.4%), 509 page views (+5.8%)
