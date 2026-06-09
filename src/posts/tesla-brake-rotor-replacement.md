@@ -1,9 +1,9 @@
 ---
 layout: post.njk
 title: "Tesla Brake Rotor Replacement: Complete DIY Guide (2026)"
-description: "DIY Tesla brake rotor replacement in 2026: save $300–700, torque specs, EPB reset, bed-in procedure, rotor sizes for all models including Highland & Juniper."
+description: "DIY Tesla brake rotor replacement 2026: save $300–700, EPB reset, torque specs, rotor sizes for all Tesla models including Cybertruck, Highland & Juniper."
 date: 2026-02-06
-lastUpdated: 2026-05-31
+lastUpdated: 2026-06-09
 category: "Brakes"
 difficulty: "Intermediate"
 readTime: "35 min read"
@@ -195,6 +195,30 @@ tools:
         "@type": "Answer",
         "text": "For the 320mm Standard / Long Range front rotors: Zimmermann 100.3300.20 (front right) and 100.3301.20 (front left) are confirmed fits for Model 3 and Model Y through the 2024 Highland and Juniper facelifts. Rear 320mm: Zimmermann 100.3310.20 (rear right) and 100.3311.20 (rear left). Brembo EU front reference 09.D216.11 is also confirmed for Standard and LR. For Performance 355mm front rotors, verify via the Autodoc.de or FCP Euro VIN fitment tool — the Performance caliper requires a 355mm rotor and the Standard size will not mount correctly. Always confirm the listed diameter in millimeters against your trim spec before purchasing."
       }
+    },
+    {
+      "@type": "Question",
+      "name": "Does the Tesla Cybertruck have the same brake rotor replacement process as Model 3?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. The Cybertruck front uses 6-piston Brembo monobloc calipers — requiring a 6-piston brake spreader tool, not the 4-piston tool used on Model 3/Y Performance. Rear EPB Service Mode activation is identical: Controls > Service > Chassis > Brakes > EPB Service Mode. Confirm exact rotor dimensions via your 17-digit VIN at service.tesla.com — the Cybertruck's 6,600–7,185 lb curb weight required different brake dimensions than any other Tesla. DIY difficulty is Advanced due to the 6-piston caliper, vehicle weight, and air suspension jacking requirements. Service center cost is $900–1,400 per axle — DIY savings are proportionally larger than on any other Tesla model."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "When should I inspect Tesla brake rotors after winter?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Inspect in April or May after each winter season — do not wait for symptoms. In Northern Europe (Lithuania, Germany, Scandinavia) and cold-climate US states, de-icing salt exposure between November and April pits uncoated rotors severely even at low mileage. Cold temperatures also reduce regenerative braking availability, so mechanical brake use is higher in winter. Look through wheel spokes for pitting, check the outer lip height by running your fingernail across the rotor edge, and inspect caliper rubber boots for cracking. If any pitting is visible, replace with Geomet-coated or e-coated rotors before the next salt season."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What does the Tesla brake service alert mean?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Three distinct levels: 'Schedule Service — Brakes' in the Tesla app means a mileage or time-based inspection is due — no active hardware fault. 'Brake Service Required' (amber alert on touchscreen) indicates an active detected fault such as an EPB motor issue, brake pressure sensor fault, or low brake fluid — requires inspection within 1–2 days. 'Brake System Fault' (red alert) means a hard hydraulic fault — stop driving immediately and call Tesla Roadside Assistance. After DIY rotor or pad replacement, no reset is required; the system recalibrates automatically after 5–10 miles of normal driving."
+      }
     }
   ]
 }
@@ -244,6 +268,8 @@ Tesla brake rotors last 75,000–150,000 miles thanks to regenerative braking, b
 20. [Torque Specifications](#torque-specifications)
 21. [Rotor Groove Depth and Scoring Severity](#rotor-groove-depth-and-scoring-severity)
 22. [Planning Your Full Brake Service: Combining Jobs Efficiently](#planning-your-full-brake-service-combining-jobs-efficiently)
+23. [Tesla Brake Service Alerts Explained](#tesla-brake-service-alerts-explained)
+24. [Post-Winter Brake Inspection Protocol (Northern Climates)](#post-winter-brake-inspection-protocol-northern-climates)
 
 ## When Do Tesla Rotors Need Replacement?
 
@@ -320,6 +346,27 @@ Before spending $150–300 on new rotors per axle, confirm the symptom is coming
 **Roadside heat check (30 seconds, no tools required):** After a normal stop from 40 mph, exit the vehicle and carefully hold the back of your hand 3–5 cm from — never touching — each rotor. One corner significantly hotter than the other three points to a dragging caliper, not a worn rotor. A dragging caliper generates sustained heat that warps rotors prematurely. Fixing the caliper first saves you the cost of new rotors.
 
 **The micrometer test is the only definitive answer.** Pedal pulsation alone does not confirm the rotor is below minimum thickness. A rotor can cause pulsation from lateral runout (warping) while still being above spec — in which case machining is an option. Only measurement at 8 points tells you whether you need replacement or can machine. See the [Tesla squeaky brakes fix guide](/posts/tesla-squeaky-brakes-fix/) if your primary symptom is noise rather than pulsation — the diagnosis process differs.
+
+## Tesla Brake Service Alerts Explained
+
+Tesla does not use traditional brake pad wear sensors that trigger a dashboard warning at a specific pad thickness — unlike most European ICE vehicles. The system monitors brake performance metrics and surfaces several distinct alerts, each with different urgency.
+
+| Alert | Trigger | Action Required |
+|-------|---------|-----------------|
+| "Schedule Service — Brakes" (app notification) | Mileage or time threshold exceeded | Book a visual inspection — no active hardware fault implied |
+| "Brake Service Required" (amber, touchscreen) | Active detected fault: EPB motor, pressure sensor, or low fluid | Inspect within 1–2 days — EPB faults can prevent parking brake function |
+| "Brake System Fault" (red, touchscreen) | Hard hydraulic fault: pressure below threshold, master cylinder, or leak | Stop driving immediately — call Tesla Roadside Assistance |
+| Regen absent icon / "Service Brake" | Cold battery below 0°C limits regenerative braking | Normal — resolves when battery reaches operating temperature |
+
+### Finding Brake Fault Codes in Service Mode
+
+If you see an amber or red alert, navigate to **Controls > Service > Service Mode > Chassis > Brakes**. Active fault codes appear with a description and recommended action. Screenshot codes before clearing — intermittent faults that self-clear will return and the code helps identify the root cause.
+
+EPB motor faults (B-prefix codes) are the most common active alert on high-mileage Teslas. A failed EPB motor requires rear caliper motor replacement — the procedure is covered in the [Tesla Model S rear caliper motor replacement guide](/posts/tesla-model-s-rear-caliper-motor-replacement/) and applies to the EPB motor assembly across Model 3, Y, and S rear calipers.
+
+### After DIY Brake Work
+
+No reset procedure is required after rotor or pad replacement. Exit EPB Service Mode (Controls > Service > Chassis > Brakes > EPB Service Mode > Stop > Run) after rear brake work — that is the only mandatory step. A "Schedule Service — Brakes" notification that was active before your DIY job should clear automatically after 10–20 miles of normal driving as the system recalibrates.
 
 ## Rotor Specifications by Model
 
@@ -844,6 +891,22 @@ The current Model X tips the scales at 5,185–5,390 lb loaded. The front rotors
 
 The upcoming entry-level Tesla has not yet appeared in major aftermarket brake catalogs as of May 2026. If you own an early Model 2, source OEM rotors directly from Tesla or request part numbers from a Tesla Service Center before purchasing aftermarket.
 
+### Cybertruck (2024+)
+
+The Cybertruck uses fundamentally different brake hardware from any other Tesla — no parts commonality with Model 3 or Y. Its 6,600–7,185 lb curb weight (CyberBeast: 7,185 lb) required a purpose-designed braking system.
+
+**Front brakes:** 6-piston Brembo monobloc calipers. The same caliper family used on high-performance European sports cars. Rotor dimensions must be confirmed via your 17-digit VIN at service.tesla.com before purchasing any parts — do not assume Model S or Model X dimensions will fit. The 6-piston caliper requires a dedicated [6-piston brake spreader tool](https://www.amazon.com/s?k=6+piston+brake+spreader+tool&tag=diyrepair07-20) — the 4-piston tool used on Model 3/Y Performance compresses only four pistons and will not work here.
+
+**Rear brakes:** EPB-integrated sliding calipers with the identical Service Mode activation path as every other Tesla: Controls > Service > Chassis > Brakes > EPB Service Mode. Rear EPB procedure is the same as Model 3/Y rear corners.
+
+**Air suspension jacking:** Enable Jack Mode (Controls > Service > Jack Mode) and wait for the suspension to settle fully before placing stands. The Cybertruck's air suspension reacts differently to Jack Mode than coil-spring models — follow the on-screen confirmation message before committing to lifting. Never place stands under a Cybertruck without confirmed Jack Mode active.
+
+**Expected rotor life:** Despite regenerative braking, the Cybertruck's weight means mechanical brakes carry significantly more load per stop than Model 3/Y. Inspect rotors every 25,000–30,000 miles for trucks used for towing or hauling payloads. Urban non-towing owners may approach 75,000–100,000 miles before reaching minimum thickness.
+
+**DIY difficulty:** Advanced (vs. Intermediate for Model 3/Y Standard). Factors: 6-piston caliper tool requirement, air suspension complexity, vehicle weight, and higher bracket bolt torques. Budget 30–45 additional minutes per front corner compared to a Model 3 front axle job.
+
+**Service center cost (2026):** $900–1,400 per axle — Brembo hardware, heavier vehicle, and increased labor time. DIY savings on the Cybertruck are proportionally larger than on any other Tesla.
+
 ---
 
 ## Pre-Purchase Rotor Inspection for Used Tesla Buyers
@@ -862,6 +925,38 @@ Used Tesla listings rarely mention brake condition. A five-minute visual inspect
 Measure rotor thickness at 2–3 points on the face. Compare against the minimum specs in the table above. If thickness is within 1–2mm of the minimum: budget for replacement immediately.
 
 If the rotors need replacement on a used Tesla you're negotiating on, use the numbers from the [Cost Comparison](#cost-comparison) section above as your negotiation anchor.
+
+---
+
+## Post-Winter Brake Inspection Protocol (Northern Climates)
+
+Winter driving in Lithuania, Germany, Scandinavia, the UK, and the northern United States creates specific brake degradation patterns that require a dedicated spring inspection — not just a mileage-triggered check.
+
+**Why winter is different for Tesla brakes:** Cold temperatures below 0°C severely limit regenerative braking availability. During a Baltic or Scandinavian winter, every cold-morning commute places significantly more load on mechanical brakes than a summer drive of identical distance. Combined with de-icing salt exposure during the extended periods between brake applications (Tesla EVs use mechanical brakes infrequently), uncoated rotors experience their highest annual corrosion rate from November through April.
+
+### Post-Winter Inspection Checklist (April–May, 15 Minutes)
+
+| Check | Method | Pass | Fail — Action |
+|-------|--------|------|---------------|
+| Rotor surface pitting | Look through wheel spoke; feel rotor edge with gloved finger | Smooth surface, light orange film only | Pockmarks or flaking visible → replace with coated rotors before next autumn |
+| Outer lip height | Run fingernail from rotor face over outer lip | Flat or lip under 1.5mm | Sharp raised step catches fingernail → rotor at or below minimum spec |
+| Caliper boot condition | Torch through wheel spoke at caliper ends | Black rubber intact, no cracks | White/grey cracking or grease outside boot → replace boot or caliper |
+| Brake pad thickness | Torch through caliper gap at pad | Friction material above 4mm | Under 4mm or metal backing visible → replace pads now |
+| Brake fluid condition | Check reservoir in frunk, driver's side | Clear amber to light gold | Dark brown → flush required; use [brake fluid test strips](https://www.amazon.com/s?k=brake+fluid+moisture+test+strips&tag=diyrepair07-20) for a 10-second moisture check |
+| Slide pin action | Remove caliper; pull each pin by hand | Slides out smoothly | Requires tools to extract → corroded, service immediately |
+| Brake hose condition | Gloved finger along hose from hard line to caliper | Firm rubber, no bulging | Cracks, swelling, or fluid weeping → replace hose |
+
+### If Rotors Pass Visually but Show Any Pitting
+
+Order Geomet-coated or e-coated replacement rotors immediately. Pitted rotors retain salt in the pockmarks and accelerate corrosion through the summer and into the next winter — a pitted rotor will not recover. Source parts in April when demand is lower and schedule the replacement before October. For Zimmermann Sport Z (the go-to EU-market coated rotor for Tesla), order from Autodoc.de and expect 1–3 day delivery across Lithuania, Germany, and most of the EU.
+
+### Caliper Slide Pins After Winter
+
+Slide pins that pass the hand-pull test but feel stiff should be removed, cleaned, and regreased regardless. A [caliper slide pin boot kit](https://www.amazon.com/s?k=brake+caliper+slide+pin+boot+kit+universal&tag=diyrepair07-20) costs $8–15 and replaces cracking rubber boots before they fail entirely — a cracked boot lets in water and salt, which seizes the pin and destroys a new rotor within one additional winter season.
+
+### Pre-Winter Check (October)
+
+Repeat the same 7-point checklist in October before the first frost. If pads are below 5mm heading into winter, replace them now — cold-weather brake jobs are significantly less pleasant than spring jobs. While the wheel is already off, inspect [Tesla sway bar links](/posts/tesla-sway-bar-link-replacement/) and check [TPMS sensor battery status](/posts/tesla-tpms-sensor-replacement/) — if the battery indicator shows under 30% life, replace the sensors now rather than during the salt season.
 
 ---
 
@@ -1027,6 +1122,15 @@ Not necessarily — inspect it while it is already off the car. Replace or rebui
 **What EU part numbers fit Tesla Model 3 and Model Y 320mm rotors?**  
 For Standard and Long Range (including 2024 Highland and 2024 Juniper): Zimmermann 100.3300.20 (front right) and 100.3301.20 (front left); rear 320mm: Zimmermann 100.3310.20 (right) and 100.3311.20 (left). These are confirmed fits through the 2024 facelifts and are widely stocked on Autodoc.de with 1–3 day delivery to Germany, Lithuania, and most of the EU. Brembo EU front reference 09.D216.11 also confirms for Standard/LR. For Performance 355mm front rotors, use the VIN fitment tool on Autodoc.de or FCP Euro — do not substitute Standard 320mm in a Performance bracket.
 
+**Does the Tesla Cybertruck need different tools for brake rotor replacement?**  
+Yes — the Cybertruck front uses 6-piston Brembo monobloc calipers requiring a 6-piston brake spreader tool. The 4-piston tool used on Model 3/Y Performance will not compress all six pistons. Rear EPB Service Mode path is identical to all other Teslas: Controls > Service > Chassis > Brakes > EPB Service Mode. Confirm rotor dimensions via your 17-digit VIN at service.tesla.com before ordering parts. DIY difficulty is Advanced and Tesla Service Center pricing is $900–1,400 per axle — the potential savings are larger here than on any other model.
+
+**When should I inspect Tesla rotors after winter?**  
+In April or May, regardless of mileage. Salt exposure during a Baltic or Scandinavian winter pits uncoated rotors faster than distance accumulates — the failure is calendar-driven, not mileage-driven. Look through wheel spokes for pitting, check the outer edge with your fingernail, and inspect caliper rubber boot condition. Any pitting visible: order Geomet-coated or e-coated replacements before October. Repeat the same check in October before the first frost to catch anything that degraded over summer and assess whether pads will survive another winter.
+
+**What does a Tesla brake service notification mean?**  
+Three levels: "Schedule Service — Brakes" (app notification) = mileage or time-based inspection overdue, no hardware fault. "Brake Service Required" (amber on touchscreen) = active EPB motor, pressure sensor, or fluid fault — inspect within 1–2 days. "Brake System Fault" (red on touchscreen) = hard hydraulic failure — stop immediately, do not drive, call Tesla Roadside Assistance. After a DIY rotor or pad swap, no reset is needed — exit EPB Service Mode after rear work and drive 10–20 miles for the system to recalibrate.
+
 ## Torque Specifications
 
 > **Torque values verified against Tesla Service Manual (service.tesla.com) — April 2026**
@@ -1053,3 +1157,6 @@ For Standard and Long Range (including 2024 Highland and 2024 Juniper): Zimmerma
 - [Tesla Regenerative Braking Reduced](/posts/tesla-regen-braking-reduced/) — How reduced regen affects brake wear rates
 - [Model S Rear Caliper Motor Replacement](/posts/tesla-model-s-rear-caliper-motor-replacement/) — EPB motor issues on Model S
 - [Tesla Suspension Noise Fix](/posts/tesla-suspension-noise-fix/) — Rule out suspension as the vibration source before replacing rotors
+- [Tesla Sway Bar Link Replacement](/posts/tesla-sway-bar-link-replacement/) — Suspension component to inspect while wheels are already removed
+- [Tesla TPMS Sensor Replacement](/posts/tesla-tpms-sensor-replacement/) — Service tire pressure sensors with no extra lift time when wheels come off for brakes
+- [Tesla Coil Spring Replacement](/posts/tesla-coil-spring-replacement/) — Full suspension service context for combining brake and suspension work in one session
