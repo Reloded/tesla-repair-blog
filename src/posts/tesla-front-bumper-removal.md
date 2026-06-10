@@ -3,7 +3,7 @@ layout: post.njk
 title: "Tesla Model 3/Y Front Bumper Removal Guide: Step-by-Step with Clip Locations"
 description: "Remove Tesla Model 3/Y front bumper yourself: hidden bolt locations, all connectors mapped, torque specs, Highland/Juniper differences, fault codes. 2026 guide."
 date: 2026-02-10
-lastUpdated: 2026-06-02
+lastUpdated: 2026-06-10
 category: "Body & Exterior"
 difficulty: "Medium"
 readTime: "35 min read"
@@ -183,6 +183,30 @@ tools:
         "@type": "Answer",
         "text": "After reconnecting all harnesses and a full power cycle (Controls → Safety → Power Off, wait 3 minutes, restart), if Forward Collision Warning Unavailable persists, the radar module is likely damaged rather than just disconnected. Field test without service mode: if all radar-dependent features (automatic emergency braking, traffic-aware cruise control) are completely dead, assume module damage. If only the dashboard alert appears but radar-based features partially work, a cracked radar housing is more likely than total module failure. A damaged module requires replacement ($180–$350 for the module) plus Tesla Service Center radar recalibration ($150–$300 for the calibration procedure)."
       }
+    },
+    {
+      "@type": "Question",
+      "name": "Does the Tesla Cybertruck have a removable front bumper?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The Cybertruck does not have a traditional painted front bumper fascia. Its front face is stainless steel structural panels that are not DIY-removable. What is removable is the lower front air dam — a black polymer valance panel secured by T25 Torx screws and push-pin clips. This lower panel must come off to access front park assist sensors, the tow hook cover, and the front radar connector. Removal takes 15–25 minutes and is simpler than the full Model 3/Y bumper job because there are no side snap-clips, no hidden fender liner bolts, and the panel does not require wheel well liner removal."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What photos should I take before removing the Tesla front bumper for an insurance claim?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Before touching any fastener, photograph: (1) the full front face from 3 meters straight ahead, (2) both 45-degree quarter angles, (3) close-ups of every dent and scratch in sharp focus, (4) the odometer screen via the touchscreen Controls menu, and (5) the VIN plate on the driver-side A-pillar. During removal, photograph the EPP foam absorber from behind before disturbing it — compression zones visible only from the rear surface are evidence your insurer needs for crash absorber reimbursement. Most insurers will cover parts costs on DIY repairs when you have pre-repair photographic evidence. EU insurers typically require photos before repair work begins or may deny reimbursement."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I install a front lip spoiler while the Tesla bumper is off?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, and with the bumper off-car the installation is significantly easier than fighting access angles with the bumper fully installed. For 3M tape-on polyurethane lips: clean the bumper lower edge with 70% isopropyl alcohol, wait 5 minutes for evaporation, test-fit the lip without removing tape backing, mark position with painter's tape, then apply with firm thumb pressure from center outward. Let it cure 60 minutes at above 15°C before reinstalling the bumper. For rigid ABS or carbon fiber splitters with fasteners: install all mounting hardware into the bumper before it goes back on the car. Torque plastic-boss screws to 2–3 Nm. Do not install 3M tape adhesive below 10°C — it will not bond properly and will detach on the first warm day."
+      }
     }
   ]
 }
@@ -226,19 +250,22 @@ This guide covers the **2017–2023 Model 3 (pre-Highland)**, the **2020–2024 
 9. [Fastener Torque Specifications](#fastener-torque-specifications)
 10. [Model Y vs. Model 3: Key Differences](#model-y-vs-model-3-key-differences)
 11. [Pre-2021 vs. 2021+ vs. 2024 Highland vs. 2024+ Juniper](#pre-2021-vs-2021-vs-2024-highland-vs-2024-model-y-juniper)
-12. [Reinstallation: Step-by-Step Procedure](#reinstallation-step-by-step-procedure)
-13. [What to Inspect While the Bumper Is Off](#what-to-inspect-while-the-bumper-is-off)
-14. [Workshop Case Studies](#workshop-case-studies-real-world-tesla-bumper-removal-scenarios)
-15. [Buying a Replacement Bumper Fascia](#buying-a-replacement-bumper-fascia)
-16. [Tesla OEM Part Numbers and VIN-Specific Sourcing](#tesla-oem-part-numbers-and-vin-specific-sourcing)
-17. [Cold Weather Removal Considerations](#cold-weather-removal-considerations)
-18. [Troubleshooting: Bumper Won't Come Off?](#troubleshooting-bumper-wont-come-off)
-19. [Cost Comparison: DIY vs. Professional](#cost-comparison-diy-vs-professional)
-20. [Common Mistakes to Avoid](#common-mistakes-to-avoid)
-21. [When to Call a Professional](#when-to-call-a-professional)
-22. [Post-Reinstall Fault Codes and How to Clear Them](#post-reinstall-fault-codes-and-how-to-clear-them)
-23. [Frequently Asked Questions](#frequently-asked-questions)
-24. [Related Guides](#related-guides)
+12. [Tesla Cybertruck Front Lower Fascia Removal](#tesla-cybertruck-front-lower-fascia-air-dam-removal)
+13. [Reinstallation: Step-by-Step Procedure](#reinstallation-step-by-step-procedure)
+14. [What to Inspect While the Bumper Is Off](#what-to-inspect-while-the-bumper-is-off)
+15. [Workshop Case Studies](#workshop-case-studies-real-world-tesla-bumper-removal-scenarios)
+16. [Insurance Documentation Protocol](#collision-repair-insurance-documentation-protocol)
+17. [Buying a Replacement Bumper Fascia](#buying-a-replacement-bumper-fascia)
+18. [Tesla OEM Part Numbers and VIN-Specific Sourcing](#tesla-oem-part-numbers-and-vin-specific-sourcing)
+19. [Cold Weather Removal Considerations](#cold-weather-removal-considerations)
+20. [Troubleshooting: Bumper Won't Come Off?](#troubleshooting-bumper-wont-come-off)
+21. [Cost Comparison: DIY vs. Professional](#cost-comparison-diy-vs-professional)
+22. [Common Mistakes to Avoid](#common-mistakes-to-avoid)
+23. [When to Call a Professional](#when-to-call-a-professional)
+24. [Post-Reinstall Fault Codes and How to Clear Them](#post-reinstall-fault-codes-and-how-to-clear-them)
+25. [Front Lip and Chin Spoiler Installation](#front-lip-and-chin-spoiler-installation-while-the-bumper-is-accessible)
+26. [Frequently Asked Questions](#frequently-asked-questions)
+27. [Related Guides](#related-guides)
 
 ---
 
@@ -503,6 +530,58 @@ The step-by-step process above works for both vehicles.
 
 ---
 
+## Tesla Cybertruck Front Lower Fascia (Air Dam) Removal
+
+The Cybertruck's body architecture is fundamentally different from Model 3 and Model Y. The front face consists of **stainless steel structural panels** that are not DIY-removable. What you can remove is the **lower front air dam** — a black polymer valance panel that wraps the underside of the front end. You need it off to access:
+
+- Front park assist sensors (4 sensors embedded in the lower valance)
+- Tow hook cover and receiver plate
+- Front radar connector (on radar-equipped builds)
+- Underbody air deflector panel beneath it
+
+### Cybertruck Air Dam Fastener Layout
+
+| Fastener | Qty | Tool |
+|----------|-----|------|
+| T25 Torx screws — top edge of air dam | 6 | T25 bit |
+| Push-pin clips — bottom lip | 4–6 | Trim tool |
+| T20 Torx screws — tow hook cover sub-panel | 2 | T20 bit |
+
+**Total fasteners: ~12–14.** No wheel well liner removal required. No upper frunk access required. No hidden fender liner bolts.
+
+### Key Differences vs. Model 3/Y
+
+- **No painted plastic to crack.** The air dam is unpainted black polymer — scuff-resistant and forgiving of trim tool contact. The risk profile is much lower than removing a painted fascia.
+- **No side snap-clips.** The Cybertruck air dam does not wrap into the wheel well area and has no friction fender clips. Once the T25 screws and push-pin clips are out, the panel drops free.
+- **Separate tow hook cover.** The factory tow hook receiver sits behind a 2-piece sub-panel at center-lower. The lower piece snaps out by hand; the upper piece has 2 × T20 Torx screws. Remove the tow hook cover independently — you do not need to remove the full air dam just for tow hook access.
+- **Connector count is low.** Park assist sensors run off a single harness block at the center of the panel. Disconnect the block before pulling the air dam forward. On radar-equipped Cybertruck builds, the radar connector sits center-lower — photograph and disconnect it before the panel moves.
+
+### Cybertruck Air Dam Removal — Step by Step
+
+1. **Remove the tow hook cover sub-panel** (optional but clears access): 2 × T20 Torx screws on the upper section, hand-pop the lower section.
+2. **Remove 6 × T25 Torx screws** along the top edge of the air dam. They are spaced evenly across the width.
+3. **Pop the push-pin clips** along the bottom lip with a trim tool — 4 to 6 clips depending on build date.
+4. **Photograph the park assist harness connector** at the panel's center before disconnecting.
+5. **Disconnect the harness block** — squeeze the side latch and pull straight back.
+6. **Disconnect the radar connector** (if present) — single 4-pin plug, side squeeze tab.
+7. **Lower the panel** — it drops straight forward and down. One person can manage it solo; the panel weighs under 3 kg.
+
+**Time estimate:** 15–25 minutes. Significantly simpler than the full Model 3/Y bumper job.
+
+### Cybertruck Torque Specs (Community-Verified)
+
+| Fastener | Torque |
+|----------|--------|
+| T25 Torx (air dam top edge) | 3–4 Nm (27–35 in-lb) |
+| T20 Torx (tow hook cover) | 2–3 Nm (18–27 in-lb) |
+| Push-pin clips | Hand pressure only |
+
+**Cold-weather note:** The Cybertruck air dam polymer is more cold-tolerant than the TPO fascias on Model 3/Y, but push-pin clips still stiffen below −5°C. Carry 5–6 spare clips regardless.
+
+For Cybertruck tow hitch and towing setup after the air dam is off, see our [Tesla tow hitch installation guide](/posts/tesla-tow-hitch-installation/).
+
+---
+
 ## Reinstallation: Step-by-Step Procedure
 
 Reinstallation takes 20–40 minutes. The most common mistake is pushing the bumper into place before reconnecting the harnesses — once the bumper seats, connectors are hard to reach. Follow this order exactly.
@@ -650,6 +729,49 @@ Three real-world cases showing what actually happens during a Tesla front bumper
 **Cold-weather cost:** Two broken clips (€0.90 total in parts, replaced from spare pack) and 45 minutes waiting time. Not replacing those two clips would have left the wheel well liner loose — a rattle source and water intrusion point.
 
 **Takeaway:** Below −5°C, plan the warm-up time into your schedule. The 45 minutes is not wasted — it's the difference between a clean job and a cracked fascia. Always carry a spare clip pack; in cold conditions, budget 3–5 broken clips minimum.
+
+---
+
+## Collision Repair: Insurance Documentation Protocol
+
+If you're removing the front bumper because of a collision — even a minor parking lot tap — the documentation you create during this process has direct monetary value in an insurance claim. 15 minutes of systematic photography before, during, and after the job can mean the difference between full reimbursement and a disputed claim.
+
+### Before Removal: Build Your Insurance Photo Set
+
+Take these photos **before touching any fastener**:
+
+1. **Full front face from 3 meters** — both sides visible, straight ahead, car on flat ground, good lighting
+2. **Left and right 45-degree quarter views** — shows the extent of damage from both angles
+3. **Close-ups of every damage point** — each dent, crack, scuff, or scratch in sharp focus, with a coin or ruler for scale
+4. **Odometer screen** — tap Controls on the touchscreen and photograph mileage display (confirms vehicle state at time of claim)
+5. **VIN plate on driver-side A-pillar** — confirms vehicle identity for the claim file
+6. **Date-stamped photos** — most modern phone cameras embed GPS and timestamp in EXIF data; verify your camera app is not stripping this metadata
+
+### During Removal: Document Hidden Damage
+
+The real insurance value of bumper removal is finding damage invisible from the outside:
+
+- **EPP foam absorber** — photograph the foam from behind before disturbing it. Compression zones, cracks, or crumbling visible only from the rear surface are direct evidence the foam absorbed impact energy. This is the primary document for getting the foam absorber replacement covered ($40–$80 US / €40–€75 EU parts cost).
+- **Bumper beam deformation** — photograph along the full beam length from one end to show any bow or kink. A deformed beam is a structural part; insurers cover replacement when photographic evidence exists.
+- **Frame rail condition** — photograph exposed frame rail ends. Pre-existing rust is distinguishable from fresh deformation; documenting both protects you from disputes about unrelated damage.
+- **Connector and harness condition** — photograph the wiring harness before you touch it. If a connector is already damaged, this confirms it was pre-existing and not caused by your repair work.
+
+### What Insurers Need for DIY Reimbursement
+
+Most insurers (US and EU) will cover **parts costs** on a DIY repair when you provide:
+
+| Document | Purpose |
+|----------|---------|
+| Pre-repair photos (dated) | Confirms damage existed before repair |
+| Parts receipts | Itemized cost documentation |
+| OEM or aftermarket part documentation | Confirms fitment standard |
+| Post-repair photos | Confirms the repair was completed |
+
+**Labor reimbursement for DIY** varies by policy. In the US, some policies include a standard "R&R" allowance ($150–$350) even for DIY work — request a **line-item estimate** from your insurer and specifically ask whether the bumper R&R allowance can be retained when you perform the removal and reinstallation yourself. Many adjusters will approve this on request.
+
+**EU insurance note:** Most EU jurisdictions require pre-repair photographic evidence submitted to the insurer *before* any repair begins. If you remove the bumper before contacting your insurer, they may reduce or deny the claim. Email or upload photos to your insurer's claim portal and get a confirmation before starting work.
+
+For paint damage that goes beyond what bumper removal can fix, see our [Tesla scratch repair guide](/posts/tesla-scratch-repair-guide/) for touch-up protocols and our [PDR dent repair guide](/posts/tesla-dent-repair-pdr-guide/) for paintless options.
 
 ---
 
@@ -845,6 +967,40 @@ Most faults (PWS, USS, radar) clear immediately after the power cycle confirms t
 
 ---
 
+## Front Lip and Chin Spoiler Installation (While the Bumper Is Accessible)
+
+If you're removing the front bumper for another repair, this is the right moment to add a front lip spoiler, chin splitter, or aero diffuser. Installation with the bumper off-car is significantly cleaner than fighting restricted access angles on an installed bumper — and the adhesion quality for tape-on lips is meaningfully better on a freshly cleaned, room-temperature surface.
+
+### Front Lip Options for Tesla Model 3, Model Y, and Cybertruck
+
+| Type | Install Method | Cost (US) | Cost (EU) | Notes |
+|------|---------------|-----------|-----------|-------|
+| Soft polyurethane lip (tape-on) | 3M VHB tape only | $60–$150 ([Amazon US](https://www.amazon.com/s?k=Tesla+Model+3+front+lip+spoiler&tag=diyrepair07-20)) | €55–€130 ([Amazon DE](https://www.amazon.de/s?k=Tesla+Model+3+Frontspoiler&tag=diyrepair-21)) | No drilling; easiest to add or remove; most popular choice |
+| Rigid ABS chin splitter | Underbody screws + tape | $80–$200 | €70–€180 | Off-car installation gives clean, consistent torque on all mount points |
+| Maxton Design lip/side skirt combo | Screws + tape tabs | $120–$280 | €80–€250 | Designed for OEM bumper geometry; very popular in EU; includes hardware |
+| Carbon fiber splitter | Screws + side mounts | $200–$600 | €180–€550 | Professional fitment recommended; asymmetric fit is common on cheap options |
+
+### Tape-On Lip: Off-Car Installation Process
+
+1. **Clean the bumper lower edge** with 70% isopropyl alcohol. Wipe all wax, polish, or residue off the surface. Wait 5 minutes for full evaporation — adhesive applied over residue will delaminate within weeks.
+2. **Temperature check.** The surface and ambient temperature must both be above 15°C (60°F). Below this, 3M VHB tape does not achieve its rated bond strength. If working in cold conditions, bring the bumper indoors for 30 minutes before applying.
+3. **Dry-fit the lip** without removing the tape backing. Position it, mark the upper edge alignment with a strip of painter's tape along the bumper face — this is your reference line.
+4. **Apply the tape.** Peel 15–20 cm of backing at a time and work from the center outward toward each end. Apply firm, continuous thumb pressure — at least 10 seconds of pressure per 10 cm section. Use a rubber roller if available; roller-applied 3M tape bonds 2–3× stronger than thumb-pressed only.
+5. **Cure time.** Leave the lip in place without stress for 60 minutes at room temperature before reinstalling the bumper. The full 3M VHB cure to rated strength takes 72 hours — avoid high-pressure car washes or highway speeds above 140 km/h for the first 72 hours.
+
+### Rigid Splitter: Off-Car Fastener Installation
+
+For ABS or carbon fiber splitters that use screws into the bumper's lower mounting points:
+
+1. **Identify the existing lower boss locations** on the bumper underside — these are the same plastic boss locations used by the OEM underbody screws. On Model 3 pre-Highland, two of these are T30 boss locations near the center; on Highland and Juniper, they are T40.
+2. **Install all mounting hardware finger-tight** before the bumper goes back on the car. Confirm each screw is threading into the boss — not into adjacent plastic.
+3. **Torque to the manufacturer's specification.** If not specified, use 2–3 Nm for screws into plastic — the same limit as all OEM Torx screws at these locations. Overtightening strips the boss and requires a thread insert repair.
+4. **Check clearance** between the splitter's underside and the ground clearance of the vehicle before reinstalling the bumper. Model 3 has 140 mm (5.5") of front clearance; a splitter that hangs 25 mm reduces this to 115 mm — know this before you install and hit a speed bump at 50 km/h.
+
+For how a protective coating can complement a new front lip, see our [Tesla ceramic coating guide](/posts/tesla-ceramic-coating/) — coating the bumper surface before reassembly is more cost-effective than coating an installed bumper.
+
+---
+
 ## Frequently Asked Questions
 
 **How long does it take to remove the Tesla front bumper?**
@@ -899,13 +1055,17 @@ After reseating all connectors and doing a full power cycle (Controls → Safety
 
 ## Related Guides
 
-- [Tesla Paint Chip Repair Guide](/posts/tesla-paint-chip-repair/) — Fix chips on the newly accessible bumper surface
-- [Tesla Headlight Replacement Guide](/posts/tesla-headlight-replacement/) — With the bumper off, headlight access is straightforward
+- [Tesla Paint Chip Repair Guide](/posts/tesla-paint-chip-repair/) — Fix chips on the newly accessible bumper surface while it's off-car
+- [Tesla Headlight Replacement Guide](/posts/tesla-headlight-replacement/) — With the bumper off, headlight mounting bolts are straightforward to reach
 - [Tesla PPF Installation Guide](/posts/tesla-ppf-installation/) — Many PPF installers remove the bumper for a full, edge-free wrap
-- [Tesla Headlight Condensation Fix](/posts/tesla-headlight-condensation/) — While the bumper is off, inspect headlight seals
-- [Tesla Parking Sensor Replacement](/posts/tesla-parking-sensor-replacement/) — USS sensors are accessed through the removed bumper
-- [Tesla Panel Gap Adjustment](/posts/tesla-panel-gap-adjustment/) — Get bumper-to-fender gaps dialed in after reinstallation
-- [Tesla Jack Points and Lifting Guide](/posts/tesla-jack-points-lifting-guide/) — How to safely raise the car before this job
+- [Tesla Headlight Condensation Fix](/posts/tesla-headlight-condensation/) — Inspect and reseal headlight-to-bumper foam while you have access
+- [Tesla Parking Sensor Replacement](/posts/tesla-parking-sensor-replacement/) — USS sensors press-fit into the bumper from behind; access requires removal
+- [Tesla Panel Gap Adjustment](/posts/tesla-panel-gap-adjustment/) — Dial in bumper-to-fender and bumper-to-hood gaps after reinstallation
+- [Tesla Jack Points and Lifting Guide](/posts/tesla-jack-points-lifting-guide/) — How to safely raise the car before starting underbody fastener work
+- [Tesla Rear Bumper Removal Guide](/posts/tesla-rear-bumper-removal/) — Same skill set applies to the rear fascia; covers Model 3/Y/S/X rear bumpers
+- [Tesla Rust Prevention and Undercoating Guide](/posts/tesla-rust-prevention-undercoating/) — While the front frame rails are exposed, apply rust-preventive primer
+- [Tesla Scratch Repair Guide](/posts/tesla-scratch-repair-guide/) — For touch-up work on the bumper surface before or after reinstallation
+- [Tesla Ceramic Coating Guide](/posts/tesla-ceramic-coating/) — Coat the bumper off-car for better coverage and lower cost than on-car application
 
 ---
 
