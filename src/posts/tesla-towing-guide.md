@@ -1,12 +1,12 @@
 ---
 layout: post.njk
 title: "Tesla Towing Guide 2026: All Models incl. Cybertruck, Tow Mode, Brake Controllers & EU Rules"
-description: "Tesla towing guide 2026: all model ratings (Cybertruck 11k lbs, Model X 5k, Model Y 3.5k), Tow Mode setup, real range loss tables, brake controller wiring & EU speed limits."
+description: "Tesla towing 2026: Cybertruck 11k lbs, Model X 5k, Model Y 3.5k. Tow Mode setup, range data, brake controllers, US/EU speed limits & horse trailer guide."
 date: 2026-03-01
-lastUpdated: 2026-06-03
+lastUpdated: 2026-06-11
 category: "Driving & Features"
 difficulty: "Easy"
-readTime: "22 min read"
+readTime: "30 min read"
 models: "Model 3, Model Y, Model S, Model X"
 emoji: "🚛"
 tools:
@@ -190,6 +190,46 @@ tools:
         "@type": "Answer",
         "text": "Liability coverage from your Tesla's policy typically extends to damage you cause to others while towing — but the trailer itself is usually not covered for physical damage under your Tesla's comprehensive or collision policy. You need a separate trailer insurance policy or rider. In the EU, most countries require separate trailer liability registration (Anhänger-Haftpflicht) for trailers over 750 kg. Declare any trailer to your insurer before the first towing trip — failure to do so can void the liability extension."
       }
+    },
+    {
+      "@type": "Question",
+      "name": "Can you tow with Tesla Full Self-Driving (FSD) active?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Enabling Tow Mode disables all FSD and Autopilot steering features: Autosteer, Auto Lane Change, Navigate on Autopilot, Autopark, and Smart Summon. Traffic-Aware Cruise Control (TACC) and automatic emergency braking remain active in Tow Mode. As of 2026 firmware, Tesla has no automatic trailer detection — Tow Mode must be manually enabled via Controls > Pedals & Steering before every tow trip. It resets when you park and exit."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can a Tesla Model Y tow a horse trailer?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Not practically. A standard 2-horse bumper pull trailer weighs 2,800–3,600 lbs empty. Adding one horse (1,100 lbs) puts total weight at 3,900–4,700 lbs — above the Model Y's 3,500 lb limit. A light 1-horse trailer under 2,400 lbs with a single horse fits, but leaves no margin for tack and water. The Model X (5,000 lb limit) is the minimum practical Tesla for horse trailer towing. The Cybertruck AWD (7,500 lbs) or Cyberbeast (11,000 lbs) handles full horse trailer rigs."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the maximum safe towing speed for a Tesla in the US?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "In the US, most states allow posted highway speeds while towing (65–70 mph on interstates). California lowers the limit to 55 mph on 2-lane roads. Tesla's Tow Mode caps maximum speed at 90 mph regardless of posted limits. For safety and range: 55–62 mph is optimal — trailer sway risk rises sharply above 65 mph, and range loss is 15–20% worse at 70 mph vs 60 mph with a large trailer."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I enable Tow Mode on the 2025–2026 Model Y Juniper?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "On 2025–2026 Model Y Juniper (software 2024.x and later): tap Controls on the main touchscreen, then tap Pedals & Steering, then toggle Tow Mode on. A trailer icon appears when active. Tow Mode resets every time you park and exit — re-enable it before every drive with a trailer. If Tow Mode is greyed out, update your software via Settings > Software Update. The Juniper's tow rating (3,500 lbs / 1,588 kg AWD/LR) is unchanged from the 2020–2024 Model Y."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if I tow over my Tesla's weight limit?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Exceeding the published tow rating or GVWR risks: (1) drivetrain and suspension damage — rear shock absorbers, control arm bushings, and ball joints under sustained overload; (2) voided warranty coverage for those components; (3) compromised braking — a heavier trailer overwhelms the Tesla's brakes if the trailer lacks electric brakes with a controller; (4) trailer sway — overloaded trailers are more prone to sway on grades and in crosswinds. Weigh your loaded trailer at a public truck scale before any trip approaching the limit."
+      }
     }
   ]
 }
@@ -227,21 +267,24 @@ tools:
 13. [Towing Mirror Extensions](#towing-mirror-extensions-when-the-law-requires-them)
 14. [Using ABRP for Towing Route Planning](#using-abrp-for-towing-route-planning)
 15. [Towing in Europe: Speed Limits and Requirements](#towing-in-europe-speed-limits-and-requirements)
-16. [2025–2026 Model Updates for Towing](#20252026-model-updates-for-towing)
-17. [Winter Towing Tips](#winter-towing-tips)
-18. [Safety Tips](#safety-tips-for-towing-with-a-tesla)
-19. [Trailer Sway: What to Do](#trailer-sway-what-to-do)
-20. [What About Autopilot?](#what-about-autopilot)
-21. [Common Tesla Towing Mistakes](#common-tesla-towing-mistakes)
-22. [Boat Towing Special Considerations](#boat-towing-special-considerations)
-23. [RV and Camper Type Guide](#rv-and-camper-type-guide-for-tesla-owners)
-24. [Tesla Towing Troubleshooting](#tesla-towing-troubleshooting)
-25. [Cost of Towing With a Tesla](#cost-of-towing-with-a-tesla)
-26. [Frequently Asked Questions](#frequently-asked-questions)
-27. [Cybertruck Towing](#cybertruck-towing)
-28. [State-by-State Brake Controller Requirements](#state-by-state-brake-controller-requirements)
-29. [Trailer Breakaway Switch](#trailer-breakaway-switch)
-30. [Trailer Tire Pressure Monitoring (TPMS)](#trailer-tire-pressure-monitoring-tpms)
+16. [US Towing Speed Limits by State](#us-towing-speed-limits-by-state)
+17. [Tesla vs. Other EV Trucks: Towing Comparison 2026](#tesla-vs-rivian-r1t-vs-ford-f-150-lightning-ev-towing-comparison-2026)
+18. [2025–2026 Model Updates for Towing](#20252026-model-updates-for-towing)
+19. [Winter Towing Tips](#winter-towing-tips)
+20. [Safety Tips](#safety-tips-for-towing-with-a-tesla)
+21. [Trailer Sway: What to Do](#trailer-sway-what-to-do)
+22. [What About Autopilot?](#what-about-autopilot)
+23. [Common Tesla Towing Mistakes](#common-tesla-towing-mistakes)
+24. [Boat Towing Special Considerations](#boat-towing-special-considerations)
+25. [Horse Trailer Towing Guide](#horse-trailer-towing-guide-for-tesla-owners)
+26. [RV and Camper Type Guide](#rv-and-camper-type-guide-for-tesla-owners)
+27. [Tesla Towing Troubleshooting](#tesla-towing-troubleshooting)
+28. [Cost of Towing With a Tesla](#cost-of-towing-with-a-tesla)
+29. [Frequently Asked Questions](#frequently-asked-questions)
+30. [Cybertruck Towing](#cybertruck-towing)
+31. [State-by-State Brake Controller Requirements](#state-by-state-brake-controller-requirements)
+32. [Trailer Breakaway Switch](#trailer-breakaway-switch)
+33. [Trailer Tire Pressure Monitoring (TPMS)](#trailer-tire-pressure-monitoring-tpms)
 
 ---
 
@@ -702,6 +745,64 @@ In most EU countries, a standard **Category B** license covers car + trailer com
 
 For EU Tesla owners, see our [Tesla Parts Europe Buying Guide](/posts/tesla-parts-europe-buying-guide/) for sourcing OEM and aftermarket components. The [7-pin trailer harness for EU Teslas](https://www.amazon.de/s?k=tesla+model+y+trailer+wiring+harness+13-pin&tag=diyrepair-21) is a common purchase for owners without the factory tow package.
 
+---
+
+## US Towing Speed Limits by State
+
+Unlike Europe, the US has no uniform federal towing speed limit. Posted highway speeds generally apply to passenger vehicles with light trailers, but many states lower the limit for towing combinations. Tesla's Tow Mode caps maximum speed at 90 mph regardless of posted limits.
+
+| State | Speed Limit While Towing | Notes |
+|-------|--------------------------|-------|
+| **California** | 55 mph (2-lane roads) / 65 mph (divided highways) | Strictest in the US; enforced on all trailer combinations |
+| **Texas** | Posted speed (up to 70 mph) | No specific towing reduction; right lane recommended |
+| **Florida** | Posted speed (up to 70 mph) | Stay right when towing |
+| **New York** | Posted speed (max 65 mph on freeways) | Stay right; avoid left lane with trailer |
+| **Colorado** | 65 mph on interstates | Mountain corridor advisory limits: check posted signs |
+| **Michigan** | Posted speed | No towing-specific reduction |
+| **Washington** | Posted speed (70 mph max) | Advisory 60 mph for trailers over 8 feet wide |
+| **Oregon** | 65 mph on interstates with trailer | Posted 65 applies to towing combinations |
+| **Nevada** | 70 mph on interstate / 55 mph on 2-lane | No extra towing reduction unless posted |
+| **Minnesota** | 70 mph on interstate | Stay in right lane with trailer |
+| **Arizona** | Posted speed (up to 75 mph) | No specific towing reduction |
+| **Georgia** | Posted speed (up to 70 mph) | Keep right, use left only to pass |
+
+**Why you should tow slower than the legal limit:** Trailer sway risk increases sharply above 65 mph. A fully loaded 3,000 lb trailer at 70 mph with a crosswind gust is a controllable situation; at 75 mph, the same gust can trigger sway that is difficult to stop. Physics recommends **55–62 mph** for any trailer over 2,000 lbs — this also recovers 15–20% range vs. towing at 70 mph.
+
+**Weight-based reductions:** California and Oregon apply lower posted limits specifically to heavier trailer combinations above certain gross weight thresholds. When in doubt, check your state's DMV current rules for vehicle + trailer combination weights.
+
+---
+
+## Tesla vs. Rivian R1T vs. Ford F-150 Lightning: EV Towing Comparison 2026
+
+If you are shopping for an EV specifically for frequent towing, the Tesla Cybertruck is not the only option. Three electric trucks dominate the 2026 towing market — each with different strengths depending on your priorities.
+
+| Spec | Tesla Cybertruck Cyberbeast | Rivian R1T (Max Pack) | Ford F-150 Lightning Platinum |
+|------|-----------------------------|-----------------------|-------------------------------|
+| Max Tow Rating | **11,000 lbs / 4,990 kg** | 11,000 lbs / 4,990 kg | 10,000 lbs / 4,536 kg |
+| Tongue Weight | 1,100 lbs / 499 kg | 1,100 lbs / 499 kg | 1,000 lbs / 454 kg |
+| Rated Range (unloaded) | ~320 miles (Cyberbeast) | ~410 miles (Max Pack) | ~320 miles (Extended Range) |
+| Fast Charging Network | Supercharger (largest in NA) | CCS (EA + third-party) | Ford BlueOval + CCS |
+| In-bed AC Power | 240V 1,600W + two 120V 1,875W | 240V + 120V outlets | 240V 7.2kW Pro Power Onboard |
+| Starting MSRP (tow config) | ~$99,990 (AWD) | ~$84,000 | ~$74,995 (Extended Range) |
+
+### Where the Cybertruck wins
+
+The Supercharger network is the most reliable and widely deployed charging infrastructure in North America — critical when towing long distances on unfamiliar routes. Tesla's Tow Mode integrates deeply with the air suspension (auto-adjusts to towing height on Cyberbeast) and the dashboard shows real-time per-mile consumption data. The 240V bed outlet can power a proportional brake controller module or trailer accessories without a converter.
+
+### Where the Rivian R1T wins
+
+CCS compatibility means access to Electrify America, ChargePoint, Blink, and campground CCS stations — important for routes where Superchargers are sparse. The Max Pack's 410-mile rating translates to 150–200 real-world towing miles, reducing stop frequency vs. the Cybertruck's ~120–160 miles towing near capacity. The Gear Tunnel adds genuine utility for organizing towing equipment.
+
+### Where the F-150 Lightning wins
+
+The Lightning's **7.2kW Ford Pro Power Onboard** is the best in-truck generator equivalent — it can run power tools, a campsite, or charge a camper's battery simultaneously. Familiarity, dealer network, and truck-bed utility make it the most practical for trades. If you already own a trailer wired for F-150 compatibility, no adapter is needed.
+
+### The verdict for Tesla owners
+
+If you already use the Supercharger network and want the most range-efficient towing EV within the Tesla ecosystem, the **Cybertruck AWD ($99,990) provides the best balance**: 7,500 lb tow rating, ~318 miles unloaded, and seamless Supercharger integration. For occasional towing plus maximum unloaded range, the **Model X (5,000 lbs, ~335 miles)** remains compelling at a lower price point than the Cybertruck.
+
+---
+
 ## 2025–2026 Model Updates for Towing
 
 **Model Y Juniper (2025+):** The 2025 Model Y refresh (Juniper) retains the 3,500 lb / 1,588 kg tow rating. The updated front suspension geometry has not changed the tow rating. All existing aftermarket hitches (Curt, EcoHitch) for 2020–2024 Model Y require verification for compatibility with the new Juniper frame — check manufacturer fitment guides before ordering.
@@ -861,6 +962,51 @@ The Model Y and Model X backup cameras provide good rearward visibility, but bac
 
 ---
 
+## Horse Trailer Towing Guide for Tesla Owners
+
+Towing a horse trailer is a specialized use case: the load is living, unpredictable, and dynamically shifts weight in ways that inert cargo never does. A horse that moves toward the rear of the trailer mid-trip drops tongue weight suddenly — a destabilization risk that no stability control fully compensates for. The requirements are stricter than standard towing.
+
+### Horse Trailer Weight Reference
+
+| Trailer Type | Trailer Empty | + 1 Horse | + 2 Horses | Total Loaded |
+|---|---|---|---|---|
+| 2-horse bumper pull (no LQ) | 2,800–3,600 lbs | +1,100 lbs | +2,200 lbs | 3,900–5,800 lbs |
+| 3-horse slant-load bumper pull | 3,200–4,400 lbs | +1,100 lbs | +2,200 lbs | 4,300–6,600 lbs |
+| 2-horse with dressing room | 3,600–5,000 lbs | +1,100 lbs | +2,200 lbs | 4,700–7,200 lbs |
+| Gooseneck (2-horse LQ) | 8,000–12,000 lbs | — | — | Beyond any Tesla |
+
+**Average horse weight:** 1,000–1,200 lbs for a typical 16-hand horse. Add 100–150 lbs for tack, feed, and water per horse.
+
+### Which Tesla Can Actually Tow a Horse Trailer?
+
+**Model Y (3,500 lb limit):** Practically unsuitable. A 2-horse bumper pull with two average horses hits 4,900–5,800 lbs — far over limit. Even a single-horse trailer (2,800 lbs empty + 1,100 lbs horse = 3,900 lbs) exceeds the Model Y's rating. A very light 1-horse trailer under 2,200 lbs with a small horse (under 1,100 lbs) technically fits, but leaves no margin for water, tack, or a second rider's gear.
+
+**Model X (5,000 lb limit):** The minimum practical Tesla for horse trailer towing. A 2-horse bumper pull (no living quarters) with one horse (3,600 + 1,100 = 4,700 lbs) fits with 300 lbs of margin — tight but workable if you load light. Two horses (3,600 + 2,200 = 5,800 lbs) exceeds the limit. **Model X can safely tow one horse in most 2-horse trailer configurations.**
+
+**Cybertruck AWD (7,500 lb limit):** Handles a 2-horse bumper pull with two horses plus gear comfortably (5,800 lbs loaded = 77% of limit). A 3-horse slant-load approaches the limit when fully loaded.
+
+**Cybertruck Cyberbeast (11,000 lb limit):** The only Tesla that handles a 2-horse trailer with living quarters.
+
+### Horse-Trailer-Specific Safety Requirements
+
+**Use a proportional brake controller, not time-delayed.** Horse weight shifts dynamically — a proportional accelerometer-type controller (Tekonsha Prodigy P3, Curt 51170) reacts to actual deceleration force, not a fixed time delay. When a horse moves suddenly and increases tongue weight, a proportional controller adjusts braking force in real time. A time-delayed unit cannot.
+
+**Tongue weight is critical and variable.** Horses naturally stand toward the front of the trailer at rest, creating normal tongue weight. If a horse moves to the rear during transit, tongue weight drops — sometimes suddenly. Always load with the heaviest horse at the front (nearest the tow vehicle). Target 10–12% tongue weight; never below 8% for a live load.
+
+**Trailer sway response.** If sway starts with a horse trailer, do not rely on Tesla stability control alone — apply the manual brake override on the proportional controller to apply trailer brakes independently. This pulls the trailer back into line without jerking the car.
+
+**Ventilation stops.** In summer, stop every 3–4 hours for water and ventilation checks. Horses overheat faster inside enclosed trailers than cargo. Plan 20-minute stops — this affects your charging stop logistics, so factor it into ABRP planning.
+
+**Choose a slant-load trailer over straight-load.** Horses positioned at a 45-degree angle to the direction of travel produce less sway than horses loaded straight back-to-front. Slant-load trailers also allow horses to brace more naturally.
+
+**Hitch maintenance matters more with livestock.** Horses detect vibration and shift weight when the hitch rattles. Keep the hitch ball lubricated (anti-seize compound), all pins tight, and the breakaway cable in good condition. A rattling hitch that unnerves an animal creates exactly the weight-shift dynamics you are trying to avoid.
+
+**After every horse trailer trip:** Rinse the trailer floor, hitch receiver, and 7-pin connector pins. Manure contains ammonia that corrodes metal faster than road salt. Apply dielectric grease to the connector pins after cleaning.
+
+[Trailer breakaway kit on Amazon US](https://www.amazon.com/s?k=trailer+breakaway+kit+electric+brake&tag=diyrepair07-20) | [Proportional brake controller (Tekonsha Prodigy P3)](https://www.amazon.com/s?k=tekonsha+prodigy+p3+brake+controller&tag=diyrepair07-20)
+
+---
+
 ## RV and Camper Type Guide for Tesla Owners
 
 Choosing the right camper for a Tesla is about pairing trailer weight to tow rating *and* managing range loss. Here is what works.
@@ -985,6 +1131,21 @@ No. Towing within rated limits does not damage or accelerate degradation of the 
 
 **What ABRP settings should I use for towing?**
 Select your Tesla model, set reference consumption to 420–480 Wh/mile for a 2,000–3,000 lb trailer (vs ~300 Wh/mile unloaded), and plan Supercharger stops with 20% arrival SoC. This gives you a safe buffer for unexpected headwinds or detours. Do not use Tesla's built-in navigation for route planning while towing — it does not account for trailer drag and will underestimate the number of stops needed.
+
+**Can I tow with Tesla FSD or Autopilot?**
+Tow Mode disables all FSD and Autopilot steering features: Autosteer, Auto Lane Change, Navigate on Autopilot, Autopark, and Smart Summon. Traffic-Aware Cruise Control (TACC) and automatic emergency braking remain active. Tesla has no automatic trailer detection as of 2026 — you must manually enable Tow Mode before every trip. It resets each time you park and exit.
+
+**What EV truck is better for towing: Tesla Cybertruck or Rivian R1T?**
+Both are rated at 11,000 lbs maximum. The Cybertruck wins on charging infrastructure — the Supercharger network is the most reliable in North America, which matters most on long towing trips. The Rivian R1T Max Pack wins on unloaded range (410 miles vs 318 miles for Cyberbeast) and CCS compatibility for campground charging. For Tesla ecosystem users who already Supercharge, the Cybertruck is the cleaner choice.
+
+**Can a Model Y tow a horse trailer?**
+Not practically. A standard 2-horse bumper pull trailer weighs 2,800–3,600 lbs empty. Adding one horse (1,100 lbs) puts total loaded weight at 3,900–4,700 lbs — above the Model Y's 3,500 lb limit. The Model X (5,000 lb limit) is the minimum practical Tesla for horse trailer towing (one horse per trip on most trailers). The Cybertruck handles two-horse and larger configurations.
+
+**How fast can I tow with my Tesla?**
+Tesla's Tow Mode caps speed at 90 mph. Legal limits vary: most US states allow posted highway speeds while towing (65–70 mph on interstates), though California reduces the limit to 55 mph on 2-lane roads. EU limits are typically 80–90 km/h. Physics recommends 55–62 mph for any trailer over 2,000 lbs — sway risk rises sharply above 65 mph, and range loss is 15–20% worse at 70 mph vs 60 mph.
+
+**What happens if I exceed my Tesla's tow rating?**
+Exceeding the published tow rating or GVWR risks: drivetrain and suspension damage (rear shocks, control arm bushings, ball joints); voided warranty coverage for those components; compromised braking if the trailer has no electric brake controller; and increased trailer sway risk on grades and in crosswinds. Weigh your loaded trailer at a public truck scale before any trip near the limit — posted trailer weights are dry weights that exclude water, fuel, and gear.
 
 ## Cybertruck Towing
 
