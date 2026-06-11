@@ -43,12 +43,23 @@
       var DE_MARKET = ['DE','AT','CH','NL','BE','FR','IT','ES','LU','PL','CZ','SK','HU','SI','DK','SE','FI','NO','IE','GB','PT','GR','EE','LV','LT','HR','BG','RO','MT','CY','IS'];
       var SG_MARKET = ['SG'];
       var UNSUPPORTED = ['CN','HK','TW','IN','JP','KR','TH','VN','MY','PH','ID','AU','NZ','ZA','BR','AR','AE','SA','EG','TR','RU','UA','IL'];
+      // Fallback when the trace fetch fails or returns no loc (ad blockers and some
+      // in-app webviews block /cdn-cgi/ paths). Timezone is free, instant, offline.
+      // Matters most for SG: the Shopee/Lazada buttons are default-hidden, so a failed
+      // trace permanently hides them for SG visitors without this.
+      function tzFallback() {
+        try {
+          var tz = (Intl.DateTimeFormat().resolvedOptions().timeZone || '');
+          if (tz === 'Asia/Singapore') return 'sg';
+        } catch (e) {}
+        return 'unknown';
+      }
       fetch('/cdn-cgi/trace', { cache: 'no-store' })
         .then(function(r) { return r.text(); })
         .then(function(text) {
           var m = text.match(/^loc=(.+)$/m);
           var c = (m && m[1]) ? m[1].trim().toUpperCase() : 'XX';
-          var market = 'unknown';
+          var market = (c === 'XX') ? tzFallback() : 'unknown';
           if (US_MARKET.indexOf(c) !== -1) market = 'us';
           else if (DE_MARKET.indexOf(c) !== -1) market = 'de';
           else if (SG_MARKET.indexOf(c) !== -1) market = 'sg';
@@ -61,7 +72,10 @@
           }
         })
         .catch(function() {
-          document.documentElement.setAttribute('data-market', 'unknown');
+          document.documentElement.setAttribute('data-market', tzFallback());
+          if (typeof gtag === 'function') {
+            gtag('set', 'user_properties', { market: document.documentElement.getAttribute('data-market'), geo_detect: 'trace_failed' });
+          }
         });
     })();
   </script>
