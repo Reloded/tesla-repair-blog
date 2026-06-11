@@ -4,15 +4,15 @@ layout: post.njk
 title: "Tesla Vision vs Radar: Why Tesla Ditched Sensors (2026)"
 description: "Why did Tesla remove radar and LiDAR? Learn which models are affected, how Tesla Vision compares, and what it means for Autopilot safety and performance."
 date: 2026-02-16
-lastUpdated: 2026-04-26
+lastUpdated: 2026-06-11
 category: "Technology"
 difficulty: "Informational"
 readTime: "10 min read"
 models: "All Models"
-emoji: "📷"
+emoji: "ðŸ“·"
 faq:
   - q: "Why did Tesla remove radar from its cars?"
-    a: "Tesla removed radar in 2021-2022 because they believe cameras paired with AI can exceed radar's capabilities. Radar had false-positive issues and limited the AI's potential — Tesla bet everything on pure vision."
+    a: "Tesla removed radar in 2021-2022 because they believe cameras paired with AI can exceed radar's capabilities. Radar had false-positive issues and limited the AI's potential â€” Tesla bet everything on pure vision."
   - q: "Is Tesla Vision better than radar?"
     a: "Tesla Vision has improved significantly and handles most scenarios as well as radar did. However, radar had advantages in heavy rain and fog where cameras struggle. Overall FSD performance is now comparable or better."
   - q: "Which Tesla models have radar?"
@@ -32,7 +32,7 @@ If you've owned a Tesla for a few years, you might remember the days when your c
 
 That left a lot of owners confused. You paid for hardware that's now doing nothing. Some people assumed it was a cost-cutting move. Others thought it was temporary. The reality is more interesting than either of those takes.
 
-Tesla made a deliberate choice to drop radar and LiDAR and bet everything on cameras. They're the only major automaker doing this, and it's worth understanding why — especially if you work on your own car.
+Tesla made a deliberate choice to drop radar and LiDAR and bet everything on cameras. They're the only major automaker doing this, and it's worth understanding why â€” especially if you work on your own car.
 
 ## What Tesla Used to Have
 
@@ -44,11 +44,11 @@ This was the industry standard approach, and it worked well enough. Tesla used i
 
 ## Why Tesla Killed Radar
 
-In mid-2021, Tesla started shipping new Model 3 and Model Y vehicles without radar. Shortly after, they pushed software updates that disabled radar on older vehicles too, switching everyone to what they call "Tesla Vision" — a purely camera-based system.
+In mid-2021, Tesla started shipping new Model 3 and Model Y vehicles without radar. Shortly after, they pushed software updates that disabled radar on older vehicles too, switching everyone to what they call "Tesla Vision" â€” a purely camera-based system.
 
 The core argument comes down to something called sensor contention. When your car has both cameras and radar, and they disagree about what's happening in front of you, the software has to pick one. That decision isn't straightforward.
 
-Here's a real example. Radar is excellent at detecting objects and measuring their speed, but it can't tell the difference between a stopped car and an overhead bridge. Both look like solid objects at a fixed distance. Cameras can obviously tell these apart instantly, but radar can't. When the radar screams "obstacle ahead" and the camera says "that's just a bridge," the system has to arbitrate. Get that wrong, and you get phantom braking — that sudden, hard brake for no visible reason that plagued Teslas for years.
+Here's a real example. Radar is excellent at detecting objects and measuring their speed, but it can't tell the difference between a stopped car and an overhead bridge. Both look like solid objects at a fixed distance. Cameras can obviously tell these apart instantly, but radar can't. When the radar screams "obstacle ahead" and the camera says "that's just a bridge," the system has to arbitrate. Get that wrong, and you get phantom braking â€” that sudden, hard brake for no visible reason that plagued Teslas for years.
 
 Tesla's engineers argued that radar was actually causing more problems than it solved. The phantom braking issue was largely a radar problem. Radar can't identify stationary objects that don't produce a Doppler frequency shift, objects with thin cross-sections like motorcycles, or objects with low radar reflectivity. Instead of improving the fusion algorithm, Tesla decided to cut the problem at the source.
 
@@ -62,7 +62,7 @@ Tesla has never used LiDAR in production vehicles and has been vocal about why. 
 
 - **Cost.** A LiDAR system adds thousands of dollars per vehicle. Tesla sells millions of cars. The math doesn't work for a mass-market product.
 - **Data volume.** LiDAR generates enormous amounts of point cloud data that requires significant computing power just to process before you can even start making driving decisions.
-- **Weather sensitivity.** Despite being marketed as all-weather capable, LiDAR performance degrades in fog, heavy rain, and snow — the same conditions where you'd want it most.
+- **Weather sensitivity.** Despite being marketed as all-weather capable, LiDAR performance degrades in fog, heavy rain, and snow â€” the same conditions where you'd want it most.
 - **Scalability.** Waymo operates in limited, pre-mapped areas. Tesla wants FSD to work everywhere, including roads that have never been mapped.
 
 ## Which Teslas Have Radar? Which Don't?
@@ -101,7 +101,7 @@ The transition to vision-only wasn't seamless. Early Tesla Vision had some rough
 - Night performance has improved through better neural network training
 - The system creates a 3D vector-space model of the environment from camera data alone
 
-The biggest practical change most owners notice is that phantom braking events dropped after the radar was disabled. That counterintuitive result — removing a sensor made the system safer — is exactly what Tesla predicted.
+The biggest practical change most owners notice is that phantom braking events dropped after the radar was disabled. That counterintuitive result â€” removing a sensor made the system safer â€” is exactly what Tesla predicted.
 
 ## Should You Fix a Broken Radar Unit?
 
@@ -117,14 +117,14 @@ Since your Tesla now relies entirely on cameras, keeping them in good shape matt
 
 **Windshield camera (behind the rearview mirror):**
 - Keep your windshield clean, inside and out
-- Replace wiper blades when they start streaking — those streaks go right across the camera's view
+- Replace wiper blades when they start streaking â€” those streaks go right across the camera's view
 - If you replace your windshield, make sure the new glass doesn't have a tint or coating that blocks the camera
 - After windshield replacement, the cameras need recalibration (happens automatically over a few miles of driving)
 
 **Side cameras (on the fenders and B-pillars):**
 - Wipe them down when they're dirty, especially in winter
 - Road salt and grime build up fast on the fender cameras
-- If a side camera gets water inside the housing, that's a replacement job — the housing isn't serviceable
+- If a side camera gets water inside the housing, that's a replacement job â€” the housing isn't serviceable
 
 **Rear camera:**
 - Keep the trunk/tailgate camera lens clean
@@ -138,9 +138,9 @@ If you see persistent "camera blocked or blinded" warnings, check for condensati
 
 ## The Bigger Picture
 
-Every other company chasing autonomous driving — Waymo, Cruise, you name it — uses radar, LiDAR, and cameras together. Tesla uses cameras alone. That's it. Eight cameras and a neural network.
+Every other company chasing autonomous driving â€” Waymo, Cruise, you name it â€” uses radar, LiDAR, and cameras together. Tesla uses cameras alone. That's it. Eight cameras and a neural network.
 
-As of early 2026, the bet appears to be paying off. FSD has improved dramatically, and ironically, the Model Y — which has no radar at all — runs the most evolved version of FSD. The Hardware 4 vehicles with their unused high-definition radar units sit there collecting dust — Tesla hasn't turned them on.
+As of early 2026, the bet appears to be paying off. FSD has improved dramatically, and ironically, the Model Y â€” which has no radar at all â€” runs the most evolved version of FSD. The Hardware 4 vehicles with their unused high-definition radar units sit there collecting dust â€” Tesla hasn't turned them on.
 
 For you as an owner, the bottom line is simple: keep your cameras clean and don't waste money fixing disabled radar hardware. And next time someone tells you Tesla cheaped out by removing sensors, you'll know there's more to it than that.
 
@@ -149,26 +149,26 @@ For you as an owner, the bottom line is simple: keep your cameras clean and don'
 A couple of things are worth pulling out two months after this article first went live:
 
 - **Hardware 4 radar still hasn't been activated.** The high-definition radar unit that ships with HW4 cars has been sitting in vehicles for years now without ever being enabled in production firmware. Tesla has neither announced a timeline for turning it on nor removed it from the bill of materials. Treat it as parts-list inventory, not a working sensor.
-- **The earlier rough patches of vision-only Autopilot are mostly gone.** Owners who held off on Autopilot updates during the 2021–2022 transition have since reported the same phantom-braking-down, lane-keeping-up trajectory the cars on early Tesla Vision saw. The "remove the conflicting sensor" thesis broadly held up.
+- **The earlier rough patches of vision-only Autopilot are mostly gone.** Owners who held off on Autopilot updates during the 2021â€“2022 transition have since reported the same phantom-braking-down, lane-keeping-up trajectory the cars on early Tesla Vision saw. The "remove the conflicting sensor" thesis broadly held up.
 - **Practical takeaway for repairs:** if you're replacing a front bumper on a radar-disabled Tesla and your replacement bumper has no opening for the radar unit, that's fine. The radar was disabled years ago via software and isn't coming back. Don't pay extra for an OEM bumper just to preserve a radar cutout.
 
-If you have firm dates or part details for your specific car, always verify against your VIN-specific service manual or service.tesla.com — model-year nuances matter and this article doesn't substitute for the official documentation.
+If you have firm dates or part details for your specific car, always verify against your VIN-specific service manual or service.tesla.com â€” model-year nuances matter and this article doesn't substitute for the official documentation.
 
 ## Key Takeaways
 
 - Tesla removed radar from new vehicles in 2021 and disabled it on older vehicles via software update
 - The reason: sensor contention between radar and cameras caused problems like phantom braking
 - LiDAR was never used in Tesla production vehicles due to cost, data volume, and scalability concerns
-- Don't replace broken radar units — Tesla has disabled them in software
+- Don't replace broken radar units â€” Tesla has disabled them in software
 - Camera maintenance is now critical since the car relies entirely on vision
 - Keep all eight cameras clean, watch for condensation, and replace wiper blades regularly
 
 ## Related Guides
 
-- [Tesla FSD in Europe: What You Need to Know (2026 Guide)](/posts/tesla-fsd-europe-guide/) — Easy · Software
-- [2026 Tesla Model 3 Refresh: Black Headliner, Bigger Screen & What's Changed](/posts/tesla-model-3-2026-refresh-changes/) — Informational · Model 3 · News & Updates
-- [Tesla Service Mode: How to Access It, What It Unlocks & When You Need It (2025 Guide)](/posts/tesla-service-mode-guide/) — Easy · Model 3, Model Y, Model S, Model X · Maintenance
-- [Tesla 2026.2.3 Update: Hidden Features, Battery Recalibration, Autopark & Service Mode Changes](/posts/tesla-2026-2-3-software-update-features/) — Easy · Software & Tech
-- [Tesla Autopilot Camera Calibration: Complete Guide](/posts/tesla-autopilot-camera-calibration/) — Easy · Autopilot
-- [Tesla Autopilot Unavailable? 7 Fixes That Work](/posts/tesla-autopilot-unavailable/) — Informational · Software
-- [Tesla Climate Keeper Not Working: Troubleshooting](/posts/tesla-climate-keeper-issues/) — Easy · Climate
+- [Tesla FSD in Europe: What You Need to Know (2026 Guide)](/posts/tesla-fsd-europe-guide/) â€” Easy Â· Software
+- [2026 Tesla Model 3 Refresh: Black Headliner, Bigger Screen & What's Changed](/posts/tesla-model-3-2026-refresh-changes/) â€” Informational Â· Model 3 Â· News & Updates
+- [Tesla Service Mode: How to Access It, What It Unlocks & When You Need It (2025 Guide)](/posts/tesla-service-mode-guide/) â€” Easy Â· Model 3, Model Y, Model S, Model X Â· Maintenance
+- [Tesla 2026.2.3 Update: Hidden Features, Battery Recalibration, Autopark & Service Mode Changes](/posts/tesla-2026-2-3-software-update-features/) â€” Easy Â· Software & Tech
+- [Tesla Autopilot Camera Calibration: Complete Guide](/posts/tesla-autopilot-camera-calibration/) â€” Easy Â· Autopilot
+- [Tesla Autopilot Unavailable? 7 Fixes That Work](/posts/tesla-autopilot-unavailable/) â€” Informational Â· Software
+- [Tesla Climate Keeper Not Working: Troubleshooting](/posts/tesla-climate-keeper-issues/) â€” Easy Â· Climate

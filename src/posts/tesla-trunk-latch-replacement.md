@@ -130,7 +130,7 @@ If cleaning and adjustment don't fix it, the latch assembly needs replacement.
 
 The Model Y's power liftgate has an additional component — the liftgate actuator — that can also cause latching issues. If the liftgate doesn't close fully (stops short and reopens), the issue may be:
 
-- **Liftgate struts** — worn struts resist the close mechanism. See our [trunk strut replacement guide](/posts/tesla-trunk-strut-replacement/)
+- **Liftgate struts** — worn struts resist the close mechanism. See our [trunk strut replacement guide](/posts/tesla-trunk-strut-replacement/). Frunk struts wear the same way — the [frunk strut replacement](/posts/tesla-frunk-strut-replacement/) is an equally quick job
 - **Height setting** — the liftgate close height may need adjustment via Controls > Vehicle > Trunk
 
 ## Preventing Future Issues

@@ -154,6 +154,8 @@ You'll need to set everything up again from scratch.
 3. Pull over when convenient to let the system fully restart
 4. If it happens repeatedly, schedule service
 
+**Using Dog Mode?** Climate control runs on a separate computer from the display, so a black screen alone doesn't shut off cooling — [Dog Mode keeps climate running](/posts/tesla-dog-mode-camp-mode/) even while the touchscreen reboots. Verify the cabin temperature from the Tesla app to be safe.
+
 ### Screen Stuck on Tesla Logo
 
 This indicates a boot problem:

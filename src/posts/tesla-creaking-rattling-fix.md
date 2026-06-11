@@ -203,6 +203,7 @@ These are often overlooked because they don't come from inside the cabin — but
 **Frunk:**
 - A loose frunk liner or dried-out bump stops (the small rubber blocks at the latch mechanism) rattle consistently at certain speeds. Ensure the liner is fully seated and replace any hardened bump stops.
 - The frunk latch mechanism itself can rattle when fully open — apply a drop of silicone grease to the moving latch parts.
+- Loose or worn frunk gas struts can knock over bumps and let the hood flutter slightly at speed. If the frunk also no longer holds itself fully open, [replace the frunk struts](/posts/tesla-frunk-strut-replacement/) — a ten-minute job.
 
 ## Suspension Creaks and Squeaks
 
@@ -240,11 +241,12 @@ These are often overlooked because they don't come from inside the cabin — but
 
 ### Wheel-Area Clunks
 
-A single clunk at low speed — when pulling out of a parking space, during a slow U-turn, or at the first turn after parking — points to one of three wear items:
+A single clunk at low speed — when pulling out of a parking space, during a slow U-turn, or at the first turn after parking — points to one of four wear items:
 
 1. **Brake caliper guide pin bushings** — Worn bushings let the caliper shift under light load, producing a distinct single clunk under light braking or direction changes. Inspect during your next wheel removal. See the [Brake Rotor Replacement guide](/posts/tesla-brake-rotor-replacement/) for caliper access steps.
 2. **Wheel bearing play** — Jack the car, grip the wheel at 12 and 6 o'clock, and rock it. Any movement means the bearing needs replacement. See the [Wheel Bearing Replacement guide](/posts/tesla-wheel-bearing-replacement/).
 3. **Strut top mount (bearing plate)** — The upper strut bearing allows the wheel to pivot when turning. When it wears, it produces a single clunk at the steering limit. Requires strut removal — see [Shock Absorber Replacement](/posts/tesla-shock-absorber-replacement/).
+4. **Tie rod ends** — Worn tie-rod ends cause front-end clunks during slow-speed turns and a vague on-center feel. Jack the car, grip the wheel at 3 and 9 o'clock, and rock it — play here means the joint is done. See the [Tie Rod End Replacement guide](/posts/tesla-tie-rod-end-replacement/).
 
 A clunk you can feel through the steering wheel but can't reproduce by rocking the car by hand is almost always a worn suspension component, not a trim problem. Suspension noises are safety-relevant — schedule service if you can't identify the source.
 

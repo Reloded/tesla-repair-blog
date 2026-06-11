@@ -185,7 +185,8 @@ Some damage is beyond DIY. Take it to a professional if:
 
 - **Bare metal is exposed** (Level 4) — these need proper body shop prep, primer, base coat, and clear coat with a spray gun
 - **The scratch spans multiple panels** — door-to-fender scratches need professional blending
-- **Deep bumper scuffs** — plastic bumpers require flexible paint and specific prep
+- **Deep bumper scuffs** — plastic bumpers require flexible paint and specific prep; shops often [remove the bumper for a clean refinish](/posts/tesla-front-bumper-removal/) rather than masking around it
+- **It's a dent, not a scratch** — if the paint is intact but the panel is pushed in, [paintless dent repair](/posts/tesla-dent-repair-pdr-guide/) is cheaper and preserves the factory paint
 - **You want invisible results on metallic colors** — a professional can spray-blend to match metallic flakes
 - **Insurance is covering it** — if someone hit your car, let the body shop handle it and bill their insurance
 

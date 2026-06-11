@@ -8,9 +8,9 @@ category: "Interior"
 difficulty: "Easy"
 readTime: "8 min read"
 models: "All Models"
-emoji: "💾"
+emoji: "ðŸ’¾"
 faq:
-  - q: "What format does Tesla USB need — FAT32, exFAT, or NTFS?"
+  - q: "What format does Tesla USB need â€” FAT32, exFAT, or NTFS?"
     a: "Tesla requires exFAT format. FAT32 has a 4GB file limit which causes recording failures. NTFS is not supported by Tesla's Linux-based system. Always use exFAT for dashcam and Sentry Mode."
   - q: "Why does my Tesla keep corrupting USB drives?"
     a: "Standard flash drives aren't designed for continuous write cycles. Sentry Mode records 24/7, which burns through cheap drives in 1-3 months. Use a high-endurance microSD in a reader, or a portable SSD like the Samsung T7, which handles constant writes without degradation."
@@ -36,15 +36,16 @@ amazonUs:
     link: "https://www.amazon.com/s?k=samsung+t7+500gb+ssd&tag=diyrepair07-20"
   - name: "High Endurance microSD + USB Reader"
     link: "https://www.amazon.com/s?k=high+endurance+microsd+256gb+usb+reader&tag=diyrepair07-20"
+lastUpdated: 2026-06-11
 ---
 
-**Quick answer:** Format your USB drive to **exFAT** and create a folder named **TeslaCam**. That's it — takes 30 seconds.
+**Quick answer:** Format your USB drive to **exFAT** and create a folder named **TeslaCam**. That's it â€” takes 30 seconds.
 
 But choosing the *right* drive and setting it up properly makes the difference between months of reliable footage and corrupted files when you actually need them. Here's everything you need to know in 2026.
 
 ## Option 1: Let Tesla Format It (Easiest)
 
-Your Tesla can format the drive for you — no computer needed:
+Your Tesla can format the drive for you â€” no computer needed:
 
 1. Insert a blank USB drive into the glovebox USB port
 2. Go to **Controls > Safety > Dashcam**
@@ -54,14 +55,14 @@ Your Tesla can format the drive for you — no computer needed:
 Done. The car creates the TeslaCam folder automatically and sets up the correct partition scheme.
 
 <div class="tip-box">
-<strong>Pro Tip:</strong> The in-car format always uses exFAT with the correct allocation unit size. If you've been having recording issues, try letting the car reformat your drive — it often resolves problems that manual formatting doesn't.
+<strong>Pro Tip:</strong> The in-car format always uses exFAT with the correct allocation unit size. If you've been having recording issues, try letting the car reformat your drive â€” it often resolves problems that manual formatting doesn't.
 </div>
 
 ## Option 2: Format on Windows
 
 1. Plug in your USB drive
 2. Open **File Explorer**
-3. Right-click the drive → **Format**
+3. Right-click the drive â†’ **Format**
 4. Set File System to **exFAT**
 5. Set Allocation Unit Size to **128K** (optimal for video recording)
 6. Click **Start**
@@ -79,7 +80,7 @@ New-Item -Path "D:\TeslaCam" -ItemType Directory
 
 ## Option 3: Format on Mac
 
-1. Open **Disk Utility** (search in Spotlight with ⌘+Space)
+1. Open **Disk Utility** (search in Spotlight with âŒ˜+Space)
 2. Select your USB drive in the sidebar (click **View > Show All Devices** to see the physical drive)
 3. Click **Erase**
 4. Set Format to **exFAT**, Scheme to **GUID Partition Map**
@@ -102,17 +103,17 @@ sudo umount /mnt
 ```
 
 <div class="warning-box">
-<strong>Important:</strong> The folder must be named exactly <strong>TeslaCam</strong> — capital T, capital C, no spaces. Otherwise dashcam and Sentry Mode won't record. This is case-sensitive.
+<strong>Important:</strong> The folder must be named exactly <strong>TeslaCam</strong> â€” capital T, capital C, no spaces. Otherwise dashcam and Sentry Mode won't record. This is case-sensitive.
 </div>
 
 ## Why exFAT? (Not FAT32 or NTFS)
 
 | Format | Max File Size | Tesla Support | Verdict |
 |--------|--------------|---------------|---------|
-| **exFAT** | 16 EB (unlimited) | ✅ Full support | **Use this** |
-| FAT32 | 4 GB limit | ⚠️ Partial (clips get cut) | Don't use |
-| NTFS | Unlimited | ❌ Not recognized | Don't use |
-| ext4 | Unlimited | ❌ Not recognized | Don't use |
+| **exFAT** | 16 EB (unlimited) | âœ… Full support | **Use this** |
+| FAT32 | 4 GB limit | âš ï¸ Partial (clips get cut) | Don't use |
+| NTFS | Unlimited | âŒ Not recognized | Don't use |
+| ext4 | Unlimited | âŒ Not recognized | Don't use |
 
 Tesla's system is Linux-based but specifically looks for exFAT-formatted drives with a TeslaCam folder. FAT32 *technically* works but the 4GB file limit causes Sentry Mode clips to be truncated or lost entirely.
 
@@ -122,10 +123,10 @@ This is where most people get it wrong. A regular USB flash drive will fail with
 
 ### What to Look For
 
-- **High-endurance rated** — designed for continuous recording (dashcam/security use)
-- **128GB minimum** — Sentry Mode fills space fast; 256GB is ideal
-- **USB 3.0 or faster** — prevents write bottlenecks that cause dropped frames
-- **Heat-resistant** — the glovebox gets warm, especially in summer
+- **High-endurance rated** â€” designed for continuous recording (dashcam/security use)
+- **128GB minimum** â€” Sentry Mode fills space fast; 256GB is ideal
+- **USB 3.0 or faster** â€” prevents write bottlenecks that cause dropped frames
+- **Heat-resistant** â€” the glovebox gets warm, especially in summer
 
 ### Recommended Drives (2026)
 
@@ -133,17 +134,17 @@ This is where most people get it wrong. A regular USB flash drive will fail with
 A portable SSD like the Samsung T7 (500GB) is the gold standard. No moving parts, handles heat, virtually unlimited write endurance, and stores weeks of footage. Overkill? Maybe. But you'll never lose a clip.
 
 **Best Value: High-Endurance microSD + USB Reader**
-A SanDisk High Endurance or Samsung PRO Endurance microSD (256GB) in a compact USB 3.0 reader. Rated for years of continuous recording. When the card eventually wears out, swap it for €15 instead of replacing the whole drive.
+A SanDisk High Endurance or Samsung PRO Endurance microSD (256GB) in a compact USB 3.0 reader. Rated for years of continuous recording. When the card eventually wears out, swap it for â‚¬15 instead of replacing the whole drive.
 
 **Budget Option: Samsung Bar Plus**
 Solid build quality and decent endurance for the price. Good for owners who don't run Sentry Mode 24/7. Expect to replace it every 12-18 months with heavy use.
 
 ### Drives to Avoid
 
-- **Generic/no-brand flash drives** — fail within weeks
-- **USB 2.0 drives** — too slow, causes dropped frames
-- **Drives over 1TB** — some older Tesla software has partition table issues
-- **Drives with hardware encryption** — Tesla can't read encrypted partitions
+- **Generic/no-brand flash drives** â€” fail within weeks
+- **USB 2.0 drives** â€” too slow, causes dropped frames
+- **Drives over 1TB** â€” some older Tesla software has partition table issues
+- **Drives with hardware encryption** â€” Tesla can't read encrypted partitions
 
 ## Where to Plug In Your USB Drive
 
@@ -165,7 +166,7 @@ Once your formatted drive is plugged in:
 1. Go to **Controls > Safety > Dashcam**
 2. Set Dashcam to **Auto** (records while driving)
 3. Enable **Sentry Mode** under Controls > Safety
-4. You'll see a 📹 dashcam icon on the top bar — tap it to save clips manually
+4. You'll see a ðŸ“¹ dashcam icon on the top bar â€” tap it to save clips manually
 5. Honk your horn or tap the icon to save the last 10 minutes
 
 ### Folder Structure Tesla Creates
@@ -174,21 +175,21 @@ After first use, your drive will contain:
 
 ```
 TeslaCam/
-├── SavedClips/      ← Manually saved + Sentry events
-├── RecentClips/     ← Rolling 1-hour buffer (auto-overwrites)
-└── SentryClips/     ← Motion-triggered Sentry recordings
+â”œâ”€â”€ SavedClips/      â† Manually saved + Sentry events
+â”œâ”€â”€ RecentClips/     â† Rolling 1-hour buffer (auto-overwrites)
+â””â”€â”€ SentryClips/     â† Motion-triggered Sentry recordings
 ```
 
-Each clip is about 1 minute long. The car records from all cameras simultaneously (front, left repeater, right repeater, rear — 4 feeds per clip).
+Each clip is about 1 minute long. The car records from all cameras simultaneously (front, left repeater, right repeater, rear â€” 4 feeds per clip).
 
 ## Managing Storage Space
 
 Sentry Mode can fill a 128GB drive in about **8-12 hours** of continuous recording. Here's how to manage it:
 
-- **Check storage weekly** — review and delete old clips from the touchscreen via **Dashcam Viewer**
-- **Delete on computer** — plug the drive into your PC and delete clips from SavedClips and SentryClips folders
-- **Exclude locations** — in Controls > Safety > Sentry Mode, add your home and work addresses to the exclusion list to reduce unnecessary recordings
-- **Use a larger drive** — 256GB gives you 2-3 days; 500GB SSD gives you a week+
+- **Check storage weekly** â€” review and delete old clips from the touchscreen via **Dashcam Viewer**
+- **Delete on computer** â€” plug the drive into your PC and delete clips from SavedClips and SentryClips folders
+- **Exclude locations** â€” in Controls > Safety > Sentry Mode, add your home and work addresses to the exclusion list to reduce unnecessary recordings
+- **Use a larger drive** â€” 256GB gives you 2-3 days; 500GB SSD gives you a week+
 
 ## Using Your Drive for Music Too
 
@@ -225,11 +226,11 @@ For in-depth USB port troubleshooting, see our [complete USB troubleshooting gui
 
 ## Common Mistakes to Avoid
 
-1. **Using FAT32** — causes truncated clips and lost Sentry events
-2. **Forgetting the TeslaCam folder** — the car won't record without it
-3. **Using the center console port** — loses power when the car sleeps
-4. **Never checking storage** — once the drive is full, oldest clips get overwritten including saved events on very full drives
-5. **Buying cheap drives** — the drive *will* fail mid-recording when you need it most
+1. **Using FAT32** â€” causes truncated clips and lost Sentry events
+2. **Forgetting the TeslaCam folder** â€” the car won't record without it
+3. **Using the center console port** â€” loses power when the car sleeps
+4. **Never checking storage** â€” once the drive is full, oldest clips get overwritten including saved events on very full drives
+5. **Buying cheap drives** â€” the drive *will* fail mid-recording when you need it most
 
 ---
 
@@ -237,9 +238,9 @@ For in-depth USB port troubleshooting, see our [complete USB troubleshooting gui
 
 ## Related Guides
 
-- [Best USB Drives for Tesla Sentry Mode & Dashcam](/posts/tesla-best-usb-drives-ssd/) — Tested picks that last
-- [Tesla USB Not Working? Fix It in 2 Minutes](/posts/tesla-usb-not-working/) — Full USB port and drive troubleshooting
-- [Tesla Dashcam & Sentry Mode USB Setup](/posts/tesla-dashcam-usb-setup/) — Complete setup guide with drive recommendations
-- [Dashcam Not Saving Clips?](/posts/tesla-dashcam-not-saving/) — Fix recording issues after formatting
-- [Sentry Mode Not Recording](/posts/tesla-sentry-mode-not-recording/) — Troubleshoot Sentry-specific problems
-- [Tesla New Owner Guide](/posts/tesla-new-owner-guide/) — Everything new Tesla owners need to know
+- [Best USB Drives for Tesla Sentry Mode & Dashcam](/posts/tesla-best-usb-drives-ssd/) â€” Tested picks that last
+- [Tesla USB Not Working? Fix It in 2 Minutes](/posts/tesla-usb-not-working/) â€” Full USB port and drive troubleshooting
+- [Tesla Dashcam & Sentry Mode USB Setup](/posts/tesla-dashcam-usb-setup/) â€” Complete setup guide with drive recommendations
+- [Dashcam Not Saving Clips?](/posts/tesla-dashcam-not-saving/) â€” Fix recording issues after formatting
+- [Sentry Mode Not Recording](/posts/tesla-sentry-mode-not-recording/) â€” Troubleshoot Sentry-specific problems
+- [Tesla New Owner Guide](/posts/tesla-new-owner-guide/) â€” Everything new Tesla owners need to know

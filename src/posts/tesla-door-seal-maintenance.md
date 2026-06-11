@@ -225,6 +225,8 @@ Some seals can be replaced at home:
 
 *Door seal maintenance is one of the easiest and most impactful things you can do for your Tesla. Ten minutes of care a few times a year prevents water damage, eliminates wind noise, and keeps your car feeling tight and new.*
 
+*Wiper blades age the same way the seals do — if yours streak or chatter, [swapping the wiper blades](/posts/tesla-windshield-wiper-replacement/) is another five-minute exterior job worth doing at the same time.*
+
 ## Related Guides
 
 - [Window Reset Calibration](/posts/tesla-window-reset-calibration/) - Fix wind noise from window issues

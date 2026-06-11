@@ -230,7 +230,7 @@ Your phone is your primary key. Get this right immediately.
 
 **Important:** Always carry your key card as backup. Phone keys occasionally disconnect, especially after phone updates. Keep the card in your wallet, not the car.
 
-For more details on key issues, see our [phone key troubleshooting guide](/posts/tesla-phone-key-not-working/) and [key card guide](/posts/tesla-key-card-not-working/).
+For more details on key issues, see our [phone key troubleshooting guide](/posts/tesla-phone-key-not-working/) and [key card guide](/posts/tesla-key-card-not-working/). If you bought the optional key fob and its range starts shrinking, it's usually time to [replace the key fob battery](/posts/tesla-key-fob-battery/) — a two-minute fix.
 
 ### 2. Driver Profile
 
