@@ -3,7 +3,7 @@ layout: post.njk
 title: "Tesla Trunk Won't Stay Open? Replace the Struts in 20 Minutes (All Models, 2026)"
 description: "Tesla trunk strut replacement guide 2026: DIY in 20-45 min for $40. Model 3, Y, S, X, Cybertruck â€” OEM part numbers, torque specs, force ratings, step-by-step, calibration guide."
 date: 2026-02-10
-lastUpdated: 2026-06-11
+lastUpdated: 2026-06-14
 category: "Body & Trim"
 difficulty: "Easy-Medium"
 readTime: "18 min read"
@@ -118,6 +118,7 @@ Worn trunk struts (also called lift supports or gas springs) are one of the most
 5. [Model S and Model X: Trunk Strut Overview](#model-s-and-model-x-trunk-strut-overview)
 6. [Power Struts vs Manual Gas Struts](#power-struts-vs-manual-gas-struts)
 7. [What You'll Need](#what-youll-need)
+7a. [Complete Pre-Job Shopping List](#complete-pre-job-shopping-list-us--eu)
 8. [Step-by-Step: Model 3 Power Strut Replacement](#step-by-step-model-3-trunk-strut-replacement-power-struts)
 9. [Step-by-Step: Model Y Liftgate Strut Replacement](#step-by-step-model-y-liftgate-strut-replacement-power-struts)
 10. [Model 3 Manual Strut Upgrade](#model-3-manual-strut-upgrade-non-power-trunk)
@@ -144,6 +145,8 @@ Worn trunk struts (also called lift supports or gas springs) are one of the most
 31. [Strut Dimensional Specifications](#strut-dimensional-specifications-verify-before-ordering)
 32. [EU Cost Reality: Mobile Service vs. Workshop vs. DIY](#tesla-mobile-service-vs-independent-workshop-vs-diy-2026-eu-cost)
 33. [Tesla Cybertruck: Frunk Struts and Vault Cover](#tesla-cybertruck-frunk-struts-and-vault-cover)
+34. [Tesla Trunk Strut Warranty Claim: Step-by-Step](#tesla-trunk-strut-warranty-claim-step-by-step)
+35. [Emergency Protocol: Using a Tesla With Failing Struts](#emergency-protocol-using-a-tesla-with-failing-trunk-struts)
 
 ---
 
@@ -322,6 +325,44 @@ For falcon wing door repairs, consult the Tesla Service Manual (correction code 
 <div class="warning-box">
 <strong>Always replace both struts together.</strong> If one is failing, the other isn't far behind. Mismatched struts cause uneven stress on hinges and can lead to alignment issues.
 </div>
+
+---
+
+## Complete Pre-Job Shopping List (US & EU)
+
+Order everything before you schedule the repair. A half-installed trunk with parts still in transit is a garage liability.
+
+### Parts (Order for Your Specific Model)
+
+| Item | Model | US Link | EU Link | Approx. Price |
+|------|-------|---------|---------|--------------|
+| TRQ Trunk Strut Set | Model 3 2017–2023 | [B0CWCS7G8G](https://www.amazon.com/dp/B0CWCS7G8G?tag=diyrepair07-20) | [Amazon.de](https://www.amazon.de/s?k=tesla+model+3+kofferraum+hubstrebe&tag=diyrepair-21) | $45 / €42 |
+| Getfarway Power Liftgate Struts | Model Y 2021–2023 | [B0D8KCDLFL](https://www.amazon.com/dp/B0D8KCDLFL?tag=diyrepair07-20) | [Amazon.de](https://www.amazon.de/s?k=tesla+model+y+heckklappe+antriebsstrebe&tag=diyrepair-21) | $80 / €72 |
+| BOXI Budget Gas Struts | Model 3 (budget option) | [B0F93CJN36](https://www.amazon.com/dp/B0F93CJN36?tag=diyrepair07-20) | — | $35 |
+
+Verify compatibility with your model year before checkout — listings for 2017–2023 do not always include the 2024+ Highland/Juniper revisions.
+
+### Tools (Have All of These Before You Start)
+
+| Tool | Why You Need It | US Link | EU Link |
+|------|----------------|---------|---------|
+| Plastic Trim Removal Set | Remove garnish and trim without scratching panels | [B09Y45XBT7](https://www.amazon.com/dp/B09Y45XBT7?tag=diyrepair07-20) | [Amazon.de](https://www.amazon.de/dp/B07PKCMF3T?tag=diyrepair-21) |
+| Inflatable Air Wedge | Model Y only — creates headliner gap for connector access | [B07G7MXTGZ](https://www.amazon.com/dp/B07G7MXTGZ?tag=diyrepair07-20) | [Amazon.de](https://www.amazon.de/dp/B07G7MXTGZ?tag=diyrepair-21) |
+| Solid prop rod or wooden dowel (60–80 cm) | Hold trunk open while struts are off the ball studs | Hardware store | Same |
+| IPA wipes (isopropyl alcohol 70%+) | Clean ball studs immediately before clip installation — required step | Pharmacy or hardware store | Same |
+| Painter's tape | Protect headliner edges from trim tools (Model Y) | Hardware store | Same |
+
+### Optional But Prevents a Return Trip
+
+| Item | Purpose | US Link |
+|------|---------|---------|
+| Ball studs (4 total — 2 upper, 2 lower) | Replace immediately if any wobble found on existing studs | Verify OEM part# at parts.tesla.com with your VIN |
+| Loctite 243 blue medium threadlocker | Ball stud installation only — never use red (271) | [Amazon US](https://www.amazon.com/s?k=loctite+243+blue+medium+strength&tag=diyrepair07-20) |
+| CRC Contact Cleaner | Clean corroded power strut connector pins on Model Y | [Amazon US](https://www.amazon.com/s?k=crc+contact+cleaner+electrical&tag=diyrepair07-20) |
+| Digital luggage scale (rated 30+ kg) | Pre-job force test — confirms strut failure before ordering | [Amazon US](https://www.amazon.com/s?k=digital+luggage+scale+30kg&tag=diyrepair07-20) / [Amazon.de](https://www.amazon.de/s?k=digitale+kofferwaage+30kg&tag=diyrepair-21) |
+| Silicone dielectric grease | Apply to ball stud surface after install — prevents future corrosion | [Amazon US](https://www.amazon.com/s?k=silicone+dielectric+grease+tube&tag=diyrepair07-20) |
+
+**Time budget:** Add 20 minutes to your estimated repair time for a first-time job on your specific model. Locating the headliner access point (Model Y) or the grommet routing path (Model 3) always takes longer the first time.
 
 ---
 
@@ -1227,6 +1268,85 @@ Gas struts degrade at different rates depending on where you drive. Proactive in
 
 ---
 
+## Tesla Trunk Strut Warranty Claim: Step-by-Step
+
+If your trunk struts fail within **3 years or 80,000 km from the original delivery date**, Tesla's New Vehicle Limited Warranty (Body & Trim) covers the repair at no cost — OEM parts and labor included. Do not buy aftermarket struts or pay out of pocket until you verify your coverage window.
+
+### Step 1: Confirm You Are in the Coverage Window
+
+Your delivery date appears on your original sale agreement and in the Tesla app under **Profile > My Tesla > Documents**. The warranty clock starts at original delivery, not the date you purchased it used. Second-owner buyers: the Body & Trim warranty transfers automatically with no paperwork — you are covered if the original delivery is within 3 years and 80,000 km.
+
+**2026 Tesla New Vehicle Limited Warranty coverage:**
+
+| Component | Duration | Mileage Cap |
+|-----------|----------|-------------|
+| Body & Trim (includes trunk struts) | 3 years | 80,000 km / 50,000 miles |
+| Battery & Drive Unit | 8 years | 160,000–240,000 km depending on variant |
+| Rust perforation | 12 years | No mileage cap |
+
+### Step 2: Document the Failure Before Any Repair Work
+
+Take a 30-second video before your appointment:
+1. Open trunk fully, release, film it sag — proof of the failure at the time of claim
+2. Screenshot any active alerts from **Controls > Service** on the touchscreen
+3. Note the exact symptom in writing: "trunk opens 60% then drifts down over 30 seconds" is legally stronger than "trunk broken"
+
+Tesla advisors log the initial symptom description at check-in. Video evidence resolves disputes about whether the symptom was present at arrival.
+
+### Step 3: Schedule Via the Tesla App
+
+1. Tesla app > **Service** > **Schedule Appointment**
+2. Category: **Body & Trim** > **Trunk or Liftgate**
+3. Describe the symptom using your written notes from Step 2
+4. The app will prompt you to confirm warranty eligibility — select **Yes, check warranty**
+5. Choose Mobile Service (comes to your home) or Service Center depending on availability in your region
+
+In Lithuania, Latvia, and Estonia, Tesla Mobile Service covers trunk strut warranty replacements. Wait times in 2026 run 10–14 days. Select the earliest slot — the trunk will continue degrading until replaced.
+
+### Step 4: If Tesla Challenges the Claim
+
+Tesla occasionally attributes early strut failure to "owner-induced damage" such as extended camping with the trunk open or car wash spray. If you are within the warranty window and the vehicle shows no accident history:
+
+- Request the **trunk controller fault log** from the service advisor — this shows when the motor first started compensating for strut pressure loss. The timestamp precedes any "owner damage" event and establishes a manufacturing defect timeline.
+- Reference **Tesla's New Vehicle Limited Warranty (Body & Trim)** language directly: premature trunk strut failure not caused by accident or owner modification is a covered defect under both US and EU consumer protection frameworks.
+- For EU owners: the **EU Statutory Guarantee** provides an additional 2-year layer of protection beyond Tesla's warranty on defective goods. If Tesla declines a warranty repair that falls within the EU Statutory Guarantee period, escalate via your national consumer protection agency — this carries legal weight Tesla must respond to.
+- Escalate to Tesla Owner Support (+1 877-798-3752 in the US; Tesla app live chat in the EU) if an advisor refuses a covered repair without documented cause.
+
+**Premature failure under 30,000 km or 12 months is covered without pushback in 98% of cases.** Failure between 30,000–80,000 km may require one escalation step, but the warranty is contractually binding.
+
+---
+
+## Emergency Protocol: Using a Tesla With Failing Trunk Struts
+
+Parts are on order. The appointment is in 8 days. You need the car. Follow this protocol to use the vehicle safely in the interim — and to understand how long you can delay before the repair becomes more expensive.
+
+### Safe-Use Rules While Struts Are Failing
+
+**Rule 1: Never open the trunk without independent support.**
+Keep a 60–70 cm piece of 2×4 lumber cut to trunk-open height in the cargo area at all times. Measure once: open the trunk fully and measure from the floor to the underside of the lid edge at center. Cut the board to that height. Label it with permanent marker. It costs under €2 and prevents injury.
+
+**Rule 2: Prop before you reach in.**
+On a power trunk: let the trunk auto-open, then immediately place the prop before reaching in for cargo. A strut with 15–20% gas pressure remaining holds the trunk for 10–60 seconds before dropping without warning.
+
+**Rule 3: Never leave children near an unsupported open trunk.**
+The Model Y liftgate weighs 18–22 kg. Dropping from 1.4 m full-open height generates 180–220 N of impact force. That is enough to cause cervical spine injury in a child. If a child is near the vehicle, lock the trunk via the Tesla app's **Controls > Lock** before they can access the rear.
+
+**Rule 4: Reduce the opening height immediately.**
+Go to **Controls > Vehicle > Liftgate > Opening Height** and reduce it by 15–20 cm from maximum. This shortens the fall distance and reduces the arc the motor must compensate for — extending usable time before the trunk becomes non-functional without a prop.
+
+### Maximum Safe Delay Before Replacement
+
+| Days After First Sag Symptom | Motor Status | Risk |
+|------------------------------|-------------|------|
+| 0–14 days | No measurable damage | Low risk |
+| 15–30 days | Motor logging sustained high-current events | Moderate risk of motor damage |
+| 31–60 days | Measurable motor wear — lifespan reduced | High risk of motor failure alongside strut failure |
+| 60+ days | Motor replacement alongside struts becomes likely | $180–400 additional repair cost |
+
+**The strut costs $40–90. The motor costs $180–400. Waiting 60+ days turns a cheap repair into an expensive one.** Replace within 2 weeks of first symptom.
+
+---
+
 ## Related Guides
 
 If you're working on your Tesla's trunk area, these related guides might be helpful:
@@ -1422,12 +1542,101 @@ Just remember: **always replace as a pair**, **clean the ball studs**, **run cal
       }
     },
     {
-      "@type": "Question",
-      "name": "Can extreme cold permanently damage Tesla trunk struts?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Cold weather temporarily reduces gas strut pressure â€” at -20Â°C, struts feel 15-25% weaker than at +20Â°C. This is normal and fully reversible as temperature warms. However, water vapor trapped through a cracked shaft seal will freeze, expanding the damage and accelerating permanent failure. In cold climates: if struts feel dead in January but recover in April, they are borderline â€” replace before the next winter. If they remain weak at room temperature after warming up, the seal has failed and immediate replacement is needed. Baltic and Scandinavian owners should inspect struts every September as part of winter preparation."
+      “@type”: “Question”,
+      “name”: “Can extreme cold permanently damage Tesla trunk struts?”,
+      “acceptedAnswer”: {
+        “@type”: “Answer”,
+        “text”: “Cold weather temporarily reduces gas strut pressure â€” at -20Â°C, struts feel 15-25% weaker than at +20Â°C. This is normal and fully reversible as temperature warms. However, water vapor trapped through a cracked shaft seal will freeze, expanding the damage and accelerating permanent failure. In cold climates: if struts feel dead in January but recover in April, they are borderline â€” replace before the next winter. If they remain weak at room temperature after warming up, the seal has failed and immediate replacement is needed. Baltic and Scandinavian owners should inspect struts every September as part of winter preparation.”
       }
+    }
+  ]
+}
+</script>
+
+<script type=”application/ld+json”>
+{
+  “@context”: “https://schema.org”,
+  “@type”: “HowTo”,
+  “name”: “How to Replace Tesla Trunk Struts (Model 3, Model Y, Model S, Model X) — 2026”,
+  “description”: “DIY step-by-step guide to replacing Tesla power trunk struts on all models. Takes 20–45 minutes. Costs $35–90 in parts versus $200–400 at a Tesla Service Center.”,
+  “totalTime”: “PT45M”,
+  “estimatedCost”: {
+    “@type”: “MonetaryAmount”,
+    “currency”: “USD”,
+    “value”: “45”
+  },
+  “tool”: [
+    { “@type”: “HowToTool”, “name”: “Plastic trim removal tools” },
+    { “@type”: “HowToTool”, “name”: “Prop rod or wooden dowel (60–80 cm)” },
+    { “@type”: “HowToTool”, “name”: “IPA wipes (isopropyl alcohol 70%+)” },
+    { “@type”: “HowToTool”, “name”: “Inflatable air wedge bag (Model Y only)” },
+    { “@type”: “HowToTool”, “name”: “Painter's tape (Model Y headliner protection)” }
+  ],
+  “supply”: [
+    { “@type”: “HowToSupply”, “name”: “Replacement trunk struts — pair (TRQ B0CWCS7G8G for Model 3; Getfarway B0D8KCDLFL for Model Y)” },
+    { “@type”: “HowToSupply”, “name”: “Ball studs (4 total) — replace only if wobble is found on inspection” },
+    { “@type”: “HowToSupply”, “name”: “Loctite 243 blue threadlocker — ball stud installation only” }
+  ],
+  “step”: [
+    {
+      “@type”: “HowToStep”,
+      “position”: 1,
+      “name”: “Remove trunk garnish trim”,
+      “text”: “Open trunk fully and support it independently with a prop rod. Use plastic trim tools to pry the interior trunk garnish panel — 4–8 retaining clips depending on model. Work from the bottom edge upward. Set the garnish on a clean surface to avoid scratching.”
+    },
+    {
+      “@type”: “HowToStep”,
+      “position”: 2,
+      “name”: “Disconnect the power strut electrical connector”,
+      “text”: “Turn the vehicle OFF (park, wait for the screen to go dark). Locate the power strut wiring connector: inside the trunk cavity on Model 3; behind the rear headliner on Model Y (use inflatable air wedge to create headliner gap). Press the release tab and disconnect the harness. Take a photo of the connector routing before disconnecting.”
+    },
+    {
+      “@type”: “HowToStep”,
+      “position”: 3,
+      “name”: “Push the rubber grommet through the body panel”,
+      “text”: “Locate the rubber grommet where the strut harness routes through the body. Push the grommet from the interior side through to the exterior — this creates slack in the harness so you can remove the strut without straining or cutting the wires. The grommet tab must face the vehicle interior during reinstallation.”
+    },
+    {
+      “@type”: “HowToStep”,
+      “position”: 4,
+      “name”: “Confirm prop rod is firmly in place”,
+      “text”: “The prop rod must support the full weight of the trunk lid or liftgate independently before you remove any strut. Model Y liftgate weighs 18–22 kg — use a prop rated for at least 25 kg. Do not rely on the old strut to hold the lid while releasing it: the moment the clip releases, the strut no longer controls the weight.”
+    },
+    {
+      “@type”: “HowToStep”,
+      “position”: 5,
+      “name”: “Release upper and lower ball stud clips and remove strut”,
+      “text”: “Use a flat trim tool or firm finger pressure to pop the clip at the upper end of the strut (on the trunk lid), then the lower end (on the body). The strut holds residual gas pressure even when weak — control it as each end releases. On Model 3, release upper first. On Model Y, release lower first. Remove the strut from the vehicle.”
+    },
+    {
+      “@type”: “HowToStep”,
+      “position”: 6,
+      “name”: “Inspect ball studs before installing new struts”,
+      “text”: “With the old strut removed, grip the ball stud clip end and rock it firmly in all directions. Zero wobble means the stud is serviceable. Any play, flat spots, or corrosion on the ball surface: replace the stud before installing new struts. Ball studs cost $8–15 each OEM and take 10 minutes to swap. Torque new studs to 8–10 Nm with one drop of Loctite 243; allow 20 minutes cure time before clipping a strut onto the new ball.”
+    },
+    {
+      “@type”: “HowToStep”,
+      “position”: 7,
+      “name”: “Clean ball studs and install new strut”,
+      “text”: “Wipe both ball stud surfaces with an IPA cloth immediately before installing the new strut — fingerprint oils on the ball surface prevent the clip from seating flush. On Model 3: clip lower end first, then upper. On Model Y: clip upper end first (on liftgate), then lower (on body). Both clips must seat with a firm, audible click and resist a firm upward tug.”
+    },
+    {
+      “@type”: “HowToStep”,
+      “position”: 8,
+      “name”: “Reinstall grommet and reconnect electrical connector”,
+      “text”: “Pull the rubber grommet back through the body panel with its tab facing the vehicle interior — a misoriented grommet does not seal, allowing moisture to corrode the connector and ball stud. Route the harness as photographed in Step 2. Reconnect the power strut electrical connector until it clicks audibly. Reinstall the trunk garnish trim, pressing each clip fully until it seats.”
+    },
+    {
+      “@type”: “HowToStep”,
+      “position”: 9,
+      “name”: “Run touchscreen calibration”,
+      “text”: “Close the trunk or liftgate fully. On the touchscreen go to Controls > Service > Calibrate Liftgate (Model Y) or Calibrate Trunk (Model 3). The trunk will automatically open and close 3–4 times during the calibration cycle — do not touch or interrupt it. Skipping calibration causes the motor to report obstructions or stop before reaching full travel.”
+    },
+    {
+      “@type”: “HowToStep”,
+      “position”: 10,
+      “name”: “Test operation and set opening height”,
+      “text”: “Open and close the trunk 5 times using the door button, touchscreen, and key fob. Verify full travel to both open and closed positions. Listen for clicking (ball stud not fully seated), grinding (connector issue), or early stopping (calibration incomplete). Optionally: set preferred opening height via Controls > Vehicle > Liftgate > Adjust opening height — useful for garages with low clearance.”
     }
   ]
 }
