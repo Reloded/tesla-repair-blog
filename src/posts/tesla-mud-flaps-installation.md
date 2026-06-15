@@ -1,7 +1,7 @@
 ---
 layout: post.njk
 title: "How to Install Mud Flaps on Tesla Model 3/Y (Complete Guide)"
-description: "Step-by-step guide to installing mud flaps on Tesla Model 3 and Model Y. Covers OEM vs aftermarket options, front and rear installation, push clips vs screws, and winter protection benefits."
+description: "Install mud flaps on Tesla Model 3 and Y: OEM vs aftermarket options, front and rear steps, push clips vs screws, and winter protection benefits."
 date: 2026-02-07
 category: "Exterior"
 difficulty: "Easy"

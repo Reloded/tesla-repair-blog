@@ -1,7 +1,7 @@
 ---
 layout: post.njk
-title: "Tesla Parking Sensor Replacement: DIY Guide to Fix USS Sensors"
-description: "Replace a faulty or damaged Tesla ultrasonic parking sensor yourself. Covers Model 3, Model Y, Model S, and Model X with part numbers, tools, and step-by-step instructions."
+title: "Tesla Parking Sensor Replacement: USS DIY Fix"
+description: "Replace a faulty or damaged Tesla ultrasonic parking sensor yourself. Covers Model 3, Y, S, and X with part numbers, tools, and step-by-step instructions."
 date: 2026-02-14
 category: "Exterior & Body"
 difficulty: "Easy-Medium"

@@ -1,7 +1,7 @@
 ---
 layout: post.njk
 title: "Tesla Headlight Condensation: Causes, DIY Fixes & Prevention"
-description: "Fix Tesla headlight condensation and moisture buildup with proven DIY methods. Step-by-step guide for Model 3, Y, S, X covering desiccants, resealing, vent cleaning, and when to claim warranty."
+description: "Fix Tesla headlight condensation and moisture with proven DIY methods. For Model 3, Y, S & X: desiccants, resealing, vent cleaning, and when to claim warranty."
 date: 2026-01-14
 updated: 2026-03-22
 category: "Exterior"

@@ -1,6 +1,6 @@
 ---
 layout: post.njk
-title: "Tesla Key Card Not Working? Fix Detection Issues in 60 Seconds"
+title: "Tesla Key Card Not Working? Fix It in 60 Seconds"
 description: "Tesla key card not detected or not opening the door? Troubleshoot NFC issues, find the exact tap spots, and fix key card problems on all Tesla models."
 date: 2026-02-22
 category: "Exterior"

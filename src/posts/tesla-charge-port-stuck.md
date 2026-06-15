@@ -1,7 +1,7 @@
 ---
 layout: post.njk
 title: "Tesla Charge Port Stuck? 6 Ways to Release It (2026)"
-description: "Tesla charge port won't release the cable? 6 proven methods to unlock a stuck charge port, including manual release, latch replacement, and cold weather fixes for all Tesla models."
+description: "Tesla charge port won't release the cable? 6 proven methods to unlock it — manual release, latch replacement, and cold-weather fixes for all Tesla models."
 date: 2025-01-02
 lastUpdated: 2026-03-29
 category: "Charging"

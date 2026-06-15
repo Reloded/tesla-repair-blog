@@ -1,7 +1,7 @@
 ---
 layout: post.njk
-title: "Tesla Frunk Strut Replacement Guide (2026): All Models, Part Numbers & DIY Steps"
-description: "Tesla frunk strut replacement (2026): fix a sagging frunk in 15 min and save €150+. Specs for every model, step-by-step DIY, 18 FAQ, EU sourcing, and real workshop cases from Lithuania."
+title: "Tesla Frunk Strut Replacement: All Models (2026)"
+description: "Tesla frunk strut replacement (2026): fix a sagging frunk in 15 min and save €150+. Specs for every model, step-by-step DIY, EU sourcing, and workshop cases."
 date: 2026-02-03
 lastUpdated: 2026-06-07
 category: "Body & Trim"

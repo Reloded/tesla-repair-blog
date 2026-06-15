@@ -1,7 +1,7 @@
 ---
 layout: post.njk
 title: "Tesla PPF Installation Guide 2026: DIY Paint Protection Film"
-description: "Tesla PPF installation guide 2026: exact costs per panel (€80–2,000+), XPEL vs SunTek vs 3M comparison, matte options, DIY step-by-step for Model 3 & Y, EU sourcing."
+description: "Tesla PPF installation guide 2026: costs per panel (€80–2,000+), XPEL vs SunTek vs 3M, matte options, DIY steps for Model 3 & Y, and EU sourcing."
 date: 2025-01-14
 lastUpdated: 2026-06-04
 category: "Exterior"

@@ -1,7 +1,7 @@
 ---
 layout: post.njk
-title: "Tesla Model 3 Superbottle Replacement: What It Is, Symptoms & Cost (2025 Guide)"
-description: "The Tesla Model 3 superbottle is the heart of the cooling system. Learn what it does, common failure symptoms, replacement cost at Tesla vs DIY, and whether you can tackle this repair yourself."
+title: "Tesla Model 3 Superbottle Replacement & Cost (2025)"
+description: "The Tesla Model 3 superbottle runs the cooling system. What it does, failure symptoms, replacement cost at Tesla vs DIY, and whether you can tackle it yourself."
 date: 2026-02-10
 category: "Cooling System"
 difficulty: "Hard"

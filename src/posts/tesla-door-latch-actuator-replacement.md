@@ -1,7 +1,7 @@
 ---
 layout: post.njk
-title: "Tesla Door Actuator and Latch Replacement: Complete DIY Guide"
-description: "Fix a Tesla door that won't open, won't close, or shows 'door ajar' warnings. Step-by-step door latch and actuator replacement for Model 3, Model Y, Model S, and Model X."
+title: "Tesla Door Actuator & Latch Replacement Guide"
+description: "Fix a Tesla door that won't open, won't close, or shows 'door ajar' warnings. Door latch and actuator replacement for Model 3, Y, S, and X, step by step."
 date: 2026-02-09
 category: "Body & Exterior"
 difficulty: "Intermediate to Advanced"

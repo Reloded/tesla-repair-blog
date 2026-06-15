@@ -1,7 +1,7 @@
 ---
 layout: post.njk
 title: "Tesla Range Loss: Why It Happens & How to Fix It (2026)"
-description: "Tesla losing range fast? Complete 2026 guide to fixing vampire drain, battery degradation, and range drops. Covers LFP vs NMC, BMS calibration, seasonal tips, and proven fixes for all models."
+description: "Tesla losing range fast? 2026 guide to fixing vampire drain, battery degradation, and range drops: LFP vs NMC, BMS calibration, and seasonal tips."
 date: 2026-03-11
 category: "Battery"
 difficulty: "Medium"

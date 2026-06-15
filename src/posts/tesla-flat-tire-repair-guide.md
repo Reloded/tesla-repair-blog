@@ -1,7 +1,7 @@
 ---
 layout: post.njk
-title: "Tesla Flat Tire: Complete Guide to Repair, Kits, and What to Do"
-description: "Got a flat tire on your Tesla? Here's exactly what to do — from roadside repair kits to tire plugs, costs, and whether to call Tesla Roadside Assistance. Covers Model 3, Y, S, X."
+title: "Tesla Flat Tire: Repair, Kits & What to Do"
+description: "Got a flat on your Tesla? Exactly what to do — roadside repair kits, tire plugs, costs, and whether to call Tesla Roadside Assistance. Covers Model 3, Y, S, X."
 date: 2026-03-19
 category: "Tires & Wheels"
 difficulty: "Easy-Medium"

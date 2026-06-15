@@ -1,7 +1,7 @@
 ---
 layout: post.njk
-title: "Tesla Scratch Repair: DIY Guide to Fix Paint Scratches (Save $500+)"
-description: "Fix scratches on your Tesla yourself — from light clear coat marks to deep paint damage. Step-by-step guide with touch-up paint codes, compound techniques, and cost comparisons."
+title: "Tesla Scratch Repair: DIY Paint Fix (Save $500+)"
+description: "Fix scratches on your Tesla — from light clear-coat marks to deep paint damage. Step-by-step with touch-up paint codes, compound techniques, and costs."
 date: 2026-03-19
 category: "Body & Exterior"
 difficulty: "Easy-Medium"

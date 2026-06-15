@@ -1,7 +1,7 @@
 ---
 layout: post.njk
-title: "Tesla Model 3/Y Speaker and Audio Upgrade Guide: Factory to Audiophile"
-description: "Complete guide to upgrading your Tesla Model 3 or Model Y audio system. Covers factory speaker specs, door speaker replacement, subwoofer install, amplifier upgrades, and DSP tuning with step-by-step instructions."
+title: "Tesla Model 3/Y Speaker & Audio Upgrade Guide"
+description: "Upgrade your Tesla Model 3 or Y audio system: factory speaker specs, door speaker and subwoofer install, amplifier upgrades, and DSP tuning — step by step."
 date: 2026-02-10
 lastUpdated: 2026-02-10
 category: "Interior & Electronics"

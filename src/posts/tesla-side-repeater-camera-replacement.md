@@ -1,6 +1,6 @@
 ---
 layout: post.njk
-title: "Tesla Side Repeater Camera Replacement: Complete DIY Guide (2026)"
+title: "Tesla Side Repeater Camera Replacement (2026)"
 description: "Tesla side repeater camera: $40–200 DIY vs $300–600 at Tesla. HW3 vs HW4 guide, part numbers, step-by-step for all models, Sentry Mode impact (2026)."
 date: 2026-03-04
 lastUpdated: 2026-05-11

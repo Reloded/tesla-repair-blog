@@ -1,7 +1,7 @@
 ---
 layout: post.njk
 title: "Tesla Winter Preparation: Complete Cold Weather Checklist"
-description: "Prepare your Tesla for winter driving. Complete checklist covering battery, tires, charging, cabin comfort, and cold weather range optimization for Model 3, Y, S, and X."
+description: "Prepare your Tesla for winter: a complete checklist covering battery, tires, charging, cabin comfort, and cold-weather range for Model 3, Y, S, and X."
 date: 2026-01-16
 category: "Maintenance"
 difficulty: "Easy"

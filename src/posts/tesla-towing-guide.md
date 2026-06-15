@@ -1,7 +1,7 @@
 ---
 layout: post.njk
-title: "Tesla Towing Guide 2026: All Models incl. Cybertruck, Tow Mode, Brake Controllers & EU Rules"
-description: "Tesla towing guide 2026: all model ratings (Cybertruck 11k lbs, Model X 5k, Model Y 3.5k), Tow Mode setup, real range loss tables, brake controller wiring & EU speed limits."
+title: "Tesla Towing Guide 2026: All Models & Cybertruck"
+description: "Tesla towing guide 2026: all model ratings (Cybertruck 11k lb, Model X 5k, Y 3.5k), Tow Mode setup, range-loss tables, brake controllers, and EU speed limits."
 date: 2026-03-01
 lastUpdated: 2026-06-03
 category: "Driving & Features"

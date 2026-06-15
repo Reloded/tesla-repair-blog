@@ -1,8 +1,8 @@
 ---
 type: news
 layout: post.njk
-title: "2026 Tesla Model Y Juniper: Every Known Problem and How to Fix Them"
-description: "Complete guide to 2026 Tesla Model Y Juniper issues - suspension rattle, Autopilot quirks, AC problems, taillight concerns, and more. Real fixes from real owners."
+title: "2026 Tesla Model Y Juniper: Known Problems & Fixes"
+description: "Complete guide to 2026 Tesla Model Y Juniper issues: suspension rattle, Autopilot quirks, AC problems, taillight concerns, and more — fixes from real owners."
 date: 2026-02-22
 category: "General"
 difficulty: "Mixed"

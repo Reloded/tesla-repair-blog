@@ -1,7 +1,7 @@
 ---
 type: news
 layout: post.njk
-title: "Tesla New Owner Guide 2026: Everything to Do in Your First 30 Days"
+title: "Tesla New Owner Guide 2026: Your First 30 Days"
 description: "New Tesla owner in 2026? Day-one setup, essential accessories, charging tips & insider tricks for Model 3 Highland, Y Juniper & Cybertruck."
 date: 2026-03-07
 lastUpdated: 2026-05-27

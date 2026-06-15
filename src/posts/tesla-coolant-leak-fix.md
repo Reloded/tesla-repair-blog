@@ -1,7 +1,7 @@
 ---
 layout: post.njk
 title: "Tesla Coolant Leak: How to Find & Fix It (DIY Guide)"
-description: "Find and fix Tesla coolant leaks yourself. Covers common leak locations, diagnosis with UV dye and pressure testing, DIY repair steps, and when to visit service. Save hundreds on repair costs."
+description: "Find and fix Tesla coolant leaks yourself: common leak locations, diagnosis with UV dye and pressure testing, DIY repair steps, and when to visit service."
 date: 2026-02-08
 category: "Cooling System"
 difficulty: "Medium"

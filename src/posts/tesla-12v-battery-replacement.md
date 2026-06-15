@@ -1,7 +1,7 @@
 ---
 layout: post.njk
-title: "Tesla 12V Battery Replacement: Step-by-Step DIY Guide (Save €200+)"
-description: "Tesla 12V battery dead or showing a warning? Emergency jump procedure + full DIY replacement guide for Model 3, Y, S, X & Cybertruck. Lead-acid, lithium & 16V systems covered. Saves €200+ vs service center. Torque specs included. 2026 updated."
+title: "Tesla 12V Battery Replacement: Step-by-Step DIY Guide"
+description: "Tesla 12V battery dead or warning showing? Emergency jump plus full DIY replacement for Model 3, Y, S, X & Cybertruck. Saves €200+ vs service."
 date: 2026-01-27
 lastUpdated: 2026-04-14
 category: "Electrical"

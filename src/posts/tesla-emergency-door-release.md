@@ -1,6 +1,6 @@
 ---
 layout: post.njk
-title: "Tesla Emergency Door Release: How to Open Doors When Power Fails"
+title: "Tesla Emergency Door Release: Open Doors When Dead"
 description: "Learn where every Tesla manual door release is located — front and rear doors on Model 3, Y, S, and X. Critical safety knowledge for every Tesla owner."
 date: 2026-02-18
 category: "Safety"

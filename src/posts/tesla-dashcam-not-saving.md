@@ -1,7 +1,7 @@
 ---
 layout: post.njk
 title: "Tesla Dashcam Not Saving? Complete Fix Guide (2026)"
-description: "Tesla dashcam not saving videos or Sentry Mode not recording? Fix USB drive errors, format issues, settings problems, and missing footage — step by step for all models."
+description: "Tesla dashcam not saving or Sentry Mode not recording? Fix USB drive errors, format issues, and settings problems — step by step for all Tesla models."
 date: 2026-04-07
 category: "Software"
 difficulty: "Easy"

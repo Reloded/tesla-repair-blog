@@ -1,7 +1,7 @@
 ---
 layout: post.njk
-title: "Tesla Dashcam USB Setup Guide (2026): Best Drives, Format Steps & Sentry Mode"
-description: "Stop losing Tesla dashcam footage in 2026. Best USB drives by speed & lifespan, exact format steps, Sentry Mode setup, and every error code fixed — 15 min start to finish."
+title: "Tesla Dashcam USB Setup (2026): Drives & Format Steps"
+description: "Stop losing Tesla dashcam footage in 2026. Best USB drives by speed and lifespan, exact format steps, Sentry Mode setup, and every error code — 15 minutes."
 date: 2026-01-17
 lastUpdated: 2026-05-08
 category: "Electrical"

@@ -1,7 +1,7 @@
 ---
 layout: post.njk
-title: "Tesla BMS Calibration: How to Recalibrate Your Battery for Accurate Range (2026)"
-description: "Tesla showing wrong range or not charging to full? Learn how to recalibrate the Battery Management System (BMS) with step-by-step instructions for all Tesla models."
+title: "Tesla BMS Calibration: Recalibrate for Accurate Range"
+description: "Tesla showing wrong range or not charging to full? How to recalibrate the Battery Management System (BMS), step by step, for all Tesla models."
 date: 2026-03-09
 category: "Battery"
 difficulty: "Easy"

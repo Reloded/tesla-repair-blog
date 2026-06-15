@@ -1,6 +1,6 @@
 ---
 layout: post.njk
-title: "Tesla Battery Preconditioning: Faster Charging & Better Range"
+title: "Tesla Battery Preconditioning: Faster Charging"
 description: "Learn how Tesla battery preconditioning works, when to use it, and how to get faster Supercharging speeds and more range in cold weather."
 date: 2026-02-27
 category: "Battery & Charging"

@@ -1,6 +1,6 @@
 ---
 layout: post.njk
-title: "Tesla Screen Frozen? How to Reboot and Fix an Unresponsive Touchscreen"
+title: "Tesla Screen Frozen? How to Reboot the Touchscreen"
 description: "Tesla screen frozen or not responding? Here's how to soft reboot, hard reboot, and fix an unresponsive touchscreen on any Tesla model. Takes 30 seconds."
 date: 2026-02-22
 category: "Interior"

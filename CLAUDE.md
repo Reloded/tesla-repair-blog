@@ -228,7 +228,14 @@ Full technical audit of the built site. Verified healthy: clean build, all 528 J
 - [x] 28 broken internal links — missing `/posts/` prefix in 5 articles (used-buying guide, charging-adapter, wont-start, emergency-door-release, TPMS), wrong slugs (`tesla-battery-drain-fix` → `tesla-phantom-battery-drain-fix`, `tesla-model-3-door-panel-removal` → `tesla-door-panel-removal`), dead `/tags/tires/` link → `/guides/`
 - [x] 5 broken image references removed (roof trim ×3, sway bar link, tie rod end) — files never existed; per content guidelines did NOT substitute unverified photos
 - [x] Terafab meta-refresh stub (`tesla-terafab-ai-chip-factory`) deleted; proper 301 added to `_redirects`; removes it from sitemap + Pagefind index
-- Known remaining (not fixed): 81 meta descriptions >165 chars, 26 titles >70 chars (CTR opportunity); external link liveness + 89 ASINs unverifiable from sandbox (check locally); ~100 articles published since Jan never audited against service.tesla.com
+- Known remaining (not fixed): external link liveness + 89 ASINs unverifiable from sandbox (check locally); ~100 articles published since Jan never audited against service.tesla.com
+
+### SEO meta trim (2026-06-15)
+CTR pass on titles + meta descriptions (the item flagged above). Note: the `<title>` template appends ` | Tesla DIY Repair` (19 chars), so frontmatter titles were trimmed so the keyword shows before truncation.
+- [x] 70 titles rewritten to ≤60 chars (was up to 92) — keyword front-loaded, year tags kept
+- [x] 92 meta descriptions rewritten to ≤160 chars (was up to 270)
+- 111 files changed total. Verified: clean build, every title ≤60 / every description ≤160, no duplicate titles/descriptions, all JSON-LD valid, 0 broken links/images. Titles feed H1 + breadcrumbs + Article JSON-LD headline, all confirmed rendering correctly.
+- Specs/numbers preserved (torque, capacities, prices, model lists); no factual claims altered.
 
 ## Session 2026-01-25
 - [x] Updated GSC stats: 167 impressions (+32), 2 clicks (same)

@@ -1,7 +1,7 @@
 ---
 layout: post.njk
 title: "Tesla Service Mode: The Hidden Menu Most Owners Miss (2026)"
-description: "Access Tesla's hidden Service Mode in 10 seconds — the same diagnostics menu technicians use. Check battery cell voltage delta, decode service alerts, calibrate cameras, and diagnose Cybertruck & Model S/X systems. No OBD tool needed."
+description: "Access Tesla's hidden Service Mode in seconds — the diagnostics menu technicians use. Check cell voltage delta, decode alerts, calibrate cameras. No OBD tool."
 date: 2026-02-26
 lastUpdated: 2026-04-18
 category: "Maintenance"

@@ -1,7 +1,7 @@
 ---
 layout: post.njk
-title: "Tesla Warning Lights & Error Messages: Complete Guide to Every Alert"
-description: "See a warning on your Tesla screen? This guide explains every Tesla warning light, error message, and alert icon — what they mean, how serious they are, and what to do next."
+title: "Tesla Warning Lights & Error Messages Explained"
+description: "See a warning on your Tesla screen? Every warning light, error message, and alert icon explained — what they mean, how serious they are, and what to do next."
 date: 2026-03-08
 category: "Electrical"
 difficulty: "Easy"

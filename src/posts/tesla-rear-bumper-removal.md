@@ -1,7 +1,7 @@
 ---
 layout: post.njk
-title: "Tesla Model 3/Y Rear Bumper Removal Guide: Step-by-Step DIY Instructions"
-description: "Complete guide to removing the rear bumper (fascia) on Tesla Model 3 and Model Y. Covers all clip locations, bolt sizes, electrical connectors, and differences between model years — verified against Tesla's official service manual."
+title: "Tesla Model 3/Y Rear Bumper Removal: DIY Guide"
+description: "Remove the rear bumper on Tesla Model 3 and Y: clip locations, bolt sizes, connectors, and model-year differences — verified against Tesla's service manual."
 date: 2026-02-10
 lastUpdated: 2026-02-10
 category: "Body & Exterior"

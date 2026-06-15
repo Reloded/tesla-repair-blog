@@ -1,7 +1,7 @@
 ---
 layout: post.njk
 title: "Tesla Dent Repair: PDR, DIY Methods & Cost Guide"
-description: "Complete guide to fixing dents on your Tesla. Covers paintless dent removal (PDR), DIY dent pulling, when to use body filler, cost comparisons, and Tesla-specific aluminum body considerations for Model 3, Y, S, and X."
+description: "Fix dents on your Tesla: paintless dent removal (PDR), DIY pulling, when to use body filler, cost comparisons, and aluminum-body tips for Model 3, Y, S & X."
 date: 2026-02-27
 category: "Exterior"
 difficulty: "Medium"

@@ -1,7 +1,7 @@
 ---
 layout: post.njk
-title: "Tesla Recall Check: How to Look Up Recalls by VIN (2026 Guide)"
-description: "Check if your Tesla has open recalls using your VIN. Step-by-step guide to NHTSA lookup, Tesla's recall search, and how OTA updates fix most recalls automatically."
+title: "Tesla Recall Check: Look Up Recalls by VIN (2026)"
+description: "Check if your Tesla has open recalls using your VIN. Step-by-step NHTSA lookup, Tesla's recall search, and how OTA updates fix most recalls automatically."
 date: 2026-03-08
 category: "Ownership"
 difficulty: "Beginner"

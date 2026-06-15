@@ -1,7 +1,7 @@
 ---
 layout: post.njk
 title: "Tesla Seat Heater Not Working: Complete DIY Fix Guide (2026)"
-description: "Tesla seat heater not working? Step-by-step diagnosis for Model 3, Y, S & X — covers fuses, connectors, heating elements, resistance testing, and when to visit service. Save $200+ with DIY fixes."
+description: "Tesla seat heater not working? Diagnosis for Model 3, Y, S & X: fuses, connectors, heating elements, resistance testing, and when to visit service. Save $200+."
 date: 2026-03-31
 lastmod: 2026-03-31
 category: "Interior"

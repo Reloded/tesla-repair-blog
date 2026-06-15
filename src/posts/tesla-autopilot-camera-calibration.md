@@ -1,7 +1,7 @@
 ---
 layout: post.njk
 title: "Tesla Camera Calibration Stuck? Here's the Real Fix (2026)"
-description: "Tesla camera calibration stuck at 0% or 90%? Complete 2026 fix guide: static vs dynamic calibration, HW4 tips, FSD v14 notes, OEM part numbers, Model Y Juniper coverage."
+description: "Tesla camera calibration stuck at 0% or 90%? 2026 fix guide: static vs dynamic calibration, HW4 tips, FSD v14 notes, OEM part numbers, and Juniper coverage."
 date: 2026-01-14
 updated: 2026-06-01
 category: "Autopilot"

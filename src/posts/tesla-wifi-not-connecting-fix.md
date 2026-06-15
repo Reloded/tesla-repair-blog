@@ -1,7 +1,7 @@
 ---
 layout: post.njk
-title: "Tesla WiFi Not Connecting? Fix Connection Issues & Download Updates"
-description: "Fix Tesla WiFi connection problems — won't connect, keeps disconnecting, can't download updates. Covers Model 3, Y, S, X with step-by-step troubleshooting for home WiFi, hotspots, and software updates."
+title: "Tesla WiFi Not Connecting? How to Fix It"
+description: "Fix Tesla WiFi problems — won't connect, keeps dropping, can't download updates. Step-by-step for Model 3, Y, S, X covering home WiFi, hotspots, and updates."
 date: 2026-03-19
 category: "Software & Connectivity"
 difficulty: "Easy"

@@ -1,8 +1,8 @@
 ---
 type: news
 layout: post.njk
-title: "Tesla Model Y L: What the 6-Seat, Long-Wheelbase Model Y Means for Owners and DIY Repairs"
-description: "The Tesla Model Y L adds a third row, longer wheelbase, bigger battery, and V2L. Here's everything owners need to know about specs, parts compatibility, and what changes for DIY repairs."
+title: "Tesla Model Y L: 6-Seat, Long-Wheelbase Explained"
+description: "The Tesla Model Y L adds a third row, longer wheelbase, bigger battery, and V2L. What owners need to know about specs, parts compatibility, and DIY repairs."
 date: 2026-03-14
 category: "Buying Guide"
 difficulty: "Informational"

@@ -1,6 +1,6 @@
 ---
 layout: post.njk
-title: "Tesla Charging Adapter Guide: Every Adapter You Need Explained"
+title: "Tesla Charging Adapter Guide: Every Adapter Explained"
 description: "Complete guide to Tesla charging adapters — CCS, Type 2, J1772, CHAdeMO, and NACS. Which adapter fits your Tesla, regional differences, and where to buy."
 date: 2026-03-05
 category: "Charging"

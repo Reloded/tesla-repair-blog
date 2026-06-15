@@ -1,7 +1,7 @@
 ---
 layout: post.njk
-title: "Tesla Coolant Pump Replacement: Symptoms, Diagnosis & DIY Guide"
-description: "How to diagnose and replace a failed Tesla coolant pump yourself. Covers battery and powertrain pumps on all models, common THC alert codes, parts, tools, and the full replacement procedure."
+title: "Tesla Coolant Pump Replacement: Diagnosis & DIY"
+description: "Diagnose and replace a failed Tesla coolant pump yourself. Covers battery and powertrain pumps on all models, THC alert codes, parts, tools, and procedure."
 date: 2026-03-04
 category: "Cooling System"
 difficulty: "Advanced"

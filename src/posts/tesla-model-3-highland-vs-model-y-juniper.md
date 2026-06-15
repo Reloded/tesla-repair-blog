@@ -1,8 +1,8 @@
 ---
 type: news
 layout: post.njk
-title: "Tesla Model 3 Highland vs Model Y Juniper: Every Difference That Matters"
-description: "Detailed comparison of the refreshed Model 3 Highland and Model Y Juniper — dimensions, range, performance, interior, pricing, and which one you should actually buy."
+title: "Tesla Model 3 Highland vs Model Y Juniper Compared"
+description: "Compare the refreshed Model 3 Highland and Model Y Juniper: dimensions, range, performance, interior, and pricing — and which one you should actually buy."
 date: 2026-03-15
 category: "General"
 difficulty: "Beginner"

@@ -1,7 +1,7 @@
 ---
 layout: post.njk
 title: "Tesla Regen Braking Reduced: Causes & Solutions (2026)"
-description: "Tesla regenerative braking reduced or limited? Learn why cold batteries, full charge, and software settings limit regen power — plus how to fix it and maximize energy recovery."
+description: "Tesla regenerative braking reduced or limited? Why cold batteries, full charge, and software settings cut regen power — plus how to fix it and recover energy."
 date: 2026-03-18
 category: "Driving"
 difficulty: "Informational"

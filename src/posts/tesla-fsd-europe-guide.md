@@ -2,7 +2,7 @@
 type: news
 layout: post.njk
 title: "Tesla FSD in Europe: What You Need to Know (2026 Guide)"
-description: "Tesla Full Self-Driving (Supervised) is finally coming to Europe. Here's what European Tesla owners need to know about FSD features, regulatory approval, pricing, and how to get it on your car."
+description: "Tesla Full Self-Driving (Supervised) is coming to Europe. What EU owners need to know about features, regulatory approval, pricing, and how to get it."
 date: 2026-02-12
 category: "Software"
 difficulty: "Easy"

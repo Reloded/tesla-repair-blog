@@ -1,7 +1,7 @@
 ---
 layout: post.njk
 title: "Tesla Charging Port Replacement: Complete DIY Guide (2026)"
-description: "Step-by-step Tesla charging port replacement guide. Save $250-600 over Tesla Service Center. Covers Model 3 & Model Y with burned pins, electrical failure, and physical damage diagnosis."
+description: "Tesla charging port replacement, step by step. Save $250–600 over the Service Center. Covers Model 3 and Y with burned pins, electrical failure, and damage."
 date: 2026-02-11
 updated: 2026-03-29
 category: "Charging"

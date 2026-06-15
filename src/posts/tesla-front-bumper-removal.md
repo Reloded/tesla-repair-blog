@@ -1,6 +1,6 @@
 ---
 layout: post.njk
-title: "Tesla Model 3/Y Front Bumper Removal Guide: Step-by-Step with Clip Locations"
+title: "Tesla Model 3/Y Front Bumper Removal: DIY Guide"
 description: "Remove Tesla Model 3/Y front bumper yourself: hidden bolt locations, all connectors mapped, torque specs, Highland/Juniper differences, fault codes. 2026 guide."
 date: 2026-02-10
 lastUpdated: 2026-06-02

@@ -1,6 +1,6 @@
 ---
 layout: post.njk
-title: "Tesla Screen Black or Frozen? Do THIS First (Works Every Time)"
+title: "Tesla Screen Black or Frozen? Do This First"
 description: "Don't panic — a black Tesla screen is almost never serious. One 10-second trick fixes 90% of cases. Plus 4 backup methods if the first one doesn't work."
 date: 2025-01-03
 category: "Electrical"

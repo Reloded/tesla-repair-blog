@@ -1,7 +1,7 @@
 ---
 layout: post.njk
 title: "How to Fix Tesla Phantom Battery Drain (Vampire Drain)"
-description: "Tesla losing charge while parked? Learn what causes phantom battery drain, how to diagnose it, and the exact settings to minimize vampire drain on any Tesla model."
+description: "Tesla losing charge while parked? What causes phantom (vampire) battery drain, how to diagnose it, and the exact settings to minimize it on any Tesla model."
 date: 2026-02-07
 category: "Software & Settings"
 difficulty: "Easy"

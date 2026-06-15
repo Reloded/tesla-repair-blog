@@ -1,7 +1,7 @@
 ---
 layout: post.njk
-title: "Tesla Trunk Won't Stay Open? Replace the Struts in 20 Minutes (All Models, 2026)"
-description: "Tesla trunk strut replacement guide 2026: DIY in 20-45 min for $40. Model 3, Y, S, X, Cybertruck — OEM part numbers, torque specs, force ratings, step-by-step, calibration guide."
+title: "Tesla Trunk Won't Stay Open? Replace the Struts (2026)"
+description: "Tesla trunk strut replacement 2026: DIY in 20–45 min for $40. Model 3, Y, S, X & Cybertruck — OEM part numbers, torque specs, force ratings, and calibration."
 date: 2026-02-10
 lastUpdated: 2026-06-06
 category: "Body & Trim"

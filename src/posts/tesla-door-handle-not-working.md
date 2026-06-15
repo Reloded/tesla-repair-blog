@@ -1,7 +1,7 @@
 ---
 layout: post.njk
 title: "Tesla Door Handle Not Working? DIY Fix Guide (2026)"
-description: "Tesla door handle stuck, not presenting, or frozen? Complete 2026 DIY fix guide for Model S, X, 3, and Y. Save $400–800 in service costs with step-by-step instructions, torque specs, and emergency entry tips."
+description: "Tesla door handle stuck, not presenting, or frozen? 2026 DIY fix for Model S, X, 3, and Y. Save $400–800 with step-by-step instructions and entry tips."
 date: 2026-04-06
 category: "Body & Exterior"
 difficulty: "Intermediate"

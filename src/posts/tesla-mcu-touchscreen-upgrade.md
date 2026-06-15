@@ -1,7 +1,7 @@
 ---
 layout: post.njk
 title: "Tesla MCU Upgrade: Is It Worth It? Complete 2026 Guide"
-description: "Tesla MCU1 to MCU2 upgrade — is it worth $1,500+? We break down costs, DIY eMMC repair ($50), yellow border fixes, MCU3 AMD Ryzen specs, and exactly who should upgrade in 2026."
+description: "Tesla MCU1 to MCU2 upgrade — worth $1,500+? Costs, DIY eMMC repair ($50), yellow-border fixes, MCU3 AMD Ryzen specs, and exactly who should upgrade in 2026."
 date: 2026-04-02
 lastUpdated: 2026-04-02
 category: "Electrical"

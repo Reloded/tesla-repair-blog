@@ -1,7 +1,7 @@
 ---
 layout: post.njk
-title: "Tesla Tie Rod End Replacement Guide (2026): DIY Steering Repair for Model 3 & Y"
-description: "Tesla tie rod end replacement 2026: fix loose steering in 1.5–2 hrs. Torque specs, part numbers, ball joint separator tips, Highland & Juniper notes. Save $300+."
+title: "Tesla Tie Rod End Replacement: DIY Steering Fix (2026)"
+description: "Tesla tie rod end replacement 2026: fix loose steering in 1.5–2 hrs. Torque specs, part numbers, separator tips, and Highland/Juniper notes. Save $300+."
 date: 2026-02-10
 lastUpdated: 2026-06-05
 draft: false

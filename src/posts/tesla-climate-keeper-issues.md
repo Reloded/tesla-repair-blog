@@ -1,7 +1,7 @@
 ---
 layout: post.njk
-title: "Tesla Climate Keeper Not Working: Dog Mode, Camp Mode & Overheat Protection Fix (2026)"
-description: "Tesla Climate Keeper, Dog Mode, or Camp Mode not working? Fix battery cutoff, deactivation, app errors, and Cabin Overheat Protection with this step-by-step troubleshooting guide."
+title: "Tesla Climate Keeper Not Working: Fix Guide (2026)"
+description: "Tesla Climate Keeper, Dog Mode, or Camp Mode not working? Fix battery cutoff, deactivation, app errors, and Cabin Overheat Protection — step by step."
 date: 2025-01-14
 updated: 2026-03-30
 category: "Climate"

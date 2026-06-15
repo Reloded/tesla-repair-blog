@@ -1,7 +1,7 @@
 ---
 layout: post.njk
-title: "Tesla Autopilot Unavailable? 9 Fixes That Actually Work (2026)"
-description: "Tesla Autopilot unavailable or cruise control disabled? Step-by-step fixes for camera obstructed, calibrating, and feature unavailable warnings on Model 3, Y, S, and X."
+title: "Tesla Autopilot Unavailable? 9 Fixes (2026)"
+description: "Tesla Autopilot unavailable or cruise control disabled? Fixes for camera obstructed, calibrating, and feature-unavailable warnings on Model 3, Y, S, and X."
 date: 2026-03-14
 category: "Software"
 difficulty: "Informational"

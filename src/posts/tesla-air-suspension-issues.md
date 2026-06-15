@@ -1,7 +1,7 @@
 ---
 layout: post.njk
-title: "Tesla Air Suspension Problems: DIY Diagnosis & Repair Guide (2026)"
-description: "Complete guide to Tesla air suspension problems on Model S and Model X. Learn to diagnose leaks, compressor failures, and height sensor faults — with DIY repair steps, part numbers, and cost comparisons."
+title: "Tesla Air Suspension Problems: DIY Repair (2026)"
+description: "Diagnose Tesla air suspension problems on Model S and X: leaks, compressor failures, and height sensor faults — with DIY repair steps, part numbers, and costs."
 date: 2026-01-14
 updated: 2026-03-15
 category: "Suspension"

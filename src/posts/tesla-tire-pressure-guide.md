@@ -1,6 +1,6 @@
 ---
 layout: post.njk
-title: "Tesla Tire Pressure Guide — Correct PSI, TPMS Tips & Seasonal Adjustments"
+title: "Tesla Tire Pressure Guide: Correct PSI by Model"
 description: "Find the correct tire pressure for every Tesla model. Learn how to check PSI, handle TPMS warnings, adjust for winter and summer, and avoid common mistakes."
 date: 2026-02-24
 category: "Tires"

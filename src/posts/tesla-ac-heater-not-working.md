@@ -1,7 +1,7 @@
 ---
 layout: post.njk
-title: "Tesla AC or Heater Not Working? Fix It Without a Service Visit"
-description: "Tesla climate control acting up? Step-by-step troubleshooting for AC not cooling, heater not blowing, and HVAC errors on Model 3, Y, S & X. Most fixes take under 10 minutes."
+title: "Tesla AC or Heater Not Working? How to Fix It"
+description: "Tesla climate control acting up? Troubleshoot AC not cooling, heater not blowing, and HVAC errors on Model 3, Y, S & X. Most fixes take under 10 minutes."
 date: 2026-02-20
 category: "HVAC"
 difficulty: "Easy–Medium"

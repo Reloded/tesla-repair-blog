@@ -1,7 +1,7 @@
 ---
 layout: post.njk
-title: "Tesla Supercharger Slow? 8 Fixes to Get Full Speed Back (2026)"
-description: "Tesla Supercharging at 30 kW instead of 250? Cold battery is the #1 cause — but there are 7 more. Real charging data, V2 vs V3 vs V4 stall tips, and the preconditioning trick that doubles your speed."
+title: "Tesla Supercharger Slow? 8 Fixes for Full Speed (2026)"
+description: "Tesla Supercharging at 30 kW instead of 250? Cold battery is the #1 cause — plus 7 more. Charging data, V2/V3/V4 stall tips, and the preconditioning trick."
 date: 2025-01-14
 updated: 2026-03-28
 category: "Charging"

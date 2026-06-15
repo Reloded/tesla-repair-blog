@@ -1,7 +1,7 @@
 ---
 layout: post.njk
-title: "Tesla Rear Axle Clicking Noise Fix: Half-Shaft Lubrication & Replacement Guide"
-description: "Fix the annoying clicking or clunking noise from your Tesla Model 3 or Model Y rear axle. Covers the spline lubrication fix, full half-shaft replacement, and how to diagnose which repair you need."
+title: "Tesla Rear Axle Clicking Noise: Half-Shaft Fix"
+description: "Fix the clicking or clunking noise from your Tesla Model 3 or Y rear axle. Covers the spline lubrication fix, full half-shaft replacement, and how to diagnose."
 date: 2026-02-11
 lastUpdated: 2026-02-11
 category: "Drivetrain"

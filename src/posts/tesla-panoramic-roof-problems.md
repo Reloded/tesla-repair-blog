@@ -1,7 +1,7 @@
 ---
 layout: post.njk
-title: "Tesla Glass Roof Problems: Cracks, Leaks, Heat & Sunshade Solutions"
-description: "Tesla panoramic glass roof cracking, leaking, or letting in too much heat? Complete guide to diagnosing issues, DIY fixes, sunshade installation, and when to claim warranty."
+title: "Tesla Glass Roof Problems: Cracks, Leaks & Heat"
+description: "Tesla panoramic glass roof cracking, leaking, or letting in heat? Diagnose issues, DIY fixes, sunshade installation, and when to claim warranty."
 date: 2026-02-23
 category: "Exterior"
 difficulty: "Easy–Medium"

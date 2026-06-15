@@ -2,7 +2,7 @@
 type: news
 layout: post.njk
 title: "Best Tesla Model Y Juniper Accessories: 2026 Owner's Guide"
-description: "The only Juniper accessories list you need. Floor mats, screen protectors, console organizers, and more — with compatibility warnings for pre-refresh parts that don't fit."
+description: "The only Juniper accessories list you need: floor mats, screen protectors, console organizers, and more — with compatibility warnings for pre-refresh parts."
 date: 2026-03-15
 category: "General"
 difficulty: "Beginner"

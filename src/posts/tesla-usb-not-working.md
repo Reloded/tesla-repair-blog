@@ -1,7 +1,7 @@
 ---
 layout: post.njk
-title: "Tesla USB Not Working? The Complete Fix Guide for Every USB Issue"
-description: "Tesla USB not working? Fix USB not recognized, Sentry Mode not recording, dashcam failures & music issues in 5 minutes. Step-by-step for Model 3, Y, S & X (2026 updated)."
+title: "Tesla USB Not Working? The Complete Fix Guide"
+description: "Tesla USB not working? Fix USB not recognized, Sentry Mode not recording, dashcam failures, and music issues in 5 minutes. For Model 3, Y, S & X (2026)."
 date: 2026-02-22
 category: "Interior"
 difficulty: "Easy"

@@ -1,7 +1,7 @@
 ---
 layout: post.njk
 title: "Tesla Rear Camera Blurry? Fix It in Minutes (2026)"
-description: "Tesla backup camera blurry or foggy? 5 quick fixes for dirt, condensation, and lens damage. Most cases cleared in under 5 minutes — no service appointment needed."
+description: "Tesla backup camera blurry or foggy? 5 quick fixes for dirt, condensation, and lens damage — most cleared in under 5 minutes, no service appointment needed."
 date: 2025-01-14
 category: "Cameras"
 difficulty: "Easy"

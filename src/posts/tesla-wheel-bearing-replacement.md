@@ -1,6 +1,6 @@
 ---
 layout: post.njk
-title: "Tesla Wheel Bearing Replacement: DIY Guide for Model 3, Y, S & X"
+title: "Tesla Wheel Bearing Replacement: DIY (3/Y/S/X)"
 description: "Complete guide to diagnosing and replacing wheel bearings on your Tesla. Learn the symptoms, tools needed, and step-by-step process for all Tesla models."
 date: 2026-02-01
 category: "Suspension"

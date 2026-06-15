@@ -1,7 +1,7 @@
 ---
 layout: post.njk
 title: "Tesla Voice Commands Not Working: 7 Quick Fixes (2026)"
-description: "Tesla voice commands not working or responding? Complete troubleshooting guide with 7 proven fixes for microphone issues, 'Hey Tesla' problems, and recognition errors. Works for Model 3, Y, S, and X."
+description: "Tesla voice commands not working? 7 proven fixes for microphone issues, 'Hey Tesla' problems, and recognition errors. Works for Model 3, Y, S & X."
 date: 2026-03-21
 category: "Software"
 difficulty: "Easy"

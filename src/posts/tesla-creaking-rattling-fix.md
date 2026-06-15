@@ -1,7 +1,7 @@
 ---
 layout: post.njk
 title: "Tesla Creaking & Rattling: Find and Fix the Noise"
-description: "Tesla rattle or creak? A-pillar clips, dashboard, door panels — 3 spots cause 80% of noise. Model 3/Y/S/X specific fixes, HVAC noise diagnosis, suspension clunk guide, and warranty tips. 2026 updated."
+description: "Tesla rattle or creak? A-pillar clips, dashboard, and door panels cause 80% of noise. Model 3/Y/S/X fixes, HVAC diagnosis, and warranty tips. 2026 updated."
 date: 2026-01-14
 lastUpdated: 2026-04-24
 category: "Interior"

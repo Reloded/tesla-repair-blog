@@ -1,6 +1,6 @@
 ---
 layout: post.njk
-title: "How to Format USB for Tesla Dashcam & Sentry Mode (2026 Guide)"
+title: "How to Format USB for Tesla Dashcam (2026)"
 description: "Format USB for Tesla dashcam & Sentry Mode in 30 seconds. Step-by-step for Windows, Mac, Linux & in-car. Best USB drives, SSD options, and troubleshooting."
 date: 2026-01-22
 updated: 2026-03-16

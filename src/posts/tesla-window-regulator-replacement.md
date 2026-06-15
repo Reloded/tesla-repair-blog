@@ -1,6 +1,6 @@
 ---
 layout: post.njk
-title: "Tesla Window Regulator Replacement: Complete DIY Guide (All Models)"
+title: "Tesla Window Regulator Replacement: DIY Guide"
 date: 2026-02-01
 description: "Step-by-step guide to replacing the window regulator on Tesla Model 3, Model Y, Model S, and Model X. Save $300-600 with this DIY repair."
 tags: ["model 3", "model y", "model s", "model x", "diy repair", "interior", "electrical"]

@@ -1,7 +1,7 @@
 ---
 layout: post.njk
-title: "Tesla Falcon Wing Door Problems: Complete DIY Fix Guide (2026)"
-description: "Fix Tesla Model X falcon wing door problems yourself — sensor errors, doors not opening, alignment issues, motor replacement & calibration. Step-by-step 2026 guide with error codes."
+title: "Tesla Falcon Wing Door Problems: DIY Fix (2026)"
+description: "Fix Tesla Model X falcon wing door problems: sensor errors, doors not opening, alignment, motor replacement, and calibration. 2026 guide with error codes."
 date: 2026-03-19
 category: "Body"
 difficulty: "Medium"

@@ -1,7 +1,7 @@
 ---
 layout: post.njk
 title: "Tesla Vinyl Wrap: Colors, Cost & DIY Installation Guide"
-description: "Complete guide to vinyl wrapping your Tesla. Covers wrap types, color options, DIY vs professional install, cost breakdown, and step-by-step instructions for Model 3, Y, S, and X."
+description: "Guide to vinyl wrapping your Tesla: wrap types, color options, DIY vs professional install, cost breakdown, and step-by-step steps for Model 3, Y, S, and X."
 date: 2026-02-26
 category: "Exterior"
 difficulty: "Hard"

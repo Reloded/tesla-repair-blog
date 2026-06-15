@@ -1,7 +1,7 @@
 ---
 layout: post.njk
 title: "Tesla TPMS Sensor Replacement: Complete DIY Guide"
-description: "Learn how to replace TPMS (Tire Pressure Monitoring System) sensors on your Tesla Model 3, Model Y, Model S, or Model X. Step-by-step guide with tools, costs, and programming tips."
+description: "Replace TPMS (Tire Pressure Monitoring System) sensors on your Tesla Model 3, Y, S, or X. Step-by-step guide with tools, costs, and sensor programming tips."
 date: 2026-02-01
 category: "Tires & Wheels"
 difficulty: "Intermediate"

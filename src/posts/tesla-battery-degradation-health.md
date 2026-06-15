@@ -1,7 +1,7 @@
 ---
 layout: post.njk
 title: "Tesla Battery Degradation: What's Normal vs What's a Problem"
-description: "Check your Tesla battery health in 3 numbers — exact kWh thresholds for all models, 70% warranty threshold calculator, May 2026 fleet data for Highland/Juniper/4680 cells, EU Battery Regulation 2026 guide, and 4 real workshop repair cases. Warranty claim guide included."
+description: "Check your Tesla's battery health in 3 numbers: exact kWh thresholds by model, the 70% warranty rule, May 2026 fleet data, and real repair cases."
 date: 2026-02-17
 lastUpdated: 2026-05-25
 category: "Battery"

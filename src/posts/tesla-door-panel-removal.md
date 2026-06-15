@@ -1,7 +1,7 @@
 ---
 layout: post.njk
-title: "Tesla Door Panel Removal Guide: Model 3, Model Y, and Highland (All Doors)"
-description: "Step-by-step guide to removing door panels on Tesla Model 3 (2017-2023), Model 3 Highland (2024+), and Model Y. Covers front and rear doors, clip locations, connectors, and common mistakes."
+title: "Tesla Door Panel Removal: Model 3, Y & Highland"
+description: "Remove door panels on Tesla Model 3 (2017–2023), Model 3 Highland (2024+), and Model Y. Front and rear doors, clip locations, connectors, and common mistakes."
 date: 2026-03-06
 lastUpdated: 2026-03-06
 category: "Interior"

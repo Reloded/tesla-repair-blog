@@ -1,7 +1,7 @@
 ---
 layout: post.njk
-title: "How to Install a Roof Rack on Tesla Model 3/Y (Complete Guide)"
-description: "Complete guide to installing a roof rack on Tesla Model 3 and Model Y. Covers OEM vs aftermarket options, weight limits, installation steps, accessories, range impact, and common mistakes."
+title: "How to Install a Roof Rack on Tesla Model 3/Y"
+description: "Install a roof rack on Tesla Model 3 and Y: OEM vs aftermarket options, weight limits, step-by-step install, accessories, range impact, and common mistakes."
 date: 2026-02-07
 lastUpdated: 2026-02-07
 category: "Exterior"

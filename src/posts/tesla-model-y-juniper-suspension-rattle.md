@@ -1,7 +1,7 @@
 ---
 layout: post.njk
-title: "Tesla Model Y Juniper Suspension Rattle: Causes, Fixes, and What Tesla Is Doing About It"
-description: "Thousands of 2026 Model Y Juniper owners report a front suspension clunk over bumps. Here's what causes it, which fixes actually work, what Tesla Service will do, and when to push for warranty replacement."
+title: "Tesla Model Y Juniper Suspension Rattle: Causes & Fixes"
+description: "2026 Model Y Juniper front suspension clunk over bumps? What causes it, which fixes work, what Tesla Service does, and when to push for warranty."
 date: 2026-03-22
 category: "Suspension"
 difficulty: "Intermediate"

@@ -1,7 +1,7 @@
 ---
 layout: post.njk
 title: "Tesla Cabin Air Filter Replacement: 15-Min DIY (Save $100+)"
-description: "Step-by-step Tesla cabin air filter replacement for Model 3, Y, S & X. HEPA vs standard filters compared, with cost breakdown and pro tips. 15-minute job saves $100+."
+description: "Tesla cabin air filter replacement for Model 3, Y, S & X. HEPA vs standard filters compared, with cost breakdown and pro tips. A 15-minute job that saves $100+."
 date: 2026-01-08
 category: "HVAC"
 difficulty: "Easy"

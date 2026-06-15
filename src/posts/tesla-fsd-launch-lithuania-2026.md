@@ -1,8 +1,8 @@
 ---
 type: news
 layout: post.njk
-title: "Tesla FSD Supervised Now Live in Lithuania (May 2026): €99/Month, Hardware 4 Only"
-description: "Tesla launched FSD (Supervised) in Lithuania on May 20, 2026 — second European country after Netherlands. Hardware 4 only at launch, €99/month (€49 with EAP). Full breakdown."
+title: "Tesla FSD Supervised Now Live in Lithuania (2026)"
+description: "Tesla launched FSD (Supervised) in Lithuania on May 20, 2026 — the second European country after the Netherlands. Hardware 4 only, €99/month (€49 with EAP)."
 date: 2026-05-21
 lastUpdated: 2026-05-21
 category: "Technology"

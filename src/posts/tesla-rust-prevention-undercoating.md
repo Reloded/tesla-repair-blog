@@ -1,7 +1,7 @@
 ---
 layout: post.njk
-title: "Tesla Rust Prevention & Undercoating: Complete Protection Guide"
-description: "Protect your Tesla from rust and corrosion with this complete guide to undercoating, cavity wax, and rust prevention for Model 3, Y, S, and X. Essential for winter climates."
+title: "Tesla Rust Prevention & Undercoating Guide"
+description: "Protect your Tesla from rust and corrosion: undercoating, cavity wax, and rust prevention for Model 3, Y, S, and X. Essential for winter and salt-belt climates."
 date: 2026-02-22
 category: "Maintenance"
 difficulty: "Medium"

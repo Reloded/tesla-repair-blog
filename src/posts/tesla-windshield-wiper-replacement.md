@@ -1,7 +1,7 @@
 ---
 layout: post.njk
-title: "Tesla Windshield Wiper Replacement Guide (2026): All Models, Sizes & Service Mode"
-description: "Skip the $75 Tesla service appointment. Exact wiper blade sizes for all 7 models including Cybertruck, rear wiper specs, Service Mode steps — done in 5 min (2026)."
+title: "Tesla Windshield Wiper Replacement: All Models (2026)"
+description: "Skip the $75 Tesla service visit. Exact wiper blade sizes for all 7 models incl. Cybertruck, rear wiper specs, and Service Mode steps — done in 5 min (2026)."
 date: 2025-01-05
 lastUpdated: 2026-06-08
 category: "Maintenance"

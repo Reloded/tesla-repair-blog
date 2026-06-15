@@ -1,7 +1,7 @@
 ---
 layout: post.njk
 title: "Tesla Software Update Stuck? Force Install Guide (2026)"
-description: "Tesla software update stuck downloading or installing? Step-by-step guide to force updates, fix WiFi issues, and troubleshoot failed OTA installs on all Tesla models in 2026."
+description: "Tesla software update stuck downloading or installing? Force updates, fix WiFi issues, and troubleshoot failed OTA installs on all Tesla models (2026)."
 date: 2025-01-14
 updated: 2026-03-17
 category: "Software"

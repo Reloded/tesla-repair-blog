@@ -1,7 +1,7 @@
 ---
 layout: post.njk
 title: "Tesla Trunk Won't Close? Latch Reset & Fix Guide (2026)"
-description: "Tesla trunk or liftgate won't close properly? Step-by-step guide to fix latch issues, reset sensors, adjust the striker, and troubleshoot power trunk problems on Model 3, Model Y, Model S & Model X."
+description: "Tesla trunk or liftgate won't close? Fix latch issues, reset sensors, adjust the striker, and troubleshoot power trunk problems on Model 3, Y, S & X."
 date: 2026-04-01
 updated: 2026-04-01
 category: "Body"

@@ -1,7 +1,7 @@
 ---
 layout: post.njk
-title: "Tesla Water Leak Fix: How to Find and Seal Trunk, Cabin & Tail Light Leaks"
-description: "Fix water leaks in your Tesla Model 3 or Model Y. Covers trunk lid leaks, tail light seal failures, A-pillar drips, and liftgate water ingress with step-by-step DIY repair instructions."
+title: "Tesla Water Leak Fix: Trunk, Cabin & Tail Light Leaks"
+description: "Fix water leaks in your Tesla Model 3 or Y: trunk lid leaks, tail light seal failures, A-pillar drips, and liftgate water ingress — step-by-step DIY repairs."
 date: 2026-02-09
 lastUpdated: 2026-02-09
 category: "Body & Exterior"

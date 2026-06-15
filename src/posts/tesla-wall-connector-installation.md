@@ -1,7 +1,7 @@
 ---
 layout: post.njk
-title: "Tesla Wall Connector Installation Guide: Everything You Need to Know"
-description: "Complete guide to installing the Tesla Wall Connector at home. Wiring requirements, breaker sizing, mounting, Wi-Fi setup, and troubleshooting for Gen 3 and Gen 4."
+title: "Tesla Wall Connector Installation Guide"
+description: "Install the Tesla Wall Connector at home: wiring requirements, breaker sizing, mounting, Wi-Fi setup, and troubleshooting for Gen 3 and Gen 4."
 date: 2025-02-20
 category: "Charging"
 difficulty: "Advanced"

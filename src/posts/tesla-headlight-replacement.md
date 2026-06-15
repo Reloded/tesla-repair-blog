@@ -1,6 +1,6 @@
 ---
 layout: post.njk
-title: "Tesla Headlight Replacement: Complete DIY Guide (Model 3, Y, S, X)"
+title: "Tesla Headlight Replacement: DIY Guide (3/Y/S/X)"
 date: 2026-02-04
 description: "Replace a broken, cracked, or foggy headlight on your Tesla yourself. Covers bumper removal, headlight swap, and calibration. Save $800+ over Tesla service."
 tags: ["model 3", "model y", "model s", "model x", "diy repair", "electrical", "exterior"]

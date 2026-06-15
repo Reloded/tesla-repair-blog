@@ -1,7 +1,7 @@
 ---
 layout: post.njk
 title: "Tesla Model 3 Side Mirror Replacement: Complete DIY Guide"
-description: "Replace a damaged Tesla Model 3 side mirror yourself. Step-by-step with real photos. Covers mirror removal, connector handling, and reinstallation. Save €300+ on labor."
+description: "Replace a damaged Tesla Model 3 side mirror yourself, with real photos. Covers mirror removal, connector handling, and reinstallation. Save €300+ on labor."
 date: 2026-01-27
 category: "Body & Exterior"
 difficulty: "Medium"

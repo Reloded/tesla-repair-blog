@@ -1,7 +1,7 @@
 ---
 layout: post.njk
 title: "Tesla Bluetooth Not Working: 10 Quick Fixes (2026)"
-description: "Tesla Bluetooth not connecting, phone key failing, or audio cutting out? Step-by-step fixes for all Tesla models including Model 3 Highland and Model Y Juniper. Updated for 2026 software."
+description: "Tesla Bluetooth not connecting, phone key failing, or audio cutting out? Step-by-step fixes for all models incl. Model 3 Highland and Model Y Juniper (2026)."
 date: 2026-03-20
 lastmod: 2026-03-20
 category: "Connectivity"

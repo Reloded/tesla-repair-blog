@@ -1,7 +1,7 @@
 ---
 layout: post.njk
-title: "Tesla Dog Mode & Camp Mode: Complete 2026 Guide (Battery Drain, Safety & Accessories)"
-description: "Dog Mode drains 1–3% per hour. Camp Mode runs all night on 80% charge. 2026 guide: activation steps, model-specific drain tables, camping accessories, extreme-temp safety limits & EU legal info."
+title: "Tesla Dog Mode & Camp Mode: Complete 2026 Guide"
+description: "Dog Mode drains 1–3% per hour; Camp Mode runs all night on 80%. 2026 guide: activation, drain tables, accessories, temp safety limits, and EU legal info."
 date: 2026-02-26
 lastUpdated: 2026-05-28
 category: "Software & Tech"

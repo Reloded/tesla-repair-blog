@@ -1,6 +1,6 @@
 ---
 layout: post.njk
-title: "Tesla Tail Light Replacement: Easy DIY Guide (Model 3, Y, S, X)"
+title: "Tesla Tail Light Replacement: DIY Guide (3/Y/S/X)"
 date: 2026-02-01
 description: "Replace a cracked, foggy, or damaged tail light on your Tesla. Step-by-step guide with photos. Takes 15-20 minutes, saves $200+ over dealer service."
 tags: ["model 3", "model y", "model s", "model x", "diy repair", "electrical", "exterior"]

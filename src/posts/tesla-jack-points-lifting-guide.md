@@ -1,7 +1,7 @@
 ---
 layout: post.njk
-title: "Tesla Jack Points & Lifting Guide: How to Safely Jack Up Any Tesla"
-description: "Complete guide to Tesla jack point locations for Model 3, Y, S, and X. Learn proper jack pad placement, Jack Mode activation, and safe lifting procedures to protect your battery."
+title: "Tesla Jack Points & Lifting Guide: All Models"
+description: "Tesla jack point locations for Model 3, Y, S, and X. Proper jack pad placement, Jack Mode activation, and safe lifting to protect your battery pack."
 date: 2025-02-04
 category: "Maintenance"
 difficulty: "Easy"

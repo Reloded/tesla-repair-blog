@@ -1,7 +1,7 @@
 ---
 layout: post.njk
-title: "Tesla Key Fob Battery Replacement: Complete Guide (Model S & X)"
-description: "Step-by-step Tesla key fob battery replacement for Model S and Model X. CR2032 battery type, replacement in 2 minutes, re-pairing, passive entry fix, and troubleshooting tips."
+title: "Tesla Key Fob Battery Replacement (Model S & X)"
+description: "Tesla key fob battery replacement for Model S and X. CR2032 type, swap in 2 minutes, plus re-pairing, passive entry fix, and troubleshooting tips."
 date: 2026-03-12
 category: "Electrical"
 difficulty: "Easy"

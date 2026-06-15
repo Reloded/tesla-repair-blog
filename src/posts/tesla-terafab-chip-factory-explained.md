@@ -1,8 +1,8 @@
 ---
 type: news
 layout: post.njk
-title: "Tesla Terafab Explained: The $25 Billion AI Chip Factory That Could Change Everything"
-description: "What is Tesla's Terafab? Complete guide to Tesla's $20B joint venture with SpaceX and xAI — AI5 chip specs, D3 space chip, mini AI satellites, cleanroom innovation, and what it means for Tesla owners. Updated with full March 21 event recap."
+title: "Tesla Terafab Explained: The $25B AI Chip Factory"
+description: "What is Tesla's Terafab? A guide to the $20B SpaceX & xAI joint venture — AI5 chip specs, D3 space chip, mini satellites, and what it means for owners."
 date: 2026-03-17
 updated: 2026-03-22
 category: "Technology"

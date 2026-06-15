@@ -1,7 +1,7 @@
 ---
 layout: post.njk
 title: "Tesla Maintenance Schedule: What You Actually Need (2026)"
-description: "Tesla maintenance schedule 2026: exact intervals, brake fluid buying guide, DIY vs service center costs, seasonal checklist, torque specs, Cybertruck. Save €3,300+ over 8 years. All models."
+description: "Tesla maintenance schedule 2026: exact intervals, brake fluid guide, DIY vs service costs, seasonal checklist, torque specs, Cybertruck. Save €3,300+."
 date: 2026-02-26
 lastUpdated: 2026-04-23
 category: "Maintenance"

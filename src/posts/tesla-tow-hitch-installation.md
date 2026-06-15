@@ -1,7 +1,7 @@
 ---
 layout: post.njk
-title: "Tesla Tow Hitch Installation: Complete DIY Guide for Model 3 and Model Y"
-description: "Install a tow hitch on your Tesla Model 3 or Model Y yourself. Covers OEM vs aftermarket options, step-by-step installation, wiring, towing capacity, and range impact."
+title: "Tesla Tow Hitch Installation: Model 3 & Y DIY Guide"
+description: "Install a tow hitch on your Tesla Model 3 or Y yourself: OEM vs aftermarket options, step-by-step install, wiring, towing capacity, and range impact."
 date: 2026-02-15
 category: "Exterior & Body"
 difficulty: "Medium"

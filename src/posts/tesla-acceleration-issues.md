@@ -1,6 +1,6 @@
 ---
 layout: post.njk
-title: "Tesla Acceleration Issues: Power Loss, Reduced Performance & Fixes"
+title: "Tesla Acceleration Issues: Power Loss & Fixes"
 description: "Tesla losing power or accelerating slowly? Diagnose sudden power reduction, limp mode, and sluggish acceleration with this complete troubleshooting guide."
 date: 2026-03-06
 category: "Driving"

@@ -1,7 +1,7 @@
 ---
 layout: post.njk
 title: "Tesla Wireless Charger Not Working: Complete Fix Guide"
-description: "Fix your Tesla wireless phone charger with this complete troubleshooting guide. Covers alignment issues, overheating, case problems, and module replacement for Model 3 and Model Y."
+description: "Fix your Tesla wireless phone charger: alignment issues, overheating, case problems, and module replacement for Model 3 and Y. Complete troubleshooting guide."
 date: 2026-02-13
 category: "Interior & Electronics"
 difficulty: "Easy"

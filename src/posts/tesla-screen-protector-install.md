@@ -1,7 +1,7 @@
 ---
 layout: post.njk
 title: "How to Install a Screen Protector on Tesla Model 3/Y/S/X"
-description: "Step-by-step guide to installing a tempered glass screen protector on your Tesla touchscreen. Covers Model 3, Y, S, and X with tips for a bubble-free, perfect fit."
+description: "Install a tempered-glass screen protector on your Tesla touchscreen. Covers Model 3, Y, S, and X with tips for a bubble-free, perfect fit."
 date: 2026-02-07
 category: "Interior"
 difficulty: "Easy"

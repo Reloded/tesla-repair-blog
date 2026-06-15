@@ -1,8 +1,8 @@
 ---
 type: news
 layout: post.njk
-title: "2026 Tesla Model 3 Refresh: Black Headliner, Bigger Screen & What's Changed"
-description: "Everything leaked and confirmed about the 2026 Tesla Model 3 refresh — new black Alcantara headliner, 16-inch QHD display, and how it compares to the 2024 Highland redesign."
+title: "2026 Tesla Model 3 Refresh: What's Changed"
+description: "Leaked and confirmed details on the 2026 Tesla Model 3 refresh: new black Alcantara headliner, 16-inch QHD display, and how it compares to the 2024 Highland."
 date: 2026-02-26
 category: "News & Updates"
 difficulty: "Informational"

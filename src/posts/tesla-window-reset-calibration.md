@@ -1,7 +1,7 @@
 ---
 layout: post.njk
-title: "Tesla Window Calibration Reset: Fix Windows That Won't Close (All Models 2026)"
-description: "Tesla window won't close, auto-reverses, or leaves a gap? Step-by-step calibration reset for Model 3, Y, S & X. 60-second fix, no tools. Includes cold weather tips and Service Mode method."
+title: "Tesla Window Calibration Reset: Fix Stuck Windows"
+description: "Tesla window won't close, auto-reverses, or leaves a gap? Step-by-step calibration reset for Model 3, Y, S & X. 60-second fix, no tools, plus cold-weather tips."
 date: 2026-03-25
 category: "Body & Glass"
 difficulty: "Easy"

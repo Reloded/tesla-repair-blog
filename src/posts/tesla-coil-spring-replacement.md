@@ -1,7 +1,7 @@
 ---
 layout: post.njk
 title: "Tesla Coil Spring Replacement & Lowering Springs Guide"
-description: "Replace worn or sagging coil springs on your Tesla Model 3 or Model Y. Covers OEM spring replacement, aftermarket lowering springs, tools, torque specs, and step-by-step instructions for front and rear."
+description: "Replace worn or sagging coil springs on Tesla Model 3 or Y. Covers OEM replacement, aftermarket lowering springs, tools, torque specs, and front and rear steps."
 date: 2026-03-02
 lastUpdated: 2026-03-02
 category: "Suspension"

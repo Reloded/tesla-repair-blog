@@ -1,6 +1,6 @@
 ---
 layout: post.njk
-title: "Tesla Brake Fluid Change: DIY Guide to Bleeding & Flushing Your Brakes"
+title: "Tesla Brake Fluid Change: DIY Bleed & Flush Guide"
 description: "Complete guide to changing Tesla brake fluid yourself. Learn when to flush, what DOT 4 fluid to use, and the exact bleeding sequence for Model 3, Y, S, and X."
 date: 2026-01-31
 category: "Brakes"

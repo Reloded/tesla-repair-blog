@@ -1,7 +1,7 @@
 ---
 layout: post.njk
 title: "Tesla Phantom Braking: 5 Proven Fixes (2026)"
-description: "Tesla randomly braking on Autopilot? 5 free fixes that cut phantom braking by 80%. Camera cleaning, recalibration & Autopilot settings — works with FSD v13 and all 2024–2026 models."
+description: "Tesla braking randomly on Autopilot? 5 free fixes that cut phantom braking by 80%: camera cleaning, recalibration, and settings — for all 2024–2026 models."
 date: 2026-03-27
 category: "Autopilot & Safety"
 difficulty: "Easy"

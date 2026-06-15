@@ -1,6 +1,6 @@
 ---
 title: "Best USB Drives for Tesla Sentry Mode & Dashcam (2026)"
-description: "The 5 best USB drives and SSDs for Tesla dashcam and Sentry Mode in 2026. Tested picks that won't die in 3 months. Includes budget and premium options for Model 3, Y, S, X."
+description: "The 5 best USB drives and SSDs for Tesla dashcam and Sentry Mode in 2026. Tested picks that won't die in 3 months, with budget and premium options."
 date: 2026-03-24
 updated: 2026-03-24
 category: "Accessories"

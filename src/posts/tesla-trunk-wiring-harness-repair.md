@@ -1,7 +1,7 @@
 ---
 layout: post.njk
-title: "Tesla Trunk Wiring Harness Repair: Fix Broken Wires (Model 3/Y)"
-description: "Tesla trunk wiring harness broken? Fix intermittent backup camera, tail lights, and trunk latch issues caused by worn wires in the trunk lid. DIY repair and harness replacement guide."
+title: "Tesla Trunk Wiring Harness Repair (Model 3/Y)"
+description: "Tesla trunk wiring harness broken? Fix intermittent backup camera, tail lights, and trunk latch issues from worn wires in the lid. DIY repair guide."
 date: 2026-02-12
 category: "Electrical"
 difficulty: "Intermediate"

@@ -1,7 +1,7 @@
 ---
 layout: post.njk
-title: "How to Repair Tesla Curb Rash: DIY Wheel Repair Guide (Save $200+)"
-description: "Fix curb rash on your Tesla wheels at home. Step-by-step guide covering sanding, filler, color-matched paint for Aero, Überturbine, Induction, and Gemini wheels. DIY for $30-60 vs $150-300+ at a shop."
+title: "Tesla Curb Rash Repair: DIY Wheel Fix (Save $200+)"
+description: "Fix curb rash on Tesla wheels at home: sanding, filler, and color-matched paint for Aero, Überturbine, Induction & Gemini. DIY for $30–60 vs $150+ at a shop."
 date: 2026-02-07
 draft: false
 category: "Wheels"
