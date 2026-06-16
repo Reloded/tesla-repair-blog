@@ -1,9 +1,9 @@
 ---
 layout: post.njk
 title: "Tesla Frunk Strut Replacement Guide (2026): All Models, Part Numbers & DIY Steps"
-description: "Tesla frunk strut replacement (2026): fix a sagging frunk in 15 min and save â‚¬150+. Specs for every model, step-by-step DIY, 18 FAQ, EU sourcing, and real workshop cases from Lithuania."
+description: "Tesla frunk strut replacement (2026): fix a sagging frunk in 15 min and save €150+. Specs for every model, step-by-step DIY, 21 FAQ, HowTo schema, EU sourcing, and real workshop cases from Lithuania."
 date: 2026-02-03
-lastUpdated: 2026-06-11
+lastUpdated: 2026-06-16
 category: "Body & Trim"
 difficulty: "Easy"
 readTime: "15 min read"
@@ -35,9 +35,9 @@ faq:
     a: "Yes, if they are failing or borderline. A sagging frunk hood is the first check a knowledgeable buyer runs and gives them grounds to negotiate â‚¬80â€“150 off the price. A replacement pair costs â‚¬30â€“60 and takes 20 minutes. Document the replacement and mention it in your listing â€” it pays for itself immediately."
   - q: "What causes Tesla frunk struts to fail before 60,000 km?"
     a: "Three causes cover 90% of premature failures: (1) Heavy permanent frunk load â€” an organizer or daily cargo adding 3â€“5 kg of sustained downward pressure accelerates seal wear. (2) Accessories or brackets that physically contact the strut body during close cycles, creating lateral bending loads. (3) Frequent hard closing â€” slamming the frunk shock-loads the seals hundreds of times over. Premature failure before 60,000 km is worth filing as a Tesla warranty claim."
-  - q: "Can I open the Tesla frunk with the app if the struts are completely dead?"
-    a: "Yes â€” the latch release motor operates independently of the struts. The Tesla app opens the latch normally. However, with dead struts the hood will immediately begin to fall once open. Grab the leading edge as it opens and prop it with a foam-wrapped wooden dowel (35â€“40 cm for Model 3/Y, 45â€“50 cm for Model S/X) before letting go. Never walk away from an open frunk with dead struts â€” the hood weighs 8â€“12 kg and drops without warning."
-asin_de: "B0CNHX2TDD"
+  - q: “Can I open the Tesla frunk with the app if the struts are completely dead?”
+    a: “Yes â€” the latch release motor operates independently of the struts. The Tesla app opens the latch normally. However, with dead struts the hood will immediately begin to fall once open. Grab the leading edge as it opens and prop it with a foam-wrapped wooden dowel (35â€”40 cm for Model 3/Y, 45â€”50 cm for Model S/X) before letting go. Never walk away from an open frunk with dead struts â€” the hood weighs 8â€”12 kg and drops without warning.”
+asin_de: “B0CNHX2TDD”
 asin_com: "B0CNHX2TDD"
 tools:
   - name: "Tesla Model 3/Y Frunk Struts â€” DE"
@@ -122,7 +122,10 @@ Does your Tesla frunk hood sag when you open it? Maybe it no longer stays up on 
 28. [Frunk Organizer & Accessory Safety Guide](#frunk-organizer--accessory-safety-guide)
 29. [Winter Emergency Protocol](#winter-emergency-protocol-frunk-strut-failure-in-sub-zero-temperatures)
 30. [Tesla Warranty Claim for Premature Strut Failure](#tesla-warranty-claim-step-by-step-for-premature-strut-failure)
-31. [Frequently Asked Questions](#frequently-asked-questions)
+31. [Frunk Strut vs. Trunk Strut: Key Differences](#frunk-strut-vs-trunk-strut-key-differences)
+32. [What a Dropped Frunk Can Damage](#what-a-dropped-frunk-can-damage)
+33. [Model 3/Y Trim Variants: Same Struts?](#model-3--model-y-trim-variants-same-struts)
+34. [Frequently Asked Questions](#frequently-asked-questions)
 
 ---
 
@@ -756,6 +759,84 @@ Prices observed May 2026 from Amazon.de, Autodoc.de, and RR Car Parts direct:
 
 ---
 
+---
+
+## Frunk Strut vs. Trunk Strut: Key Differences
+
+Tesla owners often search for "strut replacement" without specifying which strut — and the two replaceable strut pairs on your car are completely different jobs with different parts.
+
+**Frunk strut (this guide)** = the gas spring that holds the **front hood open**
+**Trunk strut** = the gas spring that holds the **rear hatchback or trunk lid open**
+
+| Feature | Frunk Strut (front hood) | Trunk Strut (rear lid) |
+|---------|--------------------------|------------------------|
+| Location | Front hood (frunk) | Rear trunk lid / hatchback |
+| Models covered | Model 3, Y, S, X | Model 3, Y, S (Model X uses Falcon Wing doors) |
+| Extended length | ~370 mm (Model 3/Y), ~450 mm (Model S/X) | ~320–400 mm depending on model |
+| Force per strut | 150–200 N (Model 3/Y), 250–300 N (Model S/X) | 100–180 N (lighter trunk lid opens less frequently) |
+| Liner access needed | None on pre-2024 Model 3/Y; foam fold on 2024+ | 2–3 interior trim clips on rear liner panel |
+| Typical job time | 15–20 min | 20–25 min |
+| Common failure age | 3–6 years | 4–7 years (trunk lids cycle less than frunks) |
+
+**Which do you have?** If your rear hatchback or trunk lid droops, won't hold open, or creaks on closing — that is a trunk strut job. See the complete [Tesla trunk strut replacement guide](/posts/tesla-trunk-strut-replacement/) for model-specific part numbers, rear liner removal steps, and the procedure for Model 3, Y, and S.
+
+If your rear trunk lid **won't close** at all (a latch or sensor issue, not a strut issue), see the [Tesla trunk won't close guide](/posts/tesla-trunk-wont-close/).
+
+**The two strut types are never interchangeable.** Different ball stud spacing, different body lengths, and different force ratings mean a frunk strut ordered from a trunk strut listing (or vice versa) will not fit your car. Even if the ball socket snaps on, the wrong extended length prevents the lid from reaching full open against the compressed strut.
+
+**Rule of thumb:** Front hood droops = this guide. Rear lid droops = [trunk strut guide](/posts/tesla-trunk-strut-replacement/).
+
+---
+
+## What a Dropped Frunk Can Damage
+
+A frunk hood that drops unexpectedly doesn't just threaten hands. The 8–12 kg hood creates specific secondary damage risks worth inspecting after any sudden or repeated drop event.
+
+**Risk 1: Paint chips on the hood leading edge and front fascia**
+
+When the hood drops onto the front bumper trim, the sharp leading edge impacts the top of the front fascia. Even a slow drift can cause paint micro-fractures invisible until the following winter, when moisture expansion opens the chip into a visible rust spot. After any drop: run a finger along the hood-to-bumper contact line. Any roughness = address with paint correction before winter.
+
+**Risk 2: Front bumper fascia cracks**
+
+A fast hood drop (complete strut failure, not a slow drift) can crack the upper section of the front bumper trim at the point of impact. After a hard drop that produced a hollow thump: inspect the upper bumper trim for hairline cracks along the impact zone. A cracked front fascia is a separate repair — see the [Tesla front bumper removal guide](/posts/tesla-front-bumper-removal/) for access procedures and replacement scope.
+
+**Risk 3: Hood dent from impact**
+
+If the hood itself contacted a hard object during a drop and the panel has a small depression, this is a paintless dent repair (PDR) candidate rather than a panel replacement. Tesla's aluminum hoods on Model S and X are more PDR-resistant than steel panels. See the [Tesla dent repair PDR guide](/posts/tesla-dent-repair-pdr-guide/) for what PDR can and cannot fix on Tesla body panels.
+
+**Risk 4: Hinge pivot stress from repetitive slow drifts**
+
+Borderline struts that hold the hood 80% but let it slowly drift and rest on the bumper apply a slight forward-compressive load to the hinge pivots with every drift cycle. Over months, this can cause hinge bolt loosening. After replacing struts on a car that had been running on borderline struts for over a year: do the hinge bolt check from the [Frunk Hinge Inspection Checklist](#frunk-hinge-inspection-checklist) above before closing up.
+
+**After any hood-drop incident:** Replace struts immediately, inspect the leading edge for paint chips, check the front bumper trim for cracks, and perform the hinge inspection. The 15-minute strut job combined with a 5-minute inspection prevents a paint warranty issue or a separate bodywork visit later.
+
+---
+
+## Model 3 / Model Y Trim Variants: Same Struts?
+
+Tesla owners with AWD, Performance, or Long Range variants sometimes ask whether their powertrain variant requires a different frunk strut. The answer is no — the frunk strut specs are identical across all Model 3 and Model Y trim levels:
+
+| Variant | Frunk Strut Specs |
+|---------|------------------|
+| Model 3 RWD (Standard Range) | ~370 mm, 150–200 N per strut |
+| Model 3 Long Range AWD | ~370 mm, 150–200 N per strut |
+| Model 3 Performance AWD | ~370 mm, 150–200 N per strut |
+| Model 3 Highland RWD (2024+) | ~370 mm, 150–200 N per strut (verify 2024+ listing) |
+| Model 3 Highland AWD (2024+) | ~370 mm, 150–200 N per strut (verify 2024+ listing) |
+| Model Y RWD | ~370 mm, 150–200 N per strut |
+| Model Y Long Range AWD | ~370 mm, 150–200 N per strut |
+| Model Y Performance AWD | ~370 mm, 150–200 N per strut |
+| Model Y Juniper RWD (2024+) | ~360–375 mm, 150–200 N per strut (verify 2024+ listing) |
+| Model Y Juniper AWD (2024+) | ~360–375 mm, 150–200 N per strut (verify 2024+ listing) |
+
+**Why no trim-level differences?** All Model 3 and Model Y variants — regardless of motor configuration, battery size, or performance package — share the same frunk hood geometry. The front motor in AWD and Performance models is positioned under the frunk floor tray, not attached to the hood panel. The hood weight and hinge geometry are identical across all trims.
+
+**The only meaningful split is pre-2024 vs. 2024+.** The 2024 Model 3 Highland and 2024+ Model Y Juniper have a revised frunk panel profile. Some listings cover 2017–2023 and 2024+ as a single range; others list them separately. Confirm the listing explicitly states compatibility with your model year before ordering. Measure your old strut's extended length if you have a 2024+ refresh variant — values in the 360–375 mm range are all normal.
+
+**If you have a 2025 Model Y:** As of June 2026 Tesla has not released a mid-cycle change to the Juniper frunk strut spec. The 2025 Model Y Juniper uses the same strut spec as the 2024 Juniper. Verify at service.tesla.com with your VIN before ordering.
+
+---
+
 ## Frequently Asked Questions
 
 ### How long do Tesla frunk struts last?
@@ -836,11 +917,79 @@ Document the failure with a 30-second video of the hood dropping, note your exac
 
 Soft foam or silicone frunk inserts with no rigid frame are safe â€” they cannot contact the strut body during closing cycles. Hard plastic or metal organizers with rigid crossbars spanning the rear frunk width are the most common cause of premature strut failure we see at RR Car Parts: the crossbar contacts the lower strut mount on every close cycle, creating lateral bending loads the strut is not designed to absorb. The test: close the frunk slowly, stop at 20 cm from closed, shine a flashlight inside and confirm no part of the organizer comes within 10 mm of either strut body at any point in the arc. Any contact = accessory is causing damage. Safe options include the Tesla OEM soft foam frunk insert (Model 3/Y) and silicone frunk mats under 2 kg. See the full [Frunk Organizer & Accessory Safety Guide](#frunk-organizer--accessory-safety-guide) above.
 
+### How often should I test my Tesla frunk struts?
+
+Test once per year at seasonal changeover — October before winter and April after winter. The full procedure takes 30 seconds: open the frunk completely via the app, let go of the hood, and count 30 seconds without touching the car. Zero movement = pass. Any downward drift in that window means replacement is overdue. For cars over 80,000 km with original struts: test monthly, as borderline struts can hold for weeks and then fail suddenly without progressive warning — especially when the temperature drops below 0°C.
+
+### Can I temporarily use a frunk strut from a different Tesla model as a stopgap?
+
+No. Model 3/Y struts (~370 mm, 150–200 N) and Model S/X struts (~450 mm, 250–300 N) are not interchangeable. A too-short strut cannot reach both ball studs simultaneously when the hood is at full extension — the hood will not hold even if one socket technically snaps on. A too-strong strut (Model S force rating installed on a Model 3 or Y) applies excess load to the hood hinges with every open/close cycle and will cause hinge bolt loosening or panel gap shifts within months. The correct pair costs €30–60 and takes 15 minutes to install — there is no scenario where cross-model substitution is worth the risk.
+
+### Why does my Tesla frunk open more forcefully in summer heat?
+
+Gas pressure increases approximately 1% per 1°C above the 20°C calibration point where the strut was rated. On a 40°C summer day, a strut rated at 180 N at room temperature delivers roughly 200 N — about 11% over spec — making the frunk spring open noticeably faster and harder than it does on a cool morning. This is normal gas strut behavior, not a sign of defective parts. To protect the hood hinge end-stops from repeated high-force impact on hot days: add a half-second of hand resistance as the hood rises to full open. Struts at the lower end of the recommended range (150 N rather than 200 N per strut) manage summer pressure spikes better for owners in hot climates like Southern Europe, the Middle East, or summer-heat regions of North America.
+
 ### What are the actual Tesla OEM part numbers for frunk struts on each model?
 
 Tesla updates part numbers by production date mid-year, so no single part number covers a full model generation reliably. The authoritative lookup: log into service.tesla.com â†’ enter your VIN â†’ navigate to Body > Front Trunk > Lift Supports. The correct part number for your exact production window appears immediately in Tesla's 10-digit format. For aftermarket cross-referencing, the extended length (in mm) and force rating (in Newtons) from your old strut's foil label are the most reliable data â€” these are manufacturer-universal specs that appear directly in aftermarket catalogs, whereas Tesla part numbers are proprietary and do not cross-reference to Amazon or Autodoc listings.
 
 ---
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "How to Replace Tesla Frunk Struts (Model 3, Y, S, X)",
+  "description": "Replace Tesla frunk gas struts in 15–20 minutes with a plastic trim tool and no bolts. Works for all Tesla models. Saves €100–200 vs. service center.",
+  "totalTime": "PT20M",
+  "estimatedCost": {
+    "@type": "MonetaryAmount",
+    "currency": "EUR",
+    "value": "30-60"
+  },
+  "tool": [
+    { "@type": "HowToTool", "name": "Plastic trim removal tool" },
+    { "@type": "HowToTool", "name": "Padded prop or foam-wrapped wooden dowel (35–40 cm)" },
+    { "@type": "HowToTool", "name": "White lithium grease (optional)" }
+  ],
+  "supply": [
+    { "@type": "HowToSupply", "name": "Replacement gas strut pair (model-year-specific)" },
+    { "@type": "HowToSupply", "name": "M8 retaining spring clips (if originals are lost or damaged)" }
+  ],
+  "step": [
+    {
+      "@type": "HowToStep",
+      "position": "1",
+      "name": "Open and secure the frunk",
+      "text": "Open the frunk fully via the Tesla app or in-car screen. Insert a padded prop under the hood or have a helper hold it before removing any strut. Never work under an unsupported frunk with failed struts — they can drop suddenly."
+    },
+    {
+      "@type": "HowToStep",
+      "position": "2",
+      "name": "Remove the first strut (upper end first)",
+      "text": "Locate the retaining C-clip where the upper ball socket meets the hood-side ball stud. Slide the plastic trim tool under the clip and pop it off — hold it so it does not spring away. Twist and pull the socket off the stud with a firm straight pull. Repeat at the lower body-side end. Remove one strut at a time."
+    },
+    {
+      "@type": "HowToStep",
+      "position": "3",
+      "name": "Install the new strut (lower end first)",
+      "text": "Press the new strut's ball socket firmly onto the lower body-side ball stud until you hear a click. Install the retaining clip into the groove around the socket neck. Extend the strut upward and press the upper socket onto the hood-side stud until it clicks. Install the upper clip. Piston rod (narrow end) must point DOWN to keep internal oil on the seal."
+    },
+    {
+      "@type": "HowToStep",
+      "position": "4",
+      "name": "Swap the second strut",
+      "text": "Repeat the same removal and installation process for the second strut. The first new strut now supports the hood while you work."
+    },
+    {
+      "@type": "HowToStep",
+      "position": "5",
+      "name": "Break in and verify",
+      "text": "Remove the prop and perform 5 open/close cycles at normal pace. On the final cycle, open the frunk fully and release. Wait 30 seconds. Zero downward movement = success. Any drift = re-press all four ball sockets firmly onto their studs and repeat."
+    }
+  ]
+}
+</script>
 
 <script type="application/ld+json">
 {
@@ -1008,11 +1157,35 @@ Tesla updates part numbers by production date mid-year, so no single part number
       }
     },
     {
-      "@type": "Question",
-      "name": "What are the Tesla OEM part numbers for frunk struts on each model?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Tesla updates part numbers by production date mid-year, so no single number covers a full model generation. The authoritative lookup: log into service.tesla.com â†’ enter your VIN â†’ navigate to Body > Front Trunk > Lift Supports. The correct part number for your exact production window appears in Tesla's 10-digit format. For aftermarket ordering, the extended length in mm and force rating in Newtons from your old strut's foil label are more reliable than matching Tesla part numbers â€” these specs are universal across manufacturers and appear directly in aftermarket catalogs."
+      “@type”: “Question”,
+      “name”: “What are the Tesla OEM part numbers for frunk struts on each model?”,
+      “acceptedAnswer”: {
+        “@type”: “Answer”,
+        “text”: “Tesla updates part numbers by production date mid-year, so no single number covers a full model generation. The authoritative lookup: log into service.tesla.com → enter your VIN → navigate to Body > Front Trunk > Lift Supports. The correct part number for your exact production window appears in Tesla’s 10-digit format. For aftermarket ordering, the extended length in mm and force rating in Newtons from your old strut’s foil label are more reliable than matching Tesla part numbers — these specs are universal across manufacturers and appear directly in aftermarket catalogs.”
+      }
+    },
+    {
+      “@type”: “Question”,
+      “name”: “How often should I test my Tesla frunk struts?”,
+      “acceptedAnswer”: {
+        “@type”: “Answer”,
+        “text”: “Test once per year at seasonal changeover — October before winter and April after winter. Open the frunk fully, release completely, and count 30 seconds. Zero movement = pass. Any downward drift = schedule replacement before the next cold season. For cars over 80,000 km with original struts: test monthly. Borderline struts can hold for weeks then fail suddenly, especially when temperatures drop below 0°C.”
+      }
+    },
+    {
+      “@type”: “Question”,
+      “name”: “Can I use a frunk strut from a different Tesla model as a temporary fix?”,
+      “acceptedAnswer”: {
+        “@type”: “Answer”,
+        “text”: “No. Model 3/Y struts (~370 mm, 150–200 N) and Model S/X struts (~450 mm, 250–300 N) are not interchangeable. A too-short strut cannot reach both ball studs simultaneously and the hood will not hold. A too-strong strut (Model S spec on a Model 3) applies excess load to the hood hinges with every cycle and causes hinge wear or panel gap shifts within months. Always use model-year-specific struts — a correct pair costs €30–60 and lasts 4–6 years.”
+      }
+    },
+    {
+      “@type”: “Question”,
+      “name”: “Why does my Tesla frunk open more forcefully in summer?”,
+      “acceptedAnswer”: {
+        “@type”: “Answer”,
+        “text”: “Gas pressure increases approximately 1% per 1°C above the 20°C calibration point. On a 40°C day, a 180 N strut delivers about 200 N — 11% above its rating — making the frunk spring open faster. This is normal gas strut behavior, not a defect. Add a half-second of hand resistance when opening in peak summer heat to protect the hinge end-stops. Struts rated at the lower end of the range (150 N rather than 200 N) handle summer pressure spikes better in hot climates.”
       }
     }
   ]
@@ -1021,13 +1194,15 @@ Tesla updates part numbers by production date mid-year, so no single part number
 
 ## Related Guides
 
-- [Tesla Trunk Strut Replacement](/posts/tesla-trunk-strut-replacement/) â€” Same ball-socket process for the rear trunk lid struts
-- [Tesla Frunk Won't Open](/posts/tesla-frunk-wont-open/) â€” Latch, release motor, and manual emergency release troubleshooting
-- [Tesla Trunk Won't Close](/posts/tesla-trunk-wont-close/) â€” Rear trunk latch alignment and sensor issues
-- [Tesla Front Bumper Removal](/posts/tesla-front-bumper-removal/) â€” If you need to access the front end beyond the frunk
-- [Tesla Panel Gap Adjustment](/posts/tesla-panel-gap-adjustment/) â€” Correcting hood alignment after strut replacement
-- [Tesla Door Seal Maintenance](/posts/tesla-door-seal-maintenance/) â€” Weatherproofing while you have the front end open
-- [Tesla Creaking and Rattling Fix](/posts/tesla-creaking-rattling-fix/) â€” If squeaks persist after new struts: hinge, clip, and liner sources
-- [Tesla Cabin Air Filter Replacement](/posts/tesla-cabin-air-filter/) â€” Accessible from the frunk on Model 3/Y; replace while you're in there
-- [Tesla Falcon Wing Door Fix](/posts/tesla-falcon-wing-door-fix/) â€” For Model X rear door issues (separate from the frunk struts)
-- [Tesla Maintenance Schedule](/posts/tesla-maintenance-schedule/) â€” Full checklist of what to inspect and replace by mileage and age
+- [Tesla Trunk Strut Replacement](/posts/tesla-trunk-strut-replacement/) — Same ball-socket process for the rear trunk lid struts
+- [Tesla Frunk Won't Open](/posts/tesla-frunk-wont-open/) — Latch, release motor, and manual emergency release troubleshooting
+- [Tesla Trunk Won't Close](/posts/tesla-trunk-wont-close/) — Rear trunk latch alignment and sensor issues
+- [Tesla Front Bumper Removal](/posts/tesla-front-bumper-removal/) — If you need to access the front end beyond the frunk
+- [Tesla Panel Gap Adjustment](/posts/tesla-panel-gap-adjustment/) — Correcting hood alignment after strut replacement
+- [Tesla Dent Repair PDR Guide](/posts/tesla-dent-repair-pdr-guide/) — If the dropped hood dented a panel: what PDR can fix on Tesla aluminum
+- [Tesla Suspension Noise Fix](/posts/tesla-suspension-noise-fix/) — Diagnosing creaks and knocks while you have the front end accessible
+- [Tesla Door Seal Maintenance](/posts/tesla-door-seal-maintenance/) — Weatherproofing while you have the front end open
+- [Tesla Creaking and Rattling Fix](/posts/tesla-creaking-rattling-fix/) — If squeaks persist after new struts: hinge, clip, and liner sources
+- [Tesla Cabin Air Filter Replacement](/posts/tesla-cabin-air-filter/) — Accessible from the frunk on Model 3/Y; replace while you're in there
+- [Tesla Falcon Wing Door Fix](/posts/tesla-falcon-wing-door-fix/) — For Model X rear door issues (separate from the frunk struts)
+- [Tesla Maintenance Schedule](/posts/tesla-maintenance-schedule/) — Full checklist of what to inspect and replace by mileage and age
