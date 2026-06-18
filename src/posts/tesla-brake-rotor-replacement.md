@@ -3,7 +3,7 @@ layout: post.njk
 title: "Tesla Brake Rotor Replacement: Complete DIY Guide (2026)"
 description: "DIY Tesla brake rotor replacement 2026: save $300â€“700, EPB reset, torque specs, rotor sizes for all Tesla models including Cybertruck, Highland & Juniper."
 date: 2026-02-06
-lastUpdated: 2026-06-11
+lastUpdated: 2026-06-18
 category: "Brakes"
 difficulty: "Intermediate"
 readTime: "35 min read"
@@ -213,12 +213,116 @@ tools:
       }
     },
     {
-      "@type": "Question",
-      "name": "What does the Tesla brake service alert mean?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Three distinct levels: 'Schedule Service â€” Brakes' in the Tesla app means a mileage or time-based inspection is due â€” no active hardware fault. 'Brake Service Required' (amber alert on touchscreen) indicates an active detected fault such as an EPB motor issue, brake pressure sensor fault, or low brake fluid â€” requires inspection within 1â€“2 days. 'Brake System Fault' (red alert) means a hard hydraulic fault â€” stop driving immediately and call Tesla Roadside Assistance. After DIY rotor or pad replacement, no reset is required; the system recalibrates automatically after 5â€“10 miles of normal driving."
+      “@type”: “Question”,
+      “name”: “What does the Tesla brake service alert mean?”,
+      “acceptedAnswer”: {
+        “@type”: “Answer”,
+        “text”: “Three distinct levels: 'Schedule Service â€” Brakes' in the Tesla app means a mileage or time-based inspection is due â€” no active hardware fault. 'Brake Service Required' (amber alert on touchscreen) indicates an active detected fault such as an EPB motor issue, brake pressure sensor fault, or low brake fluid â€” requires inspection within 1â€”2 days. 'Brake System Fault' (red alert) means a hard hydraulic fault â€” stop driving immediately and call Tesla Roadside Assistance. After DIY rotor or pad replacement, no reset is required; the system recalibrates automatically after 5â€”10 miles of normal driving.”
       }
+    },
+    {
+      “@type”: “Question”,
+      “name”: “Does replacing Tesla brake rotors void the vehicle warranty?”,
+      “acceptedAnswer”: {
+        “@type”: “Answer”,
+        “text”: “No, if performed correctly. In the US, the Magnuson-Moss Warranty Act prohibits Tesla from voiding your warranty solely because you performed DIY maintenance. In the EU, equivalent consumer protection legislation applies. Tesla can deny a warranty claim on a specific component if DIY work directly caused that component's failure. Protect yourself: use new single-use bracket bolts (P/N 1088969-00-B), torque to spec, document with photos, and keep receipts. Incorrect torque that causes a caliper bracket failure can result in that specific claim being denied â€” but the powertrain warranty and all other warranty coverage remain unaffected.”
+      }
+    },
+    {
+      “@type”: “Question”,
+      “name”: “What is the best pre-packaged brake kit for Tesla Model 3 and Model Y that includes rotors, pads, and hardware?”,
+      “acceptedAnswer”: {
+        “@type”: “Answer”,
+        “text”: “For Model 3/Y Standard (320mm): the Power Stop K-series matched kit (Geomet-coated drilled/slotted rotors + Evolution ceramic pads) costs $280â€”340 for a front axle kit and saves approximately 15% versus buying components separately. For EU buyers, Zimmermann Sport Z rotors paired with Ferodo DS2500 pads is the most widely stocked combination on Autodoc.de with 1â€”3 day delivery across Germany, Lithuania, and most of the EU. For Model 3/Y Performance (355mm front): Power Stop Z26 kits include the correct 355mm front rotors with track-compound pads. New caliper bracket bolts (P/N 1088969-00-B x 8) must be purchased separately â€” these are not included in any aftermarket brake kit.”
+      }
+    },
+    {
+      “@type”: “Question”,
+      “name”: “Do 2024 Highland and 2025 Juniper brake kits differ from the pre-refresh Model 3 and Model Y?”,
+      “acceptedAnswer”: {
+        “@type”: “Answer”,
+        “text”: “No. The 2024 Model 3 Highland and 2024â€”2025 Model Y Juniper facelifts carry over identical brake dimensions â€” 320mm front and rear for Standard/Long Range, 355mm front and 335mm rear for Performance. Brake kits listed for 2021â€”2023 Model 3 LR or Model Y LR fit Highland and Juniper directly. Always confirm the listed rotor diameter explicitly in the product description â€” some aftermarket catalogs have not added Highland or Juniper fitment entries yet. VIN-based fitment lookup on Autodoc.de or RockAuto is the safest confirmation method.”
+      }
+    }
+  ]
+}
+</script>
+
+<script type=”application/ld+json”>
+{
+  “@context”: “https://schema.org”,
+  “@type”: “HowTo”,
+  "name": "How to Replace Tesla Brake Rotors",
+  "description": "Complete DIY guide to replacing brake rotors on Tesla Model 3, Model Y, Model S, Model X, and Cybertruck — including EPB Service Mode, torque specs, and bed-in procedure.",
+  "totalTime": "PT3H",
+  "estimatedCost": {
+    "@type": "MonetaryAmount",
+    "currency": "USD",
+    "value": "200"
+  },
+  "supply": [
+    {"@type": "HowToSupply", "name": "Replacement brake rotors (320mm Standard or 355mm Performance — verify for your trim)"},
+    {"@type": "HowToSupply", "name": "New caliper bracket bolts (Tesla P/N 1088969-00-B × 8 for all four corners)"},
+    {"@type": "HowToSupply", "name": "Anti-seize compound (hub face only)"},
+    {"@type": "HowToSupply", "name": "Brake parts cleaner"},
+    {"@type": "HowToSupply", "name": "Silicone brake caliper grease"}
+  ],
+  "tool": [
+    {"@type": "HowToTool", "name": "3-ton floor jack and 4 rated jack stands"},
+    {"@type": "HowToTool", "name": "1/2-inch drive torque wrench (for 94 Nm and 83 Nm bracket bolts)"},
+    {"@type": "HowToTool", "name": "3/8-inch drive torque wrench (for 5 Nm rotor bolt and 26.5 Nm guide pin)"},
+    {"@type": "HowToTool", "name": "21mm, 18mm, 10mm sockets; T30 Torx bit"},
+    {"@type": "HowToTool", "name": "Brake caliper wind-back tool or 4-piston spreader (Performance models)"},
+    {"@type": "HowToTool", "name": "Digital micrometer"}
+  ],
+  "step": [
+    {
+      "@type": "HowToStep",
+      "position": 1,
+      "name": "Enable Jack Mode and lift the vehicle",
+      "text": "Navigate to Controls > Service > Jack Mode on the touchscreen. Lift with a 3-ton floor jack at the correct jack points, place rated jack stands, and remove the wheel with a 21mm socket. Reinstall the wheel at 175 Nm (129 ft-lb) in a star pattern when done."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 2,
+      "name": "Enable EPB Service Mode (rear axle only)",
+      "text": "For rear rotors navigate to Controls > Service > Chassis > Brakes > EPB Service Mode > Both > Start > Run. Wait for the confirmation message before touching the caliper. Skip this step on front axle work — front calipers do not have an EPB motor."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 3,
+      "name": "Remove caliper and bracket",
+      "text": "Remove the two caliper-to-bracket bolts (21mm on front). Support the caliper with a wire hook — never let it hang by the brake hose. Remove the two caliper bracket-to-knuckle bolts (18mm)."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 4,
+      "name": "Remove the old rotor",
+      "text": "Remove the 10mm rotor retention bolt. Slide the rotor off the hub. If seized, thread two M8×1.25 bolts into the push-off holes in the rotor face and tighten evenly — the rotor walks itself free."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 5,
+      "name": "Clean the hub and prepare the new rotor",
+      "text": "Wire-brush the hub mounting surface to bare metal. Apply thin anti-seize to the hub face only. Spray both faces of the new rotor with brake cleaner and wipe until the rag comes away clean — factory anti-rust oil must be fully removed."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 6,
+      "name": "Install the new rotor and caliper bracket",
+      "text": "Slide the new rotor onto the hub and install the retention bolt at 5 Nm. Reinstall the caliper bracket with new bolts (P/N 1088969-00-B): front to knuckle at 94 Nm (69.3 ft-lb), rear to knuckle at 83 Nm (61.2 ft-lb). Rear caliper guide pin bolt: 26.5 Nm (19.5 ft-lb)."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 7,
+      "name": "Exit EPB Service Mode (rear only) and reinstall the wheel",
+      "text": "Navigate to Controls > Service > Chassis > Brakes > EPB Service Mode > Stop > Run. Wait for the EPB motor confirmation. Reinstall the wheel at 175 Nm in a star pattern. Set a phone reminder to recheck lug nut torque at 50 miles."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 8,
+      "name": "Perform the brake bed-in procedure",
+      "text": "From 35 mph, apply moderate braking (60% pedal pressure) to 5 mph without a full stop. Repeat 8–10 times. Then from 45 mph, apply firm braking 5 times with 30-second cool intervals. Avoid hard stops for the first 200 miles to allow even pad material transfer."
     }
   ]
 }
@@ -270,6 +374,8 @@ Tesla brake rotors last 75,000â€“150,000 miles thanks to regenerative braki
 22. [Planning Your Full Brake Service: Combining Jobs Efficiently](#planning-your-full-brake-service-combining-jobs-efficiently)
 23. [Tesla Brake Service Alerts Explained](#tesla-brake-service-alerts-explained)
 24. [Post-Winter Brake Inspection Protocol (Northern Climates)](#post-winter-brake-inspection-protocol-northern-climates)
+25. [Complete Tesla Brake Replacement Kits](#complete-tesla-brake-replacement-kits-rotors--pads--hardware)
+26. [EPB Service Mode Troubleshooting](#epb-service-mode-troubleshooting)
 
 ## When Do Tesla Rotors Need Replacement?
 
@@ -500,7 +606,53 @@ Not all aftermarket rotors perform equally on a Tesla. Because regenerative brak
 - **Daily driver in wet / winter climate (Lithuania, Germany, UK, Pacific Northwest):** Power Stop Z23 or DBA 4000 â€” Geomet / e-coating prevents the deep pitting that bare-steel rotors develop between brake uses on an EV
 - **Occasional track days:** DBA 4000 XS slotted â€” better heat management under repeated hard stops
 - **Budget pick:** EBC Ultimax2 â€” solid daily-driver performance with e-coated protection at the low end of the price range
-- **Avoid:** Uncoated "economy" rotors from unknown brands â€” they will develop surface pitting within months on a Tesla in any humid climate
+- **Avoid:** Uncoated “economy” rotors from unknown brands â€” they will develop surface pitting within months on a Tesla in any humid climate
+
+## Complete Tesla Brake Replacement Kits (Rotors + Pads + Hardware)
+
+If you prefer one order over sourcing rotors, pads, and hardware separately, several brands offer pre-matched kits validated for pad-rotor compatibility. Kits cost 10â€”20% less than buying each component individually and arrive in a single box.
+
+### Why a Kit Makes Sense Over Separate Parts
+
+Pre-matched kits pair pad compound and rotor surface finish that the manufacturer has validated together. The bed-in behavior is optimized for the combination and the long-term wear rate is consistent. You also eliminate the risk of a missing caliper bolt delaying the job.
+
+### Model 3 / Model Y Standard (320mm) â€” US Market
+
+| Kit | Includes | Price Range | Amazon US |
+|-----|----------|-------------|-----------|
+| Power Stop K-series (320mm) | Geomet drilled/slotted rotors + Evolution ceramic pads | $280â€”340 / axle | [Power Stop M3/MY Kit](https://www.amazon.com/s?k=power+stop+tesla+model+3+brake+kit+320mm&tag=diyrepair07-20) |
+| EBC Street Kit (320mm) | Ultimax2 e-coated rotors + Greenstuff pads | $250â€”310 / axle | [EBC M3/MY Kit](https://www.amazon.com/s?k=ebc+greenstuff+kit+tesla+model+3+320mm&tag=diyrepair07-20) |
+| Hawk Performance Kit (320mm) | Slotted zinc rotors + HPS 5.0 pads | $280â€”350 / axle | [Hawk M3/MY Kit](https://www.amazon.com/s?k=hawk+performance+tesla+model+3+brake+kit+320mm&tag=diyrepair07-20) |
+
+### Model 3 Performance / Model Y Performance (355mm front) â€” US Market
+
+Performance kits use 355mm front and 335mm rear. Confirm the listing explicitly states Performance fitment â€” Standard 320mm kits will not mount on Performance calipers.
+
+| Kit | Includes | Price Range | Amazon US |
+|-----|----------|-------------|-----------|
+| Power Stop Z26 Performance Kit (355mm) | Drilled/slotted rotors + Z26 track pads | $340â€”420 / axle | [Power Stop Performance Kit](https://www.amazon.com/s?k=power+stop+z26+tesla+model+3+performance+355mm+brake+kit&tag=diyrepair07-20) |
+| DBA 4000 XS + Hawk HPS Kit (355mm) | Slotted XS rotors + HPS pads | $360â€”440 / axle | [DBA Performance Kit](https://www.amazon.com/s?k=dba+4000+xs+tesla+model+3+performance+brake+kit&tag=diyrepair07-20) |
+
+### Model 3 / Model Y Standard â€” Germany / Europe (Amazon DE)
+
+| Kit | Includes | Amazon DE |
+|-----|----------|-----------|
+| Power Stop Euro Kit (320mm) | Geomet-coated rotors + ceramic pads | [Power Stop DE Kit](https://www.amazon.de/s?k=power+stop+bremsscheiben+belaege+kit+tesla+model+3+320mm&tag=diyrepair-21) |
+| Zimmermann Sport Z + Ferodo Bundle | Sport Z zinc-phosphate rotors + DS2500 Ferodo pads | [Zimmermann + Ferodo DE](https://www.amazon.de/s?k=zimmermann+ferodo+bremsscheiben+belaege+set+tesla+model+3&tag=diyrepair-21) |
+| Brembo OE + TRW Pads Kit | OE-replacement rotors + TRW Cotec pads | [Brembo + TRW DE](https://www.amazon.de/s?k=brembo+trw+bremsscheiben+belaege+set+tesla&tag=diyrepair-21) |
+
+### What Kits Do Not Include â€” Buy Separately
+
+Every kit includes rotors and pads. These items are not bundled in any aftermarket kit and must be ordered separately:
+
+- **New caliper bracket bolts â€” Tesla P/N 1088969-00-B Ã— 8** (2 per corner, never reuse): [US](https://www.amazon.com/s?k=tesla+brake+caliper+bracket+bolt+M12&tag=diyrepair07-20) | [DE](https://www.amazon.de/s?k=tesla+bremssattel+halter+bolzen+M12&tag=diyrepair-21)
+- **Brake parts cleaner** â€” to prep new rotor surfaces before installation
+- **Anti-seize compound** â€” hub face only (not wheel studs, not rotors)
+- **Silicone brake caliper grease** â€” for slide pin lubrication
+
+<div class=”tip-box”>
+<strong>Kit vs. Separate: When to buy separate:</strong> If you already own quality pads with 5mm or more remaining and are only replacing rotors due to thickness, buy rotors alone and skip the kit. Kits make the most sense when both rotors and pads need replacement simultaneously â€” which is the case for most brake jobs over 60,000 miles.
+</div>
 
 ## Step-by-Step Rotor Replacement
 
@@ -602,9 +754,29 @@ If you pushed the caliper piston back far enough to raise the reservoir level, o
 4. Bleed each corner until no air bubbles appear and the fluid runs clear
 5. If no lines were opened and the piston was only pressed back by hand, full bleeding is optional â€” but pump the brake pedal 10 times firmly with the car in Park before your first drive
 
-<div class="warning-box">
-<strong>DOT 3 Only:</strong> Never mix brake fluid specifications. Tesla uses DOT 3 on all current models. If the fluid appears brown or hasn't been changed in two years, do a full flush â€” see the <a href="/posts/tesla-brake-fluid-change/">Tesla brake fluid change guide</a>.
+<div class=”warning-box”>
+<strong>DOT 3 Only:</strong> Never mix brake fluid specifications. Tesla uses DOT 3 on all current models. If the fluid appears brown or hasn't been changed in two years, do a full flush â€” see the <a href=”/posts/tesla-brake-fluid-change/”>Tesla brake fluid change guide</a>.
 </div>
+
+## EPB Service Mode Troubleshooting
+
+Most EPB issues fall into four categories. Work through this list before calling a service center.
+
+**1. The EPB Service Mode menu doesn't appear**
+
+The menu is only available when the vehicle is awake and stationary in Park. If it's missing: plug the car into any Level 1 or Level 2 charger to prevent auto-sleep, confirm the vehicle is in Park, then perform a soft reboot by holding both steering wheel scroll buttons until the screen goes black. Wait 30 seconds for the reboot to complete. The EPB menu should reappear under Controls > Service > Chassis > Brakes. If it still doesn't appear after reboot, check whether a firmware update is running in the background â€” the menu is hidden during updates.
+
+**2. “EPB Service Mode Failed” or the piston doesn't retract after pressing Run**
+
+The EPB motor uses wheel rotation as a safety interlock â€” it will not retract if the vehicle senses the rear wheels are still loaded. Both rear wheels must be fully off the ground. If you lifted only one rear corner, the system will refuse to enter service mode. Lift both rear corners onto rated stands and retry. If the error persists after lifting: navigate to Controls > Service > Service Mode > Chassis > Brakes and check for active B-prefix fault codes. A failed EPB motor (the most common cause of persistent errors) requires the rear caliper motor to be replaced â€” see the [Tesla Model S rear caliper motor replacement guide](/posts/tesla-model-s-rear-caliper-motor-replacement/) for the procedure, which applies to all models.
+
+**3. The car goes to sleep mid-job and the EPB reapplies**
+
+Tesla's auto-sleep timer can engage during extended work sessions. Prevention: connect the car to a charger before starting the job. While plugged in, the car stays awake indefinitely and the EPB remains in service position. If you can't use a charger, open the Tesla app on your phone and keep the app screen active â€” this prevents sleep for up to 60 minutes. Alternatively, enable **Controls > Safety > Sentry Mode** temporarily â€” Sentry keeps the car awake while running. Disable Sentry before driving.
+
+**4. Touchscreen becomes unresponsive during the job**
+
+A soft reboot during the job does not exit EPB Service Mode if it was already activated â€” the EPB motor stays retracted. Hold both scroll wheel buttons, wait 30 seconds for the screen to return, then navigate back to Controls > Service > Chassis > Brakes to confirm service mode is still active before removing the caliper. Only the Stop command (or a hard power cycle) exits EPB Service Mode.
 
 ## Bed-In Procedure for New Rotors
 
@@ -1129,7 +1301,16 @@ Yes â€” the Cybertruck front uses 6-piston Brembo monobloc calipers requiri
 In April or May, regardless of mileage. Salt exposure during a Baltic or Scandinavian winter pits uncoated rotors faster than distance accumulates â€” the failure is calendar-driven, not mileage-driven. Look through wheel spokes for pitting, check the outer edge with your fingernail, and inspect caliper rubber boot condition. Any pitting visible: order Geomet-coated or e-coated replacements before October. Repeat the same check in October before the first frost to catch anything that degraded over summer and assess whether pads will survive another winter.
 
 **What does a Tesla brake service notification mean?**  
-Three levels: "Schedule Service â€” Brakes" (app notification) = mileage or time-based inspection overdue, no hardware fault. "Brake Service Required" (amber on touchscreen) = active EPB motor, pressure sensor, or fluid fault â€” inspect within 1â€“2 days. "Brake System Fault" (red on touchscreen) = hard hydraulic failure â€” stop immediately, do not drive, call Tesla Roadside Assistance. After a DIY rotor or pad swap, no reset is needed â€” exit EPB Service Mode after rear work and drive 10â€“20 miles for the system to recalibrate.
+Three levels: “Schedule Service â€” Brakes” (app notification) = mileage or time-based inspection overdue, no hardware fault. “Brake Service Required” (amber on touchscreen) = active EPB motor, pressure sensor, or fluid fault â€” inspect within 1â€”2 days. “Brake System Fault” (red on touchscreen) = hard hydraulic failure â€” stop immediately, do not drive, call Tesla Roadside Assistance. After a DIY rotor or pad swap, no reset is needed â€” exit EPB Service Mode after rear work and drive 10â€”20 miles for the system to recalibrate.
+
+**Does replacing Tesla brake rotors void the vehicle warranty?**  
+No, if performed correctly. In the US, the Magnuson-Moss Warranty Act prohibits Tesla from voiding your warranty solely because you performed DIY maintenance; equivalent EU consumer protection law applies in Europe. Tesla can deny a warranty claim on a specific component if DIY work directly caused that component's failure â€” for example, a caliper bracket that fails because the bracket bolts were not replaced and were under-torqued. To protect yourself: always use new single-use bracket bolts (P/N 1088969-00-B), torque to 94 Nm front and 83 Nm rear, photograph your torque verification marks, and keep receipts for all parts. The powertrain warranty and all other coverage remain fully intact regardless of brake maintenance work.
+
+**What is the best pre-packaged brake kit for Tesla Model 3 or Model Y?**  
+For Standard and Long Range (320mm): the Power Stop K-series kit pairs Geomet-coated drilled/slotted rotors with Evolution ceramic pads and costs $280â€”340 per axle â€” approximately 15% less than sourcing components separately. For EU buyers, the Zimmermann Sport Z rotor + Ferodo DS2500 pad combination is the most widely stocked and available via Autodoc.de with 1â€”3 day delivery across Germany, Lithuania, and most of the EU. For Performance trim (355mm front): Power Stop Z26 kits include the correct 355mm front rotors with track-compound pads. Regardless of which kit you choose, caliper bracket bolts (P/N 1088969-00-B Ã— 8) are never included and must be ordered separately.
+
+**Do brake kits designed for the pre-facelift Model 3 or Model Y fit the 2024 Highland and 2025 Juniper?**  
+Yes. Brake dimensions are unchanged across both facelifts â€” the 2024 Model 3 Highland and 2024â€”2025 Model Y Juniper use identical 320mm Standard and 355mm Performance specifications. Any kit confirmed for a 2021â€”2023 Model 3 LR or Model Y LR fits Highland and Juniper directly. Always verify the listed rotor diameter in the product listing before purchasing â€” some catalogs list Highland or Juniper as a separate model and others fold them under the pre-facelift years. A VIN-based fitment lookup on Autodoc.de or RockAuto takes 30 seconds and eliminates any doubt.
 
 ## Torque Specifications
 
