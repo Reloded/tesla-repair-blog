@@ -1,9 +1,9 @@
 ---
 layout: post.njk
 title: "Tesla Model 3/Y Front Bumper Removal Guide: Step-by-Step with Clip Locations"
-description: "Remove Tesla Model 3/Y front bumper yourself: hidden bolt locations, all connectors mapped, torque specs, Highland/Juniper differences, fault codes. 2026 guide."
+description: "Tesla Model 3/Y/S/X front bumper removal 2026: hidden bolt locations, torque specs, all connectors mapped, HowTo schema, Model S/X differences, fault codes. DIY saves $200–350."
 date: 2026-02-10
-lastUpdated: 2026-06-11
+lastUpdated: 2026-06-20
 category: "Body & Exterior"
 difficulty: "Medium"
 readTime: "35 min read"
@@ -207,6 +207,105 @@ tools:
         "@type": "Answer",
         "text": "Yes, and with the bumper off-car the installation is significantly easier than fighting access angles with the bumper fully installed. For 3M tape-on polyurethane lips: clean the bumper lower edge with 70% isopropyl alcohol, wait 5 minutes for evaporation, test-fit the lip without removing tape backing, mark position with painter's tape, then apply with firm thumb pressure from center outward. Let it cure 60 minutes at above 15Â°C before reinstalling the bumper. For rigid ABS or carbon fiber splitters with fasteners: install all mounting hardware into the bumper before it goes back on the car. Torque plastic-boss screws to 2â€“3 Nm. Do not install 3M tape adhesive below 10Â°C â€” it will not bond properly and will detach on the first warm day."
       }
+    },
+    {
+      "@type": "Question",
+      "name": "Do I need to disconnect the 12V battery before removing the Tesla front bumper?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Disconnecting the 12V battery is not required for front bumper removal on Tesla Model 3 or Model Y. All connectors you disconnect are low-voltage signal wires (parking sensors, cameras, fog lights) with no shock hazard. Keeping the car powered is helpful — the car will alert you to any unseated connector within 60 seconds of startup, making post-reinstall verification faster. Only disconnect the 12V if you are splicing wires or replacing a harness section. If you do power down, use Controls → Safety → Power Off and wait 3 full minutes before handling any wiring."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How is removing the Tesla Model S front bumper different from Model 3 or Model Y?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The Tesla Model S front bumper removal follows the same framework as Model 3/Y but with these differences: (1) Fastener count is higher at 35–45 total vs. 25–35. (2) A T27 Torx bit is needed for inner fascia fasteners — this size does not appear on Model 3/Y. (3) Pre-2021 Model S with adaptive front lighting (AFL) has an additional motorized leveling connector per headlight. (4) Model S air suspension should be raised to maximum via Controls → Suspension → Very High before starting — adds 25–40mm of underbody clearance. (5) Time is 45–75 minutes first attempt vs. 30–60 for Model 3/Y."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if a push-pin clip mounting tab on the Tesla bumper fascia itself breaks off?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "If the plastic mounting tab on the fascia (not just the removable push-pin clip) breaks, the fascia cannot be secured at that point with the original clip. A single broken tab out of 25–35 mounting points is not critical — the remaining hardware holds securely. To repair: use a plastic bumper repair kit with metal mesh insert and plastic welding filler ($15–$30). If multiple tabs are broken, or the tab that holds a fender snap-clip breaks, replace the fascia — a loose fender-area mounting point lets the bumper catch air at highway speeds. Never use tape as a permanent fix for a broken mounting tab."
+      }
+    }
+  ]
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "How to Remove a Tesla Model 3 / Model Y Front Bumper",
+  "description": "Complete step-by-step procedure for removing the front bumper fascia on Tesla Model 3 (2017–2026) and Model Y (2020–2026), including 2024+ Highland and Juniper variants.",
+  "image": "/images/repairs/model-3-front-end-repair.jpg",
+  "totalTime": "PT60M",
+  "estimatedCost": {
+    "@type": "MonetaryAmount",
+    "currency": "USD",
+    "value": "20"
+  },
+  "tool": [
+    {"@type": "HowToTool", "name": "T20, T25, T30 Torx bit set (T40 for 2024+ Highland/Juniper)"},
+    {"@type": "HowToTool", "name": "10mm socket and ratchet"},
+    {"@type": "HowToTool", "name": "6–8 inch ratchet extension bar"},
+    {"@type": "HowToTool", "name": "Plastic trim removal tool set"},
+    {"@type": "HowToTool", "name": "Replacement push-pin clips (20-pack minimum)"},
+    {"@type": "HowToTool", "name": "Painter's tape for fender protection"},
+    {"@type": "HowToTool", "name": "Moving blanket or foam surface to rest bumper on"}
+  ],
+  "step": [
+    {
+      "@type": "HowToStep",
+      "position": 1,
+      "name": "Remove the frunk liner and upper bumper bolts",
+      "text": "Open the frunk and remove the front trim panel (4–6 push clips). Remove 4–6 × 10mm bolts along the top bumper rail. Leave one center bolt finger-tight as a temporary hold."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 2,
+      "name": "Remove wheel well liner fasteners on both sides",
+      "text": "Turn the steering wheel to full lock on each side in turn. Remove 3–5 push clips and 2 Torx screws (T20/T25) per wheel well liner. Peel the liner back to expose and remove the hidden 10mm bolt behind the liner — one per side, requires a 6–8 inch ratchet extension."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 3,
+      "name": "Remove underbody fasteners",
+      "text": "From beneath the car, remove 4–6 push clips and 4–6 Torx screws along the bottom bumper edge. Use T30 on pre-2024 models; T40 on 2024+ Model 3 Highland and Model Y Juniper."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 4,
+      "name": "Release the side fender snap-clips",
+      "text": "Grip the bumper at the fender seam on each side and pull firmly forward and slightly outward. The friction snap-clips release with an audible pop. Support the bumper immediately — it is still connected by wiring."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 5,
+      "name": "Disconnect all electrical connectors",
+      "text": "Pull the bumper forward and disconnect: main bumper harness (side squeeze tab), fog light connectors (pull red sliding tab outward first, then squeeze body), pedestrian warning speaker (2-pin push-squeeze), USS harness block (pre-HW4 vehicles only), and radar connector at center-lower (pre-mid-2022 Model 3 and pre-late-2022 Model Y only)."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 6,
+      "name": "Fully remove the bumper",
+      "text": "Remove the remaining center upper bolt. With a helper at the opposite end, lift the bumper forward and away from the car. Place it face-down on a moving blanket."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 7,
+      "name": "Inspect components while bumper is off",
+      "text": "Check the EPP foam crash absorber for compression damage, sight down the bumper beam for bends, inspect wiring harnesses for chafing, and press each USS sensor housing to confirm it is firmly seated."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 8,
+      "name": "Reinstall in correct sequence",
+      "text": "Reconnect all harnesses before the bumper approaches the car. Seat upper edge first, engage side snap-clips (listen for click on both sides), install hidden fender liner bolts (8–10 Nm), torque upper 10mm bolts to 8–10 Nm, underbody Torx to 3–5 Nm. Verify panel gaps: bumper-to-fender 3.0–4.0 mm, bumper-to-hood 4.0–5.0 mm. Power on and verify all sensors within 2 minutes."
     }
   ]
 }
@@ -251,21 +350,22 @@ This guide covers the **2017â€“2023 Model 3 (pre-Highland)**, the **2020â�
 10. [Model Y vs. Model 3: Key Differences](#model-y-vs-model-3-key-differences)
 11. [Pre-2021 vs. 2021+ vs. 2024 Highland vs. 2024+ Juniper](#pre-2021-vs-2021-vs-2024-highland-vs-2024-model-y-juniper)
 12. [Tesla Cybertruck Front Lower Fascia Removal](#tesla-cybertruck-front-lower-fascia-air-dam-removal)
-13. [Reinstallation: Step-by-Step Procedure](#reinstallation-step-by-step-procedure)
-14. [What to Inspect While the Bumper Is Off](#what-to-inspect-while-the-bumper-is-off)
-15. [Workshop Case Studies](#workshop-case-studies-real-world-tesla-bumper-removal-scenarios)
-16. [Insurance Documentation Protocol](#collision-repair-insurance-documentation-protocol)
-17. [Buying a Replacement Bumper Fascia](#buying-a-replacement-bumper-fascia)
-18. [Tesla OEM Part Numbers and VIN-Specific Sourcing](#tesla-oem-part-numbers-and-vin-specific-sourcing)
-19. [Cold Weather Removal Considerations](#cold-weather-removal-considerations)
-20. [Troubleshooting: Bumper Won't Come Off?](#troubleshooting-bumper-wont-come-off)
-21. [Cost Comparison: DIY vs. Professional](#cost-comparison-diy-vs-professional)
-22. [Common Mistakes to Avoid](#common-mistakes-to-avoid)
-23. [When to Call a Professional](#when-to-call-a-professional)
-24. [Post-Reinstall Fault Codes and How to Clear Them](#post-reinstall-fault-codes-and-how-to-clear-them)
-25. [Front Lip and Chin Spoiler Installation](#front-lip-and-chin-spoiler-installation-while-the-bumper-is-accessible)
-26. [Frequently Asked Questions](#frequently-asked-questions)
-27. [Related Guides](#related-guides)
+13. [Tesla Model S and Model X: Front Bumper Differences](#tesla-model-s-and-model-x-front-bumper-differences)
+14. [Reinstallation: Step-by-Step Procedure](#reinstallation-step-by-step-procedure)
+15. [What to Inspect While the Bumper Is Off](#what-to-inspect-while-the-bumper-is-off)
+16. [Workshop Case Studies](#workshop-case-studies-real-world-tesla-bumper-removal-scenarios)
+17. [Insurance Documentation Protocol](#collision-repair-insurance-documentation-protocol)
+18. [Buying a Replacement Bumper Fascia](#buying-a-replacement-bumper-fascia)
+19. [Tesla OEM Part Numbers and VIN-Specific Sourcing](#tesla-oem-part-numbers-and-vin-specific-sourcing)
+20. [Cold Weather Removal Considerations](#cold-weather-removal-considerations)
+21. [Troubleshooting: Bumper Won't Come Off?](#troubleshooting-bumper-wont-come-off)
+22. [Cost Comparison: DIY vs. Professional](#cost-comparison-diy-vs-professional)
+23. [Common Mistakes to Avoid](#common-mistakes-to-avoid)
+24. [When to Call a Professional](#when-to-call-a-professional)
+25. [Post-Reinstall Fault Codes and How to Clear Them](#post-reinstall-fault-codes-and-how-to-clear-them)
+26. [Front Lip and Chin Spoiler Installation](#front-lip-and-chin-spoiler-installation-while-the-bumper-is-accessible)
+27. [Frequently Asked Questions](#frequently-asked-questions)
+28. [Related Guides](#related-guides)
 
 ---
 
@@ -579,6 +679,52 @@ The Cybertruck's body architecture is fundamentally different from Model 3 and M
 **Cold-weather note:** The Cybertruck air dam polymer is more cold-tolerant than the TPO fascias on Model 3/Y, but push-pin clips still stiffen below âˆ’5Â°C. Carry 5â€“6 spare clips regardless.
 
 For Cybertruck tow hitch and towing setup after the air dam is off, see our [Tesla tow hitch installation guide](/posts/tesla-tow-hitch-installation/).
+
+---
+
+## Tesla Model S and Model X: Front Bumper Differences
+
+The process for removing the front bumper on a **Tesla Model S** or **Model X** follows the same framework as Model 3/Y — frunk liner, upper bolts, wheel well liner bolts, underbody screws, side snap-clips, electrical connectors — but with meaningful differences in fastener sizes, connector count, and fascia complexity.
+
+### Tesla Model S Front Bumper
+
+| Spec | Model S | Model 3 / Model Y |
+|------|---------|-------------------|
+| Difficulty | Medium–Hard | Medium |
+| Time (first attempt) | 45–75 minutes | 30–60 minutes |
+| Total fasteners | ~35–45 | ~25–35 |
+| Torx sizes | T20, T25, **T27**, T30 | T20, T25, T30 (T40 on Highland/Juniper) |
+| Adaptive front lighting connector | Yes (pre-2021) — additional 4-pin per headlight | No |
+| Air suspension height advantage | Yes — raise to Very High before starting | No |
+| Frunk liner | Full-size formed piece; must be fully removed | Partial peel-back sufficient |
+
+**T27 Torx bit:** This size does not appear on Model 3/Y but is required for several inner fascia fasteners on the Model S. Add it to your toolkit before starting — it is the #1 missed tool for Model S front bumper work.
+
+**Adaptive Front Lighting (AFL) connector:** Pre-2021 Model S headlights include motorized leveling actuators, each with a separate 4-pin connector routed through the bumper inner surface. This connector is easily missed if you only look for harness connections visible on a Model 3/Y. Photograph the entire inner bumper face before disconnecting anything.
+
+**Air suspension prep:** Before starting, set suspension to maximum height via Controls → Suspension → Very High. The extra 25–40mm of ground clearance transforms underbody fastener access — you may not need ramps at all.
+
+**Model S Plaid / 2022+ Refresh:** The redesigned fascia uses push-clip arrangements similar to the Model 3 Highland; allow extra time on the first removal. Some 2022+ builds use T40 underbody screws instead of T30 — confirm your specific build before starting.
+
+### Tesla Model X Front Bumper
+
+| Spec | Model X | Model 3 / Model Y |
+|------|---------|-------------------|
+| Difficulty | Medium–Hard | Medium |
+| Time (first attempt) | 50–80 minutes | 30–60 minutes |
+| Ride height advantage | Higher stock clearance — lift usually not needed | Lift strongly recommended |
+| Active grille shutters (AGS) | Yes — separate AGS harness connector | No |
+| Approach angle cameras (pre-HW4) | Yes — coaxial connectors at lower bumper corners | No |
+| Pre-HW4 connector count | 8–10 (radar + USS + AGS + PAC) | 3–7 |
+| HW4 connector count | 4–5 (no radar, no USS) | 2–4 |
+
+**Active Grille Shutters (AGS) — the #1 Model X-specific mistake:** Every Model X has aero shutters integrated into the front grille. There is a separate 6-pin AGS harness connector located center-upper behind the bumper, near the main harness block. If you miss this connector and pull the bumper forward, the AGS motor wire goes taut and can tear the connector from the harness — a repair requiring a new wiring harness section. Disconnect the AGS connector before releasing the side snap-clips.
+
+**Approach angle cameras (PAC):** Pre-HW4 Model X has small camera pods at each lower bumper corner, each with a coaxial-style connector on the inner bumper face. Disconnect both before attempting to move the bumper forward.
+
+**Ride height:** Thanks to the Model X's higher stock ground clearance (~183mm vs. ~140mm on Model 3), the underbody screws are reachable without a lift. Air suspension at maximum raises the front end further — the most comfortable underbody access in the Tesla lineup.
+
+**Model X HW4 builds (late 2023+):** Significantly simplified harness — no radar, no USS, no PAC. Connector count drops to 4–5. Time drops to 40–60 minutes first attempt.
 
 ---
 
@@ -1050,6 +1196,18 @@ The EPP (expanded polypropylene) foam absorber is the white foam block sitting b
 
 **How do I know if the Tesla front radar module is physically damaged vs. just a loose connector?**
 After reseating all connectors and doing a full power cycle (Controls â†’ Safety â†’ Power Off, wait 3 full minutes without touching anything, restart by pressing the brake), a "Forward Collision Warning Unavailable" alert that clears confirms it was a connector issue. If the alert persists after power cycle, the module is likely damaged. Field test: if all radar-dependent features â€” automatic emergency braking, traffic-aware cruise control, forward collision warning â€” are completely non-functional across all speeds, assume module damage. If the warning alert appears on the dashboard but radar-based features still partially engage, a cracked module housing causing micro-movement is more likely than total module failure. A damaged module requires replacement ($180â€“$350 for the module from Tesla or aftermarket) plus Tesla Service Center radar recalibration ($150â€“$300 â€” this calibration procedure cannot be done without professional equipment). Do not drive a radar-equipped car with a persistent Forward Collision Warning fault on highway routes.
+
+**Do I need to disconnect the 12V battery before removing the Tesla front bumper?**
+
+No. Disconnecting the 12V battery is not required for bumper removal on any Tesla Model 3 or Model Y. All connectors you will handle are low-voltage signal wires — parking sensors, cameras, fog lights — with no shock hazard. Keeping the car powered is actually useful: the car alerts you to any unseated connector within 60 seconds of startup, making post-reinstall verification faster. Only disconnect the 12V if you are splicing wires or replacing a harness section as part of a deeper repair. If you do power down, use Controls → Safety → Power Off on the touchscreen and wait 3 full minutes before touching any wiring.
+
+**How is removing the Tesla Model S front bumper different from Model 3 or Model Y?**
+
+The Model S follows the same general framework but differs in key ways: fastener count is higher (35–45 vs. 25–35), a T27 Torx bit is needed for inner fascia screws (not used on Model 3/Y), pre-2021 adaptive front lighting (AFL) headlights add a motorized leveling connector per side, and the frunk liner must be fully removed rather than partially peeled back. Set Model S air suspension to maximum height before starting (Controls → Suspension → Very High) — the added clearance makes underbody access significantly easier. Budget 45–75 minutes first attempt vs. 30–60 for Model 3/Y.
+
+**What should I do if a plastic mounting tab on the Tesla fascia itself breaks during removal (not just the push-pin clip)?**
+
+A broken mounting tab on the fascia — the plastic boss the clip inserts into — means the bumper cannot be clipped at that point. A single broken tab out of 25–35 total is not structurally critical: the remaining fasteners hold the bumper securely. Repair options: a plastic bumper repair kit with metal mesh insert and plastic filler ($15–$30 on [Amazon US](https://www.amazon.com/s?k=bumper+plastic+tab+repair+kit&tag=diyrepair07-20) / [Amazon DE](https://www.amazon.de/s?k=stossfaenger+kunststoff+reparatur&tag=diyrepair-21)), or a bonded metal thread insert kit. If the broken tab is at the fender snap-clip location or multiple tabs are broken, replace the fascia — a loose fender-area mount lets the bumper flex at highway speeds. Never use tape as a permanent fix for a broken mounting tab.
 
 ---
 
