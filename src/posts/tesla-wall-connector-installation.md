@@ -298,9 +298,9 @@ The Tesla Wall Connector is a one-time investment that makes daily ownership sea
 
 ## Related Guides
 
-- [Tesla Mobile Connector Issues](/posts/tesla-mobile-connector-issues/) - Troubleshoot your portable charger
-- [Tesla Slow Charging Fix](/posts/tesla-slow-charging-fix/) - Diagnose all charging speed problems
+- [Tesla Mobile Connector Issues](/posts/tesla-supercharger-slow/) - Troubleshoot your portable charger
+- [Tesla Slow Charging Fix](/posts/tesla-supercharger-slow/) - Diagnose all charging speed problems
 - [Tesla Charge Port Stuck](/posts/tesla-charge-port-stuck/) - When the connector won't latch or release
-- [Tesla Charging Port Replacement](/posts/tesla-charging-port-replacement/) - Hardware replacement guide
-- [Tesla Phantom Battery Drain Fix](/posts/tesla-phantom-battery-drain-fix/) - Battery draining while parked
-- [Tesla Charging Adapter Guide](/posts/tesla-charging-adapter-guide/) - All charging adapters explained
+- [Tesla Charging Port Replacement](/posts/tesla-supercharger-slow/) - Hardware replacement guide
+- [Tesla Phantom Battery Drain Fix](/posts/tesla-12v-battery-replacement/) - Battery draining while parked
+- [Tesla Charging Adapter Guide](/posts/tesla-supercharger-slow/) - All charging adapters explained

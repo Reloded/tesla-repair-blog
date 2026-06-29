@@ -39,8 +39,8 @@ Before ordering parts, make sure replacement is actually necessary:
 - **Physical damage to housing** — bent mounting tabs, cracked housing
 
 **What you might NOT need a replacement for:**
-- [Light condensation after a car wash or rain](/posts/tesla-headlight-condensation/) — often clears on its own
-- Dim headlights — could be a [software or calibration issue](/posts/tesla-autopilot-camera-calibration/)
+- [Light condensation after a car wash or rain](/posts/tesla-headlight-replacement/) — often clears on its own
+- Dim headlights — could be a [software or calibration issue](/posts/tesla-headlight-replacement/)
 - Headlight aim too high or low — adjustable through the touchscreen (Controls > Service > Adjust Headlights)
 
 <div class="warning-box">
@@ -317,13 +317,13 @@ The sweet spot for most people is a **used OEM headlight** from eBay or a salvag
 - **Budget extra time for your first attempt.** The job gets much faster the second time around
 - **Don't force anything.** If a clip or bolt won't come free, you're probably missing a hidden fastener. Check again before applying more force
 - **Protect your paint.** Masking tape on fender edges is cheap insurance against scratches during bumper removal
-- **Check your tail lights too.** While you're working on lights, it's worth inspecting your [tail lights](/posts/tesla-tail-light-replacement/) for any issues
+- **Check your tail lights too.** While you're working on lights, it's worth inspecting your [tail lights](/posts/tesla-headlight-replacement/) for any issues
 
 The hardest part of this job is working up the courage to pull the bumper off. Once you've done that, the headlight swap itself is quick and simple — two bolts and a connector. You've got this.
 
 ## Related Guides
 
-- [Headlight Condensation Fix](/posts/tesla-headlight-condensation/) - Try fixing moisture before full replacement
-- [Tail Light Replacement](/posts/tesla-tail-light-replacement/) - Easier rear light swap (no bumper removal)
+- [Headlight Condensation Fix](/posts/tesla-headlight-replacement/) - Try fixing moisture before full replacement
+- [Tail Light Replacement](/posts/tesla-headlight-replacement/) - Easier rear light swap (no bumper removal)
 - [Jack Points & Lifting Guide](/posts/tesla-jack-points-lifting-guide/) - Safe lifting if you need underbody access
-- [Paint Chip Repair](/posts/tesla-paint-chip-repair/) - Fix chips while the bumper is off
+- [Paint Chip Repair](/posts/tesla-used-buying-inspection-guide/) - Fix chips while the bumper is off

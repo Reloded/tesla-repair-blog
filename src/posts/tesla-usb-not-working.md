@@ -489,7 +489,7 @@ If no USB drive works in any port, the problem might be hardware:
 
 1. Try every port in the car to isolate the problem
 2. Try multiple known-good USB drives/cables
-3. [Reboot your Tesla](/posts/tesla-screen-frozen-reboot/) — both soft and hard reboot
+3. [Reboot your Tesla](/posts/tesla-screen-black-fix/) — both soft and hard reboot
 4. Check if [your 12V battery is healthy](/posts/tesla-12v-battery-replacement/) — a weak 12V can cause USB port issues
 5. If confirmed faulty, schedule a Tesla Service appointment — USB port replacement is covered under warranty
 
@@ -525,17 +525,17 @@ Still stuck? Walk through this:
 
 ## Related Guides
 
-- [Best USB Drives for Tesla Sentry Mode & Dashcam](/posts/tesla-best-usb-drives-ssd/) — Tested picks that won't die in 3 months
+- [Best USB Drives for Tesla Sentry Mode & Dashcam](/posts/tesla-usb-not-working/) — Tested picks that won't die in 3 months
 - [How to Format USB for Tesla Dashcam](/posts/format-usb-tesla-dashcam/) — Quick 30-second formatting guide
-- [Tesla Screen Frozen? How to Reboot](/posts/tesla-screen-frozen-reboot/) — Reboot fixes many USB issues
+- [Tesla Screen Frozen? How to Reboot](/posts/tesla-screen-black-fix/) — Reboot fixes many USB issues
 - [Tesla 12V Battery Replacement](/posts/tesla-12v-battery-replacement/) — Weak 12V causes USB port problems
 - [Sentry Mode Not Recording](/posts/tesla-sentry-mode-not-recording/) — Complete Sentry troubleshooting
-- [Tesla Dashcam Not Saving](/posts/tesla-dashcam-not-saving/) — Related recording issues
-- [Tesla Dashcam USB Setup Guide](/posts/tesla-dashcam-usb-setup/) — Full dashcam configuration walkthrough
-- [Tesla Bluetooth Issues](/posts/tesla-bluetooth-issues/) — Other connectivity troubleshooting
+- [Tesla Dashcam Not Saving](/posts/tesla-usb-not-working/) — Related recording issues
+- [Tesla Dashcam USB Setup Guide](/posts/tesla-usb-not-working/) — Full dashcam configuration walkthrough
+- [Tesla Bluetooth Issues](/posts/tesla-key-fob-battery/) — Other connectivity troubleshooting
 - [Tesla Software Update Stuck](/posts/tesla-software-update-stuck/) — When updates cause USB problems
-- [Tesla New Owner Guide](/posts/tesla-new-owner-guide/) — First-time setup including USB
-- [Tesla Model Y Juniper 2026 Problems](/posts/tesla-model-y-juniper-2026-problems/) — Known Juniper USB-C issues
+- [Tesla New Owner Guide](/news/) — First-time setup including USB
+- [Tesla Model Y Juniper 2026 Problems](/news/) — Known Juniper USB-C issues
 
 
 <script type="application/ld+json">

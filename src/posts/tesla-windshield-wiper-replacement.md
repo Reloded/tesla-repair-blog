@@ -636,7 +636,7 @@ Extend wiper blade life:
 4. **Never dry-wipe** — Always spray washer fluid first; dry glass grinds the rubber edge
 5. **Use quality washer fluid** — Not plain water, which leaves mineral deposits and freezes in cold climates
 6. **Apply windshield coating** — Halves wiper use and wear; see the section above
-7. **Inspect door seals annually** — A leaking [door seal](/posts/tesla-door-seal-maintenance/) allows water to pool on the windshield during rain or car washes, running the auto-wipers unnecessarily and accelerating blade wear
+7. **Inspect door seals annually** — A leaking [door seal](/posts/tesla-door-handle-not-working/) allows water to pool on the windshield during rain or car washes, running the auto-wipers unnecessarily and accelerating blade wear
 
 ### Winter Wiper Protocol (Baltic & Nordic Climates)
 
@@ -657,7 +657,7 @@ Winter is the primary cause of early wiper failure in cold-climate countries.
 - Persistent chattering or streaking after 5+ minutes of use: blade rubber has hardened from age or wrong temperature rating — replace
 - Wipers not parking correctly after ice event: exit and re-enter Service Mode to recalibrate the park position
 
-**If washer fluid nozzles freeze:** Do not tap the washer button repeatedly — this overheats the pump. Thaw the nozzle lines by running the climate at maximum heat with the car parked for 20 minutes, or use a hair dryer on low heat aimed at the nozzle area. See our guide on [washer fluid pump and nozzle fixes](/posts/tesla-washer-fluid-pump-nozzle-fix/) for full diagnosis steps.
+**If washer fluid nozzles freeze:** Do not tap the washer button repeatedly — this overheats the pump. Thaw the nozzle lines by running the climate at maximum heat with the car parked for 20 minutes, or use a hair dryer on low heat aimed at the nozzle area. See our guide on [washer fluid pump and nozzle fixes](/posts/tesla-windshield-wiper-replacement/) for full diagnosis steps.
 
 ## Washer Fluid Refill
 
@@ -689,7 +689,7 @@ The cost savings on wipers are modest compared to larger Tesla repairs, but the 
 
 ---
 
-*Visibility is a safety issue — do not wait until you can barely see in rain. Check your wipers every time you check [tire pressure](/posts/tesla-tire-pressure-guide/) and replace at the first sign of streaking.*
+*Visibility is a safety issue — do not wait until you can barely see in rain. Check your wipers every time you check [tire pressure](/posts/tesla-tire-rotation/) and replace at the first sign of streaking.*
 
 ## Frequently Asked Questions
 
@@ -744,11 +744,11 @@ Yes. Winter wiper blades — rated to −35°C or −40°C — are the right cho
 ## Related Guides
 
 - [Tesla Winter Preparation Guide](/posts/tesla-winter-preparation-guide/) — Winter wiper tips, washer fluid selection, and blade lift technique for cold climates
-- [Washer Fluid Pump & Nozzle Fix](/posts/tesla-washer-fluid-pump-nozzle-fix/) — Frozen or blocked nozzles, pump replacement, low-pressure diagnosis
-- [Tesla Door Seal Maintenance](/posts/tesla-door-seal-maintenance/) — Leaking seals cause water intrusion and unnecessary auto-wiper activation
-- [Tire Pressure Guide](/posts/tesla-tire-pressure-guide/) — Check wipers at every tire pressure interval; pair both into one maintenance session
-- [Tesla Ceramic Coating Guide](/posts/tesla-ceramic-coating/) — Apply hydrophobic coating to windshield to cut wiper use by 50%
-- [Headlight Condensation Fix](/posts/tesla-headlight-condensation/) — Other moisture and visibility issues that accompany wiper problems
+- [Washer Fluid Pump & Nozzle Fix](/posts/tesla-windshield-wiper-replacement/) — Frozen or blocked nozzles, pump replacement, low-pressure diagnosis
+- [Tesla Door Seal Maintenance](/posts/tesla-door-handle-not-working/) — Leaking seals cause water intrusion and unnecessary auto-wiper activation
+- [Tire Pressure Guide](/posts/tesla-tire-rotation/) — Check wipers at every tire pressure interval; pair both into one maintenance session
+- [Tesla Ceramic Coating Guide](/posts/tesla-used-buying-inspection-guide/) — Apply hydrophobic coating to windshield to cut wiper use by 50%
+- [Headlight Condensation Fix](/posts/tesla-headlight-replacement/) — Other moisture and visibility issues that accompany wiper problems
 - [Cabin Air Filter Replacement](/posts/tesla-cabin-air-filter/) — Another 15-minute maintenance item; batch with wiper replacement on the same afternoon
-- [Tesla Scratch Repair Guide](/posts/tesla-scratch-repair-guide/) — If a wiper arm ever contacted the hood, here is how to fix the paint
+- [Tesla Scratch Repair Guide](/posts/tesla-used-buying-inspection-guide/) — If a wiper arm ever contacted the hood, here is how to fix the paint
 - [Tesla Maintenance Schedule](/posts/tesla-maintenance-schedule/) — Full DIY service interval guide; wipers fit into the 6-month check

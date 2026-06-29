@@ -208,6 +208,6 @@ If the frunk isn't sitting flush:
 
 ## Related Guides
 
-- [Trunk Won't Close](/posts/tesla-trunk-wont-close/) - Similar latch mechanisms and fixes
+- [Trunk Won't Close](/posts/tesla-trunk-latch-replacement/) - Similar latch mechanisms and fixes
 - [Door Handle Not Working](/posts/tesla-door-handle-not-working/) - Related electrical latch issues
 - [12V Battery Replacement](/posts/tesla-12v-battery-replacement/) - Prevent future latch failures

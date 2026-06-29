@@ -312,7 +312,7 @@ Rotor runout is the side-to-side wobble as the rotor spins. A rotor can be at fu
 | 0.05–0.10mm | Marginal — install a new rotor and re-measure. If runout persists, hub bearing is likely the source |
 | Above 0.10mm | Fail — replace rotor. If new rotor also reads above 0.05mm, measure hub flange runout; the hub assembly may need inspection |
 
-**Checking hub runout before installing a new rotor:** With the old rotor off, hold the indicator tip against the hub face and rotate. If hub runout exceeds 0.03mm, clean the hub face thoroughly and re-measure. Corrosion buildup on the hub face is the most common source of runout on high-mileage Teslas — a wire brush often solves it without any parts replacement. See the [Tesla wheel bearing replacement guide](/posts/tesla-wheel-bearing-replacement/) if hub runout persists after cleaning.
+**Checking hub runout before installing a new rotor:** With the old rotor off, hold the indicator tip against the hub face and rotate. If hub runout exceeds 0.03mm, clean the hub face thoroughly and re-measure. Corrosion buildup on the hub face is the most common source of runout on high-mileage Teslas — a wire brush often solves it without any parts replacement. See the [Tesla wheel bearing replacement guide](/posts/tesla-suspension-noise-fix/) if hub runout persists after cleaning.
 
 ### Rotor Groove Depth and Scoring Severity
 
@@ -345,7 +345,7 @@ Before spending $150–300 on new rotors per axle, confirm the symptom is coming
 
 **Roadside heat check (30 seconds, no tools required):** After a normal stop from 40 mph, exit the vehicle and carefully hold the back of your hand 3–5 cm from — never touching — each rotor. One corner significantly hotter than the other three points to a dragging caliper, not a worn rotor. A dragging caliper generates sustained heat that warps rotors prematurely. Fixing the caliper first saves you the cost of new rotors.
 
-**The micrometer test is the only definitive answer.** Pedal pulsation alone does not confirm the rotor is below minimum thickness. A rotor can cause pulsation from lateral runout (warping) while still being above spec — in which case machining is an option. Only measurement at 8 points tells you whether you need replacement or can machine. See the [Tesla squeaky brakes fix guide](/posts/tesla-squeaky-brakes-fix/) if your primary symptom is noise rather than pulsation — the diagnosis process differs.
+**The micrometer test is the only definitive answer.** Pedal pulsation alone does not confirm the rotor is below minimum thickness. A rotor can cause pulsation from lateral runout (warping) while still being above spec — in which case machining is an option. Only measurement at 8 points tells you whether you need replacement or can machine. See the [Tesla squeaky brakes fix guide](/posts/tesla-brake-pad-replacement/) if your primary symptom is noise rather than pulsation — the diagnosis process differs.
 
 ## Tesla Brake Service Alerts Explained
 
@@ -362,7 +362,7 @@ Tesla does not use traditional brake pad wear sensors that trigger a dashboard w
 
 If you see an amber or red alert, navigate to **Controls > Service > Service Mode > Chassis > Brakes**. Active fault codes appear with a description and recommended action. Screenshot codes before clearing — intermittent faults that self-clear will return and the code helps identify the root cause.
 
-EPB motor faults (B-prefix codes) are the most common active alert on high-mileage Teslas. A failed EPB motor requires rear caliper motor replacement — the procedure is covered in the [Tesla Model S rear caliper motor replacement guide](/posts/tesla-model-s-rear-caliper-motor-replacement/) and applies to the EPB motor assembly across Model 3, Y, and S rear calipers.
+EPB motor faults (B-prefix codes) are the most common active alert on high-mileage Teslas. A failed EPB motor requires rear caliper motor replacement — the procedure is covered in the [Tesla Model S rear caliper motor replacement guide](/posts/tesla-suspension-noise-fix/) and applies to the EPB motor assembly across Model 3, Y, and S rear calipers.
 
 ### After DIY Brake Work
 
@@ -603,7 +603,7 @@ If you pushed the caliper piston back far enough to raise the reservoir level, o
 5. If no lines were opened and the piston was only pressed back by hand, full bleeding is optional — but pump the brake pedal 10 times firmly with the car in Park before your first drive
 
 <div class="warning-box">
-<strong>DOT 3 Only:</strong> Never mix brake fluid specifications. Tesla uses DOT 3 on all current models. If the fluid appears brown or hasn't been changed in two years, do a full flush — see the <a href="/posts/tesla-brake-fluid-change/">Tesla brake fluid change guide</a>.
+<strong>DOT 3 Only:</strong> Never mix brake fluid specifications. Tesla uses DOT 3 on all current models. If the fluid appears brown or hasn't been changed in two years, do a full flush — see the <a href="/posts/tesla-brake-pad-replacement/">Tesla brake fluid change guide</a>.
 </div>
 
 ## Bed-In Procedure for New Rotors
@@ -801,7 +801,7 @@ When wheels come off for rotor replacement, several additional services can be c
 - Paint pen for torque verification marks
 - Feeler gauge for groove depth check on the old rotors (10 seconds per rotor, informs future planning)
 
-See the [Tesla brake fluid change guide](/posts/tesla-brake-fluid-change/) for the full flush procedure to integrate into this session, and the [Tesla brake pad replacement guide](/posts/tesla-brake-pad-replacement/) for the pad swap steps.
+See the [Tesla brake fluid change guide](/posts/tesla-brake-pad-replacement/) for the full flush procedure to integrate into this session, and the [Tesla brake pad replacement guide](/posts/tesla-brake-pad-replacement/) for the pad swap steps.
 
 ---
 
@@ -863,7 +863,7 @@ Standard uncoated rotors are the worst choice for a Tesla. The better options:
 
 For owners in Lithuania, Germany, Nordic countries, the UK, or the Pacific Northwest USA: **Geomet-coated or e-coated rotors are not optional luxury upgrades — they are the right choice for EVs in these climates.**
 
-See the [Tesla rust prevention and undercoating guide](/posts/tesla-rust-prevention-undercoating/) for additional protection options including underbody treatments that complement rotor coating on a high-mileage Tesla.
+See the [Tesla rust prevention and undercoating guide](/posts/tesla-used-buying-inspection-guide/) for additional protection options including underbody treatments that complement rotor coating on a high-mileage Tesla.
 
 ---
 
@@ -956,7 +956,7 @@ Slide pins that pass the hand-pull test but feel stiff should be removed, cleane
 
 ### Pre-Winter Check (October)
 
-Repeat the same 7-point checklist in October before the first frost. If pads are below 5mm heading into winter, replace them now — cold-weather brake jobs are significantly less pleasant than spring jobs. While the wheel is already off, inspect [Tesla sway bar links](/posts/tesla-sway-bar-link-replacement/) and check [TPMS sensor battery status](/posts/tesla-tpms-sensor-replacement/) — if the battery indicator shows under 30% life, replace the sensors now rather than during the salt season.
+Repeat the same 7-point checklist in October before the first frost. If pads are below 5mm heading into winter, replace them now — cold-weather brake jobs are significantly less pleasant than spring jobs. While the wheel is already off, inspect [Tesla sway bar links](/posts/tesla-suspension-noise-fix/) and check [TPMS sensor battery status](/posts/tesla-tpms-sensor-replacement/) — if the battery indicator shows under 30% life, replace the sensors now rather than during the salt season.
 
 ---
 
@@ -980,7 +980,7 @@ Pads worn below 4mm are uneven across their face. New rotors installed with thes
 See the [Bed-In Procedure section](#bed-in-procedure-for-new-rotors) above. Skipping it deposits pad material unevenly in the first heat cycle and causes pulsation within 300 miles.
 
 **6. Not checking hub face runout before installing the new rotor.**  
-A hub face with runout above 0.05mm transfers that runout directly to the new rotor. Measure at the hub flange with a dial indicator before installing. If runout is present, clean the hub face and re-measure; if it persists after cleaning, the hub bearing may need inspection — see the [Tesla wheel bearing replacement guide](/posts/tesla-wheel-bearing-replacement/).
+A hub face with runout above 0.05mm transfers that runout directly to the new rotor. Measure at the hub flange with a dial indicator before installing. If runout is present, clean the hub face and re-measure; if it persists after cleaning, the hub bearing may need inspection — see the [Tesla wheel bearing replacement guide](/posts/tesla-suspension-noise-fix/).
 
 **7. Forgetting to recheck lug nut torque at 50 miles.**  
 Lug nuts on a new rotor/hub interface can relax slightly as surfaces seat. Recheck to **175 Nm** after 50 miles — mark your calendar before you leave the driveway.
@@ -991,7 +991,7 @@ Lug nuts on a new rotor/hub interface can relax slightly as surfaces seat. Reche
 
 ### Wheel Alignment
 
-Rotor replacement alone does not disturb alignment geometry. However, if you replaced a control arm, tie rod, or strut in the same session, schedule a four-wheel alignment immediately — misalignment accelerates uneven rotor and tire wear exponentially. See the [Tesla wheel alignment DIY guide](/posts/tesla-wheel-alignment-diy/) for a full walkthrough, or the [control arm replacement guide](/posts/tesla-control-arm-replacement/) and [tie rod end replacement guide](/posts/tesla-tie-rod-end-replacement/) if you're combining jobs.
+Rotor replacement alone does not disturb alignment geometry. However, if you replaced a control arm, tie rod, or strut in the same session, schedule a four-wheel alignment immediately — misalignment accelerates uneven rotor and tire wear exponentially. See the [Tesla wheel alignment DIY guide](/posts/tesla-suspension-noise-fix/) for a full walkthrough, or the [control arm replacement guide](/posts/tesla-control-arm-replacement/) and [tie rod end replacement guide](/posts/tesla-suspension-noise-fix/) if you're combining jobs.
 
 ### Tire Rotation
 
@@ -1146,17 +1146,17 @@ Three levels: "Schedule Service — Brakes" (app notification) = mileage or time
 
 ---
 
-*While you have the brake system open, consider [flushing your brake fluid](/posts/tesla-brake-fluid-change/) — DOT 3 absorbs moisture and degrades over two years. It is a 45-minute job that is much easier with the calipers already removed.*
+*While you have the brake system open, consider [flushing your brake fluid](/posts/tesla-brake-pad-replacement/) — DOT 3 absorbs moisture and degrades over two years. It is a 45-minute job that is much easier with the calipers already removed.*
 
 ## Related Guides
 
 - [Tesla Brake Pad Replacement](/posts/tesla-brake-pad-replacement/) — Replace pads at the same time to avoid a return visit
-- [Tesla Brake Fluid Change](/posts/tesla-brake-fluid-change/) — Flush fluid while calipers are already off
+- [Tesla Brake Fluid Change](/posts/tesla-brake-pad-replacement/) — Flush fluid while calipers are already off
 - [Tesla Jack Points & Lifting Guide](/posts/tesla-jack-points-lifting-guide/) — Safe lift points for all models
-- [Tesla Squeaky Brakes Fix](/posts/tesla-squeaky-brakes-fix/) — Quick fixes before committing to a rotor swap
-- [Tesla Regenerative Braking Reduced](/posts/tesla-regen-braking-reduced/) — How reduced regen affects brake wear rates
-- [Model S Rear Caliper Motor Replacement](/posts/tesla-model-s-rear-caliper-motor-replacement/) — EPB motor issues on Model S
+- [Tesla Squeaky Brakes Fix](/posts/tesla-brake-pad-replacement/) — Quick fixes before committing to a rotor swap
+- [Tesla Regenerative Braking Reduced](/posts/tesla-12v-battery-replacement/) — How reduced regen affects brake wear rates
+- [Model S Rear Caliper Motor Replacement](/posts/tesla-suspension-noise-fix/) — EPB motor issues on Model S
 - [Tesla Suspension Noise Fix](/posts/tesla-suspension-noise-fix/) — Rule out suspension as the vibration source before replacing rotors
-- [Tesla Sway Bar Link Replacement](/posts/tesla-sway-bar-link-replacement/) — Suspension component to inspect while wheels are already removed
+- [Tesla Sway Bar Link Replacement](/posts/tesla-suspension-noise-fix/) — Suspension component to inspect while wheels are already removed
 - [Tesla TPMS Sensor Replacement](/posts/tesla-tpms-sensor-replacement/) — Service tire pressure sensors with no extra lift time when wheels come off for brakes
-- [Tesla Coil Spring Replacement](/posts/tesla-coil-spring-replacement/) — Full suspension service context for combining brake and suspension work in one session
+- [Tesla Coil Spring Replacement](/posts/tesla-suspension-noise-fix/) — Full suspension service context for combining brake and suspension work in one session

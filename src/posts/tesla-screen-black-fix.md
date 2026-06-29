@@ -205,6 +205,6 @@ Software updates occasionally cause temporary issues:
 ## Related Guides
 
 - [12V Battery Replacement](/posts/tesla-12v-battery-replacement/) - Low 12V battery often causes black screens
-- [MCU Touchscreen Upgrade](/posts/tesla-mcu-touchscreen-upgrade/) - Permanent solution for older Model S/X with failing screens
+- [MCU Touchscreen Upgrade](/posts/tesla-screen-black-fix/) - Permanent solution for older Model S/X with failing screens
 - [Software Update Stuck](/posts/tesla-software-update-stuck/) - If screen issues started after an update
 - [Tesla Pyrofuse Explained](/posts/tesla-pyrofuse-guide/) - If your car is completely dead (no screen, no power at all)

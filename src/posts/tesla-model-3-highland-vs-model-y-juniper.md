@@ -205,7 +205,7 @@ Important note for shoppers: **Highland and Juniper accessories are NOT intercha
 - Phone mounts may fit both (depends on design)
 - Wheel covers/caps — different sizes (18-19" vs 19-20")
 
-Check our [Model Y Juniper Accessories Guide](/posts/tesla-model-y-juniper-accessories-guide/) for Juniper-specific recommendations.
+Check our [Model Y Juniper Accessories Guide](/news/) for Juniper-specific recommendations.
 
 ## Key Takeaways
 
@@ -219,4 +219,4 @@ Check our [Model Y Juniper Accessories Guide](/posts/tesla-model-y-juniper-acces
 
 ---
 
-*Both Highland and Juniper represent Tesla's best work yet on their most popular platforms. The choice comes down to your lifestyle, not the cars' quality. For model-specific guides, see our [Model Y Juniper Accessories Guide](/posts/tesla-model-y-juniper-accessories-guide/) and [Model Y Juniper Known Problems](/posts/tesla-model-y-juniper-2026-problems/).*
+*Both Highland and Juniper represent Tesla's best work yet on their most popular platforms. The choice comes down to your lifestyle, not the cars' quality. For model-specific guides, see our [Model Y Juniper Accessories Guide](/news/) and [Model Y Juniper Known Problems](/news/).*

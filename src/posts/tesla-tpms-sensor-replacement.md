@@ -184,10 +184,10 @@ TPMS sensor replacement is one of those jobs that sounds intimidating but is act
 
 ## Related Guides
 
-- [Tesla Tire Pressure Guide](/posts/tesla-tire-pressure-guide/) — Correct PSI by model and TPMS alerts explained
+- [Tesla Tire Pressure Guide](/posts/tesla-tire-rotation/) — Correct PSI by model and TPMS alerts explained
 - [Tesla Tire Rotation Guide](/posts/tesla-tire-rotation/) — Combine with sensor work to save time
-- [Tesla Aero Cap Removal Guide](/posts/tesla-aero-cap-removal/) — Remove aero covers for wheel access
-- [Tesla Curb Rash Wheel Repair](/posts/tesla-curb-rash-wheel-repair/) — Fix wheel damage while you're at it
-- [Tesla Wheel Bearing Replacement](/posts/tesla-wheel-bearing-replacement/) — Diagnose humming vs TPMS warnings
+- [Tesla Aero Cap Removal Guide](/posts/tesla-tire-rotation/) — Remove aero covers for wheel access
+- [Tesla Curb Rash Wheel Repair](/posts/tesla-tire-rotation/) — Fix wheel damage while you're at it
+- [Tesla Wheel Bearing Replacement](/posts/tesla-suspension-noise-fix/) — Diagnose humming vs TPMS warnings
 - [Tesla Jack Points & Lifting Guide](/posts/tesla-jack-points-lifting-guide/) — Safe lifting for wheel work
 - [Tesla Winter Preparation Checklist](/posts/tesla-winter-preparation-guide/) — Includes tire and sensor prep for winter
