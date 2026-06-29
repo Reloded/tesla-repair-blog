@@ -1,7 +1,7 @@
 ---
 layout: post.njk
-title: "Tesla Pyrofuse Explained: What It Does, When It Blows & What to Do"
-description: "Everything you need to know about the Tesla pyrotechnic fuse — how it protects you in a crash, what happens when it blows, alert codes BMS_u031/u032, replacement cost, and why this isn't a DIY job."
+title: "Tesla Pyrofuse Explained: What It Does & When It Blows"
+description: "Everything about the Tesla pyrotechnic fuse: how it protects you in a crash, what happens when it blows, alert codes BMS_u031/u032, cost, and why it's not DIY."
 date: 2026-03-15
 category: "Electrical"
 difficulty: "Advanced"

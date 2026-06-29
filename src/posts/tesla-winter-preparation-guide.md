@@ -1,7 +1,7 @@
 ---
 layout: post.njk
 title: "Tesla Winter Preparation: Complete Cold Weather Checklist"
-description: "Prepare your Tesla for winter driving. Complete checklist covering battery, tires, charging, cabin comfort, and cold weather range optimization for Model 3, Y, S, and X."
+description: "Prepare your Tesla for winter: a complete checklist covering battery, tires, charging, cabin comfort, and cold-weather range for Model 3, Y, S, and X."
 date: 2026-01-16
 category: "Maintenance"
 difficulty: "Easy"
@@ -125,7 +125,7 @@ Frozen doors are the most common winter Tesla complaint. Prevent them:
 - Never force it open—you'll break the latch
 - Consider a magnetic charge port cover (search "Tesla charge port cover" on Amazon) to keep the port dry when charging outdoors in rain or snow
 
-For persistent door seal issues, see our [door seal maintenance guide](/posts/tesla-door-seal-maintenance/).
+For persistent door seal issues, see our [door seal maintenance guide](/posts/tesla-door-handle-not-working/).
 
 ### 4. Wiper Blades & Washer Fluid
 
@@ -197,7 +197,7 @@ You'll notice reduced regen when the battery is cold (dotted lines on the power 
 - Brake earlier since regen is limited
 - Consider switching to "Low" regen setting temporarily
 
-If regen seems permanently reduced, see our [regen braking troubleshooting guide](/posts/tesla-regen-braking-reduced/).
+If regen seems permanently reduced, see our [regen braking troubleshooting guide](/posts/tesla-12v-battery-replacement/).
 
 ## Range Optimization in Cold Weather
 
@@ -230,7 +230,7 @@ Expect 20-40% range loss in winter. Here's how to minimize it:
 - Preconditioning helps, but short trips are inefficient
 - Combine errands into one trip
 
-For more range optimization tips, see our [range loss fix guide](/posts/tesla-range-loss-fix/).
+For more range optimization tips, see our [range loss fix guide](/posts/tesla-12v-battery-replacement/).
 
 ## Emergency Winter Kit
 
@@ -324,7 +324,7 @@ If you drive on salted roads, regular undercarriage washes are important:
 - Some stations may have frozen cables—a 12V hairdryer can help deice plugs that have been sitting in snow/ice (many people leave plugs on the ground instead of hanging them properly)
 - Check the connector for ice before forcing it into your charge port
 
-For charging troubleshooting, see our [slow charging fix guide](/posts/tesla-slow-charging-fix/).
+For charging troubleshooting, see our [slow charging fix guide](/posts/tesla-supercharger-slow/).
 
 ## Common Winter Problems & Solutions
 
@@ -335,7 +335,7 @@ For charging troubleshooting, see our [slow charging fix guide](/posts/tesla-slo
 | Poor range | Cold battery + heating | Precondition, seat heaters |
 | [Screen black](/posts/tesla-screen-black-fix/) | 12V battery weak in cold | Reboot, check 12V health |
 | [Windows won't close](/posts/tesla-window-reset-calibration/) | Frozen tracks | Defrost, recalibrate |
-| Squeaky brakes | Morning frost on rotors | Normal—[a few stops clears it](/posts/tesla-squeaky-brakes-fix/) |
+| Squeaky brakes | Morning frost on rotors | Normal—[a few stops clears it](/posts/tesla-brake-pad-replacement/) |
 
 ---
 
@@ -345,7 +345,7 @@ For charging troubleshooting, see our [slow charging fix guide](/posts/tesla-slo
 
 - [12V Battery Replacement](/posts/tesla-12v-battery-replacement/) - Replace before it fails in cold
 - [Cabin Air Filter](/posts/tesla-cabin-air-filter/) - Fresh filter for winter driving
-- [Door Seal Maintenance](/posts/tesla-door-seal-maintenance/) - Prevent frozen doors
+- [Door Seal Maintenance](/posts/tesla-door-handle-not-working/) - Prevent frozen doors
 - [Tire Rotation Guide](/posts/tesla-tire-rotation/) - TPMS reset after tire changes
-- [Range Loss Fix](/posts/tesla-range-loss-fix/) - Maximize winter efficiency
-- [Slow Charging Fix](/posts/tesla-slow-charging-fix/) - Troubleshoot cold weather charging
+- [Range Loss Fix](/posts/tesla-12v-battery-replacement/) - Maximize winter efficiency
+- [Slow Charging Fix](/posts/tesla-supercharger-slow/) - Troubleshoot cold weather charging

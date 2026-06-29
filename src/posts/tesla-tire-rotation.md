@@ -1,6 +1,6 @@
 ---
 layout: post.njk
-title: "Tesla Tire Rotation: DIY Guide with Correct Patterns (Save $80)"
+title: "Tesla Tire Rotation: DIY Patterns (Save $80)"
 description: "Rotate Tesla tires at home in 30 minutes. Correct patterns for RWD & AWD, jack point locations, and torque specs. Save $80 per rotation."
 date: 2025-01-07
 category: "Tires"
@@ -179,7 +179,7 @@ While the tires are off, check tread depth:
 ### When to Skip DIY
 
 Consider professional service if:
-- You notice [alignment issues](/posts/tesla-wheel-alignment-diy/) (pulling, uneven wear)
+- You notice [alignment issues](/posts/tesla-suspension-noise-fix/) (pulling, uneven wear)
 - Wheels need balancing (vibration at highway speeds)
 - You're uncomfortable with the process
 - You need tires dismounted and remounted
@@ -191,7 +191,7 @@ Consider professional service if:
 ## Related Guides
 
 - [Jack Points & Lifting Guide](/posts/tesla-jack-points-lifting-guide/) - Safe jack placement for all models
-- [Wheel Alignment DIY](/posts/tesla-wheel-alignment-diy/) - Check alignment with each rotation
+- [Wheel Alignment DIY](/posts/tesla-suspension-noise-fix/) - Check alignment with each rotation
 - [Brake Pad Replacement](/posts/tesla-brake-pad-replacement/) - Inspect brakes while rotating
 - [Wiper Blade Replacement](/posts/tesla-windshield-wiper-replacement/) - Check wipers while you're at it
-- [Aero Cap Removal](/posts/tesla-aero-cap-removal/) - Remove covers before rotation
+- [Aero Cap Removal](/posts/tesla-tire-rotation/) - Remove covers before rotation

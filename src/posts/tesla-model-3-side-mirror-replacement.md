@@ -1,7 +1,7 @@
 ---
 layout: post.njk
 title: "Tesla Model 3 Side Mirror Replacement: Complete DIY Guide"
-description: "Replace a damaged Tesla Model 3 side mirror yourself. Step-by-step with real photos. Covers mirror removal, connector handling, and reinstallation. Save €300+ on labor."
+description: "Replace a damaged Tesla Model 3 side mirror yourself, with real photos. Covers mirror removal, connector handling, and reinstallation. Save €300+ on labor."
 date: 2026-01-27
 category: "Body & Exterior"
 difficulty: "Medium"
@@ -183,7 +183,7 @@ The mirror should sit flush with the door with no gaps around the base.
 
 ## Related Guides
 
-- [Tesla Door Panel Removal](/posts/tesla-door-panel-removal/) — Full door panel access procedure
+- [Tesla Door Panel Removal](/posts/tesla-door-handle-not-working/) — Full door panel access procedure
 - [Tesla Window Reset Calibration](/posts/tesla-window-reset-calibration/) — If window acts up after door work
 - [Tesla Screen Black Fix](/posts/tesla-screen-black-fix/) — If touchscreen issues arise
 

@@ -33,10 +33,10 @@ Suspension noises in a Tesla are noticeable because the car is so quiet without 
 **Sound:** Solid "thunk" or "clunk" over bumps
 **Common causes:**
 - Worn control arm bushings
-- Loose [sway bar end links](/posts/tesla-sway-bar-link-replacement/) — one of the most common causes
+- Loose [sway bar end links](/posts/tesla-suspension-noise-fix/) — one of the most common causes
 - Worn ball joints
 - Loose wheel lug nuts
-- Bad strut mount — [worn struts](/posts/tesla-strut-replacement/) can cause clunking
+- Bad strut mount — [worn struts](/posts/tesla-suspension-noise-fix/) can cause clunking
 
 ### Squeaking
 
@@ -113,7 +113,7 @@ A common complaint is squeaking from the front lower control arm bushings. Tesla
 3. This is a temporary fix—replacement may be needed eventually
 
 **Permanent Fix:**
-- [Control arm replacement](/posts/tesla-control-arm-replacement/) (requires [alignment](/posts/tesla-wheel-alignment-diy/) after)
+- [Control arm replacement](/posts/tesla-control-arm-replacement/) (requires [alignment](/posts/tesla-suspension-noise-fix/) after)
 - ~$200-400 at an independent shop
 - ~$600+ at Tesla
 
@@ -184,7 +184,7 @@ Some suspension work requires special tools or alignment:
 | Shock/strut replacement | Maybe | May need spring compressor |
 | Control arm replacement | No | Requires alignment after |
 | Ball joint replacement | No | Press required, safety critical |
-| [Wheel bearing replacement](/posts/tesla-wheel-bearing-replacement/) | No | Special tools required, humming noise may indicate wear |
+| [Wheel bearing replacement](/posts/tesla-suspension-noise-fix/) | No | Special tools required, humming noise may indicate wear |
 
 <div class="warning-box">
 <strong>Safety Warning:</strong> Suspension components are safety-critical. If you're unsure about a diagnosis or repair, have a professional inspect it. A failed suspension component can cause loss of control.
@@ -218,8 +218,8 @@ If you take your car in for service, help the technician by documenting:
 
 - [Jack Points & Lifting Guide](/posts/tesla-jack-points-lifting-guide/) - Safe lifting before any suspension inspection
 - [Control Arm Replacement](/posts/tesla-control-arm-replacement/) - When bushings need replacement
-- [Tesla Strut Replacement](/posts/tesla-strut-replacement/) - When dampers are worn
-- [Tesla Sway Bar Link Replacement](/posts/tesla-sway-bar-link-replacement/) - Common source of clunking
-- [Wheel Alignment DIY](/posts/tesla-wheel-alignment-diy/) - Required after suspension work
-- [Creaking and Rattling Fix](/posts/tesla-creaking-rattling-fix/) - Additional noise troubleshooting
-- [2026 Model Y Juniper Problems](/posts/tesla-model-y-juniper-2026-problems/) - Juniper-specific suspension issues
+- [Tesla Strut Replacement](/posts/tesla-suspension-noise-fix/) - When dampers are worn
+- [Tesla Sway Bar Link Replacement](/posts/tesla-suspension-noise-fix/) - Common source of clunking
+- [Wheel Alignment DIY](/posts/tesla-suspension-noise-fix/) - Required after suspension work
+- [Creaking and Rattling Fix](/guides/) - Additional noise troubleshooting
+- [2026 Model Y Juniper Problems](/news/) - Juniper-specific suspension issues

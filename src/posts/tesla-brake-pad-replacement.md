@@ -119,7 +119,7 @@ Teslas use regenerative braking, which means the electric motors slow the car do
 - Hard stops
 - Low-speed maneuvering
 - Emergency braking
-- When [regen is limited](/posts/tesla-regen-braking-reduced/) (cold battery or full charge)
+- When [regen is limited](/posts/tesla-12v-battery-replacement/) (cold battery or full charge)
 
 Because of this, Tesla brake pads last **100,000+ miles** for many drivers — compared to 30,000–50,000 miles on typical gas cars.
 
@@ -127,7 +127,7 @@ Because of this, Tesla brake pads last **100,000+ miles** for many drivers — c
 
 Signs your brake pads need replacement:
 
-- **Squealing or squeaking** when braking (see our [squeaky brakes guide](/posts/tesla-squeaky-brakes-fix/) for quick fixes before replacing)
+- **Squealing or squeaking** when braking (see our [squeaky brakes guide](/posts/tesla-brake-pad-replacement/) for quick fixes before replacing)
 - **Grinding noise** (urgent — you may be damaging rotors)
 - **Visible wear indicator** on the pad (less than 3 mm remaining)
 - **Longer stopping distance**
@@ -256,7 +256,7 @@ Before installing new pads, push the caliper piston back to make room for the th
 **Rear brakes:** Use a brake caliper wind-back tool — the piston rotates clockwise as it retracts. Turn until fully seated.
 
 <div class="tip-box">
-<strong>Pro Tip:</strong> Open the brake fluid reservoir cap before compressing pistons. This prevents overpressure in the reservoir. If fluid level is already at MAX before you start, remove 50 ml with a turkey baster. See the <a href="/posts/tesla-brake-fluid-change/">Tesla brake fluid change guide</a> for DOT 3 fluid specs.
+<strong>Pro Tip:</strong> Open the brake fluid reservoir cap before compressing pistons. This prevents overpressure in the reservoir. If fluid level is already at MAX before you start, remove 50 ml with a turkey baster. See the <a href="/posts/tesla-brake-pad-replacement/">Tesla brake fluid change guide</a> for DOT 3 fluid specs.
 </div>
 
 ### Installing New Brake Pads
@@ -316,7 +316,7 @@ The rear piston must be positioned with its slots at 12 o'clock and 6 o'clock. W
 Do NOT use threadlocker on Tesla brake bolts. The factory threads have a pre-applied friction coating. Loctite causes galling and can permanently seize the bolt in the knuckle, requiring extraction with heat and significant damage risk.
 
 **4. Forgetting to check brake fluid level after compressing pistons.**
-Compressing all four pistons pushes fluid back into the reservoir. If the reservoir was full before you started, it overflows when the pistons are compressed. Check the level before reassembly and remove excess with a turkey baster. Review the [Tesla brake fluid change guide](/posts/tesla-brake-fluid-change/) for the correct DOT 3 spec and 2-year change interval.
+Compressing all four pistons pushes fluid back into the reservoir. If the reservoir was full before you started, it overflows when the pistons are compressed. Check the level before reassembly and remove excess with a turkey baster. Review the [Tesla brake fluid change guide](/posts/tesla-brake-pad-replacement/) for the correct DOT 3 spec and 2-year change interval.
 
 **5. Skipping the bed-in cycle.**
 New pads need a thermal transfer cycle to deposit an even friction layer on the rotor surface. Skipping bed-in causes vibration, squealing, and uneven wear within the first 1,000 km.
@@ -353,21 +353,21 @@ The EPB caliper piston is motor-driven and will not compress manually. Forcing t
 Yes. Front pads wear 2–3× faster than rears on Teslas because regenerative braking handles most rear deceleration. It's common to replace fronts twice before the rears need attention. Always do both pads on the same axle at the same time.
 
 **Do I need a wheel alignment after brake pad replacement?**
-No. Brake pad replacement doesn't disturb alignment geometry. However, if you noticed uneven pad wear before starting — one side significantly thinner than the other — that can indicate suspension wear or toe misalignment. Check with our [Tesla wheel alignment guide](/posts/tesla-wheel-alignment-diy/).
+No. Brake pad replacement doesn't disturb alignment geometry. However, if you noticed uneven pad wear before starting — one side significantly thinner than the other — that can indicate suspension wear or toe misalignment. Check with our [Tesla wheel alignment guide](/posts/tesla-suspension-noise-fix/).
 
 **What brake fluid does Tesla use and when should I change it?**
-All current Tesla models (Model 3, Y, S, X, Cybertruck) use **DOT 3 brake fluid**. Tesla recommends changing it every 2 years regardless of mileage. When you have the brakes apart for pad replacement, it's the ideal time to do both. Full procedure in the [Tesla brake fluid change guide](/posts/tesla-brake-fluid-change/).
+All current Tesla models (Model 3, Y, S, X, Cybertruck) use **DOT 3 brake fluid**. Tesla recommends changing it every 2 years regardless of mileage. When you have the brakes apart for pad replacement, it's the ideal time to do both. Full procedure in the [Tesla brake fluid change guide](/posts/tesla-brake-pad-replacement/).
 
 ---
 
 ## Related Guides
 
 - [Tesla Brake Rotor Replacement](/posts/tesla-brake-rotor-replacement/) — when pads aren't enough: full rotor replacement guide with rotor sizes for all models
-- [Tesla Brake Fluid Change](/posts/tesla-brake-fluid-change/) — complete your brake service with a DOT 3 fluid flush every 2 years
-- [Tesla Squeaky Brakes Fix](/posts/tesla-squeaky-brakes-fix/) — try these fixes before replacing pads
-- [Tesla Regenerative Braking Reduced](/posts/tesla-regen-braking-reduced/) — why regen limitations accelerate pad wear
+- [Tesla Brake Fluid Change](/posts/tesla-brake-pad-replacement/) — complete your brake service with a DOT 3 fluid flush every 2 years
+- [Tesla Squeaky Brakes Fix](/posts/tesla-brake-pad-replacement/) — try these fixes before replacing pads
+- [Tesla Regenerative Braking Reduced](/posts/tesla-12v-battery-replacement/) — why regen limitations accelerate pad wear
 - [Tesla Jack Points & Lifting Guide](/posts/tesla-jack-points-lifting-guide/) — safe jack placement for all Tesla models
 - [Tesla Tire Rotation](/posts/tesla-tire-rotation/) — combine with brake service to inspect pads at every rotation
-- [Tesla Service Mode Guide](/posts/tesla-service-mode-guide/) — full reference for Service Mode and EPB sub-functions
-- [Tesla Wheel Alignment DIY](/posts/tesla-wheel-alignment-diy/) — check alignment after brake work if you noticed uneven pad wear
+- [Tesla Service Mode Guide](/guides/) — full reference for Service Mode and EPB sub-functions
+- [Tesla Wheel Alignment DIY](/posts/tesla-suspension-noise-fix/) — check alignment after brake work if you noticed uneven pad wear
 - [Tesla Maintenance Schedule](/posts/tesla-maintenance-schedule/) — complete schedule for when to service brakes, fluid, and all wear items

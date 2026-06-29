@@ -1,7 +1,7 @@
 ---
 layout: post.njk
-title: "Tesla 12V Battery Replacement: Step-by-Step DIY Guide (Save €200+)"
-description: "Tesla 12V battery dead or showing a warning? Emergency jump procedure + full DIY replacement guide for Model 3, Y, S, X & Cybertruck. Lead-acid, lithium & 16V systems covered. Saves €200+ vs service center. Torque specs included. 2026 updated."
+title: "Tesla 12V Battery Replacement: Step-by-Step DIY Guide"
+description: "Tesla 12V battery dead or warning showing? Emergency jump plus full DIY replacement for Model 3, Y, S, X & Cybertruck. Saves €200+ vs service."
 date: 2026-01-27
 lastUpdated: 2026-04-14
 category: "Electrical"
@@ -397,11 +397,11 @@ As soon as the car wakes up after installation, measure the 12V terminals with a
 - **12V lithium system:** 13.5–14.5V
 - **16V lithium system (2024+):** 15.5–17.0V (if applicable)
 
-If you see **under 13V with the car fully on**, the DC-DC converter may not be supplying charge — which would mean a separate issue unrelated to the battery. Check [Service Mode → HV Battery → 12V Supply Voltage](/posts/tesla-service-mode-guide/) for real-time converter output readings.
+If you see **under 13V with the car fully on**, the DC-DC converter may not be supplying charge — which would mean a separate issue unrelated to the battery. Check [Service Mode → HV Battery → 12V Supply Voltage](/guides/) for real-time converter output readings.
 
 ### Days 2–7: No Warning Messages
 
-A healthy new battery should generate zero 12V-related alerts. If you see **"12V Battery Low"** within the first week, the new battery may be defective, or you may have a Sentry Mode drain issue — not a battery problem. Use [Service Mode](/posts/tesla-service-mode-guide/) to check Service Alerts for any flagged 12V events.
+A healthy new battery should generate zero 12V-related alerts. If you see **"12V Battery Low"** within the first week, the new battery may be defective, or you may have a Sentry Mode drain issue — not a battery problem. Use [Service Mode](/guides/) to check Service Alerts for any flagged 12V events.
 
 Common false-alarm scenarios after replacement:
 - **One-time BMS recalibration alert**: Harmless, clears itself within 24 hours as the BMS learns the new battery's characteristics
@@ -415,7 +415,7 @@ If you use Sentry Mode regularly, verify the new battery handles overnight drain
 - Show no "12V Battery Low" in the morning after a cold night
 - Recover immediately when you unlock and sit in the car
 
-If you're seeing higher-than-expected drain, see our [Tesla Phantom Battery Drain Fix guide](/posts/tesla-phantom-battery-drain-fix/) — the culprit is often an app or setting keeping the car awake, not the 12V battery itself.
+If you're seeing higher-than-expected drain, see our [Tesla Phantom Battery Drain Fix guide](/posts/tesla-12v-battery-replacement/) — the culprit is often an app or setting keeping the car awake, not the 12V battery itself.
 
 ### One Month Check: Log Your Resting Voltage
 
@@ -430,7 +430,7 @@ After 30 days of normal use, test resting voltage one more time (car fully aslee
 - **Lead-Acid batteries:** 3–5 years typically; less in extreme heat (Southern Europe, Middle East)
 - **12V Lithium batteries:** 7–10+ years expected
 - **16V Lithium batteries:** Too new to have long-term data; Tesla claims 10+ years
-- Heavy Sentry Mode use is the #1 killer of 12V batteries — see our [phantom battery drain guide](/posts/tesla-phantom-battery-drain-fix/) for how to minimize this
+- Heavy Sentry Mode use is the #1 killer of 12V batteries — see our [phantom battery drain guide](/posts/tesla-12v-battery-replacement/) for how to minimize this
 - Extreme cold (below -20°C) temporarily reduces capacity but doesn't permanently damage lithium units
 
 ## Testing Battery Voltage Before and After Replacement
@@ -590,13 +590,13 @@ For the complete official procedure, see the [Tesla Model 3 Service Manual - 12V
 - [Tesla Emergency Door Release](/posts/tesla-emergency-door-release/) — How to get into a Tesla with a completely dead battery
 - [Tesla Screen Black Fix](/posts/tesla-screen-black-fix/) — If your screen went dark before or after battery replacement
 - [Tesla Won't Start or Turn On](/posts/tesla-wont-start-turn-on/) — Full dead-car recovery procedure
-- [Tesla Phantom Battery Drain Fix](/posts/tesla-phantom-battery-drain-fix/) — How to stop killing your 12V battery with Sentry Mode
-- [Tesla Service Mode Guide](/posts/tesla-service-mode-guide/) — Check live 12V supply voltage and service alerts without a multimeter
-- [BMS Calibration & Battery Recalibration](/posts/tesla-bms-calibration-battery-recalibration/) — What to do if the battery gauge is off after replacement
+- [Tesla Phantom Battery Drain Fix](/posts/tesla-12v-battery-replacement/) — How to stop killing your 12V battery with Sentry Mode
+- [Tesla Service Mode Guide](/guides/) — Check live 12V supply voltage and service alerts without a multimeter
+- [BMS Calibration & Battery Recalibration](/posts/tesla-12v-battery-replacement/) — What to do if the battery gauge is off after replacement
 - [Key Fob Battery Replacement](/posts/tesla-key-fob-battery/) — Another battery that needs periodic replacement
-- [Tesla Warning Lights & Error Messages Guide](/posts/tesla-warning-lights-error-messages/) — Understand every warning on your Tesla screen
+- [Tesla Warning Lights & Error Messages Guide](/posts/tesla-maintenance-schedule/) — Understand every warning on your Tesla screen
 - [Tesla Pyrofuse Explained](/posts/tesla-pyrofuse-guide/) — The HV safety fuse that blows when the 12V system fails
-- [Tesla Battery Degradation Guide](/posts/tesla-battery-degradation-health/) — How healthy is your main battery pack?
-- [Tesla OBD2 Scanner & Diagnostics Guide](/posts/tesla-obd2-scanner-diagnostics/) — App-based monitoring of 12V health over time
-- [Tesla Flat Tire Repair Guide](/posts/tesla-flat-tire-repair-guide/) — Another roadside emergency guide every Tesla owner needs
+- [Tesla Battery Degradation Guide](/posts/tesla-12v-battery-replacement/) — How healthy is your main battery pack?
+- [Tesla OBD2 Scanner & Diagnostics Guide](/posts/tesla-maintenance-schedule/) — App-based monitoring of 12V health over time
+- [Tesla Flat Tire Repair Guide](/posts/tesla-tire-rotation/) — Another roadside emergency guide every Tesla owner needs
 - [Tesla Maintenance Schedule 2026](/posts/tesla-maintenance-schedule/) — Full list of when to replace what

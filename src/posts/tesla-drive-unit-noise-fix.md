@@ -43,7 +43,7 @@ A whining, humming, or grinding noise from your Tesla's drive unit is a common c
 - Metallic grinding or clunking sounds (this may indicate bearing failure - see a professional)
 
 <div class="info-box">
-<strong>Quick Test:</strong> Put the car in neutral while coasting. If the noise goes away, it's drive unit related. If it persists, it may be a <a href="/posts/tesla-wheel-bearing-replacement/">wheel bearing issue</a> instead.
+<strong>Quick Test:</strong> Put the car in neutral while coasting. If the noise goes away, it's drive unit related. If it persists, it may be a <a href="/posts/tesla-suspension-noise-fix/">wheel bearing issue</a> instead.
 </div>
 
 ## What You'll Need
@@ -61,7 +61,7 @@ The rear drive unit on Model 3/Y requires **2,100 mL (2.1L) minimum**. Tesla rec
 - **KAF1 (P/N 1646886-02-A)** - Tesla spec for MY2024+, backwards compatible with ATF-9
 - **New crush washers/O-rings** for drain and fill plugs (~$5)
 
-> **See also:** [Tesla Gear Oil Change](/posts/tesla-gear-oil-change/) for detailed fluid specifications and model-specific capacities.
+> **See also:** [Tesla Gear Oil Change](/posts/tesla-maintenance-schedule/) for detailed fluid specifications and model-specific capacities.
 
 ## Cost Comparison
 
@@ -152,15 +152,15 @@ If the noise persists after a fluid change, the issue may be:
 
 - **Worn bearings** in the drive unit - requires drive unit rebuild or replacement
 - **Gear tooth wear** - typically only on very high-mileage vehicles
-- **Halfshaft issues** - clicking during turns indicates a different problem (see our [halfshaft clicking fix](/posts/tesla-halfshaft-clicking-fix/))
+- **Halfshaft issues** - clicking during turns indicates a different problem (see our [halfshaft clicking fix](/posts/tesla-suspension-noise-fix/))
 
 Drive unit replacement at Tesla costs $5,000-$9,000. A rebuilt unit from a specialist costs $2,000-$4,000. Always try the fluid change first - it's a $50-80 gamble that often pays off.
 
 ## Related Guides
 
-- [Tesla Gear Oil Change](/posts/tesla-gear-oil-change/) - Detailed fluid specifications
-- [Tesla Halfshaft Clicking Fix](/posts/tesla-halfshaft-clicking-fix/) - CV joint noise diagnosis
+- [Tesla Gear Oil Change](/posts/tesla-maintenance-schedule/) - Detailed fluid specifications
+- [Tesla Halfshaft Clicking Fix](/posts/tesla-suspension-noise-fix/) - CV joint noise diagnosis
 - [Tesla Suspension Noise Fix](/posts/tesla-suspension-noise-fix/) - Other common noises
 - [Tesla Jack Points & Lifting Guide](/posts/tesla-jack-points-lifting-guide/) - Safe lifting procedure
-- [Tesla Creaking & Rattling Fix](/posts/tesla-creaking-rattling-fix/) - Interior and exterior noise sources
-- [Tesla Acceleration Issues](/posts/tesla-acceleration-issues/) - When drive unit problems cause power loss
+- [Tesla Creaking & Rattling Fix](/guides/) - Interior and exterior noise sources
+- [Tesla Acceleration Issues](/posts/tesla-maintenance-schedule/) - When drive unit problems cause power loss

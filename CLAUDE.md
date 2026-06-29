@@ -10,13 +10,14 @@
 ## Project Summary
 Tesla repair affiliate blog targeting EU market. Goal: $1000/month passive income.
 
-## Current Status (2026-06-09)
+## Current Status (2026-06-15)
 - **Milestones:** All 3 complete (v1.0, v2.0, v3.0 shipped)
-- **Articles:** 157 posts (139 repair guides + 18 news posts on /news)
+- **Articles:** 41 posts (pruned from 156 on 2026-06-15 — see prune session below)
 - **Monetization:** Multi-affiliate (Amazon geo-detected + Lectron + iFixit + RR Car Parts + VIN TESLA promo + Payhip product + Shopee SG pilot)
 - **Hosting:** Cloudflare Pages (LIVE)
 - **Live URL:** https://tesladiyrepair.com
-- **Current mode:** Nightly "enhance: lift to indexing-grade" pipeline (one article/night at ~03:00 since late April)
+- **Current mode:** STRATEGY SHIFT — pruned content farm to ~40 quality pages to recover from likely scaled-content suppression. Nightly enhance pipeline must be STOPPED (runs as local cron on owner's machine, ~03:00).
+- **Reality check:** Site makes ~$0. Root cause is traffic (2 Google clicks / 167 impressions in Jan, avg position 13.6 = page 2), not affiliate setup. Bottleneck = no domain authority/backlinks + scaled-AI-content suppression in a competitive niche.
 
 ## Affiliate Programs
 | Program | Status | ID | Notes |
@@ -228,7 +229,24 @@ Full technical audit of the built site. Verified healthy: clean build, all 528 J
 - [x] 28 broken internal links — missing `/posts/` prefix in 5 articles (used-buying guide, charging-adapter, wont-start, emergency-door-release, TPMS), wrong slugs (`tesla-battery-drain-fix` → `tesla-phantom-battery-drain-fix`, `tesla-model-3-door-panel-removal` → `tesla-door-panel-removal`), dead `/tags/tires/` link → `/guides/`
 - [x] 5 broken image references removed (roof trim ×3, sway bar link, tie rod end) — files never existed; per content guidelines did NOT substitute unverified photos
 - [x] Terafab meta-refresh stub (`tesla-terafab-ai-chip-factory`) deleted; proper 301 added to `_redirects`; removes it from sitemap + Pagefind index
-- Known remaining (not fixed): 81 meta descriptions >165 chars, 26 titles >70 chars (CTR opportunity); external link liveness + 89 ASINs unverifiable from sandbox (check locally); ~100 articles published since Jan never audited against service.tesla.com
+- Known remaining (not fixed): external link liveness + 89 ASINs unverifiable from sandbox (check locally); ~100 articles published since Jan never audited against service.tesla.com
+
+### Content prune — strategy shift (2026-06-15)
+Owner flagged the blog makes no money. Honest diagnosis: it's a TRAFFIC problem (~500 pageviews/mo, page-2 rankings), not a monetization-setup problem. To hit $1k/mo via Amazon affiliate you'd need ~50–100k visits/mo (~100x current). Likely root causes: (1) no backlinks/domain authority, (2) scaled-AI-content suppression — 156 near-daily AI articles + nightly auto-enhancement match Google's "scaled content abuse" profile, (3) brutally competitive niche, (4) informational-intent traffic converts poorly to affiliate sales.
+
+Owner chose: **prune content + stop the AI pipeline** (balanced, keep ~40).
+- [x] Pruned 156 → **41 articles**. Kept Tier A (8 traffic-getters + 13 real-photo originals) + Tier B (~20 cornerstone evergreen guides). Cut 115 thin/redundant/stale-news AI articles.
+- [x] Every cut URL has a **301 redirect** to its best surviving relative (115 pairs in `src/_redirects`). 0 broken links/images, all JSON-LD valid, sitemap 45 URLs, clean build. Fully recoverable from git.
+- [x] Rewrote 317 internal links in survivors + fixed homepage featured card.
+- [ ] **OWNER ACTION REQUIRED:** kill the nightly cron on the local machine (`crontab -e`, remove the ~03:00 line) BEFORE merging — otherwise it keeps generating/editing content. Pipeline is NOT in the repo.
+- [ ] Next real growth levers (not more AI content): backlinks/outreach, lean into real-mechanic E-E-A-T + EU/Lithuania angle, consider YouTube repair videos, reconsider Amazon-pennies vs higher-value RR Car Parts/lead-gen.
+
+### SEO meta trim (2026-06-15)
+CTR pass on titles + meta descriptions (the item flagged above). Note: the `<title>` template appends ` | Tesla DIY Repair` (19 chars), so frontmatter titles were trimmed so the keyword shows before truncation.
+- [x] 70 titles rewritten to ≤60 chars (was up to 92) — keyword front-loaded, year tags kept
+- [x] 92 meta descriptions rewritten to ≤160 chars (was up to 270)
+- 111 files changed total. Verified: clean build, every title ≤60 / every description ≤160, no duplicate titles/descriptions, all JSON-LD valid, 0 broken links/images. Titles feed H1 + breadcrumbs + Article JSON-LD headline, all confirmed rendering correctly.
+- Specs/numbers preserved (torque, capacities, prices, model lists); no factual claims altered.
 
 ## Session 2026-01-25
 - [x] Updated GSC stats: 167 impressions (+32), 2 clicks (same)

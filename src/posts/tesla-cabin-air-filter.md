@@ -1,7 +1,7 @@
 ---
 layout: post.njk
 title: "Tesla Cabin Air Filter Replacement: 15-Min DIY (Save $100+)"
-description: "Step-by-step Tesla cabin air filter replacement for Model 3, Y, S & X. HEPA vs standard filters compared, with cost breakdown and pro tips. 15-minute job saves $100+."
+description: "Tesla cabin air filter replacement for Model 3, Y, S & X. HEPA vs standard filters compared, with cost breakdown and pro tips. A 15-minute job that saves $100+."
 date: 2026-01-08
 category: "HVAC"
 difficulty: "Easy"
@@ -46,7 +46,7 @@ Whether you drive a Model 3, Model Y, Model S, or Model X, replacing the cabin a
 
 The cabin air filter cleans all the air that enters your Tesla's interior through the HVAC system. Over time, it collects dust, pollen, exhaust particulates, and even mold spores. A dirty filter causes:
 
-- **Reduced AC/heating efficiency** (if your [AC isn't cooling](/posts/tesla-ac-not-cooling/) properly, start here)
+- **Reduced AC/heating efficiency** (if your [AC isn't cooling](/posts/tesla-cabin-air-filter/) properly, start here)
 - **Musty or bad smells** when the AC runs
 - **Foggy windows** that don't clear quickly
 - **Increased allergens** inside the car
@@ -146,7 +146,7 @@ This procedure applies to all Model 3 (2017–2026) and Model Y (2020–2026), i
 
 On vehicles with software 2024.14 and later, you can reset the cabin filter health monitoring:
 
-1. Enable **Service Mode** (Controls > Service > Service Mode — see our [Service Mode guide](/posts/tesla-service-mode-guide/) for details)
+1. Enable **Service Mode** (Controls > Service > Service Mode — see our [Service Mode guide](/guides/) for details)
 2. Navigate to **Thermal > Air Filter Diagnostics**
 3. Select **Reset Filter Health**
 4. Exit Service Mode
@@ -240,7 +240,7 @@ If your Model X (or Model S) has **Bioweapon Defense Mode**, you have an additio
 | DIY HEPA Upgrade | $40–80 |
 | DIY Activated Carbon + HEPA | $50–90 |
 
-**Your savings: $35–110 per replacement.** Over the life of the vehicle (say 5 replacements over 10 years), that's $175–550 saved on this one maintenance item alone. Check our full [Tesla repair cost guide](/posts/tesla-repair-cost-guide/) to see where else you can save.
+**Your savings: $35–110 per replacement.** Over the life of the vehicle (say 5 replacements over 10 years), that's $175–550 saved on this one maintenance item alone. Check our full [Tesla repair cost guide](/posts/tesla-used-buying-inspection-guide/) to see where else you can save.
 
 ## Signs Your Filter Needs Replacement
 
@@ -274,7 +274,7 @@ If airflow doesn't improve after a fresh filter:
 - **Check the old filter** — if it wasn't that dirty, the issue is elsewhere
 - Clean the evaporator coils with an [AC evaporator cleaning spray](https://www.amazon.com/s?k=ac+evaporator+cleaner+spray+car&tag=diyrepair07-20) while the filter housing is open
 - The HVAC blower motor could be failing — listen for grinding or rattling
-- Check for [heat pump problems](/posts/tesla-heat-pump-problems/) if heating specifically is weak
+- Check for [heat pump problems](/posts/tesla-coolant-flush-change/) if heating specifically is weak
 
 ### Musty Smell Returns Quickly
 
@@ -293,7 +293,7 @@ If the smell comes back within weeks of a new filter:
 
 4. **Clean the housing while it's open** — You've already done the work of removing the panels. Take two extra minutes to vacuum out leaves, bugs, and debris from the filter housing. A can of [compressed air](https://www.amazon.com/s?k=compressed+air+duster+can&tag=diyrepair07-20) works great for this.
 
-5. **Combine with other maintenance** — While you're in DIY mode, knock out your [wiper blade replacement](/posts/tesla-windshield-wiper-replacement/) and [tire pressure check](/posts/tesla-tire-pressure-guide/) at the same time.
+5. **Combine with other maintenance** — While you're in DIY mode, knock out your [wiper blade replacement](/posts/tesla-windshield-wiper-replacement/) and [tire pressure check](/posts/tesla-tire-rotation/) at the same time.
 
 6. **Label the install date** — Write the date on the filter edge with a Sharpie before installing. Next time you pull it out, you'll know exactly how long it's been.
 
@@ -301,7 +301,7 @@ If the smell comes back within weeks of a new filter:
 
 ---
 
-*This is the perfect "first DIY repair" for Tesla owners. It's simple, saves money, and improves your daily driving experience. Once you've done this one, check out our [Tesla new owner guide](/posts/tesla-new-owner-guide/) for more ways to get the most from your vehicle.*
+*This is the perfect "first DIY repair" for Tesla owners. It's simple, saves money, and improves your daily driving experience. Once you've done this one, check out our [Tesla new owner guide](/news/) for more ways to get the most from your vehicle.*
 
 <script type="application/ld+json">
 {
@@ -346,10 +346,10 @@ If the smell comes back within weeks of a new filter:
 
 ## Related Guides
 
-- [Tesla AC Not Cooling](/posts/tesla-ac-not-cooling/) — Full AC troubleshooting if filter replacement doesn't help
+- [Tesla AC Not Cooling](/posts/tesla-cabin-air-filter/) — Full AC troubleshooting if filter replacement doesn't help
 - [Tesla AC & Heater Not Working](/posts/tesla-ac-heater-not-working/) — Complete HVAC diagnostics guide
-- [Heat Pump Problems](/posts/tesla-heat-pump-problems/) — Cold weather heating issues
+- [Heat Pump Problems](/posts/tesla-coolant-flush-change/) — Cold weather heating issues
 - [Wiper Blade Replacement](/posts/tesla-windshield-wiper-replacement/) — Another quick maintenance item to do at the same time
 - [Winter Preparation Guide](/posts/tesla-winter-preparation-guide/) — Fresh filter before winter season
 - [Tesla Maintenance Schedule](/posts/tesla-maintenance-schedule/) — Full maintenance checklist and intervals
-- [Tesla New Owner Guide](/posts/tesla-new-owner-guide/) — Essential tips for new Tesla owners
+- [Tesla New Owner Guide](/news/) — Essential tips for new Tesla owners

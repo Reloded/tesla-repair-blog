@@ -1,6 +1,6 @@
 ---
 layout: post.njk
-title: "Tesla Screen Black or Frozen? Do THIS First (Works Every Time)"
+title: "Tesla Screen Black or Frozen? Do This First"
 description: "Don't panic — a black Tesla screen is almost never serious. One 10-second trick fixes 90% of cases. Plus 4 backup methods if the first one doesn't work."
 date: 2025-01-03
 category: "Electrical"
@@ -154,8 +154,6 @@ You'll need to set everything up again from scratch.
 3. Pull over when convenient to let the system fully restart
 4. If it happens repeatedly, schedule service
 
-**Using Dog Mode?** Climate control runs on a separate computer from the display, so a black screen alone doesn't shut off cooling — [Dog Mode keeps climate running](/posts/tesla-dog-mode-camp-mode/) even while the touchscreen reboots. Verify the cabin temperature from the Tesla app to be safe.
-
 ### Screen Stuck on Tesla Logo
 
 This indicates a boot problem:
@@ -207,6 +205,6 @@ Software updates occasionally cause temporary issues:
 ## Related Guides
 
 - [12V Battery Replacement](/posts/tesla-12v-battery-replacement/) - Low 12V battery often causes black screens
-- [MCU Touchscreen Upgrade](/posts/tesla-mcu-touchscreen-upgrade/) - Permanent solution for older Model S/X with failing screens
+- [MCU Touchscreen Upgrade](/posts/tesla-screen-black-fix/) - Permanent solution for older Model S/X with failing screens
 - [Software Update Stuck](/posts/tesla-software-update-stuck/) - If screen issues started after an update
 - [Tesla Pyrofuse Explained](/posts/tesla-pyrofuse-guide/) - If your car is completely dead (no screen, no power at all)

@@ -1,6 +1,6 @@
 ---
 layout: post.njk
-title: "Tesla Emergency Door Release: How to Open Doors When Power Fails"
+title: "Tesla Emergency Door Release: Open Doors When Dead"
 description: "Learn where every Tesla manual door release is located — front and rear doors on Model 3, Y, S, and X. Critical safety knowledge for every Tesla owner."
 date: 2026-02-18
 category: "Safety"
@@ -220,9 +220,9 @@ Your Tesla is an incredibly safe car. The manual door releases are a backup syst
 ## Related Guides
 
 - [Tesla Frunk Won't Open? Emergency Release Guide](/posts/tesla-frunk-wont-open/) — Easy · Troubleshooting
-- [Tesla Trunk Won't Close? Latch Reset & Fix Guide](/posts/tesla-trunk-wont-close/) — Easy · Model 3, Model Y · Body
-- [Tesla Water Leak Fix: How to Find and Seal Trunk, Cabin & Tail Light Leaks](/posts/tesla-water-leak-fix/) — Easy-Medium · Model 3, Model Y · Body & Exterior
+- [Tesla Trunk Won't Close? Latch Reset & Fix Guide](/posts/tesla-trunk-latch-replacement/) — Easy · Model 3, Model Y · Body
+- [Tesla Water Leak Fix: How to Find and Seal Trunk, Cabin & Tail Light Leaks](/posts/tesla-trunk-latch-replacement/) — Easy-Medium · Model 3, Model Y · Body & Exterior
 - [Tesla Charge Port Stuck? 6 Ways to Release It](/posts/tesla-charge-port-stuck/) — Easy · Charging
 - [Tesla Door Handle Not Working? DIY Fix (Save $500+)](/posts/tesla-door-handle-not-working/) — Intermediate · Body & Exterior
-- [Tesla Door Actuator and Latch Replacement: Complete DIY Guide](/posts/tesla-door-latch-actuator-replacement/) — Intermediate to Advanced · Body & Exterior
-- [Tesla Door Seal Maintenance: Prevent Wind Noise](/posts/tesla-door-seal-maintenance/) — Easy · Maintenance
+- [Tesla Door Actuator and Latch Replacement: Complete DIY Guide](/posts/tesla-door-handle-not-working/) — Intermediate to Advanced · Body & Exterior
+- [Tesla Door Seal Maintenance: Prevent Wind Noise](/posts/tesla-door-handle-not-working/) — Easy · Maintenance
