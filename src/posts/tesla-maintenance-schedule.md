@@ -78,7 +78,7 @@ Tesla has simplified their maintenance recommendations over the years. Here's th
 | Service Item | Applies To | DIY Difficulty | DIY Cost | Service Center Cost |
 |-------------|-----------|----------------|----------|-------------------|
 | [Cabin air filter replacement](/posts/tesla-cabin-air-filter/) | All models | Easy | €15-30 | €75-150 |
-| [Brake fluid testing](/posts/tesla-brake-pad-replacement/) | All models | Medium | €10-30 | €100-200 |
+| [Brake fluid testing](/posts/tesla-brake-fluid-change/) | All models | Medium | €10-30 | €100-200 |
 | A/C desiccant bag replacement | All models | Hard (requires refrigerant evacuation) | Not recommended DIY | €150-300 |
 
 ### Every 4 Years (or 80,000 km)
@@ -86,7 +86,7 @@ Tesla has simplified their maintenance recommendations over the years. Here's th
 | Service Item | Applies To | DIY Difficulty | DIY Cost | Service Center Cost |
 |-------------|-----------|----------------|----------|-------------------|
 | [Coolant flush and replacement](/posts/tesla-coolant-flush-change/) | All models | Medium | €80-150 | €300-600 |
-| [Brake fluid replacement](/posts/tesla-brake-pad-replacement/) | All models | Medium | €20-50 | €100-200 |
+| [Brake fluid replacement](/posts/tesla-brake-fluid-change/) | All models | Medium | €20-50 | €100-200 |
 | [Brake caliper cleaning and lubrication](/posts/tesla-brake-pad-replacement/) | All models | Medium | €10-20 | €150-250 |
 
 ### Every Year
@@ -101,8 +101,8 @@ Tesla has simplified their maintenance recommendations over the years. Here's th
 
 | Service Item | Applies To | Interval | DIY? |
 |-------------|-----------|----------|------|
-| [Air suspension check](/posts/tesla-suspension-noise-fix/) | Model S/X with air suspension | Every 2 years | Visual only |
-| [Gear oil change](/posts/tesla-maintenance-schedule/) | All models (front/rear drive units) | Every 200,000 km (or as needed) | Advanced |
+| [Air suspension check](/posts/tesla-air-suspension-issues/) | Model S/X with air suspension | Every 2 years | Visual only |
+| [Gear oil change](/posts/tesla-gear-oil-change/) | All models (front/rear drive units) | Every 200,000 km (or as needed) | Advanced |
 | [12V battery replacement](/posts/tesla-12v-battery-replacement/) | All models | Every 3-5 years | Easy |
 
 ## Which Brake Fluid to Buy for Your Tesla
@@ -129,7 +129,7 @@ For most owners, **Castrol React DOT 4** or **ATE SL** is the right choice. Raci
 - [DOT 4 Brake Fluid — Amazon DE](https://www.amazon.de/s?k=castrol+react+dot+4+bremsflüssigkeit&tag=diyrepair-21)
 - [DOT 4 Brake Fluid — Amazon US](https://www.amazon.com/s?k=castrol+dot+4+brake+fluid&tag=diyrepair07-20)
 
-**Calendar replacement note:** Even if your brake fluid test strips show acceptable moisture levels, replace fluid every **4 years on a calendar basis**. Glycol-based fluid absorbs atmospheric moisture through the reservoir cap over time — a test strip only catches one degradation mode. For the complete fluid change procedure, see our [Tesla Brake Fluid Change guide](/posts/tesla-brake-pad-replacement/).
+**Calendar replacement note:** Even if your brake fluid test strips show acceptable moisture levels, replace fluid every **4 years on a calendar basis**. Glycol-based fluid absorbs atmospheric moisture through the reservoir cap over time — a test strip only catches one degradation mode. For the complete fluid change procedure, see our [Tesla Brake Fluid Change guide](/posts/tesla-brake-fluid-change/).
 
 ---
 
@@ -139,25 +139,25 @@ The official schedule is conservative. Based on repair shop experience with hund
 
 ### Every 6 Months
 
-- **[Tire pressure check](/posts/tesla-tire-rotation/)** - the car monitors it, but manually verify with a gauge. TPMS sensors can drift.
-- **[Wiper fluid top-up](/posts/tesla-windshield-wiper-replacement/)** - especially before winter.
+- **[Tire pressure check](/posts/tesla-tire-pressure-guide/)** - the car monitors it, but manually verify with a gauge. TPMS sensors can drift.
+- **[Wiper fluid top-up](/posts/tesla-washer-fluid-pump-nozzle-fix/)** - especially before winter.
 - **Visual brake inspection** - look through the wheel spokes. Teslas use regen braking heavily, so pads last 100,000+ km, but rotors can rust from disuse in humid climates.
 
 ### Every Year
 
-- **[Interior deep clean](/posts/tesla-used-buying-inspection-guide/)** - Tesla's vegan leather needs conditioning to prevent cracking.
-- **[Door seal inspection and lubrication](/posts/tesla-door-handle-not-working/)** - prevents wind noise and water leaks, especially in cold climates where rubber stiffens.
+- **[Interior deep clean](/posts/tesla-interior-cleaning-detailing/)** - Tesla's vegan leather needs conditioning to prevent cracking.
+- **[Door seal inspection and lubrication](/posts/tesla-door-seal-maintenance/)** - prevents wind noise and water leaks, especially in cold climates where rubber stiffens.
 - **[Software update check](/posts/tesla-software-update-stuck/)** - ensure you're on the latest version. Some owners unknowingly block updates.
 
 ### Every 2 Years
 
-- **[Wheel alignment](/posts/tesla-suspension-noise-fix/)** - Teslas are heavy and eat tires unevenly without proper alignment. Especially after hitting potholes.
+- **[Wheel alignment](/posts/tesla-wheel-alignment-diy/)** - Teslas are heavy and eat tires unevenly without proper alignment. Especially after hitting potholes.
 - **[12V battery health check](/posts/tesla-12v-battery-replacement/)** - the 12V battery powers all accessories and door mechanisms. A dead 12V means you can't even open the doors. Replace proactively at 3-4 years.
 - **[Brake rotor inspection](/posts/tesla-brake-rotor-replacement/)** - light surface rust is normal, but deep pitting means replacement time.
 
 ### Every 3-4 Years
 
-- **[Battery health assessment](/posts/tesla-12v-battery-replacement/)** - use an OBD2 scanner to check state of health (SoH), cell voltage delta, and charge cycles. Early detection of weak cells saves money.
+- **[Battery health assessment](/posts/tesla-battery-degradation-health/)** - use an OBD2 scanner to check state of health (SoH), cell voltage delta, and charge cycles. Early detection of weak cells saves money.
 
 ## Essential DIY Tesla Maintenance Tools
 
@@ -185,7 +185,7 @@ Having the right tools means each service takes 15–30 minutes instead of booki
 
 > **Jack pad critical note:** Always use Tesla-specific silicone puck adapters when lifting at the rocker panel lift points. Without them, the plastic sill trim will crack — a €300+ mistake. The correct lift positions differ between Model 3, Y, S, and X. See our [Tesla Jack Points & Lifting Guide](/posts/tesla-jack-points-lifting-guide/) for exact placement on each model.
 
-The OBD2 scanner is the most underrated tool on this list. With the Scan My Tesla app, you can see actual battery state of health (%), individual cell voltages, and cooling system temperatures — information the Tesla app doesn't expose. Catching a cell imbalance early means a software fix rather than a pack replacement. Full guide: [Tesla OBD2 Scanner & Diagnostics](/posts/tesla-maintenance-schedule/).
+The OBD2 scanner is the most underrated tool on this list. With the Scan My Tesla app, you can see actual battery state of health (%), individual cell voltages, and cooling system temperatures — information the Tesla app doesn't expose. Catching a cell imbalance early means a software fix rather than a pack replacement. Full guide: [Tesla OBD2 Scanner & Diagnostics](/posts/tesla-obd2-scanner-diagnostics/).
 
 ## Model 3/Y Maintenance Schedule at a Glance
 
@@ -195,10 +195,10 @@ The Model 3 and Y are the simplest Teslas to maintain. Here's your at-a-glance s
 |------|------|-------------------|
 | Every 6 months | Tire pressure check, wiper fluid, visual inspection | 15 min |
 | Every year | [Tire rotation](/posts/tesla-tire-rotation/), wiper blades (if worn) | 30-60 min |
-| Every 2 years | [Cabin air filter](/posts/tesla-cabin-air-filter/), brake fluid test, [alignment](/posts/tesla-suspension-noise-fix/) | 1-2 hours |
+| Every 2 years | [Cabin air filter](/posts/tesla-cabin-air-filter/), brake fluid test, [alignment](/posts/tesla-wheel-alignment-diy/) | 1-2 hours |
 | Every 3-4 years | [12V battery replacement](/posts/tesla-12v-battery-replacement/) | 15 min |
-| Every 4 years | [Coolant flush](/posts/tesla-coolant-flush-change/), [brake fluid change](/posts/tesla-brake-pad-replacement/), caliper service | 3-4 hours |
-| As needed | [Brake pads](/posts/tesla-brake-pad-replacement/) (100k+ km), [shock absorbers](/posts/tesla-suspension-noise-fix/) (80-120k km), [wheel bearings](/posts/tesla-suspension-noise-fix/) (80-150k km), [control arm bushings](/posts/tesla-control-arm-replacement/) (100k+ km), [tie rod ends](/posts/tesla-suspension-noise-fix/) (80-120k km), [sway bar links](/posts/tesla-suspension-noise-fix/) (60-100k km) | Varies |
+| Every 4 years | [Coolant flush](/posts/tesla-coolant-flush-change/), [brake fluid change](/posts/tesla-brake-fluid-change/), caliper service | 3-4 hours |
+| As needed | [Brake pads](/posts/tesla-brake-pad-replacement/) (100k+ km), [shock absorbers](/posts/tesla-shock-absorber-replacement/) (80-120k km), [wheel bearings](/posts/tesla-wheel-bearing-replacement/) (80-150k km), [control arm bushings](/posts/tesla-control-arm-replacement/) (100k+ km), [tie rod ends](/posts/tesla-tie-rod-end-replacement/) (80-120k km), [sway bar links](/posts/tesla-sway-bar-link-replacement/) (60-100k km) | Varies |
 
 ## Model S/X Additional Maintenance
 
@@ -208,13 +208,13 @@ Older Model S and X vehicles (especially pre-2021 refresh) have more to worry ab
 
 The air suspension system adds maintenance complexity:
 
-- **Air springs** - lifespan of 80,000-150,000 km. Listen for compressor running constantly (indicates a leak). See our [air suspension troubleshooting guide](/posts/tesla-suspension-noise-fix/).
+- **Air springs** - lifespan of 80,000-150,000 km. Listen for compressor running constantly (indicates a leak). See our [air suspension troubleshooting guide](/posts/tesla-air-suspension-issues/).
 - **Compressor** - usually fails from overwork (compensating for leaky springs). Replace springs first.
 - **Ride height sensors** - can corrode in winter salt. Clean annually.
 
 ### MCU1 Vehicles (2012-2018 Model S, 2015-2018 Model X)
 
-- **eMMC chip** - the original 8GB eMMC storage wears out from constant logging. If your touchscreen is getting slow, freezing, or failing to boot, the eMMC needs replacement. See our [MCU upgrade guide](/posts/tesla-screen-black-fix/).
+- **eMMC chip** - the original 8GB eMMC storage wears out from constant logging. If your touchscreen is getting slow, freezing, or failing to boot, the eMMC needs replacement. See our [MCU upgrade guide](/posts/tesla-mcu-touchscreen-upgrade/).
 - **Touchscreen** - yellow border around the edge indicates adhesive failure. Tesla covered this under warranty for affected models.
 
 ### Drive Unit (Early Model S)
@@ -320,7 +320,7 @@ Over 8 years and 160,000 km, here's what maintenance looks like:
 
 **DIY savings over 8 years: ~€3,300**
 
-That's not counting the bigger jobs like [brake pads](/posts/tesla-brake-pad-replacement/) (€200 DIY vs €600+ service center) or [shock absorbers](/posts/tesla-suspension-noise-fix/) (€400 DIY vs €1,200+ service center) that may come up at higher mileage.
+That's not counting the bigger jobs like [brake pads](/posts/tesla-brake-pad-replacement/) (€200 DIY vs €600+ service center) or [shock absorbers](/posts/tesla-shock-absorber-replacement/) (€400 DIY vs €1,200+ service center) that may come up at higher mileage.
 
 ## When to Use Tesla Service Center vs. DIY
 
@@ -330,7 +330,7 @@ That's not counting the bigger jobs like [brake pads](/posts/tesla-brake-pad-rep
 - [Tire rotation](/posts/tesla-tire-rotation/) - 30-60 minutes with a jack
 - [12V battery](/posts/tesla-12v-battery-replacement/) - 15 minutes
 - [Brake pads](/posts/tesla-brake-pad-replacement/) - 1-2 hours per axle
-- [Interior cleaning](/posts/tesla-used-buying-inspection-guide/) - as thorough as you want
+- [Interior cleaning](/posts/tesla-interior-cleaning-detailing/) - as thorough as you want
 
 **Best left to professionals:**
 - A/C desiccant bag - requires refrigerant evacuation/recharge
@@ -349,28 +349,28 @@ That's not counting the bigger jobs like [brake pads](/posts/tesla-brake-pad-rep
 Tying maintenance to the seasons is more practical than tracking exact intervals. Here's what to check each quarter:
 
 ### Spring (March–April)
-- **[Tire pressure top-up](/posts/tesla-tire-rotation/)** — pressure drops ~0.1 bar for every 5°C drop in temperature. Winter kept them low; re-inflate to the door sticker spec now (typically 2.9 bar front, 2.9 bar rear for Model 3/Y)
+- **[Tire pressure top-up](/posts/tesla-tire-pressure-guide/)** — pressure drops ~0.1 bar for every 5°C drop in temperature. Winter kept them low; re-inflate to the door sticker spec now (typically 2.9 bar front, 2.9 bar rear for Model 3/Y)
 - **Underbody wash** — road salt from winter accelerates corrosion on heat pump components, brake lines, and suspension fasteners
-- **[Door seal inspection](/posts/tesla-door-handle-not-working/)** — winter cold dries and cracks rubber seals. Apply silicone rubber conditioner to prevent wind noise and water leaks
+- **[Door seal inspection](/posts/tesla-door-seal-maintenance/)** — winter cold dries and cracks rubber seals. Apply silicone rubber conditioner to prevent wind noise and water leaks
 - **[Wiper blade check](/posts/tesla-windshield-wiper-replacement/)** — winter destroys blade rubber. Any streaking or chattering means replacement time
 - **Brake rotor visual** — light orange surface rust after winter is normal and will clear in a few stops. Deep pitting or severe corrosion means replacement
 - **Software update check** — confirm you're on the latest version via Controls → Software before the summer driving season
 
 ### Summer (June–August)
-- **[Battery preconditioning review](/posts/tesla-12v-battery-replacement/)** — verify preconditioning is scheduled before Supercharger sessions. Hot ambient temperatures can limit charge rates if the pack isn't pre-cooled
-- **[Interior deep clean](/posts/tesla-used-buying-inspection-guide/)** — UV and heat accelerate vegan leather degradation. Apply a leather conditioner in summer before cracking starts
+- **[Battery preconditioning review](/posts/tesla-battery-preconditioning-guide/)** — verify preconditioning is scheduled before Supercharger sessions. Hot ambient temperatures can limit charge rates if the pack isn't pre-cooled
+- **[Interior deep clean](/posts/tesla-interior-cleaning-detailing/)** — UV and heat accelerate vegan leather degradation. Apply a leather conditioner in summer before cracking starts
 - **[Tire tread depth measurement](/posts/tesla-tire-rotation/)** — measure all four corners with a gauge. If any corner is under 4mm, plan replacements before autumn rains
 
 ### Autumn (September–October)
 - **[Winter tire switch](/posts/tesla-winter-preparation-guide/)** — below 7°C, summer tire rubber hardens and stopping distance increases significantly
 - **Brake fluid moisture test** — a €10 test strip reveals if fluid needs changing. Do it in autumn while service centers are less busy
-- **[Washer fluid switch](/posts/tesla-windshield-wiper-replacement/)** — swap to -30°C winter fluid before the first frost. Standard fluid will freeze in the reservoir and crack the pump
+- **[Washer fluid switch](/posts/tesla-washer-fluid-pump-nozzle-fix/)** — swap to -30°C winter fluid before the first frost. Standard fluid will freeze in the reservoir and crack the pump
 - **12V battery voltage check** — measure with a multimeter. Healthy: 12.6–13.2V at rest. Under 12.2V = weak, replace before winter. Cold weather kills weak 12V batteries and you won't be able to open the doors
 
 ### Winter (December–February)
 - **Monthly tire pressure top-up** — pressure drops every month as temperatures stay low. Check monthly, not just once
 - **Charge port door check** — ice can form in the charge port latch. Keep the port door operation clean; apply silicone lubricant if it's sticking
-- **[Phantom drain monitoring](/posts/tesla-12v-battery-replacement/)** — battery drain is higher in winter. Disable Sentry Mode when parked in a safe location to preserve charge. Don't let the battery drop below 20% in extreme cold
+- **[Phantom drain monitoring](/posts/tesla-phantom-battery-drain-fix/)** — battery drain is higher in winter. Disable Sentry Mode when parked in a safe location to preserve charge. Don't let the battery drop below 20% in extreme cold
 
 ## Cybertruck Maintenance: What's Different
 
@@ -432,7 +432,7 @@ Tesla's drive units use a small amount of gear oil to lubricate the reduction ge
 | Model 3/Y front (small motor) | Pentosin ATF 9 or equiv. | 0.5L capacity |
 | Model S/X | NOCO Gear Oil or Tesla OEM spec | Varies by unit generation |
 
-Use **only the correct spec** — mixing gear oil types or using engine oil will cause foaming and premature bearing failure. The procedure requires a lift and a fluid pump. Full details: [Tesla Gear Oil Change Guide](/posts/tesla-maintenance-schedule/).
+Use **only the correct spec** — mixing gear oil types or using engine oil will cause foaming and premature bearing failure. The procedure requires a lift and a fluid pump. Full details: [Tesla Gear Oil Change Guide](/posts/tesla-gear-oil-change/).
 
 **Cost:** About €30–50 in fluids DIY. At a service center: €200–400. Not a frequent job, but worth doing on any Tesla approaching 200,000 km or exhibiting a faint whine from the drive unit.
 
@@ -474,7 +474,7 @@ Teslas don't rust in the traditional sense — the aluminum body panels, glass r
 
 A single annual underbody wash (spring, after the last salt application) removes the majority of chloride deposits before they can pit the steel. Budget €15–20 at a high-pressure car wash with underbody flush capability.
 
-For vehicles operating in heavy salt conditions or coastal environments, an application of a **cavity wax or rubberized underbody coating** every 2–3 years adds years to the underbody components. See our [Tesla Rust Prevention & Undercoating Guide](/posts/tesla-used-buying-inspection-guide/) for product recommendations and application areas.
+For vehicles operating in heavy salt conditions or coastal environments, an application of a **cavity wax or rubberized underbody coating** every 2–3 years adds years to the underbody components. See our [Tesla Rust Prevention & Undercoating Guide](/posts/tesla-rust-prevention-undercoating/) for product recommendations and application areas.
 
 Key products:
 - [Dinitrol RC900 Cavity Wax](https://www.amazon.de/s?k=dinitrol+cavity+wax+rc900&tag=diyrepair-21) ([US](https://www.amazon.com/s?k=cavity+wax+rust+prevention&tag=diyrepair07-20)) — for enclosed sections and subframe cavities
@@ -489,7 +489,7 @@ Don't rely on memory. Set up maintenance reminders:
 1. **Tesla app** - schedule service directly from the app when items are due
 2. **Calendar reminders** - set recurring annual/biennial reminders for each item
 3. **Mileage-based** - note your odometer reading and set the next service at the target km
-4. **[Service Mode](/guides/)** - periodically check Service Alerts for any flagged issues
+4. **[Service Mode](/posts/tesla-service-mode-guide/)** - periodically check Service Alerts for any flagged issues
 
 ## Keep a Maintenance Log — It's Worth Real Money
 
@@ -656,7 +656,7 @@ Tesla pads last much longer than ICE cars (100,000-200,000 km) due to regenerati
 Teslas are heavier than equivalent gas cars, which accelerates tire wear. Standard Model 3/Y variants typically see 35,000–60,000 km per set; Performance variants on aggressive alignment get 20,000–35,000 km. Rear tires wear faster than fronts on AWD models — rotate every 10,000 km and replace at 3mm tread depth (EU legal minimum: 1.6mm).
 
 **What tools do I actually need for Tesla DIY maintenance?**
-You don't need much for the basics. A low-profile floor jack with Tesla silicone jack pad adapters handles tire rotations. Plastic trim pry tools cover the cabin air filter. A €10 brake fluid tester tells you whether a change is needed. If you want deeper data — battery cell health, fault codes — an OBD2 Bluetooth scanner (OBDLink CX recommended) paired with Scan My Tesla is the single best diagnostic upgrade you can make. See our [Tesla OBD2 Scanner Guide](/posts/tesla-maintenance-schedule/) for full setup.
+You don't need much for the basics. A low-profile floor jack with Tesla silicone jack pad adapters handles tire rotations. Plastic trim pry tools cover the cabin air filter. A €10 brake fluid tester tells you whether a change is needed. If you want deeper data — battery cell health, fault codes — an OBD2 Bluetooth scanner (OBDLink CX recommended) paired with Scan My Tesla is the single best diagnostic upgrade you can make. See our [Tesla OBD2 Scanner Guide](/posts/tesla-obd2-scanner-diagnostics/) for full setup.
 
 **What should I do in autumn to prepare my Tesla for winter?**
 Four things: (1) Switch to winter tires below 7°C — summer compound stiffens in the cold and stopping distance degrades sharply. (2) Test brake fluid moisture — a €10 test strip, and autumn is the best time before service centers fill up. (3) Swap washer fluid to -30°C mix before the first frost — regular fluid freezes and cracks the pump. (4) Check 12V battery voltage — under 12.2V at rest means it won't survive a cold January. Full checklist: [Tesla Winter Preparation Guide](/posts/tesla-winter-preparation-guide/).
@@ -676,17 +676,17 @@ The best approach: set calendar reminders, do the easy stuff yourself, and use T
 
 ## Related Guides
 
-- [Service Mode Guide](/guides/) - Access diagnostics to check vehicle health
+- [Service Mode Guide](/posts/tesla-service-mode-guide/) - Access diagnostics to check vehicle health
 - [Brake Pad Replacement](/posts/tesla-brake-pad-replacement/) - When pads finally wear out
 - [Cabin Air Filter](/posts/tesla-cabin-air-filter/) - The most common DIY service
 - [12V Battery Replacement](/posts/tesla-12v-battery-replacement/) - Don't wait until you're locked out
 - [Coolant Flush & Change](/posts/tesla-coolant-flush-change/) - Critical for battery longevity
 - [Winter Preparation Guide](/posts/tesla-winter-preparation-guide/) - Seasonal maintenance tips
-- [Tesla Gear Oil Change](/posts/tesla-maintenance-schedule/) - The high-mileage fluid change most owners forget
+- [Tesla Gear Oil Change](/posts/tesla-gear-oil-change/) - The high-mileage fluid change most owners forget
 - [Drive Unit Noise Fix](/posts/tesla-drive-unit-noise-fix/) - Diagnose bearing wear before it becomes expensive
-- [Rust Prevention & Undercoating Guide](/posts/tesla-used-buying-inspection-guide/) - Protect the underbody in salt climates
-- [Battery Preconditioning Guide](/posts/tesla-12v-battery-replacement/) - Extend battery life and maximize charge speed
-- [Tesla OBD2 Scanner & Diagnostics](/posts/tesla-maintenance-schedule/) - App-based battery health monitoring
+- [Rust Prevention & Undercoating Guide](/posts/tesla-rust-prevention-undercoating/) - Protect the underbody in salt climates
+- [Battery Preconditioning Guide](/posts/tesla-battery-preconditioning-guide/) - Extend battery life and maximize charge speed
+- [Tesla OBD2 Scanner & Diagnostics](/posts/tesla-obd2-scanner-diagnostics/) - App-based battery health monitoring
 - [Tesla Pyrofuse Explained](/posts/tesla-pyrofuse-guide/) - The safety fuse inside your battery pack
 - [Model 3 Highland vs Model Y Juniper](/posts/tesla-model-3-highland-vs-model-y-juniper/) - Comparing the refreshed models
 - [Tesla Jack Points & Lifting Guide](/posts/tesla-jack-points-lifting-guide/) - Safe lifting positions for every Tesla model

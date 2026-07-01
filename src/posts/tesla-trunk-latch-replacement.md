@@ -32,7 +32,7 @@ A Tesla trunk that won't latch, randomly opens, or shows a "Trunk Open" warning 
 - **Trunk won't stay latched** — pops open while driving
 - **Trunk opens by itself** randomly
 - **Interior lights stay on** (car thinks trunk is open)
-- **Phantom battery drain** from the car never entering sleep mode (see our [phantom drain guide](/posts/tesla-12v-battery-replacement/))
+- **Phantom battery drain** from the car never entering sleep mode (see our [phantom drain guide](/posts/tesla-phantom-battery-drain-fix/))
 - **Sentry mode constantly triggers** due to "trunk open" state
 
 ## Quick Fixes to Try First
@@ -130,7 +130,7 @@ If cleaning and adjustment don't fix it, the latch assembly needs replacement.
 
 The Model Y's power liftgate has an additional component — the liftgate actuator — that can also cause latching issues. If the liftgate doesn't close fully (stops short and reopens), the issue may be:
 
-- **Liftgate struts** — worn struts resist the close mechanism. See our [trunk strut replacement guide](/posts/tesla-suspension-noise-fix/)
+- **Liftgate struts** — worn struts resist the close mechanism. See our [trunk strut replacement guide](/posts/tesla-trunk-strut-replacement/)
 - **Height setting** — the liftgate close height may need adjustment via Controls > Vehicle > Trunk
 
 ## Preventing Future Issues
@@ -142,8 +142,8 @@ The Model Y's power liftgate has an additional component — the liftgate actuat
 
 ## Related Guides
 
-- [Tesla Trunk Won't Close](/posts/tesla-trunk-latch-replacement/) — Other trunk closing problems
-- [Tesla Trunk Strut Replacement](/posts/tesla-suspension-noise-fix/) — Weak struts causing latch issues
-- [Tesla Phantom Battery Drain Fix](/posts/tesla-12v-battery-replacement/) — Trunk latch is a common drain cause
-- [Tesla Door Latch Actuator Replacement](/posts/tesla-door-handle-not-working/) — Similar latch mechanism for doors
+- [Tesla Trunk Won't Close](/posts/tesla-trunk-wont-close/) — Other trunk closing problems
+- [Tesla Trunk Strut Replacement](/posts/tesla-trunk-strut-replacement/) — Weak struts causing latch issues
+- [Tesla Phantom Battery Drain Fix](/posts/tesla-phantom-battery-drain-fix/) — Trunk latch is a common drain cause
+- [Tesla Door Latch Actuator Replacement](/posts/tesla-door-latch-actuator-replacement/) — Similar latch mechanism for doors
 - [Tesla Frunk Won't Open](/posts/tesla-frunk-wont-open/) — Front trunk latch issues

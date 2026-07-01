@@ -112,7 +112,7 @@ The refreshed Model 3 uses Tesla's latest camera hardware with higher resolution
 
 ### Model Y Juniper (2025–2026)
 
-The [Juniper refresh](/news/) includes updated cameras and a new computing platform. Early owners have reported generally better Autopilot behavior, but some have noticed phantom braking near highway sound barriers — a new trigger pattern Tesla is still learning. If you own a Juniper and experience [suspension rattles](/posts/tesla-suspension-noise-fix/) combined with phantom braking, address both separately — they're unrelated issues.
+The [Juniper refresh](/posts/tesla-model-y-juniper-2026-problems/) includes updated cameras and a new computing platform. Early owners have reported generally better Autopilot behavior, but some have noticed phantom braking near highway sound barriers — a new trigger pattern Tesla is still learning. If you own a Juniper and experience [suspension rattles](/posts/tesla-model-y-juniper-suspension-rattle/) combined with phantom braking, address both separately — they're unrelated issues.
 
 ### Model S/X (2021+ Refresh)
 
@@ -151,10 +151,10 @@ Sometimes cameras need recalibration:
 1. Go to **Controls > Service > Camera Calibration**
 2. Select **Clear Calibration**
 3. Drive on well-marked roads for 20-100 miles
-4. The car will recalibrate automatically (see our [camera calibration guide](/posts/tesla-headlight-replacement/) for the full procedure)
+4. The car will recalibrate automatically (see our [camera calibration guide](/posts/tesla-autopilot-camera-calibration/) for the full procedure)
 
 **When to recalibrate:**
-- After [windshield replacement](/posts/tesla-windshield-wiper-replacement/)
+- After [windshield replacement](/posts/tesla-windshield-replacement/)
 - If you notice increased phantom braking
 - After any front-end body work
 - Periodically (every 6-12 months)
@@ -294,7 +294,7 @@ If phantom braking creates a dangerous situation — near-collision, actual cras
 
 If you experience frequent phantom braking:
 
-1. **Install a [dash cam](/posts/tesla-usb-not-working/)** — Documents what the cameras saw vs. what was actually there
+1. **Install a [dash cam](/posts/tesla-dashcam-usb-setup/)** — Documents what the cameras saw vs. what was actually there
 2. **Note the location** — GPS coordinates if possible
 3. **Note conditions** — Weather, lighting, time of day
 4. **Screenshot software version** — Helps track improvements
@@ -335,7 +335,7 @@ This guide focuses on free fixes. However:
 | Camera cleaning | ~€10 / $10 (supplies) |
 | Camera recalibration | Free (built-in) |
 | Software updates | Free |
-| [Dash cam setup](/posts/tesla-usb-not-working/) | €50-200 / $50-200 |
+| [Dash cam setup](/posts/tesla-dashcam-usb-setup/) | €50-200 / $50-200 |
 | [Windshield sunshade](https://www.amazon.com/s?k=tesla+model+3+sunshade&tag=diyrepair07-20) (reduces sun glare triggers) | €20-40 / $20-40 |
 | Professional calibration (if needed) | €100-200 / $100-200 |
 
@@ -356,10 +356,10 @@ From community experience across forums, Reddit, and owner groups:
 
 ## Related Guides
 
-- [Autopilot Camera Calibration](/posts/tesla-headlight-replacement/) — Recalibrate cameras to reduce phantom braking
-- [Tesla Vision vs Radar](/news/) — Understanding Tesla's sensor approach and what it means for phantom braking
+- [Autopilot Camera Calibration](/posts/tesla-autopilot-camera-calibration/) — Recalibrate cameras to reduce phantom braking
+- [Tesla Vision vs Radar](/posts/tesla-vision-vs-radar-lidar/) — Understanding Tesla's sensor approach and what it means for phantom braking
 - [Windshield Wiper Replacement](/posts/tesla-windshield-wiper-replacement/) — Streaky wipers directly cause phantom braking events
-- [Dashcam USB Setup](/posts/tesla-usb-not-working/) — Record and review phantom braking incidents
-- [Regenerative Braking Reduced](/posts/tesla-12v-battery-replacement/) — Adjust regen settings while troubleshooting
+- [Dashcam USB Setup](/posts/tesla-dashcam-usb-setup/) — Record and review phantom braking incidents
+- [Regenerative Braking Reduced](/posts/tesla-regen-braking-reduced/) — Adjust regen settings while troubleshooting
 - [Software Update Stuck](/posts/tesla-software-update-stuck/) — Ensure you have the latest improvements
-- [Squeaky Brakes Fix](/posts/tesla-brake-pad-replacement/) — When phantom braking causes brake noise
+- [Squeaky Brakes Fix](/posts/tesla-squeaky-brakes-fix/) — When phantom braking causes brake noise

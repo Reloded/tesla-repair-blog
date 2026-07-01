@@ -89,7 +89,7 @@ NFC reader glitches can be fixed with a reboot:
 2. Wait for the screen to restart (30-60 seconds)
 3. Try the key card again
 
-For a deeper reset, see our [Tesla screen reboot guide](/posts/tesla-screen-black-fix/).
+For a deeper reset, see our [Tesla screen reboot guide](/posts/tesla-screen-frozen-reboot/).
 
 ### Step 4: Re-add the Key Card
 
@@ -216,5 +216,5 @@ You can order directly from the [Tesla Shop](https://shop.tesla.com/) or ask at 
 
 - [Tesla 12V Battery Replacement](/posts/tesla-12v-battery-replacement/) — Dead 12V kills all keyless entry
 - [Tesla Won't Start or Turn On](/posts/tesla-wont-start-turn-on/) — When key card works but car doesn't respond
-- [Tesla Screen Frozen? How to Reboot](/posts/tesla-screen-black-fix/) — Rebooting fixes NFC glitches
-- [Tesla Bluetooth Issues](/posts/tesla-key-fob-battery/) — Phone key relies on Bluetooth
+- [Tesla Screen Frozen? How to Reboot](/posts/tesla-screen-frozen-reboot/) — Rebooting fixes NFC glitches
+- [Tesla Bluetooth Issues](/posts/tesla-bluetooth-issues/) — Phone key relies on Bluetooth

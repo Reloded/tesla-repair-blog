@@ -280,7 +280,7 @@ Tesla uses an integrated thermal management system, but there are separate loops
 | Drive unit loop | Motor, inverter | Yes, via valves |
 | Cabin loop | Heater core | Yes, via heat pump |
 
-The [superbottle](/posts/tesla-coolant-flush-change/) (Model 3/Y) or octovalve manages these loops. When you run the heater and charger simultaneously, all loops circulate — this is why both methods are needed for complete bleeding.
+The [superbottle](/posts/tesla-superbottle-replacement/) (Model 3/Y) or octovalve manages these loops. When you run the heater and charger simultaneously, all loops circulate — this is why both methods are needed for complete bleeding.
 
 ## Coolant Testing with Refractometer
 
@@ -339,12 +339,12 @@ With basic tools and patience for the air bleeding process, this is a very achie
 
 ## Related Guides
 
-- [Heat Pump Problems](/posts/tesla-coolant-flush-change/) - Diagnose thermal system issues that may require a flush
-- [AC Not Cooling](/posts/tesla-cabin-air-filter/) - Coolant issues can affect cabin cooling
-- [Superbottle Replacement](/posts/tesla-coolant-flush-change/) - Flush coolant when replacing the superbottle
-- [Climate Keeper Issues](/posts/tesla-coolant-flush-change/) - Climate features depend on healthy coolant
+- [Heat Pump Problems](/posts/tesla-heat-pump-problems/) - Diagnose thermal system issues that may require a flush
+- [AC Not Cooling](/posts/tesla-ac-not-cooling/) - Coolant issues can affect cabin cooling
+- [Superbottle Replacement](/posts/tesla-superbottle-replacement/) - Flush coolant when replacing the superbottle
+- [Climate Keeper Issues](/posts/tesla-climate-keeper-issues/) - Climate features depend on healthy coolant
 - [Winter Preparation Guide](/posts/tesla-winter-preparation-guide/) - Check coolant before cold weather
-- [Tesla Coolant Valve Replacement](/posts/tesla-coolant-flush-change/) - Flush coolant when replacing battery coolant valves
-- [Tesla Coolant Pump Replacement](/posts/tesla-coolant-flush-change/) - Always flush after pump replacement to remove debris
-- [Tesla Coolant Leak Fix](/posts/tesla-coolant-flush-change/) - Diagnose and fix leaks before performing a flush
-- [Tesla OBD2 Scanner & Diagnostics](/posts/tesla-maintenance-schedule/) - Read coolant temp and diagnostic codes
+- [Tesla Coolant Valve Replacement](/posts/tesla-battery-coolant-valve-replacement/) - Flush coolant when replacing battery coolant valves
+- [Tesla Coolant Pump Replacement](/posts/tesla-coolant-pump-replacement/) - Always flush after pump replacement to remove debris
+- [Tesla Coolant Leak Fix](/posts/tesla-coolant-leak-fix/) - Diagnose and fix leaks before performing a flush
+- [Tesla OBD2 Scanner & Diagnostics](/posts/tesla-obd2-scanner-diagnostics/) - Read coolant temp and diagnostic codes

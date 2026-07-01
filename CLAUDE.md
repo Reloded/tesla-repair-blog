@@ -10,14 +10,14 @@
 ## Project Summary
 Tesla repair affiliate blog targeting EU market. Goal: $1000/month passive income.
 
-## Current Status (2026-06-15)
+## Current Status (2026-07-01)
 - **Milestones:** All 3 complete (v1.0, v2.0, v3.0 shipped)
-- **Articles:** 41 posts (pruned from 156 on 2026-06-15 — see prune session below)
+- **Articles:** 156 posts (prune to 41 was REVERTED — see 2026-07-01 session; real GSC data showed the site is growing, not suppressed)
 - **Monetization:** Multi-affiliate (Amazon geo-detected + Lectron + iFixit + RR Car Parts + VIN TESLA promo + Payhip product + Shopee SG pilot)
 - **Hosting:** Cloudflare Pages (LIVE)
 - **Live URL:** https://tesladiyrepair.com
-- **Current mode:** STRATEGY SHIFT — pruned content farm to ~40 quality pages to recover from likely scaled-content suppression. Nightly enhance pipeline must be STOPPED (runs as local cron on owner's machine, ~03:00).
-- **Reality check:** Site makes ~$0. Root cause is traffic (2 Google clicks / 167 impressions in Jan, avg position 13.6 = page 2), not affiliate setup. Bottleneck = no domain authority/backlinks + scaled-AI-content suppression in a competitive niche.
+- **Current mode:** Nightly auto-enhance pipeline PAUSED (local Windows Task Scheduler tasks `NightlyBlogEnhancer` + `BlogSEOAudit` disabled 2026-07-01). Re-enable is an open decision.
+- **Reality check (CORRECTED 2026-07-01):** Site is NOT suppressed. Traffic grew ~175x since Jan (167→29,297 impressions/28d, 2→168 clicks). Real problem = **page-2 rankings (avg pos 12.7) + low CTR (0.57%)**. Play is pushing striking-distance pages to page 1, not deleting content.
 
 ## Affiliate Programs
 | Program | Status | ID | Notes |
@@ -40,18 +40,20 @@ Tesla repair affiliate blog targeting EU market. Goal: $1000/month passive incom
 - `.planning/AFFILIATE-UPDATES-READY.md` - Pending affiliate link updates
 - `scripts/gsc.js` - Google Search Console API script
 
-## GSC Stats (2026-01-25 — STALE, refresh locally)
-> ⚠️ Could not refresh on 2026-06-09: `scripts/credentials.json` (OAuth) is gitignored and only exists on the local machine. Run `npm run gsc` / `npm run analytics` locally and update these tables.
+## GSC Stats (2026-07-01 — LIVE, last 28 days)
+> Pulled via `npm run gsc` after re-auth (deleted stale token.json, re-ran OAuth). NOTE: OAuth consent screen is in "Testing" mode → refresh tokens expire every 7 days. Publish the app (Google Cloud Console → OAuth consent screen → Publish) to make it durable.
 
-| Metric | Value | Change |
+| Metric | Value | vs Jan |
 |--------|-------|--------|
-| Clicks | 2 | same |
-| Impressions | 167 | +32 |
-| CTR | 1.20% | -0.28pp |
-| Avg Position | 13.6 | +0.5 |
+| Clicks | 168 | 2 → 168 (~84x) |
+| Impressions | 29,297 | 167 → 29,297 (~175x) |
+| CTR | 0.57% | low — symptom of page-2 positions |
+| Avg Position | 12.7 | 13.6 → 12.7 |
 
-**Top Pages:** tesla-usb-not-working (75 imp), window-reset-calibration (38 imp), windshield-wiper-replacement (24 imp), phantom-braking-fix (21 imp)
-**Note:** USB article up to 75 impressions with 0 clicks (CTR issue), homepage getting 2 clicks from 9 impressions
+**Top Pages (imp / clicks):** service-mode-guide (4895/12), phantom-braking-fix (6134/26), usb-not-working (2701/24), dashcam-usb-setup (2685/12), side-repeater-camera (2390/15), software-update-stuck (1495/13), navigation-not-working (771/7), rear-camera-blurry (665/12), creaking-rattling (949/15)
+**Top Queries:** "tesla phantom braking 2026" (pos 4.2), "thc_w0134_radrightshutrnofeedbk" (error code! pos 8.6), "tesla side camera replacement cost" (pos 8.8), "tesla not recognizing usb" (pos 9.1)
+**Indexing:** sitemap 45 submitted / 0 indexed reported (note: sitemap only lists current posts; GSC indexes far more — the 0 is a reporting lag, investigate).
+**Takeaways:** (1) error-code queries (thc_w0134...) rank + convert — lean into these. (2) Many top pages sit at pos 8-13 = striking distance for page 1. (3) CTR 0.57% is the big lever alongside position.
 
 ## Analytics Stats (2026-01-25 — STALE, refresh locally)
 | Metric | Value | Change |
@@ -231,22 +233,20 @@ Full technical audit of the built site. Verified healthy: clean build, all 528 J
 - [x] Terafab meta-refresh stub (`tesla-terafab-ai-chip-factory`) deleted; proper 301 added to `_redirects`; removes it from sitemap + Pagefind index
 - Known remaining (not fixed): external link liveness + 89 ASINs unverifiable from sandbox (check locally); ~100 articles published since Jan never audited against service.tesla.com
 
-### Content prune — strategy shift (2026-06-15)
-Owner flagged the blog makes no money. Honest diagnosis: it's a TRAFFIC problem (~500 pageviews/mo, page-2 rankings), not a monetization-setup problem. To hit $1k/mo via Amazon affiliate you'd need ~50–100k visits/mo (~100x current). Likely root causes: (1) no backlinks/domain authority, (2) scaled-AI-content suppression — 156 near-daily AI articles + nightly auto-enhancement match Google's "scaled content abuse" profile, (3) brutally competitive niche, (4) informational-intent traffic converts poorly to affiliate sales.
-
-Owner chose: **prune content + stop the AI pipeline** (balanced, keep ~40).
-- [x] Pruned 156 → **41 articles**. Kept Tier A (8 traffic-getters + 13 real-photo originals) + Tier B (~20 cornerstone evergreen guides). Cut 115 thin/redundant/stale-news AI articles.
-- [x] Every cut URL has a **301 redirect** to its best surviving relative (115 pairs in `src/_redirects`). 0 broken links/images, all JSON-LD valid, sitemap 45 URLs, clean build. Fully recoverable from git.
-- [x] Rewrote 317 internal links in survivors + fixed homepage featured card.
-- [ ] **OWNER ACTION REQUIRED:** kill the nightly cron on the local machine (`crontab -e`, remove the ~03:00 line) BEFORE merging — otherwise it keeps generating/editing content. Pipeline is NOT in the repo.
-- [ ] Next real growth levers (not more AI content): backlinks/outreach, lean into real-mechanic E-E-A-T + EU/Lithuania angle, consider YouTube repair videos, reconsider Amazon-pennies vs higher-value RR Car Parts/lead-gen.
-
 ### SEO meta trim (2026-06-15)
 CTR pass on titles + meta descriptions (the item flagged above). Note: the `<title>` template appends ` | Tesla DIY Repair` (19 chars), so frontmatter titles were trimmed so the keyword shows before truncation.
 - [x] 70 titles rewritten to ≤60 chars (was up to 92) — keyword front-loaded, year tags kept
 - [x] 92 meta descriptions rewritten to ≤160 chars (was up to 270)
 - 111 files changed total. Verified: clean build, every title ≤60 / every description ≤160, no duplicate titles/descriptions, all JSON-LD valid, 0 broken links/images. Titles feed H1 + breadcrumbs + Article JSON-LD headline, all confirmed rendering correctly.
 - Specs/numbers preserved (torque, capacities, prices, model lists); no factual claims altered.
+
+## Session 2026-07-01 (real GSC data → prune REVERTED)
+Pulled the first live GSC data since January (re-authed OAuth). It overturned the working assumption:
+- **Site is growing hard, not suppressed:** 167→29,297 impressions, 2→168 clicks (28d) since Jan. The "scaled-content suppression" diagnosis from June (built on stale Jan data) was WRONG.
+- **The 2026-06-15 prune cut ~43% of clicks.** Fresh data showed 5 of the top-10 click pages had been cut — incl. `service-mode-guide` (4,895 imp, the #1 impression page) redirected to a generic hub, plus dashcam-usb-setup, side-repeater-camera, rear-camera-blurry, creaking-rattling, navigation-not-working. Prune was decided on stale data that only knew 8 traffic pages.
+- **Action: REVERTED the prune** (`git revert` of the prune commit) before Google recrawled. Back to 156 posts, all redirects removed, all cut traffic pages restored. Kept the genuinely good work: SEO meta trim (titles ≤60 / desc ≤160), E-E-A-T author byline, geo-detect fix, broken-link/image audit fixes.
+- Nightly pipeline stays PAUSED for now (disabled on owner's Windows machine). Whether to re-enable is an open call — it may have driven the impression growth, but auto-pushing unreviewed AI content carries quality/accuracy risk and CTR is only 0.57%.
+- **Corrected strategy:** this is a page-2 + CTR problem, not a content-volume problem. Levers: (1) push striking-distance pages (pos 8-13) onto page 1, (2) improve CTR on high-impression pages, (3) lean into error-code queries that already rank + convert (e.g. thc_w0134...), (4) real-mechanic E-E-A-T + backlinks (see GROWTH-PLAN.md). Do NOT mass-delete content again.
 
 ## Session 2026-01-25
 - [x] Updated GSC stats: 167 impressions (+32), 2 clicks (same)

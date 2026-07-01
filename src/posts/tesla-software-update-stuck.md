@@ -262,7 +262,7 @@ Once your update installs successfully:
 
 1. **Review release notes** — Tap the notification or go to Controls > Software
 2. **Test new features** — Each update may change UI elements or add options
-3. **Recalibrate cameras** if prompted (especially after [Autopilot updates](/posts/tesla-headlight-replacement/))
+3. **Recalibrate cameras** if prompted (especially after [Autopilot updates](/posts/tesla-autopilot-camera-calibration/))
 4. **Check settings** — Some updates reset preferences (regenerative braking level, Autopilot settings)
 5. **Expect one more reboot** — Some updates install in two stages
 
@@ -309,11 +309,11 @@ A few habits that reduce update problems:
 
 ## Related Guides
 
-- [Tesla Screen Frozen? How to Reboot](/posts/tesla-screen-black-fix/) — If screen issues accompany update problems
+- [Tesla Screen Frozen? How to Reboot](/posts/tesla-screen-frozen-reboot/) — If screen issues accompany update problems
 - [Tesla Screen Black Fix](/posts/tesla-screen-black-fix/) — Screen won't turn on after failed update
-- [LTE Connectivity Issues](/posts/tesla-key-fob-battery/) — Cellular connection problems that affect updates
-- [Bluetooth Issues](/posts/tesla-key-fob-battery/) — Connection troubleshooting that applies to WiFi too
-- [MCU Touchscreen Upgrade](/posts/tesla-screen-black-fix/) — Older MCU1 vehicles may need hardware upgrades for latest software
-- [2026.2.3 Software Update Features](/posts/tesla-key-fob-battery/) — What's in the latest Tesla update
-- [Tesla Dashcam USB Setup](/posts/tesla-usb-not-working/) — USB formatting can affect update installations
+- [LTE Connectivity Issues](/posts/tesla-lte-connectivity-issues/) — Cellular connection problems that affect updates
+- [Bluetooth Issues](/posts/tesla-bluetooth-issues/) — Connection troubleshooting that applies to WiFi too
+- [MCU Touchscreen Upgrade](/posts/tesla-mcu-touchscreen-upgrade/) — Older MCU1 vehicles may need hardware upgrades for latest software
+- [2026.2.3 Software Update Features](/posts/tesla-2026-2-3-software-update-features/) — What's in the latest Tesla update
+- [Tesla Dashcam USB Setup](/posts/tesla-dashcam-usb-setup/) — USB formatting can affect update installations
 - [Tesla Sentry Mode Not Recording](/posts/tesla-sentry-mode-not-recording/) — Sentry Mode interactions with updates

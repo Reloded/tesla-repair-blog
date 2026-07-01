@@ -246,16 +246,16 @@ This guide covers the **2017–2023 Model 3 (pre-Highland)**, the **2020–2024 
 
 There are plenty of reasons you might need the bumper off:
 
-- **Paint repair or touch-up** — Access to the full surface for proper [paint chip repair](/posts/tesla-used-buying-inspection-guide/) or respray
-- **PPF installation** — Many [PPF installers](/posts/tesla-used-buying-inspection-guide/) wrap bumpers off the car for a cleaner result with no edges lifting
+- **Paint repair or touch-up** — Access to the full surface for proper [paint chip repair](/posts/tesla-paint-chip-repair/) or respray
+- **PPF installation** — Many [PPF installers](/posts/tesla-ppf-installation/) wrap bumpers off the car for a cleaner result with no edges lifting
 - **Fog light or turn signal replacement** — The fog light assemblies sit behind the bumper fascia and cannot be accessed from the front
-- **Parking sensor replacement** — Ultrasonic parking sensors (USS) clip into the bumper from behind on pre-HW4 vehicles; see our [parking sensor replacement guide](/posts/tesla-headlight-replacement/) for what to expect
+- **Parking sensor replacement** — Ultrasonic parking sensors (USS) clip into the bumper from behind on pre-HW4 vehicles; see our [parking sensor replacement guide](/posts/tesla-parking-sensor-replacement/) for what to expect
 - **Front radar module access** — The forward-facing radar sits behind the lower bumper area; removal is required if you suspect radar damage or misalignment
 - **Headlight removal** — You need the bumper off to access headlight mounting bolts for a full [headlight replacement](/posts/tesla-headlight-replacement/)
-- **Tow hook access** — A [tow hitch installation](/posts/tesla-winter-preparation-guide/) sometimes requires bumper removal or partial detachment depending on the kit
+- **Tow hook access** — A [tow hitch installation](/posts/tesla-tow-hitch-installation/) sometimes requires bumper removal or partial detachment depending on the kit
 - **Collision repair** — Minor fender bender? The bumper fascia is often the only damaged part and costs $400–$800 in paint plus labor
 - **Aftermarket bumper installation** — Upgrading to a performance or custom fascia
-- **Scratch or dent repair** — Having the bumper off-car gives a [dent repair technician](/posts/tesla-used-buying-inspection-guide/) full access to the rear surface
+- **Scratch or dent repair** — Having the bumper off-car gives a [dent repair technician](/posts/tesla-dent-repair-pdr-guide/) full access to the rear surface
 
 ---
 
@@ -583,11 +583,11 @@ The steel bumper beam sits directly behind the plastic fascia. Run your hand alo
 With the bumper off, you have a clear line of sight to:
 
 - **AC condenser** (black finned unit, frontmost component) — check for bent fins or debris packed in the core. Bent fins reduce cooling efficiency noticeably.
-- **Coolant lines at the front of the car** — any staining, crystalline residue, or discoloration on hose fittings indicates a prior slow leak. See our [Tesla coolant leak fix guide](/posts/tesla-coolant-flush-change/) if you spot anything.
+- **Coolant lines at the front of the car** — any staining, crystalline residue, or discoloration on hose fittings indicates a prior slow leak. See our [Tesla coolant leak fix guide](/posts/tesla-coolant-leak-fix/) if you spot anything.
 
 ### Headlight Seals and Mounting
 
-- Inspect the headlight-to-bumper foam seal — tears or gaps here allow water vapor in and cause the condensation issue. Our [Tesla headlight condensation fix guide](/posts/tesla-headlight-replacement/) walks through the repair.
+- Inspect the headlight-to-bumper foam seal — tears or gaps here allow water vapor in and cause the condensation issue. Our [Tesla headlight condensation fix guide](/posts/tesla-headlight-condensation/) walks through the repair.
 - Check headlight mounting bolts for looseness — loose mounts cause the headlight to shift over bumps and misalign the beam.
 
 ### Frame Rails and Underbody
@@ -899,11 +899,11 @@ After reseating all connectors and doing a full power cycle (Controls → Safety
 
 ## Related Guides
 
-- [Tesla Paint Chip Repair Guide](/posts/tesla-used-buying-inspection-guide/) — Fix chips on the newly accessible bumper surface
+- [Tesla Paint Chip Repair Guide](/posts/tesla-paint-chip-repair/) — Fix chips on the newly accessible bumper surface
 - [Tesla Headlight Replacement Guide](/posts/tesla-headlight-replacement/) — With the bumper off, headlight access is straightforward
-- [Tesla PPF Installation Guide](/posts/tesla-used-buying-inspection-guide/) — Many PPF installers remove the bumper for a full, edge-free wrap
-- [Tesla Headlight Condensation Fix](/posts/tesla-headlight-replacement/) — While the bumper is off, inspect headlight seals
-- [Tesla Parking Sensor Replacement](/posts/tesla-headlight-replacement/) — USS sensors are accessed through the removed bumper
+- [Tesla PPF Installation Guide](/posts/tesla-ppf-installation/) — Many PPF installers remove the bumper for a full, edge-free wrap
+- [Tesla Headlight Condensation Fix](/posts/tesla-headlight-condensation/) — While the bumper is off, inspect headlight seals
+- [Tesla Parking Sensor Replacement](/posts/tesla-parking-sensor-replacement/) — USS sensors are accessed through the removed bumper
 - [Tesla Panel Gap Adjustment](/posts/tesla-panel-gap-adjustment/) — Get bumper-to-fender gaps dialed in after reinstallation
 - [Tesla Jack Points and Lifting Guide](/posts/tesla-jack-points-lifting-guide/) — How to safely raise the car before this job
 

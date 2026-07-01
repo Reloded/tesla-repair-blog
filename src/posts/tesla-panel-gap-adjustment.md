@@ -219,9 +219,9 @@ This order prevents "chasing" adjustments where fixing one panel creates a new g
 
 ## Related Guides
 
-- [Tesla Creaking and Rattling Fix](/guides/) — Interior noise related to panel fitment
+- [Tesla Creaking and Rattling Fix](/posts/tesla-creaking-rattling-fix/) — Interior noise related to panel fitment
 - [Tesla Door Handle Not Working](/posts/tesla-door-handle-not-working/) — Door alignment can affect handle function
-- [Tesla Paint Chip Repair](/posts/tesla-used-buying-inspection-guide/) — Fix chips exposed by panel edges
+- [Tesla Paint Chip Repair](/posts/tesla-paint-chip-repair/) — Fix chips exposed by panel edges
 
 ---
 
