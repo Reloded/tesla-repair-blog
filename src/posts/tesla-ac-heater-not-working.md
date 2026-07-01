@@ -312,9 +312,9 @@ The Tesla HVAC system is designed to last the life of the car. A little attentio
 ## Related Guides
 
 - [Tesla Coolant Flush & Change: Complete DIY Guide](/posts/tesla-coolant-flush-change/) — Medium · Model 3, Model Y, Model S, Model X · Cooling System
-- [Tesla AC Not Cooling? Fix It Yourself in 30 Minutes](/posts/tesla-cabin-air-filter/) — Easy to Intermediate · HVAC
-- [Tesla Heat Pump Problems: Diagnosis & Solutions](/posts/tesla-coolant-flush-change/) — Medium · Model 3, Model Y, 2021+ Model S/X · HVAC
-- [Tesla Seat Heater Not Working: DIY Troubleshooting](/posts/tesla-cabin-air-filter/) — Medium · Interior
-- [Tesla 2026.2.3 Update: Hidden Features, Battery Recalibration, Autopark & Service Mode Changes](/posts/tesla-key-fob-battery/) — Easy · Software & Tech
-- [Tesla Service Mode: How to Access It, What It Unlocks & When You Need It (2025 Guide)](/guides/) — Easy · Model 3, Model Y, Model S, Model X · Maintenance
-- [Tesla Coolant Valve Replacement: DIY Guide](/posts/tesla-coolant-flush-change/) — Advanced · Model 3, Model Y · Cooling System
+- [Tesla AC Not Cooling? Fix It Yourself in 30 Minutes](/posts/tesla-ac-not-cooling/) — Easy to Intermediate · HVAC
+- [Tesla Heat Pump Problems: Diagnosis & Solutions](/posts/tesla-heat-pump-problems/) — Medium · Model 3, Model Y, 2021+ Model S/X · HVAC
+- [Tesla Seat Heater Not Working: DIY Troubleshooting](/posts/tesla-seat-heater-fix/) — Medium · Interior
+- [Tesla 2026.2.3 Update: Hidden Features, Battery Recalibration, Autopark & Service Mode Changes](/posts/tesla-2026-2-3-software-update-features/) — Easy · Software & Tech
+- [Tesla Service Mode: How to Access It, What It Unlocks & When You Need It (2025 Guide)](/posts/tesla-service-mode-guide/) — Easy · Model 3, Model Y, Model S, Model X · Maintenance
+- [Tesla Coolant Valve Replacement: DIY Guide](/posts/tesla-battery-coolant-valve-replacement/) — Advanced · Model 3, Model Y · Cooling System

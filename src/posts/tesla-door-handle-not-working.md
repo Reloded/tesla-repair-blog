@@ -106,7 +106,7 @@ The Model S door handle is notorious for failures. The handle contains a small m
 ### DIY Repair Steps
 
 <div class="warning-box">
-<strong>Note:</strong> Model S door handle repair requires removing the door panel. This is an intermediate-level repair. If you're not comfortable with trim removal, see our <a href="/posts/tesla-door-handle-not-working/">door panel removal guide</a> first.
+<strong>Note:</strong> Model S door handle repair requires removing the door panel. This is an intermediate-level repair. If you're not comfortable with trim removal, see our <a href="/posts/tesla-door-panel-removal/">door panel removal guide</a> first.
 </div>
 
 **Step 1: Remove the Door Panel**
@@ -169,7 +169,7 @@ These models have simpler mechanical handles but can still fail. The mechanism u
 
 **Issue 2: Door won't open when handle is pressed**
 - Usually a cable or door latch issue, not the handle itself
-- Check the [door latch actuator](/posts/tesla-door-handle-not-working/) before replacing the handle
+- Check the [door latch actuator](/posts/tesla-door-latch-actuator-replacement/) before replacing the handle
 
 **Issue 3: Handle button feels loose or floppy**
 - The internal pivot bushing is worn
@@ -191,7 +191,7 @@ These models have simpler mechanical handles but can still fail. The mechanism u
 **Difficulty:** Intermediate  
 **Parts needed:** Replacement handle assembly (~$30–80) — [see options on Amazon DE](https://www.amazon.de/s?k=tesla+model+3+door+handle+replacement&tag=diyrepair-21) or [Amazon US](https://www.amazon.com/s?k=tesla+model+3+door+handle+replacement&tag=diyrepair07-20)
 
-1. Remove the interior door panel — see our [door panel removal guide](/posts/tesla-door-handle-not-working/) for the full procedure
+1. Remove the interior door panel — see our [door panel removal guide](/posts/tesla-door-panel-removal/) for the full procedure
 2. Locate the handle cable anchor point inside the door — it connects to the latch
 3. Unclip the cable end from the latch actuator
 4. Remove the two handle mounting bolts from inside the door cavity (T25 Torx)
@@ -240,7 +240,7 @@ For falcon wing door issues:
 3. Follow on-screen instructions (ensure you have 3+ feet of clearance above and to the sides)
 4. The calibration takes ~2 minutes
 
-For deeper Falcon Wing issues, see our [Tesla Falcon Wing Door Fix guide](/posts/tesla-door-handle-not-working/).
+For deeper Falcon Wing issues, see our [Tesla Falcon Wing Door Fix guide](/posts/tesla-falcon-wing-door-fix/).
 
 ## When to Replace vs. Repair
 
@@ -338,10 +338,10 @@ Spray silicone lubricant on handle pivot points and door seals before winter. Pr
 
 ## Related Guides
 
-- [Tesla Door Panel Removal](/posts/tesla-door-handle-not-working/) — Required first step for handle access on all models
+- [Tesla Door Panel Removal](/posts/tesla-door-panel-removal/) — Required first step for handle access on all models
 - [Tesla Emergency Door Release](/posts/tesla-emergency-door-release/) — How to get in when everything fails
-- [Tesla Door Latch Actuator Replacement](/posts/tesla-door-handle-not-working/) — When the handle works but the door won't open
-- [Tesla Door Seal Maintenance](/posts/tesla-door-handle-not-working/) — Keep seals healthy to prevent freezing
+- [Tesla Door Latch Actuator Replacement](/posts/tesla-door-latch-actuator-replacement/) — When the handle works but the door won't open
+- [Tesla Door Seal Maintenance](/posts/tesla-door-seal-maintenance/) — Keep seals healthy to prevent freezing
 - [Tesla Winter Preparation Guide](/posts/tesla-winter-preparation-guide/) — Full cold-weather prep including door handles
-- [Tesla Phone Key Not Working](/posts/tesla-key-fob-battery/) — Alternative entry if handle fails
+- [Tesla Phone Key Not Working](/posts/tesla-phone-key-not-working/) — Alternative entry if handle fails
 - [Tesla Frunk Won't Open](/posts/tesla-frunk-wont-open/) — Front trunk latch troubleshooting

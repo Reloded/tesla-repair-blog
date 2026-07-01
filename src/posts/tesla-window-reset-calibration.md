@@ -84,7 +84,7 @@ If the issue persists after trying this a couple of times, contact Tesla service
 
 For persistent issues, you can use Service Mode (requires enabling it first):
 
-1. Enable Service Mode on the touchscreen (see our [Service Mode guide](/guides/) for details)
+1. Enable Service Mode on the touchscreen (see our [Service Mode guide](/posts/tesla-service-mode-guide/) for details)
 2. Go to **Controls > Service Mode > Closures > Windows**
 3. Tap each window's **Calibrate** button
 4. The selected window will roll up and down automatically
@@ -99,7 +99,7 @@ For persistent issues, you can use Service Mode (requires enabling it first):
 When individual window calibration doesn't hold, a full reboot can clear software glitches that interfere with window position memory:
 
 1. Park the car and put it in Park
-2. Hold both scroll wheels on the steering wheel for 10-15 seconds until the screen goes black (see our [screen reboot guide](/posts/tesla-screen-black-fix/) for details)
+2. Hold both scroll wheels on the steering wheel for 10-15 seconds until the screen goes black (see our [screen reboot guide](/posts/tesla-screen-frozen-reboot/) for details)
 3. Wait for the Tesla logo to appear and the system to fully restart (about 2 minutes)
 4. Once the touchscreen is fully loaded, perform Method 1 on each affected window
 
@@ -113,12 +113,12 @@ While the calibration procedure is the same across all Teslas, there are a few m
 
 - **Frameless windows** make proper calibration especially important — without a frame, the window relies entirely on calibration to know where to stop against the door seal
 - The window drops slightly when you open the door handle and rises when the door closes. If this drop-and-rise motion stops working, recalibrate immediately
-- On the 2026 Model 3 Highland and [Model Y Juniper](/news/), the window calibration procedure is identical to pre-refresh models
+- On the 2026 Model 3 Highland and [Model Y Juniper](/posts/tesla-model-y-juniper-2026-problems/), the window calibration procedure is identical to pre-refresh models
 
 ### Model S & Model X
 
 - Model S has frameless windows similar to Model 3/Y — same calibration importance
-- Model X [falcon wing doors](/posts/tesla-door-handle-not-working/) have separate window systems from the front doors — calibrate them independently
+- Model X [falcon wing doors](/posts/tesla-falcon-wing-door-fix/) have separate window systems from the front doors — calibrate them independently
 - Model X front windows can occasionally lose calibration when falcon wing doors are serviced
 
 ## Cold Weather Window Issues
@@ -154,8 +154,8 @@ Several things can cause calibration to drift:
 - **Temperature extremes** - Rubber seals expand and contract, shifting the calibration point
 - **Dirty window tracks** - Resistance causes the motor to misjudge position
 - **Worn seals** - Change the expected stopping point
-- **[Phantom battery drain](/posts/tesla-12v-battery-replacement/)** - If the 12V system drops low enough, window memory can reset
-- **After a touchscreen reboot** - Soft reboots rarely affect windows, but [hard resets](/posts/tesla-screen-black-fix/) sometimes do
+- **[Phantom battery drain](/posts/tesla-phantom-battery-drain-fix/)** - If the 12V system drops low enough, window memory can reset
+- **After a touchscreen reboot** - Soft reboots rarely affect windows, but [hard resets](/posts/tesla-screen-frozen-reboot/) sometimes do
 
 ## Cleaning Window Tracks
 
@@ -203,7 +203,7 @@ Contact Tesla service if:
 - You hear clicking sounds but the window doesn't move
 - The window works from the touchscreen but not from the physical switch (or vice versa)
 
-If you need to diagnose further before visiting service, an [OBD2 scanner](/posts/tesla-maintenance-schedule/) can read window motor fault codes on some Tesla models.
+If you need to diagnose further before visiting service, an [OBD2 scanner](/posts/tesla-obd2-scanner-diagnostics/) can read window motor fault codes on some Tesla models.
 
 ## Troubleshooting Specific Issues
 
@@ -234,7 +234,7 @@ Could indicate a failing regulator:
 1. Check for debris in the track
 2. Lubricate the track with silicone spray
 3. Compare the speed to other windows — slight differences are normal, but if one is noticeably slower, the regulator may be wearing
-4. If still slow, schedule service before complete failure — a [window regulator replacement](/posts/tesla-window-reset-calibration/) is easier to plan than an emergency repair
+4. If still slow, schedule service before complete failure — a [window regulator replacement](/posts/tesla-window-regulator-replacement/) is easier to plan than an emergency repair
 
 ### All Four Windows Lost Calibration at Once
 
@@ -252,18 +252,18 @@ This almost always points to a 12V battery issue or a software event:
 | DIY Calibration | **Free** | Takes 2 minutes per window |
 | Service Center Calibration | $100-150 | If software reset needed |
 | Window Regulator Replacement | $300-500 | Parts + labor |
-| [Door Seal Replacement](/posts/tesla-door-handle-not-working/) | $50-150 | DIY with aftermarket seals |
+| [Door Seal Replacement](/posts/tesla-door-seal-maintenance/) | $50-150 | DIY with aftermarket seals |
 
 The DIY calibration fix solves about 90% of Tesla window issues at zero cost. Even if you need to clean tracks and condition seals, you're looking at under $20 in supplies.
 
 ## Related Guides
 
-- [Window Regulator Replacement](/posts/tesla-window-reset-calibration/) - If calibration doesn't fix the window
-- [Door Seal Maintenance](/posts/tesla-door-handle-not-working/) - Keep seals in good condition for proper window operation
+- [Window Regulator Replacement](/posts/tesla-window-regulator-replacement/) - If calibration doesn't fix the window
+- [Door Seal Maintenance](/posts/tesla-door-seal-maintenance/) - Keep seals in good condition for proper window operation
 - [12V Battery Replacement](/posts/tesla-12v-battery-replacement/) - A weak 12V causes window calibration loss
-- [Tesla Service Mode Guide](/guides/) - Access the built-in calibration tool
-- [Screen Frozen / Reboot Guide](/posts/tesla-screen-black-fix/) - Reboot before recalibrating stubborn windows
+- [Tesla Service Mode Guide](/posts/tesla-service-mode-guide/) - Access the built-in calibration tool
+- [Screen Frozen / Reboot Guide](/posts/tesla-screen-frozen-reboot/) - Reboot before recalibrating stubborn windows
 - [Winter Preparation Guide](/posts/tesla-winter-preparation-guide/) - Prevent cold-weather window issues
-- [Creaking and Rattling Fix](/guides/) - Window-related cabin noises
-- [Tesla New Owner Guide](/news/) - Essential tips including window calibration
+- [Creaking and Rattling Fix](/posts/tesla-creaking-rattling-fix/) - Window-related cabin noises
+- [Tesla New Owner Guide](/posts/tesla-new-owner-guide/) - Essential tips including window calibration
 - [Tesla Maintenance Schedule](/posts/tesla-maintenance-schedule/) - When to service seals and windows

@@ -89,7 +89,7 @@ Cold lithium-ion cells have higher internal resistance. The battery management s
 Without preconditioning, you might sit at a Supercharger for 15-20 minutes while the battery warms up before you even start getting useful charging speeds. That's dead time you can eliminate entirely.
 
 <div class="warning-box">
-<strong>Winter road trip tip:</strong> In sub-zero temperatures, preconditioning can make the difference between a 25-minute stop and a 60-minute stop. Always navigate to your Supercharger, no exceptions. For more winter strategies, see our <a href="/posts/tesla-12v-battery-replacement/">Battery Preconditioning Guide</a>.
+<strong>Winter road trip tip:</strong> In sub-zero temperatures, preconditioning can make the difference between a 25-minute stop and a 60-minute stop. Always navigate to your Supercharger, no exceptions. For more winter strategies, see our <a href="/posts/tesla-battery-preconditioning-guide/">Battery Preconditioning Guide</a>.
 </div>
 
 ### 2. You're at a V2 Stall and It's Sharing Power
@@ -166,7 +166,7 @@ Over time, battery degradation can reduce your maximum Supercharging rate. This 
 - The charge curve shape changes slightly
 - More time spent at lower power levels
 
-This is normal aging, not a defect. If you want to monitor your battery health in detail, an [OBD2 scanner](https://www.amazon.com/dp/B08NFNLKTK?tag=diyrepair07-20) with the Scan My Tesla app shows cell-level voltage data and actual degradation percentage. See our [Battery Degradation Guide](/posts/tesla-12v-battery-replacement/) for the full breakdown.
+This is normal aging, not a defect. If you want to monitor your battery health in detail, an [OBD2 scanner](https://www.amazon.com/dp/B08NFNLKTK?tag=diyrepair07-20) with the Scan My Tesla app shows cell-level voltage data and actual degradation percentage. See our [Battery Degradation Guide](/posts/tesla-battery-degradation-health/) for the full breakdown.
 
 ### 7. Software Limiting Your Charge Rate
 
@@ -254,7 +254,7 @@ For the most detailed data, an [OBDLink CX scanner](https://www.amazon.com/dp/B0
 - Charge current in amps
 - Internal resistance trends
 
-This is overkill for most people, but invaluable if you're diagnosing persistent slow charging or tracking [battery degradation](/posts/tesla-12v-battery-replacement/) over time.
+This is overkill for most people, but invaluable if you're diagnosing persistent slow charging or tracking [battery degradation](/posts/tesla-battery-degradation-health/) over time.
 
 ## Supercharger Etiquette and Smart Habits
 
@@ -299,7 +299,7 @@ If slow Supercharging is a recurring frustration, investing in home charging eli
 - **[Portable EV Charger (Lectron)](https://www.awin1.com/cread.php?awinmid=91891&awinaffid=2729872&ued=https%3A%2F%2Fev-lectron.com%2Fcollections%2Fev-chargers):** Flexible option for renters or second homes
 - **Standard wall outlet:** 2-3 kW — slow but enough for overnight top-ups
 
-Home charging means you leave every morning at 80-90%, and Supercharging becomes a road-trip-only activity. See our [Wall Connector Installation Guide](/posts/tesla-wall-connector-installation/) and [Charging Adapter Guide](/posts/tesla-supercharger-slow/) for details.
+Home charging means you leave every morning at 80-90%, and Supercharging becomes a road-trip-only activity. See our [Wall Connector Installation Guide](/posts/tesla-wall-connector-installation/) and [Charging Adapter Guide](/posts/tesla-charging-adapter-guide/) for details.
 
 ---
 
@@ -307,13 +307,13 @@ Home charging means you leave every morning at 80-90%, and Supercharging becomes
 
 ## Related Guides
 
-- [Tesla Battery Preconditioning: Faster Charging & Better Range](/posts/tesla-12v-battery-replacement/) — The #1 fix for slow Supercharging
-- [Tesla Slow Charging Fix (Home Charging)](/posts/tesla-supercharger-slow/) — Troubleshoot slow home charging speeds
+- [Tesla Battery Preconditioning: Faster Charging & Better Range](/posts/tesla-battery-preconditioning-guide/) — The #1 fix for slow Supercharging
+- [Tesla Slow Charging Fix (Home Charging)](/posts/tesla-slow-charging-fix/) — Troubleshoot slow home charging speeds
 - [Tesla Charge Port Stuck: How to Open It](/posts/tesla-charge-port-stuck/) — Can't plug in at the Supercharger
-- [Tesla Range Loss: Why It Happens & How to Fix It](/posts/tesla-12v-battery-replacement/) — Maximize range between charging stops
-- [Tesla Charging Adapter Guide](/posts/tesla-supercharger-slow/) — Every adapter for every charging scenario
+- [Tesla Range Loss: Why It Happens & How to Fix It](/posts/tesla-range-loss-fix/) — Maximize range between charging stops
+- [Tesla Charging Adapter Guide](/posts/tesla-charging-adapter-guide/) — Every adapter for every charging scenario
 - [Tesla Wall Connector Installation Guide](/posts/tesla-wall-connector-installation/) — Home charging setup
-- [Tesla Battery Degradation: What's Normal vs What's a Problem](/posts/tesla-12v-battery-replacement/) — Long-term battery health
-- [Tesla Road Trip Planning Guide](/posts/tesla-winter-preparation-guide/) — Optimize Supercharger stops
-- [Tesla Mobile Connector Issues](/posts/tesla-supercharger-slow/) — Home charging equipment problems
+- [Tesla Battery Degradation: What's Normal vs What's a Problem](/posts/tesla-battery-degradation-health/) — Long-term battery health
+- [Tesla Road Trip Planning Guide](/posts/tesla-road-trip-planning-guide/) — Optimize Supercharger stops
+- [Tesla Mobile Connector Issues](/posts/tesla-mobile-connector-issues/) — Home charging equipment problems
 - [Tesla Winter Preparation Guide](/posts/tesla-winter-preparation-guide/) — Cold weather charging strategies

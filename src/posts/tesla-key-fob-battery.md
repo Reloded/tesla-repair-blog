@@ -40,7 +40,7 @@ If your Tesla Model S or Model X key fob stops working or shows reduced range, t
 This guide covers both the Model S and Model X key fobs, including the newer refreshed versions, troubleshooting passive entry issues, and what to do when a new battery doesn't fix the problem.
 
 <div class="info-box">
-<strong>Model 3 and Model Y Owners:</strong> These models use key cards and phone keys instead of fobs. The key card has no battery—if it stops working, it may be damaged and needs replacement ($25 from Tesla). See our <a href="/posts/tesla-key-card-not-working/">key card troubleshooting guide</a> or <a href="/posts/tesla-key-fob-battery/">phone key fix guide</a> instead.
+<strong>Model 3 and Model Y Owners:</strong> These models use key cards and phone keys instead of fobs. The key card has no battery—if it stops working, it may be damaged and needs replacement ($25 from Tesla). See our <a href="/posts/tesla-key-card-not-working/">key card troubleshooting guide</a> or <a href="/posts/tesla-phone-key-not-working/">phone key fix guide</a> instead.
 </div>
 
 ## Symptoms of a Dying Key Fob Battery
@@ -166,7 +166,7 @@ Place the dead fob flat against the **driver-side B-pillar** (the pillar between
 Place the dead fob in the **center console cup holder area** or against the NFC reader behind the cup holders. The car will detect it and allow you to drive.
 
 <div class="info-box">
-<strong>Always Have a Backup:</strong> Set up the <a href="/posts/tesla-key-fob-battery/">Tesla phone key</a> on your smartphone. If your fob dies unexpectedly, your phone can unlock and start the car via Bluetooth. You can also keep a <a href="/posts/tesla-key-card-not-working/">key card</a> in your wallet as a third backup.
+<strong>Always Have a Backup:</strong> Set up the <a href="/posts/tesla-phone-key-not-working/">Tesla phone key</a> on your smartphone. If your fob dies unexpectedly, your phone can unlock and start the car via Bluetooth. You can also keep a <a href="/posts/tesla-key-card-not-working/">key card</a> in your wallet as a third backup.
 </div>
 
 ## Passive Entry Not Working After Battery Change
@@ -229,8 +229,8 @@ If a fresh, correctly oriented CR2032 doesn't fix the problem, the issue is with
 ## Related Guides
 
 - [Tesla Key Card Not Working](/posts/tesla-key-card-not-working/) — Troubleshoot your backup key card
-- [Phone Key Not Working](/posts/tesla-key-fob-battery/) — Set up and fix your phone as a Tesla key
+- [Phone Key Not Working](/posts/tesla-phone-key-not-working/) — Set up and fix your phone as a Tesla key
 - [Door Handle Not Working](/posts/tesla-door-handle-not-working/) — When the fob works but handles don't present
-- [Bluetooth Issues](/posts/tesla-key-fob-battery/) — Fix Bluetooth connectivity that affects phone key and fob
+- [Bluetooth Issues](/posts/tesla-bluetooth-issues/) — Fix Bluetooth connectivity that affects phone key and fob
 - [12V Battery Replacement](/posts/tesla-12v-battery-replacement/) — Low 12V battery can affect fob detection and passive entry
-- [Tesla New Owner Guide](/news/) — Complete setup guide including key configuration
+- [Tesla New Owner Guide](/posts/tesla-new-owner-guide/) — Complete setup guide including key configuration

@@ -276,13 +276,13 @@ Most "Tesla won't start" situations are solved by either **jumping/replacing the
 
 - [Tesla 12V Battery Replacement: Step-by-Step DIY (Save €200+)](/posts/tesla-12v-battery-replacement/) — Easy · Electrical
 - [Tesla Key Fob Battery Replacement: 2-Minute Fix](/posts/tesla-key-fob-battery/) — Easy · Model S, Model X · Electrical
-- [Tesla MCU Upgrade: Is It Worth It? Complete Guide](/posts/tesla-screen-black-fix/) — Hard · Model S, Model X (Pre-2018) · Electrical
-- [Tesla Trunk Wiring Harness Repair: Fix Broken Wires (Model 3/Y)](/posts/tesla-trunk-latch-replacement/) — Intermediate · Model 3, Model Y · Electrical
-- [Tesla 2026.2.3 Update: Hidden Features, Battery Recalibration, Autopark & Service Mode Changes](/posts/tesla-key-fob-battery/) — Easy · Software & Tech
-- [How to Install Tesla Ambient Interior Lighting (Model 3/Y)](/posts/tesla-cabin-air-filter/) — Medium · Model 3, Model Y · Interior
-- [Tesla Battery Degradation: How to Check Health & Maximize Lifespan](/posts/tesla-12v-battery-replacement/) — Easy · Battery
+- [Tesla MCU Upgrade: Is It Worth It? Complete Guide](/posts/tesla-mcu-touchscreen-upgrade/) — Hard · Model S, Model X (Pre-2018) · Electrical
+- [Tesla Trunk Wiring Harness Repair: Fix Broken Wires (Model 3/Y)](/posts/tesla-trunk-wiring-harness-repair/) — Intermediate · Model 3, Model Y · Electrical
+- [Tesla 2026.2.3 Update: Hidden Features, Battery Recalibration, Autopark & Service Mode Changes](/posts/tesla-2026-2-3-software-update-features/) — Easy · Software & Tech
+- [How to Install Tesla Ambient Interior Lighting (Model 3/Y)](/posts/tesla-ambient-lighting-install/) — Medium · Model 3, Model Y · Interior
+- [Tesla Battery Degradation: How to Check Health & Maximize Lifespan](/posts/tesla-battery-degradation-health/) — Easy · Battery
 - [Tesla Pyrofuse Explained: What It Does, When It Blows & What to Do](/posts/tesla-pyrofuse-guide/) — Advanced · Electrical
 - [Tesla Emergency Door Release: How to Get Out When Power Fails](/posts/tesla-emergency-door-release/) — Know this before you need it
 - [Tesla Charge Port Stuck? How to Open It](/posts/tesla-charge-port-stuck/) — Stuck charge port can prevent charging a dead car
-- [Tesla Phantom Battery Drain Fix](/posts/tesla-12v-battery-replacement/) — Prevent the 12V drain that causes "won't start"
-- [Tesla Recall Check Guide](/posts/tesla-maintenance-schedule/) — Some recalls address power loss and safety issues
+- [Tesla Phantom Battery Drain Fix](/posts/tesla-phantom-battery-drain-fix/) — Prevent the 12V drain that causes "won't start"
+- [Tesla Recall Check Guide](/posts/tesla-recall-check-guide/) — Some recalls address power loss and safety issues

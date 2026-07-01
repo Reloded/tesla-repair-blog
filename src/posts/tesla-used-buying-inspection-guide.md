@@ -96,7 +96,7 @@ Walk away or negotiate hard if you see:
 - **Battery was replaced under warranty** for thermal runaway or coolant intrusion — ask if the cooling system was also addressed
 - **BMS errors in the log** — cell balancing failures, contactors sticking
 
-For a deeper dive on battery health monitoring, see our [Tesla Battery Degradation & Health Guide](/posts/tesla-12v-battery-replacement/).
+For a deeper dive on battery health monitoring, see our [Tesla Battery Degradation & Health Guide](/posts/tesla-battery-degradation-health/).
 
 ## Exterior Inspection
 
@@ -108,7 +108,7 @@ Tesla's paint is notoriously thin, especially on 2018-2021 cars from Fremont. Br
 - **Repainted panels:** 200+ microns (could indicate accident repair)
 - **Bare spots or sub-80 microns:** Factory defect, common on early Model 3
 
-Check the usual spots: lower door edges, rear quarter panels, front bumper (stone chips), A-pillars. For paint repair options, see our [Tesla Paint Chip Repair Guide](/posts/tesla-used-buying-inspection-guide/).
+Check the usual spots: lower door edges, rear quarter panels, front bumper (stone chips), A-pillars. For paint repair options, see our [Tesla Paint Chip Repair Guide](/posts/tesla-paint-chip-repair/).
 
 ### Panel Gaps
 
@@ -128,7 +128,7 @@ Uneven panels aren't always a deal-breaker (it might be factory), but dramatical
 - **Tire wear pattern** — uneven inner-edge wear is common and suggests alignment issues or worn suspension components. Teslas eat tires, especially rear tires on RWD cars.
 - **Matching tires** — all four should be the same brand and model. Mismatched tires suggest the owner was cutting corners.
 
-For wheel repairs, see our [Curb Rash Repair Guide](/posts/tesla-tire-rotation/).
+For wheel repairs, see our [Curb Rash Repair Guide](/posts/tesla-curb-rash-wheel-repair/).
 
 ### Underbody
 
@@ -138,7 +138,7 @@ Get under the car if possible (or use your phone camera):
 - **Suspension components** — check for rust on control arms and subframe bolts. Surface rust is normal in cold climates. Flaking rust is a concern.
 - **Coolant lines** — look for any green/orange residue under the car, especially around the front subframe area.
 
-More on protecting the underside in our [Rust Prevention & Undercoating Guide](/posts/tesla-used-buying-inspection-guide/).
+More on protecting the underside in our [Rust Prevention & Undercoating Guide](/posts/tesla-rust-prevention-undercoating/).
 
 ## Interior Inspection
 
@@ -151,7 +151,7 @@ The screen is the car's brain. Check carefully:
 - **Dead pixels or discoloration** — look for dark spots or uneven brightness.
 - **eMMC wear** — on MCU1 cars, ask if the eMMC chip has been replaced. If not, it will need it eventually (the original 8GB chip wears out from logging).
 
-See our [MCU & Touchscreen Upgrade Guide](/posts/tesla-screen-black-fix/) for options.
+See our [MCU & Touchscreen Upgrade Guide](/posts/tesla-mcu-touchscreen-upgrade/) for options.
 
 ### Seats and Interior Trim
 
@@ -168,16 +168,16 @@ Run both heating and cooling during the test:
 - **A/C performance** — should blow cold within 60 seconds. Weak cooling could mean a refrigerant leak or failing compressor.
 - **Cabin filter smell** — musty smell on fan startup means the cabin filter hasn't been changed. Not a deal-breaker but indicates maintenance neglect.
 
-For climate issues, check our [AC & Heater Troubleshooting Guide](/posts/tesla-ac-heater-not-working/) and [Heat Pump Problems Guide](/posts/tesla-coolant-flush-change/).
+For climate issues, check our [AC & Heater Troubleshooting Guide](/posts/tesla-ac-heater-not-working/) and [Heat Pump Problems Guide](/posts/tesla-heat-pump-problems/).
 
 ## Driving Test
 
 ### What to Listen For
 
 - **Clunking over bumps** — likely worn control arms (front) or sway bar links. Common on cars over 60,000 km. Budget €300-800 for parts plus labor.
-- **Clicking during tight turns** — CV joint or half-shaft issue. More common on dual motor cars. See our [Half-Shaft Clicking Fix](/posts/tesla-suspension-noise-fix/).
+- **Clicking during tight turns** — CV joint or half-shaft issue. More common on dual motor cars. See our [Half-Shaft Clicking Fix](/posts/tesla-halfshaft-clicking-fix/).
 - **Humming or whining from the drive unit** — some whine is normal on Tesla motors. Excessive or changing pitch under load could indicate bearing wear.
-- **Rattles from the dashboard or doors** — common on all Teslas. Annoying but usually fixable. See our [Creaking & Rattling Fix Guide](/guides/).
+- **Rattles from the dashboard or doors** — common on all Teslas. Annoying but usually fixable. See our [Creaking & Rattling Fix Guide](/posts/tesla-creaking-rattling-fix/).
 
 ### Brakes
 
@@ -302,7 +302,7 @@ Once you own it:
 
 1. **Change the cabin air filter** immediately — you don't know when it was last done. See our [Cabin Air Filter Guide](/posts/tesla-cabin-air-filter/).
 2. **Check the 12V battery** — if it's original and the car is 3+ years old, replace it proactively. A dead 12V battery means you can't open the doors. See our [12V Battery Replacement Guide](/posts/tesla-12v-battery-replacement/).
-3. **Get a wheel alignment** — baseline it fresh so you know where you're starting from. See our [Wheel Alignment Guide](/posts/tesla-suspension-noise-fix/).
+3. **Get a wheel alignment** — baseline it fresh so you know where you're starting from. See our [Wheel Alignment Guide](/posts/tesla-wheel-alignment-diy/).
 4. **Register on Tesla.com** — transfer the car to your account for app access, service scheduling, and software updates.
 5. **Check tire condition** and rotate if needed. See our [Tire Rotation Guide](/posts/tesla-tire-rotation/).
 
@@ -312,15 +312,15 @@ A well-maintained used Tesla is one of the best car purchases you can make — l
 
 ## Related Guides
 
-- [Tesla Battery Replacement Cost: What It Really Costs in 2025](/posts/tesla-12v-battery-replacement/) — Informational · Model 3, Model Y, Model S, Model X · Battery & Electrical
+- [Tesla Battery Replacement Cost: What It Really Costs in 2025](/posts/tesla-battery-replacement-cost/) — Informational · Model 3, Model Y, Model S, Model X · Battery & Electrical
 - [Tesla Winter Preparation: Complete Cold Weather Checklist](/posts/tesla-winter-preparation-guide/) — Easy · Maintenance
-- [Tesla 2026.2.3 Update: Hidden Features, Battery Recalibration, Autopark & Service Mode Changes](/posts/tesla-key-fob-battery/) — Easy · Software & Tech
-- [Tesla Coolant Leak: How to Find & Fix It (DIY Guide)](/posts/tesla-coolant-flush-change/) — Medium · Cooling System
-- [Tesla Dent Repair: PDR, DIY Methods & Cost Guide](/posts/tesla-used-buying-inspection-guide/) — Medium · Exterior
+- [Tesla 2026.2.3 Update: Hidden Features, Battery Recalibration, Autopark & Service Mode Changes](/posts/tesla-2026-2-3-software-update-features/) — Easy · Software & Tech
+- [Tesla Coolant Leak: How to Find & Fix It (DIY Guide)](/posts/tesla-coolant-leak-fix/) — Medium · Cooling System
+- [Tesla Dent Repair: PDR, DIY Methods & Cost Guide](/posts/tesla-dent-repair-pdr-guide/) — Medium · Exterior
 - [Tesla Door Handle Not Working? DIY Fix (Save $500+)](/posts/tesla-door-handle-not-working/) — Intermediate · Body & Exterior
-- [Tesla Falcon Wing Door Problems: DIY Fixes](/posts/tesla-door-handle-not-working/) — Medium · Model X · Body
-- [Tesla OBD2 Scanner & Diagnostics Guide](/posts/tesla-maintenance-schedule/) — Essential tool for pre-purchase battery health checks
-- [Tesla Battery Degradation & Health Guide](/posts/tesla-12v-battery-replacement/) — What's normal degradation vs a problem
-- [Tesla Recall Check Guide](/posts/tesla-maintenance-schedule/) — How to verify all recalls are completed before buying
+- [Tesla Falcon Wing Door Problems: DIY Fixes](/posts/tesla-falcon-wing-door-fix/) — Medium · Model X · Body
+- [Tesla OBD2 Scanner & Diagnostics Guide](/posts/tesla-obd2-scanner-diagnostics/) — Essential tool for pre-purchase battery health checks
+- [Tesla Battery Degradation & Health Guide](/posts/tesla-battery-degradation-health/) — What's normal degradation vs a problem
+- [Tesla Recall Check Guide](/posts/tesla-recall-check-guide/) — How to verify all recalls are completed before buying
 - [Tesla Maintenance Schedule](/posts/tesla-maintenance-schedule/) — Know what service history to look for
-- [Tesla Tire Pressure Guide](/posts/tesla-tire-rotation/) — Check tire condition as part of your inspection
+- [Tesla Tire Pressure Guide](/posts/tesla-tire-pressure-guide/) — Check tire condition as part of your inspection

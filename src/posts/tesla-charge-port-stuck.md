@@ -32,7 +32,7 @@ Common causes:
 - **Low 12V battery** - Not enough power to release latch (see [12V battery replacement](/posts/tesla-12v-battery-replacement/))
 - **Charging session still active** - Charger hasn't ended the session
 - **Misaligned latch pins** - Wear or corrosion on the locking pins
-- **Aftermarket adapter stuck** - CCS or J1772 adapters can jam if not seated properly (see our [charging adapter guide](/posts/tesla-supercharger-slow/))
+- **Aftermarket adapter stuck** - CCS or J1772 adapters can jam if not seated properly (see our [charging adapter guide](/posts/tesla-charging-adapter-guide/))
 
 ## Quick Fixes to Try First
 
@@ -214,7 +214,7 @@ CCS2 adapters add a second locking point that can jam:
 1. Try unlocking the charge port via the Tesla app first
 2. Press the release button on the CCS2 adapter itself (not the charge port)
 3. Wiggle the adapter gently while pressing the release
-4. If the adapter is physically jammed, check for [debris or ice](/posts/tesla-supercharger-slow/) in the CCS2 coupler
+4. If the adapter is physically jammed, check for [debris or ice](/posts/tesla-charging-adapter-guide/) in the CCS2 coupler
 
 ### Stuck at a Public J1772/Type 2 Charger
 
@@ -275,12 +275,12 @@ The charge port latch mechanism and rubber seals contract in freezing temperatur
 
 ## Related Guides
 
-- [Tesla Charging Port Replacement](/posts/tesla-supercharger-slow/) - Full port assembly replacement when the latch isn't the issue
-- [Tesla Slow Charging Fix](/posts/tesla-supercharger-slow/) - If your port opens but charging is slow
+- [Tesla Charging Port Replacement](/posts/tesla-charging-port-replacement/) - Full port assembly replacement when the latch isn't the issue
+- [Tesla Slow Charging Fix](/posts/tesla-slow-charging-fix/) - If your port opens but charging is slow
 - [Tesla Supercharger Slow](/posts/tesla-supercharger-slow/) - Slow speeds at Superchargers
-- [Tesla Mobile Connector Issues](/posts/tesla-supercharger-slow/) - Troubleshoot your home charging equipment
-- [Tesla Charging Adapter Guide](/posts/tesla-supercharger-slow/) - CCS2, J1772, and NACS adapter compatibility
-- [Tesla Range Loss Fix](/posts/tesla-12v-battery-replacement/) - Maximize range between charges
+- [Tesla Mobile Connector Issues](/posts/tesla-mobile-connector-issues/) - Troubleshoot your home charging equipment
+- [Tesla Charging Adapter Guide](/posts/tesla-charging-adapter-guide/) - CCS2, J1772, and NACS adapter compatibility
+- [Tesla Range Loss Fix](/posts/tesla-range-loss-fix/) - Maximize range between charges
 - [Tesla 12V Battery Replacement](/posts/tesla-12v-battery-replacement/) - Weak 12V battery can prevent latch operation
 
 <script type="application/ld+json">

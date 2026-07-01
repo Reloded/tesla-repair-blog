@@ -136,7 +136,7 @@ The car will lower to its lowest ride height setting and lock the suspension in 
 
 ### Lifting One Corner (Single Wheel Work)
 
-This is the most common scenario—[changing a tire](/posts/tesla-tire-rotation/), inspecting [brakes](/posts/tesla-brake-pad-replacement/), or replacing a [parking sensor](/posts/tesla-headlight-replacement/).
+This is the most common scenario—[changing a tire](/posts/tesla-tire-rotation/), inspecting [brakes](/posts/tesla-brake-pad-replacement/), or replacing a [parking sensor](/posts/tesla-parking-sensor-replacement/).
 
 1. **Position the jack pad puck** on your floor jack's saddle. The locating post should face up.
 2. **Roll the floor jack** under the vehicle to the lift point nearest the wheel you need to access.
@@ -157,7 +157,7 @@ Needed for work like [side mirror replacement](/posts/tesla-model-3-side-mirror-
 
 ### Lifting the Entire Vehicle (All Four Wheels)
 
-Required for jobs like [wheel alignment](/posts/tesla-suspension-noise-fix/) or comprehensive undercarriage inspection.
+Required for jobs like [wheel alignment](/posts/tesla-wheel-alignment-diy/) or comprehensive undercarriage inspection.
 
 1. Lift one side at a time—front then rear—placing jack stands at each point.
 2. Move to the opposite side and repeat.
@@ -212,7 +212,7 @@ Most Tesla models have about 140-150mm (5.5-6 inches) of ground clearance at the
 
 ### Do I need to disconnect the 12V battery before lifting?
 
-No, not for simple jacking. You should disconnect the 12V battery for electrical work (like [12V battery replacement](/posts/tesla-12v-battery-replacement/) or [MCU upgrade](/posts/tesla-screen-black-fix/)), but jacking and routine maintenance don't require it.
+No, not for simple jacking. You should disconnect the 12V battery for electrical work (like [12V battery replacement](/posts/tesla-12v-battery-replacement/) or [MCU upgrade](/posts/tesla-mcu-touchscreen-upgrade/)), but jacking and routine maintenance don't require it.
 
 ### Can I use a two-post lift at a shop?
 
@@ -233,16 +233,16 @@ Stop immediately. Lower the jack and recheck your positioning. Creaking often me
 | **Total one-time investment** | **$150-285** |
 | Tesla Service Center (single tire change) | $50-100+ |
 
-The equipment pays for itself within 2-3 uses, and you'll need it for virtually every DIY repair: [brake pads](/posts/tesla-brake-pad-replacement/), [tire rotation](/posts/tesla-tire-rotation/), [wheel bearing replacement](/posts/tesla-suspension-noise-fix/), [control arms](/posts/tesla-control-arm-replacement/), [struts](/posts/tesla-suspension-noise-fix/), and more.
+The equipment pays for itself within 2-3 uses, and you'll need it for virtually every DIY repair: [brake pads](/posts/tesla-brake-pad-replacement/), [tire rotation](/posts/tesla-tire-rotation/), [wheel bearing replacement](/posts/tesla-wheel-bearing-replacement/), [control arms](/posts/tesla-control-arm-replacement/), [struts](/posts/tesla-strut-replacement/), and more.
 
 ## Related Guides
 
 - [Tesla Tire Rotation DIY Guide](/posts/tesla-tire-rotation/)
 - [Tesla Brake Pad Replacement](/posts/tesla-brake-pad-replacement/)
-- [Tesla Wheel Alignment DIY](/posts/tesla-suspension-noise-fix/)
+- [Tesla Wheel Alignment DIY](/posts/tesla-wheel-alignment-diy/)
 - [Tesla TPMS Sensor Replacement](/posts/tesla-tpms-sensor-replacement/)
-- [Tesla Wheel Bearing Replacement](/posts/tesla-suspension-noise-fix/)
-- [Tesla Strut Replacement Guide](/posts/tesla-suspension-noise-fix/)
+- [Tesla Wheel Bearing Replacement](/posts/tesla-wheel-bearing-replacement/)
+- [Tesla Strut Replacement Guide](/posts/tesla-strut-replacement/)
 - [Tesla Control Arm Replacement](/posts/tesla-control-arm-replacement/)
 
 ## Summary
