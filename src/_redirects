@@ -12,8 +12,8 @@
 /search  /search/  301
 
 # Terafab article consolidated (was a meta-refresh stub)
-/posts/tesla-terafab-ai-chip-factory/ /posts/tesla-terafab-chip-factory-explained/ 301
-/posts/tesla-terafab-ai-chip-factory /posts/tesla-terafab-chip-factory-explained/ 301
+/posts/tesla-terafab-ai-chip-factory/ /news/ 301
+/posts/tesla-terafab-ai-chip-factory /news/ 301
 
 
 # Content prune 2026-06-15 — 115 thin/redundant articles consolidated (301 to best survivor)
