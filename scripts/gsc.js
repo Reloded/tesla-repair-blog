@@ -134,7 +134,7 @@ async function getPerformanceData(auth) {
     if (queriesResponse.data.rows && queriesResponse.data.rows.length > 0) {
       console.log(`\n🔍 Top Search Queries:`);
       queriesResponse.data.rows.forEach((row, i) => {
-        console.log(`   ${i + 1}. "${row.keys[0]}" - ${row.impressions} imp, ${row.clicks} clicks, pos ${row.position.toFixed(1)}`);
+        console.log(`   ${i + 1}. "${row.keys[0]}" - ${row.impressions} imp, ${row.clicks} clicks, ${(row.ctr * 100).toFixed(1)}% CTR, pos ${row.position.toFixed(1)}`);
       });
     }
 
@@ -153,7 +153,7 @@ async function getPerformanceData(auth) {
       console.log(`\n📄 Top Pages:`);
       pagesResponse.data.rows.forEach((row, i) => {
         const pagePath = row.keys[0].replace('https://tesladiyrepair.com', '');
-        console.log(`   ${i + 1}. ${pagePath || '/'} - ${row.impressions} imp, ${row.clicks} clicks`);
+        console.log(`   ${i + 1}. ${pagePath || '/'} - ${row.impressions} imp, ${row.clicks} clicks, ${(row.ctr * 100).toFixed(1)}% CTR, pos ${row.position.toFixed(1)}`);
       });
     }
 
@@ -166,6 +166,74 @@ async function getPerformanceData(auth) {
       throw error;
     }
   }
+}
+
+async function getPageOpportunities(auth) {
+  const webmasters = google.webmasters({ version: 'v3', auth });
+  const endDate = new Date();
+  const startDate = new Date();
+  startDate.setDate(startDate.getDate() - 28);
+  const fmt = (d) => d.toISOString().split('T')[0];
+
+  console.log('\n\n🎯 PER-PAGE QUERY BREAKDOWN');
+  console.log('═'.repeat(50));
+  console.log('For each top page: the exact queries it ranks for. 🎯 = "striking distance"');
+  console.log('(position 5–20 with real impressions = one nudge from more clicks).');
+
+  let pages = [];
+  try {
+    const pagesRes = await webmasters.searchanalytics.query({
+      siteUrl: SITE_URL,
+      requestBody: { startDate: fmt(startDate), endDate: fmt(endDate), dimensions: ['page'], rowLimit: 15 },
+    });
+    pages = pagesRes.data.rows || [];
+  } catch (e) {
+    console.log('   Could not fetch pages:', e.message);
+    return;
+  }
+
+  const opportunities = [];
+  for (const p of pages) {
+    const pageUrl = p.keys[0];
+    let rows = [];
+    try {
+      const qRes = await webmasters.searchanalytics.query({
+        siteUrl: SITE_URL,
+        requestBody: {
+          startDate: fmt(startDate),
+          endDate: fmt(endDate),
+          dimensions: ['query'],
+          dimensionFilterGroups: [{ filters: [{ dimension: 'page', operator: 'equals', expression: pageUrl }] }],
+          rowLimit: 5,
+        },
+      });
+      rows = qRes.data.rows || [];
+    } catch (e) {
+      continue;
+    }
+    const path = pageUrl.replace('https://tesladiyrepair.com', '') || '/';
+    console.log(`\n📄 ${path}`);
+    console.log(`   page total: ${p.impressions} imp, ${p.clicks} clicks, ${(p.ctr * 100).toFixed(1)}% CTR, pos ${p.position.toFixed(1)}`);
+    rows.forEach((r) => {
+      const striking = r.position >= 5 && r.position <= 20 && r.impressions >= 10;
+      const flag = striking ? ' 🎯' : '';
+      console.log(`     "${r.keys[0]}" — pos ${r.position.toFixed(1)}, ${r.impressions} imp, ${r.clicks} clk, ${(r.ctr * 100).toFixed(1)}% CTR${flag}`);
+      if (striking) opportunities.push({ path, query: r.keys[0], pos: r.position, imp: r.impressions, ctr: r.ctr });
+    });
+  }
+
+  // Rank: prioritize high impressions at page-1-edge/page-2 positions (biggest upside from a small rank gain)
+  opportunities.sort((a, b) => (b.imp * (b.pos >= 8 ? 2 : 1)) - (a.imp * (a.pos >= 8 ? 2 : 1)));
+  console.log('\n\n⭐ TOP OPPORTUNITIES — fix these pages/queries first');
+  console.log('═'.repeat(50));
+  console.log('(high impressions + position 8–20 = most clicks to gain from a page-1 push)\n');
+  if (opportunities.length === 0) {
+    console.log('   None flagged this period.');
+  }
+  opportunities.slice(0, 12).forEach((o, i) => {
+    console.log(`   ${i + 1}. ${o.path}`);
+    console.log(`      "${o.query}" — pos ${o.pos.toFixed(1)}, ${o.imp} imp, ${(o.ctr * 100).toFixed(1)}% CTR`);
+  });
 }
 
 async function getIndexingStatus(auth) {
@@ -250,6 +318,7 @@ async function main() {
     }
 
     await getPerformanceData(auth);
+    await getPageOpportunities(auth);
     await getIndexingStatus(auth);
 
     console.log('\n' + '═'.repeat(50));
