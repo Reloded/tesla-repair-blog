@@ -38,7 +38,9 @@ Tesla repair affiliate blog targeting EU market. Goal: $1000/month passive incom
 - `.planning/PROJECT.md` - Full project vision
 - `.planning/ROADMAP.md` - Development phases
 - `.planning/AFFILIATE-UPDATES-READY.md` - Pending affiliate link updates
-- `scripts/gsc.js` - Google Search Console API script
+- `.planning/GROWTH-PLAN.md` - 90-day growth plan (E-E-A-T, backlinks, LT-language, monetization)
+- `.planning/BACKLINK-KIT.md` - Ready-to-use outreach templates + linkable-data-asset plan (Pillar 2)
+- `scripts/gsc.js` - GSC API script. Now outputs **per-page query breakdown + ranked opportunities** (🎯 = striking-distance pos 5–20). Run `npm run gsc` locally.
 
 ## GSC Stats (2026-07-01 — LIVE, last 28 days)
 > Pulled via `npm run gsc` after re-auth (deleted stale token.json, re-ran OAuth). NOTE: OAuth consent screen is in "Testing" mode → refresh tokens expire every 7 days. Publish the app (Google Cloud Console → OAuth consent screen → Publish) to make it durable.
