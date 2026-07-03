@@ -357,7 +357,7 @@ After replacing a side repeater camera, the new camera needs calibration before 
 
 The calibration progress displays as a percentage on the touchscreen. On 2026.x firmware, most cars complete calibration within a single highway commute (typically 30–50 miles). On older firmware, expect 20–100 miles of mixed driving.
 
-See our full [Autopilot Camera Calibration guide](/posts/tesla-autopilot-camera-calibration/) for detailed troubleshooting if calibration gets stuck or takes longer than 150 miles.
+The Camera Calibration screen lives inside Tesla's hidden Service Mode — our [Tesla Service Mode guide](/posts/tesla-service-mode-guide/) walks through accessing it and reading the live camera feeds to confirm the new camera is detected. See also our full [Autopilot Camera Calibration guide](/posts/tesla-autopilot-camera-calibration/) for troubleshooting if calibration gets stuck or takes longer than 150 miles.
 
 <div class="warning-box">
 <strong>Do Not Use Autopilot</strong> until calibration reaches 100%. Side cameras are critical for blind-spot detection, lane change assist, and Autopilot steering. A miscalibrated camera can cause unexpected Autopilot behavior.

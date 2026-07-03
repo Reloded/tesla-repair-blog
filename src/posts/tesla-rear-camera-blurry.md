@@ -176,6 +176,8 @@ If you replace the camera:
 3. System will calibrate automatically
 4. Autopilot features may be limited during calibration
 
+You can watch calibration progress and clear it to restart from the car's hidden diagnostics menu — see our [Tesla Service Mode guide](/posts/tesla-service-mode-guide/) for the exact steps (Controls → Service → Camera Calibration).
+
 ## Checking Camera Status
 
 To verify camera operation:

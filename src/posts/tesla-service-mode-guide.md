@@ -1,7 +1,7 @@
 ---
 layout: post.njk
 title: "Tesla Service Mode: The Hidden Menu Most Owners Miss (2026)"
-description: "Access Tesla's hidden Service Mode in seconds — the diagnostics menu technicians use. Check cell voltage delta, decode alerts, calibrate cameras. No OBD tool."
+description: "Open Tesla's hidden Service Mode in 5 seconds, no tools. Decode service alerts and error codes, check HV battery health, and calibrate cameras yourself."
 date: 2026-02-26
 lastUpdated: 2026-04-18
 category: "Maintenance"
@@ -23,6 +23,8 @@ faq:
     a: "Yes. Access is identical — Controls → Software → hold 'MODEL' for 5 seconds → enter 'service'. The Cybertruck adds a 48V Low Voltage battery section (replacing the standard 12V readout), steer-by-wire diagnostics, and air suspension data on equipped models. The 48V auxiliary battery cannot be jump-started from a conventional 12V source."
   - q: "Can I share Tesla Service Mode data with my mechanic?"
     a: "Yes. Use the built-in screenshot function (hold both scroll wheel buttons until the screen flashes) while on the relevant Service Mode page. Screenshots save to an inserted USB drive, or access them via Controls → Service → Dashcam and Sentry Clips. Share the Service Alerts and HV Battery screenshots — they give an independent mechanic everything needed to estimate a repair."
+  - q: "What does the Tesla alert thc_w0134_radrightshutrnofeedbk mean?"
+    a: "It's an aero (active grille) shutter feedback error, most common on Model 3 and Model Y with a damaged or missing shutter. It's almost always harmless — Tesla Service typically clears it without action unless the shutters are visibly stuck. The matching left-side code is thc_w0133_radleftshutrnofeedbk. If your car had a minor front-end impact, check the grille area behind the bumper."
 asin_de: "B0D7F5F4HN"
 asin_com: "B0BFFRV43G"
 tools:
