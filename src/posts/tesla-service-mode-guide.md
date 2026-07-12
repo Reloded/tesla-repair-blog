@@ -628,6 +628,7 @@ Service Mode tells you *what* is wrong. These tools help you take action:
 
 ## Related Guides
 
+- [Tesla RCM Replacement & Post-Crash Reset (Toolbox)](/posts/tesla-rcm-replacement-post-crash-reset/) — When Service Mode shows restraint faults after a collision, this is the professional fix
 - [Tesla Battery Degradation: How to Check Health & Maximize Lifespan](/posts/tesla-battery-degradation-health/) — The companion guide to HV Battery diagnostics from Service Mode
 - [Tesla OBD2 Scanner & Diagnostics Guide](/posts/tesla-obd2-scanner-diagnostics/) — App-based diagnostics that expand on what Service Mode shows
 - [Tesla BMS Calibration & Battery Recalibration](/posts/tesla-bms-calibration-battery-recalibration/) — Use after Service Mode reveals cell imbalance

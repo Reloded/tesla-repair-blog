@@ -274,6 +274,7 @@ Most "Tesla won't start" situations are solved by either **jumping/replacing the
 
 ## Related Guides
 
+- [Tesla RCM Replacement & Post-Crash Reset (Toolbox)](/posts/tesla-rcm-replacement-post-crash-reset/) — If the car won't wake after a collision, post-crash states are the likely cause (professional)
 - [Tesla 12V Battery Replacement: Step-by-Step DIY (Save €200+)](/posts/tesla-12v-battery-replacement/) — Easy · Electrical
 - [Tesla Key Fob Battery Replacement: 2-Minute Fix](/posts/tesla-key-fob-battery/) — Easy · Model S, Model X · Electrical
 - [Tesla MCU Upgrade: Is It Worth It? Complete Guide](/posts/tesla-mcu-touchscreen-upgrade/) — Hard · Model S, Model X (Pre-2018) · Electrical
