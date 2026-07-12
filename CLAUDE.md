@@ -42,20 +42,19 @@ Tesla repair affiliate blog targeting EU market. Goal: $1000/month passive incom
 - `.planning/BACKLINK-KIT.md` - Ready-to-use outreach templates + linkable-data-asset plan (Pillar 2)
 - `scripts/gsc.js` - GSC API script. Now outputs **per-page query breakdown + ranked opportunities** (🎯 = striking-distance pos 5–20). Run `npm run gsc` locally.
 
-## GSC Stats (2026-07-01 — LIVE, last 28 days)
-> Pulled via `npm run gsc` after re-auth (deleted stale token.json, re-ran OAuth). NOTE: OAuth consent screen is in "Testing" mode → refresh tokens expire every 7 days. Publish the app (Google Cloud Console → OAuth consent screen → Publish) to make it durable.
+## GSC Stats (2026-07-12 — LIVE, last 28 days)
+> Re-authed again (token expires every 7 days — OAuth app still in "Testing" mode; publishing it in Google Cloud Console remains the permanent fix).
 
-| Metric | Value | vs Jan |
-|--------|-------|--------|
-| Clicks | 168 | 2 → 168 (~84x) |
-| Impressions | 29,297 | 167 → 29,297 (~175x) |
-| CTR | 0.57% | low — symptom of page-2 positions |
-| Avg Position | 12.7 | 13.6 → 12.7 |
+| Metric | 2026-07-04 | 2026-07-12 | Trend |
+|--------|-----------|-----------|-------|
+| Clicks | 171 | 188 | +10% |
+| Impressions | 29,908 | 33,812 | +13% |
+| CTR | 0.57% | 0.56% | flat |
+| Avg Position | 12.5 | **11.9** | best yet |
 
-**Top Pages (imp / clicks):** service-mode-guide (4895/12), phantom-braking-fix (6134/26), usb-not-working (2701/24), dashcam-usb-setup (2685/12), side-repeater-camera (2390/15), software-update-stuck (1495/13), navigation-not-working (771/7), rear-camera-blurry (665/12), creaking-rattling (949/15)
-**Top Queries:** "tesla phantom braking 2026" (pos 4.2), "thc_w0134_radrightshutrnofeedbk" (error code! pos 8.6), "tesla side camera replacement cost" (pos 8.8), "tesla not recognizing usb" (pos 9.1)
-**Indexing:** sitemap 45 submitted / 0 indexed reported (note: sitemap only lists current posts; GSC indexes far more — the 0 is a reporting lag, investigate).
-**Takeaways:** (1) error-code queries (thc_w0134...) rank + convert — lean into these. (2) Many top pages sit at pos 8-13 = striking distance for page 1. (3) CTR 0.57% is the big lever alongside position.
+**🎯 Striking-distance queries all improved this week:** thc_w0134 error code 8.1→7.7, "side camera replacement cost" 8.8→7.6, "not recognizing usb" 8.8→8.4, "tesla diy guide" 6.7→6.2. service-mode-guide recovering (pos 16.6, clicks 11→17; new meta/FAQ live Jul 3-4, full effect expected in 2-4 wks). Risers: software-update-stuck (13→20 clicks), trunk-strut-replacement entered top-5 (4→12 clicks — June enhancement paying off).
+**Indexing:** sitemap still reports 160 submitted / 0 indexed — reporting quirk (pages clearly indexed, they rank); low priority.
+**Next data check:** ~2 weeks (late July) for the service-mode CTR verdict.
 
 ## Analytics Stats (2026-01-25 — STALE, refresh locally)
 | Metric | Value | Change |
