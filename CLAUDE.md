@@ -22,8 +22,8 @@ Tesla repair affiliate blog targeting EU market. Goal: $1000/month passive incom
 ## Affiliate Programs
 | Program | Status | ID | Notes |
 |---------|--------|-----|-------|
-| Amazon.de | **LIVE** | diyrepair-21 | Geo-detected buttons (Cloudflare trace, Apr 19) |
-| Amazon.com | **LIVE** | diyrepair07-20 | Geo-detected buttons |
+| Amazon.de | **CLOSED** | diyrepair-21 | Closed by Amazon 2026-07 for inactivity (<3 sales in 180 days). Links still resolve, earn nothing. Reapply ONLY once traffic supports 3 sales/180d → new tag ID → bulk link swap needed (Claude can do in one pass). |
+| Amazon.com | **CHECK** | diyrepair07-20 | Same 3-sales/180d rule — owner to verify status at affiliate-program.amazon.com (login directly, not via email links) |
 | Lectron (Awin) | **LIVE** | 2729872 | Charging articles |
 | iFixit (Sovrn) | **LIVE** | sovrn.co/... | Repair tool links |
 | RR Car Parts | **LIVE** | (employer) | ~20 articles; dead links cleaned 2026-03-14 |
@@ -240,6 +240,12 @@ CTR pass on titles + meta descriptions (the item flagged above). Note: the `<tit
 - [x] 92 meta descriptions rewritten to ≤160 chars (was up to 270)
 - 111 files changed total. Verified: clean build, every title ≤60 / every description ≤160, no duplicate titles/descriptions, all JSON-LD valid, 0 broken links/images. Titles feed H1 + breadcrumbs + Article JSON-LD headline, all confirmed rendering correctly.
 - Specs/numbers preserved (torque, capacities, prices, model lists); no factual claims altered.
+
+## Session 2026-07-12b (Amazon.de account closed)
+- Amazon.de Partnerprogramm closed `diyrepair-21` for inactivity (<3 sales in 180 days) — standard policy, not a ban. Confirms Amazon was earning ~$0.
+- No site changes made: links still resolve for users, dead tag is ignored by Amazon. When traffic justifies reapplying, new tag ID → one-pass bulk swap of ~1,100 amazon.de links.
+- Decision: do NOT reapply until striking-distance pages reach page 1 and traffic can clear 3 sales/180d. Doubles down on monetization rethink: RR Car Parts (collision parts + new RCM article funnel), VIN TESLA, future lead-gen > Amazon pennies.
+- TODO for owner: check Amazon.com (`diyrepair07-20`) status — same closure rule applies.
 
 ## Session 2026-07-01 (real GSC data → prune REVERTED)
 Pulled the first live GSC data since January (re-authed OAuth). It overturned the working assumption:
