@@ -241,6 +241,15 @@ CTR pass on titles + meta descriptions (the item flagged above). Note: the `<tit
 - 111 files changed total. Verified: clean build, every title ≤60 / every description ≤160, no duplicate titles/descriptions, all JSON-LD valid, 0 broken links/images. Titles feed H1 + breadcrumbs + Article JSON-LD headline, all confirmed rendering correctly.
 - Specs/numbers preserved (torque, capacities, prices, model lists); no factual claims altered.
 
+## Session 2026-07-18 (first real indexing audit — MAJOR finding)
+Ran the new URL Inspection tool over all 161 sitemap URLs. **Only 21 pages (13%) are indexed.** The rest: 65 "Discovered - currently not indexed" (never crawled), 55 "URL is unknown to Google", 18 "Crawled - currently not indexed" (crawled, declined), 2 "Page with redirect".
+- **All traffic comes from the ~21 indexed pages.** The other ~140 contribute nothing — Google has effectively declined to index the scaled AI content (quality/authority threshold, NOT a technical issue: canonicals, robots.txt, sitemap all verified clean).
+- **Proof the unique-content strategy works: the RCM collision article got indexed within 6 days of publish** while 140 pages have waited months. Unique real-expertise content clears Google's bar; templated content doesn't.
+- **Prune-window casualty:** rear-camera-blurry + creaking-rattling (both active traffic pages) were crawled 2026-07-01 during the ~2-day prune window and are stuck as "Page with redirect" → owner to Request Indexing in GSC UI ASAP.
+- Note: some churn observed (autopilot-camera-calibration has impressions but shows "Crawled - not indexed" as of Jun 17 — pages drift in/out at the quality margin).
+- **Owner action list (GSC UI → URL Inspection → Request Indexing, ~10/day quota):** Day 1: rear-camera-blurry, creaking-rattling-fix, /about/, winter-preparation-guide, brake-pad-replacement, wont-start-turn-on, pyrofuse-guide, used-buying-inspection-guide, supercharger-slow, cabin-air-filter. Day 2: /tools/, 12 more cornerstone pages.
+- **Strategy implication:** (1) backlinks/authority raise the whole site's indexing threshold — same #1 lever as before; (2) new content should be collision-cluster / real-expertise style (indexed in days), NOT more templated guides (never indexed); (3) later, consider evidence-based consolidation of never-indexed zero-impression pages — but only with this per-URL data, never a blind prune again.
+
 ## Session 2026-07-12b (Amazon.de account closed)
 - Amazon.de Partnerprogramm closed `diyrepair-21` for inactivity (<3 sales in 180 days) — standard policy, not a ban. Confirms Amazon was earning ~$0.
 - No site changes made: links still resolve for users, dead tag is ignored by Amazon. When traffic justifies reapplying, new tag ID → one-pass bulk swap of ~1,100 amazon.de links.
