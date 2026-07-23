@@ -247,6 +247,7 @@ If you're buying one:
 
 ## Related Guides
 
+- [Model Y Juniper Rear Bumper Removal & Tow Hitch Install](/posts/tesla-model-y-juniper-rear-bumper-tow-hitch/) - Real workshop photo guide to Juniper rear-end disassembly
 - [Tesla Screen Frozen? How to Reboot](/posts/tesla-screen-frozen-reboot/) - Fixes many software glitches
 - [Tesla 12V Battery Replacement](/posts/tesla-12v-battery-replacement/) - Important for all Model Y owners
 - [Tesla USB Not Working](/posts/tesla-usb-not-working/) - Complete USB troubleshooting
