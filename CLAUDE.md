@@ -28,7 +28,7 @@ Tesla repair affiliate blog targeting EU market. Goal: $1000/month passive incom
 | iFixit (Sovrn) | **LIVE** | sovrn.co/... | Repair tool links |
 | RR Car Parts | **LIVE** | (employer) | ~20 articles; dead links cleaned 2026-03-14 |
 | VIN TESLA | **LIVE** | UTM-tracked | Mid-article promo on every post (May 20), `vintesla_click` event |
-| AI Prompts (Payhip) | **LIVE** | - | Sidebar promo widget (Mar 5) |
+| AI Prompts (Payhip) | **REMOVED** | - | Sidebar promo removed 2026-07-25 (off-brand for repair audience) |
 | Shopee SG | Pilot | deeplinks | USB article (4 drives) + cabin filter; Lazada scaffolding ready |
 | Tesmanian | **DEAD** | - | No response after 2 follow-ups, abandoned |
 | EVannex (Rakuten) | **DEAD** | - | No response to direct email, abandoned |
