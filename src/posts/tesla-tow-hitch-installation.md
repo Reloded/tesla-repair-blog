@@ -271,6 +271,7 @@ One last thing - once the hitch is installed, even if you never tow anything, a 
 
 ## Related Guides
 
+- [Model Y Juniper Rear Bumper Removal & Tow Hitch Install](/posts/tesla-model-y-juniper-rear-bumper-tow-hitch/) - The OEM hitch install on the 2026 Juniper, in 19 real workshop photos
 - [Tesla Towing Guide: Capacity, Range Impact & Tips](/posts/tesla-towing-guide/) - Everything you need to know before towing
 - [Tesla Rear Bumper Removal Guide](/posts/tesla-rear-bumper-removal/) - Required for most hitch installations
 - [Tesla Trunk Wiring Harness Repair](/posts/tesla-trunk-wiring-harness-repair/) - Fix broken wires if you damage the harness during install

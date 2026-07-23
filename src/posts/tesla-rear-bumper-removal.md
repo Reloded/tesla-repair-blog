@@ -270,6 +270,7 @@ The rear is actually easier. The front bumper has more clips, fog light connecto
 
 ## Related Guides
 
+- **[Model Y Juniper Rear Bumper Removal & Tow Hitch Install](/posts/tesla-model-y-juniper-rear-bumper-tow-hitch/)** — The Juniper (2025+) version of this job, in 19 real workshop photos
 - **[Tesla Front Bumper Removal Guide](/posts/tesla-front-bumper-removal/)** — The companion guide for the front end
 - **[Tesla Tail Light Replacement](/posts/tesla-tail-light-replacement/)** — Detailed tail light removal if you need more help on that step
 - **[Tesla Parking Sensor Replacement](/posts/tesla-parking-sensor-replacement/)** — Replace USS sensors while the bumper is off
