@@ -1,7 +1,7 @@
 ---
 layout: post.njk
-title: "Tesla Screen Frozen? How to Reboot the Touchscreen"
-description: "Tesla screen frozen or not responding? Here's how to soft reboot, hard reboot, and fix an unresponsive touchscreen on any Tesla model. Takes 30 seconds."
+title: "How to Reset & Reboot a Tesla Screen (Frozen Fix)"
+description: "How to reset, restart, or reboot a Tesla touchscreen — soft reboot, hard reboot, and what to do when the screen is frozen. Any model, takes 30 seconds."
 date: 2026-02-22
 category: "Interior"
 difficulty: "Easy"
@@ -206,6 +206,7 @@ Prevent issues before they happen:
 
 ## Related Guides
 
+- [Tesla Screen Black or Not Turning On?](/posts/tesla-screen-black-fix/) — If the screen is completely dark rather than frozen, start here instead
 - [Tesla 12V Battery Replacement](/posts/tesla-12v-battery-replacement/) — Weak 12V causes screen issues
 - [Tesla USB Not Working](/posts/tesla-usb-not-working/) — USB issues often accompany screen glitches
 - [Tesla Won't Start or Turn On](/posts/tesla-wont-start-turn-on/) — When it's more than just the screen
