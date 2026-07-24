@@ -42,7 +42,29 @@ Tesla repair affiliate blog targeting EU market. Goal: $1000/month passive incom
 - `.planning/BACKLINK-KIT.md` - Ready-to-use outreach templates + linkable-data-asset plan (Pillar 2)
 - `scripts/gsc.js` - GSC API script. Now outputs **per-page query breakdown + ranked opportunities** (🎯 = striking-distance pos 5–20). Run `npm run gsc` locally.
 
-## GSC Stats (2026-07-12 — LIVE, last 28 days)
+## GSC Stats (2026-07-25 — LIVE, last 28 days)
+> ⚠️ **Property changed this run.** Google listed properties in a different order, so the script used `sc-domain:tesladiyrepair.com` (domain property) instead of `https://tesladiyrepair.com/` (URL-prefix) used in all earlier pulls. Domain property counts more (all subdomains + http), so part of the jump is measurement, not growth. **Fixed 2026-07-25:** gsc.js now pins to sc-domain permanently — all future pulls are comparable to this one, NOT to pre-07-25 figures.
+
+| Metric | 2026-07-12 (url-prefix) | 2026-07-25 (sc-domain) |
+|--------|------------------------|------------------------|
+| Clicks | 188 | **279** |
+| Impressions | 33,812 | **42,013** |
+| CTR | 0.56% | **0.66%** |
+| Avg Position | 11.9 | **10.5** |
+
+**✅ The July 3 service-mode fix worked — verdict is in.** `service-mode-guide`: clicks **11 → 17 → 28**, CTR 0.2% → 0.5%, position 17.6 → 15.1. The new meta + error-code FAQ did what it was supposed to. Also spawned a new converting query: "tesla service mode void warranty" (pos 6.8, 10% CTR) — straight from the FAQ work.
+**Big organic risers (untouched by us):** software-update-stuck 13 → **43 clicks** (imp 1,515 → 4,639; a real Tesla update, 2026.20.6.6, shows in its queries) and navigation-not-working 6 → **23 clicks** (imp 715 → 4,249). Event-driven traffic — worth noting the site now catches software-release waves.
+**Striking-distance still climbing:** thc_w0134 7.7 → 6.9, side-camera-cost 7.6 → 5.7, phantom-braking-fix 7.8 → 7.0.
+**Collision cluster:** neither RCM (pub 07-12) nor Juniper bumper (pub 07-23) shows impressions yet — expected for low-volume niche queries; re-check next pull.
+**Top opportunity now:** homepage ranks pos 7.8 for **"tesla diy"** with 64 impressions but only 1.6% CTR — the July 4 meta targeted "can you fix a tesla yourself" (now just 1 imp). Retarget to "tesla diy".
+**Fixes applied 2026-07-25 (verify these next pull):**
+1. Homepage retargeted to "tesla diy" (was targeting "can you fix a tesla yourself" = 1 imp). New title leads with the exact keyword + real-mechanic hook. **Watch:** homepage CTR on "tesla diy" (was 1.6% @ pos 7.8).
+2. **Keyword cannibalization fixed** — `screen-black-fix` and `screen-frozen-reboot` were competing (both titled "…Frozen…", no cross-links), and Google was landing "how to reset tesla screen" on the *black screen* page at pos 29–49. Now split cleanly: black-fix owns "black / not turning on", frozen-reboot owns "reset / reboot / restart", and they cross-link. **Watch:** whether reset queries move from pos ~29 onto page 1 via frozen-reboot.
+3. gsc.js property pinned to sc-domain (see warning above).
+
+**Next data check:** ~2 weeks (early-mid August).
+
+## GSC Stats (2026-07-12 — url-prefix property, superseded)
 > Re-authed again (token expires every 7 days — OAuth app still in "Testing" mode; publishing it in Google Cloud Console remains the permanent fix).
 
 | Metric | 2026-07-04 | 2026-07-12 | Trend |

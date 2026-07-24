@@ -306,7 +306,12 @@ async function main() {
     const sites = await listSites(auth);
 
     // Find our site
-    const targetSite = sites.find(s => s.siteUrl.includes('tesladiyrepair'));
+    // Pin the property deterministically. Google returns the list in arbitrary order,
+    // and the domain property (sc-domain:) vs URL-prefix property report DIFFERENT
+    // numbers — mixing them silently breaks week-over-week comparisons.
+    // Standardised on sc-domain from 2026-07-25 onward (it's the more complete one).
+    const matches = sites.filter(s => s.siteUrl.includes('tesladiyrepair'));
+    const targetSite = matches.find(s => s.siteUrl.startsWith('sc-domain:')) || matches[0];
 
     if (targetSite) {
       console.log(`\n📍 Using: ${targetSite.siteUrl}`);
