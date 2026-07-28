@@ -1,7 +1,7 @@
 ---
 layout: post.njk
-title: "Tesla Service Mode: The Hidden Menu Most Owners Miss (2026)"
-description: "Open Tesla's hidden Service Mode in 5 seconds, no tools. Decode service alerts and error codes, check HV battery health, and calibrate cameras yourself."
+title: "Tesla Service Mode Access Code + What It Unlocks (2026)"
+description: "The Tesla Service Mode access code is 'service'. Here's where to enter it, plus how to decode service alerts, check battery health and calibrate cameras."
 date: 2026-02-26
 lastUpdated: 2026-04-18
 category: "Maintenance"
@@ -11,6 +11,8 @@ models: "Model 3, Model Y, Model S, Model X"
 emoji: "🔧"
 draft: false
 faq:
+  - q: "What is the Tesla Service Mode access code?"
+    a: "The Tesla Service Mode access code is 'service' — all lowercase. Go to Controls > Software, touch and hold the word MODEL (the large text under the vehicle image) for about 5 seconds, then type service at the 'Please enter access code' prompt and tap Enable. A red border around the screen confirms it's active. The same code works on Model 3, Model Y, Model S, Model X and Cybertruck."
   - q: "How do I access Tesla Service Mode?"
     a: "Go to Controls > Software, then touch and hold the word MODEL (the large text under the vehicle image) for 5 seconds. Enter the code 'service' when prompted. A red border confirms it's active."
   - q: "What can I do in Tesla Service Mode?"
@@ -66,7 +68,9 @@ When Service Mode is active:
 
 Service Mode is not the same as Jack Mode (that's in the normal vehicle menus) or Transport Mode (for towing). It's a full diagnostic interface with dozens of tools.
 
-## How to Access Service Mode
+## Tesla Service Mode Access Code & How to Enter It
+
+The access code is **`service`** — all lowercase, the same on every model. It goes in the "Please enter access code" prompt you'll reach in the steps below.
 
 ### Step-by-Step (All Models)
 
