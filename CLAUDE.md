@@ -42,7 +42,26 @@ Tesla repair affiliate blog targeting EU market. Goal: $1000/month passive incom
 - `.planning/BACKLINK-KIT.md` - Ready-to-use outreach templates + linkable-data-asset plan (Pillar 2)
 - `scripts/gsc.js` - GSC API script. Now outputs **per-page query breakdown + ranked opportunities** (🎯 = striking-distance pos 5–20). Run `npm run gsc` locally.
 
-## GSC Stats (2026-07-25 — LIVE, last 28 days)
+## GSC Stats (2026-07-28 — LIVE, last 28 days)
+> First clean comparison — both this pull and 07-25 used the pinned sc-domain property. ⚠️ But only **3 days apart** (and 4 days after the 07-24 fixes shipped), so the 28-day windows overlap heavily. Treat as a trend check, NOT a verdict on the fixes.
+
+| Metric | 2026-07-25 | 2026-07-28 |
+|--------|-----------|-----------|
+| Clicks | 279 | **343** |
+| Impressions | 42,013 | **47,486** |
+| CTR | 0.66% | **0.72%** |
+| Avg Position | 10.5 | **10.2** |
+
+**CTR is genuinely lifting across the board** — usb-not-working 0.8→1.0%, phantom-braking 0.8→1.0% (clicks 35→47), service-mode 0.5→0.6% (clicks 28→36). The July SEO/meta work compounding.
+**🔥 NEW top opportunity: "tesla service mode access code" — 59 imp, pos 19.8, 1.7% CTR.** The article literally answers this in its quick-answer box (code = `service`) but ranks page-2 for it — an on-page targeting gap, not authority. Highest-value single fix available.
+**Too early to judge the 07-24 fixes (only 4 days):**
+- Homepage "tesla diy": CTR 1.6→1.8%, pos 7.8 flat — noise-level so far.
+- Screen cannibalization: NOT resolved yet — screen-black-fix still catching "how to reboot tesla model 3/y screen" at pos 33–41, screen-frozen-reboot still absent from top pages. Expected; these take 4–8 weeks.
+**⚠️ Collision cluster still at zero impressions** — RCM now 16 days old, Juniper guide 5 days. Both indexed-eligible by now. Honest read: these may simply be very low-volume queries. Worth one more check before concluding the niche has no search demand.
+**Risers:** autopilot-camera-calibration 12→20 clicks (imp 1,548→2,190), software-update-stuck 43→49 clicks.
+**Next data check:** late August (give the 07-24 fixes a real 4+ weeks).
+
+## GSC Stats (2026-07-25 — superseded)
 > ⚠️ **Property changed this run.** Google listed properties in a different order, so the script used `sc-domain:tesladiyrepair.com` (domain property) instead of `https://tesladiyrepair.com/` (URL-prefix) used in all earlier pulls. Domain property counts more (all subdomains + http), so part of the jump is measurement, not growth. **Fixed 2026-07-25:** gsc.js now pins to sc-domain permanently — all future pulls are comparable to this one, NOT to pre-07-25 figures.
 
 | Metric | 2026-07-12 (url-prefix) | 2026-07-25 (sc-domain) |
