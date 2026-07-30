@@ -23,7 +23,7 @@ Tesla repair affiliate blog targeting EU market. Goal: $1000/month passive incom
 | Program | Status | ID | Notes |
 |---------|--------|-----|-------|
 | Amazon.de | **CLOSED** | diyrepair-21 | Closed by Amazon 2026-07 for inactivity (<3 sales in 180 days). Links still resolve, earn nothing. Reapply ONLY once traffic supports 3 sales/180d → new tag ID → bulk link swap needed (Claude can do in one pass). |
-| Amazon.com | **CHECK** | diyrepair07-20 | Same 3-sales/180d rule — owner to verify status at affiliate-program.amazon.com (login directly, not via email links) |
+| Amazon.com | **LIVE & EARNING** | diyrepair07-20 | ✅ Verified 2026-07-29. Safe from the 3-sales/180d rule (22 orders in 90d). See revenue reality-check below. |
 | Lectron (Awin) | **LIVE** | 2729872 | Charging articles |
 | iFixit (Sovrn) | **LIVE** | sovrn.co/... | Repair tool links |
 | RR Car Parts | **LIVE** | (employer) | ~20 articles; dead links cleaned 2026-03-14 |
@@ -32,6 +32,25 @@ Tesla repair affiliate blog targeting EU market. Goal: $1000/month passive incom
 | Shopee SG | Pilot | deeplinks | USB article (4 drives) + cabin filter; Lazada scaffolding ready |
 | Tesmanian | **DEAD** | - | No response after 2 follow-ups, abandoned |
 | EVannex (Rakuten) | **DEAD** | - | No response to direct email, abandoned |
+
+## 💰 REVENUE REALITY CHECK (2026-07-29 — first hard numbers)
+Amazon.com `diyrepair07-20`, May 1 – Jul 29 2026 (90 days):
+
+| Metric | Value |
+|--------|-------|
+| Affiliate clicks | 147 (~49/mo) |
+| Ordered items | 22 |
+| **Conversion rate** | **14.97%** (above Amazon's ~10% average — the audience DOES buy) |
+| Ordered revenue | $927.46 |
+| **Total earnings** | **$29.84** (~$9.95/month) |
+| Avg commission/order | **$1.36** |
+| Effective commission rate | 3.3% |
+
+**What this means:** to hit the $1,000/mo goal on Amazon alone would need **~101x** current affiliate clicks — roughly **740 orders and ~4,900 affiliate clicks per month**. Site currently gets ~343 search clicks/28d total. That is not a gap traffic growth closes; it's a business-model gap.
+
+**The good news:** 15% conversion proves the audience is high-intent and buys when shown relevant products. The problem is **$1.36/order**, not audience quality. The same buyer clicking an OEM collision part (€200–2,000 at RR Car Parts) is worth orders of magnitude more.
+
+**Strategic implication (confirms the July direction):** treat Amazon as a small passive bonus, not the plan. Real money paths, in order: (1) **RR Car Parts** — collision/OEM parts, where the collision cluster already funnels the right readers; (2) **local lead-gen** — EU/LT repair enquiries; (3) VIN TESLA. Do NOT invest more effort in Amazon link optimisation.
 
 ## Key Files
 - `.planning/STATE.md` - Current progress
