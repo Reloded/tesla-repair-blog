@@ -116,6 +116,26 @@ Amazon.com `diyrepair07-20`, May 1 – Jul 29 2026 (90 days):
 **Indexing:** sitemap still reports 160 submitted / 0 indexed — reporting quirk (pages clearly indexed, they rank); low priority.
 **Next data check:** ~2 weeks (late July) for the service-mode CTR verdict.
 
+## ⚠️ ANALYTICS ARE ~82% BOT TRAFFIC (discovered 2026-07-30)
+GA4 Demographics (Jul 3–30) shows 5,530 "users" — but the engagement split is unambiguous:
+
+| Country | Users | Engagement rate | Avg time | Verdict |
+|---------|-------|-----------------|----------|---------|
+| Singapore | 3,403 (61.5%) | **0.18%** | **0s** | 🤖 bot |
+| China | 1,107 (20.0%) | 2.86% | 2s | 🤖 bot |
+| United States | 601 (10.9%) | 28.31% | 42s | ✅ real |
+| UK / Canada / NL / AU | ~140 | 30–36% | 30s–1m26s | ✅ real |
+
+**~4,510 of 5,530 "users" (81.6%) are datacenter bots** from SG/CN cloud regions. Real audience ≈ **1,020 users/month**, and **~59% of it is US**; the rest is UK/CA/NL/AU. Anglo/Western, not Asian.
+
+**Consequences:**
+1. **Never quote GA4 user counts as traffic.** GSC clicks (343/28d) is the trustworthy number; the GA/GSC gap was always bots arriving "direct". All earlier analytics readings in this file are inflated.
+2. **The Shopee/Lazada SG pilot targets an audience that does not exist** — those SG "visitors" are bots and will never buy. Do not extend SG links; consider retiring the pilot. Same for the SG geo-detection special-case (harmless, but pointless).
+3. **Audience is US-first** — validates Amazon.com as the live account; the Amazon.de closure matters even less than thought.
+4. **Real performance is better than it looked:** 147 Amazon affiliate clicks from ~600 real US users is a healthy CTR. Small but genuinely engaged audience.
+
+**Owner TODO:** filter this traffic so future numbers are honest — GA4 Admin → Data Settings → Data Filters (or a "exclude SG+CN datacenter" segment), and optionally a Cloudflare bot-fight/WAF rule to stop serving it at all.
+
 ## Analytics Stats (2026-01-25 — STALE, refresh locally)
 | Metric | Value | Change |
 |--------|-------|--------|
