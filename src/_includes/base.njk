@@ -84,14 +84,23 @@
        Geo-detect swaps marketplaces once CDN trace resolves (~20-50ms). */
     html[data-market="us"] .btn-amazon-de { display: none !important; }
     html[data-market="de"] .btn-amazon-us { display: none !important; }
-    /* SG market: hide US/DE Amazon (user can't buy), show Lazada + Shopee instead */
-    html[data-market="sg"] .btn-amazon-us,
+    /* SG market: .de is never useful, so always hide it. */
     html[data-market="sg"] .btn-amazon-de { display: none !important; }
+    /* SG market: hide Amazon.com ONLY for products that actually have a local
+       SG alternative. Only 3 posts carry Shopee/Lazada links — the old blanket
+       rule hid every Amazon button site-wide, so SG visitors saw NO purchase
+       links at all on ~155 posts and on /tools/. :has() scopes the swap to the
+       individual product's button group; where there's no SG link, Amazon.com
+       stays (it ships to Singapore). */
+    html[data-market="sg"] .quick-tool-buttons:has(.btn-shopee-sg, .btn-lazada-sg) .btn-amazon-us,
+    html[data-market="sg"] .amazon-buttons:has(.btn-shopee-sg, .btn-lazada-sg) .btn-amazon-us { display: none !important; }
     /* Lazada/Shopee SG buttons: hidden everywhere except SG (default-hidden to avoid flash on US/DE) */
     html:not([data-market="sg"]) .btn-lazada-sg,
     html:not([data-market="sg"]) .btn-shopee-sg { display: none !important; }
-    /* Unsupported regions (CN, etc.): hide all marketplace buttons — keeps Payhip/newsletter focus */
-    html[data-market="unsupported"] .btn-amazon-us,
+    /* Other regions without a local marketplace (AU, NZ, JP, IN, BR, AE, IL...):
+       Amazon.com ships internationally to most of these, so show it rather than
+       nothing. The previous rule hid both buttons and left zero purchase options
+       — that guaranteed no conversions from those visitors. */
     html[data-market="unsupported"] .btn-amazon-de { display: none !important; }
   </style>
 
