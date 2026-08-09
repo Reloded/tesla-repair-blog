@@ -1,0 +1,207 @@
+---
+layout: base.njk
+title: Listen to My Tesla — Sound Triage Prototype
+description: Record or upload a Tesla noise and get privacy-first, explainable repair-guide suggestions in your browser.
+permalink: /listen/
+---
+<style>
+  .listen-shell { --ink:#101827; --muted:#667085; --line:#d8dee9; --red:#e82127; --blue:#3157d5; max-width:1120px; margin:0 auto; padding:2rem 1rem 5rem; color:var(--ink); }
+  .listen-hero { overflow:hidden; position:relative; padding:3.2rem; border-radius:24px; color:#fff; background:radial-gradient(circle at 82% 18%,#384b70 0,transparent 30%),linear-gradient(140deg,#10151e,#202b3e); box-shadow:0 24px 70px rgba(16,24,39,.18); }
+  .listen-hero:after { content:'◉'; position:absolute; right:5%; bottom:-42%; font-size:19rem; color:rgba(255,255,255,.035); }
+  .eyebrow { font-size:.78rem; font-weight:800; letter-spacing:.14em; text-transform:uppercase; color:#ff8589; }
+  .listen-hero h1 { max-width:720px; margin:.5rem 0 1rem; font-size:clamp(2.35rem,6vw,4.8rem); line-height:.95; letter-spacing:-.05em; color:#fff; }
+  .listen-hero p { max-width:680px; font-size:1.08rem; color:#d5dbe6; }
+  .privacy-pill { display:inline-flex; gap:.45rem; align-items:center; margin-top:1rem; padding:.55rem .8rem; border:1px solid rgba(255,255,255,.16); border-radius:99px; font-size:.82rem; color:#d5dbe6; }
+  .prototype-grid { display:grid; grid-template-columns:minmax(0,1.12fr) minmax(300px,.88fr); gap:1.2rem; margin-top:1.2rem; align-items:start; }
+  .lab-card { border:1px solid var(--line); border-radius:20px; background:#fff; box-shadow:0 12px 36px rgba(16,24,39,.07); padding:1.35rem; }
+  .lab-card h2 { margin:0 0 .35rem; font-size:1.35rem; }
+  .step-kicker { color:var(--red); font-weight:800; font-size:.75rem; text-transform:uppercase; letter-spacing:.1em; }
+  .field-grid { display:grid; grid-template-columns:1fr 1fr; gap:.9rem; margin-top:1rem; }
+  .field label,.sound-description label { display:block; font-weight:700; font-size:.86rem; margin-bottom:.35rem; }
+  .field select,.sound-description input { width:100%; min-height:46px; padding:.65rem .75rem; border:1px solid #c8d0dc; border-radius:10px; background:#fff; color:var(--ink); font:inherit; }
+  .audio-drop { margin-top:1rem; padding:1.2rem; text-align:center; border:1.5px dashed #aeb9c9; border-radius:14px; background:#f7f9fc; }
+  .record-row,.demo-row { display:flex; flex-wrap:wrap; justify-content:center; gap:.55rem; margin-top:.7rem; }
+  .lab-btn { appearance:none; border:0; border-radius:10px; padding:.72rem 1rem; font:inherit; font-weight:800; cursor:pointer; background:var(--red); color:#fff; transition:transform .15s,box-shadow .15s; }
+  .lab-btn:hover { transform:translateY(-1px); box-shadow:0 7px 18px rgba(232,33,39,.2); }
+  .lab-btn.secondary { color:var(--ink); background:#fff; border:1px solid #c8d0dc; }
+  .lab-btn.demo { color:#23355a; background:#e9efff; }
+  .lab-btn[disabled] { opacity:.55; cursor:not-allowed; transform:none; }
+  .file-label { display:inline-block; cursor:pointer; }
+  .file-label input { position:absolute; width:1px; height:1px; opacity:0; }
+  .sound-description { margin-top:.9rem; }
+  .safety-box { margin-top:1rem; padding:1rem; border-radius:13px; background:#fff9e8; border:1px solid #f3d37a; }
+  .safety-box strong { display:block; margin-bottom:.5rem; }
+  .check-grid { display:grid; gap:.42rem; }
+  .check-grid label { display:flex; gap:.5rem; align-items:flex-start; font-size:.88rem; }
+  .check-grid input { margin-top:.2rem; accent-color:var(--red); }
+  .analyze-btn { width:100%; margin-top:1rem; padding:.9rem; }
+  .status { min-height:1.5rem; margin:.7rem 0 0; text-align:center; color:var(--muted); font-size:.9rem; }
+  .visualizer { display:block; width:100%; height:116px; margin-top:1rem; border-radius:12px; background:#0f1724; }
+  .result-empty { min-height:380px; display:grid; place-content:center; text-align:center; color:var(--muted); }
+  .result-empty .ring { width:96px; height:96px; margin:0 auto 1rem; border:12px solid #eaf0f8; border-top-color:#aab9cf; border-radius:50%; }
+  .alert-stop { padding:1rem; margin-bottom:1rem; border-radius:12px; color:#7a1618; background:#fff0f0; border:2px solid #e82127; }
+  .alert-stop strong { display:block; font-size:1.08rem; }
+  .cause { padding:1rem 0; border-top:1px solid #e5e9f0; }
+  .cause:first-of-type { border-top:0; }
+  .cause-head { display:flex; justify-content:space-between; gap:1rem; align-items:flex-start; }
+  .cause h3 { margin:0; font-size:1.05rem; }
+  .confidence { flex:none; padding:.25rem .5rem; border-radius:99px; font-size:.76rem; font-weight:800; color:#194b35; background:#dbf8e8; }
+  .cause p { color:#4d5b70; margin:.45rem 0; font-size:.91rem; }
+  .cause ul { margin:.35rem 0 .65rem 1.15rem; color:#526176; font-size:.82rem; }
+  .cause a { font-weight:800; color:var(--blue); }
+  .urgency { font-size:.78rem; color:#92400e; font-weight:700; }
+  .feature-strip { display:grid; grid-template-columns:repeat(4,1fr); gap:.5rem; margin-top:1rem; }
+  .feature { padding:.65rem .4rem; border-radius:10px; text-align:center; background:#f2f5f9; }
+  .feature b { display:block; font-size:.95rem; }
+  .feature span { font-size:.67rem; color:var(--muted); text-transform:uppercase; letter-spacing:.06em; }
+  .method { margin-top:1.2rem; padding:1rem 1.2rem; border-radius:14px; background:#f5f7fb; color:#46536a; }
+  .method summary { cursor:pointer; font-weight:800; color:var(--ink); }
+  .disclaimer { margin-top:1rem; font-size:.78rem; color:var(--muted); }
+  @media(max-width:820px){.listen-hero{padding:2rem 1.3rem}.prototype-grid{grid-template-columns:1fr}.field-grid{grid-template-columns:1fr}.feature-strip{grid-template-columns:1fr 1fr}}
+</style>
+
+<div class="listen-shell">
+  <section class="listen-hero">
+    <div class="eyebrow">Experimental workshop tool</div>
+    <h1>Let your Tesla tell us where it hurts.</h1>
+    <p>Record a clunk, squeal, hum, or rattle. This prototype measures the sound on your device, combines it with when and where it happens, then routes you to the most relevant repair guides.</p>
+    <div class="privacy-pill">🔒 Audio stays in this browser — no upload, account, or VIN required</div>
+  </section>
+
+  <div class="prototype-grid">
+    <section class="lab-card" aria-labelledby="capture-title">
+      <div class="step-kicker">Step 1 · Add context and sound</div>
+      <h2 id="capture-title">What are you hearing?</h2>
+      <div class="field-grid">
+        <div class="field"><label for="model">Vehicle</label><select id="model"><option>Model 3</option><option>Model Y</option><option>Model S</option><option>Model X</option><option>Cybertruck</option></select></div>
+        <div class="field"><label for="when">When does it happen?</label><select id="when"><option value="bumps">Over bumps / rough road</option><option value="braking">While braking</option><option value="turning">While turning</option><option value="speed">Changes with road speed</option><option value="climate">With climate control</option></select></div>
+        <div class="field"><label for="area">Where is it loudest?</label><select id="area"><option value="front-left">Front left</option><option value="front-right">Front right</option><option value="front">Under the hood / front</option><option value="dash">Dashboard</option><option value="cabin">Inside the cabin</option><option value="rear">Rear of vehicle</option></select></div>
+        <div class="field"><label for="year">Model year</label><select id="year"><option>2026</option><option>2025</option><option>2024</option><option>2023</option><option>2022</option><option>2021</option><option>2020 or older</option></select></div>
+      </div>
+      <div class="sound-description"><label for="words">Describe it in your words (optional)</label><input id="words" placeholder="e.g. one dull clunk after the left wheel hits a bump"></div>
+
+      <div class="audio-drop">
+        <strong>Capture 3–10 seconds</strong><br><small>Park safely. Never record while driving.</small>
+        <div class="record-row">
+          <button class="lab-btn" type="button" id="record">● Start recording</button>
+          <label class="lab-btn secondary file-label">Upload audio<input id="upload" type="file" accept="audio/*"></label>
+        </div>
+        <div class="demo-row" aria-label="Try a generated demo sound">
+          <button class="lab-btn demo" type="button" data-demo="clunk">Try: suspension clunk</button>
+          <button class="lab-btn demo" type="button" data-demo="squeal">Try: brake squeal</button>
+          <button class="lab-btn demo" type="button" data-demo="hvac">Try: HVAC whine</button>
+        </div>
+        <canvas class="visualizer" id="visualizer" width="760" height="116" aria-label="Audio waveform"></canvas>
+        <p class="status" id="status" role="status" aria-live="polite">Choose a demo, record, or upload a sound.</p>
+      </div>
+
+      <div class="safety-box">
+        <strong>Safety check — is any of this also happening?</strong>
+        <div class="check-grid">
+          <label><input type="checkbox" id="warningBrake"> Braking performance changed or warning light is on</label>
+          <label><input type="checkbox" id="warningSteering"> Steering feels loose, heavy, or unpredictable</label>
+          <label><input type="checkbox" id="warningSmoke"> Smoke, burning smell, or unusual heat</label>
+          <label><input type="checkbox" id="warningImpact"> Sound began after a curb strike, collision, or underbody impact</label>
+        </div>
+      </div>
+      <button class="lab-btn analyze-btn" id="analyze" type="button" disabled>Analyze this sound →</button>
+    </section>
+
+    <aside class="lab-card" id="results" aria-live="polite" aria-labelledby="results-title">
+      <div class="step-kicker">Step 2 · Explainable triage</div>
+      <h2 id="results-title">Likely matches</h2>
+      <div class="result-empty"><div><div class="ring"></div><strong>No sound analyzed yet</strong><p>Results will rank likely causes—not pretend to give a certain diagnosis.</p></div></div>
+    </aside>
+  </div>
+
+  <details class="method">
+    <summary>How this prototype works (and what it cannot know)</summary>
+    <p>It extracts broad, explainable properties—frequency center, low/high-frequency energy, tonality, and sharp transients—from a short recording. A transparent rules engine combines those signals with your answers and ranks five symptom families. No model was trained on customer recordings, and no audio leaves the browser.</p>
+    <p><strong>Prototype limitation:</strong> phone placement, road noise, cases, and cabin acoustics can dominate a recording. A match is a lead for inspection, not proof. High-voltage, restraint, brake, steering, smoke, or impact concerns should be handled by a qualified technician.</p>
+  </details>
+  <p class="disclaimer">Independent prototype. Not affiliated with or endorsed by Tesla, Inc. Never interact with a phone while driving.</p>
+</div>
+
+<script src="/js/listen-diagnostic.js"></script>
+<script>
+(function () {
+  const $ = id => document.getElementById(id);
+  const status = $('status'), analyzeButton = $('analyze'), canvas = $('visualizer'), ctx = canvas.getContext('2d');
+  let currentAudio = null, recorder = null, chunks = [], stream = null;
+
+  function contextData() {
+    return {
+      when: $('when').value, area: $('area').value, words: $('words').value,
+      warningBrake: $('warningBrake').checked, warningSteering: $('warningSteering').checked,
+      warningSmoke: $('warningSmoke').checked, warningImpact: $('warningImpact').checked
+    };
+  }
+  function setAudio(samples, sampleRate, label) {
+    currentAudio = { samples, sampleRate };
+    drawWave(samples);
+    analyzeButton.disabled = false;
+    status.textContent = label + ' ready — press Analyze.';
+  }
+  function drawWave(samples) {
+    const w = canvas.width, h = canvas.height;
+    ctx.fillStyle = '#0f1724'; ctx.fillRect(0,0,w,h);
+    ctx.strokeStyle = '#ff5a5f'; ctx.lineWidth = 2; ctx.beginPath();
+    const step = Math.max(1, Math.floor(samples.length / w));
+    for (let x=0;x<w;x++) {
+      let min=1,max=-1;
+      for(let i=0;i<step;i++){const v=samples[x*step+i]||0;min=Math.min(min,v);max=Math.max(max,v);}
+      if(x===0)ctx.moveTo(x,(1+min)*h/2); else ctx.lineTo(x,(1+min)*h/2);
+      ctx.lineTo(x,(1+max)*h/2);
+    }
+    ctx.stroke();
+  }
+  async function decode(blob) {
+    const audioContext = new (window.AudioContext || window.webkitAudioContext)();
+    const buffer = await audioContext.decodeAudioData(await blob.arrayBuffer());
+    const mono = new Float32Array(buffer.length);
+    for(let channel=0;channel<buffer.numberOfChannels;channel++) {
+      const data=buffer.getChannelData(channel); for(let i=0;i<data.length;i++) mono[i]+=data[i]/buffer.numberOfChannels;
+    }
+    await audioContext.close(); return { samples:mono, sampleRate:buffer.sampleRate };
+  }
+  document.querySelectorAll('[data-demo]').forEach(button => button.addEventListener('click', () => {
+    const kind=button.dataset.demo, demo=TeslaSoundLab.makeDemo(kind);
+    if(kind==='clunk'){$('when').value='bumps';$('area').value='front-left';$('words').value='dull clunk over bumps';}
+    if(kind==='squeal'){$('when').value='braking';$('area').value='front-right';$('words').value='high squeal while braking';}
+    if(kind==='hvac'){$('when').value='climate';$('area').value='dash';$('words').value='steady whine with climate on';}
+    setAudio(demo.samples,demo.sampleRate,button.textContent.replace('Try: ','Demo '));
+  }));
+  $('upload').addEventListener('change', async event => {
+    const file=event.target.files[0]; if(!file)return;
+    status.textContent='Decoding ' + file.name + '…';
+    try { const audio=await decode(file); setAudio(audio.samples,audio.sampleRate,file.name); }
+    catch(error){ status.textContent='Could not decode this audio file. Try WAV, MP3, M4A, or a demo.'; }
+  });
+  $('record').addEventListener('click', async () => {
+    const button=$('record');
+    if(recorder && recorder.state==='recording') { recorder.stop(); button.textContent='● Start recording'; return; }
+    if(!navigator.mediaDevices || !window.MediaRecorder){ status.textContent='Recording is unavailable here. Upload audio or use a demo.'; return; }
+    try {
+      stream=await navigator.mediaDevices.getUserMedia({audio:true}); chunks=[]; recorder=new MediaRecorder(stream);
+      recorder.ondataavailable=e=>{if(e.data.size)chunks.push(e.data)};
+      recorder.onstop=async()=>{stream.getTracks().forEach(t=>t.stop());status.textContent='Decoding recording…';try{const audio=await decode(new Blob(chunks,{type:recorder.mimeType}));setAudio(audio.samples,audio.sampleRate,'Recording');}catch(e){status.textContent='Recording could not be decoded. Try uploading audio.';}};
+      recorder.start(); button.textContent='■ Stop recording'; status.textContent='Recording… capture the sound for 3–10 seconds.';
+    } catch(error) { status.textContent='Microphone permission was not granted. Upload audio or use a demo.'; }
+  });
+  analyzeButton.addEventListener('click', () => {
+    try {
+      status.textContent='Measuring frequency, tone, and transients…';
+      const features=TeslaSoundLab.extractFeatures(currentAudio.samples,currentAudio.sampleRate);
+      const outcome=TeslaSoundLab.analyze(features,contextData()); render(outcome,features);
+      status.textContent='Analysis complete. Audio remained on this device.';
+    } catch(error) { status.textContent=error.message; }
+  });
+  function render(outcome,f) {
+    const escape=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+    const alert=outcome.stopDriving?`<div class="alert-stop"><strong>Stop driving and arrange a professional inspection.</strong>${escape(outcome.safety.join(' · '))}. Sound matching cannot clear a safety-critical symptom.</div>`:'';
+    const causes=outcome.ranked.map((cause,index)=>`<article class="cause"><div class="cause-head"><h3>${index+1}. ${escape(cause.name)}</h3><span class="confidence">${cause.confidence}% match</span></div><p>${escape(cause.summary)}</p><ul>${cause.reasons.map(r=>`<li>${escape(r)}</li>`).join('')||'<li>Closest available profile; gather another recording to compare.</li>'}</ul><div class="urgency">${escape(cause.urgency)}</div><a href="${escape(cause.href)}">Open the related repair guide →</a></article>`).join('');
+    $('results').innerHTML=`<div class="step-kicker">Step 2 · Explainable triage</div><h2 id="results-title">Likely matches</h2>${alert}${causes}<div class="feature-strip"><div class="feature"><b>${Math.round(f.centroid)} Hz</b><span>Frequency center</span></div><div class="feature"><b>${Math.round(f.impulse*100)}%</b><span>Impulse</span></div><div class="feature"><b>${Math.round(f.tone*100)}%</b><span>Tonality</span></div><div class="feature"><b>${f.duration.toFixed(1)} s</b><span>Sample</span></div></div><p class="disclaimer">Match percentages are heuristic ranking scores, not calibrated probabilities.</p>`;
+  }
+  drawWave(new Float32Array(100));
+})();
+</script>
