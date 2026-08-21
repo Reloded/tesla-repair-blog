@@ -1,6 +1,8 @@
 const test = require('node:test');
 const assert = require('node:assert/strict');
 const lab = require('../src/js/listen-diagnostic.js');
+const fs = require('node:fs');
+const path = require('node:path');
 
 const contexts = {
   clunk: { when: 'bumps', area: 'front-left', words: 'dull clunk' },
@@ -35,4 +37,103 @@ test('ordinary sound does not trigger stop-driving escalation', () => {
 
 test('rejects recordings too short to support analysis', () => {
   assert.throws(() => lab.extractFeatures(new Float32Array(100), 16000), /too short/i);
+});
+
+test('quality gate rejects recordings shorter than two seconds', () => {
+  const samples = new Float32Array(16000);
+  samples.fill(0.1);
+  const quality = lab.assessQuality(lab.extractFeatures(samples, 16000));
+  assert.equal(quality.accepted, false);
+  assert.ok(quality.issues.includes('too-short'));
+});
+
+test('quality gate rejects near-silent recordings', () => {
+  const samples = new Float32Array(48000);
+  samples.fill(0.0002);
+  const quality = lab.assessQuality(lab.extractFeatures(samples, 16000));
+  assert.equal(quality.accepted, false);
+  assert.ok(quality.issues.includes('too-quiet'));
+});
+
+test('quality gate rejects heavily clipped recordings', () => {
+  const samples = new Float32Array(48000);
+  for (let i = 0; i < samples.length; i++) samples[i] = i % 2 ? 1 : -1;
+  const quality = lab.assessQuality(lab.extractFeatures(samples, 16000));
+  assert.equal(quality.accepted, false);
+  assert.ok(quality.issues.includes('clipping'));
+});
+
+test('analyzer abstains when recording quality is unacceptable', () => {
+  const features = lab.extractFeatures(new Float32Array(48000).fill(0.0001), 16000);
+  const result = lab.analyze(features, contexts.clunk);
+  assert.equal(result.abstained, true);
+  assert.equal(result.ranked.length, 0);
+  assert.match(result.message, /record/i);
+});
+
+test('safety escalation survives an unusable recording', () => {
+  const features = lab.extractFeatures(new Float32Array(16000 * 2), 16000);
+  const outcome = lab.analyze(features, { ...contexts.clunk, warningSmoke: true });
+  assert.equal(outcome.abstained, true);
+  assert.equal(outcome.stopDriving, true);
+  assert.ok(outcome.safety.length > 0);
+});
+
+test('quality gate rejects constant DC-offset audio', () => {
+  const features = lab.extractFeatures(Float32Array.from({ length: 16000 * 3 }, () => 0.1), 16000);
+  const quality = lab.assessQuality(features);
+  assert.equal(quality.accepted, false);
+  assert.ok(quality.issues.includes('no-variation'));
+});
+
+test('extractor rejects recordings longer than one minute', () => {
+  assert.throws(() => lab.extractFeatures(new Float32Array(16000 * 61), 16000), /too long/i);
+});
+
+test('every diagnostic profile has evidence and physical verification steps', () => {
+  for (const cause of lab.CAUSES) {
+    assert.ok(cause.sources && cause.sources.length > 0, `${cause.id} has no sources`);
+    assert.ok(cause.checks && cause.checks.length >= 2, `${cause.id} has insufficient checks`);
+    for (const source of cause.sources) {
+      assert.match(source.url, /^https:\/\//);
+      assert.ok(source.applicability, `${cause.id} source lacks an applicability label`);
+    }
+  }
+});
+
+test('knowledge base covers axle clicks, wind whistles, and drive-unit whine', () => {
+  const ids = new Set(lab.CAUSES.map(cause => cause.id));
+  assert.ok(ids.has('halfshaft-click'));
+  assert.ok(ids.has('wind-whistle'));
+  assert.ok(ids.has('drive-unit-whine'));
+  assert.ok(lab.CAUSES.length >= 8);
+});
+
+test('quality score is bounded and accepted demo is usable', () => {
+  const audio = lab.makeDemo('clunk');
+  const quality = lab.assessQuality(lab.extractFeatures(audio.samples, audio.sampleRate));
+  assert.equal(quality.accepted, true);
+  assert.ok(quality.score >= 0 && quality.score <= 100);
+});
+
+test('case report exports metadata and features without raw audio', () => {
+  const audio = lab.makeDemo('clunk');
+  const features = lab.extractFeatures(audio.samples, audio.sampleRate);
+  const context = { model: 'Model 3', year: '2022', ...contexts.clunk };
+  const outcome = lab.analyze(features, context);
+  const report = lab.makeCaseReport(features, context, outcome, '2026-08-09T12:00:00.000Z');
+  assert.equal(report.schemaVersion, 1);
+  assert.equal(report.createdAt, '2026-08-09T12:00:00.000Z');
+  assert.equal(report.vehicle.model, 'Model 3');
+  assert.equal(report.matches[0].id, 'suspension-clunk');
+  assert.equal('samples' in report, false);
+  assert.equal(JSON.stringify(report).includes('Float32Array'), false);
+});
+
+test('experimental listen page is noindex and disables analytics', () => {
+  const listen = fs.readFileSync(path.join(__dirname, '..', 'src', 'listen.njk'), 'utf8');
+  const base = fs.readFileSync(path.join(__dirname, '..', 'src', '_includes', 'base.njk'), 'utf8');
+  assert.match(listen, /^noindex:\s*true$/m);
+  assert.match(base, /if not noindex/);
+  assert.match(base, /name="robots" content="noindex, nofollow"/);
 });

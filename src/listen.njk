@@ -3,6 +3,7 @@ layout: base.njk
 title: Listen to My Tesla — Sound Triage Prototype
 description: Record or upload a Tesla noise and get privacy-first, explainable repair-guide suggestions in your browser.
 permalink: /listen/
+noindex: true
 ---
 <style>
   .listen-shell { --ink:#101827; --muted:#667085; --line:#d8dee9; --red:#e82127; --blue:#3157d5; max-width:1120px; margin:0 auto; padding:2rem 1rem 5rem; color:var(--ink); }
@@ -50,6 +51,12 @@ permalink: /listen/
   .cause ul { margin:.35rem 0 .65rem 1.15rem; color:#526176; font-size:.82rem; }
   .cause a { font-weight:800; color:var(--blue); }
   .urgency { font-size:.78rem; color:#92400e; font-weight:700; }
+  .verify-box { margin:.7rem 0; padding:.75rem; border-radius:10px; background:#f7f9fc; }
+  .verify-box strong,.evidence strong { display:block; margin-bottom:.3rem; font-size:.78rem; text-transform:uppercase; letter-spacing:.06em; }
+  .evidence { margin-top:.65rem; font-size:.78rem; }
+  .evidence a { display:block; margin:.25rem 0; font-weight:600; }
+  .evidence em { color:var(--muted); font-style:normal; }
+  .quality-retry { padding:1.2rem; margin-top:1rem; border:1px solid #f0b35b; border-radius:13px; background:#fff8e8; }
   .feature-strip { display:grid; grid-template-columns:repeat(4,1fr); gap:.5rem; margin-top:1rem; }
   .feature { padding:.65rem .4rem; border-radius:10px; text-align:center; background:#f2f5f9; }
   .feature b { display:block; font-size:.95rem; }
@@ -74,7 +81,7 @@ permalink: /listen/
       <h2 id="capture-title">What are you hearing?</h2>
       <div class="field-grid">
         <div class="field"><label for="model">Vehicle</label><select id="model"><option>Model 3</option><option>Model Y</option><option>Model S</option><option>Model X</option><option>Cybertruck</option></select></div>
-        <div class="field"><label for="when">When does it happen?</label><select id="when"><option value="bumps">Over bumps / rough road</option><option value="braking">While braking</option><option value="turning">While turning</option><option value="speed">Changes with road speed</option><option value="climate">With climate control</option></select></div>
+        <div class="field"><label for="when">When does it happen?</label><select id="when"><option value="bumps">Over bumps / rough road</option><option value="braking">While braking</option><option value="turning">While turning</option><option value="acceleration">Under acceleration / regeneration</option><option value="speed">Changes with road speed</option><option value="climate">With climate control</option></select></div>
         <div class="field"><label for="area">Where is it loudest?</label><select id="area"><option value="front-left">Front left</option><option value="front-right">Front right</option><option value="front">Under the hood / front</option><option value="dash">Dashboard</option><option value="cabin">Inside the cabin</option><option value="rear">Rear of vehicle</option></select></div>
         <div class="field"><label for="year">Model year</label><select id="year"><option>2026</option><option>2025</option><option>2024</option><option>2023</option><option>2022</option><option>2021</option><option>2020 or older</option></select></div>
       </div>
@@ -116,7 +123,7 @@ permalink: /listen/
 
   <details class="method">
     <summary>How this prototype works (and what it cannot know)</summary>
-    <p>It extracts broad, explainable properties—frequency center, low/high-frequency energy, tonality, and sharp transients—from a short recording. A transparent rules engine combines those signals with your answers and ranks five symptom families. No model was trained on customer recordings, and no audio leaves the browser.</p>
+    <p>It extracts broad, explainable properties—frequency center, low/high-frequency energy, tonality, and sharp transients—from a short recording. A transparent rules engine combines those signals with your answers and ranks eight symptom families. No model was trained on customer recordings, and no audio leaves the browser.</p>
     <p><strong>Prototype limitation:</strong> phone placement, road noise, cases, and cabin acoustics can dominate a recording. A match is a lead for inspection, not proof. High-voltage, restraint, brake, steering, smoke, or impact concerns should be handled by a qualified technician.</p>
   </details>
   <p class="disclaimer">Independent prototype. Not affiliated with or endorsed by Tesla, Inc. Never interact with a phone while driving.</p>
@@ -127,20 +134,29 @@ permalink: /listen/
 (function () {
   const $ = id => document.getElementById(id);
   const status = $('status'), analyzeButton = $('analyze'), canvas = $('visualizer'), ctx = canvas.getContext('2d');
-  let currentAudio = null, recorder = null, chunks = [], stream = null;
+  let currentAudio = null, recorder = null, chunks = [], stream = null, lastAnalysis = null, recordingTimer = null;
 
   function contextData() {
     return {
+      model: $('model').value, year: $('year').value,
       when: $('when').value, area: $('area').value, words: $('words').value,
       warningBrake: $('warningBrake').checked, warningSteering: $('warningSteering').checked,
       warningSmoke: $('warningSmoke').checked, warningImpact: $('warningImpact').checked
     };
   }
   function setAudio(samples, sampleRate, label) {
+    invalidateResult();
     currentAudio = { samples, sampleRate };
     drawWave(samples);
     analyzeButton.disabled = false;
     status.textContent = label + ' ready — press Analyze.';
+  }
+  function invalidateResult() {
+    lastAnalysis = null;
+    $('results').innerHTML='<h2 id="results-title">Likely matches</h2><p class="muted">Analyze the current sound to replace this empty state.</p>';
+  }
+  function beginAudioReplacement() {
+    invalidateResult(); currentAudio=null; analyzeButton.disabled=true;
   }
   function drawWave(samples) {
     const w = canvas.width, h = canvas.height;
@@ -155,14 +171,33 @@ permalink: /listen/
     }
     ctx.stroke();
   }
+  function readDuration(blob) {
+    return new Promise((resolve,reject)=>{
+      const audio=document.createElement('audio'), url=URL.createObjectURL(blob); let settled=false;
+      const finish=value=>{if(settled)return;settled=true;audio.onloadedmetadata=null;audio.onerror=null;audio.removeAttribute('src');URL.revokeObjectURL(url);value instanceof Error?reject(value):resolve(value);};
+      const timer=setTimeout(()=>finish(new Error('Could not read audio metadata.')),5000);
+      audio.preload='metadata';
+      audio.onloadedmetadata=()=>{clearTimeout(timer);finish(audio.duration);};
+      audio.onerror=()=>{clearTimeout(timer);finish(new Error('Could not read audio metadata.'));};
+      audio.src=url;
+    });
+  }
   async function decode(blob) {
+    if(blob.size > 25 * 1024 * 1024) throw new Error('Audio file is too large. Use a file under 25 MB.');
+    const duration=await readDuration(blob);
+    if(Number.isFinite(duration) && duration > 60) throw new Error('Audio is too long. Use a recording under 60 seconds.');
     const audioContext = new (window.AudioContext || window.webkitAudioContext)();
-    const buffer = await audioContext.decodeAudioData(await blob.arrayBuffer());
-    const mono = new Float32Array(buffer.length);
-    for(let channel=0;channel<buffer.numberOfChannels;channel++) {
-      const data=buffer.getChannelData(channel); for(let i=0;i<data.length;i++) mono[i]+=data[i]/buffer.numberOfChannels;
+    try {
+      const buffer = await audioContext.decodeAudioData(await blob.arrayBuffer());
+      if(buffer.duration > 60) throw new Error('Audio is too long. Use a recording under 60 seconds.');
+      const mono = new Float32Array(buffer.length);
+      for(let channel=0;channel<buffer.numberOfChannels;channel++) {
+        const data=buffer.getChannelData(channel); for(let i=0;i<data.length;i++) mono[i]+=data[i]/buffer.numberOfChannels;
+      }
+      return { samples:mono, sampleRate:buffer.sampleRate };
+    } finally {
+      await audioContext.close();
     }
-    await audioContext.close(); return { samples:mono, sampleRate:buffer.sampleRate };
   }
   document.querySelectorAll('[data-demo]').forEach(button => button.addEventListener('click', () => {
     const kind=button.dataset.demo, demo=TeslaSoundLab.makeDemo(kind);
@@ -173,35 +208,52 @@ permalink: /listen/
   }));
   $('upload').addEventListener('change', async event => {
     const file=event.target.files[0]; if(!file)return;
+    beginAudioReplacement();
     status.textContent='Decoding ' + file.name + '…';
     try { const audio=await decode(file); setAudio(audio.samples,audio.sampleRate,file.name); }
-    catch(error){ status.textContent='Could not decode this audio file. Try WAV, MP3, M4A, or a demo.'; }
+    catch(error){ status.textContent=error.message || 'Could not decode this audio file. Try WAV, MP3, M4A, or a demo.'; }
   });
   $('record').addEventListener('click', async () => {
     const button=$('record');
-    if(recorder && recorder.state==='recording') { recorder.stop(); button.textContent='● Start recording'; return; }
+    if(recorder && recorder.state==='recording') { clearTimeout(recordingTimer); recorder.stop(); button.textContent='● Start recording'; return; }
     if(!navigator.mediaDevices || !window.MediaRecorder){ status.textContent='Recording is unavailable here. Upload audio or use a demo.'; return; }
+    beginAudioReplacement();
     try {
       stream=await navigator.mediaDevices.getUserMedia({audio:true}); chunks=[]; recorder=new MediaRecorder(stream);
       recorder.ondataavailable=e=>{if(e.data.size)chunks.push(e.data)};
-      recorder.onstop=async()=>{stream.getTracks().forEach(t=>t.stop());status.textContent='Decoding recording…';try{const audio=await decode(new Blob(chunks,{type:recorder.mimeType}));setAudio(audio.samples,audio.sampleRate,'Recording');}catch(e){status.textContent='Recording could not be decoded. Try uploading audio.';}};
-      recorder.start(); button.textContent='■ Stop recording'; status.textContent='Recording… capture the sound for 3–10 seconds.';
-    } catch(error) { status.textContent='Microphone permission was not granted. Upload audio or use a demo.'; }
+      recorder.onstop=async()=>{clearTimeout(recordingTimer);stream.getTracks().forEach(t=>t.stop());button.textContent='● Start recording';status.textContent='Decoding recording…';try{const audio=await decode(new Blob(chunks,{type:recorder.mimeType}));setAudio(audio.samples,audio.sampleRate,'Recording');}catch(e){status.textContent=e.message||'Recording could not be decoded. Try uploading audio.';}};
+      recorder.start(); recordingTimer=setTimeout(()=>{if(recorder.state==='recording')recorder.stop();},15000); button.textContent='■ Stop recording'; status.textContent='Recording… capture the sound for 3–10 seconds (15-second maximum).';
+    } catch(error) { if(stream)stream.getTracks().forEach(t=>t.stop());stream=null;button.textContent='● Start recording';status.textContent='Microphone permission was not granted. Upload audio or use a demo.'; }
   });
   analyzeButton.addEventListener('click', () => {
     try {
       status.textContent='Measuring frequency, tone, and transients…';
       const features=TeslaSoundLab.extractFeatures(currentAudio.samples,currentAudio.sampleRate);
-      const outcome=TeslaSoundLab.analyze(features,contextData()); render(outcome,features);
-      status.textContent='Analysis complete. Audio remained on this device.';
+      const context=contextData();
+      const outcome=TeslaSoundLab.analyze(features,context); lastAnalysis={features,context,outcome}; render(outcome,features);
+      status.textContent=outcome.abstained?'Recording quality was insufficient. Audio remained on this device.':'Analysis complete. Audio remained on this device.';
     } catch(error) { status.textContent=error.message; }
   });
   function render(outcome,f) {
     const escape=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+    if(outcome.abstained) {
+      const labels={'too-short':'Record at least 2 seconds','too-quiet':'Move closer to the sound','clipping':'Move farther away or reduce microphone level','no-variation':'Capture the changing sound rather than silence or a constant signal'};
+      const issues=outcome.quality.issues.map(issue=>`<li>${escape(labels[issue]||issue)}</li>`).join('');
+      const safety=outcome.stopDriving?`<div class="alert-stop"><strong>Stop driving and arrange a professional inspection.</strong>${escape(outcome.safety.join(' · '))}. This warning applies even though the audio could not be analyzed.</div>`:'';
+      $('results').innerHTML=`<div class="step-kicker">Step 2 · Quality gate</div><h2 id="results-title">Please record again</h2>${safety}<div class="quality-retry"><strong>No diagnosis was attempted.</strong><p>${escape(outcome.message)}</p><ul>${issues}</ul></div><div class="feature-strip"><div class="feature"><b>${outcome.quality.score}/100</b><span>Signal quality</span></div><div class="feature"><b>${f.duration.toFixed(1)} s</b><span>Sample</span></div><div class="feature"><b>${(f.rms*100).toFixed(1)}%</b><span>Level</span></div><div class="feature"><b>${(f.clippingRatio*100).toFixed(1)}%</b><span>Clipped</span></div></div>`;
+      return;
+    }
     const alert=outcome.stopDriving?`<div class="alert-stop"><strong>Stop driving and arrange a professional inspection.</strong>${escape(outcome.safety.join(' · '))}. Sound matching cannot clear a safety-critical symptom.</div>`:'';
-    const causes=outcome.ranked.map((cause,index)=>`<article class="cause"><div class="cause-head"><h3>${index+1}. ${escape(cause.name)}</h3><span class="confidence">${cause.confidence}% match</span></div><p>${escape(cause.summary)}</p><ul>${cause.reasons.map(r=>`<li>${escape(r)}</li>`).join('')||'<li>Closest available profile; gather another recording to compare.</li>'}</ul><div class="urgency">${escape(cause.urgency)}</div><a href="${escape(cause.href)}">Open the related repair guide →</a></article>`).join('');
-    $('results').innerHTML=`<div class="step-kicker">Step 2 · Explainable triage</div><h2 id="results-title">Likely matches</h2>${alert}${causes}<div class="feature-strip"><div class="feature"><b>${Math.round(f.centroid)} Hz</b><span>Frequency center</span></div><div class="feature"><b>${Math.round(f.impulse*100)}%</b><span>Impulse</span></div><div class="feature"><b>${Math.round(f.tone*100)}%</b><span>Tonality</span></div><div class="feature"><b>${f.duration.toFixed(1)} s</b><span>Sample</span></div></div><p class="disclaimer">Match percentages are heuristic ranking scores, not calibrated probabilities.</p>`;
+    const causes=outcome.ranked.map((cause,index)=>`<article class="cause"><div class="cause-head"><h3>${index+1}. ${escape(cause.name)}</h3><span class="confidence">${cause.confidence}% match</span></div><p>${escape(cause.summary)}</p><ul>${cause.reasons.map(r=>`<li>${escape(r)}</li>`).join('')||'<li>Closest available profile; gather another recording to compare.</li>'}</ul><div class="verify-box"><strong>Verify before replacing parts</strong><ol>${cause.checks.map(check=>`<li>${escape(check)}</li>`).join('')}</ol></div><div class="urgency">${escape(cause.urgency)}</div><a href="${escape(cause.href)}">Open the related repair guide →</a><div class="evidence"><strong>Evidence</strong>${cause.sources.map(source=>`<a href="${escape(source.url)}" target="_blank" rel="noopener noreferrer">${escape(source.title)} <em>(${escape(source.strength)})</em> ↗</a><em>Applies to: ${escape(source.applicability)}</em>`).join('')}</div></article>`).join('');
+    $('results').innerHTML=`<div class="step-kicker">Step 2 · Explainable triage</div><h2 id="results-title">Likely matches</h2>${alert}${causes}<div class="feature-strip"><div class="feature"><b>${outcome.quality.score}/100</b><span>Signal quality</span></div><div class="feature"><b>${Math.round(f.centroid)} Hz</b><span>Frequency center</span></div><div class="feature"><b>${Math.round(f.impulse*100)}%</b><span>Impulse</span></div><div class="feature"><b>${Math.round(f.tone*100)}%</b><span>Tonality</span></div></div><button class="lab-btn secondary" id="export-case" type="button">Download private case report</button><p class="disclaimer">The report contains model/year, conditions, free-text description, extracted measurements, and an exact timestamp, but no raw audio. Review free text before sharing it. Match percentages are heuristic ranking scores, not calibrated probabilities. YouTube examples document individual vehicles and are not universal repair instructions.</p>`;
+    $('export-case').addEventListener('click',()=>{
+      const report=TeslaSoundLab.makeCaseReport(lastAnalysis.features,lastAnalysis.context,lastAnalysis.outcome);
+      const blob=new Blob([JSON.stringify(report,null,2)],{type:'application/json'});
+      const url=URL.createObjectURL(blob), link=document.createElement('a');
+      link.href=url; link.download='tesla-sound-case-'+Date.now()+'.json'; document.body.appendChild(link); link.click(); link.remove(); setTimeout(()=>URL.revokeObjectURL(url),1000);
+    });
   }
+  document.querySelectorAll('#model,#when,#area,#year,#words,#warningBrake,#warningSteering,#warningSmoke,#warningImpact').forEach(input=>input.addEventListener('input',()=>{if(lastAnalysis)invalidateResult();}));
   drawWave(new Float32Array(100));
 })();
 </script>

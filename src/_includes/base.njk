@@ -6,6 +6,7 @@
   <meta name="google-site-verification" content="JWxwS1t6gyy_0zwxd62NkA6-3Xr2wYivugBjHmutQJQ" />
   <meta name="description" content="{{ description or 'DIY Tesla repair guides, tutorials, and tool recommendations from an independent Tesla mechanic. Save money on repairs with our step-by-step guides.' }}">
   <meta name="author" content="TeslaDIYRepair">
+  {% if noindex %}<meta name="robots" content="noindex, nofollow">{% endif %}
   <link rel="canonical" href="https://tesladiyrepair.com{{ page.url }}">
 
   <!-- Open Graph / Social -->
@@ -27,6 +28,7 @@
   <link rel="alternate" type="application/rss+xml" title="Tesla DIY Repair RSS Feed" href="/feed.xml">
   <link rel="sitemap" type="application/xml" href="/sitemap.xml">
 
+  {% if not noindex %}
   <!-- Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-MHWB6T22RQ"></script>
   <script>
@@ -35,6 +37,7 @@
     gtag('js', new Date());
     gtag('config', 'G-MHWB6T22RQ');
   </script>
+  {% endif %}
 
   <!-- Geo-detect via Cloudflare /cdn-cgi/trace — routes visitors to their local Amazon marketplace -->
   <script>
