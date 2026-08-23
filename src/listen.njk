@@ -1,7 +1,7 @@
 ---
 layout: base.njk
-title: Listen to My Tesla — Sound Triage Prototype
-description: Record or upload a Tesla noise and get privacy-first, explainable repair-guide suggestions in your browser.
+title: Tesla Sound Check (Beta) — Analyze a Noise Privately
+description: Record or upload a Tesla noise for private, on-device sound triage and explainable repair-guide suggestions.
 permalink: /listen/
 noindex: true
 ---
@@ -13,6 +13,19 @@ noindex: true
   .listen-hero h1 { max-width:720px; margin:.5rem 0 1rem; font-size:clamp(2.35rem,6vw,4.8rem); line-height:.95; letter-spacing:-.05em; color:#fff; }
   .listen-hero p { max-width:680px; font-size:1.08rem; color:#d5dbe6; }
   .privacy-pill { display:inline-flex; gap:.45rem; align-items:center; margin-top:1rem; padding:.55rem .8rem; border:1px solid rgba(255,255,255,.16); border-radius:99px; font-size:.82rem; color:#d5dbe6; }
+  .consent-card { margin-top:1.2rem; padding:1.5rem; border:2px solid #cfd7e4; border-radius:20px; background:#fff; box-shadow:0 12px 36px rgba(16,24,39,.07); }
+  .consent-card h2 { margin:.25rem 0 .55rem; }
+  .consent-intro { max-width:780px; color:#4d5b70; }
+  .consent-list { display:grid; gap:.75rem; margin:1rem 0; }
+  .consent-item { display:flex; gap:.75rem; align-items:flex-start; padding:.85rem; border:1px solid #dce2eb; border-radius:12px; background:#f8fafc; cursor:pointer; }
+  .consent-item input { flex:none; width:1.15rem; height:1.15rem; margin-top:.2rem; accent-color:var(--red); }
+  .consent-item strong { display:block; margin-bottom:.2rem; }
+  .consent-item span { color:#526176; font-size:.9rem; }
+  .consent-actions { display:flex; flex-wrap:wrap; align-items:center; gap:.8rem; }
+  .consent-actions a { color:#526176; font-weight:700; }
+  .consent-note { margin:.8rem 0 0; color:var(--muted); font-size:.78rem; }
+  .session-controls { display:flex; justify-content:flex-end; margin-top:.75rem; }
+  [hidden] { display:none !important; }
   .prototype-grid { display:grid; grid-template-columns:minmax(0,1.12fr) minmax(300px,.88fr); gap:1.2rem; margin-top:1.2rem; align-items:start; }
   .lab-card { border:1px solid var(--line); border-radius:20px; background:#fff; box-shadow:0 12px 36px rgba(16,24,39,.07); padding:1.35rem; }
   .lab-card h2 { margin:0 0 .35rem; font-size:1.35rem; }
@@ -28,6 +41,7 @@ noindex: true
   .lab-btn.demo { color:#23355a; background:#e9efff; }
   .lab-btn[disabled] { opacity:.55; cursor:not-allowed; transform:none; }
   .file-label { display:inline-block; cursor:pointer; }
+  .file-label:focus-within { outline:3px solid #1f6feb; outline-offset:3px; border-radius:10px; }
   .file-label input { position:absolute; width:1px; height:1px; opacity:0; }
   .sound-description { margin-top:.9rem; }
   .safety-box { margin-top:1rem; padding:1rem; border-radius:13px; background:#fff9e8; border:1px solid #f3d37a; }
@@ -69,16 +83,42 @@ noindex: true
 
 <div class="listen-shell">
   <section class="listen-hero">
-    <div class="eyebrow">Experimental workshop tool</div>
+    <div class="eyebrow">Public beta · Experimental workshop tool</div>
     <h1>Let your Tesla tell us where it hurts.</h1>
     <p>Record a clunk, squeal, hum, or rattle. This prototype measures the sound on your device, combines it with when and where it happens, then routes you to the most relevant repair guides.</p>
     <div class="privacy-pill">🔒 Audio stays in this browser — no upload, account, or VIN required</div>
   </section>
 
+  <section class="consent-card" id="consent-panel" aria-labelledby="consent-title">
+    <div class="step-kicker">Before you begin</div>
+    <h2 id="consent-title" tabindex="-1">Review and accept the Sound Check terms</h2>
+    <p class="consent-intro">These acknowledgements protect you from treating an experimental match as a repair diagnosis or a safety clearance. Nothing is preselected, and your choice is not stored.</p>
+    <div class="consent-list">
+      <label class="consent-item">
+        <input type="checkbox" id="consent-privacy">
+        <span><strong>Local audio processing and privacy</strong>I understand that audio is processed locally in this browser and never uploaded by this tool. Microphone access is requested only after I press Record. A downloaded case report contains my vehicle answers, description, measurements, and timestamp—but not raw audio—and is shared only if I choose to share it.</span>
+      </label>
+      <label class="consent-item">
+        <input type="checkbox" id="consent-limitations">
+        <span><strong>Experimental result—not a diagnosis</strong>I understand that matches are unvalidated, heuristic suggestions. They may be wrong, incomplete, or affected by phone placement and background noise. This tool cannot confirm that my vehicle is safe, and I will verify findings with an appropriately qualified professional before replacing parts.</span>
+      </label>
+      <label class="consent-item">
+        <input type="checkbox" id="consent-safety">
+        <span><strong>Safe use and urgent symptoms</strong>I am parked safely or a passenger is operating the device. I will not use it while driving. Brake or steering changes, warning lights, smoke, burning smell, unusual heat, impact damage, exposed high voltage, or immediate danger override any result: stop using the vehicle when safe, seek professional help, and contact local emergency services when needed.</span>
+      </label>
+    </div>
+    <div class="consent-actions">
+      <button class="lab-btn" type="button" id="consent-start" disabled>Accept and start Sound Check →</button>
+      <a href="/guides/">Not now—browse repair guides</a>
+    </div>
+    <p class="consent-note">Consent applies only to this open page. Reloading or withdrawing consent clears the current in-memory session. The hosting service still receives ordinary web request data such as IP address and browser headers; this beta page does not load Google Analytics.</p>
+  </section>
+
+  <div id="tool-workspace" hidden>
   <div class="prototype-grid">
     <section class="lab-card" aria-labelledby="capture-title">
       <div class="step-kicker">Step 1 · Add context and sound</div>
-      <h2 id="capture-title">What are you hearing?</h2>
+      <h2 id="capture-title" tabindex="-1">What are you hearing?</h2>
       <div class="field-grid">
         <div class="field"><label for="model">Vehicle</label><select id="model"><option>Model 3</option><option>Model Y</option><option>Model S</option><option>Model X</option><option>Cybertruck</option></select></div>
         <div class="field"><label for="when">When does it happen?</label><select id="when"><option value="bumps">Over bumps / rough road</option><option value="braking">While braking</option><option value="turning">While turning</option><option value="acceleration">Under acceleration / regeneration</option><option value="speed">Changes with road speed</option><option value="climate">With climate control</option></select></div>
@@ -120,6 +160,8 @@ noindex: true
       <div class="result-empty"><div><div class="ring"></div><strong>No sound analyzed yet</strong><p>Results will rank likely causes—not pretend to give a certain diagnosis.</p></div></div>
     </aside>
   </div>
+  <div class="session-controls"><button class="lab-btn secondary" type="button" id="consent-withdraw">Withdraw consent &amp; clear this session</button></div>
+  </div>
 
   <details class="method">
     <summary>How this prototype works (and what it cannot know)</summary>
@@ -129,12 +171,18 @@ noindex: true
   <p class="disclaimer">Independent prototype. Not affiliated with or endorsed by Tesla, Inc. Never interact with a phone while driving.</p>
 </div>
 
+<script src="/js/listen-consent.js"></script>
 <script src="/js/listen-diagnostic.js"></script>
 <script>
 (function () {
   const $ = id => document.getElementById(id);
   const status = $('status'), analyzeButton = $('analyze'), canvas = $('visualizer'), ctx = canvas.getContext('2d');
-  let currentAudio = null, recorder = null, chunks = [], stream = null, lastAnalysis = null, recordingTimer = null;
+  const consentPanel = $('consent-panel'), toolWorkspace = $('tool-workspace'), consentStart = $('consent-start');
+  const consentChecks = {
+    privacy: $('consent-privacy'), limitations: $('consent-limitations'), safety: $('consent-safety')
+  };
+  let currentAudio = null, activeCapture = null, lastAnalysis = null, consentGranted = false, operationToken = 0, pendingRecordToken = null;
+  const emptyResultsMarkup = '<div class="step-kicker">Step 2 · Explainable triage</div><h2 id="results-title">Likely matches</h2><div class="result-empty"><div><div class="ring"></div><strong>No sound analyzed yet</strong><p>Results will rank likely causes—not pretend to give a certain diagnosis.</p></div></div>';
 
   function contextData() {
     return {
@@ -144,6 +192,63 @@ noindex: true
       warningSmoke: $('warningSmoke').checked, warningImpact: $('warningImpact').checked
     };
   }
+  function consentData() {
+    return Object.fromEntries(Object.entries(consentChecks).map(([key, input]) => [key, input.checked]));
+  }
+  function refreshConsent() {
+    consentStart.disabled = !TeslaListenConsent.canStart(consentData());
+  }
+  function stopCapture() {
+    const capture = activeCapture;
+    activeCapture = null;
+    if (capture) {
+      clearTimeout(capture.timer);
+      capture.recorder.onstop = null;
+      capture.recorder.ondataavailable = null;
+      if (capture.recorder.state === 'recording') capture.recorder.stop();
+      capture.stream.getTracks().forEach(track => track.stop());
+    }
+    pendingRecordToken = null;
+    $('record').disabled = false;
+    $('record').textContent = '● Start recording';
+  }
+  function invalidateOperations() {
+    operationToken += 1;
+    stopCapture();
+    return operationToken;
+  }
+  function operationIsCurrent(token) {
+    return consentGranted && token === operationToken;
+  }
+  function clearSession() {
+    invalidateOperations();
+    currentAudio = null; lastAnalysis = null; analyzeButton.disabled = true; $('upload').value = '';
+    document.querySelectorAll('#model,#year,#when,#area').forEach(input => { input.selectedIndex = 0; });
+    $('words').value = '';
+    document.querySelectorAll('#warningBrake,#warningSteering,#warningSmoke,#warningImpact').forEach(input => { input.checked = false; });
+    $('results').innerHTML = emptyResultsMarkup;
+    drawWave(new Float32Array(100));
+    status.textContent = 'Session cleared. Accept the terms again to use Sound Check.';
+  }
+  function resetConsentGate() {
+    consentGranted = false;
+    clearSession();
+    Object.values(consentChecks).forEach(input => { input.checked = false; });
+    refreshConsent();
+    toolWorkspace.hidden = true;
+    consentPanel.hidden = false;
+  }
+  Object.values(consentChecks).forEach(input => input.addEventListener('change', refreshConsent));
+  consentStart.addEventListener('click', () => {
+    if (!TeslaListenConsent.canStart(consentData())) return;
+    consentGranted = true; invalidateOperations(); consentPanel.hidden = true; toolWorkspace.hidden = false;
+    status.textContent = 'Choose a demo, record, or upload a sound.';
+    $('capture-title').focus({ preventScroll: true }); toolWorkspace.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  });
+  $('consent-withdraw').addEventListener('click', () => {
+    resetConsentGate();
+    $('consent-title').focus({ preventScroll: true }); consentPanel.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  });
   function setAudio(samples, sampleRate, label) {
     invalidateResult();
     currentAudio = { samples, sampleRate };
@@ -156,7 +261,9 @@ noindex: true
     $('results').innerHTML='<h2 id="results-title">Likely matches</h2><p class="muted">Analyze the current sound to replace this empty state.</p>';
   }
   function beginAudioReplacement() {
+    const token = invalidateOperations();
     invalidateResult(); currentAudio=null; analyzeButton.disabled=true;
+    return token;
   }
   function drawWave(samples) {
     const w = canvas.width, h = canvas.height;
@@ -200,6 +307,8 @@ noindex: true
     }
   }
   document.querySelectorAll('[data-demo]').forEach(button => button.addEventListener('click', () => {
+    if (!consentGranted) return;
+    beginAudioReplacement();
     const kind=button.dataset.demo, demo=TeslaSoundLab.makeDemo(kind);
     if(kind==='clunk'){$('when').value='bumps';$('area').value='front-left';$('words').value='dull clunk over bumps';}
     if(kind==='squeal'){$('when').value='braking';$('area').value='front-right';$('words').value='high squeal while braking';}
@@ -207,25 +316,49 @@ noindex: true
     setAudio(demo.samples,demo.sampleRate,button.textContent.replace('Try: ','Demo '));
   }));
   $('upload').addEventListener('change', async event => {
+    if (!consentGranted) { event.target.value=''; return; }
     const file=event.target.files[0]; if(!file)return;
-    beginAudioReplacement();
+    const token=beginAudioReplacement();
     status.textContent='Decoding ' + file.name + '…';
-    try { const audio=await decode(file); setAudio(audio.samples,audio.sampleRate,file.name); }
-    catch(error){ status.textContent=error.message || 'Could not decode this audio file. Try WAV, MP3, M4A, or a demo.'; }
+    try { const audio=await decode(file); if(operationIsCurrent(token))setAudio(audio.samples,audio.sampleRate,file.name); }
+    catch(error){ if(operationIsCurrent(token))status.textContent=error.message || 'Could not decode this audio file. Try WAV, MP3, M4A, or a demo.'; }
   });
   $('record').addEventListener('click', async () => {
+    if (!consentGranted) return;
     const button=$('record');
-    if(recorder && recorder.state==='recording') { clearTimeout(recordingTimer); recorder.stop(); button.textContent='● Start recording'; return; }
+    if(pendingRecordToken !== null) return;
+    if(activeCapture && activeCapture.recorder.state==='recording') { clearTimeout(activeCapture.timer); activeCapture.recorder.stop(); button.disabled=true; button.textContent='● Start recording'; return; }
     if(!navigator.mediaDevices || !window.MediaRecorder){ status.textContent='Recording is unavailable here. Upload audio or use a demo.'; return; }
-    beginAudioReplacement();
+    const token=beginAudioReplacement();
+    pendingRecordToken=token; button.disabled=true; status.textContent='Waiting for microphone permission…';
+    let localStream=null, localCapture=null;
     try {
-      stream=await navigator.mediaDevices.getUserMedia({audio:true}); chunks=[]; recorder=new MediaRecorder(stream);
-      recorder.ondataavailable=e=>{if(e.data.size)chunks.push(e.data)};
-      recorder.onstop=async()=>{clearTimeout(recordingTimer);stream.getTracks().forEach(t=>t.stop());button.textContent='● Start recording';status.textContent='Decoding recording…';try{const audio=await decode(new Blob(chunks,{type:recorder.mimeType}));setAudio(audio.samples,audio.sampleRate,'Recording');}catch(e){status.textContent=e.message||'Recording could not be decoded. Try uploading audio.';}};
-      recorder.start(); recordingTimer=setTimeout(()=>{if(recorder.state==='recording')recorder.stop();},15000); button.textContent='■ Stop recording'; status.textContent='Recording… capture the sound for 3–10 seconds (15-second maximum).';
-    } catch(error) { if(stream)stream.getTracks().forEach(t=>t.stop());stream=null;button.textContent='● Start recording';status.textContent='Microphone permission was not granted. Upload audio or use a demo.'; }
+      localStream=await navigator.mediaDevices.getUserMedia({audio:true});
+      if(!operationIsCurrent(token)){localStream.getTracks().forEach(t=>t.stop());return;}
+      const localChunks=[], localRecorder=new MediaRecorder(localStream);
+      const capture={stream:localStream,recorder:localRecorder,chunks:localChunks,timer:null};
+      localCapture=capture; activeCapture=capture; pendingRecordToken=null;
+      localRecorder.ondataavailable=e=>{if(e.data.size)localChunks.push(e.data)};
+      localRecorder.onstop=async()=>{
+        clearTimeout(capture.timer);
+        localStream.getTracks().forEach(t=>t.stop());
+        if(activeCapture===capture)activeCapture=null;
+        if(!operationIsCurrent(token))return;
+        button.textContent='● Start recording'; status.textContent='Decoding recording…';
+        try { const audio=await decode(new Blob(localChunks,{type:localRecorder.mimeType})); if(operationIsCurrent(token))setAudio(audio.samples,audio.sampleRate,'Recording'); }
+        catch(e){ if(operationIsCurrent(token))status.textContent=e.message||'Recording could not be decoded. Try uploading audio.'; }
+        finally { if(operationIsCurrent(token))button.disabled=false; }
+      };
+      localRecorder.start(); capture.timer=setTimeout(()=>{if(localRecorder.state==='recording')localRecorder.stop();},15000); button.disabled=false; button.textContent='■ Stop recording'; status.textContent='Recording… capture the sound for 3–10 seconds (15-second maximum).';
+    } catch(error) {
+      if(localCapture && activeCapture===localCapture)activeCapture=null;
+      if(localStream)localStream.getTracks().forEach(t=>t.stop());
+      if(!operationIsCurrent(token))return;
+      pendingRecordToken=null; button.disabled=false; button.textContent='● Start recording'; status.textContent='Microphone permission was not granted. Upload audio or use a demo.';
+    }
   });
   analyzeButton.addEventListener('click', () => {
+    if (!consentGranted || !currentAudio) return;
     try {
       status.textContent='Measuring frequency, tone, and transients…';
       const features=TeslaSoundLab.extractFeatures(currentAudio.samples,currentAudio.sampleRate);
@@ -254,6 +387,8 @@ noindex: true
     });
   }
   document.querySelectorAll('#model,#when,#area,#year,#words,#warningBrake,#warningSteering,#warningSmoke,#warningImpact').forEach(input=>input.addEventListener('input',()=>{if(lastAnalysis)invalidateResult();}));
+  window.addEventListener('pagehide', resetConsentGate);
+  window.addEventListener('pageshow', event => { if (event.persisted) resetConsentGate(); });
   drawWave(new Float32Array(100));
 })();
 </script>
