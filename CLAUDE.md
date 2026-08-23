@@ -61,7 +61,29 @@ Amazon.com `diyrepair07-20`, May 1 – Jul 29 2026 (90 days):
 - `.planning/BACKLINK-KIT.md` - Ready-to-use outreach templates + linkable-data-asset plan (Pillar 2)
 - `scripts/gsc.js` - GSC API script. Now outputs **per-page query breakdown + ranked opportunities** (🎯 = striking-distance pos 5–20). Run `npm run gsc` locally.
 
-## GSC Stats (2026-07-28 — LIVE, last 28 days)
+## GSC Stats (2026-08-12 — LIVE, last 28 days) 🎉 BEST YET
+| Metric | 2026-07-28 | 2026-08-12 | Change |
+|--------|-----------|-----------|--------|
+| Clicks | 343 | **591** | +72% |
+| Impressions | 47,486 | **63,653** | +34% |
+| CTR | 0.72% | **0.93%** | +29% |
+| Avg Position | 10.2 | **9.6** | first time under 10 |
+
+**🔥 THE HEADLINE: the RCM collision article is the best-converting page on the site.**
+`/posts/tesla-rcm-replacement-post-crash-reset/` — 384 imp, **17 clicks, 4.4% CTR, pos 9.4**. That's **4.7x the site average CTR**, from a page that had ZERO impressions two weeks ago and is ~1 month old. Its queries are exactly the intended ones: "tesla rcm reset" (pos 5.3, 33% CTR), "tesla rcm" (pos 11.8, 16.7%), "clear post crash load shed" (pos 6.9). **This validates the real-expertise/collision strategy outright** — low volume, but the highest-intent, highest-converting traffic on the site. Make more of these.
+
+**Fixes verdict (all shipped 07-24 to 07-29):**
+- ✅ **Homepage retarget WORKED:** "tesla diy" pos 7.7→7.1, CTR 1.8%→3.0%; homepage total clicks 3→14, CTR 0.8%→3.9%.
+- ✅ **service-mode error code climbing steadily:** thc_w0134 pos 8.1→7.7→6.9→**5.7**.
+- ⏳ "tesla service mode access code" no longer in that page's top-5 queries — inconclusive, re-check next pull.
+- ⏳ Screen cannibalization: neither screen page in top-15 now — inconclusive.
+
+**Big risers:** software-update-stuck 49→**92 clicks** (9,807 imp, now #1 page), phantom-braking 47→**82 clicks** ("tesla phantom braking 2026" now pos **2.4** @ 22.7% CTR), creaking-rattling 7→**39 clicks**, falcon-wing-door new in top-10 (24 clicks).
+**Note:** some "queries" are scraper noise (`"tesla" "firmware" "error" -site:reddit.com...`) — ignore those rows.
+**Still zero:** Juniper bumper/tow-hitch guide (pub 07-23) — no impressions yet.
+**Next data check:** mid-September.
+
+## GSC Stats (2026-07-28 — superseded)
 > First clean comparison — both this pull and 07-25 used the pinned sc-domain property. ⚠️ But only **3 days apart** (and 4 days after the 07-24 fixes shipped), so the 28-day windows overlap heavily. Treat as a trend check, NOT a verdict on the fixes.
 
 | Metric | 2026-07-25 | 2026-07-28 |
