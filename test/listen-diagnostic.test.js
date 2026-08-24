@@ -21,6 +21,43 @@ for (const [kind, expected] of Object.entries({ clunk: 'suspension-clunk', squea
   });
 }
 
+test('owner-provided cabin sensor fan sample ranks the dedicated aspirator profile first', () => {
+  // Privacy-safe feature values derived from seconds 8–11 of the local workshop video.
+  // No raw audio or video is stored in the repository.
+  const features = {
+    duration: 3,
+    rms: 0.0035,
+    variation: 0.0035,
+    peak: 0.04,
+    zeroCrossingRate: 0.31,
+    centroid: 3472,
+    lowRatio: 0.152,
+    highRatio: 0.694,
+    impulse: 0.237,
+    tone: 0.521,
+    clippingRatio: 0
+  };
+  const result = lab.analyze(features, {
+    when: 'awake',
+    area: 'under-screen',
+    words: 'steady buzzing under the screen'
+  });
+  assert.equal(result.ranked[0].id, 'cabin-sensor-fan');
+  assert.ok(result.ranked[0].confidence >= 80);
+});
+
+test('the same tonal sample still routes to the main HVAC profile with blower context', () => {
+  const features = {
+    duration: 3, rms: 0.0035, variation: 0.0035, peak: 0.04,
+    zeroCrossingRate: 0.31, centroid: 3472, lowRatio: 0.152,
+    highRatio: 0.694, impulse: 0.237, tone: 0.521, clippingRatio: 0
+  };
+  const result = lab.analyze(features, {
+    when: 'climate', area: 'dash', words: 'main blower whine changes with fan speed'
+  });
+  assert.equal(result.ranked[0].id, 'hvac-whine');
+});
+
 test('safety symptoms override a benign-looking sound', () => {
   const audio = lab.makeDemo('hvac');
   const features = lab.extractFeatures(audio.samples, audio.sampleRate);
@@ -106,7 +143,13 @@ test('knowledge base covers axle clicks, wind whistles, and drive-unit whine', (
   assert.ok(ids.has('halfshaft-click'));
   assert.ok(ids.has('wind-whistle'));
   assert.ok(ids.has('drive-unit-whine'));
-  assert.ok(lab.CAUSES.length >= 8);
+  assert.ok(ids.has('cabin-sensor-fan'));
+  assert.ok(lab.CAUSES.length >= 9);
+});
+
+test('method disclosure states the current nine-profile coverage', () => {
+  const listen = fs.readFileSync(path.join(__dirname, '..', 'src', 'listen.njk'), 'utf8');
+  assert.match(listen, /ranks nine symptom families/);
 });
 
 test('quality score is bounded and accepted demo is usable', () => {

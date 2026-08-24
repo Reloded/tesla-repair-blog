@@ -42,6 +42,17 @@
       ]
     },
     {
+      id: 'cabin-sensor-fan', name: 'Possible small cabin-sensor fan noise',
+      summary: 'On some Tesla configurations, a small aspirator fan near the center display draws cabin air across an interior sensor. Dust, contact, or fan wear can create a persistent high buzz distinct from the main HVAC blower.',
+      href: '/guides/hvac-climate/', urgency: 'Usually safe to monitor; inspect if persistent',
+      acoustic: { centroid: [1800, 5200], tone: [0.35, 1], highRatio: [0.4, 1], impulse: [0, 0.5] },
+      context: { when: ['awake', 'climate'], area: ['under-screen', 'dash', 'cabin'], words: ['fan', 'sensor', 'buzz', 'under screen', 'air quality', 'temperature'] },
+      checks: ['While safely parked, switch the main climate blower off and listen close to the underside of the center display; note whether the smaller buzz continues.', 'Do not replace parts from the sound match alone. Have the sensor inlet, small fan, connector, and mounting checked for dust, contact, or bearing wear; component name and location vary by model year.'],
+      sources: [
+        { title: 'Tesla Model 3 Service Manual', url: 'https://service.tesla.com/docs/Model3/ServiceManual/en-us/', strength: 'official service reference', applicability: 'Confirm the exact sensor name, location, and procedure for the vehicle model and year' }
+      ]
+    },
+    {
       id: 'wheel-bearing', name: 'Wheel bearing or tire resonance',
       summary: 'A broad hum that rises with road speed may be tire pattern noise, uneven wear, or a wheel bearing.',
       href: '/posts/tesla-wheel-bearing-replacement/', urgency: 'Inspect soon if it changes in turns',
