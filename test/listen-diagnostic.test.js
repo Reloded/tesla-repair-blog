@@ -46,6 +46,65 @@ test('owner-provided cabin sensor fan sample ranks the dedicated aspirator profi
   assert.ok(result.ranked[0].confidence >= 80);
 });
 
+test('2024 Model S slow-turn underbody rattle ranks a shield or mounting profile first', () => {
+  // Privacy-safe features derived from the complete owner-provided 10.13 s video.
+  // No raw audio or video is stored in the repository.
+  const features = {
+    duration: 10.13,
+    rms: 0.00812,
+    variation: 0.00812,
+    peak: 0.0594,
+    zeroCrossingRate: 0.142,
+    centroid: 2433,
+    lowRatio: 0.161,
+    highRatio: 0.546,
+    impulse: 0.568,
+    tone: 0.174,
+    clippingRatio: 0
+  };
+  const result = lab.analyze(features, {
+    model: 'Model S', year: '2024',
+    when: 'low-speed', area: 'underbody',
+    words: 'rattle below car during a slow turn'
+  });
+  assert.equal(result.ranked[0].id, 'underbody-shield-rattle');
+  assert.ok(result.ranked[0].confidence >= 80);
+
+  const unsupportedModel = lab.analyze(features, {
+    model: 'Model 3', year: '2024',
+    when: 'low-speed', area: 'underbody',
+    words: 'rattle below car during a slow turn'
+  });
+  assert.equal(unsupportedModel.ranked.some(match => match.id === 'underbody-shield-rattle'), false);
+});
+
+test('impulsive wheel click still ranks the halfshaft profile with torque-load context', () => {
+  const features = {
+    duration: 10.13, rms: 0.00812, variation: 0.00812, peak: 0.0594,
+    zeroCrossingRate: 0.142, centroid: 2433, lowRatio: 0.161,
+    highRatio: 0.546, impulse: 0.568, tone: 0.174, clippingRatio: 0
+  };
+  const result = lab.analyze(features, {
+    when: 'acceleration', area: 'front-left',
+    words: 'single click when torque loads at the wheel'
+  });
+  assert.equal(result.ranked[0].id, 'halfshaft-click');
+  assert.equal(result.ranked.some(match => match.id === 'underbody-shield-rattle'), false);
+});
+
+test('underbody profile cannot enter the displayed matches for a cabin trim rattle', () => {
+  const features = {
+    duration: 10.13, rms: 0.00812, variation: 0.00812, peak: 0.0594,
+    zeroCrossingRate: 0.142, centroid: 2433, lowRatio: 0.161,
+    highRatio: 0.546, impulse: 0.568, tone: 0.174, clippingRatio: 0
+  };
+  const result = lab.analyze(features, {
+    when: 'bumps', area: 'cabin', words: 'dashboard trim rattle over rough road'
+  });
+  assert.equal(result.ranked[0].id, 'trim-rattle');
+  assert.equal(result.ranked.some(match => match.id === 'underbody-shield-rattle'), false);
+});
+
 test('the same tonal sample still routes to the main HVAC profile with blower context', () => {
   const features = {
     duration: 3, rms: 0.0035, variation: 0.0035, peak: 0.04,
@@ -138,18 +197,30 @@ test('every diagnostic profile has evidence and physical verification steps', ()
   }
 });
 
-test('knowledge base covers axle clicks, wind whistles, and drive-unit whine', () => {
+test('underbody profile preserves loose-panel and structural-fastener safety boundaries', () => {
+  const cause = lab.CAUSES.find(item => item.id === 'underbody-shield-rattle');
+  const guidance = `${cause.urgency} ${cause.checks.join(' ')}`.toLowerCase();
+  assert.match(guidance, /do not drive/);
+  assert.match(guidance, /never crawl beneath/);
+  assert.match(guidance, /do not guess torque values/);
+  assert.match(cause.summary.toLowerCase(), /audio alone cannot rule out/);
+  assert.match(cause.sources[0].applicability, /2021\+ Model S/);
+  assert.deepEqual(cause.context.requiredModels, ['Model S']);
+});
+
+test('knowledge base covers axle clicks, wind whistles, sensor fans, and underbody rattles', () => {
   const ids = new Set(lab.CAUSES.map(cause => cause.id));
   assert.ok(ids.has('halfshaft-click'));
   assert.ok(ids.has('wind-whistle'));
   assert.ok(ids.has('drive-unit-whine'));
   assert.ok(ids.has('cabin-sensor-fan'));
-  assert.ok(lab.CAUSES.length >= 9);
+  assert.ok(ids.has('underbody-shield-rattle'));
+  assert.ok(lab.CAUSES.length >= 10);
 });
 
-test('method disclosure states the current nine-profile coverage', () => {
+test('method disclosure states the current ten-profile coverage', () => {
   const listen = fs.readFileSync(path.join(__dirname, '..', 'src', 'listen.njk'), 'utf8');
-  assert.match(listen, /ranks nine symptom families/);
+  assert.match(listen, /ranks ten symptom families/);
 });
 
 test('quality score is bounded and accepted demo is usable', () => {

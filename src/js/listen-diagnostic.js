@@ -18,6 +18,17 @@
       ]
     },
     {
+      id: 'underbody-shield-rattle', name: 'Possible loose underbody shield or mounting contact',
+      summary: 'A loose or displaced aero shield, wheel-arch clip, or another underbody mounting can rattle during slow maneuvers and imitate a suspension or axle fault. Audio alone cannot rule out a loose subframe or structural fastener.',
+      href: '/guides/exterior-body/', urgency: 'Inspect before driving; do not drive if loose, hanging, or dragging',
+      acoustic: { centroid: [1800, 3000], tone: [0.08, 0.26], highRatio: [0.42, 0.62], impulse: [0.35, 0.7] },
+      context: { when: ['low-speed', 'turning'], area: ['underbody', 'front'], requiredArea: ['underbody', 'front'], requiredModels: ['Model S'], words: ['below', 'under car', 'underbody', 'shield', 'plate'] },
+      checks: ['Park safely and inspect only from outside the vehicle for a hanging shield edge, missing wheel-arch or underbody clips, scrape marks, or fresh contact. Never crawl beneath a vehicle supported only by a jack.', 'Do not drive if a panel is loose, hanging, dragging, or could contact a tire or the road; arrange safe recovery or a qualified lift inspection. If the panel appears secure, steering or handling changes, or subframe/crossmember fasteners are suspected, stop road testing. Do not guess torque values or retighten structural fasteners without the exact Tesla procedure.'],
+      sources: [
+        { title: 'Tesla 2021+ Model S: Front Aero Shield — Remove and Replace', url: 'https://service.tesla.com/docs/ModelS/ServiceManual/Palladium/en-us/GUID-61A52E3D-C980-4FCB-9B76-482F1596617F.html', strength: 'official draft procedure', applicability: '2021+ Model S; identifies wheel-arch and underbody clips plus nine shield bolts at the front subframe; confirm current revision' }
+      ]
+    },
+    {
       id: 'brake-squeal', name: 'Brake pad / rotor squeal',
       summary: 'A stable high-frequency tone during braking commonly comes from pad glazing, debris, wear indicators, or corrosion.',
       href: '/posts/tesla-squeaky-brakes-fix/', urgency: 'Check before the next long drive',
@@ -233,7 +244,9 @@
       if (cause.context.area.includes(context.area)) contextHits += 0.8;
       if (cause.context.words.some(word => words.includes(word))) contextHits += 0.8;
       const contextScore = clamp(contextHits / 3, 0, 1);
-      const score = clamp(0.62 * acousticScore + 0.38 * contextScore, 0, 1);
+      let score = clamp(0.62 * acousticScore + 0.38 * contextScore, 0, 1);
+      if (cause.context.requiredArea && !cause.context.requiredArea.includes(context.area)) score *= 0.35;
+      if (cause.context.requiredModels && !cause.context.requiredModels.includes(context.model)) score *= 0.35;
       const confidence = Math.round(28 + score * 67);
       return Object.assign({}, cause, {
         score, confidence,
