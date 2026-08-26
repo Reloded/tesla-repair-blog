@@ -75,6 +75,7 @@ noindex: true
   .feature { padding:.65rem .4rem; border-radius:10px; text-align:center; background:#f2f5f9; }
   .feature b { display:block; font-size:.95rem; }
   .feature span { font-size:.67rem; color:var(--muted); text-transform:uppercase; letter-spacing:.06em; }
+  .report-actions { display:flex; flex-wrap:wrap; gap:.6rem; margin-top:1rem; }
   .method { margin-top:1.2rem; padding:1rem 1.2rem; border-radius:14px; background:#f5f7fb; color:#46536a; }
   .method summary { cursor:pointer; font-weight:800; color:var(--ink); }
   .disclaimer { margin-top:1rem; font-size:.78rem; color:var(--muted); }
@@ -378,12 +379,19 @@ noindex: true
     }
     const alert=outcome.stopDriving?`<div class="alert-stop"><strong>Stop driving and arrange a professional inspection.</strong>${escape(outcome.safety.join(' · '))}. Sound matching cannot clear a safety-critical symptom.</div>`:'';
     const causes=outcome.ranked.map((cause,index)=>`<article class="cause"><div class="cause-head"><h3>${index+1}. ${escape(cause.name)}</h3><span class="confidence">${cause.confidence}% match</span></div><p>${escape(cause.summary)}</p><ul>${cause.reasons.map(r=>`<li>${escape(r)}</li>`).join('')||'<li>Closest available profile; gather another recording to compare.</li>'}</ul><div class="verify-box"><strong>Verify before replacing parts</strong><ol>${cause.checks.map(check=>`<li>${escape(check)}</li>`).join('')}</ol></div><div class="urgency">${escape(cause.urgency)}</div><a href="${escape(cause.href)}">Browse related repair guidance →</a><div class="evidence"><strong>Evidence</strong>${cause.sources.map(source=>`<a href="${escape(source.url)}" target="_blank" rel="noopener noreferrer">${escape(source.title)} <em>(${escape(source.strength)})</em> ↗</a><em>Applies to: ${escape(source.applicability)}</em>`).join('')}</div></article>`).join('');
-    $('results').innerHTML=`<div class="step-kicker">Step 2 · Explainable triage</div><h2 id="results-title">Likely matches</h2>${alert}${causes}<div class="feature-strip"><div class="feature"><b>${outcome.quality.score}/100</b><span>Signal quality</span></div><div class="feature"><b>${Math.round(f.centroid)} Hz</b><span>Frequency center</span></div><div class="feature"><b>${Math.round(f.impulse*100)}%</b><span>Impulse</span></div><div class="feature"><b>${Math.round(f.tone*100)}%</b><span>Tonality</span></div></div><button class="lab-btn secondary" id="export-case" type="button">Download private case report</button><p class="disclaimer">The report contains model/year, conditions, free-text description, extracted measurements, and an exact timestamp, but no raw audio. Review free text before sharing it. Match percentages are heuristic ranking scores, not calibrated probabilities. YouTube examples document individual vehicles and are not universal repair instructions.</p>`;
+    $('results').innerHTML=`<div class="step-kicker">Step 2 · Explainable triage</div><h2 id="results-title">Likely matches</h2>${alert}${causes}<div class="feature-strip"><div class="feature"><b>${outcome.quality.score}/100</b><span>Signal quality</span></div><div class="feature"><b>${Math.round(f.centroid)} Hz</b><span>Frequency center</span></div><div class="feature"><b>${Math.round(f.impulse*100)}%</b><span>Impulse</span></div><div class="feature"><b>${Math.round(f.tone*100)}%</b><span>Tonality</span></div></div><div class="report-actions"><button class="lab-btn" id="export-case" type="button">Download readable report (.html)</button><button class="lab-btn secondary" id="export-json" type="button">Download technical JSON (.json)</button></div><p class="disclaimer">Both reports contain model/year, conditions, free-text description, extracted measurements, and an exact timestamp, but no raw audio. The readable HTML opens in a browser; JSON is intended for technical comparison. Review free text before sharing. Match percentages are heuristic ranking scores, not calibrated probabilities. YouTube examples document individual vehicles and are not universal repair instructions.</p>`;
+    const triggerDownload=(content,type,filename)=>{
+      const blob=new Blob([content],{type});
+      const url=URL.createObjectURL(blob), link=document.createElement('a');
+      link.href=url; link.download=filename; document.body.appendChild(link); link.click(); link.remove(); setTimeout(()=>URL.revokeObjectURL(url),1000);
+    };
     $('export-case').addEventListener('click',()=>{
       const report=TeslaSoundLab.makeCaseReport(lastAnalysis.features,lastAnalysis.context,lastAnalysis.outcome);
-      const blob=new Blob([JSON.stringify(report,null,2)],{type:'application/json'});
-      const url=URL.createObjectURL(blob), link=document.createElement('a');
-      link.href=url; link.download='tesla-sound-case-'+Date.now()+'.json'; document.body.appendChild(link); link.click(); link.remove(); setTimeout(()=>URL.revokeObjectURL(url),1000);
+      triggerDownload(TeslaSoundLab.makeCaseReportHtml(report),'text/html;charset=utf-8','tesla-sound-case-'+Date.now()+'.html');
+    });
+    $('export-json').addEventListener('click',()=>{
+      const report=TeslaSoundLab.makeCaseReport(lastAnalysis.features,lastAnalysis.context,lastAnalysis.outcome);
+      triggerDownload(JSON.stringify(report,null,2),'application/json','tesla-sound-case-'+Date.now()+'.json');
     });
   }
   document.querySelectorAll('#model,#when,#area,#year,#words,#warningBrake,#warningSteering,#warningSmoke,#warningImpact').forEach(input=>input.addEventListener('input',()=>{if(lastAnalysis)invalidateResult();}));

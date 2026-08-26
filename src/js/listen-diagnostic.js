@@ -295,7 +295,7 @@
       if (typeof features[key] === 'number') numericFeatures[key] = Number(features[key].toFixed(6));
     });
     return {
-      schemaVersion: 1,
+      schemaVersion: 2,
       createdAt: createdAt || new Date().toISOString(),
       privacy: 'No raw audio is included in this report.',
       vehicle: { model: context.model || 'Unknown', year: context.year || 'Unknown' },
@@ -303,11 +303,51 @@
       quality: outcome.quality,
       safety: { stopDriving: outcome.stopDriving, reasons: outcome.safety || [] },
       features: numericFeatures,
-      matches: (outcome.ranked || []).map(cause => ({ id: cause.id, name: cause.name, score: cause.confidence }))
+      matches: (outcome.ranked || []).map(cause => ({
+        id: cause.id, name: cause.name, score: cause.confidence,
+        urgency: cause.urgency, checks: (cause.checks || []).slice()
+      }))
     };
   }
 
-  const api = { CAUSES, extractFeatures, assessQuality, analyze, makeDemo, makeCaseReport };
+  function makeCaseReportHtml(report) {
+    const escape = value => String(value == null ? '' : value).replace(/[&<>"']/g, character => ({
+      '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'
+    }[character]));
+    const whenLabels = {
+      bumps: 'Over bumps / rough road', 'low-speed': 'At low speed / parking maneuver',
+      braking: 'While braking', turning: 'While turning', acceleration: 'Under acceleration / regeneration',
+      speed: 'Changes with road speed', climate: 'With climate control', awake: 'While parked / vehicle awake'
+    };
+    const areaLabels = {
+      'front-left': 'Front left', 'front-right': 'Front right', front: 'Under the hood / front',
+      underbody: 'Underbody / below the car', dash: 'Dashboard', 'under-screen': 'Under the center screen',
+      cabin: 'Inside the cabin', rear: 'Rear of vehicle'
+    };
+    const matches = (report.matches || []).map((match, index) => {
+      const profile = CAUSES.find(cause => cause.id === match.id);
+      const urgency = match.urgency || profile && profile.urgency || '';
+      const checks = (match.checks || profile && profile.checks || []).map(check => `<li>${escape(check)}</li>`).join('');
+      const guidance = urgency || checks
+        ? `<div class="guidance">${urgency ? `<p><strong>Precaution:</strong> ${escape(urgency)}</p>` : ''}${checks ? `<details><summary>Verification steps</summary><ol>${checks}</ol></details>` : ''}</div>` : '';
+      return `<article class="match"><div class="match-head"><div><span class="rank">${index + 1}</span><strong>${escape(match.name)}</strong></div><b>${escape(match.score)}% match</b></div>${guidance}</article>`;
+    }).join('') || '<p>No usable matches were produced.</p>';
+    const safetyReasons = (report.safety && report.safety.reasons || []).map(reason => `<li>${escape(reason)}</li>`).join('');
+    const safety = report.safety && report.safety.stopDriving
+      ? `<section class="alert"><h2>Safety warning</h2><p><strong>Stop driving when safe and arrange a professional inspection.</strong></p>${safetyReasons ? `<ul>${safetyReasons}</ul>` : ''}<p>Sound matching cannot clear a safety-critical symptom.</p></section>`
+      : '<section class="safe"><h2>No emergency safety checkbox was selected</h2><p>This reflects only the answers provided and is not a safety clearance. Review every match-specific precaution below. Stop using the vehicle if braking, steering, heat, smoke, impact damage, or warning-light concerns are present.</p></section>';
+    const measurements = Object.entries(report.features || {}).map(([key, value]) => `<tr><th>${escape(key)}</th><td>${escape(value)}</td></tr>`).join('');
+    const created = new Date(report.createdAt);
+    const createdLabel = Number.isNaN(created.getTime()) ? report.createdAt : created.toUTCString();
+    const description = report.conditions && report.conditions.description
+      ? `<div class="description"><span>Description</span><p>${escape(report.conditions.description)}</p></div>` : '';
+    return `<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'unsafe-inline'; img-src data:"><title>Tesla Sound Check report</title><style>
+:root{color-scheme:light;font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:#182033;background:#edf1f6}*{box-sizing:border-box}body{margin:0;padding:32px 16px}.sheet{max-width:820px;margin:auto;background:white;border-radius:20px;padding:36px;box-shadow:0 15px 45px #15213a18}header{border-bottom:3px solid #e82127;padding-bottom:20px;margin-bottom:24px}.eyebrow,.label,.description span{font-size:12px;text-transform:uppercase;letter-spacing:.09em;color:#68758b;font-weight:800}h1{margin:7px 0 4px;font-size:32px}h2{font-size:18px;margin:28px 0 12px}.meta{color:#68758b}.privacy{background:#edf8f1;color:#17663a;padding:12px 15px;border-radius:10px;font-weight:700}.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}.card,.description,.safe,.alert,details{padding:16px;border-radius:12px;background:#f5f7fa}.card b{display:block;margin-top:4px;font-size:18px}.description{margin-top:12px}.description p{margin:6px 0 0;white-space:pre-wrap}.match{padding:15px 0;border-bottom:1px solid #e5e9ef}.match-head{display:flex;align-items:center;justify-content:space-between;gap:16px}.match-head>div{display:flex;align-items:center;gap:10px}.rank{display:grid;place-items:center;width:28px;height:28px;border-radius:50%;background:#182033;color:white;font-weight:800}.match-head>b{white-space:nowrap;color:#b7191f}.guidance{margin:10px 0 0 38px;color:#46536a}.guidance p{margin:0}.guidance details{margin-top:8px;padding:10px}.guidance ol{margin-bottom:0;padding-left:20px}.safe{border-left:4px solid #3157d5}.alert{background:#fff0f0;border-left:4px solid #d21f2b}.alert h2,.safe h2{margin-top:0}details{margin-top:24px}summary{cursor:pointer;font-weight:800}table{width:100%;border-collapse:collapse;margin-top:12px}th,td{text-align:left;padding:7px;border-bottom:1px solid #e3e7ed}footer{margin-top:26px;color:#68758b;font-size:13px}.disclaimer{font-weight:700;color:#46536a}@media(max-width:600px){.sheet{padding:24px 18px}.grid{grid-template-columns:1fr}.match-head{align-items:flex-start;flex-direction:column}.guidance{margin-left:0}}
+</style></head><body><main class="sheet"><header><div class="eyebrow">Private case report · Experimental beta</div><h1>Tesla Sound Check</h1><div class="meta">Created ${escape(createdLabel)}</div></header><p class="privacy">🔒 ${escape(report.privacy || 'No raw audio is included in this report.')}</p><section><h2>Vehicle and recording context</h2><div class="grid"><div class="card"><span class="label">Vehicle</span><b>${escape(report.vehicle && report.vehicle.model)} · ${escape(report.vehicle && report.vehicle.year)}</b></div><div class="card"><span class="label">Signal quality</span><b>${escape(report.quality && report.quality.score)}/100</b></div><div class="card"><span class="label">When</span><b>${escape(whenLabels[report.conditions && report.conditions.when] || report.conditions && report.conditions.when || 'Not provided')}</b></div><div class="card"><span class="label">Area</span><b>${escape(areaLabels[report.conditions && report.conditions.area] || report.conditions && report.conditions.area || 'Not provided')}</b></div></div>${description}</section>${safety}<section><h2>Likely matches</h2>${matches}<p class="disclaimer">Match percentages are heuristic ranking scores, not calibrated probabilities or a diagnosis.</p></section><details><summary>Technical measurements</summary><p>These values help compare recordings; they are not repair specifications.</p><table>${measurements}</table></details><footer><p>${escape(report.privacy || 'No raw audio is included in this report.')}</p><p>Independent prototype. Not affiliated with or endorsed by Tesla, Inc. Verify findings with an appropriately qualified professional before replacing parts.</p></footer></main></body></html>`;
+  }
+
+  const api = { CAUSES, extractFeatures, assessQuality, analyze, makeDemo, makeCaseReport, makeCaseReportHtml };
   root.TeslaSoundLab = api;
   if (typeof module !== 'undefined' && module.exports) module.exports = api;
 })(typeof window !== 'undefined' ? window : globalThis);

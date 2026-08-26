@@ -236,12 +236,57 @@ test('case report exports metadata and features without raw audio', () => {
   const context = { model: 'Model 3', year: '2022', ...contexts.clunk };
   const outcome = lab.analyze(features, context);
   const report = lab.makeCaseReport(features, context, outcome, '2026-08-09T12:00:00.000Z');
-  assert.equal(report.schemaVersion, 1);
+  assert.equal(report.schemaVersion, 2);
   assert.equal(report.createdAt, '2026-08-09T12:00:00.000Z');
   assert.equal(report.vehicle.model, 'Model 3');
   assert.equal(report.matches[0].id, 'suspension-clunk');
+  assert.ok(report.matches[0].urgency);
+  assert.ok(report.matches[0].checks.length >= 2);
   assert.equal('samples' in report, false);
   assert.equal(JSON.stringify(report).includes('Float32Array'), false);
+});
+
+test('readable case report is self-contained, human-oriented, and escapes free text', () => {
+  const report = {
+    schemaVersion: 2,
+    createdAt: '2026-08-26T19:05:32.900Z',
+    privacy: 'No raw audio is included in this report.',
+    vehicle: { model: 'Model S', year: '2024' },
+    conditions: { when: 'low-speed', area: 'underbody', description: '<img src=x onerror=alert(1)>' },
+    quality: { accepted: true, issues: [], score: 69 },
+    safety: { stopDriving: false, reasons: [] },
+    features: { centroid: 2433, impulse: 0.568 },
+    matches: [{ id: 'underbody-shield-rattle', name: 'Possible loose underbody shield or mounting contact', score: 95, urgency: 'Inspect before driving; do not drive if loose, hanging, or dragging', checks: ['Never crawl beneath a jack-supported vehicle.'] }]
+  };
+  const html = lab.makeCaseReportHtml(report);
+  assert.match(html, /^<!doctype html>/i);
+  assert.match(html, /Model S/);
+  assert.match(html, /2024/);
+  assert.match(html, /95%/);
+  assert.match(html, /No emergency safety checkbox was selected/);
+  assert.match(html, /do not drive if loose, hanging, or dragging/i);
+  assert.match(html, /Never crawl beneath a jack-supported vehicle/);
+  assert.match(html, /No raw audio/i);
+  assert.match(html, /&lt;img src=x onerror=alert\(1\)&gt;/);
+  assert.doesNotMatch(html, /<img src=x/);
+  assert.doesNotMatch(html, /<script/i);
+  assert.match(html, /default-src 'none'/);
+
+  const legacyHtml = lab.makeCaseReportHtml({ ...report, schemaVersion: 1, matches: [{
+    id: 'suspension-clunk', name: 'Suspension joint or fastener play', score: 95
+  }] });
+  assert.match(legacyHtml, /<strong>Precaution:<\/strong> Inspect soon/);
+  assert.match(legacyHtml, /While parked, gently turn the steering wheel/);
+});
+
+test('listen UI separates readable HTML report from technical JSON data', () => {
+  const listen = fs.readFileSync(path.join(__dirname, '..', 'src', 'listen.njk'), 'utf8');
+  assert.match(listen, /id="export-case"[^>]*>Download readable report/);
+  assert.match(listen, /id="export-json"[^>]*>Download technical JSON/);
+  assert.match(listen, /text\/html;charset=utf-8/);
+  assert.match(listen, /application\/json/);
+  assert.match(listen, /\.html'/);
+  assert.match(listen, /\.json'/);
 });
 
 test('experimental listen page is noindex and disables analytics', () => {
