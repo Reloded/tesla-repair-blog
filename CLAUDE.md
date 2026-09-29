@@ -51,6 +51,8 @@ Amazon.com `diyrepair07-20`, May 1 – Jul 29 2026 (90 days):
 
 **The good news:** 15% conversion proves the audience is high-intent and buys when shown relevant products. The problem is **$1.36/order**, not audience quality. The same buyer clicking an OEM collision part (€200–2,000 at RR Car Parts) is worth orders of magnitude more.
 
+**💸 PAYOUT STATUS (checked via Gmail 2026-09-29): nothing has ever been paid out.** Every monthly earnings email (Mar, May, Jun, Jul 2026) says the balance "didn't meet our minimum commission threshold" and was carried forward; April earned $0. Balance is roughly ~$30–35 (the $29.84 May–Jul figure + a small March amount) — above the $10 direct-deposit/gift-card minimum, so the payment method is almost certainly set to **check ($100 minimum)** or has incomplete bank info. **Owner TODO:** Associates Central → Account Settings → Change payment method → direct deposit or Amazon gift card; confirm exact balance under Payment History. (The July amazon.de email about checks ending 2026-07-31 concerns the closed .de account only.)
+
 **Strategic implication (confirms the July direction):** treat Amazon as a small passive bonus, not the plan. Real money paths, in order: (1) **RR Car Parts** — collision/OEM parts, where the collision cluster already funnels the right readers; (2) **local lead-gen** — EU/LT repair enquiries; (3) VIN TESLA. Do NOT invest more effort in Amazon link optimisation.
 
 ## Key Files
